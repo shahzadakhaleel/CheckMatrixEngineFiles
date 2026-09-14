@@ -1,0 +1,454 @@
+{
+  "run_id": "20260819T001941694216Z",
+  "user": "appadmin",
+  "created_at": "2026-08-19T00:20:05.787580+00:00",
+  "generation_seconds": 132.2,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "e849463359d5a4d9b4b93add9214e27e2f01fbd190a34a505e874d8b4a568772",
+  "input": {
+    "key": "20260819T001941694216Z__V1_R99488_LEO_HN_AD_M3_R1_survey_June_2026_v2.0.docx",
+    "filename": "V1_R99488_LEO_HN_AD_M3_R1_survey_June_2026_v2.0.docx",
+    "size": 58954,
+    "created_at": "2026-08-19T00:19:41.695997+00:00"
+  },
+  "output": {
+    "key": "Validation_260819002005.sps",
+    "filename": "Validation_260819002005.sps",
+    "size": 17464,
+    "created_at": "2026-08-19T00:20:05.787580+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 59,
+    "checksEmitted": 0,
+    "questionsOmitted": 59,
+    "coveragePercent": 0.0,
+    "coverage": "Not emitted",
+    "blocks": [
+      {
+        "block": "Introduction",
+        "prefix": "CONSENT",
+        "questions": 1,
+        "checksEmitted": 0,
+        "questionsOmitted": 1,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "CONSENT",
+            "reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+          }
+        ]
+      },
+      {
+        "block": "SCREENER QUESTIONS [ASK ALL]",
+        "prefix": "S",
+        "questions": 4,
+        "checksEmitted": 0,
+        "questionsOmitted": 4,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "S1",
+            "reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "S2",
+            "reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "S3",
+            "reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "S4",
+            "reason": "Response options are documented, but no target variable is supplied for a supported validation rule."
+          }
+        ]
+      },
+      {
+        "block": "Burden and impact of head and neck involvement in moderate-severe AD / Psychological burden and impact on quality of life",
+        "prefix": "Q",
+        "questions": 7,
+        "checksEmitted": 0,
+        "questionsOmitted": 7,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_001",
+            "reason": "A six-point grid and conditional open-text instruction are documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_002",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_003",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_004",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_005",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_006",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_007",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          }
+        ]
+      },
+      {
+        "block": "Burden and impact of head and neck involvement in moderate-severe AD / Assessing patient burden in clinical practice",
+        "prefix": "Q",
+        "questions": 3,
+        "checksEmitted": 0,
+        "questionsOmitted": 3,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_008",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_009",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_010",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          }
+        ]
+      },
+      {
+        "block": "Clinical challenges in managing head and neck AD / Key features, symptoms or patient history for clinical suspicion of AD with head and neck involvement",
+        "prefix": "Q",
+        "questions": 6,
+        "checksEmitted": 0,
+        "questionsOmitted": 6,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_011",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_012",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_013",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_014",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_015",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_016",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          }
+        ]
+      },
+      {
+        "block": "Clinical challenges in managing head and neck AD / Core clinical parameters to identify moderate-severe AD with head and neck involvement",
+        "prefix": "Q",
+        "questions": 3,
+        "checksEmitted": 0,
+        "questionsOmitted": 3,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_017",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_018",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_019",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          }
+        ]
+      },
+      {
+        "block": "Clinical challenges in managing head and neck AD / Common overlapping conditions and forming a diagnosis",
+        "prefix": "Q",
+        "questions": 3,
+        "checksEmitted": 0,
+        "questionsOmitted": 3,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_020",
+            "reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_021",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_022",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Clinical challenges in managing head and neck AD / Potential for and consequences of late discussion and diagnosis",
+        "prefix": "Q",
+        "questions": 4,
+        "checksEmitted": 0,
+        "questionsOmitted": 4,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_023",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_024",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_025",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_026",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Clinical challenges in managing head and neck AD / Identification and management of head and neck AD in adults and adolescents",
+        "prefix": "Q",
+        "questions": 3,
+        "checksEmitted": 0,
+        "questionsOmitted": 3,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_027",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_028",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_029",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Current treatment pathways for head and neck AD and their limitations / Current treatments for moderate-severe AD with head and neck involvement",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 0,
+        "questionsOmitted": 2,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_030",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_031",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Current treatment pathways for head and neck AD and their limitations / Main challenges and pitfalls with current treatment options in H&N AD",
+        "prefix": "Q",
+        "questions": 4,
+        "checksEmitted": 0,
+        "questionsOmitted": 4,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_032",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_033",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_034",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_035",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Current treatment pathways for head and neck AD and their limitations / Follow-up of patients with moderate-severe AD with head and neck involvement",
+        "prefix": "Q",
+        "questions": 4,
+        "checksEmitted": 0,
+        "questionsOmitted": 4,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_036",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_037",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_038",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_039",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Current treatment pathways for head and neck AD and their limitations / Management of new symptoms or \u201cflare-ups\u201d that arise from treatments for existing AD",
+        "prefix": "Q",
+        "questions": 4,
+        "checksEmitted": 0,
+        "questionsOmitted": 4,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_040",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_041",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_042",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_043",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Current treatment pathways for head and neck AD and their limitations / Managing patients through flare-ups between treatments or when beginning a new treatment (\u201cbridging\u201d therapy)",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 0,
+        "questionsOmitted": 2,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_044",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          },
+          {
+            "questionId": "Q_AUTO_045",
+            "reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+          }
+        ]
+      },
+      {
+        "block": "Defining priorities to address unmet needs in head and neck AD / Guidance for AD with head and neck involvement",
+        "prefix": "Q",
+        "questions": 6,
+        "checksEmitted": 0,
+        "questionsOmitted": 6,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_046",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          },
+          {
+            "questionId": "Q_AUTO_047",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          },
+          {
+            "questionId": "Q_AUTO_048",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          },
+          {
+            "questionId": "Q_AUTO_049",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          },
+          {
+            "questionId": "Q_AUTO_050",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          },
+          {
+            "questionId": "Q_AUTO_051",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          }
+        ]
+      },
+      {
+        "block": "Defining priorities to address unmet needs in head and neck AD / Primary and secondary care education",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 0,
+        "questionsOmitted": 2,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_052",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          },
+          {
+            "questionId": "Q_AUTO_053",
+            "reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+          }
+        ]
+      },
+      {
+        "block": "Closing note",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 0,
+        "questionsOmitted": 1,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q54",
+            "reason": "Optional acknowledgement open-text question has no canonical response variable; no supported open-end consistency check can be assigned without inventing a variable."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "run_id": "82730e73fac1405e819d66a7fee84fa1",
+  "created_at": "2026-09-13T05:04:10.459428+00:00",
+  "status": "failed",
+  "stage": "extraction",
+  "reason": "Question qcountry has missing or invalid source evidence",
+  "input": {
+    "key": "82730e73fac1405e819d66a7fee84fa1__V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "filename": "V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "size": 1074868,
+    "created_at": "2026-09-13T05:03:05.110533+00:00"
+  }
+}

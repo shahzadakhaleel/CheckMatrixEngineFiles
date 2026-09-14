@@ -1,0 +1,13 @@
+{
+  "run_id": "b015053e8c4940bdafe47e5c0e07db80",
+  "created_at": "2026-09-13T04:58:51.810508+00:00",
+  "status": "failed",
+  "stage": "generation",
+  "reason": "Block b04_q3 assigns an undeclared temporary",
+  "input": {
+    "key": "b015053e8c4940bdafe47e5c0e07db80__V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "filename": "V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "size": 1074868,
+    "created_at": "2026-09-13T04:57:08.380430+00:00"
+  }
+}

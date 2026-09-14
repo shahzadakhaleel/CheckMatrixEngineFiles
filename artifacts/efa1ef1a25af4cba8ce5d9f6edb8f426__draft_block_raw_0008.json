@@ -1,0 +1,17 @@
+{
+  "block_id": "B08",
+  "source_variables": [
+    "Q1r1c1",
+    "Q1r2c1",
+    "Q1r3c1",
+    "Q1r4c1",
+    "Q1r5c1",
+    "Q1r6c1",
+    "Q1r7c1",
+    "Q1r8c1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q1.\ntemporary.\nsel if miss(Q1r1c1) or ~range(Q1r1c1,0,300) or miss(Q1r2c1) or ~range(Q1r2c1,0,300) or miss(Q1r3c1) or ~range(Q1r3c1,0,300) or miss(Q1r4c1) or ~range(Q1r4c1,0,300) or miss(Q1r5c1) or ~range(Q1r5c1,0,300) or miss(Q1r6c1) or ~range(Q1r6c1,0,300) or miss(Q1r7c1) or ~range(Q1r7c1,0,300) or miss(Q1r8c1) or ~range(Q1r8c1,0,300).\nlist respid, Q1r1c1 to Q1r8c1.",
+  "omission_reason": null,
+  "warnings": []
+}

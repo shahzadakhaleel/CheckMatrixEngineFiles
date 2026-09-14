@@ -1,0 +1,3921 @@
+{
+  "title": "2026 Recurrent Pericarditis (HCP) Ad Tracker – W1 analyst-reviewed SPSS draft manifest",
+  "groups": [
+    {
+      "id": "AE1",
+      "text": "This survey is being conducted by Ipsos... Please confirm that you have read, understood and accept the points above and are happy to proceed with the market research survey on those basis.",
+      "section": "SCREENER",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "AE1_1",
+          "text": "I have read, understood and accept the points above and am happy to proceed with the market research survey on those basis",
+          "variable": "ae1",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100
+          ]
+        },
+        {
+          "id": "AE1_2",
+          "text": "No, I do not want to participate in this research",
+          "variable": "ae1",
+          "required": true,
+          "allowed_codes": [
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Terminate",
+          "constraints": [],
+          "source_blocks": [
+            101
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        92,
+        99,
+        100,
+        101
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S2",
+      "text": "Which of the following best describes your primary medical specialty?",
+      "section": "SCREENER",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "S2_1",
+          "text": "Internal Medicine / General Practice",
+          "variable": "s2",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Terminate",
+          "constraints": [],
+          "source_blocks": [
+            103,
+            105
+          ]
+        },
+        {
+          "id": "S2_2",
+          "text": "Cardiology",
+          "variable": "s2",
+          "required": true,
+          "allowed_codes": [
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            106
+          ]
+        },
+        {
+          "id": "S2_3",
+          "text": "Pediatric Cardiology",
+          "variable": "s2",
+          "required": true,
+          "allowed_codes": [
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "If on-list, count against cardiology; terminate if not on-list",
+          "constraints": [],
+          "source_blocks": [
+            107
+          ]
+        },
+        {
+          "id": "S2_4",
+          "text": "Cardiothoracic Surgeon",
+          "variable": "s2",
+          "required": true,
+          "allowed_codes": [
+            "4"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "If on-list, count against cardiology; terminate if not on-list",
+          "constraints": [],
+          "source_blocks": [
+            108
+          ]
+        },
+        {
+          "id": "S2_5",
+          "text": "Rheumatology",
+          "variable": "s2",
+          "required": true,
+          "allowed_codes": [
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            109
+          ]
+        },
+        {
+          "id": "S2_6",
+          "text": "Other (please specify)",
+          "variable": "s2",
+          "required": true,
+          "allowed_codes": [
+            "98"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "S2_6",
+          "routing": "Terminate",
+          "constraints": [],
+          "source_blocks": [
+            110
+          ]
+        },
+        {
+          "id": "S2_98_other",
+          "text": "Other (please specify)",
+          "variable": "s2_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "S2_6",
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            110
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents; randomize and anchor Other",
+      "source_blocks": [
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S3",
+      "text": "Are you in full-time, active practice?",
+      "section": "SCREENER",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "S3_1",
+          "text": "Yes",
+          "variable": "s3",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            112,
+            113
+          ]
+        },
+        {
+          "id": "S3_2",
+          "text": "No",
+          "variable": "s3",
+          "required": true,
+          "allowed_codes": [
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Terminate",
+          "constraints": [],
+          "source_blocks": [
+            114
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        112,
+        113,
+        114
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S4",
+      "text": "In which state do you primarily practice?",
+      "section": "SCREENER",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "S4_response",
+          "text": "US state or I do not reside in the United States",
+          "variable": "s4",
+          "required": true,
+          "allowed_codes": [
+            "1-51",
+            "99"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Terminate if Vermont (code 46) or code 99",
+          "constraints": [
+            "Force single selection",
+            "Provide alphabetical US-state drop-down"
+          ],
+          "source_blocks": [
+            116,
+            117
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        116,
+        117
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S5",
+      "text": "What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)?",
+      "section": "SCREENER",
+      "kind": "numeric",
+      "items": [
+        {
+          "id": "S5_1",
+          "text": "Percentage of time in direct patient care",
+          "variable": "s5_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 100.0,
+          "other_for": null,
+          "routing": "Terminate if <50%",
+          "constraints": [
+            "Whole-number percentage",
+            "Do not treat coded percentage categories as numeric; this is an explicit numeric entry"
+          ],
+          "source_blocks": [
+            119,
+            120
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        119,
+        120
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S6",
+      "text": "Excluding your residency and fellowship, for how many years have you been practicing?",
+      "section": "SCREENER",
+      "kind": "numeric",
+      "items": [
+        {
+          "id": "S6_1",
+          "text": "Number of years",
+          "variable": "s6_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 99.0,
+          "other_for": null,
+          "routing": "If <3 or >35 and not on list, terminate; if <3 or >40 and on list, terminate",
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            122,
+            123,
+            124
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        122,
+        123,
+        124
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S7",
+      "text": "In the prior 12 months, how many patients have you managed with each of the following conditions? Please enter 0 for those that do not apply.",
+      "section": "SCREENER",
+      "kind": "grid_numeric",
+      "items": [
+        {
+          "id": "S7_1",
+          "text": "Myocarditis",
+          "variable": "s7_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            126,
+            127,
+            128,
+            129,
+            130,
+            131
+          ]
+        },
+        {
+          "id": "S7_2",
+          "text": "Pericarditis",
+          "variable": "s7_2",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": "Terminate if <5 for cardiologists or <2 for rheumatologists",
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            132,
+            133,
+            134,
+            135
+          ]
+        },
+        {
+          "id": "S7_3",
+          "text": "Atrial fibrillation",
+          "variable": "s7_3",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            136,
+            137
+          ]
+        },
+        {
+          "id": "S7_4",
+          "text": "Acute heart failure",
+          "variable": "s7_4",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            138,
+            139
+          ]
+        },
+        {
+          "id": "S7_5",
+          "text": "Cryopyrin-Associated Periodic Syndromes (CAPS)",
+          "variable": "s7_5",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            140,
+            141
+          ]
+        },
+        {
+          "id": "S7_6",
+          "text": "Still’s Disease",
+          "variable": "s7_6",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            142,
+            143
+          ]
+        },
+        {
+          "id": "S7_7",
+          "text": "Rheumatic heart disease",
+          "variable": "s7_7",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 10000.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            144,
+            145
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents; randomize rows",
+      "source_blocks": [
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S8",
+      "text": "In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories?",
+      "section": "SCREENER",
+      "kind": "grid_numeric",
+      "items": [
+        {
+          "id": "S8_1",
+          "text": "Patients with recurrent pericarditis (defined as patients having at least two pericarditis episodes separated by a symptom free period of at least 4 weeks)",
+          "variable": "s8_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Terminate according to cardiologist/on-list and rheumatologist thresholds specified in source",
+          "constraints": [
+            "Maximum is S7_2",
+            "Must sum with S8_2 to S7_2",
+            "Show sum counter"
+          ],
+          "source_blocks": [
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154
+          ]
+        },
+        {
+          "id": "S8_2",
+          "text": "Patients with a single episode of pericarditis",
+          "variable": "s8_2",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Maximum is S7_2",
+            "S8_1 + S8_2 must equal S7_2",
+            "Show sum counter"
+          ],
+          "source_blocks": [
+            155,
+            156,
+            157
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "S9",
+      "text": "How many of your [PIPE S8_1] recurrent pericarditis patients that you have managed in the last 12 months have each of the below etiologies?",
+      "section": "SCREENER",
+      "kind": "grid_numeric",
+      "items": [
+        {
+          "id": "S9_1",
+          "text": "Viral pericarditis",
+          "variable": "s9_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Maximum is S8_1"
+          ],
+          "source_blocks": [
+            159,
+            160,
+            161,
+            162,
+            163
+          ]
+        },
+        {
+          "id": "S9_2",
+          "text": "Idiopathic pericarditis",
+          "variable": "s9_2",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Maximum is S8_1"
+          ],
+          "source_blocks": [
+            164,
+            165
+          ]
+        },
+        {
+          "id": "S9_3",
+          "text": "Autoimmune pericarditis",
+          "variable": "s9_3",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Maximum is S8_1"
+          ],
+          "source_blocks": [
+            166,
+            167
+          ]
+        },
+        {
+          "id": "S9_4",
+          "text": "Pericarditis associated with post-pericardiotomy syndrome",
+          "variable": "s9_4",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Maximum is S8_1"
+          ],
+          "source_blocks": [
+            168,
+            169
+          ]
+        },
+        {
+          "id": "S9_98",
+          "text": "Other (please specify)",
+          "variable": "s9_98",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": null,
+          "other_for": "S9_98_other",
+          "routing": null,
+          "constraints": [
+            "Maximum is S8_1"
+          ],
+          "source_blocks": [
+            170,
+            171
+          ]
+        },
+        {
+          "id": "S9_98_other",
+          "text": "Other etiology, please specify",
+          "variable": "s9_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "S9_98",
+          "routing": null,
+          "constraints": [
+            "Must be supplied when Other is used"
+          ],
+          "source_blocks": [
+            170,
+            171
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents; terminate if qualifying non-autoimmune total is below specialty threshold; total must equal S8_1",
+      "source_blocks": [
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q105",
+      "text": "Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any.",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "open_ended_list",
+      "items": [
+        {
+          "id": "Q105_1",
+          "text": "1.",
+          "variable": "q105_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Ten separate open-ended text boxes",
+            "Type none in first box if unaware of any"
+          ],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_2",
+          "text": "2.",
+          "variable": "q105_2",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_3",
+          "text": "3.",
+          "variable": "q105_3",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_4",
+          "text": "4.",
+          "variable": "q105_4",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_5",
+          "text": "5.",
+          "variable": "q105_5",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_6",
+          "text": "6.",
+          "variable": "q105_6",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_7",
+          "text": "7.",
+          "variable": "q105_7",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_8",
+          "text": "8.",
+          "variable": "q105_8",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_9",
+          "text": "9.",
+          "variable": "q105_9",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        },
+        {
+          "id": "Q105_10",
+          "text": "10.",
+          "variable": "q105_10",
+          "required": false,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            180,
+            181
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        180,
+        181
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q110",
+      "text": "Please indicate your level of awareness with the below therapies that are used to treat recurrent pericarditis.",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "grid_single_choice",
+      "items": [
+        {
+          "id": "Q110_1",
+          "text": "NSAIDs",
+          "variable": "q110_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Unaware; Aware, but not knowledgeable; Aware and somewhat knowledgeable; Aware and very knowledgeable",
+            "Randomize and retain order for the remainder of the survey"
+          ],
+          "source_blocks": [
+            183,
+            184,
+            185,
+            190,
+            191
+          ]
+        },
+        {
+          "id": "Q110_2",
+          "text": "Colchicine",
+          "variable": "q110_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            192,
+            193
+          ]
+        },
+        {
+          "id": "Q110_3",
+          "text": "Corticosteroids",
+          "variable": "q110_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            194,
+            195
+          ]
+        },
+        {
+          "id": "Q110_4",
+          "text": "Kineret (anakinra)",
+          "variable": "q110_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            196,
+            197
+          ]
+        },
+        {
+          "id": "Q110_5",
+          "text": "Arcalyst (rilonacept)",
+          "variable": "q110_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            198,
+            199
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q115",
+      "text": "Which of the following therapies have you ever prescribed to patients with recurrent pericarditis? Please select one for each treatment.",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "grid_single_choice",
+      "items": [
+        {
+          "id": "Q115_1",
+          "text": "NSAIDs",
+          "variable": "q115_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show only if Q110_1 is 2–4",
+          "constraints": [
+            "Currently prescribe; Have prescribed in the past but not currently; Have never prescribed"
+          ],
+          "source_blocks": [
+            201,
+            202,
+            203,
+            207,
+            208
+          ]
+        },
+        {
+          "id": "Q115_2",
+          "text": "Colchicine",
+          "variable": "q115_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show only if Q110_2 is 2–4",
+          "constraints": [],
+          "source_blocks": [
+            209,
+            210
+          ]
+        },
+        {
+          "id": "Q115_3",
+          "text": "Corticosteroids",
+          "variable": "q115_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show only if Q110_3 is 2–4",
+          "constraints": [],
+          "source_blocks": [
+            211,
+            212
+          ]
+        },
+        {
+          "id": "Q115_4",
+          "text": "Kineret (anakinra)",
+          "variable": "q115_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show only if Q110_4 is 2–4",
+          "constraints": [],
+          "source_blocks": [
+            213,
+            214
+          ]
+        },
+        {
+          "id": "Q115_5",
+          "text": "Arcalyst (rilonacept)",
+          "variable": "q115_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show only if Q110_5 is 2–4",
+          "constraints": [],
+          "source_blocks": [
+            215,
+            216
+          ]
+        }
+      ],
+      "routing": "Base: aware of products; show same order as Q110",
+      "source_blocks": [
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q120",
+      "text": "Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "grid_single_choice",
+      "items": [
+        {
+          "id": "Q120_1",
+          "text": "NSAIDs",
+          "variable": "q120_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "1 = I do not feel it is an important option; 7 = I feel it is a very important option",
+            "Randomize in same order as Q110"
+          ],
+          "source_blocks": [
+            218,
+            219,
+            220,
+            229
+          ]
+        },
+        {
+          "id": "Q120_2",
+          "text": "Colchicine",
+          "variable": "q120_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            230
+          ]
+        },
+        {
+          "id": "Q120_3",
+          "text": "Corticosteroids",
+          "variable": "q120_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            231
+          ]
+        },
+        {
+          "id": "Q120_4",
+          "text": "Kineret (anakinra)",
+          "variable": "q120_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            197,
+            218
+          ]
+        },
+        {
+          "id": "Q120_5",
+          "text": "Arcalyst (rilonacept)",
+          "variable": "q120_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            232
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q125",
+      "text": "Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "grid_single_choice",
+      "items": [
+        {
+          "id": "Q125_1",
+          "text": "NSAIDs",
+          "variable": "q125_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "1 = I have no preference at all for this product; 7 = A product for which I have a very high preference",
+            "Randomize in same order as Q110"
+          ],
+          "source_blocks": [
+            234,
+            235,
+            236,
+            245
+          ]
+        },
+        {
+          "id": "Q125_2",
+          "text": "Colchicine",
+          "variable": "q125_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            246
+          ]
+        },
+        {
+          "id": "Q125_3",
+          "text": "Corticosteroids",
+          "variable": "q125_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            247
+          ]
+        },
+        {
+          "id": "Q125_4",
+          "text": "Kineret (anakinra)",
+          "variable": "q125_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            248
+          ]
+        },
+        {
+          "id": "Q125_5",
+          "text": "Arcalyst (rilonacept)",
+          "variable": "q125_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            248
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q130",
+      "text": "Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option.",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "matrix_multiple_response",
+      "items": [
+        {
+          "id": "Q130_attributes",
+          "text": "Rapid symptom resolution; Prevention of future recurrences; Reduces the need for steroids; Excellent safety and side effect profile; Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.); Convenient dosing and mode of administration; Mechanism of action impacts the underlying pathophysiology of RP; Excellent manufacturer support (e.g. patient assistance, etc.); It is FDA approved and indicated for RP; There is strong clinical trial data to support the product’s efficacy; Expert endorsement of drug class; Real world data to support treatment use; Proven efficacy and safety over the long term; Clinically proven to prevent recurrences over the long term",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show only products respondent is aware of in Q110 columns",
+          "constraints": [
+            "Each attribute has binary treatment selections and a NONE selection",
+            "Statements randomized; NONE last column",
+            "The dictionary supplies q130 variables with 1 = selected; complete 14 x 6 structure is represented by the mapped variables below"
+          ],
+          "source_blocks": [
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260,
+            261,
+            262,
+            263,
+            264,
+            265,
+            266,
+            267,
+            268,
+            269,
+            270,
+            271,
+            272,
+            273,
+            274,
+            275,
+            276,
+            277,
+            278,
+            279
+          ]
+        }
+      ],
+      "routing": "Base: aware of NSAIDs, colchicine, ARCALYST, corticosteroids (Q110_1, _2, _3, or _5 = 2–4)",
+      "source_blocks": [
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q135",
+      "text": "In the past 3 months, do you recall seeing any advertisements for the following products specific to the treatment of RP?",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q135_1",
+          "text": "NSAIDs",
+          "variable": "q135_1",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            281,
+            282,
+            284
+          ]
+        },
+        {
+          "id": "Q135_2",
+          "text": "Colchicine",
+          "variable": "q135_2",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            285
+          ]
+        },
+        {
+          "id": "Q135_3",
+          "text": "Corticosteroids",
+          "variable": "q135_3",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            286
+          ]
+        },
+        {
+          "id": "Q135_4",
+          "text": "Kineret (anakinra)",
+          "variable": "q135_4",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            287
+          ]
+        },
+        {
+          "id": "Q135_5",
+          "text": "Arcalyst (rilonacept)",
+          "variable": "q135_5",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "If selected, show Q137 and Q140",
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            288,
+            290
+          ]
+        },
+        {
+          "id": "Q135_99",
+          "text": "None of the above",
+          "variable": "q135_99",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Exclusive",
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            289
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents; randomize and anchor None",
+      "source_blocks": [
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q137",
+      "text": "What do you recall from the Arcalyst ad you saw in the past 3 months?",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "open_ended",
+      "items": [
+        {
+          "id": "Q137_response",
+          "text": "Open-ended recall of messages, images, phrases and intended product message",
+          "variable": "q137",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 15.0,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Minimum 15 characters"
+          ],
+          "source_blocks": [
+            291,
+            292,
+            293
+          ]
+        }
+      ],
+      "routing": "Show if Q135_5 = 1",
+      "source_blocks": [
+        290,
+        291,
+        292,
+        293
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q140",
+      "text": "Where did you see the advertising for Arcalyst in the past 3 months?",
+      "section": "Section 1: Brand Metrics & Ad Recall",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q140_channels",
+          "text": "Traditional live TV services; streaming service/app; Arcalyst website; online search sites; online advertising; social media; YouTube; email from manufacturer; EHR systems; Doximity; Healthcasts",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Select all that apply",
+            "Randomize; anchor Other and Don't remember/not sure",
+            "Dictionary variables q140_1 through q140_11"
+          ],
+          "source_blocks": [
+            295,
+            296,
+            297,
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304,
+            305,
+            306,
+            307,
+            308
+          ]
+        },
+        {
+          "id": "Q140_98",
+          "text": "Other (please specify)",
+          "variable": "q140_98",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "Q140_98_other",
+          "routing": null,
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            309
+          ]
+        },
+        {
+          "id": "Q140_98_other",
+          "text": "Other channel, please specify",
+          "variable": "q140_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": "Q140_98",
+          "routing": null,
+          "constraints": [
+            "Required when Other is selected"
+          ],
+          "source_blocks": [
+            309
+          ]
+        },
+        {
+          "id": "Q140_99",
+          "text": "Don't remember / not sure",
+          "variable": "q140_99",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Exclusive",
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            310
+          ]
+        }
+      ],
+      "routing": "Show if Q135_5 = 1",
+      "source_blocks": [
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q205",
+      "text": "Have you seen this advertisement recently?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "Q205_1",
+          "text": "Yes",
+          "variable": "q205",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            314,
+            315,
+            316,
+            318
+          ]
+        },
+        {
+          "id": "Q205_2",
+          "text": "No",
+          "variable": "q205",
+          "required": true,
+          "allowed_codes": [
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Skip to next section",
+          "constraints": [],
+          "source_blocks": [
+            319
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents; show images",
+      "source_blocks": [
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q210",
+      "text": "What therapy or brand was this advertisement for?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "open_ended",
+      "items": [
+        {
+          "id": "Q210_response",
+          "text": "Therapy or brand identified from advertisement",
+          "variable": "q210",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Provide link to ad images"
+          ],
+          "source_blocks": [
+            320,
+            321,
+            322,
+            323,
+            324
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        320,
+        321,
+        322,
+        323,
+        324
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q220",
+      "text": "Which of the following therapies used to treat recurrent pericarditis do you believe the advertisement is associated with?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "Q220_response",
+          "text": "NSAIDs; Colchicine; Corticosteroids; Kineret (anakinra); Arcalyst (rilonacept); Other; None of the above",
+          "variable": "q220",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "98",
+            "99"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "Q220_98_other",
+          "routing": null,
+          "constraints": [
+            "Same order as Q110; anchor Other and None"
+          ],
+          "source_blocks": [
+            325,
+            326,
+            327,
+            328,
+            329,
+            330,
+            331,
+            332,
+            333,
+            334,
+            335
+          ]
+        },
+        {
+          "id": "Q220_98_other",
+          "text": "Other therapy, please specify",
+          "variable": "q220_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": "Q220_response",
+          "routing": null,
+          "constraints": [
+            "Required when code 98 is selected"
+          ],
+          "source_blocks": [
+            334
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q230",
+      "text": "Where do you remember seeing this advertisement?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q230_channels",
+          "text": "Traditional live TV services; streaming service/app; Arcalyst website; online search sites; online advertising; social media; YouTube; email from manufacturer; EHR systems; Doximity; Healthcasts",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show if Q205 = 1",
+          "constraints": [
+            "Select all that apply; use same randomized list as Q140",
+            "Dictionary variables q230_1 through q230_11"
+          ],
+          "source_blocks": [
+            336,
+            337,
+            338,
+            339
+          ]
+        },
+        {
+          "id": "Q230_98",
+          "text": "Other (please specify)",
+          "variable": "q230_98",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "Q230_98_other",
+          "routing": "Show if Q205 = 1",
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            337,
+            339
+          ]
+        },
+        {
+          "id": "Q230_98_other",
+          "text": "Other channel, please specify",
+          "variable": "q230_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": "Q230_98",
+          "routing": "Show if Q205 = 1",
+          "constraints": [],
+          "source_blocks": [
+            339
+          ]
+        },
+        {
+          "id": "Q230_99",
+          "text": "Don't remember / not sure",
+          "variable": "q230_99",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show if Q205 = 1",
+          "constraints": [
+            "Exclusive"
+          ],
+          "source_blocks": [
+            337,
+            339
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        336,
+        337,
+        338,
+        339
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q240",
+      "text": "About how many times have you seen this advertisement?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "numeric",
+      "items": [
+        {
+          "id": "Q240_1",
+          "text": "Best estimated number of times",
+          "variable": "q240_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 1.0,
+          "maximum": 99.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number",
+            "Provide link to ad images"
+          ],
+          "source_blocks": [
+            340,
+            341,
+            342,
+            343
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        340,
+        341,
+        342,
+        343
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q245",
+      "text": "What do you think the main message of the advertisement is?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "open_ended",
+      "items": [
+        {
+          "id": "Q245_response",
+          "text": "Main message of advertisement",
+          "variable": "q245",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 15.0,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Minimum 15 characters"
+          ],
+          "source_blocks": [
+            344,
+            345,
+            346,
+            347
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        344,
+        345,
+        346,
+        347
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q250",
+      "text": "What message(s) do you recall from this advertisement?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q250_messages",
+          "text": "Eight ARCALYST messages listed in the questionnaire",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Select all that apply",
+            "Randomize; anchor None",
+            "Dictionary variables q250_1 through q250_8 and q250_99"
+          ],
+          "source_blocks": [
+            348,
+            349,
+            350,
+            351,
+            352,
+            353,
+            354,
+            355,
+            356,
+            357,
+            358,
+            359
+          ]
+        },
+        {
+          "id": "Q250_99",
+          "text": "None of the above",
+          "variable": "q250_99",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Exclusive"
+          ],
+          "source_blocks": [
+            360
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q255",
+      "text": "After seeing the advertisement, which of the following actions did you take?",
+      "section": "Section 2: Blinded Ad Recall",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q255_actions",
+          "text": "Research; discuss with colleagues; visit professional website; consider future recommendations; begin prescribing; begin discussing with patients; attend webinar/education; contact manufacturer",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Select all that apply",
+            "Randomize, keeping prescribing and discussing with patients together; anchor Other and None",
+            "Dictionary variables q255_1 through q255_8"
+          ],
+          "source_blocks": [
+            361,
+            362,
+            363,
+            364,
+            365,
+            366,
+            367,
+            368,
+            369,
+            370,
+            371,
+            372
+          ]
+        },
+        {
+          "id": "Q255_98",
+          "text": "Other (please specify)",
+          "variable": "q255_98",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "Q255_98_other",
+          "routing": null,
+          "constraints": [
+            "Binary selected/not selected"
+          ],
+          "source_blocks": [
+            373
+          ]
+        },
+        {
+          "id": "Q255_98_other",
+          "text": "Other action, please specify",
+          "variable": "q255_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": "Q255_98",
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            373
+          ]
+        },
+        {
+          "id": "Q255_99",
+          "text": "I did not take any action",
+          "variable": "q255_99",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Exclusive"
+          ],
+          "source_blocks": [
+            374
+          ]
+        }
+      ],
+      "routing": "Show if Q205 = 1",
+      "source_blocks": [
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q305",
+      "text": "What, in your opinion, was the main message of this advertisement?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "open_ended",
+      "items": [
+        {
+          "id": "Q305_response",
+          "text": "Main message of advertisement",
+          "variable": "q305",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 10.0,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Minimum 10 characters"
+          ],
+          "source_blocks": [
+            379,
+            380,
+            381,
+            382
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        379,
+        380,
+        381,
+        382
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q310",
+      "text": "Please indicate your overall impression of this advertisement.",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "Q310_response",
+          "text": "Disliked it very much; Disliked it somewhat; Felt neutral about it; Liked it somewhat; Liked it very much",
+          "variable": "q310",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            384,
+            385,
+            386,
+            387,
+            388,
+            389,
+            390
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q315",
+      "text": "What do you like about the ad?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "open_ended",
+      "items": [
+        {
+          "id": "Q315_response",
+          "text": "What do you like about the ad?",
+          "variable": "q315",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": "Show if Q310 = 4 or 5",
+          "constraints": [],
+          "source_blocks": [
+            391,
+            392,
+            393,
+            394
+          ]
+        }
+      ],
+      "routing": "Show if Q310 = 4 or 5",
+      "source_blocks": [
+        391,
+        392,
+        393,
+        394
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q320",
+      "text": "What do you dislike about the ad?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "open_ended",
+      "items": [
+        {
+          "id": "Q320_response",
+          "text": "What do you dislike about the ad?",
+          "variable": "q320",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": null,
+          "routing": "Show if Q310 = 1 or 2",
+          "constraints": [],
+          "source_blocks": [
+            395,
+            396,
+            397,
+            398
+          ]
+        }
+      ],
+      "routing": "Show if Q310 = 1 or 2",
+      "source_blocks": [
+        395,
+        396,
+        397,
+        398
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q325",
+      "text": "How much do you agree with the following statements about this ad?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "grid_single_choice",
+      "items": [
+        {
+          "id": "Q325_statements",
+          "text": "The ad gave me a good feeling about the brand; The ad was unique and different; The ad was very informative; The ad told me something new; What the ad said and showed was interesting to me; The ad made me want to discuss the brand with my RP patients; The ad is relevant for my RP patients; The ad made me want to seek out additional information about the brand; The ad made me want to utilize the brand in treating my RP patients; The ad made me want to visit the website; The ad improved the familiarity and understanding of what this brand is about",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "1 = Disagree; 2 = Agree somewhat; 3 = Agree strongly",
+            "Select one per row; randomize",
+            "Dictionary variables q325_1 through q325_10 and q325_11"
+          ],
+          "source_blocks": [
+            399,
+            400,
+            401,
+            402,
+            403,
+            404,
+            405,
+            406,
+            407,
+            408,
+            409,
+            410,
+            412,
+            413,
+            415,
+            416,
+            418,
+            419,
+            421,
+            422,
+            424,
+            425,
+            426,
+            427,
+            428,
+            429,
+            430,
+            431,
+            432,
+            433,
+            435,
+            436
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405,
+        406,
+        407,
+        408,
+        409,
+        410,
+        412,
+        413,
+        415,
+        416,
+        418,
+        419,
+        421,
+        422,
+        424,
+        425,
+        426,
+        427,
+        428,
+        429,
+        430,
+        431,
+        432,
+        433,
+        435,
+        436
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q340",
+      "text": "After seeing the full advertisement, do you recall seeing this advertisement prior to today?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "Q340_response",
+          "text": "Yes; No",
+          "variable": "q340",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            438,
+            439,
+            440,
+            441
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        438,
+        439,
+        440,
+        441
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q345",
+      "text": "Where do you remember seeing this ad? Select all that apply.",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q345_channels",
+          "text": "Advertising channels listed for Q140",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show if Q340 = 1",
+          "constraints": [
+            "Use same randomized list from Q140",
+            "Dictionary variables q345_1 through q345_11"
+          ],
+          "source_blocks": [
+            442,
+            443,
+            444
+          ]
+        },
+        {
+          "id": "Q345_98",
+          "text": "Other (please specify)",
+          "variable": "q345_98",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "Q345_98_other",
+          "routing": "Show if Q340 = 1",
+          "constraints": [],
+          "source_blocks": [
+            443,
+            444
+          ]
+        },
+        {
+          "id": "Q345_98_other",
+          "text": "Other channel, please specify",
+          "variable": "q345_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": "Q345_98",
+          "routing": "Show if Q340 = 1",
+          "constraints": [],
+          "source_blocks": [
+            443,
+            444
+          ]
+        },
+        {
+          "id": "Q345_97",
+          "text": "Don't remember / not sure",
+          "variable": "q345_97",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "Show if Q340 = 1",
+          "constraints": [
+            "Exclusive"
+          ],
+          "source_blocks": [
+            443,
+            444
+          ]
+        }
+      ],
+      "routing": "Show if Q340 = 1",
+      "source_blocks": [
+        442,
+        443,
+        444
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q350",
+      "text": "After seeing the ad, which of the following actions will you take?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "Q350_actions",
+          "text": "Future research, discussion, website visit, recommendations, prescribing, patient discussion, webinar/education, manufacturer contact",
+          "variable": null,
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Select all that apply",
+            "Use same randomized order as Q255; anchor Other and None",
+            "Dictionary variables q350_1 through q350_8"
+          ],
+          "source_blocks": [
+            445,
+            446,
+            447,
+            448,
+            449,
+            450,
+            451,
+            452,
+            453,
+            454,
+            455,
+            456
+          ]
+        },
+        {
+          "id": "Q350_98",
+          "text": "Other (please specify)",
+          "variable": "q350_98",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "Q350_98_other",
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            457
+          ]
+        },
+        {
+          "id": "Q350_98_other",
+          "text": "Other action, please specify",
+          "variable": "q350_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": 200.0,
+          "other_for": "Q350_98",
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            457
+          ]
+        },
+        {
+          "id": "Q350_10",
+          "text": "I will not take any action",
+          "variable": "q350_10",
+          "required": true,
+          "allowed_codes": [
+            "1"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Exclusive"
+          ],
+          "source_blocks": [
+            458
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        445,
+        446,
+        447,
+        448,
+        449,
+        450,
+        451,
+        452,
+        453,
+        454,
+        455,
+        456,
+        457,
+        458
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "Q355",
+      "text": "In what timeframe will you start discussing or prescribing the brand with your RP patients?",
+      "section": "Section 3: Ad Evaluation",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "Q355_response",
+          "text": "Immediately; Within the next month; 1-2 months from now; 3-6 months from now; 7-12 months from now; In more than a year from now",
+          "variable": "q355",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            459,
+            460,
+            461,
+            462,
+            463,
+            464,
+            465,
+            466
+          ]
+        }
+      ],
+      "routing": "Show if Q350 = 5 or 6",
+      "source_blocks": [
+        459,
+        460,
+        461,
+        462,
+        463,
+        464,
+        465,
+        466
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "D1",
+      "text": "Please indicate your biological sex.",
+      "section": "Section 8: Demographics",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "D1_response",
+          "text": "Female; Male; Other / Prefer not to answer",
+          "variable": "d1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "97"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            468,
+            469,
+            470,
+            471,
+            472
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        468,
+        469,
+        470,
+        471,
+        472
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "D2",
+      "text": "What is your current age?",
+      "section": "Section 8: Demographics",
+      "kind": "numeric",
+      "items": [
+        {
+          "id": "D2_1",
+          "text": "Age",
+          "variable": "d2_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": 0.0,
+          "maximum": 100.0,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Whole number"
+          ],
+          "source_blocks": [
+            473,
+            474,
+            475
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        473,
+        474,
+        475
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "D3",
+      "text": "In what type of geographic area is your practice located?",
+      "section": "Section 8: Demographics",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "D3_response",
+          "text": "Urban; Suburban; Rural",
+          "variable": "d3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            476,
+            477,
+            478,
+            479,
+            480
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        476,
+        477,
+        478,
+        479,
+        480
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "D4",
+      "text": "Which of the below clinical settings best describes where you see your recurrent pericarditis patients?",
+      "section": "Section 8: Demographics",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "D4_response",
+          "text": "Academic/Teaching Institution; Community-based Institution; Private Practice",
+          "variable": "d4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [],
+          "source_blocks": [
+            481,
+            482,
+            483,
+            484,
+            485
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        481,
+        482,
+        483,
+        484,
+        485
+      ],
+      "source_kind": "document"
+    },
+    {
+      "id": "D5",
+      "text": "Would you be interested in participating in this follow-up?",
+      "section": "Section 8: Demographics",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "D5_response",
+          "text": "Yes; No",
+          "variable": "d5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Follow-up live interviews are 30–45 minutes and offer additional payment"
+          ],
+          "source_blocks": [
+            486,
+            487,
+            488,
+            489,
+            490
+          ]
+        }
+      ],
+      "routing": "Base: All Respondents",
+      "source_blocks": [
+        486,
+        487,
+        488,
+        489,
+        490
+      ],
+      "source_kind": "document"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "B01",
+      "question_ids": [
+        "AE1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "source_variables": [
+        "ae1",
+        "s2",
+        "s2_98_other",
+        "s3",
+        "s4",
+        "s5_1",
+        "s6_1",
+        "s7_1",
+        "s7_2",
+        "s7_3",
+        "s7_4",
+        "s7_5",
+        "s7_6",
+        "s7_7",
+        "s8_1",
+        "s8_2",
+        "s9_1",
+        "s9_2",
+        "s9_3",
+        "s9_4",
+        "s9_98",
+        "s9_98_other",
+        "primary_specialty",
+        "qlist",
+        "targettype",
+        "call_in_last_6_months"
+      ],
+      "checks": [
+        "Requiredness for ordinary screener questions per shared defaults",
+        "S2, S3, S4, S5, S6, S7, S8 and S9 routing and numeric bounds",
+        "S8_1 + S8_2 = S7_2",
+        "S9_1 + S9_2 + S9_3 + S9_4 + S9_98 = S8_1",
+        "Apply specialty, list status, target type and call-status dependencies"
+      ],
+      "provenance": [
+        "document blocks 103-171",
+        "dataset dictionary labels for mapped variables",
+        "shared default ordinary_questions_required"
+      ]
+    },
+    {
+      "id": "B02",
+      "question_ids": [
+        "Q105",
+        "Q110",
+        "Q115",
+        "Q120",
+        "Q125",
+        "Q130",
+        "Q135",
+        "Q137",
+        "Q140"
+      ],
+      "source_variables": [
+        "q105_1",
+        "q105_2",
+        "q105_3",
+        "q105_4",
+        "q105_5",
+        "q105_6",
+        "q105_7",
+        "q105_8",
+        "q105_9",
+        "q105_10",
+        "q110_1",
+        "q110_2",
+        "q110_3",
+        "q110_4",
+        "q110_5",
+        "q115_1",
+        "q115_2",
+        "q115_3",
+        "q115_4",
+        "q115_5",
+        "q120_1",
+        "q120_2",
+        "q120_3",
+        "q120_4",
+        "q120_5",
+        "q125_1",
+        "q125_2",
+        "q125_3",
+        "q125_4",
+        "q125_5",
+        "q130_1_1",
+        "q130_1_2",
+        "q130_1_3",
+        "q130_1_4",
+        "q130_1_5",
+        "q130_1_99",
+        "q130_2_1",
+        "q130_2_2",
+        "q130_2_3",
+        "q130_2_4",
+        "q130_2_5",
+        "q130_2_99",
+        "q130_3_1",
+        "q130_3_2",
+        "q130_3_3",
+        "q130_3_4",
+        "q130_3_5",
+        "q130_3_99",
+        "q130_4_1",
+        "q130_4_2",
+        "q130_4_3",
+        "q130_4_4",
+        "q130_4_5",
+        "q130_4_99",
+        "q130_5_1",
+        "q130_5_2",
+        "q130_5_3",
+        "q130_5_4",
+        "q130_5_5",
+        "q130_5_99",
+        "q130_6_1",
+        "q130_6_2",
+        "q130_6_3",
+        "q130_6_4",
+        "q130_6_5",
+        "q130_6_99",
+        "q130_7_1",
+        "q130_7_2",
+        "q130_7_3",
+        "q130_7_4",
+        "q130_7_5",
+        "q130_7_99",
+        "q130_8_1",
+        "q130_8_2",
+        "q130_8_3",
+        "q130_8_4",
+        "q130_8_5",
+        "q130_8_99",
+        "q130_9_1",
+        "q130_9_2",
+        "q130_9_3",
+        "q130_9_4",
+        "q130_9_5",
+        "q130_9_99",
+        "q130_10_1",
+        "q130_10_2",
+        "q130_10_3",
+        "q130_10_4",
+        "q130_10_5",
+        "q130_10_99",
+        "q130_11_1",
+        "q130_11_2",
+        "q130_11_3",
+        "q130_11_4",
+        "q130_11_5",
+        "q130_11_99",
+        "q130_12_1",
+        "q130_12_2",
+        "q130_12_3",
+        "q130_12_4",
+        "q130_12_5",
+        "q130_12_99",
+        "q130_13_1",
+        "q130_13_2",
+        "q130_13_3",
+        "q130_13_4",
+        "q130_13_5",
+        "q130_13_99",
+        "q130_14_1",
+        "q130_14_2",
+        "q130_14_3",
+        "q130_14_4",
+        "q130_14_5",
+        "q130_14_99",
+        "q135_1",
+        "q135_2",
+        "q135_3",
+        "q135_4",
+        "q135_5",
+        "q135_99",
+        "q137",
+        "q140_1",
+        "q140_2",
+        "q140_3",
+        "q140_4",
+        "q140_5",
+        "q140_6",
+        "q140_7",
+        "q140_8",
+        "q140_9",
+        "q140_10",
+        "q140_11",
+        "q140_98",
+        "q140_98_other",
+        "q140_99"
+      ],
+      "checks": [
+        "Preserve Q110 randomization order for Q115, Q120, Q125, Q220 and later repeated channel lists",
+        "Q115 only for Q110 awareness codes 2-4",
+        "Multiple-response exclusivity for Q135_99 and Q140_99",
+        "Q140_98_other required when Other selected",
+        "Validate Q130 binary matrix structure and NONE exclusivity per attribute"
+      ],
+      "provenance": [
+        "document blocks 178-310",
+        "dataset dictionary candidate groups and value labels",
+        "shared default requiredness"
+      ]
+    },
+    {
+      "id": "B03",
+      "question_ids": [
+        "Q205",
+        "Q210",
+        "Q220",
+        "Q230",
+        "Q240",
+        "Q245",
+        "Q250",
+        "Q255"
+      ],
+      "source_variables": [
+        "q205",
+        "q210",
+        "q220",
+        "q220_98_other",
+        "q230_1",
+        "q230_2",
+        "q230_3",
+        "q230_4",
+        "q230_5",
+        "q230_6",
+        "q230_7",
+        "q230_8",
+        "q230_9",
+        "q230_10",
+        "q230_11",
+        "q230_98",
+        "q230_98_other",
+        "q230_99",
+        "q240_1",
+        "q245",
+        "q250_1",
+        "q250_2",
+        "q250_3",
+        "q250_4",
+        "q250_5",
+        "q250_6",
+        "q250_7",
+        "q250_8",
+        "q250_99",
+        "q255_1",
+        "q255_2",
+        "q255_3",
+        "q255_4",
+        "q255_5",
+        "q255_6",
+        "q255_7",
+        "q255_8",
+        "q255_98",
+        "q255_98_other",
+        "q255_99"
+      ],
+      "checks": [
+        "Q205=2 skips the blinded-ad follow-up",
+        "Conditional display for Q210-Q255 when Q205=1",
+        "Exclusive None options",
+        "Q230_98_other and Q220_98_other linkage checks",
+        "Q240 range 1-99 and open-end minimums"
+      ],
+      "provenance": [
+        "document blocks 311-374",
+        "dataset dictionary candidate groups and labels"
+      ]
+    },
+    {
+      "id": "B04",
+      "question_ids": [
+        "Q305",
+        "Q310",
+        "Q315",
+        "Q320",
+        "Q325",
+        "Q340",
+        "Q345",
+        "Q350",
+        "Q355"
+      ],
+      "source_variables": [
+        "q305",
+        "q310",
+        "q315",
+        "q320",
+        "q325_1",
+        "q325_2",
+        "q325_3",
+        "q325_4",
+        "q325_5",
+        "q325_6",
+        "q325_7",
+        "q325_8",
+        "q325_9",
+        "q325_10",
+        "q325_11",
+        "q340",
+        "q345_1",
+        "q345_2",
+        "q345_3",
+        "q345_4",
+        "q345_5",
+        "q345_6",
+        "q345_7",
+        "q345_8",
+        "q345_9",
+        "q345_10",
+        "q345_11",
+        "q345_98",
+        "q345_98_other",
+        "q345_97",
+        "q350_1",
+        "q350_2",
+        "q350_3",
+        "q350_4",
+        "q350_5",
+        "q350_6",
+        "q350_7",
+        "q350_8",
+        "q350_98",
+        "q350_98_other",
+        "q350_10",
+        "q355"
+      ],
+      "checks": [
+        "Q315 only when Q310 is 4 or 5",
+        "Q320 only when Q310 is 1 or 2",
+        "Q345 only when Q340=1",
+        "Q355 only when Q350=5 or 6",
+        "Q325 codes restricted to 1-3",
+        "Exclusive None options in Q350"
+      ],
+      "provenance": [
+        "document blocks 375-490",
+        "dataset dictionary candidate groups and labels"
+      ]
+    }
+  ],
+  "excluded_variables": [
+    {
+      "variable": "respid",
+      "reason": "Administrative variable handled by application; shared positive-value rule"
+    },
+    {
+      "variable": "user_id",
+      "reason": "Administrative variable handled by application; shared nonblank rule"
+    },
+    {
+      "variable": "interview_start",
+      "reason": "Administrative timestamp handled by application"
+    },
+    {
+      "variable": "interview_end",
+      "reason": "Administrative timestamp handled by application"
+    },
+    {
+      "variable": "screenstatus",
+      "reason": "Administrative completion/status variable handled by application"
+    },
+    {
+      "variable": "scrstatus",
+      "reason": "Administrative completion/status variable handled by application"
+    },
+    {
+      "variable": "hidchange",
+      "reason": "Administrative change-tracking variable handled by application"
+    },
+    {
+      "variable": "surveyloi",
+      "reason": "Administrative length-of-interview variable handled by application"
+    },
+    {
+      "variable": "hidoebatch",
+      "reason": "Administrative batch variable handled by application"
+    },
+    {
+      "variable": "hiddvbatch",
+      "reason": "Administrative batch variable handled by application"
+    },
+    {
+      "variable": "responseid",
+      "reason": "System response identifier; not a questionnaire response"
+    },
+    {
+      "variable": "status",
+      "reason": "System status field; not a questionnaire response"
+    },
+    {
+      "variable": "last_touched",
+      "reason": "System audit timestamp"
+    },
+    {
+      "variable": "lastcomplete",
+      "reason": "System completion timestamp"
+    },
+    {
+      "variable": "screenstatusall_*",
+      "reason": "Generated screen-status indicator fields; administrative/system data"
+    },
+    {
+      "variable": "screenstatussize",
+      "reason": "Generated screen-status count; administrative/system data"
+    },
+    {
+      "variable": "incidencerate",
+      "reason": "Calculated field; not respondent-entered"
+    },
+    {
+      "variable": "irbase_1",
+      "reason": "Calculated incidence-rate flag"
+    },
+    {
+      "variable": "irbase_2",
+      "reason": "Calculated incidence-rate flag"
+    },
+    {
+      "variable": "l",
+      "reason": "Survey language metadata; not a questionnaire response"
+    },
+    {
+      "variable": "qbegintime",
+      "reason": "System timing field"
+    },
+    {
+      "variable": "survey_key",
+      "reason": "System survey metadata"
+    },
+    {
+      "variable": "partner_id",
+      "reason": "Sample/vendor metadata"
+    },
+    {
+      "variable": "ipaddress",
+      "reason": "System/device metadata"
+    },
+    {
+      "variable": "username",
+      "reason": "System/sample metadata"
+    },
+    {
+      "variable": "qsample",
+      "reason": "Sample metadata"
+    },
+    {
+      "variable": "qsurveytype",
+      "reason": "Survey mode metadata"
+    },
+    {
+      "variable": "hdevice",
+      "reason": "System device classification"
+    },
+    {
+      "variable": "device",
+      "reason": "System device classification"
+    },
+    {
+      "variable": "useragent",
+      "reason": "System browser metadata"
+    },
+    {
+      "variable": "vendorid",
+      "reason": "Sample/vendor metadata"
+    },
+    {
+      "variable": "qtesting",
+      "reason": "Testing metadata"
+    },
+    {
+      "variable": "aid",
+      "reason": "Sample metadata"
+    },
+    {
+      "variable": "gid",
+      "reason": "Sample/vendor metadata"
+    },
+    {
+      "variable": "hdivision",
+      "reason": "Sample/program metadata"
+    },
+    {
+      "variable": "progdatabase",
+      "reason": "Sample/program metadata"
+    },
+    {
+      "variable": "hlistt",
+      "reason": "Sample/list metadata"
+    },
+    {
+      "variable": "pwc_completes",
+      "reason": "Sample history/quota metadata"
+    },
+    {
+      "variable": "hidspec",
+      "reason": "Derived hidden specialty/quota assignment"
+    },
+    {
+      "variable": "hidquota2",
+      "reason": "Derived hidden quota assignment"
+    },
+    {
+      "variable": "hidquota2x1",
+      "reason": "Derived hidden quota assignment"
+    },
+    {
+      "variable": "hidquota3",
+      "reason": "Derived hidden quota assignment"
+    },
+    {
+      "variable": "hidquota3x1",
+      "reason": "Derived hidden quota assignment"
+    },
+    {
+      "variable": "captest",
+      "reason": "CAPTCHA/system validation field"
+    },
+    {
+      "variable": "qb001",
+      "reason": "CAPTCHA response/system validation field"
+    },
+    {
+      "variable": "qb002",
+      "reason": "Country display/system validation field"
+    },
+    {
+      "variable": "hvideo_1",
+      "reason": "Hidden media tracking field"
+    },
+    {
+      "variable": "hinstrtext_*",
+      "reason": "Instruction-template fields, not respondent responses"
+    },
+    {
+      "variable": "qtitle_*",
+      "reason": "Survey title/localization/template fields"
+    },
+    {
+      "variable": "qerrors_*",
+      "reason": "System validation-message fields"
+    },
+    {
+      "variable": "productprofile_*",
+      "reason": "Product-profile/image/video presentation metadata"
+    },
+    {
+      "variable": "hqloi",
+      "reason": "System LOI metadata"
+    },
+    {
+      "variable": "resploi_*",
+      "reason": "Calculated LOI components"
+    },
+    {
+      "variable": "hloiupdated",
+      "reason": "System LOI flag"
+    },
+    {
+      "variable": "respondentloi",
+      "reason": "Calculated LOI field"
+    },
+    {
+      "variable": "qtimestamp_*",
+      "reason": "System section timestamps"
+    },
+    {
+      "variable": "qintlen_*",
+      "reason": "Calculated section-duration fields"
+    },
+    {
+      "variable": "hidtimeoutmin_*",
+      "reason": "System timeout configuration"
+    },
+    {
+      "variable": "hstype",
+      "reason": "System interview/sample type"
+    },
+    {
+      "variable": "hidsessionscount_1",
+      "reason": "System session count"
+    },
+    {
+      "variable": "id",
+      "reason": "Sample-upload metadata"
+    },
+    {
+      "variable": "surveyid",
+      "reason": "System survey identifier"
+    },
+    {
+      "variable": "prepwd",
+      "reason": "Pretest/system password metadata"
+    },
+    {
+      "variable": "qredirect",
+      "reason": "System redirect metadata"
+    },
+    {
+      "variable": "qsupport",
+      "reason": "System support-text flag"
+    },
+    {
+      "variable": "qbrowser",
+      "reason": "System browser metadata"
+    },
+    {
+      "variable": "qdevice",
+      "reason": "System device metadata"
+    },
+    {
+      "variable": "qstr",
+      "reason": "System string metadata"
+    },
+    {
+      "variable": "qhidmode",
+      "reason": "System hidden mode"
+    },
+    {
+      "variable": "qips_1",
+      "reason": "System IP flag"
+    },
+    {
+      "variable": "islivetest",
+      "reason": "Testing metadata"
+    },
+    {
+      "variable": "hrespid",
+      "reason": "System duplicate response identifier"
+    },
+    {
+      "variable": "hsid",
+      "reason": "System session identifier"
+    },
+    {
+      "variable": "hscranswered",
+      "reason": "System screener tracking"
+    },
+    {
+      "variable": "hscrcount",
+      "reason": "System screener count"
+    },
+    {
+      "variable": "qhardquota_*",
+      "reason": "Hidden quota counters; quota logic metadata"
+    },
+    {
+      "variable": "helapse_*",
+      "reason": "System elapsed-time fields"
+    },
+    {
+      "variable": "hslflags_*",
+      "reason": "Presentation/navigation flags"
+    },
+    {
+      "variable": "hcountry",
+      "reason": "Derived country metadata; not respondent response"
+    },
+    {
+      "variable": "qerrnum_*",
+      "reason": "System validation parameters"
+    },
+    {
+      "variable": "totweight",
+      "reason": "Calculated weighting field"
+    },
+    {
+      "variable": "checksum",
+      "reason": "Calculated checksum"
+    },
+    {
+      "variable": "hrawlink",
+      "reason": "System link metadata"
+    },
+    {
+      "variable": "hulink",
+      "reason": "System link metadata"
+    },
+    {
+      "variable": "hcurrqid",
+      "reason": "System current-question tracking"
+    },
+    {
+      "variable": "hprevqid",
+      "reason": "System previous-question tracking"
+    },
+    {
+      "variable": "hallqids",
+      "reason": "System question-history tracking"
+    },
+    {
+      "variable": "showjumplinks",
+      "reason": "System navigation flag"
+    },
+    {
+      "variable": "interviewstartutc",
+      "reason": "Derived system timestamp"
+    },
+    {
+      "variable": "interviewendutc",
+      "reason": "Derived system timestamp"
+    },
+    {
+      "variable": "interviewstartaest",
+      "reason": "Derived system timestamp"
+    },
+    {
+      "variable": "interviewendaest",
+      "reason": "Derived system timestamp"
+    },
+    {
+      "variable": "iqsvars_*",
+      "reason": "External quality/system metadata"
+    },
+    {
+      "variable": "iqsenable",
+      "reason": "External quality/system metadata"
+    },
+    {
+      "variable": "hrecordeon",
+      "reason": "System recording-control field"
+    },
+    {
+      "variable": "raflags_*",
+      "reason": "Automated response-quality flags and associated text"
+    },
+    {
+      "variable": "hraresult",
+      "reason": "Raw automated response-analysis data"
+    },
+    {
+      "variable": "hidqslevel",
+      "reason": "Automated quality-score result"
+    },
+    {
+      "variable": "hidcapstr",
+      "reason": "CAPTCHA system data"
+    },
+    {
+      "variable": "hcapinv",
+      "reason": "CAPTCHA system data"
+    },
+    {
+      "variable": "qpassword",
+      "reason": "Pretest/password gate; not substantive questionnaire response"
+    },
+    {
+      "variable": "hinterviewmode",
+      "reason": "Interview-mode metadata"
+    },
+    {
+      "variable": "hwave",
+      "reason": "Wave metadata"
+    },
+    {
+      "variable": "pnumber",
+      "reason": "Sample metadata"
+    },
+    {
+      "variable": "screenstatusbackup",
+      "reason": "Administrative status backup"
+    },
+    {
+      "variable": "hyear",
+      "reason": "Derived date-part metadata"
+    },
+    {
+      "variable": "hmonth",
+      "reason": "Derived date-part metadata"
+    },
+    {
+      "variable": "hweek",
+      "reason": "Derived date-part metadata"
+    },
+    {
+      "variable": "hday",
+      "reason": "Derived date-part metadata"
+    },
+    {
+      "variable": "hdeviceinfo_*",
+      "reason": "System device-information fields"
+    },
+    {
+      "variable": "rvid_response_*",
+      "reason": "External quality/response-validation fields"
+    },
+    {
+      "variable": "hqualityscoreanalyze_*",
+      "reason": "External quality-analysis fields"
+    }
+  ],
+  "warnings": [
+    "The supplied dictionary contains q130 matrix variables, but the document exposes the matrix by attributes and product columns rather than a fully expanded row-by-row table; the manifest preserves the complete 14-attribute structure and records the dictionary variable pattern for analyst expansion.",
+    "The document's Q120 and Q125 displayed product lists omit Kineret in the visible document blocks, while the SAV dictionary contains q120_4 and q125_4 and the surrounding instructions say to randomize in the Q110 order. These dictionary variables are retained and require analyst confirmation of display.",
+    "Q345 uses dictionary code q345_97 for Don't remember / not sure, whereas Q140 and Q230 use code-suffixed variable q140_99/q230_99. The document does not specify a response code beyond the variable labels; preserve the actual SAV names.",
+    "The document labels Q130 choices as multiple selections by treatment and attribute; the dictionary stores each option as a binary variable coded 1 when selected. Do not interpret these as a numeric scale.",
+    "Shared administrative blocks are not duplicated in the questionnaire manifest."
+  ]
+}

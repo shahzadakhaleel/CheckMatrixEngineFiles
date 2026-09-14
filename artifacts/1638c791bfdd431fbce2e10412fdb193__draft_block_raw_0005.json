@@ -1,0 +1,16 @@
+{
+  "block_id": "b05",
+  "source_variables": [
+    "d1",
+    "d2_1",
+    "d3",
+    "d4",
+    "d5"
+  ],
+  "temporary_variables": [],
+  "spss": "tit b05 - Demographic domains.\ntemporary.\nsel if miss(d1) or ~ANY(d1,1,2,97) or miss(d2_1) or ~range(d2_1,0,100) or miss(d3) or ~range(d3,1,3) or miss(d4) or ~range(d4,1,3) or miss(d5) or ~range(d5,1,2).\nlist respid, d1 d2_1 d3 d4 d5.\n",
+  "omission_reason": null,
+  "warnings": [
+    "Whole-number enforcement for d2_1 is not generated because the supplied approved macros provide numeric bounds but no mapped integer-schema predicate."
+  ]
+}

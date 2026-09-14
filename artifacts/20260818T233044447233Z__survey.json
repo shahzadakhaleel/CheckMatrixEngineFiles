@@ -1,0 +1,4013 @@
+{
+  "metadata": {
+    "title": "CAREGIVER AAU (Q2 2026 Wave)",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q1",
+          "variable": "Q1",
+          "title": "Hello! Thank you for participating in this activity. Today, we are asking about your experiences and thoughts regarding pLGG treatments. Please know that everything you share here today will be used for pLGG market research purposes only, and will never be shared publicly – your privacy is our priority!",
+          "text": "Q1 Hello! Thank you for participating in this activity. Today, we are asking about your experiences and thoughts regarding pLGG treatments. Please know that everything you share here today will be used for pLGG market research purposes only, and will never be shared publicly – your privacy is our priority! We greatly appreciate your valuable and honest feedback – after completion of this survey activity, we will follow up in the coming weeks with your $35 honoraria. Click below to continue to the first question! 1 O Continue AAU (Main Questions)_",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "We greatly appreciate your valuable and honest feedback – after completion of this survey activity, we will follow up in the coming weeks with your $35 honoraria. Click below to continue to the first question!",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Continue",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 20
+          }
+        },
+        {
+          "id": "Q2",
+          "variable": "Q2",
+          "title": "Does your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement?",
+          "text": "Q2 Does your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement? 1 O Yes 2 O No 3 O I’m not sure",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Does your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Yes",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Yes",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 27
+          }
+        },
+        {
+          "id": "Q3",
+          "variable": "Q3",
+          "title": "Range 0-30",
+          "text": "Q3 Range 0-30 How old is the child with pLGG that you care for? Please enter your child’s age in years, rounding to the nearest whole number. The child with pLGG I care for is ____# of years",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 38
+          }
+        },
+        {
+          "id": "Q3A",
+          "variable": "Q3A",
+          "title": "Which of the following best describes where your child is currently in their pLGG care journey?",
+          "text": "Q3A Which of the following best describes where your child is currently in their pLGG care journey? Please select one. 1 O Recently diagnosed and discussing first treatment options 2 O Currently receiving first treatment 3 O Finished 1st treatment and currently being monitored 4 O Experiencing tumor growth, recurrence, or progression and discussing next treatment options 5 O Currently receiving second-line or later treatment 6 O Finished 2L+ treatment and currently being monitored 7 O Not sure / prefer not to say",
+          "section": "MAIN",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select one.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Recently diagnosed and discussing first treatment options",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Recently diagnosed and discussing first treatment options",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Currently receiving first treatment",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Finished 1st treatment and currently being monitored",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Experiencing tumor growth, recurrence, or progression and discussing next treatment options",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Currently receiving second-line or later treatment",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Finished 2L+ treatment and currently being monitored",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 42
+          }
+        },
+        {
+          "id": "Q4",
+          "variable": "Q4",
+          "title": "OE validations (at least 2 characters for each answer, first row is mandatory)",
+          "text": "Q4 OE validations (at least 2 characters for each answer, first row is mandatory) To begin, when you think of all the treatments for pediatric low-grade glioma (pLGG), which ones come to mind? You can write in as many as you can think of – no need to look anything up! And, don’t worry about spelling, we know these drug names are difficult. 1 ______ Open end 2 ______ Open end 3 ______ Open end 4 ______ Open end 5 ______ Open end 6 ______ Open end 7 ______ Open end 8 ______ Open end 9 ______ Open end",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "To begin, when you think of all the treatments for pediatric low-grade glioma (pLGG), which ones come to mind? You can write in as many as you can think of – no need to look anything up! And, don’t worry about spelling, we know these drug names are difficult.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "______ Open end",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "______ Open end",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "______ Open end",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "______ Open end",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "______ Open end",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "______ Open end",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "______ Open end",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "______ Open end",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 66
+          }
+        },
+        {
+          "id": "Q5",
+          "variable": "Q5",
+          "title": "Randomize, show one row at a time",
+          "text": "Q5 Randomize, show one row at a time How familiar are you with each of the treatments below? 5 4 3 2 1 Extremely familiar Very familiar Somewhat familiar Slightly familiar Not at all familiar 1 Chemotherapy O O O O O 2 Mekinist (Trametinib) O O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination O O O O O 4 Avastin (Bevacizumab) O O O O O 5 Afinitor (Everolimus) O O O O O 6 Gomekli (mirdametinib) O O O O O 7 Tafinlar (Dabrafenib) O O O O O 8 Koselugo (Selumetinib) O O O O O 9 Ojemda (Tovorafenib) / DAY101 O O O O O 10 Radiation O O O O O",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "5",
+              "text": "How familiar are you with each of the treatments below?",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "Extremely familiar",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Chemotherapy",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Mekinist (Trametinib)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Avastin (Bevacizumab)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Gomekli (mirdametinib)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Tafinlar (Dabrafenib)",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Koselugo (Selumetinib)",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Ojemda (Tovorafenib) / DAY101",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Radiation",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 87
+          }
+        },
+        {
+          "id": "Q6",
+          "variable": "Q6",
+          "title": "Randomize, show row-by-row",
+          "text": "Q6 Randomize, show row-by-row Is your child currently using, or have they ever used, any of the following treatments for their pLGG? 4 3 2 1 My child is currently using this treatment My child has used this treatment in the past My child has never used this treatment, but we have considered using it My child has never used this treatment, and we have never considered using it 1 Chemotherapy O O O O 2 Mekinist (Trametinib) O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination O O O O 4 Avastin (Bevacizumab) O O O O 5 Afinitor (Everolimus) O O O O 6 Gomekli (mirdametinib) O O O O 7 Tafinlar (Dabrafenib) O O O O 8 Koselugo (Selumetinib) O O O O 9 Ojemda (Tovorafenib) / DAY101 O O O O 10 Radiation O O O O If more than one treatment is selected as “My child is currently using this treatment”, show a real-time warning “You have indicated that your child is currently using more than one treatment. Please confirm that this is indeed your intention or adjust your answer to proceed.”",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "4",
+              "text": "Is your child currently using, or have they ever used, any of the following treatments for their pLGG?",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "My child is currently using this treatment",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Chemotherapy",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Mekinist (Trametinib)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Afinitor (Everolimus)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Gomekli (mirdametinib)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Tafinlar (Dabrafenib)",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Koselugo (Selumetinib)",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Ojemda (Tovorafenib) / DAY101",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Radiation",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q6 Randomize, show row-by-row Is your child currently using, or have they ever used, any of the following treatments for their pLGG? 4 3 2 1 My child is currently using this treatment My child has used this treatment in the past My child has never used this treatment, but we have considered using it My child has never used this treatment, and we have never considered using it 1 Chemotherapy O O O O 2 Mekinist (Trametinib) O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination O O O O 4 Avastin (Bevacizumab) O O O O 5 Afinitor (Everolimus) O O O O 6 Gomekli (mirdametinib) O O O O 7 Tafinlar (Dabrafenib) O O O O 8 Koselugo (Selumetinib) O O O O 9 Ojemda (Tovorafenib) / DAY101 O O O O 10 Radiation O O O O If more than one treatment is selected as “My child is currently using this treatment”, show a real-time warning “You have indicated that your child is currently using more than one treatment. Please confirm that this is indeed your intention or adjust your answer to proceed.”",
+          "notes": null,
+          "metadata": {
+            "source_line": 170
+          }
+        },
+        {
+          "id": "Q7",
+          "variable": "Q7",
+          "title": "If any selected “currently using” in Q6",
+          "text": "Q7 If any selected “currently using” in Q6 How do you feel about your child’s current treatment? Please share some thoughts on why you feel that way. 5 O Satisfied: ___ OPENEND 4 O Somewhat satisfied: ___ OPENEND 3 O Neither satisfied nor dissatisfied: ___ OPENEND 2 O Somewhat dissatisfied: ___ OPENEND 1 O Dissatisfied: ___ OPENEND",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "5",
+              "text": "How do you feel about your child’s current treatment? Please share some thoughts on why you feel that way.",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Satisfied: ___ OPENEND",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Satisfied: ___ OPENEND",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Somewhat satisfied: ___ OPENEND",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Neither satisfied nor dissatisfied: ___ OPENEND",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "Somewhat dissatisfied: ___ OPENEND",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q7 If any selected “currently using” in Q6 How do you feel about your child’s current treatment? Please share some thoughts on why you feel that way. 5 O Satisfied: ___ OPENEND 4 O Somewhat satisfied: ___ OPENEND 3 O Neither satisfied nor dissatisfied: ___ OPENEND 2 O Somewhat dissatisfied: ___ OPENEND 1 O Dissatisfied: ___ OPENEND",
+          "notes": null,
+          "metadata": {
+            "source_line": 242
+          }
+        },
+        {
+          "id": "Q8",
+          "variable": "Q8",
+          "title": "Randomize, show row-by-row",
+          "text": "Q8 Randomize, show row-by-row What is your overall impression of each of the treatments below? 5 4 3 2 1 Very positive Somewhat positive Neither positive nor negative Somewhat negative Very negative 1 Chemotherapy If Q5.1≥2 O O O O O 2 Mekinist (Trametinib) If Q5.2≥2 O O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 O O O O O 4 Avastin (Bevacizumab) If Q5.4≥2 O O O O O 5 Afinitor (Everolimus) If Q5.5≥2 O O O O O 6 Gomekli (mirdametinib) If Q5.6≥2 O O O O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 O O O O O 8 Koselugo (Selumetinib) If Q5.8≥2 O O O O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 O O O O O 10 Radiation If Q5.10≥2 O O O O O",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "5",
+              "text": "What is your overall impression of each of the treatments below?",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "Very positive",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Chemotherapy If Q5.1≥2",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Mekinist (Trametinib) If Q5.2≥2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Avastin (Bevacizumab) If Q5.4≥2",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Gomekli (mirdametinib) If Q5.6≥2",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Tafinlar (Dabrafenib) If Q5.7≥2",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Koselugo (Selumetinib) If Q5.8≥2",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Ojemda (Tovorafenib) / DAY101 If Q5.9≥2",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Radiation If Q5.10≥2",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q8 Randomize, show row-by-row What is your overall impression of each of the treatments below? 5 4 3 2 1 Very positive Somewhat positive Neither positive nor negative Somewhat negative Very negative 1 Chemotherapy If Q5.1≥2 O O O O O 2 Mekinist (Trametinib) If Q5.2≥2 O O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 O O O O O 4 Avastin (Bevacizumab) If Q5.4≥2 O O O O O 5 Afinitor (Everolimus) If Q5.5≥2 O O O O O 6 Gomekli (mirdametinib) If Q5.6≥2 O O O O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 O O O O O 8 Koselugo (Selumetinib) If Q5.8≥2 O O O O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 O O O O O 10 Radiation If Q5.10≥2 O O O O O",
+          "notes": null,
+          "metadata": {
+            "source_line": 260
+          }
+        },
+        {
+          "id": "Q8A",
+          "variable": "Q8A",
+          "title": "Only show products selected as ‘5 - Very positive’ in Q8, show one row at a time",
+          "text": "Q8a Only show products selected as ‘5 - Very positive’ in Q8, show one row at a time You have indicated a very positive overall impression of the following treatment(s). Please briefly explain the reasons for each: # Why did you have a very positive overall impression of insert ? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 343
+          }
+        },
+        {
+          "id": "Q8B",
+          "variable": "Q8B",
+          "title": "Only show products selected as ‘1 - Very negative’ in Q8, show one row at a time",
+          "text": "Q8b Only show products selected as ‘1 - Very negative’ in Q8, show one row at a time You have indicated a very negative overall impression of the following treatment(s). Please briefly explain the reasons for each: # Why did you have a very negative overall impression of insert ? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 349
+          }
+        },
+        {
+          "id": "Q9",
+          "variable": "Q9",
+          "title": "Randomize",
+          "text": "Q9 Randomize If your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today? 1 ☐ Chemotherapy If Q6.1=1/2 2 ☐ Mekinist (Trametinib) If Q6.2=1/2 3 ☐ Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2 4 ☐ Avastin (Bevacizumab) If Q6.4=1/2 5 ☐ Afinitor (Everolimus) If Q6.5=1/2 6 ☐ Gomekli (mirdametinib) If Q6.6=1/2 7 ☐ Tafinlar (Dabrafenib) If Q6.7=1/2 8 ☐ Koselugo (Selumetinib) If Q6.8=1/2 9 ☐ Ojemda (Tovorafenib) / DAY101 If Q6.9=1/2 10 ☐ Radiation If Q6.10=1/2 Please share with us a little about why you would consider any of the treatments you select. If any treatment is selected above ___ OPENEND",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "If your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Chemotherapy If Q6.1=1/2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Mekinist (Trametinib) If Q6.2=1/2",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Avastin (Bevacizumab) If Q6.4=1/2",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Afinitor (Everolimus) If Q6.5=1/2",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Gomekli (mirdametinib) If Q6.6=1/2",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Tafinlar (Dabrafenib) If Q6.7=1/2",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Koselugo (Selumetinib) If Q6.8=1/2",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Ojemda (Tovorafenib) / DAY101 If Q6.9=1/2",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q9 Randomize If your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today? 1 ☐ Chemotherapy If Q6.1=1/2 2 ☐ Mekinist (Trametinib) If Q6.2=1/2 3 ☐ Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2 4 ☐ Avastin (Bevacizumab) If Q6.4=1/2 5 ☐ Afinitor (Everolimus) If Q6.5=1/2 6 ☐ Gomekli (mirdametinib) If Q6.6=1/2 7 ☐ Tafinlar (Dabrafenib) If Q6.7=1/2 8 ☐ Koselugo (Selumetinib) If Q6.8=1/2 9 ☐ Ojemda (Tovorafenib) / DAY101 If Q6.9=1/2 10 ☐ Radiation If Q6.10=1/2 Please share with us a little about why you would consider any of the treatments you select. If any treatment is selected above ___ OPENEND",
+          "notes": null,
+          "metadata": {
+            "source_line": 355
+          }
+        },
+        {
+          "id": "Q10",
+          "variable": "Q10",
+          "title": "Show row-by-row",
+          "text": "Q10 Show row-by-row What concerns, if any, do you have about the following treatments? None Not Sure 1 Chemotherapy If Q5.1≥2 ___ open-end O O 2 Mekinist (Trametinib) If Q5.2≥2 ___ open-end O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 ___ open-end O O 4 Avastin (Bevacizumab) If Q5.4≥2 ___ open-end O O 5 Afinitor (Everolimus) If Q5.5≥2 ___ open-end O O 6 Gomekli (mirdametinib) If Q5.6≥2 ___ open-end O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 ___ open-end O O 8 Koselugo (Selumetinib) If Q5.8≥2 ___ open-end O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 ___ open-end O O 10 Radiation If Q5.10≥2 ___ open-end O O",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not Sure",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "___ open-end",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Mekinist (Trametinib) If Q5.2≥2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Avastin (Bevacizumab) If Q5.4≥2",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Afinitor (Everolimus) If Q5.5≥2",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Gomekli (mirdametinib) If Q5.6≥2",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Tafinlar (Dabrafenib) If Q5.7≥2",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Koselugo (Selumetinib) If Q5.8≥2",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Ojemda (Tovorafenib) / DAY101 If Q5.9≥2",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Radiation If Q5.10≥2",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q10 Show row-by-row What concerns, if any, do you have about the following treatments? None Not Sure 1 Chemotherapy If Q5.1≥2 ___ open-end O O 2 Mekinist (Trametinib) If Q5.2≥2 ___ open-end O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 ___ open-end O O 4 Avastin (Bevacizumab) If Q5.4≥2 ___ open-end O O 5 Afinitor (Everolimus) If Q5.5≥2 ___ open-end O O 6 Gomekli (mirdametinib) If Q5.6≥2 ___ open-end O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 ___ open-end O O 8 Koselugo (Selumetinib) If Q5.8≥2 ___ open-end O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 ___ open-end O O 10 Radiation If Q5.10≥2 ___ open-end O O",
+          "notes": null,
+          "metadata": {
+            "source_line": 390
+          }
+        },
+        {
+          "id": "Q11",
+          "variable": "Q11",
+          "title": "Randomize, group 4a/4b, anchor 8-10",
+          "text": "Q11 Randomize, group 4a/4b, anchor 8-10 How, if at all, has advice from other caregivers in-person or online influenced your pLGG treatment decisions? Please select all that apply. 1 ☐ Gave me new or better questions to ask the doctor 2 ☐ Helped me feel less alone in the process 3 ☐ Made me more confident to ask doctors about pLGG treatments 4a ☐ Made me feel more confident in decisions I was already considering 4b ☐ Made me feel less confident in decisions I was already considering 5 ☐ Introduced me to new pLGG treatment options or clinical trials 6 ☐ It influenced where I took my child for care (e.g., which doctor or hospital I chose) 7 ☐ Made decision-making more confusing or overwhelming 8 O Had little or no influence on our pLGG treatment decisions excl 9 O I have not received or seen advice from other caregivers excl 10 O I don't know how to connect with other caregivers of children living with pLGG excl",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select all that apply.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Gave me new or better questions to ask the doctor",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Helped me feel less alone in the process",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Made me feel less confident in decisions I was already considering",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Introduced me to new pLGG treatment options or clinical trials",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "It influenced where I took my child for care (e.g., which doctor or hospital I chose)",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Made decision-making more confusing or overwhelming",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Had little or no influence on our pLGG treatment decisions excl",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Had little or no influence on our pLGG treatment decisions excl",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "I have not received or seen advice from other caregivers excl",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q11 Randomize, group 4a/4b, anchor 8-10 How, if at all, has advice from other caregivers in-person or online influenced your pLGG treatment decisions? Please select all that apply. 1 ☐ Gave me new or better questions to ask the doctor 2 ☐ Helped me feel less alone in the process 3 ☐ Made me more confident to ask doctors about pLGG treatments 4a ☐ Made me feel more confident in decisions I was already considering 4b ☐ Made me feel less confident in decisions I was already considering 5 ☐ Introduced me to new pLGG treatment options or clinical trials 6 ☐ It influenced where I took my child for care (e.g., which doctor or hospital I chose) 7 ☐ Made decision-making more confusing or overwhelming 8 O Had little or no influence on our pLGG treatment decisions excl 9 O I have not received or seen advice from other caregivers excl 10 O I don't know how to connect with other caregivers of children living with pLGG excl",
+          "notes": null,
+          "metadata": {
+            "source_line": 445
+          }
+        },
+        {
+          "id": "Q27",
+          "variable": "Q27",
+          "title": "Thinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way.",
+          "text": "Q27 Thinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way. 5 O Very prepared 4 O Somewhat prepared 3 O Neither prepared nor unprepared 2 O Somewhat unprepared 1 O Very unprepared Please share why you feel that way: ___ OPENEND",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "5",
+              "text": "Thinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way.",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Very prepared",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Very prepared",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Somewhat prepared",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Neither prepared nor unprepared",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "Somewhat unprepared",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 482
+          }
+        },
+        {
+          "id": "Q28",
+          "variable": "Q28",
+          "title": "Randomize, anchor 10-11",
+          "text": "Q28 Randomize, anchor 10-11 Which of the following, if any, do you typically do to prepare for appointments with your child’s care team? Please select all that apply. 1 ☐ Write down questions I want to ask 2 ☐ Review notes, test results, MRI results, or care instructions 3 ☐ Keep track of symptoms, side effects, or changes I want to discuss 4 ☐ Research pLGG or treatment options 5 ☐ Look for information from patient advocacy or support organizations 6 ☐ Talk to other parents or caregivers 7 ☐ Talk with my child or other family members about what we want to ask 8 ☐ Look for information about insurance coverage, cost, or patient support 9 ☐ Bring or save information I found online to discuss with the care team 10 ☐ Something else:___ open-end 11 O I do not usually prepare in advance excl",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select all that apply.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Write down questions I want to ask",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Review notes, test results, MRI results, or care instructions",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Keep track of symptoms, side effects, or changes I want to discuss",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Research pLGG or treatment options",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Look for information from patient advocacy or support organizations",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Talk to other parents or caregivers",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Talk with my child or other family members about what we want to ask",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Look for information about insurance coverage, cost, or patient support",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Bring or save information I found online to discuss with the care team",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Something else:___ open-end",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "I do not usually prepare in advance excl",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q28 Randomize, anchor 10-11 Which of the following, if any, do you typically do to prepare for appointments with your child’s care team? Please select all that apply. 1 ☐ Write down questions I want to ask 2 ☐ Review notes, test results, MRI results, or care instructions 3 ☐ Keep track of symptoms, side effects, or changes I want to discuss 4 ☐ Research pLGG or treatment options 5 ☐ Look for information from patient advocacy or support organizations 6 ☐ Talk to other parents or caregivers 7 ☐ Talk with my child or other family members about what we want to ask 8 ☐ Look for information about insurance coverage, cost, or patient support 9 ☐ Bring or save information I found online to discuss with the care team 10 ☐ Something else:___ open-end 11 O I do not usually prepare in advance excl",
+          "notes": null,
+          "metadata": {
+            "source_line": 501
+          }
+        },
+        {
+          "id": "Q12",
+          "variable": "Q12",
+          "title": "Anchor rows, randomize the list within row 1 and row 3",
+          "text": "Q12 Anchor rows, randomize the list within row 1 and row 3 Which of the following feelings best describe the last experience you had discussing pLGG treatments with your child’s doctor? Please select all that apply. ☐ Hopeful ☐ Confident ☐ Supported ☐ Understood ☐ Reassured ☐ Neutral or Indifferent ☐ Confused ☐ Anxious ☐ Sad ☐ Angry ☐ Frustrated ☐ Discouraged ☐ Overwhelmed O I did not feel any of these emotions excl",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 538
+          }
+        },
+        {
+          "id": "Q13",
+          "variable": "Q13",
+          "title": "Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went.",
+          "text": "Q13 Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went. 1 O I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND 2 O I wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND 3 O I have never wanted to ask my child’s doctor about a pLGG treatment, because ___ OPENEND",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q13 Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went. 1 O I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND 2 O I wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND 3 O I have never wanted to ask my child’s doctor about a pLGG treatment, because ___ OPENEND",
+          "notes": null,
+          "metadata": {
+            "source_line": 545
+          }
+        },
+        {
+          "id": "Q14",
+          "variable": "Q14",
+          "title": "Show col-by-col",
+          "text": "Q14 Show col-by-col How comfortable are you with bringing up a specific pLGG treatment for discussion with your child’s doctor(s) and/or requesting your doctor to prescribe a specific pLGG treatment to your child? 1 2 Bringing up a pLGG treatment for discussion Asking my child’s doctor to prescribe a specific pLGG treatment 5 Comfortable O O 4 Somewhat comfortable O O 3 Neither comfortable nor uncomfortable O O 2 Somewhat uncomfortable O O 1 Uncomfortable O O",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "How comfortable are you with bringing up a specific pLGG treatment for discussion with your child’s doctor(s) and/or requesting your doctor to prescribe a specific pLGG treatment to your child?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Bringing up a pLGG treatment for discussion",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Asking my child’s doctor to prescribe a specific pLGG treatment",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Comfortable",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat comfortable",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neither comfortable nor uncomfortable",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 556
+          }
+        },
+        {
+          "id": "Q15",
+          "variable": "Q15",
+          "title": "If Q14.c1<5, Randomize, anchor 6-7",
+          "text": "Q15 If Q14.c1<5, Randomize, anchor 6-7 What would make you feel more comfortable discussing specific pLGG treatments with your child’s doctor? Please select all that apply. 1 ☐ Guides explaining treatment options 2 ☐ Personal stories from other caregivers 3 ☐ Checklist of questions to ask during appointments 4 ☐ Videos or webinars with pLGG experts pediatric oncology experts and other caregivers 5 ☐ Access to support groups or mentors 6 ☐ Something else (please share what would make you feel more comfortable):___ open-end 7 O I don't feel comfortable discussing specific treatments excl AAU (Ojemda Questions) _",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select all that apply.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Guides explaining treatment options",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Personal stories from other caregivers",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Checklist of questions to ask during appointments",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Videos or webinars with pLGG experts pediatric oncology experts and other caregivers",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Access to support groups or mentors",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Something else (please share what would make you feel more comfortable):___ open-end",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "I don't feel comfortable discussing specific treatments excl",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q15 If Q14.c1<5, Randomize, anchor 6-7 What would make you feel more comfortable discussing specific pLGG treatments with your child’s doctor? Please select all that apply. 1 ☐ Guides explaining treatment options 2 ☐ Personal stories from other caregivers 3 ☐ Checklist of questions to ask during appointments 4 ☐ Videos or webinars with pLGG experts pediatric oncology experts and other caregivers 5 ☐ Access to support groups or mentors 6 ☐ Something else (please share what would make you feel more comfortable):___ open-end 7 O I don't feel comfortable discussing specific treatments excl AAU (Ojemda Questions) _",
+          "notes": null,
+          "metadata": {
+            "source_line": 583
+          }
+        },
+        {
+          "id": "Q16",
+          "variable": "Q16",
+          "title": "if Q5.r9≥2, Randomize, anchor 11",
+          "text": "Q16 if Q5.r9≥2, Randomize, anchor 11 You said you are Q5.r9 with OJEMDA (Tovorafenib) / DAY101. Where have you seen or heard information about OJEMDA (Tovorafenib) / DAY101 before? Please select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101. 1 ☐ Social media advertisements 2 ☐ Non-Profit Parent Support Groups 3 ☐ Social media private groups 4 ☐ Health websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.) 12 ☐ Doctor's office 5 ☐ Oncologist / Neuro-Oncologist 6 ☐ Oncology nurse 7 ☐ News program / article 8 ☐ Family and/or friends 9 ☐ Another parent or caregiver 10 ☐ Pharmacy/Pharmacist 11 ☐ Something else (please explain):___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Social media advertisements",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Non-Profit Parent Support Groups",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Social media private groups",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Health websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.)",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Doctor's office",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Oncologist / Neuro-Oncologist",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Oncology nurse",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "News program / article",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Family and/or friends",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Another parent or caregiver",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Pharmacy/Pharmacist",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q16 if Q5.r9≥2, Randomize, anchor 11 You said you are Q5.r9 with OJEMDA (Tovorafenib) / DAY101. Where have you seen or heard information about OJEMDA (Tovorafenib) / DAY101 before? Please select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101. 1 ☐ Social media advertisements 2 ☐ Non-Profit Parent Support Groups 3 ☐ Social media private groups 4 ☐ Health websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.) 12 ☐ Doctor's office 5 ☐ Oncologist / Neuro-Oncologist 6 ☐ Oncology nurse 7 ☐ News program / article 8 ☐ Family and/or friends 9 ☐ Another parent or caregiver 10 ☐ Pharmacy/Pharmacist 11 ☐ Something else (please explain):___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 609
+          }
+        },
+        {
+          "id": "Q17",
+          "variable": "Q17",
+          "title": "if Q5.r9≥2",
+          "text": "Q17 if Q5.r9≥2 Where do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101? 1 O Insert answers selected in Q16, same order … O ……",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Where do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Insert answers selected in Q16, same order",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q17 if Q5.r9≥2 Where do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101? 1 O Insert answers selected in Q16, same order … O ……",
+          "notes": null,
+          "metadata": {
+            "source_line": 650
+          }
+        },
+        {
+          "id": "Q18",
+          "variable": "Q18",
+          "title": "if Q5.r9≥2",
+          "text": "Q18 if Q5.r9≥2 Have you been given any materials or resources about OJEMDA by doctors, nurses or pharmacists? If yes, what were you given? 1 ☐ Yes, I received the following from my child’s doctor(s):___ open-end 4 ☐ Yes, I received the following from the nurse:___ open-end 2 ☐ Yes, I received the following from the pharmacy / pharmacist:___ open-end 3 O No, I have not been given any OJEMDA-related materials by doctors or pharmacists excl",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "If yes, what were you given?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Yes, I received the following from my child’s doctor(s):___ open-end",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Yes, I received the following from the nurse:___ open-end",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Yes, I received the following from the pharmacy / pharmacist:___ open-end",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "No, I have not been given any OJEMDA-related materials by doctors or pharmacists excl",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q18 if Q5.r9≥2 Have you been given any materials or resources about OJEMDA by doctors, nurses or pharmacists? If yes, what were you given? 1 ☐ Yes, I received the following from my child’s doctor(s):___ open-end 4 ☐ Yes, I received the following from the nurse:___ open-end 2 ☐ Yes, I received the following from the pharmacy / pharmacist:___ open-end 3 O No, I have not been given any OJEMDA-related materials by doctors or pharmacists excl",
+          "notes": null,
+          "metadata": {
+            "source_line": 659
+          }
+        },
+        {
+          "id": "Q19A",
+          "variable": "Q19A",
+          "title": "if Q5.r9≥2",
+          "text": "Q19a if Q5.r9≥2 What is the first thing that comes to mind when you think about OJEMDA? Please share anything you’ve read, heard, or think – no need to look anything up! ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q19a if Q5.r9≥2 What is the first thing that comes to mind when you think about OJEMDA? Please share anything you’ve read, heard, or think – no need to look anything up! ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 675
+          }
+        },
+        {
+          "id": "Q19",
+          "variable": "Q19",
+          "title": "if Q5.r9≥2, Randomize, show row by row",
+          "text": "Q19 if Q5.r9≥2, Randomize, show row by row What do you know about OJEMDA (Tovorafenib) / DAY 101 when it comes to each of the topics below? Please share anything you’ve read, heard, or think – no need to look anything up! 1 What do you know about how well OJEMDA works? ___ open-end 2 What do you know about OJEMDA side effects? ___ open-end 3 What do you know about how you take OJEMDA? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please share anything you’ve read, heard, or think – no need to look anything up!",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "___ open-end",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "___ open-end",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q19 if Q5.r9≥2, Randomize, show row by row What do you know about OJEMDA (Tovorafenib) / DAY 101 when it comes to each of the topics below? Please share anything you’ve read, heard, or think – no need to look anything up! 1 What do you know about how well OJEMDA works? ___ open-end 2 What do you know about OJEMDA side effects? ___ open-end 3 What do you know about how you take OJEMDA? ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 680
+          }
+        },
+        {
+          "id": "Q20",
+          "variable": "Q20",
+          "title": "if Q5.r9≥2",
+          "text": "Q20 if Q5.r9≥2 What questions do you have about OJEMDA? Please share anything you’re curious about or would need to know before you might consider it for your child. ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q20 if Q5.r9≥2 What questions do you have about OJEMDA? Please share anything you’re curious about or would need to know before you might consider it for your child. ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 693
+          }
+        },
+        {
+          "id": "Q21",
+          "variable": "Q21",
+          "title": "if Q5.r9≥2",
+          "text": "Q21 if Q5.r9≥2 Based on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer. 5 O OJEMDA is much better: ___ OPENEND 4 O OJEMDA is somewhat better: ___ OPENEND 3 O No difference: ___ OPENEND 2 O OJEMDA is somewhat worse: ___ OPENEND 1 O OJEMDA is much worse: ___ OPENEND",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "5",
+              "text": "Based on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer.",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "OJEMDA is much better: ___ OPENEND",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "OJEMDA is much better: ___ OPENEND",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "OJEMDA is somewhat better: ___ OPENEND",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "No difference: ___ OPENEND",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "OJEMDA is somewhat worse: ___ OPENEND",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q21 if Q5.r9≥2 Based on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer. 5 O OJEMDA is much better: ___ OPENEND 4 O OJEMDA is somewhat better: ___ OPENEND 3 O No difference: ___ OPENEND 2 O OJEMDA is somewhat worse: ___ OPENEND 1 O OJEMDA is much worse: ___ OPENEND",
+          "notes": null,
+          "metadata": {
+            "source_line": 697
+          }
+        },
+        {
+          "id": "Q22",
+          "variable": "Q22",
+          "title": "If Q6.9=1/2, Randomize, anchor 8-10",
+          "text": "Q22 If Q6.9=1/2, Randomize, anchor 8-10 Since first learning about OJEMDA (Tovorafenib) / DAY101, have you done any of the following? Please select all that apply. 1 ☐ Researched more information about this treatment online 2 ☐ Spoke to other caregivers about their experience with this treatment 3 ☐ Asked about the treatment with my child’s oncologist(s) or oncology nurse(s) 4 ☐ Plan to discuss this treatment with my child’s care team 5 ☐ Checked my insurance policy for coverage or out-of-pocket costs with this treatment 6 ☐ Switched my child to this treatment 7 ☐ Added this to the list of treatments I may consider for my child in the future 8 O Decided not to pursue this medication any further excl 9 ☐ Something else (please explain):___ open-end 10 O Have not taken any additional actions since learning about this medication excl",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select all that apply.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Researched more information about this treatment online",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Spoke to other caregivers about their experience with this treatment",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Asked about the treatment with my child’s oncologist(s) or oncology nurse(s)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Plan to discuss this treatment with my child’s care team",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Checked my insurance policy for coverage or out-of-pocket costs with this treatment",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Switched my child to this treatment",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Added this to the list of treatments I may consider for my child in the future",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Decided not to pursue this medication any further excl",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Decided not to pursue this medication any further excl",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Something else (please explain):___ open-end",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q22 If Q6.9=1/2, Randomize, anchor 8-10 Since first learning about OJEMDA (Tovorafenib) / DAY101, have you done any of the following? Please select all that apply. 1 ☐ Researched more information about this treatment online 2 ☐ Spoke to other caregivers about their experience with this treatment 3 ☐ Asked about the treatment with my child’s oncologist(s) or oncology nurse(s) 4 ☐ Plan to discuss this treatment with my child’s care team 5 ☐ Checked my insurance policy for coverage or out-of-pocket costs with this treatment 6 ☐ Switched my child to this treatment 7 ☐ Added this to the list of treatments I may consider for my child in the future 8 O Decided not to pursue this medication any further excl 9 ☐ Something else (please explain):___ open-end 10 O Have not taken any additional actions since learning about this medication excl",
+          "notes": null,
+          "metadata": {
+            "source_line": 715
+          }
+        },
+        {
+          "id": "Q23",
+          "variable": "Q23",
+          "title": "if Q22=8",
+          "text": "Q23 if Q22=8 You said you decided not to pursue OJEMDA (tovorafenib) / DAY101 any further. What made you uninterested in using OJEMDA with your child? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q23 if Q22=8 You said you decided not to pursue OJEMDA (tovorafenib) / DAY101 any further. What made you uninterested in using OJEMDA with your child? ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 749
+          }
+        },
+        {
+          "id": "Q23A",
+          "variable": "Q23A",
+          "title": "if “Nothing is stopping me” not selected in Q23",
+          "text": "Q23A if “Nothing is stopping me” not selected in Q23 Which one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)? 1 O Insert answers selected in Q23, same order … O …… Why is this the biggest reason? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Which one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Insert answers selected in Q23, same order",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q23A if “Nothing is stopping me” not selected in Q23 Which one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)? 1 O Insert answers selected in Q23, same order … O …… Why is this the biggest reason? ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 793
+          }
+        },
+        {
+          "id": "Q31",
+          "variable": "Q31",
+          "title": "if Q6.9=3/4 OR Q22=6",
+          "text": "Q31 if Q6.9=3/4 OR Q22=6 You said you decided to pursue OJEMDA (tovorafenib), what were the drivers of pursuing OJEMDA instead of another option? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q31 if Q6.9=3/4 OR Q22=6 You said you decided to pursue OJEMDA (tovorafenib), what were the drivers of pursuing OJEMDA instead of another option? ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 804
+          }
+        },
+        {
+          "id": "Q24",
+          "variable": "Q24",
+          "title": "if Q22=3,4,6 OR Q6.9=2/3",
+          "text": "Q24 if Q22=3,4,6 OR Q6.9=2/3 When you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion? 1 O I initially brought up OJEMDA / DAY101. We discussed the following: ___ open-end 2 O My child’s care team initially brought up OJEMDA / DAY101. We discussed the following:___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "When you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion?",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "I initially brought up OJEMDA / DAY101.",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "We discussed the following: ___ open-end",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q24 if Q22=3,4,6 OR Q6.9=2/3 When you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion? 1 O I initially brought up OJEMDA / DAY101. We discussed the following: ___ open-end 2 O My child’s care team initially brought up OJEMDA / DAY101. We discussed the following:___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 808
+          }
+        },
+        {
+          "id": "Q32",
+          "variable": "Q32",
+          "title": "if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10",
+          "text": "Q32 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10 What, if anything, has kept you from asking about OJEMDA (tovorafenib)? Please select all that apply. 1 ☐ I need more information about OJEMDA 2 ☐ I am not sure whether my child may be eligible for OJEMDA 3 ☐ I am concerned about possible side effects 4 ☐ I need more information about how OJEMDA compares with other treatments 5 ☐ I need more information about insurance coverage or cost 6 ☐ My child’s doctor has not brought it up 7 ☐ I am satisfied with my child’s current treatment plan 8 ☐ It does not feel like the right time to discuss a new treatment 9 ☐ I am not sure how to bring it up without seeming pushy 10 ☐ Something else:___ open-end",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select all that apply.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I need more information about OJEMDA",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I am not sure whether my child may be eligible for OJEMDA",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "I am concerned about possible side effects",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I need more information about how OJEMDA compares with other treatments",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "I need more information about insurance coverage or cost",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "My child’s doctor has not brought it up",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "I am satisfied with my child’s current treatment plan",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "It does not feel like the right time to discuss a new treatment",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "I am not sure how to bring it up without seeming pushy",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q32 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10 What, if anything, has kept you from asking about OJEMDA (tovorafenib)? Please select all that apply. 1 ☐ I need more information about OJEMDA 2 ☐ I am not sure whether my child may be eligible for OJEMDA 3 ☐ I am concerned about possible side effects 4 ☐ I need more information about how OJEMDA compares with other treatments 5 ☐ I need more information about insurance coverage or cost 6 ☐ My child’s doctor has not brought it up 7 ☐ I am satisfied with my child’s current treatment plan 8 ☐ It does not feel like the right time to discuss a new treatment 9 ☐ I am not sure how to bring it up without seeming pushy 10 ☐ Something else:___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 819
+          }
+        },
+        {
+          "id": "Q33",
+          "variable": "Q33",
+          "title": "if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9",
+          "text": "Q33 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9 What would be most likely to make you ask your child’s care team about OJEMDA (tovorafenib) at a future appointment? Please select up to three. 1 ☐ My child’s doctor or nurse bringing it up first 2 ☐ Clearer information about whether my child may be eligible 3 ☐ More information about how well OJEMDA works 4 ☐ More information about side effects and how they may be managed 5 ☐ A checklist of questions to bring to the appointment 6 ☐ A discussion guide that helps me start the conversation 7 ☐ Stories from other families who have experience with OJEMDA 8 ☐ Information about insurance coverage, cost, or patient support 9 ☐ Something else:___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Please select up to three.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "My child’s doctor or nurse bringing it up first",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Clearer information about whether my child may be eligible",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "More information about how well OJEMDA works",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "More information about side effects and how they may be managed",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "A checklist of questions to bring to the appointment",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "A discussion guide that helps me start the conversation",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Stories from other families who have experience with OJEMDA",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Information about insurance coverage, cost, or patient support",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q33 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9 What would be most likely to make you ask your child’s care team about OJEMDA (tovorafenib) at a future appointment? Please select up to three. 1 ☐ My child’s doctor or nurse bringing it up first 2 ☐ Clearer information about whether my child may be eligible 3 ☐ More information about how well OJEMDA works 4 ☐ More information about side effects and how they may be managed 5 ☐ A checklist of questions to bring to the appointment 6 ☐ A discussion guide that helps me start the conversation 7 ☐ Stories from other families who have experience with OJEMDA 8 ☐ Information about insurance coverage, cost, or patient support 9 ☐ Something else:___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 853
+          }
+        },
+        {
+          "id": "Q25",
+          "variable": "Q25",
+          "title": "if Q6.9=3/4 OR Q22=6",
+          "text": "Q25 if Q6.9=3/4 OR Q22=6 How would you describe your child’s experience with OJEMDA (Tovorafenib) / DAY101? ___ open-end",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q25 if Q6.9=3/4 OR Q22=6 How would you describe your child’s experience with OJEMDA (Tovorafenib) / DAY101? ___ open-end",
+          "notes": null,
+          "metadata": {
+            "source_line": 884
+          }
+        },
+        {
+          "id": "Q26",
+          "variable": "Q26",
+          "title": "if Q6.9=1/2",
+          "text": "Q26 if Q6.9=1/2 If your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why. 5 O Very likely: ___ OPENEND 4 O Somewhat likely: ___ OPENEND 3 O Neither likely nor unlikely: ___ OPENEND 2 O Somewhat unlikely: ___ OPENEND 1 O Very unlikely: ___ OPENEND Wrap Up _",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "5",
+              "text": "If your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why.",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Very likely: ___ OPENEND",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Very likely: ___ OPENEND",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Somewhat likely: ___ OPENEND",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Neither likely nor unlikely: ___ OPENEND",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "1",
+              "text": "Somewhat unlikely: ___ OPENEND",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q26 if Q6.9=1/2 If your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why. 5 O Very likely: ___ OPENEND 4 O Somewhat likely: ___ OPENEND 3 O Neither likely nor unlikely: ___ OPENEND 2 O Somewhat unlikely: ___ OPENEND 1 O Very unlikely: ___ OPENEND Wrap Up _",
+          "notes": null,
+          "metadata": {
+            "source_line": 888
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "variable": "Q1",
+      "title": "Hello! Thank you for participating in this activity. Today, we are asking about your experiences and thoughts regarding pLGG treatments. Please know that everything you share here today will be used for pLGG market research purposes only, and will never be shared publicly – your privacy is our priority!",
+      "text": "Q1 Hello! Thank you for participating in this activity. Today, we are asking about your experiences and thoughts regarding pLGG treatments. Please know that everything you share here today will be used for pLGG market research purposes only, and will never be shared publicly – your privacy is our priority! We greatly appreciate your valuable and honest feedback – after completion of this survey activity, we will follow up in the coming weeks with your $35 honoraria. Click below to continue to the first question! 1 O Continue AAU (Main Questions)_",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "We greatly appreciate your valuable and honest feedback – after completion of this survey activity, we will follow up in the coming weeks with your $35 honoraria. Click below to continue to the first question!",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Continue",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 20
+      }
+    },
+    {
+      "id": "Q2",
+      "variable": "Q2",
+      "title": "Does your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement?",
+      "text": "Q2 Does your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement? 1 O Yes 2 O No 3 O I’m not sure",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Does your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Yes",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Yes",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 27
+      }
+    },
+    {
+      "id": "Q3",
+      "variable": "Q3",
+      "title": "Range 0-30",
+      "text": "Q3 Range 0-30 How old is the child with pLGG that you care for? Please enter your child’s age in years, rounding to the nearest whole number. The child with pLGG I care for is ____# of years",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 38
+      }
+    },
+    {
+      "id": "Q3A",
+      "variable": "Q3A",
+      "title": "Which of the following best describes where your child is currently in their pLGG care journey?",
+      "text": "Q3A Which of the following best describes where your child is currently in their pLGG care journey? Please select one. 1 O Recently diagnosed and discussing first treatment options 2 O Currently receiving first treatment 3 O Finished 1st treatment and currently being monitored 4 O Experiencing tumor growth, recurrence, or progression and discussing next treatment options 5 O Currently receiving second-line or later treatment 6 O Finished 2L+ treatment and currently being monitored 7 O Not sure / prefer not to say",
+      "section": "MAIN",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select one.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Recently diagnosed and discussing first treatment options",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Recently diagnosed and discussing first treatment options",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Currently receiving first treatment",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Finished 1st treatment and currently being monitored",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Experiencing tumor growth, recurrence, or progression and discussing next treatment options",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Currently receiving second-line or later treatment",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Finished 2L+ treatment and currently being monitored",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 42
+      }
+    },
+    {
+      "id": "Q4",
+      "variable": "Q4",
+      "title": "OE validations (at least 2 characters for each answer, first row is mandatory)",
+      "text": "Q4 OE validations (at least 2 characters for each answer, first row is mandatory) To begin, when you think of all the treatments for pediatric low-grade glioma (pLGG), which ones come to mind? You can write in as many as you can think of – no need to look anything up! And, don’t worry about spelling, we know these drug names are difficult. 1 ______ Open end 2 ______ Open end 3 ______ Open end 4 ______ Open end 5 ______ Open end 6 ______ Open end 7 ______ Open end 8 ______ Open end 9 ______ Open end",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "To begin, when you think of all the treatments for pediatric low-grade glioma (pLGG), which ones come to mind? You can write in as many as you can think of – no need to look anything up! And, don’t worry about spelling, we know these drug names are difficult.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "______ Open end",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "______ Open end",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "______ Open end",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "______ Open end",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "______ Open end",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "______ Open end",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "______ Open end",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "______ Open end",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 66
+      }
+    },
+    {
+      "id": "Q5",
+      "variable": "Q5",
+      "title": "Randomize, show one row at a time",
+      "text": "Q5 Randomize, show one row at a time How familiar are you with each of the treatments below? 5 4 3 2 1 Extremely familiar Very familiar Somewhat familiar Slightly familiar Not at all familiar 1 Chemotherapy O O O O O 2 Mekinist (Trametinib) O O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination O O O O O 4 Avastin (Bevacizumab) O O O O O 5 Afinitor (Everolimus) O O O O O 6 Gomekli (mirdametinib) O O O O O 7 Tafinlar (Dabrafenib) O O O O O 8 Koselugo (Selumetinib) O O O O O 9 Ojemda (Tovorafenib) / DAY101 O O O O O 10 Radiation O O O O O",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "5",
+          "text": "How familiar are you with each of the treatments below?",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "Extremely familiar",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Chemotherapy",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Mekinist (Trametinib)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Avastin (Bevacizumab)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Gomekli (mirdametinib)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Tafinlar (Dabrafenib)",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Koselugo (Selumetinib)",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Ojemda (Tovorafenib) / DAY101",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Radiation",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 87
+      }
+    },
+    {
+      "id": "Q6",
+      "variable": "Q6",
+      "title": "Randomize, show row-by-row",
+      "text": "Q6 Randomize, show row-by-row Is your child currently using, or have they ever used, any of the following treatments for their pLGG? 4 3 2 1 My child is currently using this treatment My child has used this treatment in the past My child has never used this treatment, but we have considered using it My child has never used this treatment, and we have never considered using it 1 Chemotherapy O O O O 2 Mekinist (Trametinib) O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination O O O O 4 Avastin (Bevacizumab) O O O O 5 Afinitor (Everolimus) O O O O 6 Gomekli (mirdametinib) O O O O 7 Tafinlar (Dabrafenib) O O O O 8 Koselugo (Selumetinib) O O O O 9 Ojemda (Tovorafenib) / DAY101 O O O O 10 Radiation O O O O If more than one treatment is selected as “My child is currently using this treatment”, show a real-time warning “You have indicated that your child is currently using more than one treatment. Please confirm that this is indeed your intention or adjust your answer to proceed.”",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "4",
+          "text": "Is your child currently using, or have they ever used, any of the following treatments for their pLGG?",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "My child is currently using this treatment",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Chemotherapy",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Mekinist (Trametinib)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Afinitor (Everolimus)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Gomekli (mirdametinib)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Tafinlar (Dabrafenib)",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Koselugo (Selumetinib)",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Ojemda (Tovorafenib) / DAY101",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Radiation",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q6 Randomize, show row-by-row Is your child currently using, or have they ever used, any of the following treatments for their pLGG? 4 3 2 1 My child is currently using this treatment My child has used this treatment in the past My child has never used this treatment, but we have considered using it My child has never used this treatment, and we have never considered using it 1 Chemotherapy O O O O 2 Mekinist (Trametinib) O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination O O O O 4 Avastin (Bevacizumab) O O O O 5 Afinitor (Everolimus) O O O O 6 Gomekli (mirdametinib) O O O O 7 Tafinlar (Dabrafenib) O O O O 8 Koselugo (Selumetinib) O O O O 9 Ojemda (Tovorafenib) / DAY101 O O O O 10 Radiation O O O O If more than one treatment is selected as “My child is currently using this treatment”, show a real-time warning “You have indicated that your child is currently using more than one treatment. Please confirm that this is indeed your intention or adjust your answer to proceed.”",
+      "notes": null,
+      "metadata": {
+        "source_line": 170
+      }
+    },
+    {
+      "id": "Q7",
+      "variable": "Q7",
+      "title": "If any selected “currently using” in Q6",
+      "text": "Q7 If any selected “currently using” in Q6 How do you feel about your child’s current treatment? Please share some thoughts on why you feel that way. 5 O Satisfied: ___ OPENEND 4 O Somewhat satisfied: ___ OPENEND 3 O Neither satisfied nor dissatisfied: ___ OPENEND 2 O Somewhat dissatisfied: ___ OPENEND 1 O Dissatisfied: ___ OPENEND",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "5",
+          "text": "How do you feel about your child’s current treatment? Please share some thoughts on why you feel that way.",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Satisfied: ___ OPENEND",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Satisfied: ___ OPENEND",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Somewhat satisfied: ___ OPENEND",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Neither satisfied nor dissatisfied: ___ OPENEND",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "Somewhat dissatisfied: ___ OPENEND",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q7 If any selected “currently using” in Q6 How do you feel about your child’s current treatment? Please share some thoughts on why you feel that way. 5 O Satisfied: ___ OPENEND 4 O Somewhat satisfied: ___ OPENEND 3 O Neither satisfied nor dissatisfied: ___ OPENEND 2 O Somewhat dissatisfied: ___ OPENEND 1 O Dissatisfied: ___ OPENEND",
+      "notes": null,
+      "metadata": {
+        "source_line": 242
+      }
+    },
+    {
+      "id": "Q8",
+      "variable": "Q8",
+      "title": "Randomize, show row-by-row",
+      "text": "Q8 Randomize, show row-by-row What is your overall impression of each of the treatments below? 5 4 3 2 1 Very positive Somewhat positive Neither positive nor negative Somewhat negative Very negative 1 Chemotherapy If Q5.1≥2 O O O O O 2 Mekinist (Trametinib) If Q5.2≥2 O O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 O O O O O 4 Avastin (Bevacizumab) If Q5.4≥2 O O O O O 5 Afinitor (Everolimus) If Q5.5≥2 O O O O O 6 Gomekli (mirdametinib) If Q5.6≥2 O O O O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 O O O O O 8 Koselugo (Selumetinib) If Q5.8≥2 O O O O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 O O O O O 10 Radiation If Q5.10≥2 O O O O O",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "5",
+          "text": "What is your overall impression of each of the treatments below?",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "Very positive",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Chemotherapy If Q5.1≥2",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Mekinist (Trametinib) If Q5.2≥2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Avastin (Bevacizumab) If Q5.4≥2",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Gomekli (mirdametinib) If Q5.6≥2",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Tafinlar (Dabrafenib) If Q5.7≥2",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Koselugo (Selumetinib) If Q5.8≥2",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Ojemda (Tovorafenib) / DAY101 If Q5.9≥2",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Radiation If Q5.10≥2",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q8 Randomize, show row-by-row What is your overall impression of each of the treatments below? 5 4 3 2 1 Very positive Somewhat positive Neither positive nor negative Somewhat negative Very negative 1 Chemotherapy If Q5.1≥2 O O O O O 2 Mekinist (Trametinib) If Q5.2≥2 O O O O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 O O O O O 4 Avastin (Bevacizumab) If Q5.4≥2 O O O O O 5 Afinitor (Everolimus) If Q5.5≥2 O O O O O 6 Gomekli (mirdametinib) If Q5.6≥2 O O O O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 O O O O O 8 Koselugo (Selumetinib) If Q5.8≥2 O O O O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 O O O O O 10 Radiation If Q5.10≥2 O O O O O",
+      "notes": null,
+      "metadata": {
+        "source_line": 260
+      }
+    },
+    {
+      "id": "Q8A",
+      "variable": "Q8A",
+      "title": "Only show products selected as ‘5 - Very positive’ in Q8, show one row at a time",
+      "text": "Q8a Only show products selected as ‘5 - Very positive’ in Q8, show one row at a time You have indicated a very positive overall impression of the following treatment(s). Please briefly explain the reasons for each: # Why did you have a very positive overall impression of insert ? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 343
+      }
+    },
+    {
+      "id": "Q8B",
+      "variable": "Q8B",
+      "title": "Only show products selected as ‘1 - Very negative’ in Q8, show one row at a time",
+      "text": "Q8b Only show products selected as ‘1 - Very negative’ in Q8, show one row at a time You have indicated a very negative overall impression of the following treatment(s). Please briefly explain the reasons for each: # Why did you have a very negative overall impression of insert ? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 349
+      }
+    },
+    {
+      "id": "Q9",
+      "variable": "Q9",
+      "title": "Randomize",
+      "text": "Q9 Randomize If your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today? 1 ☐ Chemotherapy If Q6.1=1/2 2 ☐ Mekinist (Trametinib) If Q6.2=1/2 3 ☐ Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2 4 ☐ Avastin (Bevacizumab) If Q6.4=1/2 5 ☐ Afinitor (Everolimus) If Q6.5=1/2 6 ☐ Gomekli (mirdametinib) If Q6.6=1/2 7 ☐ Tafinlar (Dabrafenib) If Q6.7=1/2 8 ☐ Koselugo (Selumetinib) If Q6.8=1/2 9 ☐ Ojemda (Tovorafenib) / DAY101 If Q6.9=1/2 10 ☐ Radiation If Q6.10=1/2 Please share with us a little about why you would consider any of the treatments you select. If any treatment is selected above ___ OPENEND",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "If your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Chemotherapy If Q6.1=1/2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Mekinist (Trametinib) If Q6.2=1/2",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Avastin (Bevacizumab) If Q6.4=1/2",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Afinitor (Everolimus) If Q6.5=1/2",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Gomekli (mirdametinib) If Q6.6=1/2",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Tafinlar (Dabrafenib) If Q6.7=1/2",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Koselugo (Selumetinib) If Q6.8=1/2",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Ojemda (Tovorafenib) / DAY101 If Q6.9=1/2",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q9 Randomize If your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today? 1 ☐ Chemotherapy If Q6.1=1/2 2 ☐ Mekinist (Trametinib) If Q6.2=1/2 3 ☐ Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2 4 ☐ Avastin (Bevacizumab) If Q6.4=1/2 5 ☐ Afinitor (Everolimus) If Q6.5=1/2 6 ☐ Gomekli (mirdametinib) If Q6.6=1/2 7 ☐ Tafinlar (Dabrafenib) If Q6.7=1/2 8 ☐ Koselugo (Selumetinib) If Q6.8=1/2 9 ☐ Ojemda (Tovorafenib) / DAY101 If Q6.9=1/2 10 ☐ Radiation If Q6.10=1/2 Please share with us a little about why you would consider any of the treatments you select. If any treatment is selected above ___ OPENEND",
+      "notes": null,
+      "metadata": {
+        "source_line": 355
+      }
+    },
+    {
+      "id": "Q10",
+      "variable": "Q10",
+      "title": "Show row-by-row",
+      "text": "Q10 Show row-by-row What concerns, if any, do you have about the following treatments? None Not Sure 1 Chemotherapy If Q5.1≥2 ___ open-end O O 2 Mekinist (Trametinib) If Q5.2≥2 ___ open-end O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 ___ open-end O O 4 Avastin (Bevacizumab) If Q5.4≥2 ___ open-end O O 5 Afinitor (Everolimus) If Q5.5≥2 ___ open-end O O 6 Gomekli (mirdametinib) If Q5.6≥2 ___ open-end O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 ___ open-end O O 8 Koselugo (Selumetinib) If Q5.8≥2 ___ open-end O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 ___ open-end O O 10 Radiation If Q5.10≥2 ___ open-end O O",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not Sure",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "___ open-end",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Mekinist (Trametinib) If Q5.2≥2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Avastin (Bevacizumab) If Q5.4≥2",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Afinitor (Everolimus) If Q5.5≥2",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Gomekli (mirdametinib) If Q5.6≥2",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Tafinlar (Dabrafenib) If Q5.7≥2",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Koselugo (Selumetinib) If Q5.8≥2",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Ojemda (Tovorafenib) / DAY101 If Q5.9≥2",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Radiation If Q5.10≥2",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q10 Show row-by-row What concerns, if any, do you have about the following treatments? None Not Sure 1 Chemotherapy If Q5.1≥2 ___ open-end O O 2 Mekinist (Trametinib) If Q5.2≥2 ___ open-end O O 3 Tafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2 ___ open-end O O 4 Avastin (Bevacizumab) If Q5.4≥2 ___ open-end O O 5 Afinitor (Everolimus) If Q5.5≥2 ___ open-end O O 6 Gomekli (mirdametinib) If Q5.6≥2 ___ open-end O O 7 Tafinlar (Dabrafenib) If Q5.7≥2 ___ open-end O O 8 Koselugo (Selumetinib) If Q5.8≥2 ___ open-end O O 9 Ojemda (Tovorafenib) / DAY101 If Q5.9≥2 ___ open-end O O 10 Radiation If Q5.10≥2 ___ open-end O O",
+      "notes": null,
+      "metadata": {
+        "source_line": 390
+      }
+    },
+    {
+      "id": "Q11",
+      "variable": "Q11",
+      "title": "Randomize, group 4a/4b, anchor 8-10",
+      "text": "Q11 Randomize, group 4a/4b, anchor 8-10 How, if at all, has advice from other caregivers in-person or online influenced your pLGG treatment decisions? Please select all that apply. 1 ☐ Gave me new or better questions to ask the doctor 2 ☐ Helped me feel less alone in the process 3 ☐ Made me more confident to ask doctors about pLGG treatments 4a ☐ Made me feel more confident in decisions I was already considering 4b ☐ Made me feel less confident in decisions I was already considering 5 ☐ Introduced me to new pLGG treatment options or clinical trials 6 ☐ It influenced where I took my child for care (e.g., which doctor or hospital I chose) 7 ☐ Made decision-making more confusing or overwhelming 8 O Had little or no influence on our pLGG treatment decisions excl 9 O I have not received or seen advice from other caregivers excl 10 O I don't know how to connect with other caregivers of children living with pLGG excl",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select all that apply.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Gave me new or better questions to ask the doctor",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Helped me feel less alone in the process",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Made me feel less confident in decisions I was already considering",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Introduced me to new pLGG treatment options or clinical trials",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "It influenced where I took my child for care (e.g., which doctor or hospital I chose)",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Made decision-making more confusing or overwhelming",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Had little or no influence on our pLGG treatment decisions excl",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Had little or no influence on our pLGG treatment decisions excl",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "I have not received or seen advice from other caregivers excl",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q11 Randomize, group 4a/4b, anchor 8-10 How, if at all, has advice from other caregivers in-person or online influenced your pLGG treatment decisions? Please select all that apply. 1 ☐ Gave me new or better questions to ask the doctor 2 ☐ Helped me feel less alone in the process 3 ☐ Made me more confident to ask doctors about pLGG treatments 4a ☐ Made me feel more confident in decisions I was already considering 4b ☐ Made me feel less confident in decisions I was already considering 5 ☐ Introduced me to new pLGG treatment options or clinical trials 6 ☐ It influenced where I took my child for care (e.g., which doctor or hospital I chose) 7 ☐ Made decision-making more confusing or overwhelming 8 O Had little or no influence on our pLGG treatment decisions excl 9 O I have not received or seen advice from other caregivers excl 10 O I don't know how to connect with other caregivers of children living with pLGG excl",
+      "notes": null,
+      "metadata": {
+        "source_line": 445
+      }
+    },
+    {
+      "id": "Q27",
+      "variable": "Q27",
+      "title": "Thinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way.",
+      "text": "Q27 Thinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way. 5 O Very prepared 4 O Somewhat prepared 3 O Neither prepared nor unprepared 2 O Somewhat unprepared 1 O Very unprepared Please share why you feel that way: ___ OPENEND",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "5",
+          "text": "Thinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way.",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Very prepared",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Very prepared",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Somewhat prepared",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Neither prepared nor unprepared",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "Somewhat unprepared",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 482
+      }
+    },
+    {
+      "id": "Q28",
+      "variable": "Q28",
+      "title": "Randomize, anchor 10-11",
+      "text": "Q28 Randomize, anchor 10-11 Which of the following, if any, do you typically do to prepare for appointments with your child’s care team? Please select all that apply. 1 ☐ Write down questions I want to ask 2 ☐ Review notes, test results, MRI results, or care instructions 3 ☐ Keep track of symptoms, side effects, or changes I want to discuss 4 ☐ Research pLGG or treatment options 5 ☐ Look for information from patient advocacy or support organizations 6 ☐ Talk to other parents or caregivers 7 ☐ Talk with my child or other family members about what we want to ask 8 ☐ Look for information about insurance coverage, cost, or patient support 9 ☐ Bring or save information I found online to discuss with the care team 10 ☐ Something else:___ open-end 11 O I do not usually prepare in advance excl",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select all that apply.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Write down questions I want to ask",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Review notes, test results, MRI results, or care instructions",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Keep track of symptoms, side effects, or changes I want to discuss",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Research pLGG or treatment options",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Look for information from patient advocacy or support organizations",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Talk to other parents or caregivers",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Talk with my child or other family members about what we want to ask",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Look for information about insurance coverage, cost, or patient support",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Bring or save information I found online to discuss with the care team",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Something else:___ open-end",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "I do not usually prepare in advance excl",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q28 Randomize, anchor 10-11 Which of the following, if any, do you typically do to prepare for appointments with your child’s care team? Please select all that apply. 1 ☐ Write down questions I want to ask 2 ☐ Review notes, test results, MRI results, or care instructions 3 ☐ Keep track of symptoms, side effects, or changes I want to discuss 4 ☐ Research pLGG or treatment options 5 ☐ Look for information from patient advocacy or support organizations 6 ☐ Talk to other parents or caregivers 7 ☐ Talk with my child or other family members about what we want to ask 8 ☐ Look for information about insurance coverage, cost, or patient support 9 ☐ Bring or save information I found online to discuss with the care team 10 ☐ Something else:___ open-end 11 O I do not usually prepare in advance excl",
+      "notes": null,
+      "metadata": {
+        "source_line": 501
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": "Q12",
+      "title": "Anchor rows, randomize the list within row 1 and row 3",
+      "text": "Q12 Anchor rows, randomize the list within row 1 and row 3 Which of the following feelings best describe the last experience you had discussing pLGG treatments with your child’s doctor? Please select all that apply. ☐ Hopeful ☐ Confident ☐ Supported ☐ Understood ☐ Reassured ☐ Neutral or Indifferent ☐ Confused ☐ Anxious ☐ Sad ☐ Angry ☐ Frustrated ☐ Discouraged ☐ Overwhelmed O I did not feel any of these emotions excl",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 538
+      }
+    },
+    {
+      "id": "Q13",
+      "variable": "Q13",
+      "title": "Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went.",
+      "text": "Q13 Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went. 1 O I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND 2 O I wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND 3 O I have never wanted to ask my child’s doctor about a pLGG treatment, because ___ OPENEND",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q13 Think about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went. 1 O I asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND 2 O I wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND 3 O I have never wanted to ask my child’s doctor about a pLGG treatment, because ___ OPENEND",
+      "notes": null,
+      "metadata": {
+        "source_line": 545
+      }
+    },
+    {
+      "id": "Q14",
+      "variable": "Q14",
+      "title": "Show col-by-col",
+      "text": "Q14 Show col-by-col How comfortable are you with bringing up a specific pLGG treatment for discussion with your child’s doctor(s) and/or requesting your doctor to prescribe a specific pLGG treatment to your child? 1 2 Bringing up a pLGG treatment for discussion Asking my child’s doctor to prescribe a specific pLGG treatment 5 Comfortable O O 4 Somewhat comfortable O O 3 Neither comfortable nor uncomfortable O O 2 Somewhat uncomfortable O O 1 Uncomfortable O O",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "How comfortable are you with bringing up a specific pLGG treatment for discussion with your child’s doctor(s) and/or requesting your doctor to prescribe a specific pLGG treatment to your child?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Bringing up a pLGG treatment for discussion",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Asking my child’s doctor to prescribe a specific pLGG treatment",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Comfortable",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat comfortable",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neither comfortable nor uncomfortable",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 556
+      }
+    },
+    {
+      "id": "Q15",
+      "variable": "Q15",
+      "title": "If Q14.c1<5, Randomize, anchor 6-7",
+      "text": "Q15 If Q14.c1<5, Randomize, anchor 6-7 What would make you feel more comfortable discussing specific pLGG treatments with your child’s doctor? Please select all that apply. 1 ☐ Guides explaining treatment options 2 ☐ Personal stories from other caregivers 3 ☐ Checklist of questions to ask during appointments 4 ☐ Videos or webinars with pLGG experts pediatric oncology experts and other caregivers 5 ☐ Access to support groups or mentors 6 ☐ Something else (please share what would make you feel more comfortable):___ open-end 7 O I don't feel comfortable discussing specific treatments excl AAU (Ojemda Questions) _",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select all that apply.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Guides explaining treatment options",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Personal stories from other caregivers",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Checklist of questions to ask during appointments",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Videos or webinars with pLGG experts pediatric oncology experts and other caregivers",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Access to support groups or mentors",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Something else (please share what would make you feel more comfortable):___ open-end",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "I don't feel comfortable discussing specific treatments excl",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q15 If Q14.c1<5, Randomize, anchor 6-7 What would make you feel more comfortable discussing specific pLGG treatments with your child’s doctor? Please select all that apply. 1 ☐ Guides explaining treatment options 2 ☐ Personal stories from other caregivers 3 ☐ Checklist of questions to ask during appointments 4 ☐ Videos or webinars with pLGG experts pediatric oncology experts and other caregivers 5 ☐ Access to support groups or mentors 6 ☐ Something else (please share what would make you feel more comfortable):___ open-end 7 O I don't feel comfortable discussing specific treatments excl AAU (Ojemda Questions) _",
+      "notes": null,
+      "metadata": {
+        "source_line": 583
+      }
+    },
+    {
+      "id": "Q16",
+      "variable": "Q16",
+      "title": "if Q5.r9≥2, Randomize, anchor 11",
+      "text": "Q16 if Q5.r9≥2, Randomize, anchor 11 You said you are Q5.r9 with OJEMDA (Tovorafenib) / DAY101. Where have you seen or heard information about OJEMDA (Tovorafenib) / DAY101 before? Please select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101. 1 ☐ Social media advertisements 2 ☐ Non-Profit Parent Support Groups 3 ☐ Social media private groups 4 ☐ Health websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.) 12 ☐ Doctor's office 5 ☐ Oncologist / Neuro-Oncologist 6 ☐ Oncology nurse 7 ☐ News program / article 8 ☐ Family and/or friends 9 ☐ Another parent or caregiver 10 ☐ Pharmacy/Pharmacist 11 ☐ Something else (please explain):___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Social media advertisements",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Non-Profit Parent Support Groups",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Social media private groups",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Health websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.)",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Doctor's office",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Oncologist / Neuro-Oncologist",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Oncology nurse",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "News program / article",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Family and/or friends",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Another parent or caregiver",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Pharmacy/Pharmacist",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q16 if Q5.r9≥2, Randomize, anchor 11 You said you are Q5.r9 with OJEMDA (Tovorafenib) / DAY101. Where have you seen or heard information about OJEMDA (Tovorafenib) / DAY101 before? Please select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101. 1 ☐ Social media advertisements 2 ☐ Non-Profit Parent Support Groups 3 ☐ Social media private groups 4 ☐ Health websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.) 12 ☐ Doctor's office 5 ☐ Oncologist / Neuro-Oncologist 6 ☐ Oncology nurse 7 ☐ News program / article 8 ☐ Family and/or friends 9 ☐ Another parent or caregiver 10 ☐ Pharmacy/Pharmacist 11 ☐ Something else (please explain):___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 609
+      }
+    },
+    {
+      "id": "Q17",
+      "variable": "Q17",
+      "title": "if Q5.r9≥2",
+      "text": "Q17 if Q5.r9≥2 Where do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101? 1 O Insert answers selected in Q16, same order … O ……",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Where do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Insert answers selected in Q16, same order",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q17 if Q5.r9≥2 Where do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101? 1 O Insert answers selected in Q16, same order … O ……",
+      "notes": null,
+      "metadata": {
+        "source_line": 650
+      }
+    },
+    {
+      "id": "Q18",
+      "variable": "Q18",
+      "title": "if Q5.r9≥2",
+      "text": "Q18 if Q5.r9≥2 Have you been given any materials or resources about OJEMDA by doctors, nurses or pharmacists? If yes, what were you given? 1 ☐ Yes, I received the following from my child’s doctor(s):___ open-end 4 ☐ Yes, I received the following from the nurse:___ open-end 2 ☐ Yes, I received the following from the pharmacy / pharmacist:___ open-end 3 O No, I have not been given any OJEMDA-related materials by doctors or pharmacists excl",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "If yes, what were you given?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Yes, I received the following from my child’s doctor(s):___ open-end",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Yes, I received the following from the nurse:___ open-end",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Yes, I received the following from the pharmacy / pharmacist:___ open-end",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "No, I have not been given any OJEMDA-related materials by doctors or pharmacists excl",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q18 if Q5.r9≥2 Have you been given any materials or resources about OJEMDA by doctors, nurses or pharmacists? If yes, what were you given? 1 ☐ Yes, I received the following from my child’s doctor(s):___ open-end 4 ☐ Yes, I received the following from the nurse:___ open-end 2 ☐ Yes, I received the following from the pharmacy / pharmacist:___ open-end 3 O No, I have not been given any OJEMDA-related materials by doctors or pharmacists excl",
+      "notes": null,
+      "metadata": {
+        "source_line": 659
+      }
+    },
+    {
+      "id": "Q19A",
+      "variable": "Q19A",
+      "title": "if Q5.r9≥2",
+      "text": "Q19a if Q5.r9≥2 What is the first thing that comes to mind when you think about OJEMDA? Please share anything you’ve read, heard, or think – no need to look anything up! ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q19a if Q5.r9≥2 What is the first thing that comes to mind when you think about OJEMDA? Please share anything you’ve read, heard, or think – no need to look anything up! ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 675
+      }
+    },
+    {
+      "id": "Q19",
+      "variable": "Q19",
+      "title": "if Q5.r9≥2, Randomize, show row by row",
+      "text": "Q19 if Q5.r9≥2, Randomize, show row by row What do you know about OJEMDA (Tovorafenib) / DAY 101 when it comes to each of the topics below? Please share anything you’ve read, heard, or think – no need to look anything up! 1 What do you know about how well OJEMDA works? ___ open-end 2 What do you know about OJEMDA side effects? ___ open-end 3 What do you know about how you take OJEMDA? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please share anything you’ve read, heard, or think – no need to look anything up!",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "___ open-end",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "___ open-end",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q19 if Q5.r9≥2, Randomize, show row by row What do you know about OJEMDA (Tovorafenib) / DAY 101 when it comes to each of the topics below? Please share anything you’ve read, heard, or think – no need to look anything up! 1 What do you know about how well OJEMDA works? ___ open-end 2 What do you know about OJEMDA side effects? ___ open-end 3 What do you know about how you take OJEMDA? ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 680
+      }
+    },
+    {
+      "id": "Q20",
+      "variable": "Q20",
+      "title": "if Q5.r9≥2",
+      "text": "Q20 if Q5.r9≥2 What questions do you have about OJEMDA? Please share anything you’re curious about or would need to know before you might consider it for your child. ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q20 if Q5.r9≥2 What questions do you have about OJEMDA? Please share anything you’re curious about or would need to know before you might consider it for your child. ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 693
+      }
+    },
+    {
+      "id": "Q21",
+      "variable": "Q21",
+      "title": "if Q5.r9≥2",
+      "text": "Q21 if Q5.r9≥2 Based on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer. 5 O OJEMDA is much better: ___ OPENEND 4 O OJEMDA is somewhat better: ___ OPENEND 3 O No difference: ___ OPENEND 2 O OJEMDA is somewhat worse: ___ OPENEND 1 O OJEMDA is much worse: ___ OPENEND",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "5",
+          "text": "Based on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer.",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "OJEMDA is much better: ___ OPENEND",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "OJEMDA is much better: ___ OPENEND",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "OJEMDA is somewhat better: ___ OPENEND",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "No difference: ___ OPENEND",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "OJEMDA is somewhat worse: ___ OPENEND",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q21 if Q5.r9≥2 Based on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer. 5 O OJEMDA is much better: ___ OPENEND 4 O OJEMDA is somewhat better: ___ OPENEND 3 O No difference: ___ OPENEND 2 O OJEMDA is somewhat worse: ___ OPENEND 1 O OJEMDA is much worse: ___ OPENEND",
+      "notes": null,
+      "metadata": {
+        "source_line": 697
+      }
+    },
+    {
+      "id": "Q22",
+      "variable": "Q22",
+      "title": "If Q6.9=1/2, Randomize, anchor 8-10",
+      "text": "Q22 If Q6.9=1/2, Randomize, anchor 8-10 Since first learning about OJEMDA (Tovorafenib) / DAY101, have you done any of the following? Please select all that apply. 1 ☐ Researched more information about this treatment online 2 ☐ Spoke to other caregivers about their experience with this treatment 3 ☐ Asked about the treatment with my child’s oncologist(s) or oncology nurse(s) 4 ☐ Plan to discuss this treatment with my child’s care team 5 ☐ Checked my insurance policy for coverage or out-of-pocket costs with this treatment 6 ☐ Switched my child to this treatment 7 ☐ Added this to the list of treatments I may consider for my child in the future 8 O Decided not to pursue this medication any further excl 9 ☐ Something else (please explain):___ open-end 10 O Have not taken any additional actions since learning about this medication excl",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select all that apply.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Researched more information about this treatment online",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Spoke to other caregivers about their experience with this treatment",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Asked about the treatment with my child’s oncologist(s) or oncology nurse(s)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Plan to discuss this treatment with my child’s care team",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Checked my insurance policy for coverage or out-of-pocket costs with this treatment",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Switched my child to this treatment",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Added this to the list of treatments I may consider for my child in the future",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Decided not to pursue this medication any further excl",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Decided not to pursue this medication any further excl",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Something else (please explain):___ open-end",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q22 If Q6.9=1/2, Randomize, anchor 8-10 Since first learning about OJEMDA (Tovorafenib) / DAY101, have you done any of the following? Please select all that apply. 1 ☐ Researched more information about this treatment online 2 ☐ Spoke to other caregivers about their experience with this treatment 3 ☐ Asked about the treatment with my child’s oncologist(s) or oncology nurse(s) 4 ☐ Plan to discuss this treatment with my child’s care team 5 ☐ Checked my insurance policy for coverage or out-of-pocket costs with this treatment 6 ☐ Switched my child to this treatment 7 ☐ Added this to the list of treatments I may consider for my child in the future 8 O Decided not to pursue this medication any further excl 9 ☐ Something else (please explain):___ open-end 10 O Have not taken any additional actions since learning about this medication excl",
+      "notes": null,
+      "metadata": {
+        "source_line": 715
+      }
+    },
+    {
+      "id": "Q23",
+      "variable": "Q23",
+      "title": "if Q22=8",
+      "text": "Q23 if Q22=8 You said you decided not to pursue OJEMDA (tovorafenib) / DAY101 any further. What made you uninterested in using OJEMDA with your child? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q23 if Q22=8 You said you decided not to pursue OJEMDA (tovorafenib) / DAY101 any further. What made you uninterested in using OJEMDA with your child? ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 749
+      }
+    },
+    {
+      "id": "Q23A",
+      "variable": "Q23A",
+      "title": "if “Nothing is stopping me” not selected in Q23",
+      "text": "Q23A if “Nothing is stopping me” not selected in Q23 Which one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)? 1 O Insert answers selected in Q23, same order … O …… Why is this the biggest reason? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Which one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Insert answers selected in Q23, same order",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q23A if “Nothing is stopping me” not selected in Q23 Which one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)? 1 O Insert answers selected in Q23, same order … O …… Why is this the biggest reason? ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 793
+      }
+    },
+    {
+      "id": "Q31",
+      "variable": "Q31",
+      "title": "if Q6.9=3/4 OR Q22=6",
+      "text": "Q31 if Q6.9=3/4 OR Q22=6 You said you decided to pursue OJEMDA (tovorafenib), what were the drivers of pursuing OJEMDA instead of another option? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q31 if Q6.9=3/4 OR Q22=6 You said you decided to pursue OJEMDA (tovorafenib), what were the drivers of pursuing OJEMDA instead of another option? ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 804
+      }
+    },
+    {
+      "id": "Q24",
+      "variable": "Q24",
+      "title": "if Q22=3,4,6 OR Q6.9=2/3",
+      "text": "Q24 if Q22=3,4,6 OR Q6.9=2/3 When you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion? 1 O I initially brought up OJEMDA / DAY101. We discussed the following: ___ open-end 2 O My child’s care team initially brought up OJEMDA / DAY101. We discussed the following:___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "When you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion?",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "I initially brought up OJEMDA / DAY101.",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "We discussed the following: ___ open-end",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q24 if Q22=3,4,6 OR Q6.9=2/3 When you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion? 1 O I initially brought up OJEMDA / DAY101. We discussed the following: ___ open-end 2 O My child’s care team initially brought up OJEMDA / DAY101. We discussed the following:___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 808
+      }
+    },
+    {
+      "id": "Q32",
+      "variable": "Q32",
+      "title": "if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10",
+      "text": "Q32 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10 What, if anything, has kept you from asking about OJEMDA (tovorafenib)? Please select all that apply. 1 ☐ I need more information about OJEMDA 2 ☐ I am not sure whether my child may be eligible for OJEMDA 3 ☐ I am concerned about possible side effects 4 ☐ I need more information about how OJEMDA compares with other treatments 5 ☐ I need more information about insurance coverage or cost 6 ☐ My child’s doctor has not brought it up 7 ☐ I am satisfied with my child’s current treatment plan 8 ☐ It does not feel like the right time to discuss a new treatment 9 ☐ I am not sure how to bring it up without seeming pushy 10 ☐ Something else:___ open-end",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select all that apply.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I need more information about OJEMDA",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I am not sure whether my child may be eligible for OJEMDA",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "I am concerned about possible side effects",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I need more information about how OJEMDA compares with other treatments",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "I need more information about insurance coverage or cost",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "My child’s doctor has not brought it up",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "I am satisfied with my child’s current treatment plan",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "It does not feel like the right time to discuss a new treatment",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "I am not sure how to bring it up without seeming pushy",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q32 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10 What, if anything, has kept you from asking about OJEMDA (tovorafenib)? Please select all that apply. 1 ☐ I need more information about OJEMDA 2 ☐ I am not sure whether my child may be eligible for OJEMDA 3 ☐ I am concerned about possible side effects 4 ☐ I need more information about how OJEMDA compares with other treatments 5 ☐ I need more information about insurance coverage or cost 6 ☐ My child’s doctor has not brought it up 7 ☐ I am satisfied with my child’s current treatment plan 8 ☐ It does not feel like the right time to discuss a new treatment 9 ☐ I am not sure how to bring it up without seeming pushy 10 ☐ Something else:___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 819
+      }
+    },
+    {
+      "id": "Q33",
+      "variable": "Q33",
+      "title": "if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9",
+      "text": "Q33 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9 What would be most likely to make you ask your child’s care team about OJEMDA (tovorafenib) at a future appointment? Please select up to three. 1 ☐ My child’s doctor or nurse bringing it up first 2 ☐ Clearer information about whether my child may be eligible 3 ☐ More information about how well OJEMDA works 4 ☐ More information about side effects and how they may be managed 5 ☐ A checklist of questions to bring to the appointment 6 ☐ A discussion guide that helps me start the conversation 7 ☐ Stories from other families who have experience with OJEMDA 8 ☐ Information about insurance coverage, cost, or patient support 9 ☐ Something else:___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Please select up to three.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "My child’s doctor or nurse bringing it up first",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Clearer information about whether my child may be eligible",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "More information about how well OJEMDA works",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "More information about side effects and how they may be managed",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "A checklist of questions to bring to the appointment",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "A discussion guide that helps me start the conversation",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Stories from other families who have experience with OJEMDA",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Information about insurance coverage, cost, or patient support",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q33 if OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9 What would be most likely to make you ask your child’s care team about OJEMDA (tovorafenib) at a future appointment? Please select up to three. 1 ☐ My child’s doctor or nurse bringing it up first 2 ☐ Clearer information about whether my child may be eligible 3 ☐ More information about how well OJEMDA works 4 ☐ More information about side effects and how they may be managed 5 ☐ A checklist of questions to bring to the appointment 6 ☐ A discussion guide that helps me start the conversation 7 ☐ Stories from other families who have experience with OJEMDA 8 ☐ Information about insurance coverage, cost, or patient support 9 ☐ Something else:___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 853
+      }
+    },
+    {
+      "id": "Q25",
+      "variable": "Q25",
+      "title": "if Q6.9=3/4 OR Q22=6",
+      "text": "Q25 if Q6.9=3/4 OR Q22=6 How would you describe your child’s experience with OJEMDA (Tovorafenib) / DAY101? ___ open-end",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q25 if Q6.9=3/4 OR Q22=6 How would you describe your child’s experience with OJEMDA (Tovorafenib) / DAY101? ___ open-end",
+      "notes": null,
+      "metadata": {
+        "source_line": 884
+      }
+    },
+    {
+      "id": "Q26",
+      "variable": "Q26",
+      "title": "if Q6.9=1/2",
+      "text": "Q26 if Q6.9=1/2 If your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why. 5 O Very likely: ___ OPENEND 4 O Somewhat likely: ___ OPENEND 3 O Neither likely nor unlikely: ___ OPENEND 2 O Somewhat unlikely: ___ OPENEND 1 O Very unlikely: ___ OPENEND Wrap Up _",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "5",
+          "text": "If your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why.",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Very likely: ___ OPENEND",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Very likely: ___ OPENEND",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Somewhat likely: ___ OPENEND",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Neither likely nor unlikely: ___ OPENEND",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "1",
+          "text": "Somewhat unlikely: ___ OPENEND",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q26 if Q6.9=1/2 If your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why. 5 O Very likely: ___ OPENEND 4 O Somewhat likely: ___ OPENEND 3 O Neither likely nor unlikely: ___ OPENEND 2 O Somewhat unlikely: ___ OPENEND 1 O Very unlikely: ___ OPENEND Wrap Up _",
+      "notes": null,
+      "metadata": {
+        "source_line": 888
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "(V3_R98390) Caregiver AAU_Q2 2026 wave_v2 for Programming v2 (1).docx",
+  "source_format": "docx",
+  "source_text": "CAREGIVER AAU (Q2 2026 Wave)\nPrepared by Michael Allen Company\nMay 2026\nProgrammer Notes\nEdits / New questions\n6/1/2026 edit\nAudience:\nCaregivers of pediatric patients with pLGG in US\nQuota:\nAim for N=35-50 per wave\nGeneral Instructions:\nDo not show section headers\nMerge files between waves\n_INTRO_ Display on one screen\nTITLE\npLGG Treatments Today\nDESCRIPTION\nHello there, thank you for participating in this activity! We greatly appreciate your feedback. Please know that by sharing your opinions, you are helping to shape the future of pediatric low-grade glioma (pLGG) care and treatment.\nToday, we have some questions for the pLGG community around awareness of current pLGG treatment options.\nQ1\nHello! Thank you for participating in this activity. Today, we are asking about your experiences and thoughts regarding pLGG treatments. Please know that everything you share here today will be used for pLGG market research purposes only, and will never be shared publicly – your privacy is our priority!\nWe greatly appreciate your valuable and honest feedback – after completion of this survey activity, we will follow up in the coming weeks with your $35 honoraria. Click below to continue to the first question!\n1\nO\nContinue\nAAU (Main Questions)_\nQ2\nDoes your child’s pediatric low-grade glioma (pLGG) have a BRAF V600 mutation or BRAF fusion/rearrangement?\n1\nO\nYes\n2\nO\nNo\n3\nO\nI’m not sure\nQ3\nRange 0-30\nHow old is the child with pLGG that you care for? Please enter your child’s age in years, rounding to the nearest whole number.\nThe child with pLGG I care for is ____# of years\nQ3A\nWhich of the following best describes where your child is currently in their pLGG care journey?\nPlease select one.\n1\nO\nRecently diagnosed and discussing first treatment options\n2\nO\nCurrently receiving first treatment\n3\nO\nFinished 1st treatment and currently being monitored\n4\nO\nExperiencing tumor growth, recurrence, or progression and discussing next treatment options\n5\nO\nCurrently receiving second-line or later treatment\n6\nO\nFinished 2L+ treatment and currently being monitored\n7\nO\nNot sure / prefer not to say\nQ4\nOE validations (at least 2 characters for each answer, first row is mandatory)\nTo begin, when you think of all the treatments for pediatric low-grade glioma (pLGG), which ones come to mind? You can write in as many as you can think of – no need to look anything up! And, don’t worry about spelling, we know these drug names are difficult.\n1\n______ Open end\n2\n______ Open end\n3\n______ Open end\n4\n______ Open end\n5\n______ Open end\n6\n______ Open end\n7\n______ Open end\n8\n______ Open end\n9\n______ Open end\nQ5\nRandomize, show one row at a time\nHow familiar are you with each of the treatments below?\n5\n4\n3\n2\n1\nExtremely familiar\nVery familiar\nSomewhat familiar\nSlightly familiar\nNot at all familiar\n1\nChemotherapy\nO\nO\nO\nO\nO\n2\nMekinist (Trametinib)\nO\nO\nO\nO\nO\n3\nTafinlar + Mekinist (Dabrafenib + Trametinib) combination\nO\nO\nO\nO\nO\n4\nAvastin (Bevacizumab)\nO\nO\nO\nO\nO\n5\nAfinitor (Everolimus)\nO\nO\nO\nO\nO\n6\nGomekli (mirdametinib)\nO\nO\nO\nO\nO\n7\nTafinlar (Dabrafenib)\nO\nO\nO\nO\nO\n8\nKoselugo (Selumetinib)\nO\nO\nO\nO\nO\n9\nOjemda (Tovorafenib) / DAY101\nO\nO\nO\nO\nO\n10\nRadiation\nO\nO\nO\nO\nO\nQ6\nRandomize, show row-by-row\nIs your child currently using, or have they ever used, any of the following treatments for their pLGG?\n4\n3\n2\n1\nMy child is currently using this treatment\nMy child has used this treatment in the past\nMy child has never used this treatment, but we have considered using it\nMy child has never used this treatment, and we have never considered using it\n1\nChemotherapy\nO\nO\nO\nO\n2\nMekinist (Trametinib)\nO\nO\nO\nO\n3\nTafinlar + Mekinist (Dabrafenib + Trametinib) combination\nO\nO\nO\nO\n4\nAvastin (Bevacizumab)\nO\nO\nO\nO\n5\nAfinitor (Everolimus)\nO\nO\nO\nO\n6\nGomekli (mirdametinib)\nO\nO\nO\nO\n7\nTafinlar (Dabrafenib)\nO\nO\nO\nO\n8\nKoselugo (Selumetinib)\nO\nO\nO\nO\n9\nOjemda (Tovorafenib) / DAY101\nO\nO\nO\nO\n10\nRadiation\nO\nO\nO\nO\nIf more than one treatment is selected as “My child is currently using this treatment”, show a real-time warning “You have indicated that your child is currently using more than one treatment. Please confirm that this is indeed your intention or adjust your answer to proceed.”\nQ7\nIf any selected “currently using” in Q6\nHow do you feel about your child’s current treatment? Please share some thoughts on why you feel that way.\n5\nO\nSatisfied: ___ OPENEND\n4\nO\nSomewhat satisfied: ___ OPENEND\n3\nO\nNeither satisfied nor dissatisfied: ___ OPENEND\n2\nO\nSomewhat dissatisfied: ___ OPENEND\n1\nO\nDissatisfied: ___ OPENEND\nQ8\nRandomize, show row-by-row\nWhat is your overall impression of each of the treatments below?\n5\n4\n3\n2\n1\nVery positive\nSomewhat positive\nNeither positive nor negative\nSomewhat negative\nVery negative\n1\nChemotherapy If Q5.1≥2\nO\nO\nO\nO\nO\n2\nMekinist (Trametinib) If Q5.2≥2\nO\nO\nO\nO\nO\n3\nTafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2\nO\nO\nO\nO\nO\n4\nAvastin (Bevacizumab) If Q5.4≥2\nO\nO\nO\nO\nO\n5\nAfinitor (Everolimus) If Q5.5≥2\nO\nO\nO\nO\nO\n6\nGomekli (mirdametinib) If Q5.6≥2\nO\nO\nO\nO\nO\n7\nTafinlar (Dabrafenib) If Q5.7≥2\nO\nO\nO\nO\nO\n8\nKoselugo (Selumetinib) If Q5.8≥2\nO\nO\nO\nO\nO\n9\nOjemda (Tovorafenib) / DAY101 If Q5.9≥2\nO\nO\nO\nO\nO\n10\nRadiation If Q5.10≥2\nO\nO\nO\nO\nO\nQ8a\nOnly show products selected as ‘5 - Very positive’ in Q8, show one row at a time\nYou have indicated a very positive overall impression of the following treatment(s). Please briefly explain the reasons for each:\n#\nWhy did you have a very positive overall impression of insert ?\n___ open-end\nQ8b\nOnly show products selected as ‘1 - Very negative’ in Q8, show one row at a time\nYou have indicated a very negative overall impression of the following treatment(s). Please briefly explain the reasons for each:\n#\nWhy did you have a very negative overall impression of insert ?\n___ open-end\nQ9\nRandomize\nIf your child needs / were to need a new treatment to manage their pLGG, which of the following treatments would you consider based on what you know today?\n1\n☐\nChemotherapy If Q6.1=1/2\n2\n☐\nMekinist (Trametinib) If Q6.2=1/2\n3\n☐\nTafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q6.3=1/2\n4\n☐\nAvastin (Bevacizumab) If Q6.4=1/2\n5\n☐\nAfinitor (Everolimus) If Q6.5=1/2\n6\n☐\nGomekli (mirdametinib) If Q6.6=1/2\n7\n☐\nTafinlar (Dabrafenib) If Q6.7=1/2\n8\n☐\nKoselugo (Selumetinib) If Q6.8=1/2\n9\n☐\nOjemda (Tovorafenib) / DAY101 If Q6.9=1/2\n10\n☐\nRadiation If Q6.10=1/2\nPlease share with us a little about why you would consider any of the treatments you select. If any treatment is selected above\n___ OPENEND\nQ10\nShow row-by-row\nWhat concerns, if any, do you have about the following treatments?\nNone\nNot Sure\n1\nChemotherapy If Q5.1≥2\n___ open-end\nO\nO\n2\nMekinist (Trametinib) If Q5.2≥2\n___ open-end\nO\nO\n3\nTafinlar + Mekinist (Dabrafenib + Trametinib) combination If Q5.3≥2\n___ open-end\nO\nO\n4\nAvastin (Bevacizumab) If Q5.4≥2\n___ open-end\nO\nO\n5\nAfinitor (Everolimus) If Q5.5≥2\n___ open-end\nO\nO\n6\nGomekli (mirdametinib) If Q5.6≥2\n___ open-end\nO\nO\n7\nTafinlar (Dabrafenib) If Q5.7≥2\n___ open-end\nO\nO\n8\nKoselugo (Selumetinib) If Q5.8≥2\n___ open-end\nO\nO\n9\nOjemda (Tovorafenib) / DAY101 If Q5.9≥2\n___ open-end\nO\nO\n10\nRadiation If Q5.10≥2\n___ open-end\nO\nO\nQ11\nRandomize, group 4a/4b, anchor 8-10\nHow, if at all, has advice from other caregivers in-person or online influenced your pLGG treatment decisions?\nPlease select all that apply.\n1\n☐\nGave me new or better questions to ask the doctor\n2\n☐\nHelped me feel less alone in the process\n3\n☐\nMade me more confident to ask doctors about pLGG treatments\n4a\n☐\nMade me feel more confident in decisions I was already considering\n4b\n☐\nMade me feel less confident in decisions I was already considering\n5\n☐\nIntroduced me to new pLGG treatment options or clinical trials\n6\n☐\nIt influenced where I took my child for care (e.g., which doctor or hospital I chose)\n7\n☐\nMade decision-making more confusing or overwhelming\n8\nO\nHad little or no influence on our pLGG treatment decisions excl\n9\nO\nI have not received or seen advice from other caregivers excl\n10\nO\nI don't know how to connect with other caregivers of children living with pLGG excl\nQ27\nThinking about appointments with your child’s care team, how prepared do you typically feel going into those conversations? Please share why you feel that way.\n5\nO\nVery prepared\n4\nO\nSomewhat prepared\n3\nO\nNeither prepared nor unprepared\n2\nO\nSomewhat unprepared\n1\nO\nVery unprepared\nPlease share why you feel that way:\n___ OPENEND\nQ28\nRandomize, anchor 10-11\nWhich of the following, if any, do you typically do to prepare for appointments with your child’s care team?\nPlease select all that apply.\n1\n☐\nWrite down questions I want to ask\n2\n☐\nReview notes, test results, MRI results, or care instructions\n3\n☐\nKeep track of symptoms, side effects, or changes I want to discuss\n4\n☐\nResearch pLGG or treatment options\n5\n☐\nLook for information from patient advocacy or support organizations\n6\n☐\nTalk to other parents or caregivers\n7\n☐\nTalk with my child or other family members about what we want to ask\n8\n☐\nLook for information about insurance coverage, cost, or patient support\n9\n☐\nBring or save information I found online to discuss with the care team\n10\n☐\nSomething else:___ open-end\n11\nO\nI do not usually prepare in advance excl\nQ12\nAnchor rows, randomize the list within row 1 and row 3\nWhich of the following feelings best describe the last experience you had discussing pLGG treatments with your child’s doctor? Please select all that apply.\n☐ Hopeful ☐ Confident ☐ Supported ☐ Understood ☐ Reassured\n☐ Neutral or Indifferent\n☐ Confused ☐ Anxious ☐ Sad ☐ Angry ☐ Frustrated ☐ Discouraged ☐ Overwhelmed\nO I did not feel any of these emotions excl\nQ13\nThink about the last time, if ever, you wanted to ask your child’s doctor about a treatment for pLGG that you were interested in. Please select the answer option below that best describes how that experience went.\n1\nO\nI asked my child’s doctor about a pLGG treatment, and we talked about ___ OPENEND\n2\nO\nI wanted to ask my child’s doctor about a pLGG treatment, but I didn’t. What stopped me was ___ OPENEND\n3\nO\nI have never wanted to ask my child’s doctor about a pLGG treatment, because ___ OPENEND\nQ14\nShow col-by-col\nHow comfortable are you with bringing up a specific pLGG treatment for discussion with your child’s doctor(s) and/or requesting your doctor to prescribe a specific pLGG treatment to your child?\n1\n2\nBringing up a pLGG treatment for discussion\nAsking my child’s doctor to prescribe a specific pLGG treatment\n5\nComfortable\nO\nO\n4\nSomewhat comfortable\nO\nO\n3\nNeither comfortable nor uncomfortable\nO\nO\n2\nSomewhat uncomfortable\nO\nO\n1\nUncomfortable\nO\nO\nQ15\nIf Q14.c1<5, Randomize, anchor 6-7\nWhat would make you feel more comfortable discussing specific pLGG treatments with your child’s doctor?\nPlease select all that apply.\n1\n☐\nGuides explaining treatment options\n2\n☐\nPersonal stories from other caregivers\n3\n☐\nChecklist of questions to ask during appointments\n4\n☐\nVideos or webinars with pLGG experts pediatric oncology experts and other caregivers\n5\n☐\nAccess to support groups or mentors\n6\n☐\nSomething else (please share what would make you feel more comfortable):___ open-end\n7\nO\nI don't feel comfortable discussing specific treatments excl\nAAU (Ojemda Questions) _\nQ16\nif Q5.r9≥2, Randomize, anchor 11\nYou said you are Q5.r9 with OJEMDA (Tovorafenib) / DAY101.\nWhere have you seen or heard information about OJEMDA (Tovorafenib) / DAY101 before?\nPlease select below where you remember seeing or hearing information about OJEMDA (Tovorafenib) / DAY101.\n1\n☐\nSocial media advertisements\n2\n☐\nNon-Profit Parent Support Groups\n3\n☐\nSocial media private groups\n4\n☐\nHealth websites (i.e., WebMD, Mayo Clinic, Everyday Health, etc.)\n12\n☐\nDoctor's office\n5\n☐\nOncologist / Neuro-Oncologist\n6\n☐\nOncology nurse\n7\n☐\nNews program / article\n8\n☐\nFamily and/or friends\n9\n☐\nAnother parent or caregiver\n10\n☐\nPharmacy/Pharmacist\n11\n☐\nSomething else (please explain):___ open-end\nQ17\nif Q5.r9≥2\nWhere do you first remember seeing or hearing information about OJEMDA (tovorafenib) / DAY101?\n1\nO\nInsert answers selected in Q16, same order\n…\nO\n……\nQ18\nif Q5.r9≥2\nHave you been given any materials or resources about OJEMDA by doctors, nurses or pharmacists?\nIf yes, what were you given?\n1\n☐\nYes, I received the following from my child’s doctor(s):___ open-end\n4\n☐\nYes, I received the following from the nurse:___ open-end\n2\n☐\nYes, I received the following from the pharmacy / pharmacist:___ open-end\n3\nO\nNo, I have not been given any OJEMDA-related materials by doctors or pharmacists excl\nQ19a\nif Q5.r9≥2\nWhat is the first thing that comes to mind when you think about OJEMDA?\nPlease share anything you’ve read, heard, or think – no need to look anything up!\n___ open-end\nQ19\nif Q5.r9≥2, Randomize, show row by row\nWhat do you know about OJEMDA (Tovorafenib) / DAY 101 when it comes to each of the topics below?\nPlease share anything you’ve read, heard, or think – no need to look anything up!\n1\nWhat do you know about how well OJEMDA works?\n___ open-end\n2\nWhat do you know about OJEMDA side effects?\n___ open-end\n3\nWhat do you know about how you take OJEMDA?\n___ open-end\nQ20\nif Q5.r9≥2\nWhat questions do you have about OJEMDA? Please share anything you’re curious about or would need to know before you might consider it for your child.\n___ open-end\nQ21\nif Q5.r9≥2\nBased on everything you know about OJEMDA (Tovorafenib) / Day101, how would you rate it compared to other pLGG treatments you are aware of? Please share a little about why you selected your answer.\n5\nO\nOJEMDA is much better: ___ OPENEND\n4\nO\nOJEMDA is somewhat better: ___ OPENEND\n3\nO\nNo difference: ___ OPENEND\n2\nO\nOJEMDA is somewhat worse: ___ OPENEND\n1\nO\nOJEMDA is much worse: ___ OPENEND\nQ22\nIf Q6.9=1/2, Randomize, anchor 8-10\nSince first learning about OJEMDA (Tovorafenib) / DAY101, have you done any of the following?\nPlease select all that apply.\n1\n☐\nResearched more information about this treatment online\n2\n☐\nSpoke to other caregivers about their experience with this treatment\n3\n☐\nAsked about the treatment with my child’s oncologist(s) or oncology nurse(s)\n4\n☐\nPlan to discuss this treatment with my child’s care team\n5\n☐\nChecked my insurance policy for coverage or out-of-pocket costs with this treatment\n6\n☐\nSwitched my child to this treatment\n7\n☐\nAdded this to the list of treatments I may consider for my child in the future\n8\nO\nDecided not to pursue this medication any further excl\n9\n☐\nSomething else (please explain):___ open-end\n10\nO\nHave not taken any additional actions since learning about this medication excl\nQ23\nif Q22=8\nYou said you decided not to pursue OJEMDA (tovorafenib) / DAY101 any further. What made you uninterested in using OJEMDA with your child?\n___ open-end\nQ23\nif Q22=8, Randomize, anchor 11-12\nYou said you decided not to pursue OJEMDA (tovorafenib), what were the reasons?\nPlease select all that apply.\n1\n☐\nI need more information about OJEMDA\n2\n☐\nI am not sure whether my child is eligible for OJEMDA\n3\n☐\nI am concerned about possible side effects\n4\n☐\nI need more information about insurance coverage or cost\n5\n☐\nMy child’s doctor has not recommended OJEMDA\n6\n☐\nI am satisfied with my child’s current treatment plan\n7\n☐\nI usually rely on my child’s doctor to bring up treatment options\n8\n☐\nI do not want to seem pushy or like I am challenging the doctor\n9\n☐\nI am not sure how to bring it up\n10\n☐\nI have not had an appointment where it felt relevant to discuss\n11\n☐\nSomething else:___ open-end\n12\nO\nNothing is stopping me\nQ23A\nif “Nothing is stopping me” not selected in Q23\nWhich one is the biggest reason you decided not to pursue OJEMDA (tovorafenib)?\n1\nO\nInsert answers selected in Q23, same order\n…\nO\n……\nWhy is this the biggest reason?\n___ open-end\nQ31\nif Q6.9=3/4 OR Q22=6\nYou said you decided to pursue OJEMDA (tovorafenib), what were the drivers of pursuing OJEMDA instead of another option?\n___ open-end\nQ24\nif Q22=3,4,6 OR Q6.9=2/3\nWhen you discussed OJEMDA (Tovorafenib) / DAY101 with your child’s care team, who first brought it up, and what exactly did you talk about during this discussion?\n1\nO\nI initially brought up OJEMDA / DAY101.\nWe discussed the following: ___ open-end\n2\nO\nMy child’s care team initially brought up OJEMDA / DAY101.\nWe discussed the following:___ open-end\nQ32\nif OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 10\nWhat, if anything, has kept you from asking about OJEMDA (tovorafenib)?\nPlease select all that apply.\n1\n☐\nI need more information about OJEMDA\n2\n☐\nI am not sure whether my child may be eligible for OJEMDA\n3\n☐\nI am concerned about possible side effects\n4\n☐\nI need more information about how OJEMDA compares with other treatments\n5\n☐\nI need more information about insurance coverage or cost\n6\n☐\nMy child’s doctor has not brought it up\n7\n☐\nI am satisfied with my child’s current treatment plan\n8\n☐\nIt does not feel like the right time to discuss a new treatment\n9\n☐\nI am not sure how to bring it up without seeming pushy\n10\n☐\nSomething else:___ open-end\nQ33\nif OJEMDA is selected in Q9 OR Q22 not selected as 3,4,6,8, Randomize, anchor 9\nWhat would be most likely to make you ask your child’s care team about OJEMDA (tovorafenib) at a future appointment?\nPlease select up to three.\n1\n☐\nMy child’s doctor or nurse bringing it up first\n2\n☐\nClearer information about whether my child may be eligible\n3\n☐\nMore information about how well OJEMDA works\n4\n☐\nMore information about side effects and how they may be managed\n5\n☐\nA checklist of questions to bring to the appointment\n6\n☐\nA discussion guide that helps me start the conversation\n7\n☐\nStories from other families who have experience with OJEMDA\n8\n☐\nInformation about insurance coverage, cost, or patient support\n9\n☐\nSomething else:___ open-end\nQ25\nif Q6.9=3/4 OR Q22=6\nHow would you describe your child’s experience with OJEMDA (Tovorafenib) / DAY101?\n___ open-end\nQ26\nif Q6.9=1/2\nIf your child’s doctor were to suggest OJEMDA (Tovorafenib) / DAY101 in the future, how likely would you be to consider it for your child? Please share a little about why.\n5\nO\nVery likely: ___ OPENEND\n4\nO\nSomewhat likely: ___ OPENEND\n3\nO\nNeither likely nor unlikely: ___ OPENEND\n2\nO\nSomewhat unlikely: ___ OPENEND\n1\nO\nVery unlikely: ___ OPENEND\nWrap Up _\nQ27\nBefore you wrap up today’s activity, please take a moment to enter your name and email address. This allows us to register your completion of this activity, and send the honoraria you have earned for sharing your valuable and honest experiences. Your contact information will be kept confidential and will not be shared with anyone.\n1\nName\n___ open-end\n2\nEmail address\n___ open-end\nQ28\nThanks for your participation today!\nIs there anything else you wish to share with us before you go?\n1\nO\nYes, I would like to say: ___ open-end\n2\nO\nNo thanks!",
+  "total_questions": 36,
+  "total_sections": 1,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 923,
+      "source_characters": 17778,
+      "question_style_blocks": 0
+    }
+  }
+}

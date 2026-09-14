@@ -1,0 +1,18 @@
+{
+  "run_id": "20260730T140107215539Z",
+  "created_at": "2026-07-30T14:09:07.804711+00:00",
+  "generation_seconds": 481.17,
+  "input": {
+    "key": "20260730T140107215539Z__High.docx",
+    "filename": "High.docx",
+    "size": 851480,
+    "created_at": "2026-07-30T14:01:07.209207+00:00"
+  },
+  "output": {
+    "key": "Validation_20260730T140107215539Z.sps",
+    "filename": "Validation_20260730T140107215539Z.sps",
+    "size": 112176,
+    "created_at": "2026-07-30T14:09:07.804711+00:00"
+  },
+  "user": "appadmin"
+}

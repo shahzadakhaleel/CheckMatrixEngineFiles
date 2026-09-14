@@ -1,0 +1,16 @@
+{
+  "block_id": "B28",
+  "source_variables": [
+    "Q24a",
+    "Q24b",
+    "Q24c",
+    "Q22",
+    "S10r2"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q24.\ntemporary.\nsel if miss(Q24a) or ~range(Q24a,0,10) or miss(Q24b) or Q24b<0 or Q24b>Q24a or miss(Q24c) or Q24c<0 or Q24c>Q24b.\nlist respid, Q22, S10r2, Q24a, Q24b, Q24c.",
+  "omission_reason": null,
+  "warnings": [
+    "The source routes Q24 when Q22<S10r2 and S10r2>0, and conditionally asks Q24b/Q24c."
+  ]
+}

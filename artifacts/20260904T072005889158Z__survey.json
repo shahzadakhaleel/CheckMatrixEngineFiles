@@ -1,0 +1,2183 @@
+{
+  "metadata": {
+    "title": "Umfrage: Format-Präferenzen und Trendentwicklung in der ärztlichen Fortbildung",
+    "client": null,
+    "project": "Marktumfrage CME Veranstaltungsmarkt",
+    "language": "de",
+    "country": null,
+    "version": "V1_R100696"
+  },
+  "sections": [
+    {
+      "id": "Block 0 - Screening",
+      "title": "Block 0 - Screening",
+      "description": null,
+      "questions": [
+        {
+          "id": "S3",
+          "variable": "S3",
+          "title": "CME-Pflicht",
+          "text": "Sind Sie verpflichtet, Fortbildungspunkte (CME) zu sammeln?",
+          "section": "Block 0 - Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Ja",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Nein",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Weiß nicht",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "screen out immediately if „Nein“",
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "S4",
+          "variable": "S4",
+          "title": "Teilnahme an ärztlicher Fortbildung",
+          "text": "Haben Sie in den letzten 24 Monaten an mindestens einer ärztlichen Fortbildung teilgenommen?",
+          "section": "Block 0 - Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Ja",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Nein",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "screen out immediately if „Nein“",
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "S1",
+          "variable": "S1",
+          "title": "Überwiegende Fachrichtung",
+          "text": "In welcher Fachrichtung sind Sie überwiegend tätig?",
+          "section": "Block 0 - Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Allgemeinmedizin",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Innere Medizin",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Kardiologie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Onkologie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Neurologie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Dermatologie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Gynäkologie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Chirurgie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Anästhesie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Psychiatrie",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Sonstige (Freitext)",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice, with quota control",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "S2",
+          "variable": "S2",
+          "title": "Überwiegender Tätigkeitsort",
+          "text": "Wo sind Sie überwiegend tätig?",
+          "section": "Block 0 - Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Angestellt in Klinik / Krankenhaus",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Niedergelassen in eigener oder Gemeinschaftspraxis",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Beides",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Sonstiges",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Block A - Status quo: Wie wird heute gesammelt",
+      "title": "Block A - Status quo: Wie wird heute gesammelt",
+      "description": null,
+      "questions": [
+        {
+          "id": "A1",
+          "variable": "A1",
+          "title": "Teilgenommene Fortbildungsformate",
+          "text": "An welchen Formaten haben Sie in den letzten 12 Monaten teilgenommen?",
+          "section": "Block A - Status quo: Wie wird heute gesammelt",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Präsenzkongress (überregional)",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "lokales Präsenz-Seminar / Symposium",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Hybridveranstaltung",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Live-Webinar (online, feste Uhrzeit)",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "On-Demand E-Learning (online, jederzeit)",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Podcast oder Fortbildungs-App",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Multiple Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "A2",
+          "variable": "A2",
+          "title": "Online-Anteil der CME-Punkte",
+          "text": "Welchen Anteil Ihrer CME-Punkte haben Sie in den letzten 12 Monaten online gesammelt (Live-Webinar oder On-Demand)?",
+          "section": "Block A - Status quo: Wie wird heute gesammelt",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "0 bis 20 %",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "21 bis 40 %",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "41 bis 60 %",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "61 bis 80 %",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "81 bis 100 %",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "A3",
+          "variable": "A3",
+          "title": "Größte Teilnahmehürde",
+          "text": "Was ist Ihre größte Hürde, überhaupt an Fortbildung teilzunehmen?",
+          "section": "Block A - Status quo: Wie wird heute gesammelt",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Zeitmangel",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Personalmangel (keine Vertretung)",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Kosten",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Freistellung schwierig",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "keine",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Block B - Präferenz (Kernblock)",
+      "title": "Block B - Präferenz (Kernblock)",
+      "description": null,
+      "questions": [
+        {
+          "id": "B1",
+          "variable": "B1",
+          "title": "Entscheidung zwischen Präsenz und Online",
+          "text": "Angenommen, Inhalt und Fortbildungspunkte sind identisch. Wofür entscheiden Sie sich?",
+          "section": "Block B - Präferenz (Kernblock)",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Präsenzveranstaltung",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Online-Veranstaltung",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice, Forced Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "B2",
+          "variable": "B2",
+          "title": "Rangfolge der vier Formate",
+          "text": "Bitte bringen Sie die vier Formate in Ihre persönliche Reihenfolge (1 = am liebsten).",
+          "section": "Block B - Präferenz (Kernblock)",
+          "question_type": "RANKING",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Präsenz",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Hybrid",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Online-Live",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Online On-Demand",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Ranking",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Block C - Die zwei gegenläufigen Kräfte",
+      "title": "Block C - Die zwei gegenläufigen Kräfte",
+      "description": null,
+      "questions": [
+        {
+          "id": "C1",
+          "variable": "C1",
+          "title": "Gründe für Präsenzveranstaltungen",
+          "text": "Was spricht für Sie am stärksten für Präsenzveranstaltungen?",
+          "section": "Block C - Die zwei gegenläufigen Kräfte",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Persönlicher Austausch mit Kollegen (Networking)",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "direkter Kontakt zu Referenten",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "ein bestimmter Top-Experte oder Meinungsführer ist vor Ort",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "praktische Übungen / Hands-on",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "besserer Fokus, weniger Ablenkung",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Tapetenwechsel aus dem Arbeitsalltag",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Veranstaltungserlebnis insgesamt",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "nichts davon",
+              "value": null,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Multiple Choice, max. 3",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "C2",
+          "variable": "C2",
+          "title": "Gründe für Online-Formate",
+          "text": "Was spricht für Sie am stärksten für Online-Formate?",
+          "section": "Block C - Die zwei gegenläufigen Kräfte",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Zeitersparnis",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "keine Anreise",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "flexibel / jederzeit abrufbar",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "bessere Vereinbarkeit mit Familie und Beruf",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Aufzeichnung zum Nachhören",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "nichts davon",
+              "value": null,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Multiple Choice, max. 2",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Block D - Zukunftserwartung (der Trend)",
+      "title": "Block D - Zukunftserwartung (der Trend)",
+      "description": null,
+      "questions": [
+        {
+          "id": "D1",
+          "variable": "D1",
+          "title": "Zukünftige Teilnahme an Präsenzveranstaltungen",
+          "text": "Wie wird sich Ihre Teilnahme an Präsenzveranstaltungen in den nächsten 3 Jahren voraussichtlich entwickeln?",
+          "section": "Block D - Zukunftserwartung (der Trend)",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Deutlich mehr",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "etwas mehr",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "gleich",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "etwas weniger",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "deutlich weniger",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "D2",
+          "variable": "D2",
+          "title": "Zukünftige Teilnahme an Online-Formaten",
+          "text": "Und wie wird sich Ihre Teilnahme an Online-Formaten in den nächsten 3 Jahren voraussichtlich entwickeln?",
+          "section": "Block D - Zukunftserwartung (der Trend)",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Deutlich mehr",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "etwas mehr",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "gleich",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "etwas weniger",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "deutlich weniger",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "D3",
+          "variable": "D3",
+          "title": "Hinderungsgründe für mehr Online-Fortbildung",
+          "text": "Was hält Sie davon ab, mehr online zu machen?",
+          "section": "Block D - Zukunftserwartung (der Trend)",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Geringerer Lerneffekt",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Ablenkung / Nebenbei-Konsum",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "fehlendes Networking",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "technische Hürden",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Bildschirm-Ermüdung",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "nichts davon",
+              "value": null,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Multiple Choice, max. 3",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "D4",
+          "variable": "D4",
+          "title": "Langfristige Unverzichtbarkeit von Präsenzveranstaltungen",
+          "text": "Wie stark stimmen Sie zu: „Präsenzveranstaltungen werden für mich auch langfristig unverzichtbar bleiben.\"",
+          "section": "Block D - Zukunftserwartung (der Trend)",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 = stimme gar nicht zu",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5 = stimme voll zu",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Rating Scale, 1 = stimme gar nicht zu bis 5 = stimme voll zu",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Block E - Auswahl & Anbieter",
+      "title": "Block E - Auswahl & Anbieter",
+      "description": null,
+      "questions": [
+        {
+          "id": "E1",
+          "variable": "E1",
+          "title": "Auswahlkriterien für Fortbildungen",
+          "text": "Wonach entscheiden Sie, an welcher Fortbildung Sie teilnehmen?",
+          "section": "Block E - Auswahl & Anbieter",
+          "question_type": "RANKING",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Inhalt / Thema",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Referenten",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Akkreditierung / Punkte",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "veranstaltende Fachgesellschaft",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Sponsor",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Empfehlung von Kollegen",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Ort / Erreichbarkeit",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Ranking, forced Top 3",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "E2",
+          "variable": "E2",
+          "title": "Einfluss des Veranstalters",
+          "text": "Welche Rolle spielt es für Sie, wer eine Fortbildung organisiert (Fachgesellschaft, spezialisierte Agentur, Pharmafirma)?",
+          "section": "Block E - Auswahl & Anbieter",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Ich nehme gar nicht wahr, wer organisiert",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Ich nehme es wahr, aber es beeinflusst meine Entscheidung nicht",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Es beeinflusst meine Entscheidung etwas",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Es beeinflusst meine Entscheidung stark",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "E3",
+          "variable": "E3",
+          "title": "Spontan bekannte Agenturen oder Veranstalter",
+          "text": "Welche Agenturen oder Veranstalter fallen Ihnen spontan ein, wenn Sie an ärztliche Kongresse, Fortbildungen oder andere medizinische Präsenzveranstaltungen denken? (zb. Proske, Healthcare Convention, face to face health) (Bitte nennen Sie alle, die Ihnen einfallen.)",
+          "section": "Block E - Auswahl & Anbieter",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Open Text",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Block F – Klassifikation",
+      "title": "Block F – Klassifikation",
+      "description": null,
+      "questions": [
+        {
+          "id": "F1",
+          "variable": "F1",
+          "title": "Altersgruppe",
+          "text": "Altersgruppe:",
+          "section": "Block F – Klassifikation",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "unter 35",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "35 bis 44",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "45 bis 54",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "55 bis 64",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "65+",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "F2",
+          "variable": "F2",
+          "title": "Land",
+          "text": "Land:",
+          "section": "Block F – Klassifikation",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Deutschland",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Österreich",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Schweiz",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "F3",
+          "variable": "F3",
+          "title": "Berufserfahrung",
+          "text": "Berufserfahrung:",
+          "section": "Block F – Klassifikation",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "unter 5 Jahre",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "5 bis 15",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "16 bis 25",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "über 25 Jahre",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Single Choice",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "S3",
+      "variable": "S3",
+      "title": "CME-Pflicht",
+      "text": "Sind Sie verpflichtet, Fortbildungspunkte (CME) zu sammeln?",
+      "section": "Block 0 - Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Ja",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Nein",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Weiß nicht",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "screen out immediately if „Nein“",
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "S4",
+      "variable": "S4",
+      "title": "Teilnahme an ärztlicher Fortbildung",
+      "text": "Haben Sie in den letzten 24 Monaten an mindestens einer ärztlichen Fortbildung teilgenommen?",
+      "section": "Block 0 - Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Ja",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Nein",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "screen out immediately if „Nein“",
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "S1",
+      "variable": "S1",
+      "title": "Überwiegende Fachrichtung",
+      "text": "In welcher Fachrichtung sind Sie überwiegend tätig?",
+      "section": "Block 0 - Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Allgemeinmedizin",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Innere Medizin",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Kardiologie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Onkologie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Neurologie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Dermatologie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Gynäkologie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Chirurgie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Anästhesie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Psychiatrie",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Sonstige (Freitext)",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice, with quota control",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "S2",
+      "variable": "S2",
+      "title": "Überwiegender Tätigkeitsort",
+      "text": "Wo sind Sie überwiegend tätig?",
+      "section": "Block 0 - Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Angestellt in Klinik / Krankenhaus",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Niedergelassen in eigener oder Gemeinschaftspraxis",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Beides",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Sonstiges",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "A1",
+      "variable": "A1",
+      "title": "Teilgenommene Fortbildungsformate",
+      "text": "An welchen Formaten haben Sie in den letzten 12 Monaten teilgenommen?",
+      "section": "Block A - Status quo: Wie wird heute gesammelt",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Präsenzkongress (überregional)",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "lokales Präsenz-Seminar / Symposium",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Hybridveranstaltung",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Live-Webinar (online, feste Uhrzeit)",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "On-Demand E-Learning (online, jederzeit)",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Podcast oder Fortbildungs-App",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Multiple Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "A2",
+      "variable": "A2",
+      "title": "Online-Anteil der CME-Punkte",
+      "text": "Welchen Anteil Ihrer CME-Punkte haben Sie in den letzten 12 Monaten online gesammelt (Live-Webinar oder On-Demand)?",
+      "section": "Block A - Status quo: Wie wird heute gesammelt",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "0 bis 20 %",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "21 bis 40 %",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "41 bis 60 %",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "61 bis 80 %",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "81 bis 100 %",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "A3",
+      "variable": "A3",
+      "title": "Größte Teilnahmehürde",
+      "text": "Was ist Ihre größte Hürde, überhaupt an Fortbildung teilzunehmen?",
+      "section": "Block A - Status quo: Wie wird heute gesammelt",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Zeitmangel",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Personalmangel (keine Vertretung)",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Kosten",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Freistellung schwierig",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "keine",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "B1",
+      "variable": "B1",
+      "title": "Entscheidung zwischen Präsenz und Online",
+      "text": "Angenommen, Inhalt und Fortbildungspunkte sind identisch. Wofür entscheiden Sie sich?",
+      "section": "Block B - Präferenz (Kernblock)",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Präsenzveranstaltung",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Online-Veranstaltung",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice, Forced Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "B2",
+      "variable": "B2",
+      "title": "Rangfolge der vier Formate",
+      "text": "Bitte bringen Sie die vier Formate in Ihre persönliche Reihenfolge (1 = am liebsten).",
+      "section": "Block B - Präferenz (Kernblock)",
+      "question_type": "RANKING",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Präsenz",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Hybrid",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Online-Live",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Online On-Demand",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Ranking",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "C1",
+      "variable": "C1",
+      "title": "Gründe für Präsenzveranstaltungen",
+      "text": "Was spricht für Sie am stärksten für Präsenzveranstaltungen?",
+      "section": "Block C - Die zwei gegenläufigen Kräfte",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Persönlicher Austausch mit Kollegen (Networking)",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "direkter Kontakt zu Referenten",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "ein bestimmter Top-Experte oder Meinungsführer ist vor Ort",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "praktische Übungen / Hands-on",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "besserer Fokus, weniger Ablenkung",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Tapetenwechsel aus dem Arbeitsalltag",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Veranstaltungserlebnis insgesamt",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "nichts davon",
+          "value": null,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Multiple Choice, max. 3",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "C2",
+      "variable": "C2",
+      "title": "Gründe für Online-Formate",
+      "text": "Was spricht für Sie am stärksten für Online-Formate?",
+      "section": "Block C - Die zwei gegenläufigen Kräfte",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Zeitersparnis",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "keine Anreise",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "flexibel / jederzeit abrufbar",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "bessere Vereinbarkeit mit Familie und Beruf",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Aufzeichnung zum Nachhören",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "nichts davon",
+          "value": null,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Multiple Choice, max. 2",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "D1",
+      "variable": "D1",
+      "title": "Zukünftige Teilnahme an Präsenzveranstaltungen",
+      "text": "Wie wird sich Ihre Teilnahme an Präsenzveranstaltungen in den nächsten 3 Jahren voraussichtlich entwickeln?",
+      "section": "Block D - Zukunftserwartung (der Trend)",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Deutlich mehr",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "etwas mehr",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "gleich",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "etwas weniger",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "deutlich weniger",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "D2",
+      "variable": "D2",
+      "title": "Zukünftige Teilnahme an Online-Formaten",
+      "text": "Und wie wird sich Ihre Teilnahme an Online-Formaten in den nächsten 3 Jahren voraussichtlich entwickeln?",
+      "section": "Block D - Zukunftserwartung (der Trend)",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Deutlich mehr",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "etwas mehr",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "gleich",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "etwas weniger",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "deutlich weniger",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "D3",
+      "variable": "D3",
+      "title": "Hinderungsgründe für mehr Online-Fortbildung",
+      "text": "Was hält Sie davon ab, mehr online zu machen?",
+      "section": "Block D - Zukunftserwartung (der Trend)",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Geringerer Lerneffekt",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Ablenkung / Nebenbei-Konsum",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "fehlendes Networking",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "technische Hürden",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Bildschirm-Ermüdung",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "nichts davon",
+          "value": null,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Multiple Choice, max. 3",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "D4",
+      "variable": "D4",
+      "title": "Langfristige Unverzichtbarkeit von Präsenzveranstaltungen",
+      "text": "Wie stark stimmen Sie zu: „Präsenzveranstaltungen werden für mich auch langfristig unverzichtbar bleiben.\"",
+      "section": "Block D - Zukunftserwartung (der Trend)",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 = stimme gar nicht zu",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5 = stimme voll zu",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Rating Scale, 1 = stimme gar nicht zu bis 5 = stimme voll zu",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "E1",
+      "variable": "E1",
+      "title": "Auswahlkriterien für Fortbildungen",
+      "text": "Wonach entscheiden Sie, an welcher Fortbildung Sie teilnehmen?",
+      "section": "Block E - Auswahl & Anbieter",
+      "question_type": "RANKING",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Inhalt / Thema",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Referenten",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Akkreditierung / Punkte",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "veranstaltende Fachgesellschaft",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Sponsor",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Empfehlung von Kollegen",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Ort / Erreichbarkeit",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Ranking, forced Top 3",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "E2",
+      "variable": "E2",
+      "title": "Einfluss des Veranstalters",
+      "text": "Welche Rolle spielt es für Sie, wer eine Fortbildung organisiert (Fachgesellschaft, spezialisierte Agentur, Pharmafirma)?",
+      "section": "Block E - Auswahl & Anbieter",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Ich nehme gar nicht wahr, wer organisiert",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Ich nehme es wahr, aber es beeinflusst meine Entscheidung nicht",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Es beeinflusst meine Entscheidung etwas",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Es beeinflusst meine Entscheidung stark",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "E3",
+      "variable": "E3",
+      "title": "Spontan bekannte Agenturen oder Veranstalter",
+      "text": "Welche Agenturen oder Veranstalter fallen Ihnen spontan ein, wenn Sie an ärztliche Kongresse, Fortbildungen oder andere medizinische Präsenzveranstaltungen denken? (zb. Proske, Healthcare Convention, face to face health) (Bitte nennen Sie alle, die Ihnen einfallen.)",
+      "section": "Block E - Auswahl & Anbieter",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Open Text",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "F1",
+      "variable": "F1",
+      "title": "Altersgruppe",
+      "text": "Altersgruppe:",
+      "section": "Block F – Klassifikation",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "unter 35",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "35 bis 44",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "45 bis 54",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "55 bis 64",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "65+",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "F2",
+      "variable": "F2",
+      "title": "Land",
+      "text": "Land:",
+      "section": "Block F – Klassifikation",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Deutschland",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Österreich",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Schweiz",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "F3",
+      "variable": "F3",
+      "title": "Berufserfahrung",
+      "text": "Berufserfahrung:",
+      "section": "Block F – Klassifikation",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "unter 5 Jahre",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "5 bis 15",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "16 bis 25",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "über 25 Jahre",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Single Choice",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    }
+  ],
+  "parser": "openai_document_extractor",
+  "parser_version": null,
+  "source_file": "(V1_R100696) Marktumfrage_CME_Veranstaltungsmarkt_revised.docx",
+  "source_format": "docx",
+  "source_text": "Umfrage: Format-Präferenzen und Trendentwicklung in der ärztlichen Fortbildung\nEinleitung (Panelisten-Text):Vielen Dank für Ihre Teilnahme. In dieser kurzen Befragung (ca. 7 bis 9 Minuten) geht es darum, wie Sie sich fortbilden und welche Veranstaltungsformate Sie künftig bevorzugen. Ihre Angaben werden anonym und ausschließlich zu Forschungszwecken ausgewertet.\nTarget: Mix Physicians=215\nBlock 0 - Screening\nS2-S4: [Each item separated by “.“ counted as one option]\nS3. Sind Sie verpflichtet, Fortbildungspunkte (CME) zu sammeln? (Single Choice, screen out immediately if „Nein\") Ja · Nein · Weiß nicht\nS4. Haben Sie in den letzten 24 Monaten an mindestens einer ärztlichen Fortbildung teilgenommen? (Single Choice, screen outimmediately if „Nein\")\nJa · Nein\nS1. In welcher Fachrichtung sind Sie überwiegend tätig? (Single Choice, with quota control)\n[Each item separated by “/“ counted as one option]Allgemeinmedizin / Innere Medizin / Kardiologie / Onkologie / Neurologie / Dermatologie / Gynäkologie / Chirurgie / Anästhesie / Psychiatrie / Sonstige (Freitext)\nS2. Wo sind Sie überwiegend tätig? (Single Choice)\nAngestellt in Klinik / Krankenhaus · Niedergelassen in eigener oder Gemeinschaftspraxis · Beides · Sonstiges\nBlock A - Status quo: Wie wird heute gesammelt\nA1-A3: [Each item separated by “.“ counted as one option]\nA1. An welchen Formaten haben Sie in den letzten 12 Monaten teilgenommen? (Multiple Choice) Präsenzkongress (überregional) · lokales Präsenz-Seminar / Symposium · Hybridveranstaltung · Live-Webinar (online, feste Uhrzeit) · On-Demand E-Learning (online, jederzeit) · Podcast oder Fortbildungs-App\nA2. Welchen Anteil Ihrer CME-Punkte haben Sie in den letzten 12 Monaten online gesammelt (Live-Webinar oder On-Demand)? (Single Choice)\n0 bis 20 % · 21 bis 40 % · 41 bis 60 % · 61 bis 80 % · 81 bis 100 %\nA3. Was ist Ihre größte Hürde, überhaupt an Fortbildung teilzunehmen? (Single Choice)\nZeitmangel · Personalmangel (keine Vertretung) · Kosten · Freistellung schwierig · keine\nBlock B - Präferenz (Kernblock)\nB1-B2: [Each item separated by “.“ counted as one option]\nB1. Angenommen, Inhalt und Fortbildungspunkte sind identisch. Wofür entscheiden Sie sich? (Single Choice, Forced Choice)\nPräsenzveranstaltung · Online-Veranstaltung\nB2. Bitte bringen Sie die vier Formate in Ihre persönliche Reihenfolge (1 = am liebsten). (Ranking) Präsenz · Hybrid · Online-Live · Online On-Demand\nBlock C - Die zwei gegenläufigen Kräfte\nC1-C2: [Each item separated by “.“ counted as one option]\nC1. Was spricht für Sie am stärksten für Präsenzveranstaltungen? (Multiple Choice, max. 3)\nPersönlicher Austausch mit Kollegen (Networking) · direkter Kontakt zu Referenten · ein bestimmter Top-Experte oder Meinungsführer ist vor Ort · praktische Übungen / Hands-on · besserer Fokus, weniger Ablenkung · Tapetenwechsel aus dem Arbeitsalltag · Veranstaltungserlebnis insgesamt · nichts davon(exclusive)\nC2. Was spricht für Sie am stärksten für Online-Formate? (Multiple Choice, max. 2)\nZeitersparnis · keine Anreise · flexibel / jederzeit abrufbar · bessere Vereinbarkeit mit Familie und Beruf · Aufzeichnung zum Nachhören · nichts davon (exclusive)\nBlock D - Zukunftserwartung (der Trend)\nD1-D3: [Each item separated by “.“ counted as one option]\nD1. Wie wird sich Ihre Teilnahme an Präsenzveranstaltungen in den nächsten 3 Jahren voraussichtlich entwickeln? (Single Choice)\nDeutlich mehr · etwas mehr · gleich · etwas weniger · deutlich weniger\nD2. Und wie wird sich Ihre Teilnahme an Online-Formaten in den nächsten 3 Jahren voraussichtlich entwickeln? (Single Choice)\nDeutlich mehr · etwas mehr · gleich · etwas weniger · deutlich weniger\nD3. Was hält Sie davon ab, mehr online zu machen? (Multiple Choice, max. 3)\nGeringerer Lerneffekt · Ablenkung / Nebenbei-Konsum · fehlendes Networking · technische Hürden · Bildschirm-Ermüdung · nichts davon (exclusive)\nD4. Wie stark stimmen Sie zu: „Präsenzveranstaltungen werden für mich auch langfristig unverzichtbar bleiben.\" (Rating Scale, 1 = stimme gar nicht zu bis 5 = stimme voll zu)\nBlock E - Auswahl & Anbieter\nE1-E2: [Each item separated by “.“ counted as one option]\nE1. Wonach entscheiden Sie, an welcher Fortbildung Sie teilnehmen? (Ranking, forced Top 3)\nInhalt / Thema · Referenten · Akkreditierung / Punkte · veranstaltende Fachgesellschaft · Sponsor · Empfehlung von Kollegen · Ort / Erreichbarkeit\nE2. Welche Rolle spielt es für Sie, wer eine Fortbildung organisiert (Fachgesellschaft, spezialisierte Agentur, Pharmafirma)? (Single Choice)\nIch nehme gar nicht wahr, wer organisiert · Ich nehme es wahr, aber es beeinflusst meine Entscheidung nicht · Es beeinflusst meine Entscheidung etwas · Es beeinflusst meine Entscheidung stark\nE3. Welche Agenturen oder Veranstalter fallen Ihnen spontan ein, wenn Sie an ärztliche Kongresse, Fortbildungen oder andere medizinische Präsenzveranstaltungen denken? (zb. Proske, Healthcare Convention, face to face health)\n(Bitte nennen Sie alle, die Ihnen einfallen.) (Open Text)\nBlock F – Klassifikation\nF1-F3: [Each item separated by “.“ counted as one option]\nF1. Altersgruppe: (Single Choice) unter 35 · 35 bis 44 · 45 bis 54 · 55 bis 64 · 65+F2. Land: (Single Choice) Deutschland · Österreich · SchweizF3. Berufserfahrung: (Single Choice) unter 5 Jahre · 5 bis 15 · 16 bis 25 · über 25 Jahre",
+  "total_questions": 21,
+  "total_sections": 7,
+  "metadata_extra": {}
+}

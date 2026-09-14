@@ -1,0 +1,2733 @@
+{
+  "questionnaire_title": "Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2",
+  "project_name": "12847",
+  "validations": [
+    {
+      "question_id": "Q0",
+      "variable": "Q0",
+      "rules": [
+        {
+          "id": "Q0-invalid-codes",
+          "question_id": "Q0",
+          "validation_type": "invalid_codes",
+          "description": "Q0 must contain one of the defined response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q0"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q0-screen-out",
+          "question_id": "Q0",
+          "validation_type": "screen_out",
+          "description": "Respondents selecting that they have not used the function must follow the thank-and-close outcome.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  2
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q1",
+      "variable": "Q1",
+      "rules": [
+        {
+          "id": "Q1-multiple-response",
+          "question_id": "Q1",
+          "validation_type": "multiple_response",
+          "description": "Q1 permits selection of multiple clinical areas.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1-invalid-codes",
+          "question_id": "Q1",
+          "validation_type": "invalid_codes",
+          "description": "Q1 selections must use one of the defined clinical-area codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1-routing",
+          "question_id": "Q1",
+          "validation_type": "routing",
+          "description": "Q1 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_R1",
+      "variable": "Q2_R1",
+      "rules": [
+        {
+          "id": "Q2_R1-invalid-codes",
+          "question_id": "Q2_R1",
+          "validation_type": "invalid_codes",
+          "description": "Q2_R1 must contain a defined frequency response from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_R1-routing",
+          "question_id": "Q2_R1",
+          "validation_type": "routing",
+          "description": "Q2_R1 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q2_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_R2",
+      "variable": "Q2_R2",
+      "rules": [
+        {
+          "id": "Q2_R2-invalid-codes",
+          "question_id": "Q2_R2",
+          "validation_type": "invalid_codes",
+          "description": "Q2_R2 must contain a defined frequency response from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_R2-routing",
+          "question_id": "Q2_R2",
+          "validation_type": "routing",
+          "description": "Q2_R2 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q2_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_R3",
+      "variable": "Q2_R3",
+      "rules": [
+        {
+          "id": "Q2_R3-invalid-codes",
+          "question_id": "Q2_R3",
+          "validation_type": "invalid_codes",
+          "description": "Q2_R3 must contain a defined frequency response from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_R3-routing",
+          "question_id": "Q2_R3",
+          "validation_type": "routing",
+          "description": "Q2_R3 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q2_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_R4",
+      "variable": "Q2_R4",
+      "rules": [
+        {
+          "id": "Q2_R4-invalid-codes",
+          "question_id": "Q2_R4",
+          "validation_type": "invalid_codes",
+          "description": "Q2_R4 must contain a defined frequency response from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_R4-routing",
+          "question_id": "Q2_R4",
+          "validation_type": "routing",
+          "description": "Q2_R4 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q2_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_R5",
+      "variable": "Q2_R5",
+      "rules": [
+        {
+          "id": "Q2_R5-invalid-codes",
+          "question_id": "Q2_R5",
+          "validation_type": "invalid_codes",
+          "description": "Q2_R5 must contain a defined frequency response from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_R5-routing",
+          "question_id": "Q2_R5",
+          "validation_type": "routing",
+          "description": "Q2_R5 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q2_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_R1",
+      "variable": "Q3_R1",
+      "rules": [
+        {
+          "id": "Q3_R1-invalid-codes",
+          "question_id": "Q3_R1",
+          "validation_type": "invalid_codes",
+          "description": "Q3_R1 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3_R1-routing",
+          "question_id": "Q3_R1",
+          "validation_type": "routing",
+          "description": "Q3_R1 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q3_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_R2",
+      "variable": "Q3_R2",
+      "rules": [
+        {
+          "id": "Q3_R2-invalid-codes",
+          "question_id": "Q3_R2",
+          "validation_type": "invalid_codes",
+          "description": "Q3_R2 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3_R2-routing",
+          "question_id": "Q3_R2",
+          "validation_type": "routing",
+          "description": "Q3_R2 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q3_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_R3",
+      "variable": "Q3_R3",
+      "rules": [
+        {
+          "id": "Q3_R3-invalid-codes",
+          "question_id": "Q3_R3",
+          "validation_type": "invalid_codes",
+          "description": "Q3_R3 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3_R3-routing",
+          "question_id": "Q3_R3",
+          "validation_type": "routing",
+          "description": "Q3_R3 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q3_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_R4",
+      "variable": "Q3_R4",
+      "rules": [
+        {
+          "id": "Q3_R4-invalid-codes",
+          "question_id": "Q3_R4",
+          "validation_type": "invalid_codes",
+          "description": "Q3_R4 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3_R4-routing",
+          "question_id": "Q3_R4",
+          "validation_type": "routing",
+          "description": "Q3_R4 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q3_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_R5",
+      "variable": "Q3_R5",
+      "rules": [
+        {
+          "id": "Q3_R5-invalid-codes",
+          "question_id": "Q3_R5",
+          "validation_type": "invalid_codes",
+          "description": "Q3_R5 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3_R5-routing",
+          "question_id": "Q3_R5",
+          "validation_type": "routing",
+          "description": "Q3_R5 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q3_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_R1",
+      "variable": "Q4_R1",
+      "rules": [
+        {
+          "id": "Q4_R1-invalid-codes",
+          "question_id": "Q4_R1",
+          "validation_type": "invalid_codes",
+          "description": "Q4_R1 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q4_R1-routing",
+          "question_id": "Q4_R1",
+          "validation_type": "routing",
+          "description": "Q4_R1 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q4_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_R2",
+      "variable": "Q4_R2",
+      "rules": [
+        {
+          "id": "Q4_R2-invalid-codes",
+          "question_id": "Q4_R2",
+          "validation_type": "invalid_codes",
+          "description": "Q4_R2 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q4_R2-routing",
+          "question_id": "Q4_R2",
+          "validation_type": "routing",
+          "description": "Q4_R2 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q4_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_R3",
+      "variable": "Q4_R3",
+      "rules": [
+        {
+          "id": "Q4_R3-invalid-codes",
+          "question_id": "Q4_R3",
+          "validation_type": "invalid_codes",
+          "description": "Q4_R3 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q4_R3-routing",
+          "question_id": "Q4_R3",
+          "validation_type": "routing",
+          "description": "Q4_R3 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q4_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_R4",
+      "variable": "Q4_R4",
+      "rules": [
+        {
+          "id": "Q4_R4-invalid-codes",
+          "question_id": "Q4_R4",
+          "validation_type": "invalid_codes",
+          "description": "Q4_R4 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q4_R4-routing",
+          "question_id": "Q4_R4",
+          "validation_type": "routing",
+          "description": "Q4_R4 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q4_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_R5",
+      "variable": "Q4_R5",
+      "rules": [
+        {
+          "id": "Q4_R5-invalid-codes",
+          "question_id": "Q4_R5",
+          "validation_type": "invalid_codes",
+          "description": "Q4_R5 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q4_R5-routing",
+          "question_id": "Q4_R5",
+          "validation_type": "routing",
+          "description": "Q4_R5 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q4_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5",
+      "variable": "Q5",
+      "rules": [
+        {
+          "id": "Q5-ranking",
+          "question_id": "Q5",
+          "validation_type": "ranking",
+          "description": "Q5 rankings must use the permitted ranks 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Rank_ALL_CHK",
+            "parameters": {
+              "svar": null,
+              "evar": null,
+              "qnt": "Q5",
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        },
+        {
+          "id": "Q5-routing",
+          "question_id": "Q5",
+          "validation_type": "routing",
+          "description": "Q5 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_R1",
+      "variable": "Q6_R1",
+      "rules": [
+        {
+          "id": "Q6_R1-invalid-codes",
+          "question_id": "Q6_R1",
+          "validation_type": "invalid_codes",
+          "description": "Q6_R1 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_R1-routing",
+          "question_id": "Q6_R1",
+          "validation_type": "routing",
+          "description": "Q6_R1 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q6_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_R2",
+      "variable": "Q6_R2",
+      "rules": [
+        {
+          "id": "Q6_R2-invalid-codes",
+          "question_id": "Q6_R2",
+          "validation_type": "invalid_codes",
+          "description": "Q6_R2 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_R2-routing",
+          "question_id": "Q6_R2",
+          "validation_type": "routing",
+          "description": "Q6_R2 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q6_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_R3",
+      "variable": "Q6_R3",
+      "rules": [
+        {
+          "id": "Q6_R3-invalid-codes",
+          "question_id": "Q6_R3",
+          "validation_type": "invalid_codes",
+          "description": "Q6_R3 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_R3-routing",
+          "question_id": "Q6_R3",
+          "validation_type": "routing",
+          "description": "Q6_R3 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q6_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_R4",
+      "variable": "Q6_R4",
+      "rules": [
+        {
+          "id": "Q6_R4-invalid-codes",
+          "question_id": "Q6_R4",
+          "validation_type": "invalid_codes",
+          "description": "Q6_R4 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_R4-routing",
+          "question_id": "Q6_R4",
+          "validation_type": "routing",
+          "description": "Q6_R4 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q6_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_R5",
+      "variable": "Q6_R5",
+      "rules": [
+        {
+          "id": "Q6_R5-invalid-codes",
+          "question_id": "Q6_R5",
+          "validation_type": "invalid_codes",
+          "description": "Q6_R5 must contain a defined rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_R5-routing",
+          "question_id": "Q6_R5",
+          "validation_type": "routing",
+          "description": "Q6_R5 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q6_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_R1",
+      "variable": "Q7_R1",
+      "rules": [
+        {
+          "id": "Q7_R1-invalid-codes",
+          "question_id": "Q7_R1",
+          "validation_type": "invalid_codes",
+          "description": "Q7_R1 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q7_R1-routing",
+          "question_id": "Q7_R1",
+          "validation_type": "routing",
+          "description": "Q7_R1 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q7_R1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_R2",
+      "variable": "Q7_R2",
+      "rules": [
+        {
+          "id": "Q7_R2-invalid-codes",
+          "question_id": "Q7_R2",
+          "validation_type": "invalid_codes",
+          "description": "Q7_R2 must contain a defined importance rating from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q7_R2-routing",
+          "question_id": "Q7_R2",
+          "validation_type": "routing",
+          "description": "Q7_R2 is applicable only when the respondent continues after Q0.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q7_R2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_R3",
+      "variable": "Q7_R3",
+      "rules": [
+        {
+          "id": "Q7_R3_invalid_codes",
+          "question_id": "Q7_R3",
+          "validation_type": "invalid_codes",
+          "description": "Q7_R3 must contain a valid importance rating from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_R3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_R4",
+      "variable": "Q7_R4",
+      "rules": [
+        {
+          "id": "Q7_R4_invalid_codes",
+          "question_id": "Q7_R4",
+          "validation_type": "invalid_codes",
+          "description": "Q7_R4 must contain a valid importance rating from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_R4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_R5",
+      "variable": "Q7_R5",
+      "rules": [
+        {
+          "id": "Q7_R5_invalid_codes",
+          "question_id": "Q7_R5",
+          "validation_type": "invalid_codes",
+          "description": "Q7_R5 must contain a valid importance rating from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_R5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8",
+      "variable": "Q8",
+      "rules": [
+        {
+          "id": "Q8_ranking",
+          "question_id": "Q8",
+          "validation_type": "ranking",
+          "description": "Q8 rankings must use permitted ranks up to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Rank_ALL_CHK",
+            "parameters": {
+              "svar": "Q8",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9",
+      "variable": "Q9",
+      "rules": [
+        {
+          "id": "Q9_invalid_codes",
+          "question_id": "Q9",
+          "validation_type": "invalid_codes",
+          "description": "Q9 must contain one of the seven listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10",
+      "variable": "Q10",
+      "rules": [
+        {
+          "id": "Q10_invalid_codes",
+          "question_id": "Q10",
+          "validation_type": "invalid_codes",
+          "description": "Q10 must contain one of the seven listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_A",
+      "variable": "Q11_A",
+      "rules": [
+        {
+          "id": "Q11_A_invalid_codes",
+          "question_id": "Q11_A",
+          "validation_type": "invalid_codes",
+          "description": "Q11_A must contain one of the five listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_A"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_B",
+      "variable": "Q11_B",
+      "rules": [
+        {
+          "id": "Q11_B_invalid_codes",
+          "question_id": "Q11_B",
+          "validation_type": "invalid_codes",
+          "description": "Q11_B must contain one of the five listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_B"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_C",
+      "variable": "Q11_C",
+      "rules": [
+        {
+          "id": "Q11_C_invalid_codes",
+          "question_id": "Q11_C",
+          "validation_type": "invalid_codes",
+          "description": "Q11_C must contain one of the five listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_C"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_D",
+      "variable": "Q11_D",
+      "rules": [
+        {
+          "id": "Q11_D_invalid_codes",
+          "question_id": "Q11_D",
+          "validation_type": "invalid_codes",
+          "description": "Q11_D must contain one of the five listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_D"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_E",
+      "variable": "Q11_E",
+      "rules": [
+        {
+          "id": "Q11_E_invalid_codes",
+          "question_id": "Q11_E",
+          "validation_type": "invalid_codes",
+          "description": "Q11_E must contain one of the six listed response codes, including the not-applicable option.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_E"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q12",
+      "variable": "Q12",
+      "rules": [
+        {
+          "id": "Q12_invalid_codes",
+          "question_id": "Q12",
+          "validation_type": "invalid_codes",
+          "description": "Q12 selections must use only the six listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q12_multiple_response",
+          "question_id": "Q12",
+          "validation_type": "multiple_response",
+          "description": "Q12 must be processed as a multiple-response question allowing selection of all applicable listed activities.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "MULTI_A",
+            "parameters": {
+              "svar": "Q12",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [],
+  "notes": [
+    "The supplied questions are explicitly marked as not required, so no mandatory or missing-response rules were added.",
+    "No separate open-text variable was supplied for the Q12 “Other, please specify” option; therefore no other-specify consistency rule was added."
+  ],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

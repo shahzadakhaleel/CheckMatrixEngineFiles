@@ -1,0 +1,13 @@
+{
+  "run_id": "5f5520e6265a40db8e0102d1d5f49a5c",
+  "created_at": "2026-09-13T05:36:51.869089+00:00",
+  "status": "failed",
+  "stage": "extraction",
+  "reason": "Extraction blocks do not cover every question and mapped variable",
+  "input": {
+    "key": "5f5520e6265a40db8e0102d1d5f49a5c__2026_Arcalyst_HCP_Ad_Tracker_W1_Programming_v6.docx",
+    "filename": "2026_Arcalyst_HCP_Ad_Tracker_W1_Programming_v6.docx",
+    "size": 2004358,
+    "created_at": "2026-09-13T05:35:03.891501+00:00"
+  }
+}

@@ -1,0 +1,2275 @@
+{
+  "questionnaire_title": "Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2",
+  "project_name": "12847",
+  "validations": [
+    {
+      "question_id": "Q0",
+      "variable": "Q0",
+      "rules": [
+        {
+          "id": "Q0_INVALID_CODES",
+          "question_id": "Q0",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the two defined Q0 answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q0"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q0_SCREEN_OUT",
+          "question_id": "Q0",
+          "validation_type": "screen_out",
+          "description": "Respondents selecting that they have not used the function are routed to thank and close.",
+          "enabled": true,
+          "severity": "info",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q0",
+                "operator": "equals",
+                "values": [
+                  2
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q1",
+      "variable": "Q1",
+      "rules": [
+        {
+          "id": "Q1_INVALID_CODES",
+          "question_id": "Q1",
+          "validation_type": "invalid_codes",
+          "description": "Selected clinical-area codes must be among the twelve defined options.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1_MULTIPLE_RESPONSE",
+          "question_id": "Q1",
+          "validation_type": "multiple_response",
+          "description": "Responses must conform to the select-all-that-apply structure for Q1.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_01",
+      "variable": "Q2_01",
+      "rules": [
+        {
+          "id": "Q2_01_INVALID_CODES",
+          "question_id": "Q2_01",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven defined frequency codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_02",
+      "variable": "Q2_02",
+      "rules": [
+        {
+          "id": "Q2_02_INVALID_CODES",
+          "question_id": "Q2_02",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven defined frequency codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_03",
+      "variable": "Q2_03",
+      "rules": [
+        {
+          "id": "Q2_03_INVALID_CODES",
+          "question_id": "Q2_03",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven defined frequency codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_04",
+      "variable": "Q2_04",
+      "rules": [
+        {
+          "id": "Q2_04_INVALID_CODES",
+          "question_id": "Q2_04",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven defined frequency codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_05",
+      "variable": "Q2_05",
+      "rules": [
+        {
+          "id": "Q2_05_INVALID_CODES",
+          "question_id": "Q2_05",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven defined frequency codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_01",
+      "variable": "Q3_01",
+      "rules": [
+        {
+          "id": "Q3_01_INVALID_CODES",
+          "question_id": "Q3_01",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined outcome-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_02",
+      "variable": "Q3_02",
+      "rules": [
+        {
+          "id": "Q3_02_INVALID_CODES",
+          "question_id": "Q3_02",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined outcome-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_03",
+      "variable": "Q3_03",
+      "rules": [
+        {
+          "id": "Q3_03_INVALID_CODES",
+          "question_id": "Q3_03",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined outcome-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_04",
+      "variable": "Q3_04",
+      "rules": [
+        {
+          "id": "Q3_04_INVALID_CODES",
+          "question_id": "Q3_04",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined outcome-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_05",
+      "variable": "Q3_05",
+      "rules": [
+        {
+          "id": "Q3_05_INVALID_CODES",
+          "question_id": "Q3_05",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined outcome-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_01",
+      "variable": "Q4_01",
+      "rules": [
+        {
+          "id": "Q4_01_INVALID_CODES",
+          "question_id": "Q4_01",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined value-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_02",
+      "variable": "Q4_02",
+      "rules": [
+        {
+          "id": "Q4_02_INVALID_CODES",
+          "question_id": "Q4_02",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined value-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_03",
+      "variable": "Q4_03",
+      "rules": [
+        {
+          "id": "Q4_03_INVALID_CODES",
+          "question_id": "Q4_03",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined value-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_04",
+      "variable": "Q4_04",
+      "rules": [
+        {
+          "id": "Q4_04_INVALID_CODES",
+          "question_id": "Q4_04",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined value-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_05",
+      "variable": "Q4_05",
+      "rules": [
+        {
+          "id": "Q4_05_INVALID_CODES",
+          "question_id": "Q4_05",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined value-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5_01",
+      "variable": "Q5_01",
+      "rules": [
+        {
+          "id": "Q5_01_RANKING",
+          "question_id": "Q5_01",
+          "validation_type": "ranking",
+          "description": "Ranking responses must use ranks through 5 as specified for the five outcomes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5_02",
+      "variable": "Q5_02",
+      "rules": [
+        {
+          "id": "Q5_02_RANKING",
+          "question_id": "Q5_02",
+          "validation_type": "ranking",
+          "description": "Ranking responses must use ranks through 5 as specified for the five outcomes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5_03",
+      "variable": "Q5_03",
+      "rules": [
+        {
+          "id": "Q5_03_RANKING",
+          "question_id": "Q5_03",
+          "validation_type": "ranking",
+          "description": "Ranking responses must use ranks through 5 as specified for the five outcomes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5_04",
+      "variable": "Q5_04",
+      "rules": [
+        {
+          "id": "Q5_04_RANKING",
+          "question_id": "Q5_04",
+          "validation_type": "ranking",
+          "description": "Ranking responses must use ranks through 5 as specified for the five outcomes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5_05",
+      "variable": "Q5_05",
+      "rules": [
+        {
+          "id": "Q5_05_RANKING",
+          "question_id": "Q5_05",
+          "validation_type": "ranking",
+          "description": "Ranking responses must use ranks through 5 as specified for the five outcomes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_01",
+      "variable": "Q6_01",
+      "rules": [
+        {
+          "id": "Q6_01_INVALID_CODES",
+          "question_id": "Q6_01",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined capability-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_02",
+      "variable": "Q6_02",
+      "rules": [
+        {
+          "id": "Q6_02_INVALID_CODES",
+          "question_id": "Q6_02",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined capability-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_03",
+      "variable": "Q6_03",
+      "rules": [
+        {
+          "id": "Q6_03_INVALID_CODES",
+          "question_id": "Q6_03",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five defined capability-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_04",
+      "variable": "Q6_04",
+      "rules": [
+        {
+          "id": "Q6_04_INVALID_CODES",
+          "question_id": "Q6_04",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_05",
+      "variable": "Q6_05",
+      "rules": [
+        {
+          "id": "Q6_05_INVALID_CODES",
+          "question_id": "Q6_05",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_01",
+      "variable": "Q7_01",
+      "rules": [
+        {
+          "id": "Q7_01_INVALID_CODES",
+          "question_id": "Q7_01",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented importance-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_02",
+      "variable": "Q7_02",
+      "rules": [
+        {
+          "id": "Q7_02_INVALID_CODES",
+          "question_id": "Q7_02",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented importance-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_03",
+      "variable": "Q7_03",
+      "rules": [
+        {
+          "id": "Q7_03_INVALID_CODES",
+          "question_id": "Q7_03",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented importance-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_04",
+      "variable": "Q7_04",
+      "rules": [
+        {
+          "id": "Q7_04_INVALID_CODES",
+          "question_id": "Q7_04",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented importance-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7_05",
+      "variable": "Q7_05",
+      "rules": [
+        {
+          "id": "Q7_05_INVALID_CODES",
+          "question_id": "Q7_05",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented importance-rating codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_01",
+      "variable": "Q8_01",
+      "rules": [
+        {
+          "id": "Q8_01_INVALID_CODES",
+          "question_id": "Q8_01",
+          "validation_type": "invalid_codes",
+          "description": "Rank must use one of the documented rank codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_01_RANKING",
+          "question_id": "Q8_01",
+          "validation_type": "ranking",
+          "description": "Rank must fall within the documented range from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_01"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_DUPLICATE_RANKINGS",
+          "question_id": "Q8_01",
+          "validation_type": "duplicate_rankings",
+          "description": "The five capability ranks must not duplicate one another.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_01",
+              "Q8_02",
+              "Q8_03",
+              "Q8_04",
+              "Q8_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_02",
+      "variable": "Q8_02",
+      "rules": [
+        {
+          "id": "Q8_02_INVALID_CODES",
+          "question_id": "Q8_02",
+          "validation_type": "invalid_codes",
+          "description": "Rank must use one of the documented rank codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_02_RANKING",
+          "question_id": "Q8_02",
+          "validation_type": "ranking",
+          "description": "Rank must fall within the documented range from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_02"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_03",
+      "variable": "Q8_03",
+      "rules": [
+        {
+          "id": "Q8_03_INVALID_CODES",
+          "question_id": "Q8_03",
+          "validation_type": "invalid_codes",
+          "description": "Rank must use one of the documented rank codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_03_RANKING",
+          "question_id": "Q8_03",
+          "validation_type": "ranking",
+          "description": "Rank must fall within the documented range from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_03"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_04",
+      "variable": "Q8_04",
+      "rules": [
+        {
+          "id": "Q8_04_INVALID_CODES",
+          "question_id": "Q8_04",
+          "validation_type": "invalid_codes",
+          "description": "Rank must use one of the documented rank codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_04_RANKING",
+          "question_id": "Q8_04",
+          "validation_type": "ranking",
+          "description": "Rank must fall within the documented range from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_04"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_05",
+      "variable": "Q8_05",
+      "rules": [
+        {
+          "id": "Q8_05_INVALID_CODES",
+          "question_id": "Q8_05",
+          "validation_type": "invalid_codes",
+          "description": "Rank must use one of the documented rank codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_05_RANKING",
+          "question_id": "Q8_05",
+          "validation_type": "ranking",
+          "description": "Rank must fall within the documented range from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_05"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9",
+      "variable": "Q9",
+      "rules": [
+        {
+          "id": "Q9_INVALID_CODES",
+          "question_id": "Q9",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven documented answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10",
+      "variable": "Q10",
+      "rules": [
+        {
+          "id": "Q10_INVALID_CODES",
+          "question_id": "Q10",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the seven documented answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_A",
+      "variable": "Q11_A",
+      "rules": [
+        {
+          "id": "Q11_A_INVALID_CODES",
+          "question_id": "Q11_A",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_A"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_B",
+      "variable": "Q11_B",
+      "rules": [
+        {
+          "id": "Q11_B_INVALID_CODES",
+          "question_id": "Q11_B",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_B"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_C",
+      "variable": "Q11_C",
+      "rules": [
+        {
+          "id": "Q11_C_INVALID_CODES",
+          "question_id": "Q11_C",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_C"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_D",
+      "variable": "Q11_D",
+      "rules": [
+        {
+          "id": "Q11_D_INVALID_CODES",
+          "question_id": "Q11_D",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the five documented answer codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_D"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_E",
+      "variable": "Q11_E",
+      "rules": [
+        {
+          "id": "Q11_E_INVALID_CODES",
+          "question_id": "Q11_E",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the six documented answer codes, including the exclusive not-applicable response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_E"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q12",
+      "variable": "Q12",
+      "rules": [
+        {
+          "id": "Q12_INVALID_CODES",
+          "question_id": "Q12",
+          "validation_type": "invalid_codes",
+          "description": "Selected responses must use the six documented option codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q12_MULTIPLE_RESPONSE",
+          "question_id": "Q12",
+          "validation_type": "multiple_response",
+          "description": "Responses must be represented as selections from the documented select-all-that-apply options.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "Q11_E contains conditional routing based on whether the respondent uses the BD neXus pump, but no source variable is provided; the routing rule was omitted.",
+    "Q12 includes an Other, please specify option, but no separate open-text variable is provided; an other-specify consistency rule was omitted."
+  ],
+  "notes": [
+    "Questions are explicitly marked as not required, so no mandatory or missing-response rules were added."
+  ],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

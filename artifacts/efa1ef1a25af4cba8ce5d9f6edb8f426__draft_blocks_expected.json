@@ -1,0 +1,707 @@
+[
+  {
+    "id": "ADMIN_USER_ID",
+    "question_ids": [],
+    "source_variables": [
+      "user_id"
+    ],
+    "checks": [
+      "Shared default: nonblank []"
+    ],
+    "provenance": [
+      "defaults:1:user_id"
+    ]
+  },
+  {
+    "id": "ADMIN_SCRSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "scrStatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:scrStatus"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDCHANGE",
+    "question_ids": [],
+    "source_variables": [
+      "hidChange"
+    ],
+    "checks": [
+      "Shared default: range [\"0\", \"10\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidChange"
+    ]
+  },
+  {
+    "id": "B01",
+    "question_ids": [
+      "QCOUNTRY"
+    ],
+    "source_variables": [
+      "qCountry"
+    ],
+    "checks": [
+      "Missing or invalid country code",
+      "provenance: document blocks 3 and 6; SAV dictionary"
+    ],
+    "provenance": [
+      "document:3",
+      "document:6",
+      "dataset_dictionary:qCountry"
+    ]
+  },
+  {
+    "id": "B02",
+    "question_ids": [
+      "S1"
+    ],
+    "source_variables": [
+      "S1",
+      "S1r5oe"
+    ],
+    "checks": [
+      "S1 missing or outside codes 1-5",
+      "S1r5oe missing when S1=5",
+      "provenance: document blocks 21-26"
+    ],
+    "provenance": [
+      "document:21-26",
+      "dataset_dictionary:S1",
+      "dataset_dictionary:S1r5oe"
+    ]
+  },
+  {
+    "id": "B03",
+    "question_ids": [
+      "S2"
+    ],
+    "source_variables": [
+      "S2",
+      "S2r9oe"
+    ],
+    "checks": [
+      "S2 missing or outside codes 1-9",
+      "S2r9oe missing when S2=9",
+      "provenance: document blocks 27-36"
+    ],
+    "provenance": [
+      "document:27-36",
+      "dataset_dictionary:S2",
+      "dataset_dictionary:S2r9oe"
+    ]
+  },
+  {
+    "id": "B04",
+    "question_ids": [
+      "S3"
+    ],
+    "source_variables": [
+      "S3",
+      "S3r6oe"
+    ],
+    "checks": [
+      "S3 missing or outside codes 1-6",
+      "S3r6oe missing when S3=6",
+      "provenance: document blocks 37-43"
+    ],
+    "provenance": [
+      "document:37-43",
+      "dataset_dictionary:S3",
+      "dataset_dictionary:S3r6oe"
+    ]
+  },
+  {
+    "id": "B05",
+    "question_ids": [
+      "S4_S7_S9"
+    ],
+    "source_variables": [
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S9"
+    ],
+    "checks": [
+      "Bounds and requiredness for S4, S5, S6, S7, and S9",
+      "provenance: document blocks 44-46, 105-112; shared default ordinary_questions_required"
+    ],
+    "provenance": [
+      "document:44-46",
+      "document:105-112",
+      "shared_defaults:ordinary_questions_required"
+    ]
+  },
+  {
+    "id": "B06",
+    "question_ids": [
+      "S8"
+    ],
+    "source_variables": [
+      "S8r1",
+      "S8r2",
+      "S8r3",
+      "S8r4",
+      "S8r5",
+      "S8r6",
+      "S8r7",
+      "S8r8",
+      "S8r7oe"
+    ],
+    "checks": [
+      "Binary coding",
+      "S8r1 required",
+      "S8r8 exclusivity context",
+      "other text linkage",
+      "provenance: document blocks 113-121"
+    ],
+    "provenance": [
+      "document:113-121",
+      "dataset_dictionary:S8r1-S8r8",
+      "dataset_dictionary:S8r7oe"
+    ]
+  },
+  {
+    "id": "B07",
+    "question_ids": [
+      "S10"
+    ],
+    "source_variables": [
+      "S10r1",
+      "S10r2",
+      "S10r3",
+      "S9"
+    ],
+    "checks": [
+      "Nonnegative counts",
+      "Each count not above S9",
+      "S10r1+S10r2 not above S9",
+      "provenance: document blocks 122-125"
+    ],
+    "provenance": [
+      "document:122-125"
+    ]
+  },
+  {
+    "id": "B08",
+    "question_ids": [
+      "Q1"
+    ],
+    "source_variables": [
+      "Q1r1c1",
+      "Q1r2c1",
+      "Q1r3c1",
+      "Q1r4c1",
+      "Q1r5c1",
+      "Q1r6c1",
+      "Q1r7c1",
+      "Q1r8c1"
+    ],
+    "checks": [
+      "Required numeric range 0-300",
+      "provenance: document blocks 127-145"
+    ],
+    "provenance": [
+      "document:127-145"
+    ]
+  },
+  {
+    "id": "B09",
+    "question_ids": [
+      "Q1A_Q1B"
+    ],
+    "source_variables": [
+      "Q1ar21c1",
+      "Q1ar22c1",
+      "Q1ar23c1",
+      "Q1br31c1",
+      "Q1br32c1",
+      "Q1br33c1",
+      "Q1c",
+      "Q1d",
+      "Q1r2c1",
+      "Q1r3c1"
+    ],
+    "checks": [
+      "Management totals equal Q1 BVMD or ARB counts",
+      "Confirmation counts do not exceed source counts",
+      "provenance: document blocks 146-173"
+    ],
+    "provenance": [
+      "document:146-173"
+    ]
+  },
+  {
+    "id": "B10",
+    "question_ids": [
+      "Q2"
+    ],
+    "source_variables": [
+      "Q2"
+    ],
+    "checks": [
+      "Required scale 1-7",
+      "provenance: document block 174; SAV value labels"
+    ],
+    "provenance": [
+      "document:174",
+      "dataset_dictionary:Q2"
+    ]
+  },
+  {
+    "id": "B11",
+    "question_ids": [
+      "Q3"
+    ],
+    "source_variables": [
+      "Q3r1c1",
+      "Q3r2c1",
+      "Q3r3c1",
+      "Q3r4c1",
+      "Q3r4oe",
+      "S10r1",
+      "S10r2"
+    ],
+    "checks": [
+      "Nonnegative counts",
+      "Total equals S10r1+S10r2",
+      "Other text linkage",
+      "provenance: document blocks 175-186"
+    ],
+    "provenance": [
+      "document:175-186"
+    ]
+  },
+  {
+    "id": "B12",
+    "question_ids": [
+      "Q4"
+    ],
+    "source_variables": [
+      "Q4r1",
+      "Q4r2",
+      "Q4r3",
+      "Q4r4",
+      "Q4r5",
+      "Q4r6",
+      "S10r1",
+      "S10r2"
+    ],
+    "checks": [
+      "Each count between zero and S10r1+S10r2",
+      "provenance: document blocks 187-193"
+    ],
+    "provenance": [
+      "document:187-193"
+    ]
+  },
+  {
+    "id": "B13",
+    "question_ids": [
+      "Q5"
+    ],
+    "source_variables": [
+      "Q5r1",
+      "Q5r2",
+      "Q5r3",
+      "Q5r4",
+      "Q5r5",
+      "Q5r6",
+      "S10r1",
+      "S10r2"
+    ],
+    "checks": [
+      "Each count bounded by BEST1 total",
+      "Sum equals BEST1 total",
+      "provenance: document blocks 194-201"
+    ],
+    "provenance": [
+      "document:194-201"
+    ]
+  },
+  {
+    "id": "B14",
+    "question_ids": [
+      "Q6"
+    ],
+    "source_variables": [
+      "Q6r1",
+      "Q6r2",
+      "Q5r1",
+      "Q5r2"
+    ],
+    "checks": [
+      "Counts bounded by referred total",
+      "Sum equals referred total",
+      "provenance: document blocks 202-205"
+    ],
+    "provenance": [
+      "document:202-205"
+    ]
+  },
+  {
+    "id": "B15",
+    "question_ids": [
+      "Q7"
+    ],
+    "source_variables": [
+      "Q7r1c1",
+      "Q7r2c1",
+      "Q7r3c1",
+      "Q7r4c1",
+      "Q7r5c1",
+      "Q7r6c1",
+      "S10r1"
+    ],
+    "checks": [
+      "Stage counts bounded by S10r1",
+      "Sum equals S10r1",
+      "provenance: document blocks 206-218"
+    ],
+    "provenance": [
+      "document:206-218"
+    ]
+  },
+  {
+    "id": "B16",
+    "question_ids": [
+      "Q8"
+    ],
+    "source_variables": [
+      "Q8r1",
+      "Q8r2",
+      "Q8r3",
+      "S10r1",
+      "S10r2"
+    ],
+    "checks": [
+      "Counts bounded by BEST1 total",
+      "Sum equals BEST1 total",
+      "provenance: document blocks 219-222"
+    ],
+    "provenance": [
+      "document:219-222"
+    ]
+  },
+  {
+    "id": "B17",
+    "question_ids": [
+      "Q9"
+    ],
+    "source_variables": [
+      "Q9r1",
+      "Q9r2",
+      "Q9r3",
+      "Q9r4",
+      "Q9r5"
+    ],
+    "checks": [
+      "Percentages 0-100",
+      "Sum equals 100",
+      "provenance: document blocks 223-228"
+    ],
+    "provenance": [
+      "document:223-228"
+    ]
+  },
+  {
+    "id": "B18",
+    "question_ids": [
+      "Q10_Q11"
+    ],
+    "source_variables": [
+      "Q10",
+      "Q11",
+      "Q11a",
+      "Q11b"
+    ],
+    "checks": [
+      "Numeric bounds and Q11 codes",
+      "provenance: document blocks 229-235"
+    ],
+    "provenance": [
+      "document:229-235"
+    ]
+  },
+  {
+    "id": "B19",
+    "question_ids": [
+      "Q12"
+    ],
+    "source_variables": [
+      "Q12r1",
+      "Q12r2",
+      "Q12r3",
+      "Q12r4"
+    ],
+    "checks": [
+      "All scales 1-7",
+      "provenance: document blocks 236-240; SAV value labels"
+    ],
+    "provenance": [
+      "document:236-240",
+      "dataset_dictionary:Q12r1-Q12r4"
+    ]
+  },
+  {
+    "id": "B20",
+    "question_ids": [
+      "Q13"
+    ],
+    "source_variables": [
+      "Q13r1",
+      "Q13r2",
+      "Q13r3"
+    ],
+    "checks": [
+      "All scales 1-7",
+      "provenance: document blocks 245-248; SAV value labels"
+    ],
+    "provenance": [
+      "document:245-248",
+      "dataset_dictionary:Q13r1-Q13r3"
+    ]
+  },
+  {
+    "id": "B21",
+    "question_ids": [
+      "Q14"
+    ],
+    "source_variables": [
+      "Q14r1",
+      "Q14r2",
+      "Q14r3",
+      "Q14r4"
+    ],
+    "checks": [
+      "All scales 1-7",
+      "provenance: document blocks 249-253; SAV value labels"
+    ],
+    "provenance": [
+      "document:249-253",
+      "dataset_dictionary:Q14r1-Q14r4"
+    ]
+  },
+  {
+    "id": "B22",
+    "question_ids": [
+      "Q15"
+    ],
+    "source_variables": [
+      "Q15"
+    ],
+    "checks": [
+      "Required open text",
+      "provenance: document block 254; SAV width 255"
+    ],
+    "provenance": [
+      "document:254",
+      "dataset_dictionary:Q15"
+    ]
+  },
+  {
+    "id": "B23",
+    "question_ids": [
+      "Q16_Q18"
+    ],
+    "source_variables": [
+      "Q16",
+      "Q17",
+      "Q18",
+      "S10r1",
+      "S10r2"
+    ],
+    "checks": [
+      "Q16 percentage bounds",
+      "Q17 bounded by S10r1",
+      "Q18 required open text",
+      "provenance: document blocks 255-258"
+    ],
+    "provenance": [
+      "document:255-258",
+      "dataset_dictionary:Q16-Q18"
+    ]
+  },
+  {
+    "id": "B24",
+    "question_ids": [
+      "Q19"
+    ],
+    "source_variables": [
+      "Q19a",
+      "Q19b",
+      "Q19c",
+      "Q17"
+    ],
+    "checks": [
+      "Funnel bounds Q19a, Q19b, Q19c",
+      "provenance: document blocks 259-262"
+    ],
+    "provenance": [
+      "document:259-262"
+    ]
+  },
+  {
+    "id": "B25",
+    "question_ids": [
+      "Q20"
+    ],
+    "source_variables": [
+      "Q20a",
+      "Q20b",
+      "Q20c",
+      "Q17",
+      "S10r1"
+    ],
+    "checks": [
+      "Funnel bounds Q20a, Q20b, Q20c",
+      "provenance: document blocks 263-266"
+    ],
+    "provenance": [
+      "document:263-266"
+    ]
+  },
+  {
+    "id": "B26",
+    "question_ids": [
+      "Q21_Q22"
+    ],
+    "source_variables": [
+      "Q21",
+      "Q22",
+      "S10r2"
+    ],
+    "checks": [
+      "Q21 and Q22 bounded by S10r2",
+      "provenance: document blocks 267-270"
+    ],
+    "provenance": [
+      "document:267-270"
+    ]
+  },
+  {
+    "id": "B27",
+    "question_ids": [
+      "Q23"
+    ],
+    "source_variables": [
+      "Q23a",
+      "Q23b",
+      "Q23c",
+      "Q22"
+    ],
+    "checks": [
+      "Funnel bounds Q23a, Q23b, Q23c",
+      "provenance: document blocks 271-274"
+    ],
+    "provenance": [
+      "document:271-274"
+    ]
+  },
+  {
+    "id": "B28",
+    "question_ids": [
+      "Q24"
+    ],
+    "source_variables": [
+      "Q24a",
+      "Q24b",
+      "Q24c",
+      "Q22",
+      "S10r2"
+    ],
+    "checks": [
+      "Funnel bounds Q24a, Q24b, Q24c",
+      "provenance: document blocks 275-278"
+    ],
+    "provenance": [
+      "document:275-278"
+    ]
+  },
+  {
+    "id": "B29",
+    "question_ids": [
+      "Q25"
+    ],
+    "source_variables": [
+      "Q25"
+    ],
+    "checks": [
+      "Required open text",
+      "provenance: document block 279; SAV width 255"
+    ],
+    "provenance": [
+      "document:279",
+      "dataset_dictionary:Q25"
+    ]
+  },
+  {
+    "id": "B30",
+    "question_ids": [
+      "Q26"
+    ],
+    "source_variables": [
+      "Q26r1",
+      "Q26r2",
+      "Q26r3",
+      "Q26r4"
+    ],
+    "checks": [
+      "All rows use codes 1-4",
+      "provenance: document blocks 280-305; SAV value labels"
+    ],
+    "provenance": [
+      "document:280-305",
+      "dataset_dictionary:Q26r1-Q26r4"
+    ]
+  },
+  {
+    "id": "B31",
+    "question_ids": [
+      "QTREGION_SCHEMA"
+    ],
+    "source_variables": [
+      "qtRegion"
+    ],
+    "checks": [
+      "Dictionary code check 1-5 only",
+      "provenance: dataset dictionary"
+    ],
+    "provenance": [
+      "dataset_dictionary:qtRegion",
+      "dictionary:qtRegion"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDOEBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidOEBatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidOEBatch"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDDVBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidDVBatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidDVBatch"
+    ]
+  }
+]

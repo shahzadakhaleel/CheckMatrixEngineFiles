@@ -1,0 +1,10 @@
+{
+  "block_id": "B10",
+  "source_variables": [
+    "Q2"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q2.\ntemporary.\nsel if miss(Q2) or ~range(Q2,1,7).\nlist respid, Q2.",
+  "omission_reason": null,
+  "warnings": []
+}

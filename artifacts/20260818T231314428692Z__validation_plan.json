@@ -1,0 +1,403 @@
+{
+  "questionnaire_title": "To",
+  "project_name": null,
+  "validations": [
+    {
+      "question_id": "Q0",
+      "variable": "Q0",
+      "rules": [],
+      "no_validation_reason": "The question is optional and its response options are present only as un-coded text, so no evidence-supported code or routing check can be defined."
+    },
+    {
+      "question_id": "Q1",
+      "variable": "Q1",
+      "rules": [
+        {
+          "id": "Q1-R1",
+          "question_id": "Q1",
+          "validation_type": "multiple_response",
+          "description": "Validate the select-all-that-apply response structure for clinical areas, including the other option.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2",
+      "variable": "Q2",
+      "rules": [
+        {
+          "id": "Q2-R1",
+          "question_id": "Q2",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the stated frequency-scale responses from 1 through 7 for each medication or product item.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3",
+      "variable": "Q3",
+      "rules": [
+        {
+          "id": "Q3-R1",
+          "question_id": "Q3",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the stated five-point outcome-experience scale from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4",
+      "variable": "Q4",
+      "rules": [
+        {
+          "id": "Q4-R1",
+          "question_id": "Q4",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the stated five-point outcome-value scale from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5",
+      "variable": "Q5",
+      "rules": [
+        {
+          "id": "Q5-R1",
+          "question_id": "Q5",
+          "validation_type": "ranking",
+          "description": "Validate that the five listed outcomes use ranking values no higher than 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6",
+      "variable": "Q6",
+      "rules": [
+        {
+          "id": "Q6-R1",
+          "question_id": "Q6",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the stated five-point medication-error-reduction scale from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7",
+      "variable": "Q7",
+      "rules": [
+        {
+          "id": "Q7-R1",
+          "question_id": "Q7",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the stated five-point capability-value scale from 1 through 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8",
+      "variable": "Q8",
+      "rules": [
+        {
+          "id": "Q8-R1",
+          "question_id": "Q8",
+          "validation_type": "ranking",
+          "description": "Validate that the five listed capabilities use ranking values no higher than 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9",
+      "variable": "Q9",
+      "rules": [],
+      "no_validation_reason": "The question is optional and its categorical response options are not supplied with explicit response codes or variables."
+    },
+    {
+      "question_id": "Q10",
+      "variable": "Q10",
+      "rules": [],
+      "no_validation_reason": "The question is optional and its categorical response options are not supplied with explicit response codes or variables; the following Q11 content is instructional text rather than a canonical Q10 validation target."
+    },
+    {
+      "question_id": "Q12",
+      "variable": "Q12",
+      "rules": [
+        {
+          "id": "Q12-R1",
+          "question_id": "Q12",
+          "validation_type": "multiple_response",
+          "description": "Validate the select-all-that-apply response structure for alternative activities, including the other option.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

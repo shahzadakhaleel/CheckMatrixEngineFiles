@@ -1,0 +1,13 @@
+{
+  "run_id": "d0c39abfcf8441d2bdc24a8286588f12",
+  "created_at": "2026-09-13T05:56:55.717517+00:00",
+  "status": "failed",
+  "stage": "generation",
+  "reason": "Unknown SPSS variable or unsupported function: in",
+  "input": {
+    "key": "d0c39abfcf8441d2bdc24a8286588f12__2026_Arcalyst_HCP_Ad_Tracker_W1_Programming_v6.docx",
+    "filename": "2026_Arcalyst_HCP_Ad_Tracker_W1_Programming_v6.docx",
+    "size": 2004358,
+    "created_at": "2026-09-13T05:54:13.878221+00:00"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "run_id": "20260820T222047573611Z",
+  "user": "appadmin",
+  "created_at": "2026-08-20T22:24:12.119333+00:00",
+  "generation_seconds": 419.74,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "0ed5eecf1a666d65fa1013138a4135b42a345de9dc1557baa905fa907c3102ff",
+  "input": {
+    "key": "20260820T222047573611Z__V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "filename": "V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "size": 60220,
+    "created_at": "2026-08-20T22:20:47.574856+00:00"
+  },
+  "output": {
+    "key": "Validation_260820222412.sps",
+    "filename": "Validation_260820222412.sps",
+    "size": 52599,
+    "created_at": "2026-08-20T22:24:12.119333+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 160,
+    "checksEmitted": 159,
+    "questionsOmitted": 33,
+    "coveragePercent": 79.4,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Introduction",
+        "prefix": "INTRO",
+        "questions": 1,
+        "checksEmitted": 0,
+        "questionsOmitted": 1,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "INTRO",
+            "reason": "Informational introduction text; no respondent data are collected."
+          }
+        ]
+      },
+      {
+        "block": "Screening",
+        "prefix": "S",
+        "questions": 13,
+        "checksEmitted": 34,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Survey",
+        "prefix": "Q",
+        "questions": 134,
+        "checksEmitted": 116,
+        "questionsOmitted": 29,
+        "coveragePercent": 78.4,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q2_01",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_02",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_03",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_04",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_05",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_06",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_07",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_08",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_09",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_10",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_11",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q2_12",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u201399), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_01",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_02",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_03",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_04",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_05",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_06",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_07",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_08",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_09",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_10",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_11",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q3_12",
+            "reason": "The source notes contain conflicting numeric ranges (1\u201399 and 0\u2013199), so no deterministic range check is emitted."
+          },
+          {
+            "questionId": "Q8_R01",
+            "reason": "No usable response variable is supplied for this ranking row; targeting a validation rule would require inventing a variable."
+          },
+          {
+            "questionId": "Q8_R02",
+            "reason": "No usable response variable is supplied for this ranking row; targeting a validation rule would require inventing a variable."
+          },
+          {
+            "questionId": "Q8_R03",
+            "reason": "No usable response variable is supplied for this ranking row; targeting a validation rule would require inventing a variable."
+          },
+          {
+            "questionId": "Q8",
+            "reason": "The question-level ranking item has no response variable or listed options, so no evidence-supported target can be validated."
+          },
+          {
+            "questionId": "Q9",
+            "reason": "The matrix-level question has no response variable; its separately supplied row variables are validated individually."
+          }
+        ]
+      },
+      {
+        "block": "Classification purposes only",
+        "prefix": "Q",
+        "questions": 12,
+        "checksEmitted": 9,
+        "questionsOmitted": 3,
+        "coveragePercent": 75.0,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q19",
+            "reason": "The question has a documented 1\u2013499 range and health-system routing, but no canonical response variable is supplied, so a typed range or routing rule cannot be created safely."
+          },
+          {
+            "questionId": "20",
+            "reason": "The question has a documented 0\u2013999 range and health-system routing, but no canonical response variable is supplied, so a typed range or routing rule cannot be created safely."
+          },
+          {
+            "questionId": "21",
+            "reason": "The question has documented single-select options and health-system routing, but no canonical response variable is supplied, so a typed code or routing rule cannot be created safely."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,1697 @@
+{
+  "metadata": {
+    "title": "CHANGES: V2_Changes (Jun-15-2026) V3_Changes (Jun-15-2026)",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "S1",
+          "variable": "S1",
+          "title": "Which of the following best describes your current role? [SINGLE CODE]",
+          "text": "S1 Which of the following best describes your current role? [SINGLE CODE] Physician (MD, DO) Physician Assistant (PA) [TERMINATE IMMEDIATELY] Optometrist [TERMINATE IMMEDIATELY] Nurse Practitioner (NP) [TERMINATE IMMEDIATELY] Other (please specify): _________ [TERMINATE IMMEDIATELY]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S1 Which of the following best describes your current role? [SINGLE CODE] Physician (MD, DO) Physician Assistant (PA) [TERMINATE IMMEDIATELY] Optometrist [TERMINATE IMMEDIATELY] Nurse Practitioner (NP) [TERMINATE IMMEDIATELY] Other (please specify): _________ [TERMINATE IMMEDIATELY]",
+          "notes": null,
+          "metadata": {
+            "source_line": 21
+          }
+        },
+        {
+          "id": "S2",
+          "variable": "S2",
+          "title": "In what medical specialty are you board-certified? [SINGLE CODE]",
+          "text": "S2 In what medical specialty are you board-certified? [SINGLE CODE] Dermatology [TERMINATE IMMEDIATELY] Surgery [TERMINATE IMMEDIATELY] Pulmonology [TERMINATE IMMEDIATELY] Internal Medicine, without a subspecialty [TERMINATE IMMEDIATELY] OB/GYN [TERMINATE IMMEDIATELY] Ophthalmology Transplant Hepatology [TERMINATE IMMEDIATELY] Family or General Practice [TERMINATE IMMEDIATELY] Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S2 In what medical specialty are you board-certified? [SINGLE CODE] Dermatology [TERMINATE IMMEDIATELY] Surgery [TERMINATE IMMEDIATELY] Pulmonology [TERMINATE IMMEDIATELY] Internal Medicine, without a subspecialty [TERMINATE IMMEDIATELY] OB/GYN [TERMINATE IMMEDIATELY] Ophthalmology Transplant Hepatology [TERMINATE IMMEDIATELY] Family or General Practice [TERMINATE IMMEDIATELY] Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+          "notes": null,
+          "metadata": {
+            "source_line": 27
+          }
+        },
+        {
+          "id": "S3",
+          "variable": "S3",
+          "title": "What is your primary subspecialty? [SINGLE CODE]",
+          "text": "S3 What is your primary subspecialty? [SINGLE CODE] General/Comprehensive [TERMINATE IMMEDIATELY] Glaucoma [TERMINATE IMMEDIATELY] Cornea [TERMINATE IMMEDIATELY] Uveitis and Immunology [TERMINATE IMMEDIATELY] Vitreo-retinal or Retinal Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S3 What is your primary subspecialty? [SINGLE CODE] General/Comprehensive [TERMINATE IMMEDIATELY] Glaucoma [TERMINATE IMMEDIATELY] Cornea [TERMINATE IMMEDIATELY] Uveitis and Immunology [TERMINATE IMMEDIATELY] Vitreo-retinal or Retinal Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+          "notes": null,
+          "metadata": {
+            "source_line": 37
+          }
+        },
+        {
+          "id": "S4",
+          "variable": "S4",
+          "title": "For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]",
+          "text": "S4 For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S4 For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]",
+          "notes": null,
+          "metadata": {
+            "source_line": 44
+          }
+        },
+        {
+          "id": "S5",
+          "variable": "S5",
+          "title": "What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]",
+          "text": "S5 What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S5 What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]",
+          "notes": null,
+          "metadata": {
+            "source_line": 45
+          }
+        },
+        {
+          "id": "S6",
+          "variable": "S6",
+          "title": "In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia]",
+          "text": "S6 In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia] hidRegion. Recode Region based on S6 Northeast Connecticut Maine Massachusetts New Hampshire New Jersey New York Pennsylvania Rhode Island Delaware Vermont [TERMINATE IMMEDIATELY] Southeast Alabama Arkansas Florida Georgia Kentucky Louisiana Maryland Mississippi North Carolina South Carolina Tennessee Virginia West Virginia [TERMINATE IMMEDIATELY] Washington DC Midwest Illinois Indiana Iowa Kansas Michigan Minnesota Missouri Nebraska North Dakota Ohio South Dakota Wisconsin Southwest/Mountain West Arizona New Mexico Oklahoma Texas Colorado Utah Montana Wyoming West Alaska California Hawaii Idaho Nevada Oregon Washington Outside US [TERMINATE IMMEDIATELY]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S6 In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia] hidRegion. Recode Region based on S6 Northeast Connecticut Maine Massachusetts New Hampshire New Jersey New York Pennsylvania Rhode Island Delaware Vermont [TERMINATE IMMEDIATELY] Southeast Alabama Arkansas Florida Georgia Kentucky Louisiana Maryland Mississippi North Carolina South Carolina Tennessee Virginia West Virginia [TERMINATE IMMEDIATELY] Washington DC Midwest Illinois Indiana Iowa Kansas Michigan Minnesota Missouri Nebraska North Dakota Ohio South Dakota Wisconsin Southwest/Mountain West Arizona New Mexico Oklahoma Texas Colorado Utah Montana Wyoming West Alaska California Hawaii Idaho Nevada Oregon Washington Outside US [TERMINATE IMMEDIATELY]",
+          "notes": null,
+          "metadata": {
+            "source_line": 46
+          }
+        },
+        {
+          "id": "S7",
+          "variable": "S7",
+          "title": "In what setting do you practice? [SINGLE CODE]",
+          "text": "S7 In what setting do you practice? [SINGLE CODE] Solo or small group private practice Large multispecialty private practice ophthalmology/physician group Academic medical centers Specialized ocular gene therapy treatment centers Hospital-employed practice [TERMINATE IMMEDIATELY] Corporate ophthalmology management organizations",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S7 In what setting do you practice? [SINGLE CODE] Solo or small group private practice Large multispecialty private practice ophthalmology/physician group Academic medical centers Specialized ocular gene therapy treatment centers Hospital-employed practice [TERMINATE IMMEDIATELY] Corporate ophthalmology management organizations",
+          "notes": null,
+          "metadata": {
+            "source_line": 105
+          }
+        },
+        {
+          "id": "S9",
+          "variable": "S9",
+          "title": "Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]",
+          "text": "S9. Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S9. Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 112
+          }
+        },
+        {
+          "id": "S8",
+          "variable": "S8",
+          "title": "Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE]",
+          "text": "S8 Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE] Bestrophinopathies (BVMD or ARB) Leber Congenital Amaurosis Retinitis Pigmentosa (RP) Stargardt Disease Cone-rod Dystrophy Achromatopsia Other (specify) ________ None of the above [EXCLUSIVE]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S8 Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE] Bestrophinopathies (BVMD or ARB) Leber Congenital Amaurosis Retinitis Pigmentosa (RP) Stargardt Disease Cone-rod Dystrophy Achromatopsia Other (specify) ________ None of the above [EXCLUSIVE]",
+          "notes": null,
+          "metadata": {
+            "source_line": 113
+          }
+        },
+        {
+          "id": "S10",
+          "variable": "S10",
+          "title": "Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9]",
+          "text": "S10. Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9] Best vitelliform macular dystrophy (BVMD): ____________ [TERMINATE if S10a + S10b <5; TERMINATE IMMEDIATELY IF S10a + S10b =0] Autosomal recessive bestrophinopathy (ARB):____________ Leber congenital amaurosis: ____________ Survey Questions",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S10. Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9] Best vitelliform macular dystrophy (BVMD): ____________ [TERMINATE if S10a + S10b <5; TERMINATE IMMEDIATELY IF S10a + S10b =0] Autosomal recessive bestrophinopathy (ARB):____________ Leber congenital amaurosis: ____________ Survey Questions",
+          "notes": null,
+          "metadata": {
+            "source_line": 122
+          }
+        },
+        {
+          "id": "Q1",
+          "variable": "Q1",
+          "title": "In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen]",
+          "text": "Q1 In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen] Condition # Patients 1 Leber Congenital Amaurosis 2 Best Vitelliform Macular Dystrophy (BVMD) 3 Autosomal recessive Bestrophinopathy (ARB) 4 Retinitis Pigmentosa (RP) 5 Stargardt Disease 6 Cone-rod Dystrophy 7 Achromatopsia 8 Unspecified Inherited Retinal Disease [ASK Q1a IF Q1 BVMD>0]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "# Patients",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Leber Congenital Amaurosis",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Best Vitelliform Macular Dystrophy (BVMD)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Autosomal recessive Bestrophinopathy (ARB)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Retinitis Pigmentosa (RP)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Stargardt Disease",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Cone-rod Dystrophy",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Achromatopsia",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1 In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen] Condition # Patients 1 Leber Congenital Amaurosis 2 Best Vitelliform Macular Dystrophy (BVMD) 3 Autosomal recessive Bestrophinopathy (ARB) 4 Retinitis Pigmentosa (RP) 5 Stargardt Disease 6 Cone-rod Dystrophy 7 Achromatopsia 8 Unspecified Inherited Retinal Disease [ASK Q1a IF Q1 BVMD>0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 127
+          }
+        },
+        {
+          "id": "Q1A",
+          "variable": "Q1A",
+          "title": "Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD]",
+          "text": "Q1a. Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD] BVMD Management # Patients 21 Diagnosed myself 22 Referred to another provider 23 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 BVMD] [ASK Q1a IF Q1 ARB>0]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [
+            {
+              "code": "21",
+              "text": "# Patients",
+              "value": 21,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "22",
+              "text": "Diagnosed myself",
+              "value": 22,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "23",
+              "text": "Referred to another provider",
+              "value": 23,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1a. Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD] BVMD Management # Patients 21 Diagnosed myself 22 Referred to another provider 23 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 BVMD] [ASK Q1a IF Q1 ARB>0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 147
+          }
+        },
+        {
+          "id": "Q1B",
+          "variable": "Q1B",
+          "title": "Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB]",
+          "text": "Q1b. Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB] ARB Management # Patients 31 Diagnosed myself 32 Referred to another provider 33 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 ARB] [ASK Q1c IF Q1 BVMD>0]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [
+            {
+              "code": "31",
+              "text": "# Patients",
+              "value": 31,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "32",
+              "text": "Diagnosed myself",
+              "value": 32,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "33",
+              "text": "Referred to another provider",
+              "value": 33,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1b. Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB] ARB Management # Patients 31 Diagnosed myself 32 Referred to another provider 33 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 ARB] [ASK Q1c IF Q1 BVMD>0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 159
+          }
+        },
+        {
+          "id": "Q1C",
+          "variable": "Q1C",
+          "title": "Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD]",
+          "text": "Q1c. Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD] [ASK Q1d IF Q1 ARB>0]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q1c. Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD] [ASK Q1d IF Q1 ARB>0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 171
+          }
+        },
+        {
+          "id": "Q1D",
+          "variable": "Q1D",
+          "title": "Of the [PIPE Q1 ARB] patients that you suspected of having ARB, how many patients ended up with an ARB diagnosis confirmation? [Range 0- Q1 ARB]",
+          "text": "Q1d. Of the [PIPE Q1 ARB] patients that you suspected of having ARB, how many patients ended up with an ARB diagnosis confirmation? [Range 0- Q1 ARB]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 173
+          }
+        },
+        {
+          "id": "Q2",
+          "variable": "Q2",
+          "title": "On a scale from 1 to 7, with 1=not at all confident to 7= very confident, how confident are you that you would recognize a patient with Best disease (i.e., BVMD) without genetic testing? [Sliding Scale from 1-7]",
+          "text": "Q2 On a scale from 1 to 7, with 1=not at all confident to 7= very confident, how confident are you that you would recognize a patient with Best disease (i.e., BVMD) without genetic testing? [Sliding Scale from 1-7]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 174
+          }
+        },
+        {
+          "id": "Q3",
+          "variable": "Q3",
+          "title": "What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following? [RANGE 0 - S10a+S10b; Force sum to S10a+S10b]",
+          "text": "Q3 What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following? [RANGE 0 - S10a+S10b; Force sum to S10a+S10b] # Patients 1 Symptom onset spurring medical attention for complaints (e.g., blurred vision) 2 Incidental findings from routine screenings or visits 3 Family cascade testing following diagnosis or genetic findings in a relative 4 Other (Please specify) __________ [Open-end] Total [TOTAL MUST SUM TO S10a+S10b]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "# Patients",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Symptom onset spurring medical attention for complaints (e.g., blurred vision)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Incidental findings from routine screenings or visits",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Family cascade testing following diagnosis or genetic findings in a relative",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 175
+          }
+        },
+        {
+          "id": "Q4",
+          "variable": "Q4",
+          "title": "To the best of your knowledge, of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part of the journey from initial presentation or incidental findings to diagnosis? [RANGE 0 - S10a+S10b]",
+          "text": "Q4 To the best of your knowledge, of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part of the journey from initial presentation or incidental findings to diagnosis? [RANGE 0 - S10a+S10b] Optometrist ___ General/Comprehensive Ophthalmologist (excluding myself) ___ Pediatric Ophthalmologist (excluding myself) ___ Retinal Specialist Ophthalmologist (excluding myself) ___ Primary Care Physician ___ I don’t know ___",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 187
+          }
+        },
+        {
+          "id": "Q5",
+          "variable": "Q5",
+          "title": "What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit into each of the below categories? [RANGE 0 - S10a+S10b]",
+          "text": "Q5 What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit into each of the below categories? [RANGE 0 - S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b] Patients referred to me for diagnosis of a suspected IRD that I diagnosed myself (alone or in collaboration with a geneticist) _________ Patients referred to me for diagnosis of a suspected IRD that I referred to another provider for a diagnosis _________ Patients that I suspected of an IRD and diagnosed myself (alone or in collaboration with a geneticist) ________ Patients that I suspected of an IRD and referred to another provider for a diagnosis ________ Patient referrals who were previously misdiagnosed with another disease that I diagnosed as Best disease _________ Patient referrals who were previously diagnosed with BEST1 disease and see me for reasons other than diagnosis ________",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 194
+          }
+        },
+        {
+          "id": "Q6",
+          "variable": "Q6",
+          "title": "[If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b]",
+          "text": "Q6 [If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b] [Note to programmer: Answers must sum to Q5a+Q5b] Patient referrals I received from an ophthalmologist: _______ Patient referrals I received from an optometrist: ______ [ASK Q7 IF S10a>0]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q6 [If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b] [Note to programmer: Answers must sum to Q5a+Q5b] Patient referrals I received from an ophthalmologist: _______ Patient referrals I received from an optometrist: ______ [ASK Q7 IF S10a>0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 202
+          }
+        },
+        {
+          "id": "Q7",
+          "variable": "Q7",
+          "title": "Of your [PIPE S10a] Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+          "text": "Q7 Of your [PIPE S10a] Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories? [Note to programmer: Force sum to PIPE S10a] [RANGE 0-S10a] Disease Stage # Patients Stage 0 - Previtelliform Stage 1 - Vitelliform (“Egg-yolk”) Stage 2 - Pseudohypopyon Stage 3 - Vitelliruptive (“Scrambled Egg”) Stage 4 - Atrophic Stage 5 - CNV/Fibrotic End Stage Total [Must SUM to S10a]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 207
+          }
+        },
+        {
+          "id": "Q8",
+          "variable": "Q8",
+          "title": "What number of your [PIPE S10a+S10b] patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using: [RANGE 0-S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b]",
+          "text": "Q8 What number of your [PIPE S10a+S10b] patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using: [RANGE 0-S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b] Clinical criteria alone _____ Genetic testing alone_____ Both clinical criteria and genetic testing _____",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 219
+          }
+        },
+        {
+          "id": "Q9",
+          "variable": "Q9",
+          "title": "In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories: [Force sum to 100%]",
+          "text": "Q9 In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories: [Force sum to 100%] Remain undiagnosed ___% [RANGE 0-100] Are misdiagnosed as having a different inherited retinal disease (IRD) ___% [RANGE 0-100] Are diagnosed by clinical criteria alone ___% [RANGE 0-100] Are diagnosed by genetic testing alone ___% [RANGE 0-100] Are diagnosed with both clinical criteria and genetic testing ___% [RANGE 0-100]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 223
+          }
+        },
+        {
+          "id": "Q10",
+          "variable": "Q10",
+          "title": "Based on your experience, what percentage of patients suspected of having Best vitelliform macular degeneration (BVMD) or autosomal bestrophinopathy (ARB) in your clinic may never receive a definitive diagnosis and therefore remain undiagnosed? ___________% [RANGE 0-99%]",
+          "text": "Q10 Based on your experience, what percentage of patients suspected of having Best vitelliform macular degeneration (BVMD) or autosomal bestrophinopathy (ARB) in your clinic may never receive a definitive diagnosis and therefore remain undiagnosed? ___________% [RANGE 0-99%]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 229
+          }
+        },
+        {
+          "id": "Q11",
+          "variable": "Q11",
+          "title": "Do you believe the diagnosis rate at your practice is consistent with overall diagnostic rates for BEST1 patients in the US? [SINGLE CODE; show Q10 and Q11 and Q11a-b on the same screen]",
+          "text": "Q11 Do you believe the diagnosis rate at your practice is consistent with overall diagnostic rates for BEST1 patients in the US? [SINGLE CODE; show Q10 and Q11 and Q11a-b on the same screen] Yes, I believe it is likely consistent No - I believe overall diagnosis rates are likely higher than at my practice No - I believe overall diagnosis rates are likely lower than at my practice",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 230
+          }
+        },
+        {
+          "id": "Q11A",
+          "variable": "Q11A",
+          "title": "What is your current best estimate for the overall percentage of patients with Best vitelliform macular degeneration (BVMD) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+          "text": "Q11a. What is your current best estimate for the overall percentage of patients with Best vitelliform macular degeneration (BVMD) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 234
+          }
+        },
+        {
+          "id": "Q11B",
+          "variable": "Q11B",
+          "title": "What is your current best estimate for the overall percentage of patients with autosomal bestrophinopathy (ARB) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+          "text": "Q11b. What is your current best estimate for the overall percentage of patients with autosomal bestrophinopathy (ARB) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 235
+          }
+        },
+        {
+          "id": "Q12",
+          "variable": "Q12",
+          "title": "On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions: [SLIDING SCALES WITH RANGE 1-7; show all sliding scales together on the screen]",
+          "text": "Q12 On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions: [SLIDING SCALES WITH RANGE 1-7; show all sliding scales together on the screen] Best vitelliform macular dystrophy (BVMD) ______ Autosomal recessive bestrophinopathy (ARB) ______ Leber congenital amaurosis type 2 (LCA caused by mutations in the RPE65 gene) ______ Leber congenital amaurosis type 5 (LCA caused by mutations in lebercilin gene) ______ Next, please review a target product profile for a hypothetical AAV gene therapy product which is indicated to deliver a normal version of the BEST1 gene for patients with BVMD or ARB. Please review this profile and prepare to answer several questions about your reactions. Primary and secondary study endpoint descriptions are available for clarification of all study endpoints. [SHOW 30 SECOND COUNTER ON “>>” BUTTON] [SHOW HYPERLINK FOR ALL QUESTIONS “Click here to review the TPP again.”] [SHOW HYPERLINK FOR ALL QUESTIONS “Click here to view Primary and Secondary Study Endpoint Descriptions.”]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 236
+          }
+        },
+        {
+          "id": "Q13",
+          "variable": "Q13",
+          "title": "On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (ARB)? [SLIDING SCALES WITH RANGE 1-7]",
+          "text": "Q13 On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (ARB)? [SLIDING SCALES WITH RANGE 1-7] Overall Rating Efficacy Safety",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 245
+          }
+        },
+        {
+          "id": "Q14",
+          "variable": "Q14",
+          "title": "On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 disease patients: [SLIDING SCALES WITH RANGE 1-7]",
+          "text": "Q14 On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 disease patients: [SLIDING SCALES WITH RANGE 1-7] Clinically significant improvement in microperimetry mean sensitivity 3-line (or equivalent) improvement in BCVA or LLVA by ETDRS 30% improvement in lesion size or fluid reduction from baseline in SD-OCT 20% improvement in MRDQ score",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 249
+          }
+        },
+        {
+          "id": "Q15",
+          "variable": "Q15",
+          "title": "What additional endpoints and magnitude of improvements would you want to see for Product X to be more compelling for the treatment of BEST1 disease patients? _________________________[Open-ended, limit to 250 characters]",
+          "text": "Q15 What additional endpoints and magnitude of improvements would you want to see for Product X to be more compelling for the treatment of BEST1 disease patients? _________________________[Open-ended, limit to 250 characters]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 254
+          }
+        },
+        {
+          "id": "Q16",
+          "variable": "Q16",
+          "title": "What overall percentage of US patients with Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) do you estimate could be addressed with Product X? _____ % [RANGE 0-100]",
+          "text": "Q16 What overall percentage of US patients with Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) do you estimate could be addressed with Product X? _____ % [RANGE 0-100]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 255
+          }
+        },
+        {
+          "id": "Q17",
+          "variable": "Q17",
+          "title": "[ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]",
+          "text": "Q17 [ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q17 [ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]",
+          "notes": null,
+          "metadata": {
+            "source_line": 256
+          }
+        },
+        {
+          "id": "Q18",
+          "variable": "Q18",
+          "title": "Please describe the type of Best vitelliform macular dystrophy (BVMD) patient(s) that you would consider most suited for Product X treatment:",
+          "text": "Q18 Please describe the type of Best vitelliform macular dystrophy (BVMD) patient(s) that you would consider most suited for Product X treatment: _____ [Open-ended, limit to 250 characters]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 257
+          }
+        },
+        {
+          "id": "Q19",
+          "variable": "Q19",
+          "title": "[ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients:",
+          "text": "Q19 [ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q19a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0-Q19a] out of the patients recommended Product X [If Q19b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q19b] out of the patients recommended and receptive to Product X",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q19 [ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q19a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0-Q19a] out of the patients recommended Product X [If Q19b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q19b] out of the patients recommended and receptive to Product X",
+          "notes": null,
+          "metadata": {
+            "source_line": 259
+          }
+        },
+        {
+          "id": "Q20",
+          "variable": "Q20",
+          "title": "[ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients.",
+          "text": "Q20 [ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q20a >0] What number of those recommended patients do you think would be receptive to Product X? ____ [RANGE 0- Q20a] out of the patients recommended Product X [If Q20b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____[RANGE 0- Q20b] out of the patients recommended and receptive to Product X [ASK Q21 IF S10b >0]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q20 [ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q20a >0] What number of those recommended patients do you think would be receptive to Product X? ____ [RANGE 0- Q20a] out of the patients recommended Product X [If Q20b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____[RANGE 0- Q20b] out of the patients recommended and receptive to Product X [ASK Q21 IF S10b >0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 263
+          }
+        },
+        {
+          "id": "Q21",
+          "variable": "Q21",
+          "title": "How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen]",
+          "text": "Q21 How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen] [ASK Q21 IF S10b >0]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q21 How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen] [ASK Q21 IF S10b >0]",
+          "notes": null,
+          "metadata": {
+            "source_line": 268
+          }
+        },
+        {
+          "id": "Q22",
+          "variable": "Q22",
+          "title": "How many of your [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0- S10b]",
+          "text": "Q22 How many of your [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0- S10b]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 270
+          }
+        },
+        {
+          "id": "Q23",
+          "variable": "Q23",
+          "title": "[ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients:",
+          "text": "Q23 [ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q23a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0- Q23a] out of the patients recommended Product X [If Q23b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? [RANGE 0- Q23b] out of the patients recommended and receptive to Product X",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q23 [ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q23a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0- Q23a] out of the patients recommended Product X [If Q23b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? [RANGE 0- Q23b] out of the patients recommended and receptive to Product X",
+          "notes": null,
+          "metadata": {
+            "source_line": 271
+          }
+        },
+        {
+          "id": "Q24",
+          "variable": "Q24",
+          "title": "[ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients.",
+          "text": "Q24 [ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q24a >0] What number of those recommended patients do you think would be receptive to Product X? ____[RANGE 0- Q24a] out of the patients recommended Product X [If Q24b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q24b] out of the patients recommended and receptive to Product X",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q24 [ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q24a >0] What number of those recommended patients do you think would be receptive to Product X? ____[RANGE 0- Q24a] out of the patients recommended Product X [If Q24b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q24b] out of the patients recommended and receptive to Product X",
+          "notes": null,
+          "metadata": {
+            "source_line": 275
+          }
+        },
+        {
+          "id": "Q25",
+          "variable": "Q25",
+          "title": "What factors prevent you from potentially recommending the use of Product X in every Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) patient? ____ [Open-ended, limit to 250 characters]",
+          "text": "Q25 What factors prevent you from potentially recommending the use of Product X in every Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) patient? ____ [Open-ended, limit to 250 characters]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 279
+          }
+        },
+        {
+          "id": "Q26",
+          "variable": "Q26",
+          "title": "How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications? [Select 1 per row]",
+          "text": "Q26 How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications? [Select 1 per row] Treatment Product X has a lower degree of benefit relative to this therapy Product X has a similar degree of benefit relative to this therapy Product X has a greater degree of benefit relative to this therapy I am not familiar with this therapy A. Luxturna in LCA o o o o B. Encelto in MacTel2 o o o o C. Hemgenix in Hemophilia B o o o o D. Zolgensma in SMA o o o o Conclusion Thank you for your time today.",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Luxturna in LCA",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Encelto in MacTel2",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Hemgenix in Hemophilia B",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Zolgensma in SMA",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 280
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "S1",
+      "variable": "S1",
+      "title": "Which of the following best describes your current role? [SINGLE CODE]",
+      "text": "S1 Which of the following best describes your current role? [SINGLE CODE] Physician (MD, DO) Physician Assistant (PA) [TERMINATE IMMEDIATELY] Optometrist [TERMINATE IMMEDIATELY] Nurse Practitioner (NP) [TERMINATE IMMEDIATELY] Other (please specify): _________ [TERMINATE IMMEDIATELY]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S1 Which of the following best describes your current role? [SINGLE CODE] Physician (MD, DO) Physician Assistant (PA) [TERMINATE IMMEDIATELY] Optometrist [TERMINATE IMMEDIATELY] Nurse Practitioner (NP) [TERMINATE IMMEDIATELY] Other (please specify): _________ [TERMINATE IMMEDIATELY]",
+      "notes": null,
+      "metadata": {
+        "source_line": 21
+      }
+    },
+    {
+      "id": "S2",
+      "variable": "S2",
+      "title": "In what medical specialty are you board-certified? [SINGLE CODE]",
+      "text": "S2 In what medical specialty are you board-certified? [SINGLE CODE] Dermatology [TERMINATE IMMEDIATELY] Surgery [TERMINATE IMMEDIATELY] Pulmonology [TERMINATE IMMEDIATELY] Internal Medicine, without a subspecialty [TERMINATE IMMEDIATELY] OB/GYN [TERMINATE IMMEDIATELY] Ophthalmology Transplant Hepatology [TERMINATE IMMEDIATELY] Family or General Practice [TERMINATE IMMEDIATELY] Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S2 In what medical specialty are you board-certified? [SINGLE CODE] Dermatology [TERMINATE IMMEDIATELY] Surgery [TERMINATE IMMEDIATELY] Pulmonology [TERMINATE IMMEDIATELY] Internal Medicine, without a subspecialty [TERMINATE IMMEDIATELY] OB/GYN [TERMINATE IMMEDIATELY] Ophthalmology Transplant Hepatology [TERMINATE IMMEDIATELY] Family or General Practice [TERMINATE IMMEDIATELY] Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+      "notes": null,
+      "metadata": {
+        "source_line": 27
+      }
+    },
+    {
+      "id": "S3",
+      "variable": "S3",
+      "title": "What is your primary subspecialty? [SINGLE CODE]",
+      "text": "S3 What is your primary subspecialty? [SINGLE CODE] General/Comprehensive [TERMINATE IMMEDIATELY] Glaucoma [TERMINATE IMMEDIATELY] Cornea [TERMINATE IMMEDIATELY] Uveitis and Immunology [TERMINATE IMMEDIATELY] Vitreo-retinal or Retinal Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S3 What is your primary subspecialty? [SINGLE CODE] General/Comprehensive [TERMINATE IMMEDIATELY] Glaucoma [TERMINATE IMMEDIATELY] Cornea [TERMINATE IMMEDIATELY] Uveitis and Immunology [TERMINATE IMMEDIATELY] Vitreo-retinal or Retinal Other (please specify): _______ [TERMINATE IMMEDIATELY]",
+      "notes": null,
+      "metadata": {
+        "source_line": 37
+      }
+    },
+    {
+      "id": "S4",
+      "variable": "S4",
+      "title": "For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]",
+      "text": "S4 For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S4 For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]",
+      "notes": null,
+      "metadata": {
+        "source_line": 44
+      }
+    },
+    {
+      "id": "S5",
+      "variable": "S5",
+      "title": "What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]",
+      "text": "S5 What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S5 What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]",
+      "notes": null,
+      "metadata": {
+        "source_line": 45
+      }
+    },
+    {
+      "id": "S6",
+      "variable": "S6",
+      "title": "In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia]",
+      "text": "S6 In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia] hidRegion. Recode Region based on S6 Northeast Connecticut Maine Massachusetts New Hampshire New Jersey New York Pennsylvania Rhode Island Delaware Vermont [TERMINATE IMMEDIATELY] Southeast Alabama Arkansas Florida Georgia Kentucky Louisiana Maryland Mississippi North Carolina South Carolina Tennessee Virginia West Virginia [TERMINATE IMMEDIATELY] Washington DC Midwest Illinois Indiana Iowa Kansas Michigan Minnesota Missouri Nebraska North Dakota Ohio South Dakota Wisconsin Southwest/Mountain West Arizona New Mexico Oklahoma Texas Colorado Utah Montana Wyoming West Alaska California Hawaii Idaho Nevada Oregon Washington Outside US [TERMINATE IMMEDIATELY]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S6 In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia] hidRegion. Recode Region based on S6 Northeast Connecticut Maine Massachusetts New Hampshire New Jersey New York Pennsylvania Rhode Island Delaware Vermont [TERMINATE IMMEDIATELY] Southeast Alabama Arkansas Florida Georgia Kentucky Louisiana Maryland Mississippi North Carolina South Carolina Tennessee Virginia West Virginia [TERMINATE IMMEDIATELY] Washington DC Midwest Illinois Indiana Iowa Kansas Michigan Minnesota Missouri Nebraska North Dakota Ohio South Dakota Wisconsin Southwest/Mountain West Arizona New Mexico Oklahoma Texas Colorado Utah Montana Wyoming West Alaska California Hawaii Idaho Nevada Oregon Washington Outside US [TERMINATE IMMEDIATELY]",
+      "notes": null,
+      "metadata": {
+        "source_line": 46
+      }
+    },
+    {
+      "id": "S7",
+      "variable": "S7",
+      "title": "In what setting do you practice? [SINGLE CODE]",
+      "text": "S7 In what setting do you practice? [SINGLE CODE] Solo or small group private practice Large multispecialty private practice ophthalmology/physician group Academic medical centers Specialized ocular gene therapy treatment centers Hospital-employed practice [TERMINATE IMMEDIATELY] Corporate ophthalmology management organizations",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S7 In what setting do you practice? [SINGLE CODE] Solo or small group private practice Large multispecialty private practice ophthalmology/physician group Academic medical centers Specialized ocular gene therapy treatment centers Hospital-employed practice [TERMINATE IMMEDIATELY] Corporate ophthalmology management organizations",
+      "notes": null,
+      "metadata": {
+        "source_line": 105
+      }
+    },
+    {
+      "id": "S9",
+      "variable": "S9",
+      "title": "Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]",
+      "text": "S9. Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S9. Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 112
+      }
+    },
+    {
+      "id": "S8",
+      "variable": "S8",
+      "title": "Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE]",
+      "text": "S8 Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE] Bestrophinopathies (BVMD or ARB) Leber Congenital Amaurosis Retinitis Pigmentosa (RP) Stargardt Disease Cone-rod Dystrophy Achromatopsia Other (specify) ________ None of the above [EXCLUSIVE]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S8 Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE] Bestrophinopathies (BVMD or ARB) Leber Congenital Amaurosis Retinitis Pigmentosa (RP) Stargardt Disease Cone-rod Dystrophy Achromatopsia Other (specify) ________ None of the above [EXCLUSIVE]",
+      "notes": null,
+      "metadata": {
+        "source_line": 113
+      }
+    },
+    {
+      "id": "S10",
+      "variable": "S10",
+      "title": "Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9]",
+      "text": "S10. Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9] Best vitelliform macular dystrophy (BVMD): ____________ [TERMINATE if S10a + S10b <5; TERMINATE IMMEDIATELY IF S10a + S10b =0] Autosomal recessive bestrophinopathy (ARB):____________ Leber congenital amaurosis: ____________ Survey Questions",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S10. Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9] Best vitelliform macular dystrophy (BVMD): ____________ [TERMINATE if S10a + S10b <5; TERMINATE IMMEDIATELY IF S10a + S10b =0] Autosomal recessive bestrophinopathy (ARB):____________ Leber congenital amaurosis: ____________ Survey Questions",
+      "notes": null,
+      "metadata": {
+        "source_line": 122
+      }
+    },
+    {
+      "id": "Q1",
+      "variable": "Q1",
+      "title": "In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen]",
+      "text": "Q1 In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen] Condition # Patients 1 Leber Congenital Amaurosis 2 Best Vitelliform Macular Dystrophy (BVMD) 3 Autosomal recessive Bestrophinopathy (ARB) 4 Retinitis Pigmentosa (RP) 5 Stargardt Disease 6 Cone-rod Dystrophy 7 Achromatopsia 8 Unspecified Inherited Retinal Disease [ASK Q1a IF Q1 BVMD>0]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "# Patients",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Leber Congenital Amaurosis",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Best Vitelliform Macular Dystrophy (BVMD)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Autosomal recessive Bestrophinopathy (ARB)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Retinitis Pigmentosa (RP)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Stargardt Disease",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Cone-rod Dystrophy",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Achromatopsia",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1 In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen] Condition # Patients 1 Leber Congenital Amaurosis 2 Best Vitelliform Macular Dystrophy (BVMD) 3 Autosomal recessive Bestrophinopathy (ARB) 4 Retinitis Pigmentosa (RP) 5 Stargardt Disease 6 Cone-rod Dystrophy 7 Achromatopsia 8 Unspecified Inherited Retinal Disease [ASK Q1a IF Q1 BVMD>0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 127
+      }
+    },
+    {
+      "id": "Q1A",
+      "variable": "Q1A",
+      "title": "Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD]",
+      "text": "Q1a. Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD] BVMD Management # Patients 21 Diagnosed myself 22 Referred to another provider 23 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 BVMD] [ASK Q1a IF Q1 ARB>0]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [
+        {
+          "code": "21",
+          "text": "# Patients",
+          "value": 21,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "22",
+          "text": "Diagnosed myself",
+          "value": 22,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "23",
+          "text": "Referred to another provider",
+          "value": 23,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1a. Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD] BVMD Management # Patients 21 Diagnosed myself 22 Referred to another provider 23 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 BVMD] [ASK Q1a IF Q1 ARB>0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 147
+      }
+    },
+    {
+      "id": "Q1B",
+      "variable": "Q1B",
+      "title": "Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB]",
+      "text": "Q1b. Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB] ARB Management # Patients 31 Diagnosed myself 32 Referred to another provider 33 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 ARB] [ASK Q1c IF Q1 BVMD>0]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [
+        {
+          "code": "31",
+          "text": "# Patients",
+          "value": 31,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "32",
+          "text": "Diagnosed myself",
+          "value": 32,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "33",
+          "text": "Referred to another provider",
+          "value": 33,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1b. Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB] ARB Management # Patients 31 Diagnosed myself 32 Referred to another provider 33 Neither diagnosed nor referred Total [TOTAL MUST SUM TO Q1 ARB] [ASK Q1c IF Q1 BVMD>0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 159
+      }
+    },
+    {
+      "id": "Q1C",
+      "variable": "Q1C",
+      "title": "Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD]",
+      "text": "Q1c. Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD] [ASK Q1d IF Q1 ARB>0]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q1c. Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD] [ASK Q1d IF Q1 ARB>0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 171
+      }
+    },
+    {
+      "id": "Q1D",
+      "variable": "Q1D",
+      "title": "Of the [PIPE Q1 ARB] patients that you suspected of having ARB, how many patients ended up with an ARB diagnosis confirmation? [Range 0- Q1 ARB]",
+      "text": "Q1d. Of the [PIPE Q1 ARB] patients that you suspected of having ARB, how many patients ended up with an ARB diagnosis confirmation? [Range 0- Q1 ARB]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 173
+      }
+    },
+    {
+      "id": "Q2",
+      "variable": "Q2",
+      "title": "On a scale from 1 to 7, with 1=not at all confident to 7= very confident, how confident are you that you would recognize a patient with Best disease (i.e., BVMD) without genetic testing? [Sliding Scale from 1-7]",
+      "text": "Q2 On a scale from 1 to 7, with 1=not at all confident to 7= very confident, how confident are you that you would recognize a patient with Best disease (i.e., BVMD) without genetic testing? [Sliding Scale from 1-7]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 174
+      }
+    },
+    {
+      "id": "Q3",
+      "variable": "Q3",
+      "title": "What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following? [RANGE 0 - S10a+S10b; Force sum to S10a+S10b]",
+      "text": "Q3 What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following? [RANGE 0 - S10a+S10b; Force sum to S10a+S10b] # Patients 1 Symptom onset spurring medical attention for complaints (e.g., blurred vision) 2 Incidental findings from routine screenings or visits 3 Family cascade testing following diagnosis or genetic findings in a relative 4 Other (Please specify) __________ [Open-end] Total [TOTAL MUST SUM TO S10a+S10b]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "# Patients",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Symptom onset spurring medical attention for complaints (e.g., blurred vision)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Incidental findings from routine screenings or visits",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Family cascade testing following diagnosis or genetic findings in a relative",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 175
+      }
+    },
+    {
+      "id": "Q4",
+      "variable": "Q4",
+      "title": "To the best of your knowledge, of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part of the journey from initial presentation or incidental findings to diagnosis? [RANGE 0 - S10a+S10b]",
+      "text": "Q4 To the best of your knowledge, of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part of the journey from initial presentation or incidental findings to diagnosis? [RANGE 0 - S10a+S10b] Optometrist ___ General/Comprehensive Ophthalmologist (excluding myself) ___ Pediatric Ophthalmologist (excluding myself) ___ Retinal Specialist Ophthalmologist (excluding myself) ___ Primary Care Physician ___ I don’t know ___",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 187
+      }
+    },
+    {
+      "id": "Q5",
+      "variable": "Q5",
+      "title": "What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit into each of the below categories? [RANGE 0 - S10a+S10b]",
+      "text": "Q5 What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit into each of the below categories? [RANGE 0 - S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b] Patients referred to me for diagnosis of a suspected IRD that I diagnosed myself (alone or in collaboration with a geneticist) _________ Patients referred to me for diagnosis of a suspected IRD that I referred to another provider for a diagnosis _________ Patients that I suspected of an IRD and diagnosed myself (alone or in collaboration with a geneticist) ________ Patients that I suspected of an IRD and referred to another provider for a diagnosis ________ Patient referrals who were previously misdiagnosed with another disease that I diagnosed as Best disease _________ Patient referrals who were previously diagnosed with BEST1 disease and see me for reasons other than diagnosis ________",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 194
+      }
+    },
+    {
+      "id": "Q6",
+      "variable": "Q6",
+      "title": "[If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b]",
+      "text": "Q6 [If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b] [Note to programmer: Answers must sum to Q5a+Q5b] Patient referrals I received from an ophthalmologist: _______ Patient referrals I received from an optometrist: ______ [ASK Q7 IF S10a>0]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q6 [If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b] [Note to programmer: Answers must sum to Q5a+Q5b] Patient referrals I received from an ophthalmologist: _______ Patient referrals I received from an optometrist: ______ [ASK Q7 IF S10a>0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 202
+      }
+    },
+    {
+      "id": "Q7",
+      "variable": "Q7",
+      "title": "Of your [PIPE S10a] Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "text": "Q7 Of your [PIPE S10a] Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories? [Note to programmer: Force sum to PIPE S10a] [RANGE 0-S10a] Disease Stage # Patients Stage 0 - Previtelliform Stage 1 - Vitelliform (“Egg-yolk”) Stage 2 - Pseudohypopyon Stage 3 - Vitelliruptive (“Scrambled Egg”) Stage 4 - Atrophic Stage 5 - CNV/Fibrotic End Stage Total [Must SUM to S10a]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 207
+      }
+    },
+    {
+      "id": "Q8",
+      "variable": "Q8",
+      "title": "What number of your [PIPE S10a+S10b] patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using: [RANGE 0-S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b]",
+      "text": "Q8 What number of your [PIPE S10a+S10b] patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using: [RANGE 0-S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b] Clinical criteria alone _____ Genetic testing alone_____ Both clinical criteria and genetic testing _____",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 219
+      }
+    },
+    {
+      "id": "Q9",
+      "variable": "Q9",
+      "title": "In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories: [Force sum to 100%]",
+      "text": "Q9 In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories: [Force sum to 100%] Remain undiagnosed ___% [RANGE 0-100] Are misdiagnosed as having a different inherited retinal disease (IRD) ___% [RANGE 0-100] Are diagnosed by clinical criteria alone ___% [RANGE 0-100] Are diagnosed by genetic testing alone ___% [RANGE 0-100] Are diagnosed with both clinical criteria and genetic testing ___% [RANGE 0-100]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 223
+      }
+    },
+    {
+      "id": "Q10",
+      "variable": "Q10",
+      "title": "Based on your experience, what percentage of patients suspected of having Best vitelliform macular degeneration (BVMD) or autosomal bestrophinopathy (ARB) in your clinic may never receive a definitive diagnosis and therefore remain undiagnosed? ___________% [RANGE 0-99%]",
+      "text": "Q10 Based on your experience, what percentage of patients suspected of having Best vitelliform macular degeneration (BVMD) or autosomal bestrophinopathy (ARB) in your clinic may never receive a definitive diagnosis and therefore remain undiagnosed? ___________% [RANGE 0-99%]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 229
+      }
+    },
+    {
+      "id": "Q11",
+      "variable": "Q11",
+      "title": "Do you believe the diagnosis rate at your practice is consistent with overall diagnostic rates for BEST1 patients in the US? [SINGLE CODE; show Q10 and Q11 and Q11a-b on the same screen]",
+      "text": "Q11 Do you believe the diagnosis rate at your practice is consistent with overall diagnostic rates for BEST1 patients in the US? [SINGLE CODE; show Q10 and Q11 and Q11a-b on the same screen] Yes, I believe it is likely consistent No - I believe overall diagnosis rates are likely higher than at my practice No - I believe overall diagnosis rates are likely lower than at my practice",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 230
+      }
+    },
+    {
+      "id": "Q11A",
+      "variable": "Q11A",
+      "title": "What is your current best estimate for the overall percentage of patients with Best vitelliform macular degeneration (BVMD) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+      "text": "Q11a. What is your current best estimate for the overall percentage of patients with Best vitelliform macular degeneration (BVMD) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 234
+      }
+    },
+    {
+      "id": "Q11B",
+      "variable": "Q11B",
+      "title": "What is your current best estimate for the overall percentage of patients with autosomal bestrophinopathy (ARB) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+      "text": "Q11b. What is your current best estimate for the overall percentage of patients with autosomal bestrophinopathy (ARB) that are undiagnosed in the US? ___________ % [RANGE 0-99%]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 235
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": "Q12",
+      "title": "On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions: [SLIDING SCALES WITH RANGE 1-7; show all sliding scales together on the screen]",
+      "text": "Q12 On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions: [SLIDING SCALES WITH RANGE 1-7; show all sliding scales together on the screen] Best vitelliform macular dystrophy (BVMD) ______ Autosomal recessive bestrophinopathy (ARB) ______ Leber congenital amaurosis type 2 (LCA caused by mutations in the RPE65 gene) ______ Leber congenital amaurosis type 5 (LCA caused by mutations in lebercilin gene) ______ Next, please review a target product profile for a hypothetical AAV gene therapy product which is indicated to deliver a normal version of the BEST1 gene for patients with BVMD or ARB. Please review this profile and prepare to answer several questions about your reactions. Primary and secondary study endpoint descriptions are available for clarification of all study endpoints. [SHOW 30 SECOND COUNTER ON “>>” BUTTON] [SHOW HYPERLINK FOR ALL QUESTIONS “Click here to review the TPP again.”] [SHOW HYPERLINK FOR ALL QUESTIONS “Click here to view Primary and Secondary Study Endpoint Descriptions.”]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 236
+      }
+    },
+    {
+      "id": "Q13",
+      "variable": "Q13",
+      "title": "On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (ARB)? [SLIDING SCALES WITH RANGE 1-7]",
+      "text": "Q13 On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (ARB)? [SLIDING SCALES WITH RANGE 1-7] Overall Rating Efficacy Safety",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 245
+      }
+    },
+    {
+      "id": "Q14",
+      "variable": "Q14",
+      "title": "On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 disease patients: [SLIDING SCALES WITH RANGE 1-7]",
+      "text": "Q14 On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 disease patients: [SLIDING SCALES WITH RANGE 1-7] Clinically significant improvement in microperimetry mean sensitivity 3-line (or equivalent) improvement in BCVA or LLVA by ETDRS 30% improvement in lesion size or fluid reduction from baseline in SD-OCT 20% improvement in MRDQ score",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 249
+      }
+    },
+    {
+      "id": "Q15",
+      "variable": "Q15",
+      "title": "What additional endpoints and magnitude of improvements would you want to see for Product X to be more compelling for the treatment of BEST1 disease patients? _________________________[Open-ended, limit to 250 characters]",
+      "text": "Q15 What additional endpoints and magnitude of improvements would you want to see for Product X to be more compelling for the treatment of BEST1 disease patients? _________________________[Open-ended, limit to 250 characters]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 254
+      }
+    },
+    {
+      "id": "Q16",
+      "variable": "Q16",
+      "title": "What overall percentage of US patients with Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) do you estimate could be addressed with Product X? _____ % [RANGE 0-100]",
+      "text": "Q16 What overall percentage of US patients with Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) do you estimate could be addressed with Product X? _____ % [RANGE 0-100]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 255
+      }
+    },
+    {
+      "id": "Q17",
+      "variable": "Q17",
+      "title": "[ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]",
+      "text": "Q17 [ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q17 [ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]",
+      "notes": null,
+      "metadata": {
+        "source_line": 256
+      }
+    },
+    {
+      "id": "Q18",
+      "variable": "Q18",
+      "title": "Please describe the type of Best vitelliform macular dystrophy (BVMD) patient(s) that you would consider most suited for Product X treatment:",
+      "text": "Q18 Please describe the type of Best vitelliform macular dystrophy (BVMD) patient(s) that you would consider most suited for Product X treatment: _____ [Open-ended, limit to 250 characters]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 257
+      }
+    },
+    {
+      "id": "Q19",
+      "variable": "Q19",
+      "title": "[ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients:",
+      "text": "Q19 [ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q19a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0-Q19a] out of the patients recommended Product X [If Q19b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q19b] out of the patients recommended and receptive to Product X",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q19 [ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q19a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0-Q19a] out of the patients recommended Product X [If Q19b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q19b] out of the patients recommended and receptive to Product X",
+      "notes": null,
+      "metadata": {
+        "source_line": 259
+      }
+    },
+    {
+      "id": "Q20",
+      "variable": "Q20",
+      "title": "[ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients.",
+      "text": "Q20 [ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q20a >0] What number of those recommended patients do you think would be receptive to Product X? ____ [RANGE 0- Q20a] out of the patients recommended Product X [If Q20b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____[RANGE 0- Q20b] out of the patients recommended and receptive to Product X [ASK Q21 IF S10b >0]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q20 [ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q20a >0] What number of those recommended patients do you think would be receptive to Product X? ____ [RANGE 0- Q20a] out of the patients recommended Product X [If Q20b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____[RANGE 0- Q20b] out of the patients recommended and receptive to Product X [ASK Q21 IF S10b >0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 263
+      }
+    },
+    {
+      "id": "Q21",
+      "variable": "Q21",
+      "title": "How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen]",
+      "text": "Q21 How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen] [ASK Q21 IF S10b >0]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q21 How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen] [ASK Q21 IF S10b >0]",
+      "notes": null,
+      "metadata": {
+        "source_line": 268
+      }
+    },
+    {
+      "id": "Q22",
+      "variable": "Q22",
+      "title": "How many of your [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0- S10b]",
+      "text": "Q22 How many of your [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0- S10b]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 270
+      }
+    },
+    {
+      "id": "Q23",
+      "variable": "Q23",
+      "title": "[ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients:",
+      "text": "Q23 [ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q23a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0- Q23a] out of the patients recommended Product X [If Q23b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? [RANGE 0- Q23b] out of the patients recommended and receptive to Product X",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q23 [ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients [If Q23a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0- Q23a] out of the patients recommended Product X [If Q23b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? [RANGE 0- Q23b] out of the patients recommended and receptive to Product X",
+      "notes": null,
+      "metadata": {
+        "source_line": 271
+      }
+    },
+    {
+      "id": "Q24",
+      "variable": "Q24",
+      "title": "[ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients.",
+      "text": "Q24 [ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q24a >0] What number of those recommended patients do you think would be receptive to Product X? ____[RANGE 0- Q24a] out of the patients recommended Product X [If Q24b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q24b] out of the patients recommended and receptive to Product X",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q24 [ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients. For what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients [If Q24a >0] What number of those recommended patients do you think would be receptive to Product X? ____[RANGE 0- Q24a] out of the patients recommended Product X [If Q24b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q24b] out of the patients recommended and receptive to Product X",
+      "notes": null,
+      "metadata": {
+        "source_line": 275
+      }
+    },
+    {
+      "id": "Q25",
+      "variable": "Q25",
+      "title": "What factors prevent you from potentially recommending the use of Product X in every Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) patient? ____ [Open-ended, limit to 250 characters]",
+      "text": "Q25 What factors prevent you from potentially recommending the use of Product X in every Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) patient? ____ [Open-ended, limit to 250 characters]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 279
+      }
+    },
+    {
+      "id": "Q26",
+      "variable": "Q26",
+      "title": "How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications? [Select 1 per row]",
+      "text": "Q26 How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications? [Select 1 per row] Treatment Product X has a lower degree of benefit relative to this therapy Product X has a similar degree of benefit relative to this therapy Product X has a greater degree of benefit relative to this therapy I am not familiar with this therapy A. Luxturna in LCA o o o o B. Encelto in MacTel2 o o o o C. Hemgenix in Hemophilia B o o o o D. Zolgensma in SMA o o o o Conclusion Thank you for your time today.",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Luxturna in LCA",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Encelto in MacTel2",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Hemgenix in Hemophilia B",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Zolgensma in SMA",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 280
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "(V3 R98972) Triangle_Insights_HCP Survey_15Jun2026.docx",
+  "source_format": "docx",
+  "source_text": "CHANGES: V2_Changes (Jun-15-2026) V3_Changes (Jun-15-2026)\n[Note to programmer: Please do NOT share the below table or criteria with respondents]\nCountry\nType of HCP\nNumber of Respondents\nUS\nRetinal Specialist Ophthalmologists (S1=A, S2= F, S3=E)\n40\nSoft Quota:\nTarget an even distribution across regions of the US (hidRegion= Northeast, Southeast, Midwest, Southwest, West)\nTarget a mix of respondents with emphasis on respondents who choose S7=D\nCriteria:\nIn practice from 3 to 30 years\nSpends ≥50% of professional time treating patients\nIn practice within the US (excluding Vermont or West Virginia)\nIn private practice (small or multi-specialty) or academic medical centers\nCurrently manages ≥20 unique patients with inherited retinal disease\nCurrently manages ≥5 Best disease (BVMD, ARB) patients\nScreening Questions\n[DO NOT SHOW IN LINK] The following questions will be used to select candidates for the survey.\nS1 Which of the following best describes your current role? [SINGLE CODE]\nPhysician (MD, DO)\nPhysician Assistant (PA) [TERMINATE IMMEDIATELY]\nOptometrist [TERMINATE IMMEDIATELY]\nNurse Practitioner (NP) [TERMINATE IMMEDIATELY]\nOther (please specify): _________ [TERMINATE IMMEDIATELY]\nS2 In what medical specialty are you board-certified? [SINGLE CODE]\nDermatology [TERMINATE IMMEDIATELY]\nSurgery [TERMINATE IMMEDIATELY]\nPulmonology [TERMINATE IMMEDIATELY]\nInternal Medicine, without a subspecialty [TERMINATE IMMEDIATELY]\nOB/GYN [TERMINATE IMMEDIATELY]\nOphthalmology\nTransplant Hepatology [TERMINATE IMMEDIATELY]\nFamily or General Practice [TERMINATE IMMEDIATELY]\nOther (please specify): _______ [TERMINATE IMMEDIATELY]\nS3 What is your primary subspecialty? [SINGLE CODE]\nGeneral/Comprehensive [TERMINATE IMMEDIATELY]\nGlaucoma [TERMINATE IMMEDIATELY]\nCornea [TERMINATE IMMEDIATELY]\nUveitis and Immunology [TERMINATE IMMEDIATELY]\nVitreo-retinal or Retinal\nOther (please specify): _______ [TERMINATE IMMEDIATELY]\nS4 For how many years have you been in practice? [RANGE 0-99] [TERMINATE AT END OF SCREENER if <3 or >30; TERMINATE IMMEDIATELY IF <1 OR >50]\nS5 What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration? _____________ % [RANGE 0-100] [TERMINATE AT END OF SCREENER if <50%; TERMINATE IMMEDIATELY IF <10%]\nS6 In what U.S. state do you currently practice? _______ [DROP DOWN] [SHOW ALL US STATES + DC + Outside US in drop down] [Terminate IMMEDIATELY if outside of the US; Terminate IMMEDIATELY if Vermont or West Virginia]\nhidRegion. Recode Region based on S6\nNortheast\nConnecticut\nMaine\nMassachusetts\nNew Hampshire\nNew Jersey\nNew York\nPennsylvania\nRhode Island\nDelaware\nVermont [TERMINATE IMMEDIATELY]\nSoutheast\nAlabama\nArkansas\nFlorida\nGeorgia\nKentucky\nLouisiana\nMaryland\nMississippi\nNorth Carolina\nSouth Carolina\nTennessee\nVirginia\nWest Virginia [TERMINATE IMMEDIATELY]\nWashington DC\nMidwest\nIllinois\nIndiana\nIowa\nKansas\nMichigan\nMinnesota\nMissouri\nNebraska\nNorth Dakota\nOhio\nSouth Dakota\nWisconsin\nSouthwest/Mountain West\nArizona\nNew Mexico\nOklahoma\nTexas\nColorado\nUtah\nMontana\nWyoming\nWest\nAlaska\nCalifornia\nHawaii\nIdaho\nNevada\nOregon\nWashington\nOutside US [TERMINATE IMMEDIATELY]\nS7 In what setting do you practice? [SINGLE CODE]\nSolo or small group private practice\nLarge multispecialty private practice ophthalmology/physician group\nAcademic medical centers\nSpecialized ocular gene therapy treatment centers\nHospital-employed practice [TERMINATE IMMEDIATELY]\nCorporate ophthalmology management organizations\nS9. Please estimate how many unique patients you currently manage with inherited retinal diseases.___________ [RANGE 0-300] [TERMINATE if <20; TERMINATE IMMEDIATELY IF 0]\nS8 Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? [MUST SELECT A, IF NOT TERMINATE IMMEDIATELY] [MULTI CODE]\nBestrophinopathies (BVMD or ARB)\nLeber Congenital Amaurosis\nRetinitis Pigmentosa (RP)\nStargardt Disease\nCone-rod Dystrophy\nAchromatopsia\nOther (specify) ________\nNone of the above [EXCLUSIVE]\nS10. Please estimate how many unique patients you currently manage with the following BEST1 mutation-related IRDs: [RANGE 0- S9; sum cannot be > S9]\nBest vitelliform macular dystrophy (BVMD): ____________ [TERMINATE if S10a + S10b <5; TERMINATE IMMEDIATELY IF S10a + S10b =0]\nAutosomal recessive bestrophinopathy (ARB):____________\nLeber congenital amaurosis: ____________\nSurvey Questions\nQ1 In the past year, how many unique patients have you seen where you suspected they had the following conditions? [Range 0-300; show all options Q1a-Q1d together on the screen]\nCondition\n# Patients\n1\nLeber Congenital Amaurosis\n2\nBest Vitelliform Macular Dystrophy (BVMD)\n3\nAutosomal recessive Bestrophinopathy (ARB)\n4\nRetinitis Pigmentosa (RP)\n5\nStargardt Disease\n6\nCone-rod Dystrophy\n7\nAchromatopsia\n8\nUnspecified Inherited Retinal Disease\n[ASK Q1a IF Q1 BVMD>0]\nQ1a. Of the [PIPE Q1 BVMD] suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 BVMD]\nBVMD Management\n# Patients\n21\nDiagnosed myself\n22\nReferred to another provider\n23\nNeither diagnosed nor referred\nTotal\n[TOTAL MUST SUM TO Q1 BVMD]\n[ASK Q1a IF Q1 ARB>0]\nQ1b. Of the [PIPE Q1 ARB] suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither? [Range 0-300; total must match PIPE Q1 ARB]\nARB Management\n# Patients\n31\nDiagnosed myself\n32\nReferred to another provider\n33\nNeither diagnosed nor referred\nTotal\n[TOTAL MUST SUM TO Q1 ARB]\n[ASK Q1c IF Q1 BVMD>0]\nQ1c. Of the [PIPE Q1 BVMD] patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation? [Range 0- Q1 BVMD]\n[ASK Q1d IF Q1 ARB>0]\nQ1d. Of the [PIPE Q1 ARB] patients that you suspected of having ARB, how many patients ended up with an ARB diagnosis confirmation? [Range 0- Q1 ARB]\nQ2 On a scale from 1 to 7, with 1=not at all confident to 7= very confident, how confident are you that you would recognize a patient with Best disease (i.e., BVMD) without genetic testing? [Sliding Scale from 1-7]\nQ3 What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following? [RANGE 0 - S10a+S10b; Force sum to S10a+S10b]\n# Patients\n1\nSymptom onset spurring medical attention for complaints (e.g., blurred vision)\n2\nIncidental findings from routine screenings or visits\n3\nFamily cascade testing following diagnosis or genetic findings in a relative\n4\nOther (Please specify) __________ [Open-end]\nTotal\n[TOTAL MUST SUM TO S10a+S10b]\nQ4 To the best of your knowledge, of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part of the journey from initial presentation or incidental findings to diagnosis? [RANGE 0 - S10a+S10b]\nOptometrist ___\nGeneral/Comprehensive Ophthalmologist (excluding myself) ___\nPediatric Ophthalmologist (excluding myself) ___\nRetinal Specialist Ophthalmologist (excluding myself) ___\nPrimary Care Physician ___\nI don’t know ___\nQ5 What number of your [PIPE S10a+S10b] patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit into each of the below categories? [RANGE 0 - S10a+S10b]\n[Note to programmer: Answers must sum to S10a+S10b]\nPatients referred to me for diagnosis of a suspected IRD that I diagnosed myself (alone or in collaboration with a geneticist) _________\nPatients referred to me for diagnosis of a suspected IRD that I referred to another provider for a diagnosis _________\nPatients that I suspected of an IRD and diagnosed myself (alone or in collaboration with a geneticist) ________\nPatients that I suspected of an IRD and referred to another provider for a diagnosis ________\nPatient referrals who were previously misdiagnosed with another disease that I diagnosed as Best disease _________\nPatient referrals who were previously diagnosed with BEST1 disease and see me for reasons other than diagnosis ________\nQ6 [If Q5a+b sum >0] Of the [PIPE Q5a+Q5b] patients who were referred to you for diagnosis, what number fit into each of the categories below? [RANGE 0 – Q5a+Q5b]\n[Note to programmer: Answers must sum to Q5a+Q5b]\nPatient referrals I received from an ophthalmologist: _______\nPatient referrals I received from an optometrist: ______\n[ASK Q7 IF S10a>0]\nQ7 Of your [PIPE S10a] Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?\n[Note to programmer: Force sum to PIPE S10a] [RANGE 0-S10a]\nDisease Stage\n# Patients\nStage 0 - Previtelliform\nStage 1 - Vitelliform (“Egg-yolk”)\nStage 2 - Pseudohypopyon\nStage 3 - Vitelliruptive (“Scrambled Egg”)\nStage 4 - Atrophic\nStage 5 - CNV/Fibrotic End Stage\nTotal\n[Must SUM to S10a]\nQ8 What number of your [PIPE S10a+S10b] patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using: [RANGE 0-S10a+S10b] [Note to programmer: Answers must sum to S10a+S10b]\nClinical criteria alone _____\nGenetic testing alone_____\nBoth clinical criteria and genetic testing _____\nQ9 In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories: [Force sum to 100%]\nRemain undiagnosed ___% [RANGE 0-100]\nAre misdiagnosed as having a different inherited retinal disease (IRD) ___% [RANGE 0-100]\nAre diagnosed by clinical criteria alone ___% [RANGE 0-100]\nAre diagnosed by genetic testing alone ___% [RANGE 0-100]\nAre diagnosed with both clinical criteria and genetic testing ___% [RANGE 0-100]\nQ10 Based on your experience, what percentage of patients suspected of having Best vitelliform macular degeneration (BVMD) or autosomal bestrophinopathy (ARB) in your clinic may never receive a definitive diagnosis and therefore remain undiagnosed? ___________% [RANGE 0-99%]\nQ11 Do you believe the diagnosis rate at your practice is consistent with overall diagnostic rates for BEST1 patients in the US? [SINGLE CODE; show Q10 and Q11 and Q11a-b on the same screen]\nYes, I believe it is likely consistent\nNo - I believe overall diagnosis rates are likely higher than at my practice\nNo - I believe overall diagnosis rates are likely lower than at my practice\nQ11a. What is your current best estimate for the overall percentage of patients with Best vitelliform macular degeneration (BVMD) that are undiagnosed in the US? ___________ % [RANGE 0-99%]\nQ11b. What is your current best estimate for the overall percentage of patients with autosomal bestrophinopathy (ARB) that are undiagnosed in the US? ___________ % [RANGE 0-99%]\nQ12 On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions: [SLIDING SCALES WITH RANGE 1-7; show all sliding scales together on the screen]\nBest vitelliform macular dystrophy (BVMD) ______\nAutosomal recessive bestrophinopathy (ARB) ______\nLeber congenital amaurosis type 2 (LCA caused by mutations in the RPE65 gene) ______\nLeber congenital amaurosis type 5 (LCA caused by mutations in lebercilin gene) ______\nNext, please review a target product profile for a hypothetical AAV gene therapy product which is indicated to deliver a normal version of the BEST1 gene for patients with BVMD or ARB. Please review this profile and prepare to answer several questions about your reactions. Primary and secondary study endpoint descriptions are available for clarification of all study endpoints.\n[SHOW 30 SECOND COUNTER ON “>>” BUTTON]\n[SHOW HYPERLINK FOR ALL QUESTIONS “Click here to review the TPP again.”]\n[SHOW HYPERLINK FOR ALL QUESTIONS “Click here to view Primary and Secondary Study Endpoint Descriptions.”]\nQ13 On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (ARB)? [SLIDING SCALES WITH RANGE 1-7]\nOverall Rating\nEfficacy\nSafety\nQ14 On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 disease patients: [SLIDING SCALES WITH RANGE 1-7]\nClinically significant improvement in microperimetry mean sensitivity\n3-line (or equivalent) improvement in BCVA or LLVA by ETDRS\n30% improvement in lesion size or fluid reduction from baseline in SD-OCT\n20% improvement in MRDQ score\nQ15 What additional endpoints and magnitude of improvements would you want to see for Product X to be more compelling for the treatment of BEST1 disease patients? _________________________[Open-ended, limit to 250 characters]\nQ16 What overall percentage of US patients with Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) do you estimate could be addressed with Product X? _____ % [RANGE 0-100]\nQ17 [ASK Q17 IF S10a>0] What number of your [PIPE S10a] current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0-S10a]\nQ18 Please describe the type of Best vitelliform macular dystrophy (BVMD) patient(s) that you would consider most suited for Product X treatment:\n_____ [Open-ended, limit to 250 characters]\nQ19 [ASK Q19 If Q17 >0] You previously noted that [PIPE Q17] out of your [PIPE S10a] patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients:\nFor what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients\n[If Q19a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0-Q19a] out of the patients recommended Product X\n[If Q19b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q19b] out of the patients recommended and receptive to Product X\nQ20 [ASK Q20 IF Q17 < S10a] Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients.\nFor what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients\n[If Q20a >0] What number of those recommended patients do you think would be receptive to Product X? ____ [RANGE 0- Q20a] out of the patients recommended Product X\n[If Q20b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____[RANGE 0- Q20b] out of the patients recommended and receptive to Product X\n[ASK Q21 IF S10b >0]\nQ21 How many of your current [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X? _____ [RANGE 0-S10b; show Q21 and Q22 on the same screen]\n[ASK Q21 IF S10b >0]\nQ22 How many of your [PIPE S10b] patients with autosomal recessive bestrophinopathy (ARB) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)? ____ [RANGE 0- S10b]\nQ23 [ASK Q23 If Q22 >0] You noted that [PIPE Q22] out of your [PIPE S10B] patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients:\nFor what number of those 10 patients would you recommend Product X treatment? ____ [RANGE 0-10] out of the most suited patients\n[If Q23a >0] What number of those patients recommended for treatment do you think would be receptive to Product X? ____[RANGE 0- Q23a] out of the patients recommended Product X\n[If Q23b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? [RANGE 0- Q23b] out of the patients recommended and receptive to Product X\nQ24 [ASK Q24 IF Q22 < S10B AND S10B>0] Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-suited patients.\nFor what number of patients would you recommend Product X treatment? ____[RANGE 0-10] out of the 10 non-most-suited patients\n[If Q24a >0] What number of those recommended patients do you think would be receptive to Product X? ____[RANGE 0- Q24a] out of the patients recommended Product X\n[If Q24b >0] What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)? ____ [RANGE 0- Q24b] out of the patients recommended and receptive to Product X\nQ25 What factors prevent you from potentially recommending the use of Product X in every Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) patient? ____ [Open-ended, limit to 250 characters]\nQ26 How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications? [Select 1 per row]\nTreatment\nProduct X has a lower degree of benefit relative to this therapy\nProduct X has a similar degree of benefit relative to this therapy\nProduct X has a greater degree of benefit relative to this therapy\nI am not familiar with this therapy\nA. Luxturna in LCA\no\no\no\no\nB. Encelto in MacTel2\no\no\no\no\nC. Hemgenix in Hemophilia B\no\no\no\no\nD. Zolgensma in SMA\no\no\no\no\nConclusion\nThank you for your time today.",
+  "total_questions": 42,
+  "total_sections": 1,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 307,
+      "source_characters": 18079,
+      "question_style_blocks": 0
+    }
+  }
+}

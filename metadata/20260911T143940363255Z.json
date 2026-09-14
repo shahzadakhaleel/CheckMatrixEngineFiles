@@ -1,0 +1,205 @@
+{
+  "run_id": "20260911T143940363255Z",
+  "user": "appadmin",
+  "created_at": "2026-09-11T14:40:21.403895+00:00",
+  "generation_seconds": 41.08,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "cached",
+  "document_hash": "4e11c63e47da588373252641e61c776c7b8bb9089942e28330fcae7ace528eb2",
+  "input": {
+    "key": "20260911T143940363255Z__V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "filename": "V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "size": 1074868,
+    "created_at": "2026-09-11T14:39:40.375382+00:00"
+  },
+  "output": {
+    "key": "Validation_260911144021.sps",
+    "filename": "Validation_260911144021.sps",
+    "size": 7595,
+    "created_at": "2026-09-11T14:40:21.403895+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 18,
+    "checksEmitted": 12,
+    "questionsOmitted": 7,
+    "coveragePercent": 61.1,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Questionnaire for PICOT 1 - \u201cMultistep\u201d or \u201c25 Steps\u201d function.",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Unclassified",
+        "prefix": "Q",
+        "questions": 17,
+        "checksEmitted": 10,
+        "questionsOmitted": 7,
+        "coveragePercent": 58.8,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q3",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "Q4",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "Q5",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "Q6",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "Q7",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "Q8",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "Q11",
+            "reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+          }
+        ]
+      }
+    ]
+  },
+  "generationStats": {
+    "schemaVersion": 1,
+    "extractionSeconds": 0.032,
+    "planningSeconds": 40.995,
+    "renderingSeconds": 0.023,
+    "aiSeconds": 40.991,
+    "promptTokens": 19237,
+    "cachedPromptTokens": 0,
+    "cacheWriteTokens": 19234,
+    "completionTokens": 5179,
+    "totalTokens": 24416,
+    "estimatedCostUsd": 0.05512,
+    "generatedLines": 192,
+    "macroCalls": 2,
+    "sectionCount": 1,
+    "extractionConfidence": 1.0,
+    "warnings": [
+      "Omitted unsafe model rule: Rule Q1-other-open-end references unknown variables: ['q1_98_other']",
+      "Omitted unsafe model rule: Rule Q2-q2-98-other-open-end references unknown variables: ['q2_98_other']",
+      "Omitted unsafe model rule: Rule Q3-invalid-codes references unknown variables: ['q3_1', 'q3_2', 'q3_3', 'q3_4', 'q3_5']",
+      "Omitted unsafe model rule: Rule Q4-invalid-codes references unknown variables: ['q4_1', 'q4_2', 'q4_3', 'q4_4', 'q4_5']",
+      "Omitted unsafe model rule: Rule Q5-ranking references unknown variables: ['q5_1', 'q5_2', 'q5_3', 'q5_4', 'q5_5']",
+      "Omitted unsafe model rule: Rule Q5-duplicate-rankings references unknown variables: ['q5_1', 'q5_2', 'q5_3', 'q5_4', 'q5_5']",
+      "Omitted unsafe model rule: Rule Q6-invalid-codes references unknown variables: ['q6_1', 'q6_2', 'q6_3', 'q6_4', 'q6_5']",
+      "Omitted unsafe model rule: Rule Q7-invalid-codes references unknown variables: ['q7_1', 'q7_2', 'q7_3', 'q7_4', 'q7_5']",
+      "Omitted unsafe model rule: Rule Q8-ranking references unknown variables: ['q8_1', 'q8_2', 'q8_3', 'q8_4', 'q8_5']",
+      "Omitted unsafe model rule: Rule Q8-duplicate-rankings references unknown variables: ['q8_1', 'q8_2', 'q8_3', 'q8_4', 'q8_5']",
+      "Omitted unsafe model rule: Rule Q11-invalid-codes references unknown variables: ['q11a', 'q11b', 'q11c', 'q11d']",
+      "Omitted unsafe model rule: Rule Q12-other-open-end references unknown variables: ['q12_98_other']"
+    ],
+    "datasetAlignment": {
+      "filename": "R93941.sav",
+      "schemaHash": "14d142512d0144da38fecdb0b25e7dbf1e456a85d47898bda0ceaf99384b71e0",
+      "variableCount": 75,
+      "candidateVariableCount": 65,
+      "otherVariableCount": 10,
+      "candidateGroupCount": 14,
+      "candidateGroups": [
+        "Q0",
+        "Q1",
+        "Q10",
+        "Q11",
+        "Q12",
+        "Q2",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q9",
+        "QCOUNTRY"
+      ],
+      "matchedVariableCount": 9,
+      "unmatchedCandidateVariables": [
+        "qcountry",
+        "q1_1",
+        "q1_2",
+        "q1_3",
+        "q1_4",
+        "q1_5",
+        "q1_6",
+        "q1_7",
+        "q1_8",
+        "q1_9",
+        "q1_10",
+        "q1_11",
+        "q1_98",
+        "q1_98_other",
+        "q2_98_other",
+        "q3_1",
+        "q3_2",
+        "q3_3",
+        "q3_4",
+        "q3_5",
+        "q4_1",
+        "q4_2",
+        "q4_3",
+        "q4_4",
+        "q4_5",
+        "q5_1",
+        "q5_2",
+        "q5_3",
+        "q5_4",
+        "q5_5",
+        "q6_1",
+        "q6_2",
+        "q6_3",
+        "q6_4",
+        "q6_5",
+        "q7_1",
+        "q7_2",
+        "q7_3",
+        "q7_4",
+        "q7_5",
+        "q8_1",
+        "q8_2",
+        "q8_3",
+        "q8_4",
+        "q8_5",
+        "q11a",
+        "q11b",
+        "q11c",
+        "q11d",
+        "q12_1",
+        "q12_2",
+        "q12_3",
+        "q12_4",
+        "q12_5",
+        "q12_98",
+        "q12_98_other"
+      ],
+      "unknownExtractedVariables": [
+        "Q1",
+        "Q3",
+        "Q4",
+        "Q5",
+        "Q6",
+        "Q7",
+        "Q8",
+        "Q11",
+        "Q12"
+      ]
+    }
+  }
+}

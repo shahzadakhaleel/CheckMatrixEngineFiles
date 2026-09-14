@@ -1,0 +1,1085 @@
+{
+  "questionnaire_title": "30-40",
+  "project_name": null,
+  "validations": [
+    {
+      "question_id": "Q1",
+      "variable": "Q1",
+      "rules": [
+        {
+          "id": "Q1-R1",
+          "question_id": "Q1",
+          "validation_type": "mandatory",
+          "description": "Response is required for the primary medical specialty question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1-R2",
+          "question_id": "Q1",
+          "validation_type": "screen_out",
+          "description": "Disqualify respondents selecting a listed ineligible medical specialty.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q1",
+                "operator": "in",
+                "values": [
+                  "Gastroenterology",
+                  "Primary Care Provider",
+                  "Nurse Practitioner",
+                  "Physician Assistant",
+                  "Other (please specify):"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2",
+      "variable": "Q2",
+      "rules": [
+        {
+          "id": "Q2-R1",
+          "question_id": "Q2",
+          "validation_type": "mandatory",
+          "description": "Response is required for the percentage estimate.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3",
+      "variable": "Q3",
+      "rules": [
+        {
+          "id": "Q3-R1",
+          "question_id": "Q3",
+          "validation_type": "mandatory",
+          "description": "Response is required for current practice state.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3-R2",
+          "question_id": "Q3",
+          "validation_type": "screen_out",
+          "description": "Disqualify respondents practicing in the listed states.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q3",
+                "operator": "in",
+                "values": [
+                  "Vermont",
+                  "West Virginia",
+                  "Maine",
+                  "Massachusetts",
+                  "Minnesota"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4",
+      "variable": "Q4",
+      "rules": [
+        {
+          "id": "Q4-R1",
+          "question_id": "Q4",
+          "validation_type": "mandatory",
+          "description": "Response is required for the percentage estimate.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5",
+      "variable": "Q5",
+      "rules": [
+        {
+          "id": "Q5-R1",
+          "question_id": "Q5",
+          "validation_type": "mandatory",
+          "description": "All professional-time percentage responses are required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q5-R3",
+          "question_id": "Q5",
+          "validation_type": "percentage_total",
+          "description": "Professional-time percentages must sum to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q5",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": 100,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6",
+      "variable": "Q6",
+      "rules": [
+        {
+          "id": "Q6-R1",
+          "question_id": "Q6",
+          "validation_type": "mandatory",
+          "description": "Response is required for the percentage estimate.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S6",
+      "variable": "S6",
+      "rules": [],
+      "no_validation_reason": "Derived recruitment-classification field with no respondent-entered response or independently specified validation rule."
+    },
+    {
+      "question_id": "Q7",
+      "variable": "Q7",
+      "rules": [
+        {
+          "id": "Q7-R1",
+          "question_id": "Q7",
+          "validation_type": "mandatory",
+          "description": "Response is required for the prescribing-likelihood scale.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q7-R2",
+          "question_id": "Q7",
+          "validation_type": "invalid_codes",
+          "description": "Response must be one of the seven specified likelihood-scale values.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8",
+      "variable": "Q8",
+      "rules": [
+        {
+          "id": "Q8-R1",
+          "question_id": "Q8",
+          "validation_type": "mandatory",
+          "description": "Response is required for the number of actively managed NET patients.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8-R3",
+          "question_id": "Q8",
+          "validation_type": "screen_out",
+          "description": "Disqualify respondents reporting fewer than 20 actively managed NET patients.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q8",
+                "operator": "less_than",
+                "values": [
+                  20
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9",
+      "variable": "Q9",
+      "rules": [
+        {
+          "id": "Q9-R1",
+          "question_id": "Q9",
+          "validation_type": "mandatory",
+          "description": "Responses are required for both NET patient-category counts.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10",
+      "variable": "Q10",
+      "rules": [
+        {
+          "id": "Q10-R1",
+          "question_id": "Q10",
+          "validation_type": "mandatory",
+          "description": "Response is required for the percentage estimate.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11",
+      "variable": "Q11",
+      "rules": [
+        {
+          "id": "Q11-R1",
+          "question_id": "Q11",
+          "validation_type": "mandatory",
+          "description": "Response is required for the comfort-level question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11-R2",
+          "question_id": "Q11",
+          "validation_type": "invalid_codes",
+          "description": "Response must be one of the five specified comfort-level options.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Not comfortable at all",
+              "Slightly comfortable",
+              "Moderately comfortable",
+              "Very comfortable",
+              "Extremely comfortable"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11-R3",
+          "question_id": "Q11",
+          "validation_type": "screen_out",
+          "description": "Disqualify respondents reporting no more than moderate comfort.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q11",
+                "operator": "in",
+                "values": [
+                  "Not comfortable at all",
+                  "Slightly comfortable",
+                  "Moderately comfortable"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q12",
+      "variable": "Q12",
+      "rules": [
+        {
+          "id": "Q12-R1",
+          "question_id": "Q12",
+          "validation_type": "mandatory",
+          "description": "Response is required for the percentage estimate.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13",
+      "variable": "Q13",
+      "rules": [
+        {
+          "id": "Q13-R1",
+          "question_id": "Q13",
+          "validation_type": "mandatory",
+          "description": "At least one response is required for the employment-status question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": 1,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q13-R2",
+          "question_id": "Q13",
+          "validation_type": "multiple_response",
+          "description": "Validate the multi-select employment-status response set.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q14",
+      "variable": "Q14",
+      "rules": [
+        {
+          "id": "Q14-R1",
+          "question_id": "Q14",
+          "validation_type": "mandatory",
+          "description": "Response is required for the contract-role question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q14"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q14-R2",
+          "question_id": "Q14",
+          "validation_type": "invalid_codes",
+          "description": "Response must be Yes or No.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q14"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Yes",
+              "No"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q14-R3",
+          "question_id": "Q14",
+          "validation_type": "screen_out",
+          "description": "Disqualify respondents answering Yes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q14",
+                "operator": "equals",
+                "values": [
+                  "Yes"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q15",
+      "variable": "Q15",
+      "rules": [
+        {
+          "id": "Q15-R1",
+          "question_id": "Q15",
+          "validation_type": "mandatory",
+          "description": "Response is required for re-contact permission.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q15-R2",
+          "question_id": "Q15",
+          "validation_type": "invalid_codes",
+          "description": "Response must be Yes or No.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Yes",
+              "No"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q16",
+      "variable": "Q16",
+      "rules": [
+        {
+          "id": "Q16-R1",
+          "question_id": "Q16",
+          "validation_type": "mandatory",
+          "description": "A ranking response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q16"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q16-R2",
+          "question_id": "Q16",
+          "validation_type": "ranking",
+          "description": "Rank values must run from 1 through 5 for the five listed characteristics.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q16"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 5,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "The Q5 direct-patient-care disqualification was not emitted because no distinct variable for that component was supplied.",
+    "The Q9 disqualification threshold was not emitted because the supplied base variable does not identify which of the two category counts is subject to the threshold.",
+    "Q13's None-of-the-above exclusivity was not emitted because no distinct option variables or option codes were supplied.",
+    "Omitted incomplete model rule: Rule Q2-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q4-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q5-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q6-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q8-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q9-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q10-R2 requires variables and a range or allowed_values",
+    "Omitted incomplete model rule: Rule Q12-R2 requires variables and a range or allowed_values"
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

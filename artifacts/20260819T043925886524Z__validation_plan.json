@@ -1,0 +1,1722 @@
+{
+  "questionnaire_title": "Vogelstein Oncologist Survey for review",
+  "project_name": "Adoption of commercial comprehensive genomic profiling (CGP) tests",
+  "validations": [
+    {
+      "question_id": "S1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory, allowed-code, exclusivity, and termination evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "S2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory, multi-select, exclusivity, and termination evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "S3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory, allowed-code, exclusivity, and termination evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory and allowed-code evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory, multi-select, and maximum-three-selection evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory and numeric slider-range evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory forced-ranking evidence with a top-five limit, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory forced-ranking evidence with a top-three limit, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory forced-ranking evidence for three items, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q10",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory multi-select evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q11_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q11_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q11_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q11_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q11_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q12",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory multi-select and exclusive-answer evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q13",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory and allowed-code evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q14_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q14_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q14_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q14_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q14_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q15",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory multi-select and exclusive-answer evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q16",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory and allowed-code evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q17",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has mandatory complete-ranking evidence with ranks one through thirteen, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+    },
+    {
+      "question_id": "Q18",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q18-MANDATORY",
+          "question_id": "Q18",
+          "validation_type": "mandatory",
+          "description": "Q18 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18-CODES",
+          "question_id": "Q18",
+          "validation_type": "invalid_codes",
+          "description": "Q18 must contain one of the seven listed response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19-MANDATORY",
+          "question_id": "Q19",
+          "validation_type": "mandatory",
+          "description": "The required open-text response for Q19 must not be missing.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19-OPEN",
+          "question_id": "Q19",
+          "validation_type": "open_end",
+          "description": "Q19 requires an open-text response containing the preferred vendor and reason.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "String",
+            "parameters": {
+              "svar": "Q19",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19_New",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19NEW-MANDATORY",
+          "question_id": "Q19_New",
+          "validation_type": "mandatory",
+          "description": "Q19_New is required and must have at least one selected vendor.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19_New"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19NEW-CODES",
+          "question_id": "Q19_New",
+          "validation_type": "invalid_codes",
+          "description": "Q19_New must use only the eleven listed vendor codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19_New"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19NEW-MULTI",
+          "question_id": "Q19_New",
+          "validation_type": "multiple_response",
+          "description": "Q19_New is a multi-select question and responses must be represented as multiple-response data.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19_New"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "MULTI_A",
+            "parameters": {
+              "svar": "Q19_New",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19b_vendor",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19BV-MANDATORY",
+          "question_id": "Q19b_vendor",
+          "validation_type": "mandatory",
+          "description": "Q19b_vendor is required when the piped preferred-vendor question is displayed.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19b_vendor"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q19_New",
+                "operator": "in",
+                "values": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19b_reason",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19BR-MANDATORY",
+          "question_id": "Q19b_reason",
+          "validation_type": "mandatory",
+          "description": "The required reason for the preferred vendor must not be missing.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19b_reason"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19BR-OPEN",
+          "question_id": "Q19b_reason",
+          "validation_type": "open_end",
+          "description": "Q19b_reason requires an open-text explanation.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19b_reason"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "String",
+            "parameters": {
+              "svar": "Q19b_reason",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19c_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19C1-MANDATORY",
+          "question_id": "Q19c_1",
+          "validation_type": "mandatory",
+          "description": "The required percentage for piped vendor 1 must not be missing when applicable.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q19_New",
+                "operator": "in",
+                "values": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19C1-RANGE",
+          "question_id": "Q19c_1",
+          "validation_type": "numeric_range",
+          "description": "Q19c_1 is a percentage and must be between 0 and 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q19c_1",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 100,
+              "myvars": null
+            }
+          }
+        },
+        {
+          "id": "Q19C-TOTAL",
+          "question_id": "Q19c_1",
+          "validation_type": "percentage_total",
+          "description": "The vendor-share percentages across Q19c must total 100%.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_1",
+              "Q19c_2",
+              "Q19c_3",
+              "Q19c_4",
+              "Q19c_other"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q19c_1",
+              "evar": "Q19c_other",
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19c_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19C2-MANDATORY",
+          "question_id": "Q19c_2",
+          "validation_type": "mandatory",
+          "description": "The required percentage for piped vendor 2 must not be missing when applicable.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q19_New",
+                "operator": "in",
+                "values": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19C2-RANGE",
+          "question_id": "Q19c_2",
+          "validation_type": "numeric_range",
+          "description": "Q19c_2 is a percentage and must be between 0 and 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q19c_2",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 100,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19c_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19C3-MANDATORY",
+          "question_id": "Q19c_3",
+          "validation_type": "mandatory",
+          "description": "The required percentage for piped vendor 3 must not be missing when applicable.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q19_New",
+                "operator": "in",
+                "values": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19C3-RANGE",
+          "question_id": "Q19c_3",
+          "validation_type": "numeric_range",
+          "description": "Q19c_3 is a percentage and must be between 0 and 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q19c_3",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 100,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19c_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19C4-MANDATORY",
+          "question_id": "Q19c_4",
+          "validation_type": "mandatory",
+          "description": "The required percentage for piped vendor 4 must not be missing when applicable.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q19_New",
+                "operator": "in",
+                "values": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19C4-RANGE",
+          "question_id": "Q19c_4",
+          "validation_type": "numeric_range",
+          "description": "Q19c_4 is a percentage and must be between 0 and 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q19c_4",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 100,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19c_other",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19CO-MANDATORY",
+          "question_id": "Q19c_other",
+          "validation_type": "mandatory",
+          "description": "The required percentage for the other vendor row must not be missing when applicable.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_other"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q19_New",
+                "operator": "in",
+                "values": [
+                  11
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19CO-RANGE",
+          "question_id": "Q19c_other",
+          "validation_type": "numeric_range",
+          "description": "Q19c_other is a percentage and must be between 0 and 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19c_other"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q19c_other",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 100,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19A_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19A1-MANDATORY",
+          "question_id": "Q19A_1",
+          "validation_type": "mandatory",
+          "description": "Q19A_1 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A1-CODES",
+          "question_id": "Q19A_1",
+          "validation_type": "invalid_codes",
+          "description": "Q19A_1 must contain one of the five listed agreement-scale codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A-STRAIGHTLINE",
+          "question_id": "Q19A_1",
+          "validation_type": "straightlining",
+          "description": "Check for identical responses across the six-item Q19A rating battery.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q19A_1",
+              "Q19A_2",
+              "Q19A_3",
+              "Q19A_4",
+              "Q19A_5",
+              "Q19A_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19A_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19A2-MANDATORY",
+          "question_id": "Q19A_2",
+          "validation_type": "mandatory",
+          "description": "Q19A_2 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A2-CODES",
+          "question_id": "Q19A_2",
+          "validation_type": "invalid_codes",
+          "description": "Q19A_2 must contain one of the five listed agreement-scale codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19A_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19A3-MANDATORY",
+          "question_id": "Q19A_3",
+          "validation_type": "mandatory",
+          "description": "Q19A_3 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A3-CODES",
+          "question_id": "Q19A_3",
+          "validation_type": "invalid_codes",
+          "description": "Q19A_3 must contain one of the five listed agreement-scale codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19A_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19A4-MANDATORY",
+          "question_id": "Q19A_4",
+          "validation_type": "mandatory",
+          "description": "Q19A_4 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A4-CODES",
+          "question_id": "Q19A_4",
+          "validation_type": "invalid_codes",
+          "description": "Q19A_4 must contain one of the five listed agreement-scale codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19A_5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19A5-MANDATORY",
+          "question_id": "Q19A_5",
+          "validation_type": "mandatory",
+          "description": "Q19A_5 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A5-CODES",
+          "question_id": "Q19A_5",
+          "validation_type": "invalid_codes",
+          "description": "Q19A_5 must contain one of the five listed agreement-scale codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19A_6",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q19A6-MANDATORY",
+          "question_id": "Q19A_6",
+          "validation_type": "mandatory",
+          "description": "Q19A_6 is required and must have a response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19A6-CODES",
+          "question_id": "Q19A_6",
+          "validation_type": "invalid_codes",
+          "description": "Q19A_6 must contain one of the five listed agreement-scale codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19A_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q21",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q21-MANDATORY",
+          "question_id": "Q21",
+          "validation_type": "mandatory",
+          "description": "Q21 is required and must not be missing.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q21"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q21-OPEN",
+          "question_id": "Q21",
+          "validation_type": "open_end",
+          "description": "Q21 requires an open-text response describing the biggest barrier or unmet need.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q21"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "String",
+            "parameters": {
+              "svar": "Q21",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "Evidence-supported checks could not be emitted because every question in this batch has a null canonical variable. Emitting question IDs as response variables would invent identifiers and violate the supplied questionnaire metadata.",
+    "The canonical questionnaire does not provide SPSS variable names; canonical question IDs were used as validation targets. The exact piped-variable mapping for Q19b_vendor and Q19c rows is not supplied, so vendor-specific piping consistency checks were not added."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

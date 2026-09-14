@@ -1,0 +1,107 @@
+{
+  "run_id": "20260911T042324675207Z",
+  "user": "appadmin",
+  "created_at": "2026-09-11T04:24:32.874621+00:00",
+  "generation_seconds": 139.44,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "4cc72d821663eb3b5eeb5242b418953cac15af83d6c3deab4fb92f05e62593e4",
+  "input": {
+    "key": "20260911T042324675207Z__V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "filename": "V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "size": 1075175,
+    "created_at": "2026-09-11T04:23:24.682519+00:00"
+  },
+  "output": {
+    "key": "Validation_260911042432.sps",
+    "filename": "Validation_260911042432.sps",
+    "size": 19692,
+    "created_at": "2026-09-11T04:24:32.874621+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 45,
+    "checksEmitted": 54,
+    "questionsOmitted": 0,
+    "coveragePercent": 100.0,
+    "coverage": "Complete",
+    "blocks": [
+      {
+        "block": "Questionnaire for PICOT 1 - \u201cMultistep\u201d or \u201c25 Steps\u201d function.",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 4,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q2 to Q8",
+        "prefix": "Q",
+        "questions": 35,
+        "checksEmitted": 41,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q9 to Q10",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q11",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Unclassified",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      }
+    ]
+  },
+  "generationStats": {
+    "schemaVersion": 1,
+    "extractionSeconds": 71.238,
+    "planningSeconds": 68.109,
+    "renderingSeconds": 0.076,
+    "aiSeconds": 139.263,
+    "promptTokens": 31825,
+    "cachedPromptTokens": 3957,
+    "cacheWriteTokens": 21351,
+    "completionTokens": 23918,
+    "totalTokens": 55743,
+    "estimatedCostUsd": 0.177109,
+    "generatedLines": 559,
+    "macroCalls": 0,
+    "sectionCount": 4,
+    "extractionConfidence": 0.98,
+    "warnings": [
+      "No rendered page images were supplied; source_page is null for all questions.",
+      "No explicit SPSS variables were present; variable is null throughout.",
+      "The source contains one response_item_candidate table row (Project No, table 1 row 7), but it is document metadata rather than a questionnaire response item and was not extracted as a question.",
+      "Required status is not specified in the source, so required is set to false throughout.",
+      "Q2-Q8 matrix and ranking rows were expanded into separate row-level question records as required.",
+      "Q11_E contains conditional routing based on whether the respondent uses the BD neXus pump, but no source variable is provided; the routing rule was omitted.",
+      "Q12 includes an Other, please specify option, but no separate open-text variable is provided; an other-specify consistency rule was omitted."
+    ]
+  }
+}

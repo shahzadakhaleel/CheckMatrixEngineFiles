@@ -1,0 +1,2680 @@
+{
+  "questionnaire_title": "│",
+  "project_name": null,
+  "validations": [
+    {
+      "question_id": "V1",
+      "variable": "V1",
+      "rules": [],
+      "no_validation_reason": "Informational survey/version label with no respondent-entered response or validation evidence."
+    },
+    {
+      "question_id": "V2",
+      "variable": "V2",
+      "rules": [],
+      "no_validation_reason": "Informational survey/version label with no respondent-entered response or validation evidence."
+    },
+    {
+      "question_id": "V3",
+      "variable": "V3",
+      "rules": [],
+      "no_validation_reason": "Informational screener introduction and quota text with no respondent-entered response or validation evidence."
+    },
+    {
+      "question_id": "S1",
+      "variable": "S1",
+      "rules": [
+        {
+          "id": "S1-invalid-codes",
+          "question_id": "S1",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed practice locations.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "United States",
+              "United Kingdom",
+              "Germany",
+              "France",
+              "Spain",
+              "Italy",
+              "China",
+              "Japan",
+              "Other"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S1-mandatory",
+          "question_id": "S1",
+          "validation_type": "mandatory",
+          "description": "Require a single practice-location response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S1-screen-out-other",
+          "question_id": "S1",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents selecting Other.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "Other"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S2",
+      "variable": "S2",
+      "rules": [
+        {
+          "id": "S2-invalid-codes",
+          "question_id": "S2",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed cities.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Beijing",
+              "Shanghai",
+              "Guangzhou",
+              "Other"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S2-mandatory-china",
+          "question_id": "S2",
+          "validation_type": "mandatory",
+          "description": "Require a city response for China respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S2-screen-out-other",
+          "question_id": "S2",
+          "validation_type": "screen_out",
+          "description": "Terminate China respondents selecting Other.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              }
+            ],
+            "trigger": [
+              {
+                "variable": "S2",
+                "operator": "equals",
+                "values": [
+                  "Other"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S3",
+      "variable": "S3",
+      "rules": [
+        {
+          "id": "S3-invalid-codes",
+          "question_id": "S3",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed specialties.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Medical oncology",
+              "Hematology",
+              "Hematology / Oncology",
+              "Other"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S3-mandatory",
+          "question_id": "S3",
+          "validation_type": "mandatory",
+          "description": "Require a primary-specialty response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S3-screen-out-other",
+          "question_id": "S3",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents selecting Other.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S3",
+                "operator": "equals",
+                "values": [
+                  "Other"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S4",
+      "variable": "S4",
+      "rules": [
+        {
+          "id": "S4-invalid-codes",
+          "question_id": "S4",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed role responses.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "I am the primary treating physician for myelofibrosis patients.",
+              "I co-manage myelofibrosis patients as part of a multidisciplinary team.",
+              "I diagnose / refer only.",
+              "I do not treat myelofibrosis patients.",
+              "Other"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S4-mandatory",
+          "question_id": "S4",
+          "validation_type": "mandatory",
+          "description": "Require a role response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S4-screen-out-nonprimary",
+          "question_id": "S4",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents whose role is not primary treating physician.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S4",
+                "operator": "in",
+                "values": [
+                  "I co-manage myelofibrosis patients as part of a multidisciplinary team.",
+                  "I diagnose / refer only.",
+                  "I do not treat myelofibrosis patients.",
+                  "Other"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S5",
+      "variable": "S5",
+      "rules": [
+        {
+          "id": "S5-range",
+          "question_id": "S5",
+          "validation_type": "numeric_range",
+          "description": "Restrict patient counts to 0 through 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              999
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q1",
+      "variable": "Q1",
+      "rules": [
+        {
+          "id": "Q1-range",
+          "question_id": "Q1",
+          "validation_type": "numeric_range",
+          "description": "Restrict each treatment-line percentage to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1-total",
+          "question_id": "Q1",
+          "validation_type": "percentage_total",
+          "description": "Require treatment-line percentages to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q1",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2",
+      "variable": "Q2",
+      "rules": [
+        {
+          "id": "Q2-range",
+          "question_id": "Q2",
+          "validation_type": "numeric_range",
+          "description": "Restrict risk-group percentages to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2-total",
+          "question_id": "Q2",
+          "validation_type": "percentage_total",
+          "description": "Require risk-group percentages to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q2",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3",
+      "variable": "Q3",
+      "rules": [
+        {
+          "id": "Q3-range",
+          "question_id": "Q3",
+          "validation_type": "numeric_range",
+          "description": "Restrict the transplant-ineligible percentage to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4",
+      "variable": "Q4",
+      "rules": [
+        {
+          "id": "Q4-range",
+          "question_id": "Q4",
+          "validation_type": "numeric_range",
+          "description": "Restrict the first-line-treatment percentage to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5",
+      "variable": "Q5",
+      "rules": [
+        {
+          "id": "Q5-range",
+          "question_id": "Q5",
+          "validation_type": "numeric_range",
+          "description": "Restrict platelet-group percentages to 0 through 100 for US respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q5-total",
+          "question_id": "Q5",
+          "validation_type": "percentage_total",
+          "description": "Require the two platelet-group percentages to total 100 for US respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q5",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6",
+      "variable": "Q6",
+      "rules": [
+        {
+          "id": "Q6-range",
+          "question_id": "Q6",
+          "validation_type": "numeric_range",
+          "description": "Restrict treatment-breakdown percentages to 0 through 100 for eligible countries.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "in",
+                "values": [
+                  "United Kingdom",
+                  "Germany",
+                  "France",
+                  "Italy",
+                  "Spain",
+                  "Japan"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6-total",
+          "question_id": "Q6",
+          "validation_type": "percentage_total",
+          "description": "Require each platelet-group treatment column to total 100 for eligible countries.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "in",
+                "values": [
+                  "United Kingdom",
+                  "Germany",
+                  "France",
+                  "Italy",
+                  "Spain",
+                  "Japan"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q6",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7",
+      "variable": "Q7",
+      "rules": [
+        {
+          "id": "Q7-range",
+          "question_id": "Q7",
+          "validation_type": "numeric_range",
+          "description": "Restrict treatment-breakdown percentages to 0 through 100 for China respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q7-total",
+          "question_id": "Q7",
+          "validation_type": "percentage_total",
+          "description": "Require each platelet-group treatment column to total 100 for China respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q7",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8",
+      "variable": "Q8",
+      "rules": [
+        {
+          "id": "Q8-range",
+          "question_id": "Q8",
+          "validation_type": "numeric_range",
+          "description": "Restrict treatment-breakdown percentages to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8-total",
+          "question_id": "Q8",
+          "validation_type": "percentage_total",
+          "description": "Require each platelet-group treatment column to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q8",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9",
+      "variable": "Q9",
+      "rules": [
+        {
+          "id": "Q9-range",
+          "question_id": "Q9",
+          "validation_type": "numeric_range",
+          "description": "Restrict the second-line-treatment percentage to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10",
+      "variable": "Q10",
+      "rules": [
+        {
+          "id": "Q10-range",
+          "question_id": "Q10",
+          "validation_type": "numeric_range",
+          "description": "Restrict second-line platelet-group percentages to 0 through 100 for US respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10-total",
+          "question_id": "Q10",
+          "validation_type": "percentage_total",
+          "description": "Require second-line platelet-group percentages to total 100 for US respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q10",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        },
+        {
+          "id": "Q10-cross-q5",
+          "question_id": "Q10",
+          "validation_type": "cross_question",
+          "description": "Flag when the second-line percentage with platelets at or above 50,000/µL exceeds the corresponding first-line percentage.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              },
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": "Q5",
+            "right_variable": "Q10",
+            "comparison": "less_than"
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11",
+      "variable": "Q11",
+      "rules": [
+        {
+          "id": "Q11-range",
+          "question_id": "Q11",
+          "validation_type": "numeric_range",
+          "description": "Restrict second-line treatment-breakdown percentages to 0 through 100 for eligible countries.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "in",
+                "values": [
+                  "United Kingdom",
+                  "Germany",
+                  "France",
+                  "Italy",
+                  "Spain",
+                  "Japan"
+                ]
+              },
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11-total",
+          "question_id": "Q11",
+          "validation_type": "percentage_total",
+          "description": "Require each second-line platelet-group treatment column to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "in",
+                "values": [
+                  "United Kingdom",
+                  "Germany",
+                  "France",
+                  "Italy",
+                  "Spain",
+                  "Japan"
+                ]
+              },
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q11",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q12",
+      "variable": "Q12",
+      "rules": [
+        {
+          "id": "Q12-range",
+          "question_id": "Q12",
+          "validation_type": "numeric_range",
+          "description": "Restrict second-line treatment-breakdown percentages to 0 through 100 for China respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              },
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q12-total",
+          "question_id": "Q12",
+          "validation_type": "percentage_total",
+          "description": "Require each second-line platelet-group treatment column to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              },
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q12",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13",
+      "variable": "Q13",
+      "rules": [
+        {
+          "id": "Q13-range",
+          "question_id": "Q13",
+          "validation_type": "numeric_range",
+          "description": "Restrict second-line treatment-breakdown percentages to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q13-total",
+          "question_id": "Q13",
+          "validation_type": "percentage_total",
+          "description": "Require each second-line platelet-group treatment column to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q9",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q13",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q14",
+      "variable": "Q14",
+      "rules": [
+        {
+          "id": "Q14-range",
+          "question_id": "Q14",
+          "validation_type": "numeric_range",
+          "description": "Restrict the third-line-treatment percentage to 0 through 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q14"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q15",
+      "variable": "Q15",
+      "rules": [
+        {
+          "id": "Q15-range",
+          "question_id": "Q15",
+          "validation_type": "numeric_range",
+          "description": "Restrict third-line platelet-group percentages to 0 through 100 for US respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q15-total",
+          "question_id": "Q15",
+          "validation_type": "percentage_total",
+          "description": "Require third-line platelet-group percentages to total 100 for US respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q15",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        },
+        {
+          "id": "Q15-cross-q10",
+          "question_id": "Q15",
+          "validation_type": "cross_question",
+          "description": "Flag when the third-line percentage with platelets at or above 50,000/µL exceeds the corresponding second-line percentage.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "United States"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": "Q15",
+            "right_variable": "Q10",
+            "comparison": "greater_than"
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q16",
+      "variable": "Q16",
+      "rules": [
+        {
+          "id": "Q16-range",
+          "question_id": "Q16",
+          "validation_type": "numeric_range",
+          "description": "Restrict third-line treatment-breakdown percentages to 0 through 100 for eligible countries.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q16"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "in",
+                "values": [
+                  "United Kingdom",
+                  "Germany",
+                  "France",
+                  "Italy",
+                  "Spain",
+                  "Japan"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q16-total",
+          "question_id": "Q16",
+          "validation_type": "percentage_total",
+          "description": "Require each third-line platelet-group treatment column to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q16"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "in",
+                "values": [
+                  "United Kingdom",
+                  "Germany",
+                  "France",
+                  "Italy",
+                  "Spain",
+                  "Japan"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q16",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q17",
+      "variable": "Q17",
+      "rules": [
+        {
+          "id": "Q17-range",
+          "question_id": "Q17",
+          "validation_type": "numeric_range",
+          "description": "Restrict third-line treatment-breakdown percentages to 0 through 100 for China respondents.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q17"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q17-total",
+          "question_id": "Q17",
+          "validation_type": "percentage_total",
+          "description": "Require each third-line platelet-group treatment column to total 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q17"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "China"
+                ]
+              },
+              {
+                "variable": "Q14",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q17",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q18",
+      "variable": "Q18",
+      "rules": [
+        {
+          "id": "Q18-R1",
+          "question_id": "Q18",
+          "validation_type": "numeric_range",
+          "description": "Each Q18 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18-R2",
+          "question_id": "Q18",
+          "validation_type": "percentage_total",
+          "description": "The percentages in each platelet-count column must total 100%.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19",
+      "variable": "Q19",
+      "rules": [
+        {
+          "id": "Q19-R1",
+          "question_id": "Q19",
+          "validation_type": "numeric_range",
+          "description": "Each Q19 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q20",
+      "variable": "Q20",
+      "rules": [
+        {
+          "id": "Q20-R1",
+          "question_id": "Q20",
+          "validation_type": "numeric_range",
+          "description": "Each Q20 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q21",
+      "variable": "Q21",
+      "rules": [
+        {
+          "id": "Q21-R1",
+          "question_id": "Q21",
+          "validation_type": "numeric_range",
+          "description": "Each Q21 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q21"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q22",
+      "variable": "Q22",
+      "rules": [
+        {
+          "id": "Q22-R1",
+          "question_id": "Q22",
+          "validation_type": "numeric_range",
+          "description": "Each Q22 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q22"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q23",
+      "variable": "Q23",
+      "rules": [
+        {
+          "id": "Q23-R1",
+          "question_id": "Q23",
+          "validation_type": "numeric_range",
+          "description": "Each Q23 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q23"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q24",
+      "variable": "Q24",
+      "rules": [
+        {
+          "id": "Q24-R1",
+          "question_id": "Q24",
+          "validation_type": "numeric_range",
+          "description": "Each Q24 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q24"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q25",
+      "variable": "Q25",
+      "rules": [
+        {
+          "id": "Q25-R1",
+          "question_id": "Q25",
+          "validation_type": "numeric_range",
+          "description": "The Q25 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q25"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q26",
+      "variable": "Q26",
+      "rules": [
+        {
+          "id": "Q26-R1",
+          "question_id": "Q26",
+          "validation_type": "numeric_range",
+          "description": "The Q26 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q26"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q27",
+      "variable": "Q27",
+      "rules": [
+        {
+          "id": "Q27-R1",
+          "question_id": "Q27",
+          "validation_type": "numeric_range",
+          "description": "The Q27 percentage entry must be between 0 and 100 inclusive.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q27"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              0,
+              100
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q28",
+      "variable": "Q28",
+      "rules": [
+        {
+          "id": "Q28-R1",
+          "question_id": "Q28",
+          "validation_type": "mandatory",
+          "description": "A single response must be selected for the Q28 compliance-risk question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q28"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": true,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "S5's two numerical components are represented by the supplied base variable S5; the questionnaire does not provide component variable names, so the sum-based threshold screen-out cannot be deterministically expressed.",
+    "Country-specific and zero-response skips for Q6-Q17 are represented only where the controlling variables are explicitly named; platelet-group-specific controls cannot be emitted because component variable names were not supplied.",
+    "Omitted incomplete model rule: Rule S5-threshold requires trigger or applicability",
+    "Conditional skip instructions for Q18-Q27 refer to platelet-group-specific values of prior questions, but the canonical questionnaire does not provide separate filter variables or response-code mappings; conditional routing checks were therefore omitted.",
+    "Q28 includes an other-specify free-text response, but no separate canonical variable for that text field was supplied; an open-end consistency check was therefore omitted."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

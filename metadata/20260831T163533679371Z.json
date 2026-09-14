@@ -1,0 +1,151 @@
+{
+  "run_id": "20260831T163533679371Z",
+  "user": "appadmin",
+  "created_at": "2026-08-31T16:36:33.718867+00:00",
+  "generation_seconds": 139.34,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "1d3e8be7cbb418f476649f08d707dc584de36ada39c5e6256aefae0f9a82e512",
+  "input": {
+    "key": "20260831T163533679371Z__V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "filename": "V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "size": 1072029,
+    "created_at": "2026-08-31T16:35:33.682658+00:00"
+  },
+  "output": {
+    "key": "Validation_260831163633.sps",
+    "filename": "Validation_260831163633.sps",
+    "size": 14787,
+    "created_at": "2026-08-31T16:36:33.718867+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 37,
+    "checksEmitted": 40,
+    "questionsOmitted": 0,
+    "coveragePercent": 100.0,
+    "coverage": "Complete",
+    "blocks": [
+      {
+        "block": "Questionnaire for PICOT 1 - \u201cMultistep\u201d or \u201c25 Steps\u201d function.",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 4,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q2",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q3",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q4",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q5",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 1,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q6",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q7",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q8",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 1,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q9\u2013Q10",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q11",
+        "prefix": "Q",
+        "questions": 4,
+        "checksEmitted": 4,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q11 \u2014 BD neXus",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 1,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q12",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      }
+    ]
+  }
+}

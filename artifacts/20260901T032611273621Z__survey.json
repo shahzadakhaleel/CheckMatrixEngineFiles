@@ -1,0 +1,4292 @@
+{
+  "metadata": {
+    "title": "Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2",
+    "client": "Becton Dickinson",
+    "project": "12847",
+    "language": "English",
+    "country": null,
+    "version": "Revision 02"
+  },
+  "sections": [
+    {
+      "id": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function.",
+      "title": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function.",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q0",
+          "variable": "Q0",
+          "title": "Introduction and consent",
+          "text": "This questionnaire asks about your experience and opinion using the “Multistep” or “25 Steps” function on the Becton Dickinson (BD)’s infusion pumps. [Select one answer]",
+          "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function.",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "I understand and continue.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I have not used this function – Thank and close",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Definition: A “multistep” / “25 steps” infusion on a smart pump allows the clinician to program stepwise increases in infusion rate after a set time of delivery. The operating interface examples are referenced in the source but are not included in the extracted text.",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q1",
+          "variable": "Q1",
+          "title": "Clinical area",
+          "text": "In which clinical area do you use the “Multistep” or “25 Steps” function? [Select all that apply]",
+          "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function.",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Oncology",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Autoimmune Care Unit",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Intensive Care Unit (ICU/NICU/PICU)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Haematology",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Gastroenterology",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "High Dependence Unit (HDU)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Emergency Departments",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Admissions Ward",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Intestinal Failure Unit / Intestinal Rehabilitation Unit",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Virtual Wards / Hospital at Home",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Community Infusion Centres",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Other, please specify:",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Q2–Q8 rating and ranking questions",
+      "title": "Q2–Q8 rating and ranking questions",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q2_01",
+          "variable": "Q2_01",
+          "title": "Intravenous immunoglobulin (IVIG)",
+          "text": "How often do you administer Intravenous immunoglobulin (IVIG) with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Never",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Very rarely",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Every other shift",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "1-2 times per shift",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "3-5 times per shift",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6-10 times per shift",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "More than 10 times per shift",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q2. Options may be randomised.",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 2,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q2_02",
+          "variable": "Q2_02",
+          "title": "Monoclonal antibodies",
+          "text": "How often do you administer Monoclonal antibodies with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Never",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Very rarely",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Every other shift",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "1-2 times per shift",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "3-5 times per shift",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6-10 times per shift",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "More than 10 times per shift",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q2. Options may be randomised.",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 3,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q2_03",
+          "variable": "Q2_03",
+          "title": "Blood products",
+          "text": "How often do you administer Blood products with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Never",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Very rarely",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Every other shift",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "1-2 times per shift",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "3-5 times per shift",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6-10 times per shift",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "More than 10 times per shift",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q2. Options may be randomised.",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 4,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q2_04",
+          "variable": "Q2_04",
+          "title": "Beta-interferons",
+          "text": "How often do you administer Beta-interferons with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Never",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Very rarely",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Every other shift",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "1-2 times per shift",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "3-5 times per shift",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6-10 times per shift",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "More than 10 times per shift",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q2. Options may be randomised.",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 5,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q2_05",
+          "variable": "Q2_05",
+          "title": "Others, please specify:",
+          "text": "How often do you administer Others, please specify: with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Never",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Very rarely",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Every other shift",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "1-2 times per shift",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "3-5 times per shift",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6-10 times per shift",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "More than 10 times per shift",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q2; includes a specify response in the source row. Options may be randomised.",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 6,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q3_01",
+          "variable": "Q3_01",
+          "title": "Increased medication safety",
+          "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Increased medication safety (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q3. Options may be randomised.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 2,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q3_02",
+          "variable": "Q3_02",
+          "title": "Improved workflow efficiency",
+          "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Improved workflow efficiency (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q3. Options may be randomised.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 3,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q3_03",
+          "variable": "Q3_03",
+          "title": "More time for clinical care",
+          "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? More time for clinical care (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q3. Options may be randomised.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 4,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q3_04",
+          "variable": "Q3_04",
+          "title": "Reduced risk of potential medication errors",
+          "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Reduced risk of potential medication errors (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q3. Options may be randomised.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 5,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q3_05",
+          "variable": "Q3_05",
+          "title": "Quicker completion of therapy",
+          "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Quicker completion of therapy (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q3. Options may be randomised.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 6,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q4_01",
+          "variable": "Q4_01",
+          "title": "Increased medication safety",
+          "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Increased medication safety (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q4. Options may be randomised.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 2,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q4_02",
+          "variable": "Q4_02",
+          "title": "Improved workflow efficiency",
+          "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Improved workflow efficiency (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q4. Options may be randomised.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 3,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q4_03",
+          "variable": "Q4_03",
+          "title": "More time for clinical care",
+          "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? More time for clinical care (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q4. Options may be randomised.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 4,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q4_04",
+          "variable": "Q4_04",
+          "title": "Reduced risk of potential medication errors",
+          "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Reduced risk of potential medication errors (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q4. Options may be randomised.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 5,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q4_05",
+          "variable": "Q4_05",
+          "title": "Quicker completion of therapy",
+          "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Quicker completion of therapy (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q4. Options may be randomised.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 6,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q5",
+          "variable": "Q5",
+          "title": "Rank outcomes by value",
+          "text": "Based on their value to you, rank the following outcomes from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "RANKING",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Increased medication safety",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Improved workflow efficiency",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "More time for clinical care",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Reduced risk of potential medication errors",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Quicker completion of therapy",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "The source presents the ranked items as a list; option order preserved.",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q6_01",
+          "variable": "Q6_01",
+          "title": "Minimise manual interventions between rate changes.",
+          "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Minimise manual interventions between rate changes. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q6. Options may be randomised.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 2,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q6_02",
+          "variable": "Q6_02",
+          "title": "Automate movement through the dosing process without the pressure of speedy programming.",
+          "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Automate movement through the dosing process without the pressure of speedy programming. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q6. Options may be randomised.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 3,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q6_03",
+          "variable": "Q6_03",
+          "title": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+          "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Allow for a “one check” process for 2 nurse checks of medication administration. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q6. Options may be randomised.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 4,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q6_04",
+          "variable": "Q6_04",
+          "title": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+          "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Be able to map the entire prescription requirements against one screen following set-up on the pump. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q6. Options may be randomised.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 5,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q6_05",
+          "variable": "Q6_05",
+          "title": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+          "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not at all",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Considerably",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Substantially",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q6. Options may be randomised.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 6,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q7_01",
+          "variable": "Q7_01",
+          "title": "Minimise manual interventions between rate changes.",
+          "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Minimise manual interventions between rate changes. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q7. Options may be randomised.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 2,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q7_02",
+          "variable": "Q7_02",
+          "title": "Automate movement through the dosing process without the pressure of speedy programming.",
+          "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Automate movement through the dosing process without the pressure of speedy programming. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q7. Options may be randomised.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 3,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q7_03",
+          "variable": "Q7_03",
+          "title": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+          "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Allow for a “one check” process for 2 nurse checks of medication administration. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q7. Options may be randomised.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 4,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q7_04",
+          "variable": "Q7_04",
+          "title": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+          "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Be able to map the entire prescription requirements against one screen following set-up on the pump. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q7. Options may be randomised.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 5,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q7_05",
+          "variable": "Q7_05",
+          "title": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+          "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Not important",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Slightly important",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Moderately important",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Highly important",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Extremely important",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix row from Q7. Options may be randomised.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 6,
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q8",
+          "variable": "Q8",
+          "title": "Rank capabilities by value",
+          "text": "Based on their value to you, rank the following capabilities from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]",
+          "section": "Q2–Q8 rating and ranking questions",
+          "question_type": "RANKING",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Minimise manual interventions between rate changes.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Automate movement through the dosing process without the pressure of speedy programming.",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "The source presents the ranked items as a list; option order preserved.",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Estimates based on own experience",
+      "title": "Estimates based on own experience",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q9",
+          "variable": "Q9",
+          "title": "Time saved",
+          "text": "Approximately how much time have you saved by using the “Multistep” or “25 Steps” function comparing with not using this function? [Select one answer]",
+          "section": "Estimates based on own experience",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "More than 50%",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "26 - 50%",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "11 - 25%",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Up to 10%",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "No time saved",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "It takes more time now",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I don’t know",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q10",
+          "variable": "Q10",
+          "title": "Productivity improvement",
+          "text": "Approximately by what percentage does using the “Multistep” or “25 Steps” function improve your productivity comparing with not using this function? (e.g., faster task completion, higher care quality, more patients to attend, etc.) [Select one answer]",
+          "section": "Estimates based on own experience",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "More than 50%",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "26 - 50%",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "11 - 25%",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Up to 10%",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "No improvement",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "It decreased productivity",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I don’t know",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Question 11: Agreement statements",
+      "title": "Question 11: Agreement statements",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q11_A",
+          "variable": "Q11_A",
+          "title": "Statement A",
+          "text": "“It is difficult to understand and rectify alarm messages when using the ‘Multistep’ or ‘25 Steps’ function.”",
+          "section": "Question 11: Agreement statements",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly agree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Agree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Strongly disagree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I haven’t used it",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "The source says Q11 statements use one answer for each statement and includes a 5 second time delay on the next button.",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q11_B",
+          "variable": "Q11_B",
+          "title": "Statement B",
+          "text": "“It is easy to suspend, pause, stop or change the rate of delivery, and it is clear when this has been completed when using the ‘Multistep’ or ‘25 Steps’ function.”",
+          "section": "Question 11: Agreement statements",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly agree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Agree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Strongly disagree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I haven’t used it",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q11_C",
+          "variable": "Q11_C",
+          "title": "Statement C",
+          "text": "“Setting the delivery rates for each step when using the ‘Multistep’ or ‘25 Steps’ function is NOT easy, and it is unclear when this has been completed correctly.”",
+          "section": "Question 11: Agreement statements",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly agree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Agree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Strongly disagree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I haven’t used it",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        },
+        {
+          "id": "Q11_D",
+          "variable": "Q11_D",
+          "title": "Statement D",
+          "text": "“I have had more time to concentrate on clinical care when using the ‘Multistep’ or ‘25 Steps’ function.”",
+          "section": "Question 11: Agreement statements",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly agree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Agree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Strongly disagree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I haven’t used it",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "BD neXus completion alarms",
+      "title": "BD neXus completion alarms",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q11_E",
+          "variable": "Q11_E",
+          "title": "Statement E",
+          "text": "“The prompts were useful as they act as a reminder to return to the patient to complete vital signs checks before moving to the next infusion step.”",
+          "section": "BD neXus completion alarms",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly agree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Agree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Strongly disagree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I haven’t used it",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Not applicable to me",
+              "value": 6,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Please respond to the following statement if you use the Becton Dickinson (BD)’s neXus pump. If you do not use the BD neXus pump, please select “Not applicable to me”.",
+          "notes": "The source introduces BD neXus completion alarms after each step is finished.",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Alternative use of saved time",
+      "title": "Alternative use of saved time",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q12",
+          "variable": "Q12",
+          "title": "Alternative activities",
+          "text": "If the “Multistep” or “25 Steps” function could save your time up to 1 hour, what other activities would you like to do instead? [Select all that apply] [Randomise the order of options, except Other]",
+          "section": "Alternative use of saved time",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Patient care, such as taking vital signs",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Patient counselling",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Non-clinical administrative tasks",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Teaching and training",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Managing additional patients",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Other, please specify:",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Questionnaire closed after Q12.",
+          "metadata": {
+            "variable_origin": "explicit_question_id"
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q0",
+      "variable": "Q0",
+      "title": "Introduction and consent",
+      "text": "This questionnaire asks about your experience and opinion using the “Multistep” or “25 Steps” function on the Becton Dickinson (BD)’s infusion pumps. [Select one answer]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function.",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "I understand and continue.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I have not used this function – Thank and close",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Definition: A “multistep” / “25 steps” infusion on a smart pump allows the clinician to program stepwise increases in infusion rate after a set time of delivery. The operating interface examples are referenced in the source but are not included in the extracted text.",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q1",
+      "variable": "Q1",
+      "title": "Clinical area",
+      "text": "In which clinical area do you use the “Multistep” or “25 Steps” function? [Select all that apply]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function.",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Oncology",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Autoimmune Care Unit",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Intensive Care Unit (ICU/NICU/PICU)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Haematology",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Gastroenterology",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "High Dependence Unit (HDU)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Emergency Departments",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Admissions Ward",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Intestinal Failure Unit / Intestinal Rehabilitation Unit",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Virtual Wards / Hospital at Home",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Community Infusion Centres",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Other, please specify:",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q2_01",
+      "variable": "Q2_01",
+      "title": "Intravenous immunoglobulin (IVIG)",
+      "text": "How often do you administer Intravenous immunoglobulin (IVIG) with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Never",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Very rarely",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Every other shift",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "1-2 times per shift",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "3-5 times per shift",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6-10 times per shift",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "More than 10 times per shift",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q2. Options may be randomised.",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 2,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q2_02",
+      "variable": "Q2_02",
+      "title": "Monoclonal antibodies",
+      "text": "How often do you administer Monoclonal antibodies with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Never",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Very rarely",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Every other shift",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "1-2 times per shift",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "3-5 times per shift",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6-10 times per shift",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "More than 10 times per shift",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q2. Options may be randomised.",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 3,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q2_03",
+      "variable": "Q2_03",
+      "title": "Blood products",
+      "text": "How often do you administer Blood products with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Never",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Very rarely",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Every other shift",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "1-2 times per shift",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "3-5 times per shift",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6-10 times per shift",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "More than 10 times per shift",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q2. Options may be randomised.",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 4,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q2_04",
+      "variable": "Q2_04",
+      "title": "Beta-interferons",
+      "text": "How often do you administer Beta-interferons with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Never",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Very rarely",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Every other shift",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "1-2 times per shift",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "3-5 times per shift",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6-10 times per shift",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "More than 10 times per shift",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q2. Options may be randomised.",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 5,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q2_05",
+      "variable": "Q2_05",
+      "title": "Others, please specify:",
+      "text": "How often do you administer Others, please specify: with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Never",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Very rarely",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Every other shift",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "1-2 times per shift",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "3-5 times per shift",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6-10 times per shift",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "More than 10 times per shift",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q2; includes a specify response in the source row. Options may be randomised.",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 6,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q3_01",
+      "variable": "Q3_01",
+      "title": "Increased medication safety",
+      "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Increased medication safety (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q3. Options may be randomised.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 2,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q3_02",
+      "variable": "Q3_02",
+      "title": "Improved workflow efficiency",
+      "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Improved workflow efficiency (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q3. Options may be randomised.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 3,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q3_03",
+      "variable": "Q3_03",
+      "title": "More time for clinical care",
+      "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? More time for clinical care (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q3. Options may be randomised.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 4,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q3_04",
+      "variable": "Q3_04",
+      "title": "Reduced risk of potential medication errors",
+      "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Reduced risk of potential medication errors (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q3. Options may be randomised.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 5,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q3_05",
+      "variable": "Q3_05",
+      "title": "Quicker completion of therapy",
+      "text": "How much have you experienced the following outcome when using the “Multistep” or “25 Steps” function? Quicker completion of therapy (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q3. Options may be randomised.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 6,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q4_01",
+      "variable": "Q4_01",
+      "title": "Increased medication safety",
+      "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Increased medication safety (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q4. Options may be randomised.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 2,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q4_02",
+      "variable": "Q4_02",
+      "title": "Improved workflow efficiency",
+      "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Improved workflow efficiency (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q4. Options may be randomised.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 3,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q4_03",
+      "variable": "Q4_03",
+      "title": "More time for clinical care",
+      "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? More time for clinical care (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q4. Options may be randomised.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 4,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q4_04",
+      "variable": "Q4_04",
+      "title": "Reduced risk of potential medication errors",
+      "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Reduced risk of potential medication errors (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q4. Options may be randomised.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 5,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q4_05",
+      "variable": "Q4_05",
+      "title": "Quicker completion of therapy",
+      "text": "How valuable is the following outcome to you when using the “Multistep” or “25 Steps” function? Quicker completion of therapy (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q4. Options may be randomised.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 6,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q5",
+      "variable": "Q5",
+      "title": "Rank outcomes by value",
+      "text": "Based on their value to you, rank the following outcomes from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "RANKING",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Increased medication safety",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Improved workflow efficiency",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "More time for clinical care",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Reduced risk of potential medication errors",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Quicker completion of therapy",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "The source presents the ranked items as a list; option order preserved.",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q6_01",
+      "variable": "Q6_01",
+      "title": "Minimise manual interventions between rate changes.",
+      "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Minimise manual interventions between rate changes. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q6. Options may be randomised.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 2,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q6_02",
+      "variable": "Q6_02",
+      "title": "Automate movement through the dosing process without the pressure of speedy programming.",
+      "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Automate movement through the dosing process without the pressure of speedy programming. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q6. Options may be randomised.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 3,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q6_03",
+      "variable": "Q6_03",
+      "title": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+      "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Allow for a “one check” process for 2 nurse checks of medication administration. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q6. Options may be randomised.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 4,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q6_04",
+      "variable": "Q6_04",
+      "title": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+      "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Be able to map the entire prescription requirements against one screen following set-up on the pump. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q6. Options may be randomised.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 5,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q6_05",
+      "variable": "Q6_05",
+      "title": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+      "text": "How much does the following “Multistep” or “25 Steps” capability help reduce medication errors in your clinical setting? Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration. (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not at all",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Considerably",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Substantially",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q6. Options may be randomised.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 6,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q7_01",
+      "variable": "Q7_01",
+      "title": "Minimise manual interventions between rate changes.",
+      "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Minimise manual interventions between rate changes. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q7. Options may be randomised.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 2,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q7_02",
+      "variable": "Q7_02",
+      "title": "Automate movement through the dosing process without the pressure of speedy programming.",
+      "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Automate movement through the dosing process without the pressure of speedy programming. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q7. Options may be randomised.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 3,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q7_03",
+      "variable": "Q7_03",
+      "title": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+      "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Allow for a “one check” process for 2 nurse checks of medication administration. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q7. Options may be randomised.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 4,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q7_04",
+      "variable": "Q7_04",
+      "title": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+      "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Be able to map the entire prescription requirements against one screen following set-up on the pump. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q7. Options may be randomised.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 5,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q7_05",
+      "variable": "Q7_05",
+      "title": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+      "text": "How valuable is the following “Multistep” or “25 Steps” capability in reducing medication errors in your clinical setting? Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration. (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Not important",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Slightly important",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Moderately important",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Highly important",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Extremely important",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix row from Q7. Options may be randomised.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 6,
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q8",
+      "variable": "Q8",
+      "title": "Rank capabilities by value",
+      "text": "Based on their value to you, rank the following capabilities from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]",
+      "section": "Q2–Q8 rating and ranking questions",
+      "question_type": "RANKING",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Minimise manual interventions between rate changes.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Automate movement through the dosing process without the pressure of speedy programming.",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "The source presents the ranked items as a list; option order preserved.",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q9",
+      "variable": "Q9",
+      "title": "Time saved",
+      "text": "Approximately how much time have you saved by using the “Multistep” or “25 Steps” function comparing with not using this function? [Select one answer]",
+      "section": "Estimates based on own experience",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "More than 50%",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "26 - 50%",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "11 - 25%",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Up to 10%",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "No time saved",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "It takes more time now",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I don’t know",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q10",
+      "variable": "Q10",
+      "title": "Productivity improvement",
+      "text": "Approximately by what percentage does using the “Multistep” or “25 Steps” function improve your productivity comparing with not using this function? (e.g., faster task completion, higher care quality, more patients to attend, etc.) [Select one answer]",
+      "section": "Estimates based on own experience",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "More than 50%",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "26 - 50%",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "11 - 25%",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Up to 10%",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "No improvement",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "It decreased productivity",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I don’t know",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q11_A",
+      "variable": "Q11_A",
+      "title": "Statement A",
+      "text": "“It is difficult to understand and rectify alarm messages when using the ‘Multistep’ or ‘25 Steps’ function.”",
+      "section": "Question 11: Agreement statements",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly agree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Agree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Strongly disagree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I haven’t used it",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "The source says Q11 statements use one answer for each statement and includes a 5 second time delay on the next button.",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q11_B",
+      "variable": "Q11_B",
+      "title": "Statement B",
+      "text": "“It is easy to suspend, pause, stop or change the rate of delivery, and it is clear when this has been completed when using the ‘Multistep’ or ‘25 Steps’ function.”",
+      "section": "Question 11: Agreement statements",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly agree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Agree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Strongly disagree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I haven’t used it",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q11_C",
+      "variable": "Q11_C",
+      "title": "Statement C",
+      "text": "“Setting the delivery rates for each step when using the ‘Multistep’ or ‘25 Steps’ function is NOT easy, and it is unclear when this has been completed correctly.”",
+      "section": "Question 11: Agreement statements",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly agree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Agree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Strongly disagree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I haven’t used it",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q11_D",
+      "variable": "Q11_D",
+      "title": "Statement D",
+      "text": "“I have had more time to concentrate on clinical care when using the ‘Multistep’ or ‘25 Steps’ function.”",
+      "section": "Question 11: Agreement statements",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly agree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Agree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Strongly disagree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I haven’t used it",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q11_E",
+      "variable": "Q11_E",
+      "title": "Statement E",
+      "text": "“The prompts were useful as they act as a reminder to return to the patient to complete vital signs checks before moving to the next infusion step.”",
+      "section": "BD neXus completion alarms",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly agree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Agree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Strongly disagree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I haven’t used it",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Not applicable to me",
+          "value": 6,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Please respond to the following statement if you use the Becton Dickinson (BD)’s neXus pump. If you do not use the BD neXus pump, please select “Not applicable to me”.",
+      "notes": "The source introduces BD neXus completion alarms after each step is finished.",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": "Q12",
+      "title": "Alternative activities",
+      "text": "If the “Multistep” or “25 Steps” function could save your time up to 1 hour, what other activities would you like to do instead? [Select all that apply] [Randomise the order of options, except Other]",
+      "section": "Alternative use of saved time",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Patient care, such as taking vital signs",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Patient counselling",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Non-clinical administrative tasks",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Teaching and training",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Managing additional patients",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Other, please specify:",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Questionnaire closed after Q12.",
+      "metadata": {
+        "variable_origin": "explicit_question_id"
+      }
+    }
+  ],
+  "parser": "openai_document_extractor",
+  "parser_version": null,
+  "source_file": "(V3_R93941) 12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+  "source_format": "docx",
+  "source_text": "To\nJames Waterson\nCompany\nBecton Dickinson\nCc\nSamuel Garcia, Christian Vollmar, Stefan Schraag\nPrepared by\nKai Hu\nChecked by\nGavin Moore\nDate\n29 April 2026\nRevision\n02\nProject No\n12847\nPages\n14\nSubject\nNexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2\n/For internal reference only\nPICOTs for Research\nPICOT 1:\nBD nexus or BD Bodyguard (including CME pumps, which are the older generation of BD Bodyguard) users who have experience delivering multi step infusion modes requiring 15-minute titrations when administering specialist oncology infusions or intravenous immunoglobulin IVIG.\nPICOT 2:BD neXus or BD Bodyguard (including CME pumps, which are the older generation of BD Bodyguard) users who have experience delivering ramp up or ramp down infusion profiles when administering Total Parenteral Nutrition TPN infusions.\nPICOT 3:\nBD neXus, BD Alaris neXus, and CareFusion Alaris Guardrails Plus Pumps users who have experience administering sepsis resuscitation fluids using a preset drug library entry with a default rate of 30mL/kg/hr, and administering noradrenaline using standardised doses or custom concentrations with default dosing in mcg/kg/min.\nPICOT 4:\nBD Alaris neXus (ACE/Wi Fi) and BD neXus (Connected Solution) users who have experience working with infusion pumps connected across the hospital network and creating or using an extensive DERS drug library, with active drug library management and supporting medication safety activities.\nQuestionnaire for PICOT 1 - “Multistep” or “25 Steps” function.\nQ0: This questionnaire asks about your experience and opinion using the “Multistep” or “25 Steps” function on the Becton Dickinson (BD)’s infusion pumps. [Select one answer]\nDefinition:\nA “multistep” / “25 steps” infusion on a smart pump allows the clinician to program stepwise increases in infusion rate after a set time of delivery. For example, an infusion may be programmed to run at 5 ml/hr for 15 minutes, and then automatically increase its rate to 10 ml/hr for the next 15 minutes, to 20 ml/hr for the next 30 minutes, and then to reach its final stable rate of 30 ml/hr for the rest of the infusion.\nThe operating interface examples:\nI understand and continue.\nI have not used this function – Thank and close\nQ1. In which clinical area do you use the “Multistep” or “25 Steps” function? [Select all that apply]\nOncology\nAutoimmune Care Unit\nIntensive Care Unit (ICU/NICU/PICU)\nHaematology\nGastroenterology\nHigh Dependence Unit (HDU)\nEmergency Departments\nAdmissions Ward\nIntestinal Failure Unit / Intestinal Rehabilitation Unit\nVirtual Wards / Hospital at Home\nCommunity Infusion Centres\nOther, please specify:\nInstructions: From Q2 to Q8 In the following questions, you will be asked to rate each item using a scale from 1 to 5 or rank them from best or worst.\nQ2. How often do you administer the following medications or products with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]\nRandomise the order of options\n1\nNever\n2\nVery rarely\n3\nEvery other shift\n4\n1-2 times per shift\n5\n3-5 times per shift\n6\n6-10 times per shift\n7\nMore than 10 times per shift\nIntravenous immunoglobulin (IVIG)\nMonoclonal antibodies\nBlood products\nBeta-interferons\nOthers, please specify:\nQ3. How much have you experienced the following outcomes when using the “Multistep” or “25 Steps” function? (1=Not at all, 5=Substantially) [Select one answer for each item]\nRandomise the order of options\n1\nNot at all\n2\nSlightly\n3\nModerately\n4\nConsiderably\n5\nSubstantially\nIncreased medication safety\nImproved workflow efficiency\nMore time for clinical care\nReduced risk of potential medication errors\nQuicker completion of therapy\nQ4. How valuable are the following outcomes to you when using the “Multistep” or “25 Steps” function? (1=Not important, 5=Extremely important) [Select one answer for each item]\nRandomise the order of options\n1\nNot important\n2\nSlightly important\n3\nModerately important\n4\nHighly important\n5\nExtremely important\nIncreased medication safety\nImproved workflow efficiency\nMore time for clinical care\nReduced risk of potential medication errors\nQuicker completion of therapy\nQ5. Based on their value to you, rank the following outcomes from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]\nIncreased medication safety\nImproved workflow efficiency\nMore time for clinical care\nReduced risk of potential medication errors\nQuicker completion of therapy\nQ6. How much do the following “Multistep” or “25 Steps” capabilities help reduce medication errors in your clinical setting? (1=Not at all, 5=Substantially) [Select one answer for each item]\nRandomise the order of options\n1\nNot at all\n2\nSlightly\n3\nModerately\n4\nConsiderably\n5\nSubstantially\nMinimise manual interventions between rate changes.\nAutomate movement through the dosing process without the pressure of speedy programming.\nAllow for a “one check” process for 2 nurse checks of medication administration.\nBe able to map the entire prescription requirements against one screen following set-up on the pump.\nUse a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.\nQ7. How valuable are the following “Multistep” or “25 Steps” capabilities in reducing medication errors in your clinical setting? (1=Not important, 5=Extremely important) [Select one answer for each item]\nRandomise the order of options\n1\nNot important\n2\nSlightly important\n3\nModerately important\n4\nHighly important\n5\nExtremely important\nMinimise manual interventions between rate changes.\nAutomate movement through the dosing process without the pressure of speedy programming.\nAllow for a “one check” process for 2 nurse checks of medication administration.\nBe able to map the entire prescription requirements against one screen following set-up on the pump.\nUse a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.\nQ8. Based on their value to you, rank the following capabilities from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]\nMinimise manual interventions between rate changes.\nAutomate movement through the dosing process without the pressure of speedy programming.\nAllow for a “one check” process for 2 nurse checks of medication administration.\nBe able to map the entire prescription requirements against one screen following set-up on the pump.\nUse a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.\nInstructions: From Q9 to Q10 Next, you will be asked to estimate based on your own experience.\nQ9. Approximately how much time have you saved by using the “Multistep” or “25 Steps” function comparing with not using this function? [Select one answer]\nMore than 50%\n26 - 50%\n11 - 25%\nUp to 10%\nNo time saved\nIt takes more time now\nI don’t know\nQ10. Approximately by what percentage does using the “Multistep” or “25 Steps” function improve your productivity comparing with not using this function? (e.g., faster task completion, higher care quality, more patients to attend, etc.) [Select one answer]\nMore than 50%\n26 - 50%\n11 - 25%\nUp to 10%\nNo improvement\nIt decreased productivity\nI don’t know\nInstructions: In the following series Q11, you will be asked to indicate how much you agree or disagree with the following statements related to the “Multistep” or “25 Steps” function of the BD pumps. [Select one answer for each statement]\nPlease note that some of the statements in the following section are framed in a positive way and some in a negative way, please read each statement carefully before providing your answers [set up with a 5 second time delay on the “next” button]\nQuestion 11:\nStatement A: “It is difficult to understand and rectify alarm messages when using the ‘Multistep’ or ‘25 Steps’ function.”\nStrongly agree\nAgree\nDisagree\nStrongly disagree\nI haven’t used it\nStatement B: “It is easy to suspend, pause, stop or change the rate of delivery, and it is clear when this has been completed when using the ‘Multistep’ or ‘25 Steps’ function.”\nStrongly agree\nAgree\nDisagree\nStrongly disagree\nI haven’t used it\nStatement C: “Setting the delivery rates for each step when using the ‘Multistep’ or ‘25 Steps’ function is NOT easy, and it is unclear when this has been completed correctly.”\nStrongly agree\nAgree\nDisagree\nStrongly disagree\nI haven’t used it\nStatement D: “I have had more time to concentrate on clinical care when using the ‘Multistep’ or ‘25 Steps’ function.”\nStrongly agree\nAgree\nDisagree\nStrongly disagree\nI haven’t used it\nPlease respond to the following statement if you use the Becton Dickinson (BD)’s neXus pump. If you do not use the BD neXus pump, please select “Not applicable to me”.\nBD neXus\nWhen using the BD neXus ‘Multistep’ mode, you may have received ‘completion alarms’ after each step is finished.\nStatement E: “The prompts were useful as they act as a reminder to return to the patient to complete vital signs checks before moving to the next infusion step.”\nStrongly agree\nAgree\nDisagree\nStrongly disagree\nI haven’t used it\nNot applicable to me\nQ12. If the “Multistep” or “25 Steps” function could save your time up to 1 hour, what other activities would you like to do instead? [Select all that apply] [Randomise the order of options, except Other]\nPatient care, such as taking vital signs\nPatient counselling\nNon-clinical administrative tasks\nTeaching and training\nManaging additional patients\nOther, please specify:\nQuestionnaire closed.\nTo | James Waterson | James Waterson | James Waterson | James Waterson\nCompany | Becton Dickinson | Becton Dickinson | Becton Dickinson | Becton Dickinson\nCc | Samuel Garcia, Christian Vollmar, Stefan Schraag | Samuel Garcia, Christian Vollmar, Stefan Schraag | Samuel Garcia, Christian Vollmar, Stefan Schraag | Samuel Garcia, Christian Vollmar, Stefan Schraag\nPrepared by | Kai Hu | Checked by | Checked by | Gavin Moore\nDate | 29 April 2026 | Revision | Revision | 02\nProject No | 12847 | 12847 | 12847 | 12847\nPages | 14 | 14 | 14 | 14\nSubject | Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2 | Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2 | Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2 | Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2\nRandomise the order of options | 1 Never | 2 Very rarely | 3 Every other shift | 4 1-2 times per shift | 5 3-5 times per shift | 6 6-10 times per shift | 7 More than 10 times per shift\nIntravenous immunoglobulin (IVIG) |  |  |  |  |  |  | \nMonoclonal antibodies |  |  |  |  |  |  | \nBlood products |  |  |  |  |  |  | \nBeta-interferons |  |  |  |  |  |  | \nOthers, please specify: |  |  |  |  |  |  | \nRandomise the order of options | 1 Not at all | 2 Slightly | 3 Moderately | 4 Considerably | 5 Substantially\nIncreased medication safety |  |  |  |  | \nImproved workflow efficiency |  |  |  |  | \nMore time for clinical care |  |  |  |  | \nReduced risk of potential medication errors |  |  |  |  | \nQuicker completion of therapy |  |  |  |  | \nRandomise the order of options | 1 Not important | 2 Slightly important | 3 Moderately important | 4 Highly important | 5 Extremely important\nIncreased medication safety |  |  |  |  | \nImproved workflow efficiency |  |  |  |  | \nMore time for clinical care |  |  |  |  | \nReduced risk of potential medication errors |  |  |  |  | \nQuicker completion of therapy |  |  |  |  | \nRandomise the order of options | 1 Not at all | 2 Slightly | 3 Moderately | 4 Considerably | 5 Substantially\nMinimise manual interventions between rate changes. |  |  |  |  | \nAutomate movement through the dosing process without the pressure of speedy programming. |  |  |  |  | \nAllow for a “one check” process for 2 nurse checks of medication administration. |  |  |  |  | \nBe able to map the entire prescription requirements against one screen following set-up on the pump. |  |  |  |  | \nUse a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration. |  |  |  |  | \nRandomise the order of options | 1 Not important | 2 Slightly important | 3 Moderately important | 4 Highly important | 5 Extremely important\nMinimise manual interventions between rate changes. |  |  |  |  | \nAutomate movement through the dosing process without the pressure of speedy programming. |  |  |  |  | \nAllow for a “one check” process for 2 nurse checks of medication administration. |  |  |  |  | \nBe able to map the entire prescription requirements against one screen following set-up on the pump. |  |  |  |  | \nUse a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration. |  |  |  |  | ",
+  "total_questions": 37,
+  "total_sections": 6,
+  "metadata_extra": {}
+}

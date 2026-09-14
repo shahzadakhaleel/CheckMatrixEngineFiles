@@ -1,0 +1,12 @@
+{
+  "block_id": "B31",
+  "source_variables": [
+    "qtRegion"
+  ],
+  "temporary_variables": [],
+  "spss": "tit qtRegion.\ntemporary.\nsel if miss(qtRegion) or ~range(qtRegion,1,5).\nlist respid, qtRegion.",
+  "omission_reason": null,
+  "warnings": [
+    "qtRegion is a dictionary-only hidden recode. The source document describes hidRegion rather than the supplied SAV name qtRegion; only a schema/code check is generated."
+  ]
+}

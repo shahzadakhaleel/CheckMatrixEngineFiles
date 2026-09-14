@@ -1,0 +1,4294 @@
+{
+  "metadata": {
+    "title": "Vogelstein Oncologist Survey for review",
+    "client": "Chrysalis Biomedical Advisors",
+    "project": "Adoption of commercial comprehensive genomic profiling (CGP) tests",
+    "language": "English",
+    "country": null,
+    "version": "V5 07/10/2026"
+  },
+  "sections": [
+    {
+      "id": "Section I: Respondent Qualification & Institutional Profile",
+      "title": "Section I: Respondent Qualification & Institutional Profile",
+      "description": null,
+      "questions": [
+        {
+          "id": "S1",
+          "variable": null,
+          "title": "Primary professional role",
+          "text": "S1. Which of the following best describes your primary professional role? [Single select]",
+          "section": "Section I: Respondent Qualification & Institutional Profile",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Medical Oncologist",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Gynecologic Oncologist",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Surgical Oncologist",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Oncology Nurse Practitioner / Physician Assistant [no more than 5]",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "None of the above — Terminate immediately",
+              "value": 5,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "None of the above — Terminate immediately",
+          "notes": "Recruitment table indicates S1_5 maximum 5.",
+          "metadata": {}
+        },
+        {
+          "id": "S2",
+          "variable": null,
+          "title": "Personal involvement in CGP activities",
+          "text": "S2. Are you personally involved in any of the following? Select all that apply. [Multi-select]",
+          "section": "Section I: Respondent Qualification & Institutional Profile",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Ordering CGP tests for patients --Terminate if negative",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Evaluating, recommending, or selecting CGP vendors/assays for institutional use",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "None of the above — [Exclusive] Terminate immediately",
+              "value": 3,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Ordering CGP tests for patients --Terminate if negative; None of the above — [Exclusive] Terminate immediately",
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "S3",
+          "variable": null,
+          "title": "Institution type",
+          "text": "S3. Which of the following best describes your institution? [Single select] [RECRUITING QUOTA: min 10 A’s; min 10 C’s; max 5 O’s]",
+          "section": "Section I: Respondent Qualification & Institutional Profile",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "A",
+              "text": "Academic Medical Center (AMC) / primary teaching hospital [A]",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C1",
+              "text": "National or regional community hospital system [C]",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C2",
+              "text": "Community/physician-owned oncology practice [C]",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C3",
+              "text": "Independent (stand-alone) community hospital [C]",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "O",
+              "text": "Government, VA, or military hospital [O]",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "NONE",
+              "text": "None of the above — [Exclusive] Terminate",
+              "value": 6,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "None of the above — [Exclusive] Terminate",
+          "notes": "Recruitment quota logic is retained in the question text and source tables.",
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "id": "Main section",
+      "title": "Main section",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q4",
+          "variable": null,
+          "title": "NCI designation",
+          "text": "Q4. Is your institution a designated NCI-Designated Comprehensive Cancer Center? [Single select]",
+          "section": "Main section",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "No",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "id": "Section II — Current CGP Utilization & Use Cases",
+      "title": "Section II — Current CGP Utilization & Use Cases",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q5",
+          "variable": null,
+          "title": "Tumor types treated most often",
+          "text": "Q5. Which tumor types do you treat most often? Select up to three. [Multi-select (max 3)] [Randomize]",
+          "section": "Section II — Current CGP Utilization & Use Cases",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Lung / thoracic",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Breast",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Colorectal / gastrointestinal",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Prostate / genitourinary",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Gynecologic",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Melanoma / skin",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Pancreatic / hepatobiliary",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Head & neck",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Central nervous system",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Hematologic malignancies",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Other ___________________",
+              "value": 11,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Maximum three selections; options randomized.",
+          "metadata": {}
+        },
+        {
+          "id": "Q6",
+          "variable": null,
+          "title": "Eligible patients receiving CGP",
+          "text": "Q6. In approximately what share of your eligible cancer patients do you order CGP? [slider 1%-100%, must be more than zero]",
+          "section": "Section II — Current CGP Utilization & Use Cases",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Slider range is 1%–100%; response must be greater than zero.",
+          "metadata": {}
+        },
+        {
+          "id": "Q7",
+          "variable": null,
+          "title": "Cancer types where CGP is established and impactful",
+          "text": "Q7. Which cancer types are current commercial CGP tests best suited to address? [Multi-select per part] Answer across oncology broadly, not only the tumor types you personally treat. In which cancer types is CGP most established and impactful today? Select up to five: FORCED RANKING GUI FOR TOP UP TO 5 [Randomize]",
+          "section": "Section II — Current CGP Utilization & Use Cases",
+          "question_type": "RANKING",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Lung",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Breast",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Prostate",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Colorectal",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Melanoma",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Bladder / urothelial",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Kidney / renal",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Uterine / endometrial",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Pancreatic",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Liver / hepatobiliary",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Ovarian",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Biliary / cholangiocarcinoma",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "Other",
+              "value": 13,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Forced ranking for top up to five; options randomized.",
+          "metadata": {}
+        },
+        {
+          "id": "Q8",
+          "variable": null,
+          "title": "Expected CGP usage growth",
+          "text": "Q8. — In which cancer types do you expect your CGP usage to grow most over the next two years? Select up to three: FORCED RANKING GUI FOR TOP UP TO 3 [Randomize]",
+          "section": "Section II — Current CGP Utilization & Use Cases",
+          "question_type": "RANKING",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Lung",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Breast",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Prostate",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Colorectal",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Melanoma",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Bladder / urothelial",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Kidney / renal",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Uterine / endometrial",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Pancreatic",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Liver / hepatobiliary",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Ovarian",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Biliary / cholangiocarcinoma",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "Other",
+              "value": 13,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Forced ranking for top up to three; options randomized.",
+          "metadata": {}
+        },
+        {
+          "id": "Q9",
+          "variable": null,
+          "title": "Reasons for ordering CGP",
+          "text": "Q9. What are your main reasons for ordering CGP? Rank the top three. [FORCED RANK OF 3]",
+          "section": "Section II — Current CGP Utilization & Use Cases",
+          "question_type": "RANKING",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Identify an FDA-approved targeted therapy",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Determine clinical-trial eligibility",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Comply with NCCN / guideline recommendations",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Comply with an institutional protocol",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Obtain prognostic information",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Patient or family request",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Other:_______________________",
+              "value": 7,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Forced rank of three.",
+          "metadata": {}
+        },
+        {
+          "id": "Q10",
+          "variable": null,
+          "title": "Clinical settings for CGP",
+          "text": "Q10. For which clinical settings do you currently order CGP? Select all that apply. [Multi-select]",
+          "section": "Section II — Current CGP Utilization & Use Cases",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Metastatic / advanced solid tumors",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Early-stage disease (pre-therapy)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Early-stage disease (neo-adjuvant)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Early-stage disease (adjuvant)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Cancer of unknown primary (CUP)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Rare tumors",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "At recurrence",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Other:_______________",
+              "value": 8,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "id": "Section II — High-Content vs Smaller Panels",
+      "title": "Section II — High-Content vs Smaller Panels",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q11_1",
+          "variable": null,
+          "title": "A comprehensive panel is worth ordering even if most genes are not currently actionable.",
+          "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] A comprehensive panel is worth ordering even if most genes are not currently actionable.",
+          "section": "Section II — High-Content vs Smaller Panels",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 5, row 2.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q11_2",
+          "variable": null,
+          "title": "Small targeted panels are sufficient for most of my patients.",
+          "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] Small targeted panels are sufficient for most of my patients.",
+          "section": "Section II — High-Content vs Smaller Panels",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 5, row 3.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q11_3",
+          "variable": null,
+          "title": "Large panels are valuable mainly for clinical-trial matching.",
+          "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] Large panels are valuable mainly for clinical-trial matching.",
+          "section": "Section II — High-Content vs Smaller Panels",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 5, row 4.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q11_4",
+          "variable": null,
+          "title": "Composite biomarkers from large panels (TMB, MSI, HRD) meaningfully change my management.",
+          "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] Composite biomarkers from large panels (TMB, MSI, HRD) meaningfully change my management.",
+          "section": "Section II — High-Content vs Smaller Panels",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 5, row 5.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q11_5",
+          "variable": null,
+          "title": "The added cost and turnaround of comprehensive panels are justified for routine advanced cases most advanced/metastatic patients.",
+          "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] The added cost and turnaround of comprehensive panels are justified for routine advanced cases most advanced/metastatic patients.",
+          "section": "Section II — High-Content vs Smaller Panels",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Source wording appears to contain a duplication/grammatical error; preserved verbatim. Matrix source table 5, row 6.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q12",
+          "variable": null,
+          "title": "Choosing a smaller / targeted panel",
+          "text": "Q12. When would you choose a smaller / targeted panel instead of CGP? Select all that apply. [Multi-select]",
+          "section": "Section II — High-Content vs Smaller Panels",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Limited or insufficient tissue",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Need a faster result",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "A single actionable target is strongly suspected (e.g., EGFR in lung)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Cost or coverage concerns",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Early-stage disease",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "I always choose a smaller/targeted panel of actionable targets by indication",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Never — I default to comprehensive CGP",
+              "value": 7,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "id": "Section III — Multimodality vs Single-Mode Assays",
+      "title": "Section III — Multimodality vs Single-Mode Assays",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q13",
+          "variable": null,
+          "title": "Value of adding RNA detection",
+          "text": "Q13. How valuable is adding RNA detection (transcript abundance and/or isoform) to a DNA-only panel? [Single select]",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Essential",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Valuable",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Marginal",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Not valuable",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Not sure",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "The document defines “Multimodality” before this question.",
+          "metadata": {}
+        },
+        {
+          "id": "Q14_1",
+          "variable": null,
+          "title": "Adding RNA sequencing meaningfully improves detection of fusions and splice variants.",
+          "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] Adding RNA sequencing meaningfully improves detection of fusions and splice variants.",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 6, row 2.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q14_2",
+          "variable": null,
+          "title": "Integrated multi-omic profiling (DNA + RNA ± protein) adds clinical value today, not just future promise.",
+          "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] Integrated multi-omic profiling (DNA + RNA ± protein) adds clinical value today, not just future promise.",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 6, row 3.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q14_3",
+          "variable": null,
+          "title": "I struggle to act on most outputs beyond standard DNA variants.",
+          "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] I struggle to act on most outputs beyond standard DNA variants.",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 6, row 4.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q14_4",
+          "variable": null,
+          "title": "I actively prefer vendors that offer multimodal assays.",
+          "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] I actively prefer vendors that offer multimodal assays.",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 6, row 5.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q14_5",
+          "variable": null,
+          "title": "Whole-transcriptome or proteomic data influence my treatment decisions.",
+          "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] Whole-transcriptome or proteomic data influence my treatment decisions.",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 6, row 6.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q15",
+          "variable": null,
+          "title": "Clinically useful additional modalities",
+          "text": "Q15. Which additional modalities do you find clinically useful? Select all that apply. [Multi-select]",
+          "section": "Section III — Multimodality vs Single-Mode Assays",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "RNA-based fusion detection",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Integrated protein / IHC (e.g., PD-L1)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Methylation / CUP classification",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Whole-exome sequencing",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Whole-transcriptome sequencing",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "None beyond standard DNA profiling",
+              "value": 6,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Other:_________________",
+              "value": 7,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "id": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "title": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q16",
+          "variable": null,
+          "title": "Differentiation among commercial CGP offerings",
+          "text": "Q16. In your view, are commercial CGP offerings meaningfully differentiated or largely interchangeable? [Single select]",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Highly differentiated",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat differentiated",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Largely interchangeable",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Not sure",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "Q17",
+          "variable": null,
+          "title": "Factors differentiating CGP vendors",
+          "text": "Q17. Rank all of the factors that most differentiate one CGP vendor from another (1 = most important, 13=least important). [Forced Ranking GUI · randomize]",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "RANKING",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Report clarity & actionability",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Clinical-trial matching",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Panel breadth / gene content",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Turnaround time",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Analytical accuracy / validation",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Tissue + liquid options",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "MRD / monitoring offered alongside CGP",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "EMR integration",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Scientific reputation / brand",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Interpretive & clinical support",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Vendor Test Price",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Ability to work with small amounts of tissue (e.g., from an FNA)",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "Ease of Reimbursement",
+              "value": 13,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "All 13 factors ranked; options randomized.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q18",
+          "variable": null,
+          "title": "Premium CGP capability",
+          "text": "Q18. Which single capability most defines a “premium” CGP offering? [Single select]",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Report clarity & actionability",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Clinical-trial matching",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Breadth of content",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Turnaround time",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Tissue + liquid + MRD breadth",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Scientific reputation",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Other (specify): ____________",
+              "value": 7,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "Q19",
+          "variable": null,
+          "title": "Preferred CGP vendor and reason",
+          "text": "Q19. Who is your preferred CGP vendor, and what is the main reason? [Open text] Preferred vendor & reason: ____________________________________________  ____________",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "OPEN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "Q19_New",
+          "variable": null,
+          "title": "Commercial vendors currently used",
+          "text": "Q19_New. For CGP that your institution sends out, which commercial vendors do you currently use? Select all that apply. [Multi-select — randomize]",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Foundation Medicine (Roche)",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Guardant Health",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Tempus",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Caris Life Sciences",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "NeoGenomics",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Exact Sciences (Abbott)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Labcorp (incl. OmniSeq)",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Myriad Genetics",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Quest Diagnostics",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Natera",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Other (specify): ____________ [ANCHOR]",
+              "value": 11,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Options randomized except Other, which is anchored.",
+          "metadata": {}
+        },
+        {
+          "id": "Q19b_vendor",
+          "variable": null,
+          "title": "Preferred CGP vendor",
+          "text": "Q19b. What is your preferred CGP vendor, and what is the main reason? Preferred vendor [Pipe options from Q19_New] [single select]",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "PIPED",
+              "text": "[Pipe options from Q19_New]",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Show options selected in Q19_New.",
+          "notes": "The actual option list is piped from Q19_New.",
+          "metadata": {}
+        },
+        {
+          "id": "Q19b_reason",
+          "variable": null,
+          "title": "Reason for preferred vendor",
+          "text": "Please specify the reason: ____________________________________________[open end]",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "OPEN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Follow-up to Q19b preferred vendor.",
+          "metadata": {}
+        },
+        {
+          "id": "Q19c_1",
+          "variable": null,
+          "title": "Send-out CGP volume — piped vendor 1",
+          "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 1] ____ %",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Show only vendors selected in Q19_New.",
+          "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 2.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q19c_2",
+          "variable": null,
+          "title": "Send-out CGP volume — piped vendor 2",
+          "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 2] ____ %",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Show only vendors selected in Q19_New.",
+          "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 3.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q19c_3",
+          "variable": null,
+          "title": "Send-out CGP volume — piped vendor 3",
+          "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 3] ____ %",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Show only vendors selected in Q19_New.",
+          "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 4.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q19c_4",
+          "variable": null,
+          "title": "Send-out CGP volume — piped vendor 4",
+          "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 4] ____ %",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Show only vendors selected in Q19_New.",
+          "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 5.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q19c_other",
+          "variable": null,
+          "title": "Send-out CGP volume — other",
+          "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Other] ____ %",
+          "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Show only vendors selected in Q19_New.",
+          "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 6.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "Section V — MRD: Utilization & Relationship to CGP",
+      "title": "Section V — MRD: Utilization & Relationship to CGP",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q19A_1",
+          "variable": null,
+          "title": "Move away from current vendor for integrated CGP and MRD",
+          "text": "Q19A. Views on integrated CGP + MRD offerings. Some vendors now offer comprehensive genomic profiling (CGP) and follow-on tumor-informed MRD monitoring as a single serial workflow, where the up-front profiling overlaps substantially with a standalone CGP test. Thinking about how you would choose among testing options, how much do you agree with the following? I would move away from my current CGP vendor if another vendor offered CGP and subsequent MRD monitoring as a single, integrated serial workflow.",
+          "section": "Section V — MRD: Utilization & Relationship to CGP",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 9, row 2.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q19A_2",
+          "variable": null,
+          "title": "Use one vendor for profiling and MRD despite CGP preference",
+          "text": "Q19A. Views on integrated CGP + MRD offerings. I would use a single vendor for both initial profiling and serial MRD monitoring even if its CGP were not my first choice.",
+          "section": "Section V — MRD: Utilization & Relationship to CGP",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 9, row 3.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q19A_3",
+          "variable": null,
+          "title": "Accept narrower CGP panel integrated with MRD",
+          "text": "Q19A. Views on integrated CGP + MRD offerings. I would accept a somewhat narrower CGP panel if it were tightly integrated with high-quality MRD monitoring.",
+          "section": "Section V — MRD: Utilization & Relationship to CGP",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 9, row 4.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q19A_4",
+          "variable": null,
+          "title": "Forego standalone CGP for lower bundled out-of-pocket cost",
+          "text": "Q19A. Views on integrated CGP + MRD offerings. If bundling CGP and MRD lowered my patients’ overall out-of-pocket cost, I would forgo a standalone CGP from another vendor.",
+          "section": "Section V — MRD: Utilization & Relationship to CGP",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 9, row 5.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q19A_5",
+          "variable": null,
+          "title": "Continue ordering best-in-class CGP despite bundling",
+          "text": "Q19A. Views on integrated CGP + MRD offerings. Even if a vendor bundled CGP and MRD, I would still order comprehensive CGP from whichever vendor I consider best-in-class.",
+          "section": "Section V — MRD: Utilization & Relationship to CGP",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 9, row 6.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q19A_6",
+          "variable": null,
+          "title": "MRD vendor choice drives CGP choice",
+          "text": "Q19A. Views on integrated CGP + MRD offerings. In practice, my choice of MRD vendor would drive my choice of CGP, rather than the reverse.",
+          "section": "Section V — MRD: Utilization & Relationship to CGP",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Strongly disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Disagree",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Neutral",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Agree",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Strongly agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Matrix source table 9, row 7.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 7
+          }
+        }
+      ]
+    },
+    {
+      "id": "Section VI — Wrap-up",
+      "title": "Section VI — Wrap-up",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q21",
+          "variable": null,
+          "title": "Biggest barrier or unmet need",
+          "text": "Q21. What is the single biggest barrier or unmet need in CGP for your practice? [Open text]",
+          "section": "Section VI — Wrap-up",
+          "question_type": "OPEN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "S1",
+      "variable": null,
+      "title": "Primary professional role",
+      "text": "S1. Which of the following best describes your primary professional role? [Single select]",
+      "section": "Section I: Respondent Qualification & Institutional Profile",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Medical Oncologist",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Gynecologic Oncologist",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Surgical Oncologist",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Oncology Nurse Practitioner / Physician Assistant [no more than 5]",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "None of the above — Terminate immediately",
+          "value": 5,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "None of the above — Terminate immediately",
+      "notes": "Recruitment table indicates S1_5 maximum 5.",
+      "metadata": {}
+    },
+    {
+      "id": "S2",
+      "variable": null,
+      "title": "Personal involvement in CGP activities",
+      "text": "S2. Are you personally involved in any of the following? Select all that apply. [Multi-select]",
+      "section": "Section I: Respondent Qualification & Institutional Profile",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Ordering CGP tests for patients --Terminate if negative",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Evaluating, recommending, or selecting CGP vendors/assays for institutional use",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "None of the above — [Exclusive] Terminate immediately",
+          "value": 3,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Ordering CGP tests for patients --Terminate if negative; None of the above — [Exclusive] Terminate immediately",
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "S3",
+      "variable": null,
+      "title": "Institution type",
+      "text": "S3. Which of the following best describes your institution? [Single select] [RECRUITING QUOTA: min 10 A’s; min 10 C’s; max 5 O’s]",
+      "section": "Section I: Respondent Qualification & Institutional Profile",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "A",
+          "text": "Academic Medical Center (AMC) / primary teaching hospital [A]",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C1",
+          "text": "National or regional community hospital system [C]",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C2",
+          "text": "Community/physician-owned oncology practice [C]",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C3",
+          "text": "Independent (stand-alone) community hospital [C]",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "O",
+          "text": "Government, VA, or military hospital [O]",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "NONE",
+          "text": "None of the above — [Exclusive] Terminate",
+          "value": 6,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "None of the above — [Exclusive] Terminate",
+      "notes": "Recruitment quota logic is retained in the question text and source tables.",
+      "metadata": {}
+    },
+    {
+      "id": "Q4",
+      "variable": null,
+      "title": "NCI designation",
+      "text": "Q4. Is your institution a designated NCI-Designated Comprehensive Cancer Center? [Single select]",
+      "section": "Main section",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "No",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q5",
+      "variable": null,
+      "title": "Tumor types treated most often",
+      "text": "Q5. Which tumor types do you treat most often? Select up to three. [Multi-select (max 3)] [Randomize]",
+      "section": "Section II — Current CGP Utilization & Use Cases",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Lung / thoracic",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Breast",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Colorectal / gastrointestinal",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Prostate / genitourinary",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Gynecologic",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Melanoma / skin",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Pancreatic / hepatobiliary",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Head & neck",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Central nervous system",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Hematologic malignancies",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Other ___________________",
+          "value": 11,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Maximum three selections; options randomized.",
+      "metadata": {}
+    },
+    {
+      "id": "Q6",
+      "variable": null,
+      "title": "Eligible patients receiving CGP",
+      "text": "Q6. In approximately what share of your eligible cancer patients do you order CGP? [slider 1%-100%, must be more than zero]",
+      "section": "Section II — Current CGP Utilization & Use Cases",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Slider range is 1%–100%; response must be greater than zero.",
+      "metadata": {}
+    },
+    {
+      "id": "Q7",
+      "variable": null,
+      "title": "Cancer types where CGP is established and impactful",
+      "text": "Q7. Which cancer types are current commercial CGP tests best suited to address? [Multi-select per part] Answer across oncology broadly, not only the tumor types you personally treat. In which cancer types is CGP most established and impactful today? Select up to five: FORCED RANKING GUI FOR TOP UP TO 5 [Randomize]",
+      "section": "Section II — Current CGP Utilization & Use Cases",
+      "question_type": "RANKING",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Lung",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Breast",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Prostate",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Colorectal",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Melanoma",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Bladder / urothelial",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Kidney / renal",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Uterine / endometrial",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Pancreatic",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Liver / hepatobiliary",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Ovarian",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Biliary / cholangiocarcinoma",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "Other",
+          "value": 13,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Forced ranking for top up to five; options randomized.",
+      "metadata": {}
+    },
+    {
+      "id": "Q8",
+      "variable": null,
+      "title": "Expected CGP usage growth",
+      "text": "Q8. — In which cancer types do you expect your CGP usage to grow most over the next two years? Select up to three: FORCED RANKING GUI FOR TOP UP TO 3 [Randomize]",
+      "section": "Section II — Current CGP Utilization & Use Cases",
+      "question_type": "RANKING",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Lung",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Breast",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Prostate",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Colorectal",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Melanoma",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Bladder / urothelial",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Kidney / renal",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Uterine / endometrial",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Pancreatic",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Liver / hepatobiliary",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Ovarian",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Biliary / cholangiocarcinoma",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "Other",
+          "value": 13,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Forced ranking for top up to three; options randomized.",
+      "metadata": {}
+    },
+    {
+      "id": "Q9",
+      "variable": null,
+      "title": "Reasons for ordering CGP",
+      "text": "Q9. What are your main reasons for ordering CGP? Rank the top three. [FORCED RANK OF 3]",
+      "section": "Section II — Current CGP Utilization & Use Cases",
+      "question_type": "RANKING",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Identify an FDA-approved targeted therapy",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Determine clinical-trial eligibility",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Comply with NCCN / guideline recommendations",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Comply with an institutional protocol",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Obtain prognostic information",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Patient or family request",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Other:_______________________",
+          "value": 7,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Forced rank of three.",
+      "metadata": {}
+    },
+    {
+      "id": "Q10",
+      "variable": null,
+      "title": "Clinical settings for CGP",
+      "text": "Q10. For which clinical settings do you currently order CGP? Select all that apply. [Multi-select]",
+      "section": "Section II — Current CGP Utilization & Use Cases",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Metastatic / advanced solid tumors",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Early-stage disease (pre-therapy)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Early-stage disease (neo-adjuvant)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Early-stage disease (adjuvant)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Cancer of unknown primary (CUP)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Rare tumors",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "At recurrence",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Other:_______________",
+          "value": 8,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q11_1",
+      "variable": null,
+      "title": "A comprehensive panel is worth ordering even if most genes are not currently actionable.",
+      "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] A comprehensive panel is worth ordering even if most genes are not currently actionable.",
+      "section": "Section II — High-Content vs Smaller Panels",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 5, row 2.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q11_2",
+      "variable": null,
+      "title": "Small targeted panels are sufficient for most of my patients.",
+      "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] Small targeted panels are sufficient for most of my patients.",
+      "section": "Section II — High-Content vs Smaller Panels",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 5, row 3.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q11_3",
+      "variable": null,
+      "title": "Large panels are valuable mainly for clinical-trial matching.",
+      "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] Large panels are valuable mainly for clinical-trial matching.",
+      "section": "Section II — High-Content vs Smaller Panels",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 5, row 4.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q11_4",
+      "variable": null,
+      "title": "Composite biomarkers from large panels (TMB, MSI, HRD) meaningfully change my management.",
+      "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] Composite biomarkers from large panels (TMB, MSI, HRD) meaningfully change my management.",
+      "section": "Section II — High-Content vs Smaller Panels",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 5, row 5.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q11_5",
+      "variable": null,
+      "title": "The added cost and turnaround of comprehensive panels are justified for routine advanced cases most advanced/metastatic patients.",
+      "text": "Q11. How much do you agree with the following? [Grid — one per row · randomize] The added cost and turnaround of comprehensive panels are justified for routine advanced cases most advanced/metastatic patients.",
+      "section": "Section II — High-Content vs Smaller Panels",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Source wording appears to contain a duplication/grammatical error; preserved verbatim. Matrix source table 5, row 6.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": null,
+      "title": "Choosing a smaller / targeted panel",
+      "text": "Q12. When would you choose a smaller / targeted panel instead of CGP? Select all that apply. [Multi-select]",
+      "section": "Section II — High-Content vs Smaller Panels",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Limited or insufficient tissue",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Need a faster result",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "A single actionable target is strongly suspected (e.g., EGFR in lung)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Cost or coverage concerns",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Early-stage disease",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "I always choose a smaller/targeted panel of actionable targets by indication",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Never — I default to comprehensive CGP",
+          "value": 7,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q13",
+      "variable": null,
+      "title": "Value of adding RNA detection",
+      "text": "Q13. How valuable is adding RNA detection (transcript abundance and/or isoform) to a DNA-only panel? [Single select]",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Essential",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Valuable",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Marginal",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Not valuable",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Not sure",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "The document defines “Multimodality” before this question.",
+      "metadata": {}
+    },
+    {
+      "id": "Q14_1",
+      "variable": null,
+      "title": "Adding RNA sequencing meaningfully improves detection of fusions and splice variants.",
+      "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] Adding RNA sequencing meaningfully improves detection of fusions and splice variants.",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 6, row 2.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q14_2",
+      "variable": null,
+      "title": "Integrated multi-omic profiling (DNA + RNA ± protein) adds clinical value today, not just future promise.",
+      "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] Integrated multi-omic profiling (DNA + RNA ± protein) adds clinical value today, not just future promise.",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 6, row 3.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q14_3",
+      "variable": null,
+      "title": "I struggle to act on most outputs beyond standard DNA variants.",
+      "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] I struggle to act on most outputs beyond standard DNA variants.",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 6, row 4.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q14_4",
+      "variable": null,
+      "title": "I actively prefer vendors that offer multimodal assays.",
+      "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] I actively prefer vendors that offer multimodal assays.",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 6, row 5.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q14_5",
+      "variable": null,
+      "title": "Whole-transcriptome or proteomic data influence my treatment decisions.",
+      "text": "Q14. How much do you agree with the following? [Grid — one per row · randomize] Whole-transcriptome or proteomic data influence my treatment decisions.",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 6, row 6.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q15",
+      "variable": null,
+      "title": "Clinically useful additional modalities",
+      "text": "Q15. Which additional modalities do you find clinically useful? Select all that apply. [Multi-select]",
+      "section": "Section III — Multimodality vs Single-Mode Assays",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "RNA-based fusion detection",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Integrated protein / IHC (e.g., PD-L1)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Methylation / CUP classification",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Whole-exome sequencing",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Whole-transcriptome sequencing",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "None beyond standard DNA profiling",
+          "value": 6,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Other:_________________",
+          "value": 7,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q16",
+      "variable": null,
+      "title": "Differentiation among commercial CGP offerings",
+      "text": "Q16. In your view, are commercial CGP offerings meaningfully differentiated or largely interchangeable? [Single select]",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Highly differentiated",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat differentiated",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Largely interchangeable",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Not sure",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q17",
+      "variable": null,
+      "title": "Factors differentiating CGP vendors",
+      "text": "Q17. Rank all of the factors that most differentiate one CGP vendor from another (1 = most important, 13=least important). [Forced Ranking GUI · randomize]",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "RANKING",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Report clarity & actionability",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Clinical-trial matching",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Panel breadth / gene content",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Turnaround time",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Analytical accuracy / validation",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Tissue + liquid options",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "MRD / monitoring offered alongside CGP",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "EMR integration",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Scientific reputation / brand",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Interpretive & clinical support",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Vendor Test Price",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Ability to work with small amounts of tissue (e.g., from an FNA)",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "Ease of Reimbursement",
+          "value": 13,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "All 13 factors ranked; options randomized.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q18",
+      "variable": null,
+      "title": "Premium CGP capability",
+      "text": "Q18. Which single capability most defines a “premium” CGP offering? [Single select]",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Report clarity & actionability",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Clinical-trial matching",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Breadth of content",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Turnaround time",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Tissue + liquid + MRD breadth",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Scientific reputation",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Other (specify): ____________",
+          "value": 7,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q19",
+      "variable": null,
+      "title": "Preferred CGP vendor and reason",
+      "text": "Q19. Who is your preferred CGP vendor, and what is the main reason? [Open text] Preferred vendor & reason: ____________________________________________  ____________",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "OPEN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Q19_New",
+      "variable": null,
+      "title": "Commercial vendors currently used",
+      "text": "Q19_New. For CGP that your institution sends out, which commercial vendors do you currently use? Select all that apply. [Multi-select — randomize]",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Foundation Medicine (Roche)",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Guardant Health",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Tempus",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Caris Life Sciences",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "NeoGenomics",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Exact Sciences (Abbott)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Labcorp (incl. OmniSeq)",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Myriad Genetics",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Quest Diagnostics",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Natera",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Other (specify): ____________ [ANCHOR]",
+          "value": 11,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Options randomized except Other, which is anchored.",
+      "metadata": {}
+    },
+    {
+      "id": "Q19b_vendor",
+      "variable": null,
+      "title": "Preferred CGP vendor",
+      "text": "Q19b. What is your preferred CGP vendor, and what is the main reason? Preferred vendor [Pipe options from Q19_New] [single select]",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "PIPED",
+          "text": "[Pipe options from Q19_New]",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Show options selected in Q19_New.",
+      "notes": "The actual option list is piped from Q19_New.",
+      "metadata": {}
+    },
+    {
+      "id": "Q19b_reason",
+      "variable": null,
+      "title": "Reason for preferred vendor",
+      "text": "Please specify the reason: ____________________________________________[open end]",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "OPEN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Follow-up to Q19b preferred vendor.",
+      "metadata": {}
+    },
+    {
+      "id": "Q19c_1",
+      "variable": null,
+      "title": "Send-out CGP volume — piped vendor 1",
+      "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 1] ____ %",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Show only vendors selected in Q19_New.",
+      "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 2.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q19c_2",
+      "variable": null,
+      "title": "Send-out CGP volume — piped vendor 2",
+      "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 2] ____ %",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Show only vendors selected in Q19_New.",
+      "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 3.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q19c_3",
+      "variable": null,
+      "title": "Send-out CGP volume — piped vendor 3",
+      "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 3] ____ %",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Show only vendors selected in Q19_New.",
+      "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 4.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q19c_4",
+      "variable": null,
+      "title": "Send-out CGP volume — piped vendor 4",
+      "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Piped vendor 4] ____ %",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Show only vendors selected in Q19_New.",
+      "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 5.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q19c_other",
+      "variable": null,
+      "title": "Send-out CGP volume — other",
+      "text": "Q19c. Approximately what share of your send-out CGP volume goes to each vendor you selected? [Numeric grid — must total 100%] Show only vendors selected in Q19_New. Enter approximate percentages. [Other] ____ %",
+      "section": "Section IV — Perceived Differentiation Among CGP Offerings",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Show only vendors selected in Q19_New.",
+      "notes": "Numeric grid; percentages across vendors must total 100%. Source table 8, row 6.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q19A_1",
+      "variable": null,
+      "title": "Move away from current vendor for integrated CGP and MRD",
+      "text": "Q19A. Views on integrated CGP + MRD offerings. Some vendors now offer comprehensive genomic profiling (CGP) and follow-on tumor-informed MRD monitoring as a single serial workflow, where the up-front profiling overlaps substantially with a standalone CGP test. Thinking about how you would choose among testing options, how much do you agree with the following? I would move away from my current CGP vendor if another vendor offered CGP and subsequent MRD monitoring as a single, integrated serial workflow.",
+      "section": "Section V — MRD: Utilization & Relationship to CGP",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 9, row 2.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q19A_2",
+      "variable": null,
+      "title": "Use one vendor for profiling and MRD despite CGP preference",
+      "text": "Q19A. Views on integrated CGP + MRD offerings. I would use a single vendor for both initial profiling and serial MRD monitoring even if its CGP were not my first choice.",
+      "section": "Section V — MRD: Utilization & Relationship to CGP",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 9, row 3.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q19A_3",
+      "variable": null,
+      "title": "Accept narrower CGP panel integrated with MRD",
+      "text": "Q19A. Views on integrated CGP + MRD offerings. I would accept a somewhat narrower CGP panel if it were tightly integrated with high-quality MRD monitoring.",
+      "section": "Section V — MRD: Utilization & Relationship to CGP",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 9, row 4.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q19A_4",
+      "variable": null,
+      "title": "Forego standalone CGP for lower bundled out-of-pocket cost",
+      "text": "Q19A. Views on integrated CGP + MRD offerings. If bundling CGP and MRD lowered my patients’ overall out-of-pocket cost, I would forgo a standalone CGP from another vendor.",
+      "section": "Section V — MRD: Utilization & Relationship to CGP",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 9, row 5.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q19A_5",
+      "variable": null,
+      "title": "Continue ordering best-in-class CGP despite bundling",
+      "text": "Q19A. Views on integrated CGP + MRD offerings. Even if a vendor bundled CGP and MRD, I would still order comprehensive CGP from whichever vendor I consider best-in-class.",
+      "section": "Section V — MRD: Utilization & Relationship to CGP",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 9, row 6.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q19A_6",
+      "variable": null,
+      "title": "MRD vendor choice drives CGP choice",
+      "text": "Q19A. Views on integrated CGP + MRD offerings. In practice, my choice of MRD vendor would drive my choice of CGP, rather than the reverse.",
+      "section": "Section V — MRD: Utilization & Relationship to CGP",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Strongly disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Disagree",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Neutral",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Agree",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Strongly agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Matrix source table 9, row 7.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 7
+      }
+    },
+    {
+      "id": "Q21",
+      "variable": null,
+      "title": "Biggest barrier or unmet need",
+      "text": "Q21. What is the single biggest barrier or unmet need in CGP for your practice? [Open text]",
+      "section": "Section VI — Wrap-up",
+      "question_type": "OPEN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    }
+  ],
+  "parser": "openai_document_extractor",
+  "parser_version": null,
+  "source_file": "(V5_R100162_ONCO) Vogelstein_Oncologist_Survey_for_review_KV_JS6.docx",
+  "source_format": "docx",
+  "source_text": "V2 07/08/2026\nV3 07/08/2026\nV5 07/10/2026\nV4 07/09/2026\nTotal sample\n25\nQID\nLogic\nMinimum\nMaximum\nS1\nS1_5\nMaximun 5\nMaximun 5\nQID\nLogic\nS3\n[A] à If S2 S3_1\nminimum 11 10 A’s\n11 A’s\n[C] à If S2 S3_2, 3 or 4\nminimum 11 10 C’s\n11 C’s\n[O] à If S2 S3_5\nminimum 3 O’s and maximum 5\nmaximum 5\nChrysalis Biomedical Advisors has been retained to better understand the adoption of commercial comprehensive genomic profiling (CGP) tests, and the reasons one test is selected over another.\nDefinition used in this survey\nFor the purposes of this survery, “Comprehensive genomic profiling (CGP)” means a broad multi-gene next-generation sequencing panel (roughly 50+ genes) used for therapy selection in solid tumors — tissue-based or liquid (blood/ctDNA). It excludes single-gene or small hotspot panels, IHC/FISH, hereditary/germline panels, and minimal residual disease (MRD) monitoring assays unless a question specifically asks about them.\nSection I: Respondent Qualification & Institutional Profile\nS1. Which of the following best describes your primary professional role?  [Single select]\n☐Medical Oncologist\n☐Gynecologic Oncologist\n☐Surgical Oncologist\n☐Oncology Nurse Practitioner / Physician Assistant [no more than 5]\n☐None of the above  — Terminate immediately\nS2. Are you personally involved in any of the following? Select all that apply.  [Multi-select]\n☐Ordering CGP tests for patients --Terminate if negative\n☐Evaluating, recommending, or selecting CGP vendors/assays for institutional use\n☐None of the above  — [Exclusive] Terminate immediately\nS3. Which of the following best describes your institution?   [Single select]  [RECRUITING QUOTA: min 10 A’s; min 10 C’s; max 5 O’s]\n☐Academic Medical Center (AMC) / primary teaching hospital [A]\n☐National or regional community hospital system [C]\n☐Community/physician-owned oncology practice [C]\n☐Independent (stand-alone) community hospital [C]\n☐Government, VA, or military hospital [O]\n☐None of the above  — [Exclusive] Terminate\nMain section\nQ4. Is your institution a designated NCI-Designated Comprehensive Cancer Center?  [Single select]\n☐Yes\n☐No\nSection II — Current CGP Utilization & Use Cases\nQ5. Which tumor types do you treat most often? Select up to three.  [Multi-select (max 3)] [Randomize]\n☐Lung / thoracic\n☐Breast\n☐Colorectal / gastrointestinal\n☐Prostate / genitourinary\n☐Gynecologic\n☐Melanoma / skin\n☐Pancreatic / hepatobiliary\n☐Head & neck\n☐Central nervous system\n☐Hematologic malignancies\n☐Other ___________________\nQ6. In approximately what share of your eligible cancer patients do you order CGP?  [slider 1%-100%, must be more than zero]\nQ7. Which cancer types are current commercial CGP tests best suited to address?   [Multi-select per part]\nAnswer across oncology broadly, not only the tumor types you personally treat.\nIn which cancer types is CGP most established and impactful today? Select up to five: FORCED RANKING GUI FOR TOP UP TO 5 [Randomize]\n☐Lung\n☐Breast\n☐Prostate\n☐Colorectal\n☐Melanoma\n☐Bladder / urothelial\n☐Kidney / renal\n☐Uterine / endometrial\n☐Pancreatic\n☐Liver / hepatobiliary\n☐Ovarian\n☐Biliary / cholangiocarcinoma\n☐Other\nQ8. — In which cancer types do you expect your CGP usage to grow most over the next two years? Select up to three: FORCED RANKING GUI FOR TOP UP TO 3 [Randomize]\n☐Lung\n☐Breast\n☐Prostate\n☐Colorectal\n☐Melanoma\n☐Bladder / urothelial\n☐Kidney / renal\n☐Uterine / endometrial\n☐Pancreatic\n☐Liver / hepatobiliary\n☐Ovarian\n☐Biliary / cholangiocarcinoma\n☐Other\nQ9. What are your main reasons for ordering CGP? Rank the top three.  [FORCED RANK OF 3]\n☐   Identify an FDA-approved targeted therapy\n☐   Determine clinical-trial eligibility\n☐   Comply with NCCN / guideline recommendations\n☐   Comply with an institutional protocol\n☐   Obtain prognostic information\n☐   Patient or family request\n☐   Other:_______________________\nQ10. For which clinical settings do you currently order CGP? Select all that apply.   [Multi-select]\n☐  Metastatic / advanced solid tumors\n☐  Early-stage disease (pre-therapy)\n☐  Early-stage disease (neo-adjuvant)\n☐  Early-stage disease (adjuvant)\n☐   Cancer of unknown primary (CUP)\n☐   Rare tumors\n☐   At recurrence\n☐   Other:_______________\nSection II — High-Content vs Smaller Panels\nQ11. How much do you agree with the following?   [Grid — one per row · randomize]\nStatement\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\nA comprehensive panel is worth ordering even if most genes are not currently actionable.\n☐\n☐\n☐\n☐\n☐\nSmall targeted panels are sufficient for most of my patients.\n☐\n☐\n☐\n☐\n☐\nLarge panels are valuable mainly for clinical-trial matching.\n☐\n☐\n☐\n☐\n☐\nComposite biomarkers from large panels (TMB, MSI, HRD) meaningfully change my management.\n☐\n☐\n☐\n☐\n☐\nThe added cost and turnaround of comprehensive panels are justified for routine advanced cases most advanced/metastatic patients.\n☐\n☐\n☐\n☐\n☐\nQ12. When would you choose a smaller / targeted panel instead of CGP? Select all that apply.   [Multi-select]\n☐   Limited or insufficient tissue\n☐   Need a faster result\n☐   A single actionable target is strongly suspected (e.g., EGFR in lung)\n☐   Cost or coverage concerns\n☐   Early-stage disease\n☐   I always choose a smaller/targeted panel of actionable targets by indication\n☐   Never — I default to comprehensive CGP\nSection III — Multimodality vs Single-Mode Assays\n“Multimodality” here means assays that combine analytes — e.g., DNA + RNA sequencing, added protein/IHC, methylation, or whole-transcriptome — rather than DNA alone.\nQ13. How valuable is adding RNA detection (transcript abundance and/or isoform) to a DNA-only panel?   [Single select]\n☐   Essential\n☐   Valuable\n☐   Marginal\n☐   Not valuable\n☐   Not sure\n“Multimodality” here means assays that combine analytes — e.g., DNA + RNA sequencing, added protein/IHC, methylation, or whole-transcriptome — rather than DNA alone.\nQ14. How much do you agree with the following?   [Grid — one per row · randomize]\nStatement\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\nAdding RNA sequencing meaningfully improves detection of fusions and splice variants.\n☐\n☐\n☐\n☐\n☐\nIntegrated multi-omic profiling (DNA + RNA ± protein) adds clinical value today, not just future promise.\n☐\n☐\n☐\n☐\n☐\nI struggle to act on most outputs beyond standard DNA variants.\n☐\n☐\n☐\n☐\n☐\nI actively prefer vendors that offer multimodal assays.\n☐\n☐\n☐\n☐\n☐\nWhole-transcriptome or proteomic data influence my treatment decisions.\n☐\n☐\n☐\n☐\n☐\nQ15. Which additional modalities do you find clinically useful? Select all that apply.   [Multi-select]\n☐   RNA-based fusion detection\n☐   Integrated protein / IHC (e.g., PD-L1)\n☐   Methylation / CUP classification\n☐   Whole-exome sequencing\n☐   Whole-transcriptome sequencing\n☐   None beyond standard DNA profiling\n☐   Other:_________________\nSection IV — Perceived Differentiation Among CGP Offerings\nQ16. In your view, are commercial CGP offerings meaningfully differentiated or largely interchangeable?   [Single select]\n☐   Highly differentiated\n☐   Somewhat differentiated\n☐   Largely interchangeable\n☐   Not sure\nQ17. Rank all of the factors that most differentiate one CGP vendor from another (1 = most important, 13=least important).  [Forced Ranking GUI · randomize]\nFactor\nRank\nReport clarity & actionability\n____\nClinical-trial matching\n____\nPanel breadth / gene content\n____\nTurnaround time\n____\nAnalytical accuracy / validation\n____\nTissue + liquid options\n____\nMRD / monitoring offered alongside CGP\n____\nEMR integration\n____\nScientific reputation / brand\n____\nInterpretive & clinical support\n____\nVendor Test Price\n____\nAbility to work with small amounts of tissue (e.g., from an FNA)\n____\nEase of Reimbursement\n____\nQ18. Which single capability most defines a “premium” CGP offering?   [Single select]\n☐   Report clarity & actionability\n☐   Clinical-trial matching\n☐   Breadth of content\n☐   Turnaround time\n☐   Tissue + liquid + MRD breadth\n☐   Scientific reputation\n☐   Other (specify): ____________\nQ19. Who is your preferred CGP vendor, and what is the main reason?   [Open text]\nPreferred vendor & reason: ____________________________________________  ____________\nQ19_New. For CGP that your institution sends out, which commercial vendors do you currently use? Select all that apply.   [Multi-select — randomize]\n☐Foundation Medicine (Roche)\n☐Guardant Health\n☐Tempus\n☐Caris Life Sciences\n☐NeoGenomics\n☐Exact Sciences (Abbott)\n☐Labcorp (incl. OmniSeq)\n☐Myriad Genetics\n☐Quest Diagnostics\n☐Natera\n☐Other (specify): ____________ [ANCHOR]\nQ19b. What is your preferred CGP vendor, and what is the main reason?\nPreferred vendor [Pipe options from Q19_New] [single select]\nPlease specify the reason: ____________________________________________[open end]\nQ19c. Approximately what share of your send-out CGP volume goes to each vendor you selected?   [Numeric grid — must total 100%]\nShow only vendors selected in Q19_New.\nEnter approximate percentages.\nVendor\n% of send-out CGP volume\n[Piped vendor 1]\n____ %\n[Piped vendor 2]\n____ %\n[Piped vendor 3]\n____ %\n[Piped vendor 4]\n____ %\n[Other]\n____ %\nTotal\n100 %\nSection V — MRD: Utilization & Relationship to CGP\nQ19A. Views on integrated CGP + MRD offerings   [Grid — one per row · randomize]\nSome vendors now offer comprehensive genomic profiling (CGP) and follow-on tumor-informed MRD monitoring as a single serial workflow, where the up-front profiling overlaps substantially with a standalone CGP test. Thinking about how you would choose among testing options, how much do you agree with the following?\nStatement\nStrongly disagree\nDisagree\nNeutral\nAgree\nStrongly agree\nI would move away from my current CGP vendor if another vendor offered CGP and subsequent MRD monitoring as a single, integrated serial workflow.\n☐\n☐\n☐\n☐\n☐\nI would use a single vendor for both initial profiling and serial MRD monitoring even if its CGP were not my first choice.\n☐\n☐\n☐\n☐\n☐\nI would accept a somewhat narrower CGP panel if it were tightly integrated with high-quality MRD monitoring.\n☐\n☐\n☐\n☐\n☐\nIf bundling CGP and MRD lowered my patients’ overall out-of-pocket cost, I would forgo a standalone CGP from another vendor.\n☐\n☐\n☐\n☐\n☐\nEven if a vendor bundled CGP and MRD, I would still order comprehensive CGP from whichever vendor I consider best-in-class.\n☐\n☐\n☐\n☐\n☐\nIn practice, my choice of MRD vendor would drive my choice of CGP, rather than the reverse.\n☐\n☐\n☐\n☐\n☐\nSection VI — Wrap-up\nQ21. What is the single biggest barrier or unmet need in CGP for your practice?   [Open text]\nTotal sample | 25\nQID | Logic | Minimum | Maximum\nS1 | S1_5 | Maximun 5 | Maximun 5\nQID | Logic |  | \nS3 | [A] à If S2 S3_1 | minimum 11 10 A’s | 11 A’s\nS3 | [C] à If S2 S3_2, 3 or 4 | minimum 11 10 C’s | 11 C’s\nS3 | [O] à If S2 S3_5 | minimum 3 O’s and maximum 5 | maximum 5\nDefinition used in this survey For the purposes of this survery, “Comprehensive genomic profiling (CGP)” means a broad multi-gene next-generation sequencing panel (roughly 50+ genes) used for therapy selection in solid tumors — tissue-based or liquid (blood/ctDNA). It excludes single-gene or small hotspot panels, IHC/FISH, hereditary/germline panels, and minimal residual disease (MRD) monitoring assays unless a question specifically asks about them.\nStatement | Strongly disagree | Disagree | Neutral | Agree | Strongly agree\nA comprehensive panel is worth ordering even if most genes are not currently actionable. | ☐ | ☐ | ☐ | ☐ | ☐\nSmall targeted panels are sufficient for most of my patients. | ☐ | ☐ | ☐ | ☐ | ☐\nLarge panels are valuable mainly for clinical-trial matching. | ☐ | ☐ | ☐ | ☐ | ☐\nComposite biomarkers from large panels (TMB, MSI, HRD) meaningfully change my management. | ☐ | ☐ | ☐ | ☐ | ☐\nThe added cost and turnaround of comprehensive panels are justified for routine advanced cases most advanced/metastatic patients. | ☐ | ☐ | ☐ | ☐ | ☐\nStatement | Strongly disagree | Disagree | Neutral | Agree | Strongly agree\nAdding RNA sequencing meaningfully improves detection of fusions and splice variants. | ☐ | ☐ | ☐ | ☐ | ☐\nIntegrated multi-omic profiling (DNA + RNA ± protein) adds clinical value today, not just future promise. | ☐ | ☐ | ☐ | ☐ | ☐\nI struggle to act on most outputs beyond standard DNA variants. | ☐ | ☐ | ☐ | ☐ | ☐\nI actively prefer vendors that offer multimodal assays. | ☐ | ☐ | ☐ | ☐ | ☐\nWhole-transcriptome or proteomic data influence my treatment decisions. | ☐ | ☐ | ☐ | ☐ | ☐\nFactor | Rank\nReport clarity & actionability | ____\nClinical-trial matching | ____\nPanel breadth / gene content | ____\nTurnaround time | ____\nAnalytical accuracy / validation | ____\nTissue + liquid options | ____\nMRD / monitoring offered alongside CGP | ____\nEMR integration | ____\nScientific reputation / brand | ____\nInterpretive & clinical support | ____\nVendor Test Price | ____\nAbility to work with small amounts of tissue (e.g., from an FNA) | ____\nEase of Reimbursement | ____\nVendor | % of send-out CGP volume\n[Piped vendor 1] | ____ %\n[Piped vendor 2] | ____ %\n[Piped vendor 3] | ____ %\n[Piped vendor 4] | ____ %\n[Other] | ____ %\nTotal | 100 %\nStatement | Strongly disagree | Disagree | Neutral | Agree | Strongly agree\nI would move away from my current CGP vendor if another vendor offered CGP and subsequent MRD monitoring as a single, integrated serial workflow. | ☐ | ☐ | ☐ | ☐ | ☐\nI would use a single vendor for both initial profiling and serial MRD monitoring even if its CGP were not my first choice. | ☐ | ☐ | ☐ | ☐ | ☐\nI would accept a somewhat narrower CGP panel if it were tightly integrated with high-quality MRD monitoring. | ☐ | ☐ | ☐ | ☐ | ☐\nIf bundling CGP and MRD lowered my patients’ overall out-of-pocket cost, I would forgo a standalone CGP from another vendor. | ☐ | ☐ | ☐ | ☐ | ☐\nEven if a vendor bundled CGP and MRD, I would still order comprehensive CGP from whichever vendor I consider best-in-class. | ☐ | ☐ | ☐ | ☐ | ☐\nIn practice, my choice of MRD vendor would drive my choice of CGP, rather than the reverse. | ☐ | ☐ | ☐ | ☐ | ☐",
+  "total_questions": 42,
+  "total_sections": 8,
+  "metadata_extra": {}
+}

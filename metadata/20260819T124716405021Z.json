@@ -1,0 +1,771 @@
+{
+  "run_id": "20260819T124716405021Z",
+  "user": "appadmin",
+  "created_at": "2026-08-19T12:48:32.275801+00:00",
+  "generation_seconds": 350.44,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "0ed5eecf1a666d65fa1013138a4135b42a345de9dc1557baa905fa907c3102ff",
+  "input": {
+    "key": "20260819T124716405021Z__V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "filename": "V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "size": 60220,
+    "created_at": "2026-08-19T12:47:16.406043+00:00"
+  },
+  "output": {
+    "key": "Validation_260819124832.sps",
+    "filename": "Validation_260819124832.sps",
+    "size": 32617,
+    "created_at": "2026-08-19T12:48:32.275801+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 163,
+    "checksEmitted": 0,
+    "questionsOmitted": 163,
+    "coveragePercent": 0.0,
+    "coverage": "Not emitted",
+    "blocks": [
+      {
+        "block": "Introduction",
+        "prefix": "INTRO, S",
+        "questions": 15,
+        "checksEmitted": 0,
+        "questionsOmitted": 15,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "INTRO",
+            "reason": "Informational introduction only; no respondent data are collected."
+          },
+          {
+            "questionId": "S1",
+            "reason": "Response codes and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S2",
+            "reason": "Response codes and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S3",
+            "reason": "Response codes and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S4",
+            "reason": "Numeric range and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S5",
+            "reason": "Response codes and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S6",
+            "reason": "Response codes and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S7",
+            "reason": "Response codes and conditional follow-up evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S7_PANEL_COUNT",
+            "reason": "Conditional numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S8_1",
+            "reason": "Percentage and allocation-total evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S8_2",
+            "reason": "Percentage and allocation-total evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S8_3",
+            "reason": "Percentage and allocation-total evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S8_4",
+            "reason": "Percentage, allocation-total, and termination evidence are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S9",
+            "reason": "Response codes are present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "S10",
+            "reason": "Response codes are present, but no target variable is supplied for a structured validation rule."
+          }
+        ]
+      },
+      {
+        "block": "Survey",
+        "prefix": "Q",
+        "questions": 69,
+        "checksEmitted": 0,
+        "questionsOmitted": 69,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q_AUTO_001",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_002",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_003",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_004",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_005",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_006",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_007",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_008",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_009",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_010",
+            "reason": "Numeric range evidence is present, but no target variable is supplied for a structured validation rule."
+          },
+          {
+            "questionId": "Q_AUTO_011",
+            "reason": "Numeric range evidence is present (0\u2013100), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_012",
+            "reason": "Numeric range evidence is present (0\u2013100), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_013",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_014",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_015",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_016",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_017",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_018",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_019",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_020",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_021",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_022",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_023",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_024",
+            "reason": "Numeric range evidence is present (0\u201399), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_025",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_026",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_027",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_028",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_029",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_030",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_031",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_032",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_033",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_034",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_035",
+            "reason": "Numeric range evidence is present (0\u2013199), but no SPSS variable name is supplied, so a safe validation rule cannot be emitted."
+          },
+          {
+            "questionId": "Q_AUTO_036",
+            "reason": "No variable is supplied for this optional numeric question, so the documented numeric range cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_037",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_038",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_039",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_040",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_041",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_042",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_043",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_044",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_045",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_046",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_047",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_048",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_049",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_050",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_051",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q_AUTO_052",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R04",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R05",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R06",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R07",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R08",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R09",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R10",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R11",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R12",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R01",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R02",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R03",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R04",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R05",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R06",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R07",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q9_R08",
+            "reason": "No SPSS variable identifier is supplied, so the five-point response-code check cannot be targeted safely."
+          }
+        ]
+      },
+      {
+        "block": "Question 5 \u2014 Greatest need for lab test development",
+        "prefix": "Q",
+        "questions": 8,
+        "checksEmitted": 0,
+        "questionsOmitted": 8,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q5_R05",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R06",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R07",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R08",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R09",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R10",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R11",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          },
+          {
+            "questionId": "Q5_R12",
+            "reason": "No variable is supplied for this optional 10-point grid question, so the documented response codes cannot be targeted safely."
+          }
+        ]
+      },
+      {
+        "block": "Question 6 \u2014 Expected availability of major improvements",
+        "prefix": "Q",
+        "questions": 12,
+        "checksEmitted": 0,
+        "questionsOmitted": 12,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q6_R01",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R02",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R03",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R04",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R05",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R06",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R07",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R08",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R09",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R10",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R11",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q6_R12",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          }
+        ]
+      },
+      {
+        "block": "Question 7 \u2014 Future developments or trends",
+        "prefix": "Q",
+        "questions": 40,
+        "checksEmitted": 0,
+        "questionsOmitted": 40,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q7_R01_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R01_B",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R02_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R02_B",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R03_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R03_B",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R04_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R04_B",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R05_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R05_B",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R06_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R06_B",
+            "reason": "The question provides response codes and a 1\u201310 scale, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R07_A",
+            "reason": "The question provides Yes/No response codes, but no canonical variable identifier is supplied, so an operational validation target cannot be defined safely."
+          },
+          {
+            "questionId": "Q7_R07_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R08_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R08_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R09_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R09_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R10_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R10_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R11_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R11_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R12_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R12_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R13_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R13_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R14_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R14_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R15_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R15_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R16_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R16_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R17_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R17_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R18_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R18_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R19_A",
+            "reason": "No variable was supplied for this yes/no item, so an evidence-supported allowed-value check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R19_B",
+            "reason": "No variable was supplied for this 10-point rating item, so an evidence-supported response-code or range check cannot be targeted."
+          },
+          {
+            "questionId": "Q7_R20_A",
+            "reason": "No SPSS variable identifier is supplied, so the response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q7_R20_B",
+            "reason": "No SPSS variable identifier is supplied, so the 1\u201310 scale check cannot be targeted safely."
+          }
+        ]
+      },
+      {
+        "block": "Question 8 \u2014 Top three lab test and service improvement priorities",
+        "prefix": "Q",
+        "questions": 3,
+        "checksEmitted": 0,
+        "questionsOmitted": 3,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q8_R01",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R02",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q8_R03",
+            "reason": "No SPSS variable identifier is supplied, so the ranking response check cannot be targeted safely."
+          }
+        ]
+      },
+      {
+        "block": "Classification purposes only",
+        "prefix": "Q",
+        "questions": 14,
+        "checksEmitted": 0,
+        "questionsOmitted": 14,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q10",
+            "reason": "No SPSS variable identifier is supplied, so the age-category response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q11",
+            "reason": "No SPSS variable identifier is supplied, so the documented 1\u201330 numeric-range check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q12",
+            "reason": "No SPSS variable identifier is supplied, so the gender response-code check cannot be targeted safely."
+          },
+          {
+            "questionId": "Q13",
+            "reason": "Classification-only question is explicitly optional, and no canonical variable is supplied for an evidence-supported response-code check."
+          },
+          {
+            "questionId": "Q14",
+            "reason": "Classification-only question is explicitly optional, and no canonical variable is supplied for an evidence-supported response-code check."
+          },
+          {
+            "questionId": "Q15",
+            "reason": "Classification-only question is explicitly optional, and no canonical variable is supplied for an evidence-supported response-code check."
+          },
+          {
+            "questionId": "Q16",
+            "reason": "Classification-only question is explicitly optional, and no canonical variable is supplied for an evidence-supported response-code check."
+          },
+          {
+            "questionId": "Q17",
+            "reason": "Classification-only question is explicitly optional, and no canonical variable is supplied for an evidence-supported response-code check."
+          },
+          {
+            "questionId": "Q18_R01",
+            "reason": "Optional classification percentage item has no canonical variable; the documented 100% total cannot be validated without target variables."
+          },
+          {
+            "questionId": "Q18_R02",
+            "reason": "Optional classification percentage item has no canonical variable; the documented 100% total cannot be validated without target variables."
+          },
+          {
+            "questionId": "Q18_R03",
+            "reason": "Optional classification percentage item has no canonical variable; the documented 100% total cannot be validated without target variables."
+          },
+          {
+            "questionId": "Q18_R04",
+            "reason": "Optional classification percentage item has no canonical variable; the documented 100% total cannot be validated without target variables."
+          },
+          {
+            "questionId": "Q18_R05",
+            "reason": "Optional classification percentage item has no canonical variable; the documented 100% total cannot be validated without target variables."
+          },
+          {
+            "questionId": "Q19",
+            "reason": "Question is conditionally routed to health system respondents and has a documented range, but no canonical target variable is supplied for the range or routing check."
+          }
+        ]
+      },
+      {
+        "block": "Classification purposes",
+        "prefix": "\u2014",
+        "questions": 2,
+        "checksEmitted": 0,
+        "questionsOmitted": 2,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "20",
+            "reason": "Question is conditionally routed to health system respondents and has a documented range, but no canonical target variable is supplied for the range or routing check."
+          },
+          {
+            "questionId": "21",
+            "reason": "Question is conditionally routed to health system respondents, but no canonical target variable is supplied for the response-code or routing check."
+          }
+        ]
+      }
+    ]
+  }
+}

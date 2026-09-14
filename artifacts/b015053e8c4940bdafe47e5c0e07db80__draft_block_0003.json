@@ -1,0 +1,26 @@
+{
+  "block_id": "b03_q2",
+  "source_variables": [
+    "q0",
+    "q2_1",
+    "q2_2",
+    "q2_3",
+    "q2_4",
+    "q2_98",
+    "q2_98_other"
+  ],
+  "temporary_variables": [
+    "temp",
+    "q2_1_flag",
+    "q2_2_flag",
+    "q2_3_flag",
+    "q2_4_flag",
+    "q2_98_flag",
+    "q2_98_other_flag"
+  ],
+  "spss": "tit Q2.\n!Numeric ask=q0 opr== value=1 min=1 max=7 myvars=q2_1 q2_2 q2_3 q2_4 q2_98.\ntemporary.\nsel if q0=1 and q2_98>0.\n!String ask=q2_98 opr=> value=0 myvars=q2_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "The questionnaire's introductory text mentions a 1-5 scale, but the question-specific wording and dictionary specify codes 1-7; the 1-7 range is used."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "block_id": "b01_q0",
+  "source_variables": [
+    "q0"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q0.\ntemporary.\nsel if miss(q0) or ~range(q0,1,2).\nlist respid, q0.",
+  "omission_reason": null,
+  "warnings": [
+    "The numeric Q0 field cannot contain the supplied string test tokens; the required 1-2 range check is included."
+  ]
+}

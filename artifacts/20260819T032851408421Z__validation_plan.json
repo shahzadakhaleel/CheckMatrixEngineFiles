@@ -1,0 +1,2331 @@
+{
+  "questionnaire_title": "RINVOQ Derm ZIP – Vitiligo Phototherapy Usage",
+  "project_name": "RINVOQ Derm ZIP Vitiligo Phototherapy Use Survey",
+  "validations": [
+    {
+      "question_id": "D1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "D1_MISSING",
+          "question_id": "D1",
+          "validation_type": "mandatory",
+          "description": "Consent response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "D1_CODES",
+          "question_id": "D1",
+          "validation_type": "invalid_codes",
+          "description": "Response must be Yes or No.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "D2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "D2_MISSING",
+          "question_id": "D2",
+          "validation_type": "mandatory",
+          "description": "Proceeding response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "D2_CODES",
+          "question_id": "D2",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the defined proceeding options.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "D2_SCREENOUT",
+          "question_id": "D2",
+          "validation_type": "screen_out",
+          "description": "Terminate immediately when the respondent is not willing to proceed.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "D2",
+                "operator": "equals",
+                "values": [
+                  3
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "CON.0",
+      "variable": null,
+      "rules": [
+        {
+          "id": "CON0_MISSING",
+          "question_id": "CON.0",
+          "validation_type": "mandatory",
+          "description": "Consent response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "CON.0"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "CON0_CODES",
+          "question_id": "CON.0",
+          "validation_type": "invalid_codes",
+          "description": "Response must be consent or do not consent.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "CON.0"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "CON0_SCREENOUT",
+          "question_id": "CON.0",
+          "validation_type": "screen_out",
+          "description": "Terminate immediately when consent is not provided.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "CON.0",
+                "operator": "equals",
+                "values": [
+                  2
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q1_MISSING",
+          "question_id": "Q1",
+          "validation_type": "mandatory",
+          "description": "Primary role response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1_CODES",
+          "question_id": "Q1",
+          "validation_type": "invalid_codes",
+          "description": "Primary role must use a defined response code.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              7,
+              8,
+              9,
+              99
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q1_SCREENOUT",
+          "question_id": "Q1",
+          "validation_type": "screen_out",
+          "description": "Terminate immediately for roles outside the eligible specialty group.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q1",
+                "operator": "in",
+                "values": [
+                  1,
+                  3,
+                  7,
+                  99
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q2_MISSING",
+          "question_id": "Q2",
+          "validation_type": "mandatory",
+          "description": "Primary setting response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_CODES",
+          "question_id": "Q2",
+          "validation_type": "invalid_codes",
+          "description": "Primary setting must use a defined response code.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              98
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q2_SCREENOUT",
+          "question_id": "Q2",
+          "validation_type": "screen_out",
+          "description": "Terminate immediately for ineligible primary settings.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q2",
+                "operator": "in",
+                "values": [
+                  8,
+                  98
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q3_MISSING",
+          "question_id": "Q3",
+          "validation_type": "mandatory",
+          "description": "Monthly patient volume response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q3_RANGE",
+          "question_id": "Q3",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q32_MISSING",
+          "question_id": "Q3_2",
+          "validation_type": "mandatory",
+          "description": "Monthly patient volume response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q32_RANGE",
+          "question_id": "Q3_2",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q33_MISSING",
+          "question_id": "Q3_3",
+          "validation_type": "mandatory",
+          "description": "Monthly patient volume response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q33_RANGE",
+          "question_id": "Q3_3",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q34_MISSING",
+          "question_id": "Q3_4",
+          "validation_type": "mandatory",
+          "description": "Monthly patient volume response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q34_RANGE",
+          "question_id": "Q3_4",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q35_MISSING",
+          "question_id": "Q3_5",
+          "validation_type": "mandatory",
+          "description": "Monthly patient volume response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q35_RANGE",
+          "question_id": "Q3_5",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_6",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q36_MISSING",
+          "question_id": "Q3_6",
+          "validation_type": "mandatory",
+          "description": "Monthly non-segmental vitiligo patient volume is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q36_RANGE",
+          "question_id": "Q3_6",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q36_SCREENOUT",
+          "question_id": "Q3_6",
+          "validation_type": "screen_out",
+          "description": "Terminate immediately when monthly non-segmental vitiligo patient volume is zero.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q3_6",
+                "operator": "equals",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3_98",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q398_MISSING",
+          "question_id": "Q3_98",
+          "validation_type": "mandatory",
+          "description": "Monthly patient volume response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q398_RANGE",
+          "question_id": "Q3_98",
+          "validation_type": "numeric_range",
+          "description": "Monthly patient volume must be a whole number from 0 to 999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q3_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q4_MISSING",
+          "question_id": "Q4",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q4_RANGE",
+          "question_id": "Q4",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q42_MISSING",
+          "question_id": "Q4_2",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q42_RANGE",
+          "question_id": "Q4_2",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q43_MISSING",
+          "question_id": "Q4_3",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q43_RANGE",
+          "question_id": "Q4_3",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q44_MISSING",
+          "question_id": "Q4_4",
+          "validation_type": "mandatory",
+          "description": "Phototherapy-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q44_RANGE",
+          "question_id": "Q4_4",
+          "validation_type": "numeric_range",
+          "description": "Phototherapy-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q44_SCREENOUT",
+          "question_id": "Q4_4",
+          "validation_type": "screen_out",
+          "description": "Terminate immediately when phototherapy use is zero percent.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "Q4_4",
+                "operator": "equals",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q45_MISSING",
+          "question_id": "Q4_5",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q45_RANGE",
+          "question_id": "Q4_5",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_6",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q46_MISSING",
+          "question_id": "Q4_6",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q46_RANGE",
+          "question_id": "Q4_6",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_7",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q47_MISSING",
+          "question_id": "Q4_7",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q47_RANGE",
+          "question_id": "Q4_7",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_8",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q48_MISSING",
+          "question_id": "Q4_8",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q48_RANGE",
+          "question_id": "Q4_8",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q4_98",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q498_MISSING",
+          "question_id": "Q4_98",
+          "validation_type": "mandatory",
+          "description": "Treatment-use percentage response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q498_RANGE",
+          "question_id": "Q4_98",
+          "validation_type": "numeric_range",
+          "description": "Treatment-use percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q4_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q5_MISSING",
+          "question_id": "Q5",
+          "validation_type": "mandatory",
+          "description": "At least one phototherapy offering response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": 1,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q5_MULTI",
+          "question_id": "Q5",
+          "validation_type": "multiple_response",
+          "description": "Phototherapy offerings must be captured as a multiple-response selection.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "MULTI_B",
+            "parameters": {
+              "svar": "Q5",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        },
+        {
+          "id": "Q5_CODES",
+          "question_id": "Q5",
+          "validation_type": "invalid_codes",
+          "description": "Phototherapy offering selections must use defined response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q5_EXCLUSIVE",
+          "question_id": "Q5",
+          "validation_type": "exclusive_answers",
+          "description": "The no-phototherapy option cannot be selected with another offering.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [
+              "Q5_4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q6_MISSING",
+          "question_id": "Q6",
+          "validation_type": "mandatory",
+          "description": "Phototherapy treatment percentage responses are required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_RANGE",
+          "question_id": "Q6",
+          "validation_type": "numeric_range",
+          "description": "Each phototherapy treatment percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q7_MISSING",
+          "question_id": "Q7",
+          "validation_type": "mandatory",
+          "description": "Referral and at-home recommendation response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q7_CODES",
+          "question_id": "Q7",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the defined referral and recommendation codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q8_MISSING",
+          "question_id": "Q8",
+          "validation_type": "mandatory",
+          "description": "Payment distribution responses are required for each shown column.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_RANGE",
+          "question_id": "Q8",
+          "validation_type": "numeric_range",
+          "description": "Each payment percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_TOTAL",
+          "question_id": "Q8",
+          "validation_type": "percentage_total",
+          "description": "Payment distributions must sum to 100 percent within each shown column.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Sum_to_var",
+            "parameters": {
+              "svar": "Q8",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q9_8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q10_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q10_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q10_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q10_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q10_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q11_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q11_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q11_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q11_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q11_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+    },
+    {
+      "question_id": "Q12",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "This is a required open-ended response, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q13_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes 1–5, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q13_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes 1–5, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q13_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes 1–5, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q13_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes 1–5, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q13_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes 1–5 and mandatory status are evidenced, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q14",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "This is a required open-ended response with routing evidence, but no canonical response variable is supplied."
+    },
+    {
+      "question_id": "Q15",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire supplies selection, required, and exclusivity evidence, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+    },
+    {
+      "question_id": "Q16",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies required whole-number percentage responses from 0–100, but no target SPSS variable or row-variable range is supplied; a deterministic validation rule cannot be emitted without inventing variables."
+    },
+    {
+      "question_id": "Q17",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies two required percentage responses with a 0–100 range, but no target SPSS variables are supplied; a deterministic validation rule cannot be emitted without inventing variables."
+    },
+    {
+      "question_id": "Q18_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies a required 1–7 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+    },
+    {
+      "question_id": "Q18_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies a required 1–7 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+    },
+    {
+      "question_id": "Q18_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies a required 1–7 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+    },
+    {
+      "question_id": "Q18_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies a required 1–7 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+    },
+    {
+      "question_id": "Q19",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies a required single response with allowed codes 1–7 and 88, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+    }
+  ],
+  "warnings": [
+    "Q6 routing references Q6_1, Q6_2, and Q6_3, but those subvariables are not supplied as canonical variables; no routing rule was emitted.",
+    "Q8 display routing references Q6_3 and payment-method columns without supplied canonical variables; no routing rule was emitted.",
+    "All questions in this batch have variable set to null. Evidence-supported checks were not emitted because required rule targets cannot be identified without inventing variables.",
+    "No SPSS variables are supplied for any question in batch 3; evidence-supported checks were omitted because required rule parameters cannot safely identify their targets."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

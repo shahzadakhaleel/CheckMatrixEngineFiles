@@ -1,0 +1,619 @@
+{
+  "questionnaire_title": "Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2",
+  "project_name": "12847",
+  "validations": [
+    {
+      "question_id": "Q0",
+      "variable": "q0",
+      "rules": [
+        {
+          "id": "Q0-invalid-codes",
+          "question_id": "Q0",
+          "validation_type": "invalid_codes",
+          "description": "Q0 must contain one of the defined response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q0"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q0-screen-out",
+          "question_id": "Q0",
+          "validation_type": "screen_out",
+          "description": "Respondents selecting that they have not used the function are screened out.",
+          "enabled": true,
+          "severity": "info",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "q0",
+                "operator": "equals",
+                "values": [
+                  2
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q1",
+      "variable": "Q1",
+      "rules": [
+        {
+          "id": "Q1-multiple-response",
+          "question_id": "Q1",
+          "validation_type": "multiple_response",
+          "description": "Q1 responses must use the defined multi-response option variables.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "MULTI_A",
+            "parameters": {
+              "svar": "Q1",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_q2_1",
+      "variable": "q2_1",
+      "rules": [
+        {
+          "id": "Q2-q2-1-invalid-codes",
+          "question_id": "Q2_q2_1",
+          "validation_type": "invalid_codes",
+          "description": "The IVIG frequency response must be coded from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q2_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_q2_2",
+      "variable": "q2_2",
+      "rules": [
+        {
+          "id": "Q2-q2-2-invalid-codes",
+          "question_id": "Q2_q2_2",
+          "validation_type": "invalid_codes",
+          "description": "The monoclonal antibodies frequency response must be coded from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q2_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_q2_3",
+      "variable": "q2_3",
+      "rules": [
+        {
+          "id": "Q2-q2-3-invalid-codes",
+          "question_id": "Q2_q2_3",
+          "validation_type": "invalid_codes",
+          "description": "The blood products frequency response must be coded from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q2_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_q2_4",
+      "variable": "q2_4",
+      "rules": [
+        {
+          "id": "Q2-q2-4-invalid-codes",
+          "question_id": "Q2_q2_4",
+          "validation_type": "invalid_codes",
+          "description": "The beta-interferons frequency response must be coded from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q2_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q2_q2_98",
+      "variable": "q2_98",
+      "rules": [
+        {
+          "id": "Q2-q2-98-invalid-codes",
+          "question_id": "Q2_q2_98",
+          "validation_type": "invalid_codes",
+          "description": "The other-product frequency response must be coded from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q2_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q3",
+      "variable": "Q3",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q4",
+      "variable": "Q4",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q5",
+      "variable": "Q5",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q6",
+      "variable": "Q6",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q7",
+      "variable": "Q7",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q8",
+      "variable": "Q8",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q9",
+      "variable": "q9",
+      "rules": [
+        {
+          "id": "Q9-invalid-codes",
+          "question_id": "Q9",
+          "validation_type": "invalid_codes",
+          "description": "Q9 must contain one of the defined response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10",
+      "variable": "q10",
+      "rules": [
+        {
+          "id": "Q10-invalid-codes",
+          "question_id": "Q10",
+          "validation_type": "invalid_codes",
+          "description": "Q10 must contain one of the defined response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11",
+      "variable": "Q11",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q11E",
+      "variable": "q11e",
+      "rules": [
+        {
+          "id": "Q11E-invalid-codes",
+          "question_id": "Q11E",
+          "validation_type": "invalid_codes",
+          "description": "Q11E must contain one of the defined response codes, including Not applicable to me.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "q11e"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q12",
+      "variable": "Q12",
+      "rules": [
+        {
+          "id": "Q12-multiple-response",
+          "question_id": "Q12",
+          "validation_type": "multiple_response",
+          "description": "Q12 responses must use the defined multi-response option variables.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "MULTI_A",
+            "parameters": {
+              "svar": "Q12",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": null,
+              "max": null,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "Omitted unsafe model rule: Rule Q1-other-open-end references unknown variables: ['q1_98_other']",
+    "Omitted unsafe model rule: Rule Q2-q2-98-other-open-end references unknown variables: ['q2_98_other']",
+    "Omitted unsafe model rule: Rule Q3-invalid-codes references unknown variables: ['q3_1', 'q3_2', 'q3_3', 'q3_4', 'q3_5']",
+    "Omitted unsafe model rule: Rule Q4-invalid-codes references unknown variables: ['q4_1', 'q4_2', 'q4_3', 'q4_4', 'q4_5']",
+    "Omitted unsafe model rule: Rule Q5-ranking references unknown variables: ['q5_1', 'q5_2', 'q5_3', 'q5_4', 'q5_5']",
+    "Omitted unsafe model rule: Rule Q5-duplicate-rankings references unknown variables: ['q5_1', 'q5_2', 'q5_3', 'q5_4', 'q5_5']",
+    "Omitted unsafe model rule: Rule Q6-invalid-codes references unknown variables: ['q6_1', 'q6_2', 'q6_3', 'q6_4', 'q6_5']",
+    "Omitted unsafe model rule: Rule Q7-invalid-codes references unknown variables: ['q7_1', 'q7_2', 'q7_3', 'q7_4', 'q7_5']",
+    "Omitted unsafe model rule: Rule Q8-ranking references unknown variables: ['q8_1', 'q8_2', 'q8_3', 'q8_4', 'q8_5']",
+    "Omitted unsafe model rule: Rule Q8-duplicate-rankings references unknown variables: ['q8_1', 'q8_2', 'q8_3', 'q8_4', 'q8_5']",
+    "Omitted unsafe model rule: Rule Q11-invalid-codes references unknown variables: ['q11a', 'q11b', 'q11c', 'q11d']",
+    "Omitted unsafe model rule: Rule Q12-other-open-end references unknown variables: ['q12_98_other']"
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": "respid"
+  }
+}

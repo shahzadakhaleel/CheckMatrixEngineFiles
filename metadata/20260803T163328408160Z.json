@@ -1,0 +1,307 @@
+{
+  "run_id": "20260803T163328408160Z",
+  "user": "appadmin",
+  "created_at": "2026-08-03T16:44:22.975957+00:00",
+  "generation_seconds": 655.58,
+  "input": {
+    "key": "20260803T163328408160Z__V12_R76681_HL_ALL_SURVEY_2025.docx",
+    "filename": "V12_R76681_HL_ALL_SURVEY_2025.docx",
+    "size": 851480,
+    "created_at": "2026-08-03T16:33:28.412795+00:00"
+  },
+  "output": {
+    "key": "Validation_20260803T163328408160Z.sps",
+    "filename": "Validation_20260803T163328408160Z.sps",
+    "size": 137410,
+    "created_at": "2026-08-03T16:44:22.975957+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 287,
+    "checksEmitted": 453,
+    "questionsOmitted": 67,
+    "coveragePercent": 76.7,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Questionnaire",
+        "prefix": "V, JF, S, H, A, CS, HX, X, D",
+        "questions": 287,
+        "checksEmitted": 453,
+        "questionsOmitted": 67,
+        "coveragePercent": 76.7,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "V2",
+            "reason": "Internal monitor-list and programming instruction; not a respondent-facing question."
+          },
+          {
+            "questionId": "A2",
+            "reason": "The canonical item provides no response fields, numeric bounds, codes, or explicit validation instruction."
+          },
+          {
+            "questionId": "A2_1",
+            "reason": "The canonical item contains only a placeholder label and provides no response fields or evidence-supported validation instruction."
+          },
+          {
+            "questionId": "A11.1_1",
+            "reason": "The supplied canonical record is an unlabeled placeholder with no independent response scale or validation evidence."
+          },
+          {
+            "questionId": "A11.2_1",
+            "reason": "The supplied canonical record is an unlabeled placeholder with no independent response scale or validation evidence."
+          },
+          {
+            "questionId": "A11.3_1",
+            "reason": "The supplied canonical record is an unlabeled placeholder with no independent response scale or validation evidence."
+          },
+          {
+            "questionId": "A11.4_1",
+            "reason": "The supplied canonical record is an unlabeled placeholder with no independent response scale or validation evidence."
+          },
+          {
+            "questionId": "A12.1_1",
+            "reason": "The supplied canonical record is an unlabeled placeholder with no independent response scale or validation evidence."
+          },
+          {
+            "questionId": "A12.2_1",
+            "reason": "The supplied canonical record is an unlabeled placeholder with no independent response scale or validation evidence."
+          },
+          {
+            "questionId": "A12.3",
+            "reason": "The supplied record identifies an optional consolidation-therapy data grid but does not provide its child variables or explicit numeric bounds in this batch."
+          },
+          {
+            "questionId": "A12.3_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A12.4",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell and blank/zero dependency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A12.4_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A13.1",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A13.1_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A13.2",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A13.2_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A13.3",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A13.3_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A13.4",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A13.4_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A14.1",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A14.1_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A14.2",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A14.2_1",
+            "reason": "No response definition, options, numeric bounds, or child response variables are supplied for this placeholder question."
+          },
+          {
+            "questionId": "A14.3",
+            "reason": "This is a grid-container question. The supplied definition describes cross-cell consistency checks, but does not supply the component response variables needed to express them safely."
+          },
+          {
+            "questionId": "A14.3_1",
+            "reason": "Placeholder variable with no question text, response options, or validation evidence."
+          },
+          {
+            "questionId": "A14.4",
+            "reason": "Parent question contains instructions for the separately defined regimen grid but no direct response variable or safely expressible standalone check."
+          },
+          {
+            "questionId": "A14.4_1",
+            "reason": "Placeholder variable with no question text, response options, or validation evidence."
+          },
+          {
+            "questionId": "A19.1",
+            "reason": "Optional parent question contains instructions for the separately defined regimen grid but no direct response variable or safely expressible standalone check."
+          },
+          {
+            "questionId": "A19.1_1",
+            "reason": "Placeholder variable with no question text, response options, or validation evidence."
+          },
+          {
+            "questionId": "A19.2",
+            "reason": "Optional parent question contains instructions for the separately defined regimen grid but no direct response variable or safely expressible standalone check."
+          },
+          {
+            "questionId": "A19.2_1",
+            "reason": "Placeholder variable with no question text, response options, or validation evidence."
+          },
+          {
+            "questionId": "A19.3",
+            "reason": "Optional parent question contains instructions for the separately defined regimen grid but no direct response variable or safely expressible standalone check."
+          },
+          {
+            "questionId": "A19.3_1",
+            "reason": "Placeholder variable with no question text, response options, or validation evidence."
+          },
+          {
+            "questionId": "A19.4",
+            "reason": "Optional parent question contains instructions for the separately defined regimen grid but no direct response variable or safely expressible standalone check."
+          },
+          {
+            "questionId": "A19.4_1",
+            "reason": "Placeholder variable with no question text, response options, or validation evidence."
+          },
+          {
+            "questionId": "A24.1_1",
+            "reason": "The supplied item is an unlabeled structural placeholder with no response specification."
+          },
+          {
+            "questionId": "A24.2_1",
+            "reason": "The supplied item is an unlabeled structural placeholder with no response specification."
+          },
+          {
+            "questionId": "A24.3_1",
+            "reason": "The supplied item is an unlabeled structural placeholder with no response specification."
+          },
+          {
+            "questionId": "A24.4_1",
+            "reason": "The supplied item is an unlabeled structural placeholder with no response specification."
+          },
+          {
+            "questionId": "A28A",
+            "reason": "This is a conditional display placeholder with no respondent-entered response specification."
+          },
+          {
+            "questionId": "A28B",
+            "reason": "This is a conditional display placeholder with no respondent-entered response specification."
+          },
+          {
+            "questionId": "A46.1_1",
+            "reason": "The supplied record is an unlabeled structural placeholder with no response scale, range, or independently identifiable validation target."
+          },
+          {
+            "questionId": "A46.2_1",
+            "reason": "The supplied record is an unlabeled structural placeholder with no response scale, range, or independently identifiable validation target."
+          },
+          {
+            "questionId": "A46.3_1",
+            "reason": "The supplied record is an unlabeled structural placeholder with no response scale, range, or independently identifiable validation target."
+          },
+          {
+            "questionId": "A46.4_1",
+            "reason": "The supplied record is an unlabeled structural placeholder with no response scale, range, or independently identifiable validation target."
+          },
+          {
+            "questionId": "A46D",
+            "reason": "The model proposed only incomplete rules; they were omitted during deterministic validation"
+          },
+          {
+            "questionId": "A47.1_1",
+            "reason": "The supplied record is an unlabeled structural placeholder with no response scale, range, or independently identifiable validation target."
+          },
+          {
+            "questionId": "A47.2_1",
+            "reason": "The supplied record is an unlabeled structural placeholder with no response scale, range, or independently identifiable validation target."
+          },
+          {
+            "questionId": "A49.3",
+            "reason": "Container question; the response fields and supported numeric checks are defined in A49.3_2."
+          },
+          {
+            "questionId": "A49.3_1",
+            "reason": "Placeholder field with no response definition or validation evidence."
+          },
+          {
+            "questionId": "A49.4",
+            "reason": "Container question; the response fields and supported numeric checks are defined in A49.4_2."
+          },
+          {
+            "questionId": "A49.4_1",
+            "reason": "Placeholder field with no response definition or validation evidence."
+          },
+          {
+            "questionId": "A54.1",
+            "reason": "Container question; the response fields and supported numeric checks are defined in A54.1_2."
+          },
+          {
+            "questionId": "A54.1_1",
+            "reason": "Placeholder field with no response definition or validation evidence."
+          },
+          {
+            "questionId": "A54.2",
+            "reason": "Container question; the response fields and supported numeric checks are defined in A54.2_2."
+          },
+          {
+            "questionId": "A54.2_1",
+            "reason": "Placeholder field with no response definition or validation evidence."
+          },
+          {
+            "questionId": "A54.3",
+            "reason": "Container question; the response fields and supported numeric checks are defined in A54.3_2."
+          },
+          {
+            "questionId": "A54.3_1",
+            "reason": "Placeholder field with no response definition or validation evidence."
+          },
+          {
+            "questionId": "A54.4",
+            "reason": "Container question; the response fields and supported numeric checks are defined in A54.4_2."
+          },
+          {
+            "questionId": "A54.4_1",
+            "reason": "Placeholder field with no response definition or validation evidence."
+          },
+          {
+            "questionId": "A59.1_1",
+            "reason": "Placeholder variable with no respondent-facing question text or supported validation evidence."
+          },
+          {
+            "questionId": "A59.2_1",
+            "reason": "Placeholder variable with no respondent-facing question text or supported validation evidence."
+          },
+          {
+            "questionId": "A59.3_1",
+            "reason": "Placeholder variable with no respondent-facing question text or supported validation evidence."
+          },
+          {
+            "questionId": "A59.4_1",
+            "reason": "Placeholder variable with no respondent-facing question text or supported validation evidence."
+          },
+          {
+            "questionId": "A62",
+            "reason": "Routing-only placeholder with no respondent-facing question text, response options, or numeric validation evidence."
+          }
+        ]
+      }
+    ]
+  }
+}

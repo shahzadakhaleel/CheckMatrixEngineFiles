@@ -1,0 +1,35 @@
+{
+  "block_id": "b01",
+  "source_variables": [
+    "ae1",
+    "s2",
+    "s2_98_other",
+    "s3",
+    "s4",
+    "s5_1",
+    "s6_1",
+    "s7_1",
+    "s7_2",
+    "s7_3",
+    "s7_4",
+    "s7_5",
+    "s7_6",
+    "s7_7",
+    "s8_1",
+    "s8_2",
+    "s9_1",
+    "s9_2",
+    "s9_3",
+    "s9_4",
+    "s9_98",
+    "s9_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit b01 - Screener response domains.\ntemporary.\nsel if miss(ae1) or ~range(ae1,1,2) or miss(s2) or ~ANY(s2,1,2,3,4,5,98) or miss(s3) or ~range(s3,1,2) or miss(s4) or ~ANY(s4,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,99) or miss(s5_1) or ~range(s5_1,0,100) or miss(s6_1) or ~range(s6_1,0,99).\nlist respid, ae1 s2 s3 s4 s5_1 s6_1.\ntit b01 - Patient-count bounds.\ntemporary.\nsel if miss(s7_1) or ~range(s7_1,0,10000) or miss(s7_2) or ~range(s7_2,0,10000) or miss(s7_3) or ~range(s7_3,0,10000) or miss(s7_4) or ~range(s7_4,0,10000) or miss(s7_5) or ~range(s7_5,0,10000) or miss(s7_6) or ~range(s7_6,0,10000) or miss(s7_7) or ~range(s7_7,0,10000).\nlist respid, s7_1 s7_2 s7_3 s7_4 s7_5 s7_6 s7_7.\ntit b01 - Pericarditis category consistency.\ntemporary.\nsel if miss(s8_1) or miss(s8_2) or ~range(s8_1,0,s7_2) or ~range(s8_2,0,s7_2) or sum(s8_1,s8_2)<>s7_2.\nlist respid, s7_2 s8_1 s8_2.\ntit b01 - Etiology bounds and total.\ntemporary.\nsel if miss(s9_1) or miss(s9_2) or miss(s9_3) or miss(s9_4) or miss(s9_98) or ~range(s9_1,0,s8_1) or ~range(s9_2,0,s8_1) or ~range(s9_3,0,s8_1) or ~range(s9_4,0,s8_1) or ~range(s9_98,0,s8_1) or sum(s9_1,s9_2,s9_3,s9_4,s9_98)<>s8_1.\nlist respid, s8_1 s9_1 s9_2 s9_3 s9_4 s9_98.\ntit b01 - Other etiology text linkage.\ntemporary.\nsel if (s9_98=1 and (miss(s9_98_other) or s9_98_other=\"\")) or (s9_98<>1 and s9_98_other<>\"\").\nlist respid, s9_98 s9_98_other.\n",
+  "omission_reason": null,
+  "warnings": [
+    "The supplied source_variables do not include qlist, hidspec, hidquota2, or hidquota3, so specialty/list-dependent termination thresholds and on-list rules cannot be generated without introducing unmapped variables.",
+    "The state, consent, specialty, and practice-status termination values are validated as domains; termination status itself is application-handled and is not inferred from response data.",
+    "Whole-number enforcement for numeric fields is not generated because the supplied SPSS macros support bounds but no mapped integer-schema predicate."
+  ]
+}

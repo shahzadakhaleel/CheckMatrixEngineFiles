@@ -1,0 +1,4161 @@
+{
+  "metadata": {
+    "title": "Specialty pharmacy perception questionnaire",
+    "client": null,
+    "project": "Definium_spec_pharm_07.20.26",
+    "language": "English",
+    "country": "US",
+    "version": "V2_R100898"
+  },
+  "sections": [
+    {
+      "id": "Screening",
+      "title": "Screening",
+      "description": null,
+      "questions": [
+        {
+          "id": "qCountry",
+          "variable": null,
+          "title": "Country of work",
+          "text": "In which country do you work?",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1033",
+              "text": "US",
+              "value": 1033,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4105",
+              "text": "Canada",
+              "value": 4105,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "98",
+              "text": "Other <ANCHOR>",
+              "value": 98,
+              "exclusive": true,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Canada: Terminate. Other <ANCHOR>: Terminate.",
+          "notes": "<ASK ALL>; <RANDOMIZE>; US quota: 50",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr0",
+          "variable": null,
+          "title": "Survey participation agreement",
+          "text": "We would like you to participate in this research to understand your views on different aspects of your practice as a physician. The survey should not take you more than 15 minutes.\n\nI understand the importance of this survey and agree to provide thorough responses",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "I understand the importance of this survey and agree to provide thorough responses",
+              "value": 1,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I do not agree to participate in this survey",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "I do not agree to participate in this survey: Terminate.",
+          "notes": "ALL TERMINATES ARE IMMEDIATE. Quota: 50 for code 1.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr1",
+          "variable": null,
+          "title": "Confidentiality and consent agreement",
+          "text": "Any information I provide will be treated as confidential, and I will remain anonymous unless I consent otherwise.\n\nMy participation is entirely voluntary, and I have the right to refuse to answer a question or completely withdraw from the research at any time. I understand if I refuse to answer questions and/or withdraw from the research before completing the interview, I will not be eligible to collect my honorarium for this interview.\n\nMy responses will be used for analysis purposes. The results of this survey will be provided to the client and used for lawful purposes, unless I consent otherwise, and I will have the opportunity to confirm my consent at the end of the interview, in case I have changed my mind. I understand that withdrawal of consent will not apply to any information that has already been anonymized.\n\nAny information presented to me as part of the interview is confidential and should be assumed to be hypothetical, shared solely to explore my reactions.\n\nI understand the importance of this survey and agree to provide thorough responses",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "I understand the importance of this survey and agree to provide thorough responses",
+              "value": 1,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I do not agree to participate in this survey",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "I do not agree to participate in this survey: Terminate.",
+          "notes": "Quota: 50 for code 1.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr2",
+          "variable": null,
+          "title": "Current profession",
+          "text": "Which of the following best describes your current profession?",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Physician",
+              "value": 1,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Nurse Practitioner",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Physician Assistant",
+              "value": 3,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Pharmacist",
+              "value": 4,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Pharmacy Technician",
+              "value": 5,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Registered/Licensed Practical Nurse",
+              "value": 6,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "99",
+              "text": "None of the above <ANCHOR>",
+              "value": 99,
+              "exclusive": true,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "All options except Physician: Terminate. None of the above <ANCHOR>: Terminate.",
+          "notes": "<ASK ALL>; <RANDOMIZE>. Physician quota: 50.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr2a",
+          "variable": null,
+          "title": "Primary practice state",
+          "text": "In which state do you primarily practice?",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "STATE",
+              "text": "DROP DOWN LIST, SHOW ALL 51 STATES INCLUDING DC",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "NA",
+              "text": "Not actively practicing",
+              "value": null,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Terminate VT, MN, ME. Not actively practicing: Terminate.",
+          "notes": "HIDDEN VARIABLE NOT SEEN BY RESPONDENT. REG: REgion (code as per m3’s standard).",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr3",
+          "variable": null,
+          "title": "Primary medical specialty",
+          "text": "What is your primary medical specialty?",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Psychiatry",
+              "value": 1,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Oncology/Hematology",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Rheumatology",
+              "value": 3,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Neurology",
+              "value": 4,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Cardiology",
+              "value": 5,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "99",
+              "text": "None of the above <ANCHOR>",
+              "value": 99,
+              "exclusive": true,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "All options except Psychiatry: Terminate. None of the above <ANCHOR>: Terminate.",
+          "notes": "<ASK ALL>; <RANDOMIZE>. Psychiatry quota: 50.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr5",
+          "variable": null,
+          "title": "Years in practice post-residency",
+          "text": "How many years have you been in practice post-residency?",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Terminate if less than 2 years or more than 35 years. Not actively practicing: Terminate.",
+          "notes": "Numeric entry, allow 0-99.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Sc6",
+          "variable": null,
+          "title": "Primary practice setting",
+          "text": "How would you describe your primary practice setting? Select one of the following.",
+          "section": "Screening",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Private practice outpatient (clinic or office)",
+              "value": 1,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Community Mental Health Center (CMHC) / Certified Community Behavioral Health Clinic (CCBHC)",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Hospital emergency room",
+              "value": 3,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Hospital outpatient",
+              "value": 4,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Inpatient psychiatric ward (as part of an acute care hospital or a standalone psychiatric hospital)",
+              "value": 5,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Long-term care facility (e.g., group home, skilled nursing facility, correctional/institutional setting)",
+              "value": 6,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Telemedicine",
+              "value": 7,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "99",
+              "text": "None of the above <ANCHOR>",
+              "value": 99,
+              "exclusive": true,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "All options except Private practice outpatient: Terminate. None of the above <ANCHOR>: Terminate.",
+          "notes": "<ASK ALL>; <RANDOMIZE>. Private practice outpatient quota: 50.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Sc7",
+          "variable": null,
+          "title": "Monthly psychiatric prescriptions",
+          "text": "How many prescriptions for any psychiatric-related conditions do you write or refill in a typical month? Your best estimate is fine.",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Terminate if less than 10.",
+          "notes": "Numeric entry, allow 0-99999.",
+          "metadata": {
+            "source_table": 10,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Sc8",
+          "variable": null,
+          "title": "Specialty pharmacy prescription percentage",
+          "text": "Approximately what percentage of the <INSERT SCR7> prescriptions you write or refill in a typical month are processed via a specialty pharmacy? Your best estimate is fine.",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Terminate if <1%.",
+          "notes": "Numeric entry, allow 0-100%.",
+          "metadata": {
+            "source_table": 11,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr9",
+          "variable": null,
+          "title": "REMS or controlled substance percentage",
+          "text": "Approximately what percentage of your prescriptions that are processed via a specialty pharmacy in a typical month fall under a REMS or controlled substance program? Your best estimate is fine.",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Numeric entry, allow 0-100%.",
+          "metadata": {
+            "source_table": 12,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr10_1",
+          "variable": null,
+          "title": "White bagging percentage",
+          "text": "Approximately what percentage of the prescriptions you process through a specialty pharmacy are sent directly to you in your clinical practice (also known as white bagging)? Your best estimate is fine.",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Terminate if <1%.",
+          "notes": "Numeric entry, allow 0-100%.",
+          "metadata": {
+            "source_table": 13,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Scr10_2",
+          "variable": null,
+          "title": "Brown bagging percentage",
+          "text": "Approximately what percentage of the prescriptions you process through a specialty pharmacy are sent directly to your patients for them to bring to your clinical practice (also known as brown bagging)? Your best estimate is fine.",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Numeric entry, allow 0-100%.",
+          "metadata": {
+            "source_table": 13,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Scr10_3",
+          "variable": null,
+          "title": "Buy and bill percentage",
+          "text": "Approximately what percentage of the prescriptions you process through a specialty pharmacy are buy and bill? Your best estimate is fine.",
+          "section": "Screening",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Numeric entry, allow 0-100%.",
+          "metadata": {
+            "source_table": 13,
+            "source_row": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "Introduction",
+      "title": "Introduction",
+      "description": null,
+      "questions": [
+        {
+          "id": "Qintro_info",
+          "variable": null,
+          "title": "Study introduction",
+          "text": "Thank you for agreeing to participate in this study. We are recruiting on behalf of a pharmacy company to learn more about your experiences with providers of specialty pharmacies.\n\nPlease be assured that:\nThis survey is for market research purposes only.\nYour responses will be collated with the responses of other respondents and presented to the commissioning company in an aggregated and anonymous form. Your identity will not be revealed and any information you give will be treated confidentially and will not be used for any other purposes or disclosed to any third party.\nYou can withdraw from the market research study at any time.\n\nBy answering “Yes” to the following question, you consent to participate in this survey on the basis described above.",
+          "section": "Introduction",
+          "question_type": "INFO",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "Qintro_consent",
+          "variable": null,
+          "title": "Consent to participate on stated basis",
+          "text": "Are you willing to participate in this study on this basis?",
+          "section": "Introduction",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes",
+              "value": 1,
+              "exclusive": true,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "No",
+              "value": 2,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "No: Terminate.",
+          "notes": null,
+          "metadata": {
+            "source_table": 14,
+            "source_row": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Section one",
+      "title": "Section one",
+      "description": null,
+      "questions": [
+        {
+          "id": "S1Q1",
+          "variable": null,
+          "title": "Greatest benefit of white bagging",
+          "text": "Using the space below, please describe what you consider to be the greatest benefit of white bagging practices. There are no wrong answers. We are seeking your opinions based on your perceptions and thoughts about white bagging benefits.\n\nPlease do not enter words, such as “none”, “nothing”, or “don’t know”, but rather write a sentence or describe the greatest benefit based on your experience. Please be as detailed as possible. <Allow for 500 characters/letters>",
+          "section": "Section one",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ORDER OF S1Q1 AND S1Q2>. <NEW SCREEN>.",
+          "metadata": {}
+        },
+        {
+          "id": "S1Q2",
+          "variable": null,
+          "title": "Greatest disadvantage of white bagging",
+          "text": "Using the space below, please describe what you consider to be the greatest disadvantage of white bagging practices. There are no wrong answers. We are seeking your opinions based on your perceptions and thoughts about white bagging benefits.\n\nPlease do not enter words, such as “none”, “nothing”, or “don’t know”, but rather write a sentence or describe the greatest disadvantage based on your experience. Please be as detailed as possible. <Allow for 500 characters/letters>",
+          "section": "Section one",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ORDER OF S1Q1 AND S1Q2>.",
+          "metadata": {}
+        },
+        {
+          "id": "S1Q3_1",
+          "variable": null,
+          "title": "Initiation of treatment",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nInitiation of treatment",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _1.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "S1Q3_2",
+          "variable": null,
+          "title": "Staff workload",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nStaff workload",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _2.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "S1Q3_3",
+          "variable": null,
+          "title": "Scheduling reliability",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nScheduling reliability",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _3.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "S1Q3_4",
+          "variable": null,
+          "title": "Medication availability",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nMedication availability",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _4.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "S1Q3_5",
+          "variable": null,
+          "title": "Patient experience",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nPatient experience",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _5.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "S1Q3_6",
+          "variable": null,
+          "title": "Financial risk to practice",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nFinancial risk to practice",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _6.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 7
+          }
+        },
+        {
+          "id": "S1Q3_7",
+          "variable": null,
+          "title": "Confidence in product handling",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nConfidence in product handling",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _7.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 8
+          }
+        },
+        {
+          "id": "S1Q3_8",
+          "variable": null,
+          "title": "Ability to resolve problems quickly",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nAbility to resolve problems quickly",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _8.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 9
+          }
+        },
+        {
+          "id": "S1Q3_9",
+          "variable": null,
+          "title": "Order limitations",
+          "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nOrder limitations",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Much worse",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Somewhat worse",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No difference",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Somewhat better",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Much better",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Randomize rows. Source matrix row label: _9.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 10
+          }
+        },
+        {
+          "id": "S1Q3a",
+          "variable": null,
+          "title": "Expected specialty pharmacy support",
+          "text": "What type of support do you expect from specialty pharmacies when dispensing controlled medications? Select your top 3 expectations.",
+          "section": "Section one",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Temperature-controlled packaging",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Secure storage",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Secure delivery",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Patient adherence support",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Patient education material",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Ongoing monitoring",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Insurance and PA assistance",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Being central point of contact",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "24/7 Support and Emergency Access",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "REMS compliance",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "97",
+              "text": "Other (specify:_________)<ANCHOR>",
+              "value": 97,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE>. Select top 3.",
+          "metadata": {
+            "source_table": 18,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "S1Q3b",
+          "variable": null,
+          "title": "Favorite specialty pharmacy",
+          "text": "Using the space below, please type in who you consider to be your favorite specialty pharmacy for psychiatric treatments.\n\nEnter one name.",
+          "section": "Section one",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "S1Q3c",
+          "variable": null,
+          "title": "Reason favorite specialty pharmacy is preferred",
+          "text": "Why do you consider this specialty pharmacy to be your favorite?\n\nPlease do not enter words, such as “nothing”, or “don’t know”, but rather describe why you consider this provider to be your favorite. Please be as detailed as possible. <Allow for 500 characters/letters>",
+          "section": "Section one",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        },
+        {
+          "id": "S1Q4_1",
+          "variable": null,
+          "title": "CVS Specialty (CVS Health)",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nCVS Specialty (CVS Health)",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _1.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "S1Q4_2",
+          "variable": null,
+          "title": "Accredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nAccredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _2.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "S1Q4_3",
+          "variable": null,
+          "title": "Optum Specialty Pharmacy (UnitedHealth Group/OptumRx)",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nOptum Specialty Pharmacy (UnitedHealth Group/OptumRx)",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _3.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "S1Q4_4",
+          "variable": null,
+          "title": "Walgreens Specialty Pharmacy",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nWalgreens Specialty Pharmacy",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _4.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "S1Q4_5",
+          "variable": null,
+          "title": "CenterWell Specialty Pharmacy (Humana)",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nCenterWell Specialty Pharmacy (Humana)",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _5.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "S1Q4_6",
+          "variable": null,
+          "title": "Walmart Specialty Pharmacy",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nWalmart Specialty Pharmacy",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _6.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 7
+          }
+        },
+        {
+          "id": "S1Q4_7",
+          "variable": null,
+          "title": "CarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nCarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _7.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 8
+          }
+        },
+        {
+          "id": "S1Q4_8",
+          "variable": null,
+          "title": "AcariaHealth",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nAcariaHealth",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _8.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 9
+          }
+        },
+        {
+          "id": "S1Q4_9",
+          "variable": null,
+          "title": "Genoa Healthcare",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nGenoa Healthcare",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _9.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 10
+          }
+        },
+        {
+          "id": "S1Q4_10",
+          "variable": null,
+          "title": "Orsini",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nOrsini",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _10.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 11
+          }
+        },
+        {
+          "id": "S1Q4_11",
+          "variable": null,
+          "title": "Alto",
+          "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nAlto",
+          "section": "Section one",
+          "question_type": "GRID_SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "A",
+              "text": "Never heard of",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "B",
+              "text": "Heard of, but never considered using",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "C",
+              "text": "Considered using, but never tried",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "D",
+              "text": "Tried in the past, but no longer use",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "E",
+              "text": "Use occasionally",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "F",
+              "text": "Use regularly",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "G",
+              "text": "One of my preferred specialty pharmacy providers",
+              "value": null,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "<RANDOMIZE ROWS>. Source matrix row label: _11.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 12
+          }
+        },
+        {
+          "id": "S1Q6",
+          "variable": null,
+          "title": "Best-performing specialty pharmacy",
+          "text": "Which of the following specialty pharmacies performs best for your practice? Select one.",
+          "section": "Section one",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "CVS Specialty (CVS Health)",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Accredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Optum Specialty Pharmacy (UnitedHealth Group/OptumRx)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Walgreens Specialty Pharmacy",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "CenterWell Specialty Pharmacy (Humana)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Walmart Specialty Pharmacy",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "CarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "AcariaHealth",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Genoa Healthcare",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Orsini",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Alto",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "99",
+              "text": "None of the above",
+              "value": 99,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "<SHOW IF S1Q4=E-G>. <SHOW PROVIDERS SELECTED E-G IN S1Q4>.",
+          "notes": null,
+          "metadata": {
+            "source_table": 22,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "S1Q8",
+          "variable": null,
+          "title": "Payer-mandated specialty pharmacy challenges",
+          "text": "What percentage of the time have you experienced challenges with not being able to buy and bill or utilize your favorite specialty pharmacy due to payer mandates in the last 6 months? Enter a whole number. If none, enter zero ‘0’",
+          "section": "Section one",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Numeric entry, allow 0-100%.",
+          "metadata": {
+            "source_table": 23,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "S1Q9",
+          "variable": null,
+          "title": "Rewriting scripts due to dispensing limitations",
+          "text": "How often did you need to re-write a script due to a specialty pharmacy service provider being unable to dispense a controlled/REMS product to your state in the last 6 months?",
+          "section": "Section one",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Very frequently (over 75% of the time)",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Frequently (51%-74% of the time)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Often (26%-50% of the time)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Sometimes (11%-25% of the time)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Rarely (1%-10% of the time)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Never",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "<SHOW IF SCR8>0%>",
+          "notes": null,
+          "metadata": {
+            "source_table": 24,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "S1Q11",
+          "variable": null,
+          "title": "Barrier to starting REMS or controlled substance therapies",
+          "text": "Besides cost or insurance reasons, what is the most important barrier your patients face when starting REMS or controlled substance therapies? Enter your answer in the space below.\n\nPlease do not enter “none”, or “don’t know”, but rather describe what you consider to be the most important barrier besides cost or insurance. Please be as detailed as possible. <Allow for 500 characters/letters>",
+          "section": "Section one",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {}
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "qCountry",
+      "variable": null,
+      "title": "Country of work",
+      "text": "In which country do you work?",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1033",
+          "text": "US",
+          "value": 1033,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4105",
+          "text": "Canada",
+          "value": 4105,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "98",
+          "text": "Other <ANCHOR>",
+          "value": 98,
+          "exclusive": true,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Canada: Terminate. Other <ANCHOR>: Terminate.",
+      "notes": "<ASK ALL>; <RANDOMIZE>; US quota: 50",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr0",
+      "variable": null,
+      "title": "Survey participation agreement",
+      "text": "We would like you to participate in this research to understand your views on different aspects of your practice as a physician. The survey should not take you more than 15 minutes.\n\nI understand the importance of this survey and agree to provide thorough responses",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "I understand the importance of this survey and agree to provide thorough responses",
+          "value": 1,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I do not agree to participate in this survey",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "I do not agree to participate in this survey: Terminate.",
+      "notes": "ALL TERMINATES ARE IMMEDIATE. Quota: 50 for code 1.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr1",
+      "variable": null,
+      "title": "Confidentiality and consent agreement",
+      "text": "Any information I provide will be treated as confidential, and I will remain anonymous unless I consent otherwise.\n\nMy participation is entirely voluntary, and I have the right to refuse to answer a question or completely withdraw from the research at any time. I understand if I refuse to answer questions and/or withdraw from the research before completing the interview, I will not be eligible to collect my honorarium for this interview.\n\nMy responses will be used for analysis purposes. The results of this survey will be provided to the client and used for lawful purposes, unless I consent otherwise, and I will have the opportunity to confirm my consent at the end of the interview, in case I have changed my mind. I understand that withdrawal of consent will not apply to any information that has already been anonymized.\n\nAny information presented to me as part of the interview is confidential and should be assumed to be hypothetical, shared solely to explore my reactions.\n\nI understand the importance of this survey and agree to provide thorough responses",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "I understand the importance of this survey and agree to provide thorough responses",
+          "value": 1,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I do not agree to participate in this survey",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "I do not agree to participate in this survey: Terminate.",
+      "notes": "Quota: 50 for code 1.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr2",
+      "variable": null,
+      "title": "Current profession",
+      "text": "Which of the following best describes your current profession?",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Physician",
+          "value": 1,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Nurse Practitioner",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Physician Assistant",
+          "value": 3,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Pharmacist",
+          "value": 4,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Pharmacy Technician",
+          "value": 5,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Registered/Licensed Practical Nurse",
+          "value": 6,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "99",
+          "text": "None of the above <ANCHOR>",
+          "value": 99,
+          "exclusive": true,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "All options except Physician: Terminate. None of the above <ANCHOR>: Terminate.",
+      "notes": "<ASK ALL>; <RANDOMIZE>. Physician quota: 50.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr2a",
+      "variable": null,
+      "title": "Primary practice state",
+      "text": "In which state do you primarily practice?",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "STATE",
+          "text": "DROP DOWN LIST, SHOW ALL 51 STATES INCLUDING DC",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "NA",
+          "text": "Not actively practicing",
+          "value": null,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Terminate VT, MN, ME. Not actively practicing: Terminate.",
+      "notes": "HIDDEN VARIABLE NOT SEEN BY RESPONDENT. REG: REgion (code as per m3’s standard).",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr3",
+      "variable": null,
+      "title": "Primary medical specialty",
+      "text": "What is your primary medical specialty?",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Psychiatry",
+          "value": 1,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Oncology/Hematology",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Rheumatology",
+          "value": 3,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Neurology",
+          "value": 4,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Cardiology",
+          "value": 5,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "99",
+          "text": "None of the above <ANCHOR>",
+          "value": 99,
+          "exclusive": true,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "All options except Psychiatry: Terminate. None of the above <ANCHOR>: Terminate.",
+      "notes": "<ASK ALL>; <RANDOMIZE>. Psychiatry quota: 50.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr5",
+      "variable": null,
+      "title": "Years in practice post-residency",
+      "text": "How many years have you been in practice post-residency?",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Terminate if less than 2 years or more than 35 years. Not actively practicing: Terminate.",
+      "notes": "Numeric entry, allow 0-99.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Sc6",
+      "variable": null,
+      "title": "Primary practice setting",
+      "text": "How would you describe your primary practice setting? Select one of the following.",
+      "section": "Screening",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Private practice outpatient (clinic or office)",
+          "value": 1,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Community Mental Health Center (CMHC) / Certified Community Behavioral Health Clinic (CCBHC)",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Hospital emergency room",
+          "value": 3,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Hospital outpatient",
+          "value": 4,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Inpatient psychiatric ward (as part of an acute care hospital or a standalone psychiatric hospital)",
+          "value": 5,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Long-term care facility (e.g., group home, skilled nursing facility, correctional/institutional setting)",
+          "value": 6,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Telemedicine",
+          "value": 7,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "99",
+          "text": "None of the above <ANCHOR>",
+          "value": 99,
+          "exclusive": true,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "All options except Private practice outpatient: Terminate. None of the above <ANCHOR>: Terminate.",
+      "notes": "<ASK ALL>; <RANDOMIZE>. Private practice outpatient quota: 50.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Sc7",
+      "variable": null,
+      "title": "Monthly psychiatric prescriptions",
+      "text": "How many prescriptions for any psychiatric-related conditions do you write or refill in a typical month? Your best estimate is fine.",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Terminate if less than 10.",
+      "notes": "Numeric entry, allow 0-99999.",
+      "metadata": {
+        "source_table": 10,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Sc8",
+      "variable": null,
+      "title": "Specialty pharmacy prescription percentage",
+      "text": "Approximately what percentage of the <INSERT SCR7> prescriptions you write or refill in a typical month are processed via a specialty pharmacy? Your best estimate is fine.",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Terminate if <1%.",
+      "notes": "Numeric entry, allow 0-100%.",
+      "metadata": {
+        "source_table": 11,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr9",
+      "variable": null,
+      "title": "REMS or controlled substance percentage",
+      "text": "Approximately what percentage of your prescriptions that are processed via a specialty pharmacy in a typical month fall under a REMS or controlled substance program? Your best estimate is fine.",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Numeric entry, allow 0-100%.",
+      "metadata": {
+        "source_table": 12,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr10_1",
+      "variable": null,
+      "title": "White bagging percentage",
+      "text": "Approximately what percentage of the prescriptions you process through a specialty pharmacy are sent directly to you in your clinical practice (also known as white bagging)? Your best estimate is fine.",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Terminate if <1%.",
+      "notes": "Numeric entry, allow 0-100%.",
+      "metadata": {
+        "source_table": 13,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Scr10_2",
+      "variable": null,
+      "title": "Brown bagging percentage",
+      "text": "Approximately what percentage of the prescriptions you process through a specialty pharmacy are sent directly to your patients for them to bring to your clinical practice (also known as brown bagging)? Your best estimate is fine.",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Numeric entry, allow 0-100%.",
+      "metadata": {
+        "source_table": 13,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Scr10_3",
+      "variable": null,
+      "title": "Buy and bill percentage",
+      "text": "Approximately what percentage of the prescriptions you process through a specialty pharmacy are buy and bill? Your best estimate is fine.",
+      "section": "Screening",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Numeric entry, allow 0-100%.",
+      "metadata": {
+        "source_table": 13,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Qintro_info",
+      "variable": null,
+      "title": "Study introduction",
+      "text": "Thank you for agreeing to participate in this study. We are recruiting on behalf of a pharmacy company to learn more about your experiences with providers of specialty pharmacies.\n\nPlease be assured that:\nThis survey is for market research purposes only.\nYour responses will be collated with the responses of other respondents and presented to the commissioning company in an aggregated and anonymous form. Your identity will not be revealed and any information you give will be treated confidentially and will not be used for any other purposes or disclosed to any third party.\nYou can withdraw from the market research study at any time.\n\nBy answering “Yes” to the following question, you consent to participate in this survey on the basis described above.",
+      "section": "Introduction",
+      "question_type": "INFO",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "Qintro_consent",
+      "variable": null,
+      "title": "Consent to participate on stated basis",
+      "text": "Are you willing to participate in this study on this basis?",
+      "section": "Introduction",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes",
+          "value": 1,
+          "exclusive": true,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "No",
+          "value": 2,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "No: Terminate.",
+      "notes": null,
+      "metadata": {
+        "source_table": 14,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "S1Q1",
+      "variable": null,
+      "title": "Greatest benefit of white bagging",
+      "text": "Using the space below, please describe what you consider to be the greatest benefit of white bagging practices. There are no wrong answers. We are seeking your opinions based on your perceptions and thoughts about white bagging benefits.\n\nPlease do not enter words, such as “none”, “nothing”, or “don’t know”, but rather write a sentence or describe the greatest benefit based on your experience. Please be as detailed as possible. <Allow for 500 characters/letters>",
+      "section": "Section one",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ORDER OF S1Q1 AND S1Q2>. <NEW SCREEN>.",
+      "metadata": {}
+    },
+    {
+      "id": "S1Q2",
+      "variable": null,
+      "title": "Greatest disadvantage of white bagging",
+      "text": "Using the space below, please describe what you consider to be the greatest disadvantage of white bagging practices. There are no wrong answers. We are seeking your opinions based on your perceptions and thoughts about white bagging benefits.\n\nPlease do not enter words, such as “none”, “nothing”, or “don’t know”, but rather write a sentence or describe the greatest disadvantage based on your experience. Please be as detailed as possible. <Allow for 500 characters/letters>",
+      "section": "Section one",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ORDER OF S1Q1 AND S1Q2>.",
+      "metadata": {}
+    },
+    {
+      "id": "S1Q3_1",
+      "variable": null,
+      "title": "Initiation of treatment",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nInitiation of treatment",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _1.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "S1Q3_2",
+      "variable": null,
+      "title": "Staff workload",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nStaff workload",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _2.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "S1Q3_3",
+      "variable": null,
+      "title": "Scheduling reliability",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nScheduling reliability",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _3.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "S1Q3_4",
+      "variable": null,
+      "title": "Medication availability",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nMedication availability",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _4.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "S1Q3_5",
+      "variable": null,
+      "title": "Patient experience",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nPatient experience",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _5.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "S1Q3_6",
+      "variable": null,
+      "title": "Financial risk to practice",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nFinancial risk to practice",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _6.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 7
+      }
+    },
+    {
+      "id": "S1Q3_7",
+      "variable": null,
+      "title": "Confidence in product handling",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nConfidence in product handling",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _7.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 8
+      }
+    },
+    {
+      "id": "S1Q3_8",
+      "variable": null,
+      "title": "Ability to resolve problems quickly",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nAbility to resolve problems quickly",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _8.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 9
+      }
+    },
+    {
+      "id": "S1Q3_9",
+      "variable": null,
+      "title": "Order limitations",
+      "text": "To what extent does white bagging affect each of the following areas when compared to traditional buy and bill? Select one per row.\n\nOrder limitations",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Much worse",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Somewhat worse",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No difference",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Somewhat better",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Much better",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Randomize rows. Source matrix row label: _9.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 10
+      }
+    },
+    {
+      "id": "S1Q3a",
+      "variable": null,
+      "title": "Expected specialty pharmacy support",
+      "text": "What type of support do you expect from specialty pharmacies when dispensing controlled medications? Select your top 3 expectations.",
+      "section": "Section one",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Temperature-controlled packaging",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Secure storage",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Secure delivery",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Patient adherence support",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Patient education material",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Ongoing monitoring",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Insurance and PA assistance",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Being central point of contact",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "24/7 Support and Emergency Access",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "REMS compliance",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "97",
+          "text": "Other (specify:_________)<ANCHOR>",
+          "value": 97,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE>. Select top 3.",
+      "metadata": {
+        "source_table": 18,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "S1Q3b",
+      "variable": null,
+      "title": "Favorite specialty pharmacy",
+      "text": "Using the space below, please type in who you consider to be your favorite specialty pharmacy for psychiatric treatments.\n\nEnter one name.",
+      "section": "Section one",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "S1Q3c",
+      "variable": null,
+      "title": "Reason favorite specialty pharmacy is preferred",
+      "text": "Why do you consider this specialty pharmacy to be your favorite?\n\nPlease do not enter words, such as “nothing”, or “don’t know”, but rather describe why you consider this provider to be your favorite. Please be as detailed as possible. <Allow for 500 characters/letters>",
+      "section": "Section one",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    },
+    {
+      "id": "S1Q4_1",
+      "variable": null,
+      "title": "CVS Specialty (CVS Health)",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nCVS Specialty (CVS Health)",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _1.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "S1Q4_2",
+      "variable": null,
+      "title": "Accredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nAccredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _2.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "S1Q4_3",
+      "variable": null,
+      "title": "Optum Specialty Pharmacy (UnitedHealth Group/OptumRx)",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nOptum Specialty Pharmacy (UnitedHealth Group/OptumRx)",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _3.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "S1Q4_4",
+      "variable": null,
+      "title": "Walgreens Specialty Pharmacy",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nWalgreens Specialty Pharmacy",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _4.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "S1Q4_5",
+      "variable": null,
+      "title": "CenterWell Specialty Pharmacy (Humana)",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nCenterWell Specialty Pharmacy (Humana)",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _5.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "S1Q4_6",
+      "variable": null,
+      "title": "Walmart Specialty Pharmacy",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nWalmart Specialty Pharmacy",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _6.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 7
+      }
+    },
+    {
+      "id": "S1Q4_7",
+      "variable": null,
+      "title": "CarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nCarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _7.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 8
+      }
+    },
+    {
+      "id": "S1Q4_8",
+      "variable": null,
+      "title": "AcariaHealth",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nAcariaHealth",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _8.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 9
+      }
+    },
+    {
+      "id": "S1Q4_9",
+      "variable": null,
+      "title": "Genoa Healthcare",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nGenoa Healthcare",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _9.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 10
+      }
+    },
+    {
+      "id": "S1Q4_10",
+      "variable": null,
+      "title": "Orsini",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nOrsini",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _10.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 11
+      }
+    },
+    {
+      "id": "S1Q4_11",
+      "variable": null,
+      "title": "Alto",
+      "text": "Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n\nAlto",
+      "section": "Section one",
+      "question_type": "GRID_SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "A",
+          "text": "Never heard of",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "B",
+          "text": "Heard of, but never considered using",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "C",
+          "text": "Considered using, but never tried",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "D",
+          "text": "Tried in the past, but no longer use",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "E",
+          "text": "Use occasionally",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "F",
+          "text": "Use regularly",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "G",
+          "text": "One of my preferred specialty pharmacy providers",
+          "value": null,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "<RANDOMIZE ROWS>. Source matrix row label: _11.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 12
+      }
+    },
+    {
+      "id": "S1Q6",
+      "variable": null,
+      "title": "Best-performing specialty pharmacy",
+      "text": "Which of the following specialty pharmacies performs best for your practice? Select one.",
+      "section": "Section one",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "CVS Specialty (CVS Health)",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Accredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Optum Specialty Pharmacy (UnitedHealth Group/OptumRx)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Walgreens Specialty Pharmacy",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "CenterWell Specialty Pharmacy (Humana)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Walmart Specialty Pharmacy",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "CarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "AcariaHealth",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Genoa Healthcare",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Orsini",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Alto",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "99",
+          "text": "None of the above",
+          "value": 99,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "<SHOW IF S1Q4=E-G>. <SHOW PROVIDERS SELECTED E-G IN S1Q4>.",
+      "notes": null,
+      "metadata": {
+        "source_table": 22,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "S1Q8",
+      "variable": null,
+      "title": "Payer-mandated specialty pharmacy challenges",
+      "text": "What percentage of the time have you experienced challenges with not being able to buy and bill or utilize your favorite specialty pharmacy due to payer mandates in the last 6 months? Enter a whole number. If none, enter zero ‘0’",
+      "section": "Section one",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Numeric entry, allow 0-100%.",
+      "metadata": {
+        "source_table": 23,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "S1Q9",
+      "variable": null,
+      "title": "Rewriting scripts due to dispensing limitations",
+      "text": "How often did you need to re-write a script due to a specialty pharmacy service provider being unable to dispense a controlled/REMS product to your state in the last 6 months?",
+      "section": "Section one",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Very frequently (over 75% of the time)",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Frequently (51%-74% of the time)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Often (26%-50% of the time)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Sometimes (11%-25% of the time)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Rarely (1%-10% of the time)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Never",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "<SHOW IF SCR8>0%>",
+      "notes": null,
+      "metadata": {
+        "source_table": 24,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "S1Q11",
+      "variable": null,
+      "title": "Barrier to starting REMS or controlled substance therapies",
+      "text": "Besides cost or insurance reasons, what is the most important barrier your patients face when starting REMS or controlled substance therapies? Enter your answer in the space below.\n\nPlease do not enter “none”, or “don’t know”, but rather describe what you consider to be the most important barrier besides cost or insurance. Please be as detailed as possible. <Allow for 500 characters/letters>",
+      "section": "Section one",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {}
+    }
+  ],
+  "parser": "openai_document_extractor",
+  "parser_version": null,
+  "source_file": "(V2_R100898) Definium_spec_pharm_07.20.26 (2).docx",
+  "source_format": "docx",
+  "source_text": "AnswerSuite\nSpecialty pharmacy perception questionnaire\nJuly 9, 2026\n7/22 edits\nTotal sample = 50 US-based psychs recruited from client target list\nOnline interview methodology\nMaster quota table:\nQuota\nPsychs\nTotal\nUS\n50\n50\nResearch Objectives\nUnderstand physician perspectives on White bagging, including perceived benefits, challenges, and operational impacts.\nExplore specialty pharmacy preferences, key decision drivers, and experiences working with specialty pharmacy partners.\nALL TERMINATES ARE IMMEDIATE\n<NEW SCREEN>\n<ASK ALL >\nqCountry. In which country do you work?\n<RANDOMIZE>\nUS\n1033\nQuota: 50\nCanada\n4105\nTerminate\nOther <ANCHOR>\n98\nTerminate\n<ASK ALL>\nScr0.\nWe would like you to participate in this research to understand your views on different aspects of your practice as a physician. The survey should not take you more than 15 minutes.\nYour time, expertise and confidentiality are greatly appreciated!\nI understand the importance of this survey and agree to provide thorough responses\n1\nQuota: 50\nI do not agree to participate in this survey\n2\nTerminate\nDemographics\n<NEW SCREEN>\nAEDISCLAIMER\nIn the event of an adverse event…\nWe are required to pass on to our client details of adverse events/safety situations/incidents and product complaints pertaining to their products that are mentioned during the study. If this happens, we will need to collect details and report the event, even if you have already done so personally.\nYou will be asked whether you consent to us passing your details to the client company’s drug safety department for their follow-up, but you may choose to remain anonymous. This will have no impact on the confidentiality and anonymity associated with the study itself.\n<NEW SCREEN>\nInfo.\nWe would appreciate your participation in a short study pertaining to different aspects of your medical practice. The survey should not take you more than 15 minutes.\n<NEW SCREEN>\nScr1.\nAny information I provide will be treated as confidential, and I will remain anonymous unless I consent otherwise.\nMy participation is entirely voluntary, and I have the right to refuse to answer a question or completely withdraw from the research at any time. I understand if I refuse to answer questions and/or withdraw from the research before completing the interview, I will not be eligible to collect my honorarium for this interview.\nMy responses will be used for analysis purposes. The results of this survey will be provided to the client and used for lawful purposes, unless I consent otherwise, and I will have the opportunity to confirm my consent at the end of the interview, in case I have changed my mind. I understand that withdrawal of consent will not apply to any information that has already been anonymized.\nAny information presented to me as part of the interview is confidential and should be assumed to be hypothetical, shared solely to explore my reactions.\nI understand the importance of this survey and agree to provide thorough responses\n1\nQuota: 50\nI do not agree to participate in this survey\n2\nTerminate\nScreeners\n<NEW SCREEN>\n<ASK ALL>\nScr2.Which of the following best describes your current profession?\n<RANDOMIZE>\nPhysician\n1\nQuota: 50\nNurse Practitioner\n2\nTerminate\nPhysician Assistant\n3\nTerminate\nPharmacist\n4\nTerminate\nPharmacy Technician\n5\nTerminate\nRegistered/Licensed Practical Nurse\n6\nTerminate\nNone of the above <ANCHOR>\n99\nTerminate\n<NEW SCREEN>\n<ASK ALL >\nScr2a.In which state do you primarily practice?\nDROP DOWN LIST, SHOW ALL 51 STATES INCLUDING DC\nTerminate VT, MN, ME\nNot actively practicing\nTerminate\nHIDDEN VARIABLE NOT SEEN BY RESPONDENT\nREG: REgion (code as per m3’s standard)\n<NEW SCREEN>\n<ASK ALL>\nScr3.What is your primary medical specialty?\n<RANDOMIZE>\nPsychiatry\n1\nQuota: 50\nOncology/Hematology\n2\nTerminate\nRheumatology\n3\nTerminate\nNeurology\n4\nTerminate\nCardiology\n5\nTerminate\nNone of the above <ANCHOR>\n99\nTerminate\n<NEW SCREEN>\n<ASK ALL>\nScr5. How many years have you been in practice post-residency?\n[Numeric entry, allow 0-99]\nTerminate if less than 2 years or more than 35 years\nNot actively practicing\nTerminate\n<NEW SCREEN>\n<ASK ALL>\nSc6.How would you describe your primary practice setting?  Select one of the following.\n<RANDOMIZE>\nPrivate practice outpatient (clinic or office)\n1\nQuota: 50\nCommunity Mental Health Center (CMHC) / Certified Community Behavioral Health Clinic (CCBHC)\n2\nTerminate\nHospital emergency room\n3\nTerminate\nHospital outpatient\n4\nTerminate\nInpatient psychiatric ward (as part of an acute care hospital or a standalone psychiatric hospital)\n5\nTerminate\nLong-term care facility (e.g., group home, skilled nursing facility, correctional/institutional setting)\n6\nTerminate\nTelemedicine\n7\nTerminate\nNone of the above <ANCHOR>\n99\nTerminate\n<NEW SCREEN>\n<ASK ALL>\nSc7.How many prescriptions for any psychiatric-related conditions do you write or refill in a typical month?  Your best estimate is fine.\n[Numeric entry, allow 0-99999]\nTerminate if less than 10\n<ASK ALL>\nSc8.Approximately what percentage of the <INSERT SCR7> prescriptions you write or refill in a typical month are processed via a specialty pharmacy?  Your best estimate is fine.\n[Numeric entry, allow 0-100%]\nTerminate if <1%\n<ASK ALL>\nScr9.Approximately what percentage of your prescriptions that are processed via a specialty pharmacy in a typical month fall under a REMS or controlled substance program?  Your best estimate is fine.\n[Numeric entry, allow 0-100%]\n<NEW SCREEN>\n<ASK ALL>\nScr10.Approximately what percentage of the prescriptions you process through a specialty pharmacy are…  Your best estimate is fine.\nSent directly to you in your clinical practice (also known as white bagging)\n[Numeric entry, allow 0-100%]\n1\nTerminate if <1%\nSent directly to your patients for them to bring to your clinical practice\n(also known as brown bagging)\n[Numeric entry, allow 0-100%]\n2\nBuy and bill\n[Numeric entry, allow 0-100%]\n3\n<NEW SCREEN>\nQintro.\nThank you for agreeing to participate in this study. We are recruiting on behalf of a pharmacy company to learn more about your experiences with providers of specialty pharmacies.\nPlease be assured that:\nThis survey is for market research purposes only.\nYour responses will be collated with the responses of other respondents and presented to the commissioning company in an aggregated and anonymous form. Your identity will not be revealed and any information you give will be treated confidentially and will not be used for any other purposes or disclosed to any third party.\nYou can withdraw from the market research study at any time.\nBy answering “Yes” to the following question, you consent to participate in this survey on the basis described above.\nAre you willing to participate in this study on this basis?\nYes\n1\nNo\n2\nTerminate\nSection one:\n<NEW SCREEN>\nWe would like to begin the survey by asking about your overall experience with the white bagging practice for you and your patients.\n<RANDOMIZE ORDER OF S1Q1 AND S1Q2>\n<NEW SCREEN>\nS1Q1.Using the space below, please describe what you consider to be the greatest benefit of white bagging practices. There are no wrong answers. We are seeking your opinions based on your perceptions and thoughts about white bagging benefits.\nPlease do not enter words, such as “none”, “nothing”, or “don’t know”, but rather write a sentence or describe the greatest benefit based on your experience. Please be as detailed as possible. <Allow for 500 characters/letters>\n<NEW SCREEN>\nS1Q2.Using the space below, please describe what you consider to be the greatest disadvantage of white bagging practices. There are no wrong answers. We are seeking your opinions based on your perceptions and thoughts about white bagging benefits.\nPlease do not enter words, such as “none”, “nothing”, or “don’t know”, but rather write a sentence or describe the greatest disadvantage based on your experience. Please be as detailed as possible. <Allow for 500 characters/letters>\n<NEW SCREEN>\nS1Q3.To what extent does white bagging affect each of the following areas when compared to traditional buy and bill?  Select one per row.\n<RANDOMIZE ROWS>\nMuch worse\nSomewhat worse\nNo difference\nSomewhat better\nMuch better\n_1\nInitiation of treatment\n_2\nStaff workload\n_3\nScheduling reliability\n_4\nMedication availability\n_5\nPatient experience\n_6\nFinancial risk to practice\n_7\nConfidence in product handling\n_8\nAbility to resolve problems quickly\n_9\nOrder limitations\n<NEW SCREEN>\nWe’d like to shift the focus to specialty pharmacies.\nS1Q3a.What type of support do you expect from specialty pharmacies when dispensing controlled medications? Select your top 3 expectations.\n<RANDOMIZE>\nTemperature-controlled packaging\n1\nSecure storage\n2\nSecure delivery\n3\nPatient adherence support\n4\nPatient education material\n5\nOngoing monitoring\n6\nInsurance and PA assistance\n7\nBeing central point of contact\n8\n24/7 Support and Emergency Access\n9\nREMS compliance\n10\nOther (specify:_________)<ANCHOR>\n97\n<NEW SCREEN>\nS1Q3b.Using the space below, please type in who you consider to be your favorite specialty pharmacy for psychiatric treatments.\nEnter one name.\n<NEW SCREEN>\nS1Q3c. Why do you consider this specialty pharmacy to be your favorite?\nPlease do not enter words, such as “nothing”, or “don’t know”, but rather describe why you consider this provider to be your favorite. Please be as detailed as possible. <Allow for 500 characters/letters>\n<NEW SCREEN>\nS1Q4.Please describe your experience with the following specialty pharmacies for psychiatric treatments:\n<RANDOMIZE ROWS>\nA\nNever heard of\nB\nHeard of, but never considered using\nC\nConsidered using, but never tried\nD\nTried in the past, but no longer use\nE\nUse occasionally\nF\nUse regularly\nG\nOne of my preferred specialty pharmacy providers\n_1\nCVS Specialty (CVS Health)\n_2\nAccredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)\n_3\nOptum Specialty Pharmacy (UnitedHealth Group/OptumRx)\n_4\nWalgreens Specialty Pharmacy\n_5\nCenterWell Specialty Pharmacy (Humana)\n_6\nWalmart Specialty Pharmacy\n_7\nCarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy\n_8\nAcariaHealth\n_9\nGenoa Healthcare\n_10\nOrsini\n_11\nAlto\n<NEW SCREEN>\n<SHOW IF S1Q4=E-G>\nS1Q6. Which of the following specialty pharmacies performs best for your practice? Select one.\n<SHOW PROVIDERS SELECTED E-G IN S1Q4>\nCVS Specialty (CVS Health)\n1\nAccredo/Freedom Fertility (Cigna/Evernorth/Express Scripts)\n2\nOptum Specialty Pharmacy (UnitedHealth Group/OptumRx)\n3\nWalgreens Specialty Pharmacy\n4\nCenterWell Specialty Pharmacy (Humana)\n5\nWalmart Specialty Pharmacy\n6\nCarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy\n7\nAcariaHealth\n8\nGenoa Healthcare\n9\nOrsini\n10\nAlto\n11\nNone of the above\n99\n<NEW SCREEN>\nS1Q8. What percentage of the time have you experienced challenges with not being able to buy and bill or utilize your favorite specialty pharmacy due to payer mandates in the last 6 months? Enter a whole number.  If none, enter zero ‘0’\n[Numeric entry, allow 0-100%]\n<NEW SCREEN>\n<SHOW IF SCR8>0%>\nS1Q9. How often did you need to re-write a script due to a specialty pharmacy service provider being unable to dispense a controlled/REMS product to your state in the last 6 months?\nVery frequently (over 75% of the time)\n1\nFrequently (51%-74% of the time)\n2\nOften (26%-50% of the time)\n3\nSometimes (11%-25% of the time)\n4\nRarely (1%-10% of the time)\n5\nNever\n6\n<NEW SCREEN>\nWe would like to end by knowing more about your patients’ experience.\nS1Q11. Besides cost or insurance reasons, what is the most important barrier your patients face when starting REMS or controlled substance therapies?  Enter your answer in the space below.\nPlease do not enter “none”, or “don’t know”, but rather describe what you consider to be the most important barrier besides cost or insurance. Please be as detailed as possible. <Allow for 500 characters/letters>\nThank you for participating in this study. Please click “>>” to submit your survey answers.\nQuota | Psychs | Total\nUS | 50 | 50\nUS | 1033 | Quota: 50\nCanada | 4105 | Terminate\nOther <ANCHOR> | 98 | Terminate\nI understand the importance of this survey and agree to provide thorough responses | 1 | Quota: 50\nI do not agree to participate in this survey | 2 | Terminate\nI understand the importance of this survey and agree to provide thorough responses | 1 | Quota: 50\nI do not agree to participate in this survey | 2 | Terminate\nPhysician | 1 | Quota: 50\nNurse Practitioner | 2 | Terminate\nPhysician Assistant | 3 | Terminate\nPharmacist | 4 | Terminate\nPharmacy Technician | 5 | Terminate\nRegistered/Licensed Practical Nurse | 6 | Terminate\nNone of the above <ANCHOR> | 99 | Terminate\nDROP DOWN LIST, SHOW ALL 51 STATES INCLUDING DC |  | Terminate VT, MN, ME\nNot actively practicing |  | Terminate\nPsychiatry | 1 | Quota: 50\nOncology/Hematology | 2 | Terminate\nRheumatology | 3 | Terminate\nNeurology | 4 | Terminate\nCardiology | 5 | Terminate\nNone of the above <ANCHOR> | 99 | Terminate\n[Numeric entry, allow 0-99] |  | Terminate if less than 2 years or more than 35 years\nNot actively practicing |  | Terminate\nPrivate practice outpatient (clinic or office) | 1 | Quota: 50\nCommunity Mental Health Center (CMHC) / Certified Community Behavioral Health Clinic (CCBHC) | 2 | Terminate\nHospital emergency room | 3 | Terminate\nHospital outpatient | 4 | Terminate\nInpatient psychiatric ward (as part of an acute care hospital or a standalone psychiatric hospital) | 5 | Terminate\nLong-term care facility (e.g., group home, skilled nursing facility, correctional/institutional setting) | 6 | Terminate\nTelemedicine | 7 | Terminate\nNone of the above <ANCHOR> | 99 | Terminate\n[Numeric entry, allow 0-99999] |  | Terminate if less than 10\n[Numeric entry, allow 0-100%] |  | Terminate if <1%\n[Numeric entry, allow 0-100%] |  | \nSent directly to you in your clinical practice (also known as white bagging) | [Numeric entry, allow 0-100%] | 1 | Terminate if <1%\nSent directly to your patients for them to bring to your clinical practice (also known as brown bagging) | [Numeric entry, allow 0-100%] | 2 | \nBuy and bill | [Numeric entry, allow 0-100%] | 3 | \nYes | 1 | \nNo | 2 | Terminate\n |  | Much worse | Somewhat worse | No difference | Somewhat better | Much better\n_1 | Initiation of treatment |  |  |  |  | \n_2 | Staff workload |  |  |  |  | \n_3 | Scheduling reliability |  |  |  |  | \n_4 | Medication availability |  |  |  |  | \n_5 | Patient experience |  |  |  |  | \n_6 | Financial risk to practice |  |  |  |  | \n_7 | Confidence in product handling |  |  |  |  | \n_8 | Ability to resolve problems quickly |  |  |  |  | \n_9 | Order limitations |  |  |  |  | \nTemperature-controlled packaging | 1\nSecure storage | 2\nSecure delivery | 3\nPatient adherence support | 4\nPatient education material | 5\nOngoing monitoring | 6\nInsurance and PA assistance | 7\nBeing central point of contact | 8\n24/7 Support and Emergency Access | 9\nREMS compliance | 10\nOther (specify:_________)<ANCHOR> | 97\n |  | A Never heard of | B Heard of, but never considered using | C Considered using, but never tried | D Tried in the past, but no longer use | E Use occasionally | F Use regularly | G One of my preferred specialty pharmacy providers\n_1 | CVS Specialty (CVS Health) |  |  |  |  |  |  | \n_2 | Accredo/Freedom Fertility (Cigna/Evernorth/Express Scripts) |  |  |  |  |  |  | \n_3 | Optum Specialty Pharmacy (UnitedHealth Group/OptumRx) |  |  |  |  |  |  | \n_4 | Walgreens Specialty Pharmacy |  |  |  |  |  |  | \n_5 | CenterWell Specialty Pharmacy (Humana) |  |  |  |  |  |  | \n_6 | Walmart Specialty Pharmacy |  |  |  |  |  |  | \n_7 | CarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy |  |  |  |  |  |  | \n_8 | AcariaHealth |  |  |  |  |  |  | \n_9 | Genoa Healthcare |  |  |  |  |  |  | \n_10 | Orsini |  |  |  |  |  |  | \n_11 | Alto |  |  |  |  |  |  | \nCVS Specialty (CVS Health) | 1\nAccredo/Freedom Fertility (Cigna/Evernorth/Express Scripts) | 2\nOptum Specialty Pharmacy (UnitedHealth Group/OptumRx) | 3\nWalgreens Specialty Pharmacy | 4\nCenterWell Specialty Pharmacy (Humana) | 5\nWalmart Specialty Pharmacy | 6\nCarelonRx/Elevance/Kroger/BioPlus Specialty Pharmacy | 7\nAcariaHealth | 8\nGenoa Healthcare | 9\nOrsini | 10\nAlto | 11\nNone of the above | 99\n[Numeric entry, allow 0-100%] |  | \nVery frequently (over 75% of the time) | 1\nFrequently (51%-74% of the time) | 2\nOften (26%-50% of the time) | 3\nSometimes (11%-25% of the time) | 4\nRarely (1%-10% of the time) | 5\nNever | 6",
+  "total_questions": 45,
+  "total_sections": 3,
+  "metadata_extra": {}
+}

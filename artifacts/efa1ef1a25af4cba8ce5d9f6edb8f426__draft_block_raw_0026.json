@@ -1,0 +1,14 @@
+{
+  "block_id": "B26",
+  "source_variables": [
+    "Q21",
+    "Q22",
+    "S10r2"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q21-Q22.\ntemporary.\nsel if miss(Q21) or Q21<0 or Q21>S10r2 or miss(Q22) or Q22<0 or Q22>S10r2.\nlist respid, S10r2, Q21, Q22.",
+  "omission_reason": null,
+  "warnings": [
+    "Q21 and Q22 are routed when S10r2>0."
+  ]
+}

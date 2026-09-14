@@ -1,0 +1,15 @@
+{
+  "block_id": "B07",
+  "source_variables": [
+    "S10r1",
+    "S10r2",
+    "S10r3",
+    "S9"
+  ],
+  "temporary_variables": [
+    "S10_total"
+  ],
+  "spss": "tit S10.\ntemporary.\nsel if miss(S10r1) or S10r1<0 or S10r1>S9 or miss(S10r2) or S10r2<0 or S10r2>S9 or miss(S10r3) or S10r3<0 or S10r3>S9.\nlist respid, S9, S10r1, S10r2, S10r3.\ncompute S10_total=sum(S10r1,S10r2,S10r3).\nexe.\ntit S10 total.\ntemporary.\nsel if S10_total>S9.\nlist respid, S9, S10r1, S10r2, S10r3, S10_total.\ndel var S10_total.\nexe.",
+  "omission_reason": null,
+  "warnings": []
+}

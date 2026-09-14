@@ -1,0 +1,16 @@
+{
+  "block_id": "B25",
+  "source_variables": [
+    "Q20a",
+    "Q20b",
+    "Q20c",
+    "Q17",
+    "S10r1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q20.\ntemporary.\nsel if miss(Q20a) or ~range(Q20a,0,10) or miss(Q20b) or Q20b<0 or Q20b>Q20a or miss(Q20c) or Q20c<0 or Q20c>Q20b.\nlist respid, Q17, S10r1, Q20a, Q20b, Q20c.",
+  "omission_reason": null,
+  "warnings": [
+    "The source asks Q20 when Q17<S10r1 and conditionally asks Q20b/Q20c. Route-specific missingness is not independently inferred."
+  ]
+}

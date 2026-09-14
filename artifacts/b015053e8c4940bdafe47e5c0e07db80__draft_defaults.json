@@ -1,0 +1,89 @@
+{
+  "version": "1",
+  "respondent_id": "respid",
+  "ordinary_questions_required": true,
+  "include_test_case_check": true,
+  "test_tokens": [
+    "test",
+    "TEST",
+    "Test",
+    "TEst",
+    "TESt",
+    "tEST",
+    "?",
+    "."
+  ],
+  "administrative_rules": [
+    {
+      "variable": "respid",
+      "kind": "positive",
+      "values": [],
+      "position": "before"
+    },
+    {
+      "variable": "user_id",
+      "kind": "nonblank",
+      "values": [],
+      "position": "before"
+    },
+    {
+      "variable": "interview_start",
+      "kind": "nonmissing",
+      "values": [],
+      "position": "before"
+    },
+    {
+      "variable": "interview_end",
+      "kind": "nonmissing",
+      "values": [],
+      "position": "before"
+    },
+    {
+      "variable": "screenstatus",
+      "kind": "equals",
+      "values": [
+        "COMPLETE"
+      ],
+      "position": "before"
+    },
+    {
+      "variable": "scrstatus",
+      "kind": "equals",
+      "values": [
+        "COMPLETE"
+      ],
+      "position": "before"
+    },
+    {
+      "variable": "hidchange",
+      "kind": "range",
+      "values": [
+        "0",
+        "10"
+      ],
+      "position": "before"
+    },
+    {
+      "variable": "surveyloi",
+      "kind": "positive",
+      "values": [],
+      "position": "after"
+    },
+    {
+      "variable": "hidoebatch",
+      "kind": "equals",
+      "values": [
+        "99"
+      ],
+      "position": "after"
+    },
+    {
+      "variable": "hiddvbatch",
+      "kind": "equals",
+      "values": [
+        "99"
+      ],
+      "position": "after"
+    }
+  ]
+}

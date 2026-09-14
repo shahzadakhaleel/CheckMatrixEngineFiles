@@ -1,0 +1,504 @@
+[
+  {
+    "id": "ADMIN_RESPID",
+    "question_ids": [],
+    "source_variables": [
+      "respid"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:respid"
+    ]
+  },
+  {
+    "id": "ADMIN_USER_ID",
+    "question_ids": [],
+    "source_variables": [
+      "user_id"
+    ],
+    "checks": [
+      "Shared default: nonblank []"
+    ],
+    "provenance": [
+      "defaults:1:user_id"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_START",
+    "question_ids": [],
+    "source_variables": [
+      "interview_start"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_start"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_END",
+    "question_ids": [],
+    "source_variables": [
+      "interview_end"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_end"
+    ]
+  },
+  {
+    "id": "ADMIN_SCREENSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "screenstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:screenstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_SCRSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "scrstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:scrstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDCHANGE",
+    "question_ids": [],
+    "source_variables": [
+      "hidchange"
+    ],
+    "checks": [
+      "Shared default: range [\"0\", \"10\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidchange"
+    ]
+  },
+  {
+    "id": "B_screener",
+    "question_ids": [
+      "ae1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9"
+    ],
+    "source_variables": [
+      "ae1",
+      "s2",
+      "s2_98_other",
+      "s3",
+      "s4",
+      "s5_1",
+      "s6_1",
+      "s7_1",
+      "s7_2",
+      "s7_3",
+      "s7_4",
+      "s7_5",
+      "s7_6",
+      "s7_7",
+      "s8_1",
+      "s8_2",
+      "s9_1",
+      "s9_2",
+      "s9_3",
+      "s9_4",
+      "s9_98",
+      "s9_98_other",
+      "qlist",
+      "targettype",
+      "call_in_last_6_months"
+    ],
+    "checks": [
+      "Required ordinary screener responses",
+      "S7 ranges 0–10000",
+      "S8 values do not exceed s7_2 and sum to s7_2",
+      "S9 values do not exceed s8_1 and sum to s8_1",
+      "Apply documented specialty, list-status, state, practice, experience and patient-count terminations"
+    ],
+    "provenance": [
+      "Document blocks 90–171",
+      "Document blocks 4–89",
+      "Dataset dictionary variables qlist, targettype, call_in_last_6_months"
+    ]
+  },
+  {
+    "id": "B_brand_metrics",
+    "question_ids": [
+      "q105",
+      "q110",
+      "q115",
+      "q120",
+      "q125",
+      "q130",
+      "q135",
+      "q137",
+      "q140"
+    ],
+    "source_variables": [
+      "q105_1",
+      "q105_2",
+      "q105_3",
+      "q105_4",
+      "q105_5",
+      "q105_6",
+      "q105_7",
+      "q105_8",
+      "q105_9",
+      "q105_10",
+      "q110_1",
+      "q110_2",
+      "q110_3",
+      "q110_4",
+      "q110_5",
+      "q115_1",
+      "q115_2",
+      "q115_3",
+      "q115_4",
+      "q115_5",
+      "q120_1",
+      "q120_2",
+      "q120_3",
+      "q120_4",
+      "q120_5",
+      "q125_1",
+      "q125_2",
+      "q125_3",
+      "q125_4",
+      "q125_5",
+      "q130_1_1",
+      "q130_1_2",
+      "q130_1_3",
+      "q130_1_4",
+      "q130_1_5",
+      "q130_1_99",
+      "q130_2_1",
+      "q130_2_2",
+      "q130_2_3",
+      "q130_2_4",
+      "q130_2_5",
+      "q130_2_99",
+      "q130_3_1",
+      "q130_3_2",
+      "q130_3_3",
+      "q130_3_4",
+      "q130_3_5",
+      "q130_3_99",
+      "q130_4_1",
+      "q130_4_2",
+      "q130_4_3",
+      "q130_4_4",
+      "q130_4_5",
+      "q130_4_99",
+      "q130_5_1",
+      "q130_5_2",
+      "q130_5_3",
+      "q130_5_4",
+      "q130_5_5",
+      "q130_5_99",
+      "q130_6_1",
+      "q130_6_2",
+      "q130_6_3",
+      "q130_6_4",
+      "q130_6_5",
+      "q130_6_99",
+      "q130_7_1",
+      "q130_7_2",
+      "q130_7_3",
+      "q130_7_4",
+      "q130_7_5",
+      "q130_7_99",
+      "q130_8_1",
+      "q130_8_2",
+      "q130_8_3",
+      "q130_8_4",
+      "q130_8_5",
+      "q130_8_99",
+      "q130_9_1",
+      "q130_9_2",
+      "q130_9_3",
+      "q130_9_4",
+      "q130_9_5",
+      "q130_9_99",
+      "q130_10_1",
+      "q130_10_2",
+      "q130_10_3",
+      "q130_10_4",
+      "q130_10_5",
+      "q130_10_99",
+      "q130_11_1",
+      "q130_11_2",
+      "q130_11_3",
+      "q130_11_4",
+      "q130_11_5",
+      "q130_11_99",
+      "q130_12_1",
+      "q130_12_2",
+      "q130_12_3",
+      "q130_12_4",
+      "q130_12_5",
+      "q130_12_99",
+      "q130_13_1",
+      "q130_13_2",
+      "q130_13_3",
+      "q130_13_4",
+      "q130_13_5",
+      "q130_13_99",
+      "q130_14_1",
+      "q130_14_2",
+      "q130_14_3",
+      "q130_14_4",
+      "q130_14_5",
+      "q130_14_99",
+      "q135_1",
+      "q135_2",
+      "q135_3",
+      "q135_4",
+      "q135_5",
+      "q135_99",
+      "q137",
+      "q140_1",
+      "q140_2",
+      "q140_3",
+      "q140_4",
+      "q140_5",
+      "q140_6",
+      "q140_7",
+      "q140_8",
+      "q140_9",
+      "q140_10",
+      "q140_11",
+      "q140_98",
+      "q140_99",
+      "q140_98_other"
+    ],
+    "checks": [
+      "Q110 codes must be 1–4",
+      "Q115 shown only where corresponding Q110 is 2–4",
+      "Q130 binary fields use code 1; NONE is exclusive within each attribute",
+      "Q135, Q140 multiple-response exclusivity checks",
+      "Q120/Q125 use categorical scale codes, not numeric answers"
+    ],
+    "provenance": [
+      "Document blocks 177–310",
+      "Dataset dictionary labels for Q105–Q140",
+      "Shared default ordinary_questions_required"
+    ]
+  },
+  {
+    "id": "B_blinded_ad_recall",
+    "question_ids": [
+      "q205",
+      "q210",
+      "q220",
+      "q230",
+      "q240",
+      "q245",
+      "q250",
+      "q255"
+    ],
+    "source_variables": [
+      "q205",
+      "q210",
+      "q220",
+      "q220_98_other",
+      "q230_1",
+      "q230_2",
+      "q230_3",
+      "q230_4",
+      "q230_5",
+      "q230_6",
+      "q230_7",
+      "q230_8",
+      "q230_9",
+      "q230_10",
+      "q230_11",
+      "q230_98",
+      "q230_99",
+      "q230_98_other",
+      "q240_1",
+      "q245",
+      "q250_1",
+      "q250_2",
+      "q250_3",
+      "q250_4",
+      "q250_5",
+      "q250_6",
+      "q250_7",
+      "q250_8",
+      "q250_99",
+      "q255_1",
+      "q255_2",
+      "q255_3",
+      "q255_4",
+      "q255_5",
+      "q255_6",
+      "q255_7",
+      "q255_8",
+      "q255_98",
+      "q255_99",
+      "q255_98_other"
+    ],
+    "checks": [
+      "Q205=2 skips Q210–Q255",
+      "Q220 other-text linkage",
+      "Q230 and Q255 exclusive options",
+      "Q240 range 1–99",
+      "Q245 minimum 15 characters"
+    ],
+    "provenance": [
+      "Document blocks 311–374",
+      "Dataset dictionary labels for Q205–Q255"
+    ]
+  },
+  {
+    "id": "B_ad_evaluation",
+    "question_ids": [
+      "q305",
+      "q310",
+      "q315",
+      "q320",
+      "q325",
+      "q340",
+      "q345",
+      "q350",
+      "q355"
+    ],
+    "source_variables": [
+      "q305",
+      "q310",
+      "q315",
+      "q320",
+      "q325_1",
+      "q325_2",
+      "q325_3",
+      "q325_4",
+      "q325_5",
+      "q325_6",
+      "q325_7",
+      "q325_8",
+      "q325_9",
+      "q325_10",
+      "q325_11",
+      "q340",
+      "q345_1",
+      "q345_2",
+      "q345_3",
+      "q345_4",
+      "q345_5",
+      "q345_6",
+      "q345_7",
+      "q345_8",
+      "q345_9",
+      "q345_10",
+      "q345_11",
+      "q345_98",
+      "q345_97",
+      "q345_98_other",
+      "q350_1",
+      "q350_2",
+      "q350_3",
+      "q350_4",
+      "q350_5",
+      "q350_6",
+      "q350_7",
+      "q350_8",
+      "q350_98",
+      "q350_10",
+      "q350_98_other",
+      "q355"
+    ],
+    "checks": [
+      "Q315 shown only when q310=4 or 5",
+      "Q320 shown only when q310=1 or 2",
+      "Q345 shown only when q340=1",
+      "Q350 binary selections and exclusive no-action option",
+      "Q355 shown only when q350=5 or 6"
+    ],
+    "provenance": [
+      "Document blocks 375–466",
+      "Dataset dictionary labels for Q305–Q355"
+    ]
+  },
+  {
+    "id": "B_demographics",
+    "question_ids": [
+      "demographics"
+    ],
+    "source_variables": [
+      "d1",
+      "d2_1",
+      "d3",
+      "d4",
+      "d5"
+    ],
+    "checks": [
+      "Required demographic responses",
+      "D2 range 0–100"
+    ],
+    "provenance": [
+      "Document blocks 467–490",
+      "Dataset dictionary labels for d1–d5"
+    ]
+  },
+  {
+    "id": "ADMIN_SURVEYLOI",
+    "question_ids": [],
+    "source_variables": [
+      "surveyloi"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:surveyloi"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDOEBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidoebatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidoebatch"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDDVBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hiddvbatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hiddvbatch"
+    ]
+  }
+]

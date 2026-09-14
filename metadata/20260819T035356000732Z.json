@@ -1,0 +1,312 @@
+{
+  "run_id": "20260819T035356000732Z",
+  "user": "appadmin",
+  "created_at": "2026-08-19T03:55:41.186009+00:00",
+  "generation_seconds": 202.36,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "9d0d9ea5b7253aa5230a4b6f591c4349dacc5a689e957f4f71188aa88c47cc3f",
+  "input": {
+    "key": "20260819T035356000732Z__R99698_V2_Brinsupri_NCFB_Physician_Survey_V2.docx",
+    "filename": "R99698_V2_Brinsupri_NCFB_Physician_Survey_V2.docx",
+    "size": 3932278,
+    "created_at": "2026-08-19T03:53:56.012384+00:00"
+  },
+  "output": {
+    "key": "Validation_260819035541.sps",
+    "filename": "Validation_260819035541.sps",
+    "size": 26117,
+    "created_at": "2026-08-19T03:55:41.186009+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 82,
+    "checksEmitted": 56,
+    "questionsOmitted": 57,
+    "coveragePercent": 30.5,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Compliance",
+        "prefix": "C",
+        "questions": 5,
+        "checksEmitted": 15,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Screener",
+        "prefix": "SQ",
+        "questions": 8,
+        "checksEmitted": 17,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Section A: NCFB Patient Population & Diagnosis",
+        "prefix": "Q",
+        "questions": 16,
+        "checksEmitted": 24,
+        "questionsOmitted": 4,
+        "coveragePercent": 75.0,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q40_r5",
+            "reason": "The question has response-code and routing evidence, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q50",
+            "reason": "A numeric 0\u2013100 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q60",
+            "reason": "The question has defined response codes, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q65",
+            "reason": "The question has defined response codes, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          }
+        ]
+      },
+      {
+        "block": "Section B: Current Prescribing Behavior",
+        "prefix": "Q",
+        "questions": 44,
+        "checksEmitted": 0,
+        "questionsOmitted": 44,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q70_r1",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r2",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r3",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r4",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r5",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r6",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r7",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r8",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q70_r9",
+            "reason": "A numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q80_r1",
+            "reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q80_r2",
+            "reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q80_r3",
+            "reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q80_r4",
+            "reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q90_r1",
+            "reason": "A conditional numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q90_r2",
+            "reason": "A conditional numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q90_r3",
+            "reason": "A conditional numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q90_r4",
+            "reason": "A conditional numeric bound and cross-question lower-bound check are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q90_r5",
+            "reason": "A conditional numeric 0\u2013SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q95",
+            "reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q100",
+            "reason": "The question has defined multi-response codes and conditional routing, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q110",
+            "reason": "A conditional numeric 0\u2013Q90r5 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+          },
+          {
+            "questionId": "Q120",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed multi-response question, so a deterministic response, routing, or other-specify consistency check cannot be defined."
+          },
+          {
+            "questionId": "Q130",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic response or other-specify consistency check cannot be defined."
+          },
+          {
+            "questionId": "Q140",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r1",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r2",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r3",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r4",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r5",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r6",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+          },
+          {
+            "questionId": "Q150_r7",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response or other-specify consistency check cannot be defined."
+          },
+          {
+            "questionId": "Q160",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+          },
+          {
+            "questionId": "Q170_r1",
+            "reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+          },
+          {
+            "questionId": "Q170_r2",
+            "reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+          },
+          {
+            "questionId": "Q170_r3",
+            "reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+          },
+          {
+            "questionId": "Q170_r4",
+            "reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+          },
+          {
+            "questionId": "Q180",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed open-end question, so the documented minimum-five-character check cannot be defined."
+          },
+          {
+            "questionId": "Q190",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed open-end question, so the documented minimum-five-character check cannot be defined."
+          },
+          {
+            "questionId": "Q200",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed multi-response question, so the exclusive None option, allowed-code, and other-specify checks cannot be defined."
+          },
+          {
+            "questionId": "Q210",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed multi-response question, so the exclusive non-initiation option, allowed-code, and other-specify checks cannot be defined."
+          },
+          {
+            "questionId": "Q220",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+          },
+          {
+            "questionId": "Q230",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed open-end question, so the documented minimum-ten-character check cannot be defined."
+          },
+          {
+            "questionId": "Q240",
+            "reason": "No canonical SPSS variable is supplied for this single-response question, so a deterministic allowed-code check cannot be defined."
+          },
+          {
+            "questionId": "Q250",
+            "reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+          }
+        ]
+      },
+      {
+        "block": "Section C: Future Prescribing Intent & Market Dynamics",
+        "prefix": "Q",
+        "questions": 9,
+        "checksEmitted": 0,
+        "questionsOmitted": 9,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q260_r1",
+            "reason": "No canonical SPSS variable is supplied for this numeric cumulative-count row, so the stated 0-to-piped-count range check cannot be defined deterministically."
+          },
+          {
+            "questionId": "Q260_r2",
+            "reason": "No canonical SPSS variable is supplied for this numeric cumulative-count row, so the stated 0-to-piped-count range check cannot be defined deterministically."
+          },
+          {
+            "questionId": "Q260_r3",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row, so the supported cumulative-count and routing checks cannot be represented safely."
+          },
+          {
+            "questionId": "Q260_r4",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row, so the supported cumulative-count and routing checks cannot be represented safely."
+          },
+          {
+            "questionId": "Q260_r5",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row, so the supported cumulative-count and routing checks cannot be represented safely."
+          },
+          {
+            "questionId": "Q270_r1",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+          },
+          {
+            "questionId": "Q270_r2",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+          },
+          {
+            "questionId": "Q270_r3",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+          },
+          {
+            "questionId": "Q270_r4",
+            "reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+          }
+        ]
+      }
+    ]
+  }
+}

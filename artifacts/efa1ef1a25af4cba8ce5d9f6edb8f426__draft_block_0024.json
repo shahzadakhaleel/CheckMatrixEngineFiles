@@ -1,0 +1,15 @@
+{
+  "block_id": "B24",
+  "source_variables": [
+    "Q19a",
+    "Q19b",
+    "Q19c",
+    "Q17"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q19.\ntemporary.\nsel if miss(Q19a) or ~range(Q19a,0,10) or miss(Q19b) or Q19b<0 or Q19b>Q19a or miss(Q19c) or Q19c<0 or Q19c>Q19b.\nlist respid, Q17, Q19a, Q19b, Q19c.",
+  "omission_reason": null,
+  "warnings": [
+    "The source routes Q19 from Q17>0 and routes Q19b/Q19c conditionally. Checks are generated for the mapped variables, but route-specific missingness is not separately inferred from stored data."
+  ]
+}

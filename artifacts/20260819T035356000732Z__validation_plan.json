@@ -1,0 +1,2590 @@
+{
+  "questionnaire_title": "BRINSUPRI (brensocatib) in NCFB — Physician Demand Estimation Survey: Pulmonologists",
+  "project_name": "BRINSUPRI (brensocatib) in non-cystic fibrosis bronchiectasis (NCFB)",
+  "validations": [
+    {
+      "question_id": "C10_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "C10_1_MISSING",
+          "question_id": "C10_1",
+          "validation_type": "mandatory",
+          "description": "A response is required for the compliance statement.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_1_CODES",
+          "question_id": "C10_1",
+          "validation_type": "invalid_codes",
+          "description": "Only Yes (1) or No (2) is valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_1_SCREEN",
+          "question_id": "C10_1",
+          "validation_type": "screen_out",
+          "description": "Terminate when the respondent answers Yes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "C10_1",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "C10_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "C10_2_MISSING",
+          "question_id": "C10_2",
+          "validation_type": "mandatory",
+          "description": "A response is required for the compliance statement.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_2_CODES",
+          "question_id": "C10_2",
+          "validation_type": "invalid_codes",
+          "description": "Only Yes (1) or No (2) is valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_2_SCREEN",
+          "question_id": "C10_2",
+          "validation_type": "screen_out",
+          "description": "Terminate when the respondent answers Yes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "C10_2",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "C10_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "C10_3_MISSING",
+          "question_id": "C10_3",
+          "validation_type": "mandatory",
+          "description": "A response is required for the compliance statement.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_3_CODES",
+          "question_id": "C10_3",
+          "validation_type": "invalid_codes",
+          "description": "Only Yes (1) or No (2) is valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_3_SCREEN",
+          "question_id": "C10_3",
+          "validation_type": "screen_out",
+          "description": "Terminate when the respondent answers Yes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "C10_3",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "C10_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "C10_4_MISSING",
+          "question_id": "C10_4",
+          "validation_type": "mandatory",
+          "description": "A response is required for the compliance statement.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_4_CODES",
+          "question_id": "C10_4",
+          "validation_type": "invalid_codes",
+          "description": "Only Yes (1) or No (2) is valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C10_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C10_4_SCREEN",
+          "question_id": "C10_4",
+          "validation_type": "screen_out",
+          "description": "Terminate when the respondent answers Yes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "C10_4",
+                "operator": "equals",
+                "values": [
+                  1
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "C20",
+      "variable": null,
+      "rules": [
+        {
+          "id": "C20_MISSING",
+          "question_id": "C20",
+          "validation_type": "mandatory",
+          "description": "A response is required for the confidentiality agreement.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C20"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C20_CODES",
+          "question_id": "C20",
+          "validation_type": "invalid_codes",
+          "description": "Only Yes (1) or No (2) is valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C20"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C20_SCREEN",
+          "question_id": "C20",
+          "validation_type": "screen_out",
+          "description": "Terminate when the respondent answers No.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "C20",
+                "operator": "equals",
+                "values": [
+                  2
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ10",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ10_MISSING",
+          "question_id": "SQ10",
+          "validation_type": "mandatory",
+          "description": "A primary specialty must be selected.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ10_CODES",
+          "question_id": "SQ10",
+          "validation_type": "invalid_codes",
+          "description": "Only the five listed specialty codes are valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ10_SCREEN",
+          "question_id": "SQ10",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents who do not select Pulmonology.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "SQ10",
+                "operator": "in",
+                "values": [
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ20",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ20_MISSING",
+          "question_id": "SQ20",
+          "validation_type": "mandatory",
+          "description": "A practice setting must be selected.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ20"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ20_CODES",
+          "question_id": "SQ20",
+          "validation_type": "invalid_codes",
+          "description": "Only the listed practice-setting codes are valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ20"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              98
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ30_r1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ30_r1_MISSING",
+          "question_id": "SQ30_r1",
+          "validation_type": "mandatory",
+          "description": "The number of NCFB patients managed must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ30_r1_RANGE",
+          "question_id": "SQ30_r1",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and 9999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 9999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "SQ30_r1",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 9999,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ30_r2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ30_r2_MISSING",
+          "question_id": "SQ30_r2",
+          "validation_type": "mandatory",
+          "description": "The number of COPD patients managed must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ30_r2_RANGE",
+          "question_id": "SQ30_r2",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and 9999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 9999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "SQ30_r2",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 9999,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ30_r3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ30_r3_MISSING",
+          "question_id": "SQ30_r3",
+          "validation_type": "mandatory",
+          "description": "The number of asthma patients managed must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ30_r3_RANGE",
+          "question_id": "SQ30_r3",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and 9999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 9999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "SQ30_r3",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 9999,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ30_r4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ30_r4_MISSING",
+          "question_id": "SQ30_r4",
+          "validation_type": "mandatory",
+          "description": "The number of cystic fibrosis patients managed must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ30_r4_RANGE",
+          "question_id": "SQ30_r4",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and 9999.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ30_r4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 9999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "SQ30_r4",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": 9999,
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ40",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ40_MISSING",
+          "question_id": "SQ40",
+          "validation_type": "mandatory",
+          "description": "A role in NCFB treatment decisions must be selected.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ40"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ40_CODES",
+          "question_id": "SQ40",
+          "validation_type": "invalid_codes",
+          "description": "Only the four listed role codes are valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ40"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "SQ50",
+      "variable": null,
+      "rules": [
+        {
+          "id": "SQ50_MISSING",
+          "question_id": "SQ50",
+          "validation_type": "mandatory",
+          "description": "A familiarity and usage category must be selected.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ50"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "SQ50_CODES",
+          "question_id": "SQ50",
+          "validation_type": "invalid_codes",
+          "description": "Only the six listed familiarity and usage codes are valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "SQ50"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_r1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_r1_MISSING",
+          "question_id": "Q10_r1",
+          "validation_type": "mandatory",
+          "description": "A mild-severity patient count must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_r1_RANGE",
+          "question_id": "Q10_r1",
+          "validation_type": "numeric_range",
+          "description": "The mild count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q10_r1",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_r2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_r2_MISSING",
+          "question_id": "Q10_r2",
+          "validation_type": "mandatory",
+          "description": "A moderate-severity patient count must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_r2_RANGE",
+          "question_id": "Q10_r2",
+          "validation_type": "numeric_range",
+          "description": "The moderate count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q10_r2",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_r3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_r3_MISSING",
+          "question_id": "Q10_r3",
+          "validation_type": "mandatory",
+          "description": "A severe-severity patient count must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_r3_RANGE",
+          "question_id": "Q10_r3",
+          "validation_type": "numeric_range",
+          "description": "The severe count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q10_r3",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q20_r1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q20_r1_MISSING",
+          "question_id": "Q20_r1",
+          "validation_type": "mandatory",
+          "description": "A patient count for 0 pulmonary exacerbations must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q20_r1_RANGE",
+          "question_id": "Q20_r1",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q20_r1",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q20_r2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q20_r2_MISSING",
+          "question_id": "Q20_r2",
+          "validation_type": "mandatory",
+          "description": "A patient count for 1 pulmonary exacerbation must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q20_r2_RANGE",
+          "question_id": "Q20_r2",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q20_r2",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q20_r3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q20_r3_MISSING",
+          "question_id": "Q20_r3",
+          "validation_type": "mandatory",
+          "description": "A patient count for 2 pulmonary exacerbations must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q20_r3_RANGE",
+          "question_id": "Q20_r3",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q20_r3",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q20_r4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q20_r4_MISSING",
+          "question_id": "Q20_r4",
+          "validation_type": "mandatory",
+          "description": "A patient count for 3 or more pulmonary exacerbations must be entered.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q20_r4_RANGE",
+          "question_id": "Q20_r4",
+          "validation_type": "numeric_range",
+          "description": "The count must be between 0 and the total NCFB patient count.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q20_r4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": {
+            "macro_name": "Numeric",
+            "parameters": {
+              "svar": "Q20_r4",
+              "evar": null,
+              "qnt": null,
+              "ctr": null,
+              "opr": null,
+              "rank": null,
+              "filter": null,
+              "ask": null,
+              "value": null,
+              "min": 0,
+              "max": "SQ30_r1",
+              "myvars": null
+            }
+          }
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q30",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q30_MISSING",
+          "question_id": "Q30",
+          "validation_type": "mandatory",
+          "description": "A progression-frequency response must be selected.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q30"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q30_CODES",
+          "question_id": "Q30",
+          "validation_type": "invalid_codes",
+          "description": "Only the five listed progression-frequency codes are valid.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q30"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q40_r1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q40_r1_CODES",
+          "question_id": "Q40_r1",
+          "validation_type": "invalid_codes",
+          "description": "Only the five listed follow-up-frequency codes are valid when shown.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q40_r1_ROUTE",
+          "question_id": "Q40_r1",
+          "validation_type": "routing",
+          "description": "This row applies only when the 0-PE subgroup has patients.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q20_r1",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q40_r2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q40_r2_CODES",
+          "question_id": "Q40_r2",
+          "validation_type": "invalid_codes",
+          "description": "Only the five listed follow-up-frequency codes are valid when shown.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q40_r2_ROUTE",
+          "question_id": "Q40_r2",
+          "validation_type": "routing",
+          "description": "This row applies only when the 1-PE subgroup has patients.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q20_r2",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q40_r3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q40_r3_CODES",
+          "question_id": "Q40_r3",
+          "validation_type": "invalid_codes",
+          "description": "Only the five listed follow-up-frequency codes are valid when shown.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q40_r3_ROUTE",
+          "question_id": "Q40_r3",
+          "validation_type": "routing",
+          "description": "This row applies only when the 2-PE subgroup has patients.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q20_r3",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q40_r4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q40_r4_CODES",
+          "question_id": "Q40_r4",
+          "validation_type": "invalid_codes",
+          "description": "Only the five listed follow-up-frequency codes are valid when shown.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q40_r4_ROUTE",
+          "question_id": "Q40_r4",
+          "validation_type": "routing",
+          "description": "This row applies only when the 3-or-more-PE subgroup has patients.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q40_r4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q20_r4",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q40_r5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has response-code and routing evidence, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q50",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–100 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q60",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has defined response codes, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q65",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has defined response codes, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q70_r9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q80_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q80_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q80_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q80_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q90_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q90_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q90_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q90_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric bound and cross-question lower-bound check are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q90_r5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric 0–SQ30r1 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q95",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric range and total constraint are specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q100",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has defined multi-response codes and conditional routing, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q110",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A conditional numeric 0–Q90r5 bound is specified, but no target variable is supplied; validation cannot be expressed without inventing a variable."
+    },
+    {
+      "question_id": "Q120",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed multi-response question, so a deterministic response, routing, or other-specify consistency check cannot be defined."
+    },
+    {
+      "question_id": "Q130",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic response or other-specify consistency check cannot be defined."
+    },
+    {
+      "question_id": "Q140",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response check cannot be defined."
+    },
+    {
+      "question_id": "Q150_r7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed matrix multi-response row, so a deterministic response or other-specify consistency check cannot be defined."
+    },
+    {
+      "question_id": "Q160",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+    },
+    {
+      "question_id": "Q170_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+    },
+    {
+      "question_id": "Q170_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+    },
+    {
+      "question_id": "Q170_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+    },
+    {
+      "question_id": "Q170_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this numeric allocation row, so the stated 0-to-piped-count and sum-to-Q90r3 checks cannot be defined deterministically."
+    },
+    {
+      "question_id": "Q180",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed open-end question, so the documented minimum-five-character check cannot be defined."
+    },
+    {
+      "question_id": "Q190",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed open-end question, so the documented minimum-five-character check cannot be defined."
+    },
+    {
+      "question_id": "Q200",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed multi-response question, so the exclusive None option, allowed-code, and other-specify checks cannot be defined."
+    },
+    {
+      "question_id": "Q210",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed multi-response question, so the exclusive non-initiation option, allowed-code, and other-specify checks cannot be defined."
+    },
+    {
+      "question_id": "Q220",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+    },
+    {
+      "question_id": "Q230",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed open-end question, so the documented minimum-ten-character check cannot be defined."
+    },
+    {
+      "question_id": "Q240",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this single-response question, so a deterministic allowed-code check cannot be defined."
+    },
+    {
+      "question_id": "Q250",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this conditionally routed single-response question, so a deterministic allowed-code check cannot be defined."
+    },
+    {
+      "question_id": "Q260_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this numeric cumulative-count row, so the stated 0-to-piped-count range check cannot be defined deterministically."
+    },
+    {
+      "question_id": "Q260_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No canonical SPSS variable is supplied for this numeric cumulative-count row, so the stated 0-to-piped-count range check cannot be defined deterministically."
+    },
+    {
+      "question_id": "Q260_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row, so the supported cumulative-count and routing checks cannot be represented safely."
+    },
+    {
+      "question_id": "Q260_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row, so the supported cumulative-count and routing checks cannot be represented safely."
+    },
+    {
+      "question_id": "Q260_r5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row, so the supported cumulative-count and routing checks cannot be represented safely."
+    },
+    {
+      "question_id": "Q270_r1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+    },
+    {
+      "question_id": "Q270_r2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+    },
+    {
+      "question_id": "Q270_r3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+    },
+    {
+      "question_id": "Q270_r4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable name is supplied for this numeric matrix row; additionally, the referenced Q20 row variables are not identified, so the routing, row maximum, and total-to-Q260r3 checks cannot be represented safely."
+    }
+  ],
+  "warnings": [
+    "The questionnaire provides no explicit SPSS variable names; canonical question IDs were used as validation targets.",
+    "The Q10 and Q20 allocation instructions specify totals equal to SQ30_r1. Sum_to_var macro checks were included, but the schema's expected_total field cannot represent a variable-valued total.",
+    "Omitted incomplete model rule: Rule Q10_SUM requires variables and expected_total",
+    "Omitted incomplete model rule: Rule Q20_SUM requires variables and expected_total",
+    "All 25 questions in this batch have variable set to null. Evidence-supported checks were omitted because emitting rules would require inventing target variables.",
+    "All questions in this batch have a null canonical variable. Evidence-supported checks requiring target variables or structured routing predicates were therefore omitted.",
+    "Referenced routing and piping variables such as SQ50, Q110, Q90r3, and SQ30r1 are not supplied as canonical variables in this batch.",
+    "All questions in this batch have null variable names. The Q270 routing instructions also reference corresponding Q20 row variables that are not supplied in the batch."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "run_id": "20260818T234341745709Z",
+  "user": "appadmin",
+  "created_at": "2026-08-18T23:44:22.772306+00:00",
+  "generation_seconds": 45.71,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "standard",
+  "document_hash": "f76e027c95db108df9dbf010010ad6b8bd7328287e76fc671ee4c97e46fc861a",
+  "input": {
+    "key": "20260818T234341745709Z__V3_R99342_2026JULY2_NF-NET_Opportunity_Market_Research_HCP_Quant_Flash_Survey_v5.docx",
+    "filename": "V3_R99342_2026JULY2_NF-NET_Opportunity_Market_Research_HCP_Quant_Flash_Survey_v5.docx",
+    "size": 340338,
+    "created_at": "2026-08-18T23:43:41.749265+00:00"
+  },
+  "output": {
+    "key": "Validation_260818234422.sps",
+    "filename": "Validation_260818234422.sps",
+    "size": 6797,
+    "created_at": "2026-08-18T23:44:22.772306+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 17,
+    "checksEmitted": 28,
+    "questionsOmitted": 1,
+    "coveragePercent": 94.1,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Questionnaire",
+        "prefix": "Q, S",
+        "questions": 17,
+        "checksEmitted": 28,
+        "questionsOmitted": 1,
+        "coveragePercent": 94.1,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "S6",
+            "reason": "Derived recruitment-classification field with no respondent-entered response or independently specified validation rule."
+          }
+        ]
+      }
+    ]
+  }
+}

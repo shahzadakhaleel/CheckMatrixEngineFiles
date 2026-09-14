@@ -1,0 +1,11 @@
+{
+  "block_id": "B02",
+  "source_variables": [
+    "S1",
+    "S1r5oe"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S1.\ntemporary.\nsel if miss(S1) or ~range(S1,1,5).\nlist respid, S1.\ntit S1r5oe.\ntemporary.\nsel if S1=5 and S1r5oe=\"\".\nlist respid, S1, S1r5oe.",
+  "omission_reason": null,
+  "warnings": []
+}

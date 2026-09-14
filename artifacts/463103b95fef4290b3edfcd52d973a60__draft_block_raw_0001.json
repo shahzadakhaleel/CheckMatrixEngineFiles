@@ -1,0 +1,41 @@
+{
+  "block_id": "B_screener",
+  "source_variables": [
+    "ae1",
+    "s2",
+    "s2_98_other",
+    "s3",
+    "s4",
+    "s5_1",
+    "s6_1",
+    "s7_1",
+    "s7_2",
+    "s7_3",
+    "s7_4",
+    "s7_5",
+    "s7_6",
+    "s7_7",
+    "s8_1",
+    "s8_2",
+    "s9_1",
+    "s9_2",
+    "s9_3",
+    "s9_4",
+    "s9_98",
+    "s9_98_other",
+    "qlist",
+    "targettype",
+    "call_in_last_6_months"
+  ],
+  "temporary_variables": [
+    "s7_bad",
+    "s8_bad",
+    "s9_bad"
+  ],
+  "spss": "tit B_screener.\ntemporary.\nsel if miss(ae1) or ae1<>1.\nlist respid, ae1.\ntemporary.\nsel if miss(s2) or ~range(s2,1,5) and s2<>98.\nlist respid, s2.\ntemporary.\nsel if s2=98 and (miss(s2_98_other) or s2_98_other=\"\").\nlist respid, s2 s2_98_other.\ntemporary.\nsel if miss(s3) or ~range(s3,1,2).\nlist respid, s3.\ntemporary.\nsel if miss(s4) or ~range(s4,1,51) and s4<>99.\nlist respid, s4.\ntemporary.\nsel if miss(s5_1) or ~range(s5_1,0,100).\nlist respid, s5_1.\ntemporary.\nsel if miss(s6_1) or ~range(s6_1,0,99).\nlist respid, s6_1 qlist.\ntemporary.\nsel if (qlist=1 and (s6_1<3 or s6_1>40)) or (qlist=2 and (s6_1<3 or s6_1>35)).\nlist respid, s6_1 qlist.\ndo repeat x=s7_1 to s7_7.\ncompute s7_bad=0.\nif miss(x) or ~range(x,0,10000) or trunc(x)<>x s7_bad=1.\nend repeat.\ntemporary.\nsel if s7_bad>0.\nlist respid s7_bad s7_1 to s7_7.\ndo repeat x=s8_1 to s8_2.\ncompute s8_bad=0.\nif miss(x) or ~range(x,0,s7_2) or trunc(x)<>x s8_bad=1.\nend repeat.\nif nvalid(s8_1,s8_2)=2 and sum(s8_1,s8_2)<>s7_2 s8_bad=1.\ntemporary.\nsel if s8_bad>0.\nlist respid s8_bad s7_2 s8_1 s8_2.\ndo repeat x=s9_1 to s9_4.\ncompute s9_bad=0.\nif miss(x) or ~range(x,0,s8_1) or trunc(x)<>x s9_bad=1.\nend repeat.\nif miss(s9_98) or ~range(s9_98,0,s8_1) or trunc(s9_98)<>s9_98 s9_bad=1.\nif nvalid(s9_1,s9_2,s9_3,s9_4,s9_98)=5 and sum(s9_1,s9_2,s9_3,s9_4,s9_98)<>s8_1 s9_bad=1.\ntemporary.\nsel if s9_bad>0.\nlist respid s9_bad s8_1 s9_1 s9_2 s9_3 s9_4 s9_98.\nexe.",
+  "omission_reason": null,
+  "warnings": [
+    "Documented termination outcomes are represented as respondent-level validation listings; this draft does not alter administrative status fields or terminate cases.",
+    "The supplied routing references list-status and target-status logic beyond the available explicit routing expressions; qlist-based experience checks are included, while unsupported quota restrictions are not generated."
+  ]
+}

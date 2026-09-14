@@ -1,0 +1,217 @@
+{
+  "run_id": "20260819T043925886524Z",
+  "user": "appadmin",
+  "created_at": "2026-08-19T04:40:37.114982+00:00",
+  "generation_seconds": 139.14,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "c8f3de043d90576bfaa4a8f4a28631a9c736c62135a50ea110f2b87ef032055e",
+  "input": {
+    "key": "20260819T043925886524Z__V5_R100162_ONCO_Vogelstein_Oncologist_Survey_for_review_KV_JS6.docx",
+    "filename": "V5_R100162_ONCO_Vogelstein_Oncologist_Survey_for_review_KV_JS6.docx",
+    "size": 3367771,
+    "created_at": "2026-08-19T04:39:25.899891+00:00"
+  },
+  "output": {
+    "key": "Validation_260819044037.sps",
+    "filename": "Validation_260819044037.sps",
+    "size": 17010,
+    "created_at": "2026-08-19T04:40:37.114982+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 42,
+    "checksEmitted": 36,
+    "questionsOmitted": 25,
+    "coveragePercent": 40.5,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Section I: Respondent Qualification & Institutional Profile",
+        "prefix": "S",
+        "questions": 3,
+        "checksEmitted": 0,
+        "questionsOmitted": 3,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "S1",
+            "reason": "The question has mandatory, allowed-code, exclusivity, and termination evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "S2",
+            "reason": "The question has mandatory, multi-select, exclusivity, and termination evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "S3",
+            "reason": "The question has mandatory, allowed-code, exclusivity, and termination evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          }
+        ]
+      },
+      {
+        "block": "Main section",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 0,
+        "questionsOmitted": 1,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q4",
+            "reason": "The question has mandatory and allowed-code evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          }
+        ]
+      },
+      {
+        "block": "Section II \u2014 Current CGP Utilization & Use Cases",
+        "prefix": "Q",
+        "questions": 6,
+        "checksEmitted": 0,
+        "questionsOmitted": 6,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q5",
+            "reason": "The question has mandatory, multi-select, and maximum-three-selection evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q6",
+            "reason": "The question has mandatory and numeric slider-range evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q7",
+            "reason": "The question has mandatory forced-ranking evidence with a top-five limit, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q8",
+            "reason": "The question has mandatory forced-ranking evidence with a top-three limit, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q9",
+            "reason": "The question has mandatory forced-ranking evidence for three items, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q10",
+            "reason": "The question has mandatory multi-select evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          }
+        ]
+      },
+      {
+        "block": "Section II \u2014 High-Content vs Smaller Panels",
+        "prefix": "Q",
+        "questions": 6,
+        "checksEmitted": 0,
+        "questionsOmitted": 6,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q11_1",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q11_2",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q11_3",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q11_4",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q11_5",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q12",
+            "reason": "The question has mandatory multi-select and exclusive-answer evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          }
+        ]
+      },
+      {
+        "block": "Section III \u2014 Multimodality vs Single-Mode Assays",
+        "prefix": "Q",
+        "questions": 7,
+        "checksEmitted": 0,
+        "questionsOmitted": 7,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q13",
+            "reason": "The question has mandatory and allowed-code evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q14_1",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q14_2",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q14_3",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q14_4",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q14_5",
+            "reason": "The required grid response and allowed five-point scale are evident, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q15",
+            "reason": "The question has mandatory multi-select and exclusive-answer evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          }
+        ]
+      },
+      {
+        "block": "Section IV \u2014 Perceived Differentiation Among CGP Offerings",
+        "prefix": "Q",
+        "questions": 12,
+        "checksEmitted": 21,
+        "questionsOmitted": 2,
+        "coveragePercent": 83.3,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q16",
+            "reason": "The question has mandatory and allowed-code evidence, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          },
+          {
+            "questionId": "Q17",
+            "reason": "The question has mandatory complete-ranking evidence with ranks one through thirteen, but no canonical response variable is supplied, so a safe validation target cannot be identified."
+          }
+        ]
+      },
+      {
+        "block": "Section V \u2014 MRD: Utilization & Relationship to CGP",
+        "prefix": "Q",
+        "questions": 6,
+        "checksEmitted": 13,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Section VI \u2014 Wrap-up",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "block_id": "B15",
+  "source_variables": [
+    "Q7r1c1",
+    "Q7r2c1",
+    "Q7r3c1",
+    "Q7r4c1",
+    "Q7r5c1",
+    "Q7r6c1",
+    "S10r1"
+  ],
+  "temporary_variables": [
+    "Q7_total"
+  ],
+  "spss": "tit Q7.\ncompute Q7_total=sum(Q7r1c1,Q7r2c1,Q7r3c1,Q7r4c1,Q7r5c1,Q7r6c1).\nexe.\ntemporary.\nsel if miss(Q7r1c1) or Q7r1c1<0 or Q7r1c1>S10r1 or miss(Q7r2c1) or Q7r2c1<0 or Q7r2c1>S10r1 or miss(Q7r3c1) or Q7r3c1<0 or Q7r3c1>S10r1 or miss(Q7r4c1) or Q7r4c1<0 or Q7r4c1>S10r1 or miss(Q7r5c1) or Q7r5c1<0 or Q7r5c1>S10r1 or miss(Q7r6c1) or Q7r6c1<0 or Q7r6c1>S10r1 or Q7_total<>S10r1.\nlist respid, S10r1, Q7r1c1 to Q7r6c1, Q7_total.\ndel var Q7_total.\nexe.",
+  "omission_reason": null,
+  "warnings": [
+    "Q7 is routed when S10r1>0; the supplied dictionary contains the variables but does not encode a separate route flag."
+  ]
+}

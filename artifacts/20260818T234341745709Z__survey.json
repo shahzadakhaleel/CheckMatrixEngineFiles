@@ -1,0 +1,579 @@
+{
+  "metadata": {
+    "title": "30-40",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q1",
+          "variable": "Q1",
+          "title": "[SINGLE SELECT] Which of the following best describes your primary medical specialty?",
+          "text": "Q1 [SINGLE SELECT] Which of the following best describes your primary medical specialty? Endocrinology [CONTINUE] Gastroenterology [DISQUALIFY] Hematology-Oncology [CONTINUE] Medical Oncologist [CONTINUE] Primary Care Provider [DISQUALIFY] Nurse Practitioner [DISQUALIFY] Physician Assistant [DISQUALIFY] Other (please specify): ___________ [DISQUALIFY] [RECRUIT EVEN SPLIT BETWEEN MED-ONC AND HEM-ONC; TOTAL OF N=60-80]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 61
+          }
+        },
+        {
+          "id": "Q2",
+          "variable": "Q2",
+          "title": "Based on this base profile, approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?",
+          "text": "Q2. Based on this base profile, approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] carcinoid syndrome patients SCENARIOS Scenario 1. From the base profile, assume the product additionally has: A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript",
+          "section": "MAIN",
+          "question_type": "DATE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 71
+          }
+        },
+        {
+          "id": "Q3",
+          "variable": "Q3",
+          "title": "[SINGLE SELECT] In which state do you currently practice?",
+          "text": "Q3 [SINGLE SELECT] In which state do you currently practice? [DROP-DOWN WITH EACH OF THE 50 STATES AND DISTRICT OF COLUMBIA] [DISQUALIFY IF VERMONT, WEST VIRGINIA, MAINE, MASSACHUSETTS, OR MINNESOTA SELECTED] [CLASSIFY AS NORTH EAST, MID WEST, SOUTH, OR WEST BASED ON S3 RESPONSE. RECRUIT MIX OF REGIONS] [HIDDEN QUESTION 1: CENSUS REGION] Northeast PA, NY, NJ, VT, NH, ME, MA, CT, RI Midwest ND, SD, MN, IA, NE, KS, MO, WI, MI, IL, IN, OH South TX, OK, AR, LA, KY, TN, MS, AL, MD, DE, DC, WV, VA, NC, SC, GA, FL West WA, OR, CA, ID, MT, WY, NV, UT, CO, AZ, NM, AK, HI",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q3 [SINGLE SELECT] In which state do you currently practice? [DROP-DOWN WITH EACH OF THE 50 STATES AND DISTRICT OF COLUMBIA] [DISQUALIFY IF VERMONT, WEST VIRGINIA, MAINE, MASSACHUSETTS, OR MINNESOTA SELECTED] [CLASSIFY AS NORTH EAST, MID WEST, SOUTH, OR WEST BASED ON S3 RESPONSE. RECRUIT MIX OF REGIONS] [HIDDEN QUESTION 1: CENSUS REGION] Northeast PA, NY, NJ, VT, NH, ME, MA, CT, RI Midwest ND, SD, MN, IA, NE, KS, MO, WI, MI, IL, IN, OH South TX, OK, AR, LA, KY, TN, MS, AL, MD, DE, DC, WV, VA, NC, SC, GA, FL West WA, OR, CA, ID, MT, WY, NV, UT, CO, AZ, NM, AK, HI",
+          "notes": null,
+          "metadata": {
+            "source_line": 74
+          }
+        },
+        {
+          "id": "Q4",
+          "variable": "Q4",
+          "title": "Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?",
+          "text": "Q4. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] carcinoid syndrome patients",
+          "section": "MAIN",
+          "question_type": "DATE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 87
+          }
+        },
+        {
+          "id": "Q5",
+          "variable": "Q5",
+          "title": "[NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities?",
+          "text": "Q5 [NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities? ______% Providing direct patient care [DISQUALIFY IF <60%] ______% Performing academic functions (e.g., teaching, publishing, clinical research) ______% Administrative functions ______% Other activities [SHOW SUM; MUST SUM TO 100%]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q5 [NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities? ______% Providing direct patient care [DISQUALIFY IF <60%] ______% Performing academic functions (e.g., teaching, publishing, clinical research) ______% Administrative functions ______% Other activities [SHOW SUM; MUST SUM TO 100%]",
+          "notes": null,
+          "metadata": {
+            "source_line": 89
+          }
+        },
+        {
+          "id": "Q6",
+          "variable": "Q6",
+          "title": "Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?",
+          "text": "Q6. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] GEP NF-NET patients Scenario 2. From the base profile, assume the product additionally has: A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript Improved treatment satisfaction NCCN guidelines inclusion for GEP NF-NET tumor control Quality of life benefit",
+          "section": "MAIN",
+          "question_type": "DATE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 95
+          }
+        },
+        {
+          "id": "S6",
+          "variable": "S6",
+          "title": "= (c) - (g)",
+          "text": "S6 = (c) - (g) [Recruit mix OF practice settingS]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 106
+          }
+        },
+        {
+          "id": "Q7",
+          "variable": "Q7",
+          "title": "How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely?",
+          "text": "Q7. How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely? ______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 110
+          }
+        },
+        {
+          "id": "Q8",
+          "variable": "Q8",
+          "title": "[NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits.",
+          "text": "Q8 [NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits. ______ [INPUT: 0-999] Neuroendocrine Tumor unique patients actively managed in the last 12 months [DISQUALIFY IF <20] [CONTINUE ≥20]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q8 [NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits. ______ [INPUT: 0-999] Neuroendocrine Tumor unique patients actively managed in the last 12 months [DISQUALIFY IF <20] [CONTINUE ≥20]",
+          "notes": null,
+          "metadata": {
+            "source_line": 113
+          }
+        },
+        {
+          "id": "Q9",
+          "variable": "Q9",
+          "title": "[NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories?",
+          "text": "Q9 [NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories? ______ [INPUT: 0-999] Functioning Neuroendocrine Tumor (NET) patients with Carcinoid Syndrome ______ [INPUT: 0-999] Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients [DISQUALIFY IF <3] [CONTINUE ≥3]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q9 [NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories? ______ [INPUT: 0-999] Functioning Neuroendocrine Tumor (NET) patients with Carcinoid Syndrome ______ [INPUT: 0-999] Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients [DISQUALIFY IF <3] [CONTINUE ≥3]",
+          "notes": null,
+          "metadata": {
+            "source_line": 115
+          }
+        },
+        {
+          "id": "Q10",
+          "variable": "Q10",
+          "title": "Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?",
+          "text": "Q10. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] GEP NF-NET patients Scenario 3. From the base profile, assume the product additionally has: A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript Improved treatment satisfaction NCCN guidelines inclusion for GEP NF-NET tumor control Quality of life benefit FDA-approved label for tumor control in NF GEP-NETs",
+          "section": "MAIN",
+          "question_type": "DATE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 118
+          }
+        },
+        {
+          "id": "Q11",
+          "variable": "Q11",
+          "title": "[SINGLE SELECT] How comfortable are you speaking about the current and expected future treatment landscape of Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) and, specifically, commenting on utilization of pharmacotherapies?",
+          "text": "Q11 [SINGLE SELECT] How comfortable are you speaking about the current and expected future treatment landscape of Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) and, specifically, commenting on utilization of pharmacotherapies? Not comfortable at all [DISQUALIFY] Slightly comfortable [DISQUALIFY] Moderately comfortable [DISQUALIFY] Very comfortable [CONTINUE] Extremely comfortable [CONTINUE]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 123
+          }
+        },
+        {
+          "id": "Q12",
+          "variable": "Q12",
+          "title": "Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?",
+          "text": "Q12. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] carcinoid syndrome patients",
+          "section": "MAIN",
+          "question_type": "DATE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 129
+          }
+        },
+        {
+          "id": "Q13",
+          "variable": "Q13",
+          "title": "[MULTI SELECT] Are you, or is an immediate family member, currently or within the past 6 months employed by or under contract with any of the following? Select all that apply.",
+          "text": "Q13 [MULTI SELECT] Are you, or is an immediate family member, currently or within the past 6 months employed by or under contract with any of the following? Select all that apply. National Regulatory Body [DISQUALIFY] The Federal Government or agencies of the Federal Government [DISQUALIFY] The State Government or agencies of a State Government [DISQUALIFY] A marketing or market research department or company [DISQUALIFY] An advertising agency [DISQUALIFY] A pharmaceutical manufacturer or a healthcare company [DISQUALIFY] As a clinical investigator conducting clinical trials or providing consulting services for a Neuroendocrine Tumor (NET) drug [DISQUALIFY] None of the above [CONTINUE]",
+          "section": "MAIN",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 132
+          }
+        },
+        {
+          "id": "Q14",
+          "variable": "Q14",
+          "title": "To clarify, under contract with a “pharmaceutical manufacturer or healthcare company” includes performing duties as a speaker, Key Opinion Leader (KOL), or an Advisory Board Member. Are you, or an immediate family member currently or within the past 6 months working on behalf of a pharmaceutical manufacturer or healthcare company in any of these aforementioned roles?",
+          "text": "Q14 To clarify, under contract with a “pharmaceutical manufacturer or healthcare company” includes performing duties as a speaker, Key Opinion Leader (KOL), or an Advisory Board Member. Are you, or an immediate family member currently or within the past 6 months working on behalf of a pharmaceutical manufacturer or healthcare company in any of these aforementioned roles? Yes [DISQUALIFY] No [CONTINUE]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 141
+          }
+        },
+        {
+          "id": "Q15",
+          "variable": "Q15",
+          "title": "Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research?",
+          "text": "Q15 Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research? Yes [CONTINUE] No [CONTINUE] [RETAIN ALL SCREENER INFO AND PROVIDE TO AMBIT] [IF DISQUALIFIED] I’m sorry, but unfortunately, you do not qualify for our study. Thank you for your interest in participating in the research. We will keep you in mind for future studies. [IF QUALIFIED INVITE] Thank you for answering these questions. Based on your responses, we would like to invite you to participate in our study. The online survey is expected to take ~10 minutes. Please be assured that all your responses will be kept in strict confidence. We will ensure that the strictest standards of privacy are maintained with the content of your responses during the discussion. No identifying information will be collected, and all responses will remain anonymous. As such, please make every effort to be open and honest when responding to the questions. [END OF SCREENER] FLASH SURVEY In this survey, please think specifically about patients with functioning neuroendocrine tumors (NETs) with carcinoid syndrome (CS) and patients with Gastroenteropancreatic Non-Functioning Neuroendocrine Tumor (GEP NF-NETs). We are working with a pharmaceutical company who is developing an oral somatostatin receptor ligand (SRL) for the treatment of Carcinoid Syndrome (CS) and, potentially, Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs). As a note on terminology: CS is a functioning neuroendocrine tumor (NET), meaning it produces hormones that cause systemic symptoms. NF-NETs, by contrast, do not secrete active hormones. For the purposes of this discussion, we will use \"CS\" to refer to the functioning NET indication going forward. And we’ll refer to Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors as GEP NF-NETs. You will be shown a series of hypothetical evidence scenarios for a new oral somatostatin receptor ligand (SRL). These scenarios are for market research purposes only and are not intended to promote any product. Please assume adequate reimbursement coverage and commercial availability unless otherwise specified. PROGRAMMING NOTES: DISPLAY BASE PROFILE ON EACH SCENARIO SCREEN ASK EACH SCENARIO FOR CARCINOID SYNDROME PATIENTS FIRST, THEN NF-NET PATIENTS WHERE APPLICABLE DISPLAY SCENARIOS IN SEQUENTIAL ORDER (BASE → SCENARIO 1 → SCENARIO 2 → SCENARIO 3) RECORD COMPLETION TIME FOR ALL SURVEY QUESTIONS BASE PROFILE Consider a new oral Somatostatin Receptor Ligand (SRL) with the following profile: Oral once-daily administration Comparable tumor control efficacy to injectable SRLs Superior carcinoid syndrome symptom control compared with injectable SRLs Safety profile similar to injectable SRLs Progression-free survival benefit demonstrated in Phase III trial FDA approval for Carcinoid Syndrome based on a randomized Phase III trial for Product X v. placebo",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q15 Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research? Yes [CONTINUE] No [CONTINUE] [RETAIN ALL SCREENER INFO AND PROVIDE TO AMBIT] [IF DISQUALIFIED] I’m sorry, but unfortunately, you do not qualify for our study. Thank you for your interest in participating in the research. We will keep you in mind for future studies. [IF QUALIFIED INVITE] Thank you for answering these questions. Based on your responses, we would like to invite you to participate in our study. The online survey is expected to take ~10 minutes. Please be assured that all your responses will be kept in strict confidence. We will ensure that the strictest standards of privacy are maintained with the content of your responses during the discussion. No identifying information will be collected, and all responses will remain anonymous. As such, please make every effort to be open and honest when responding to the questions. [END OF SCREENER] FLASH SURVEY In this survey, please think specifically about patients with functioning neuroendocrine tumors (NETs) with carcinoid syndrome (CS) and patients with Gastroenteropancreatic Non-Functioning Neuroendocrine Tumor (GEP NF-NETs). We are working with a pharmaceutical company who is developing an oral somatostatin receptor ligand (SRL) for the treatment of Carcinoid Syndrome (CS) and, potentially, Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs). As a note on terminology: CS is a functioning neuroendocrine tumor (NET), meaning it produces hormones that cause systemic symptoms. NF-NETs, by contrast, do not secrete active hormones. For the purposes of this discussion, we will use \"CS\" to refer to the functioning NET indication going forward. And we’ll refer to Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors as GEP NF-NETs. You will be shown a series of hypothetical evidence scenarios for a new oral somatostatin receptor ligand (SRL). These scenarios are for market research purposes only and are not intended to promote any product. Please assume adequate reimbursement coverage and commercial availability unless otherwise specified. PROGRAMMING NOTES: DISPLAY BASE PROFILE ON EACH SCENARIO SCREEN ASK EACH SCENARIO FOR CARCINOID SYNDROME PATIENTS FIRST, THEN NF-NET PATIENTS WHERE APPLICABLE DISPLAY SCENARIOS IN SEQUENTIAL ORDER (BASE → SCENARIO 1 → SCENARIO 2 → SCENARIO 3) RECORD COMPLETION TIME FOR ALL SURVEY QUESTIONS BASE PROFILE Consider a new oral Somatostatin Receptor Ligand (SRL) with the following profile: Oral once-daily administration Comparable tumor control efficacy to injectable SRLs Superior carcinoid syndrome symptom control compared with injectable SRLs Safety profile similar to injectable SRLs Progression-free survival benefit demonstrated in Phase III trial FDA approval for Carcinoid Syndrome based on a randomized Phase III trial for Product X v. placebo",
+          "notes": null,
+          "metadata": {
+            "source_line": 144
+          }
+        },
+        {
+          "id": "Q16",
+          "variable": "Q16",
+          "title": "Thinking specifically about patients with GEP NF-NET, please rank the following characteristics according to their influence on your prescribing behavior. [RANKING EXERCISE]",
+          "text": "Q16. Thinking specifically about patients with GEP NF-NET, please rank the following characteristics according to their influence on your prescribing behavior. [RANKING EXERCISE] A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript Improved treatment satisfaction NCCN guidelines inclusion for GEP NF-NET tumor control Quality of life benefit FDA-approved label for tumor control in NF GEP-NETs Thank you, the survey is now complete.",
+          "section": "MAIN",
+          "question_type": "RANKING",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 222
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q1",
+      "variable": "Q1",
+      "title": "[SINGLE SELECT] Which of the following best describes your primary medical specialty?",
+      "text": "Q1 [SINGLE SELECT] Which of the following best describes your primary medical specialty? Endocrinology [CONTINUE] Gastroenterology [DISQUALIFY] Hematology-Oncology [CONTINUE] Medical Oncologist [CONTINUE] Primary Care Provider [DISQUALIFY] Nurse Practitioner [DISQUALIFY] Physician Assistant [DISQUALIFY] Other (please specify): ___________ [DISQUALIFY] [RECRUIT EVEN SPLIT BETWEEN MED-ONC AND HEM-ONC; TOTAL OF N=60-80]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 61
+      }
+    },
+    {
+      "id": "Q2",
+      "variable": "Q2",
+      "title": "Based on this base profile, approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?",
+      "text": "Q2. Based on this base profile, approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] carcinoid syndrome patients SCENARIOS Scenario 1. From the base profile, assume the product additionally has: A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript",
+      "section": "MAIN",
+      "question_type": "DATE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 71
+      }
+    },
+    {
+      "id": "Q3",
+      "variable": "Q3",
+      "title": "[SINGLE SELECT] In which state do you currently practice?",
+      "text": "Q3 [SINGLE SELECT] In which state do you currently practice? [DROP-DOWN WITH EACH OF THE 50 STATES AND DISTRICT OF COLUMBIA] [DISQUALIFY IF VERMONT, WEST VIRGINIA, MAINE, MASSACHUSETTS, OR MINNESOTA SELECTED] [CLASSIFY AS NORTH EAST, MID WEST, SOUTH, OR WEST BASED ON S3 RESPONSE. RECRUIT MIX OF REGIONS] [HIDDEN QUESTION 1: CENSUS REGION] Northeast PA, NY, NJ, VT, NH, ME, MA, CT, RI Midwest ND, SD, MN, IA, NE, KS, MO, WI, MI, IL, IN, OH South TX, OK, AR, LA, KY, TN, MS, AL, MD, DE, DC, WV, VA, NC, SC, GA, FL West WA, OR, CA, ID, MT, WY, NV, UT, CO, AZ, NM, AK, HI",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q3 [SINGLE SELECT] In which state do you currently practice? [DROP-DOWN WITH EACH OF THE 50 STATES AND DISTRICT OF COLUMBIA] [DISQUALIFY IF VERMONT, WEST VIRGINIA, MAINE, MASSACHUSETTS, OR MINNESOTA SELECTED] [CLASSIFY AS NORTH EAST, MID WEST, SOUTH, OR WEST BASED ON S3 RESPONSE. RECRUIT MIX OF REGIONS] [HIDDEN QUESTION 1: CENSUS REGION] Northeast PA, NY, NJ, VT, NH, ME, MA, CT, RI Midwest ND, SD, MN, IA, NE, KS, MO, WI, MI, IL, IN, OH South TX, OK, AR, LA, KY, TN, MS, AL, MD, DE, DC, WV, VA, NC, SC, GA, FL West WA, OR, CA, ID, MT, WY, NV, UT, CO, AZ, NM, AK, HI",
+      "notes": null,
+      "metadata": {
+        "source_line": 74
+      }
+    },
+    {
+      "id": "Q4",
+      "variable": "Q4",
+      "title": "Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?",
+      "text": "Q4. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] carcinoid syndrome patients",
+      "section": "MAIN",
+      "question_type": "DATE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 87
+      }
+    },
+    {
+      "id": "Q5",
+      "variable": "Q5",
+      "title": "[NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities?",
+      "text": "Q5 [NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities? ______% Providing direct patient care [DISQUALIFY IF <60%] ______% Performing academic functions (e.g., teaching, publishing, clinical research) ______% Administrative functions ______% Other activities [SHOW SUM; MUST SUM TO 100%]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q5 [NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities? ______% Providing direct patient care [DISQUALIFY IF <60%] ______% Performing academic functions (e.g., teaching, publishing, clinical research) ______% Administrative functions ______% Other activities [SHOW SUM; MUST SUM TO 100%]",
+      "notes": null,
+      "metadata": {
+        "source_line": 89
+      }
+    },
+    {
+      "id": "Q6",
+      "variable": "Q6",
+      "title": "Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?",
+      "text": "Q6. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] GEP NF-NET patients Scenario 2. From the base profile, assume the product additionally has: A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript Improved treatment satisfaction NCCN guidelines inclusion for GEP NF-NET tumor control Quality of life benefit",
+      "section": "MAIN",
+      "question_type": "DATE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 95
+      }
+    },
+    {
+      "id": "S6",
+      "variable": "S6",
+      "title": "= (c) - (g)",
+      "text": "S6 = (c) - (g) [Recruit mix OF practice settingS]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 106
+      }
+    },
+    {
+      "id": "Q7",
+      "variable": "Q7",
+      "title": "How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely?",
+      "text": "Q7. How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely? ______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 110
+      }
+    },
+    {
+      "id": "Q8",
+      "variable": "Q8",
+      "title": "[NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits.",
+      "text": "Q8 [NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits. ______ [INPUT: 0-999] Neuroendocrine Tumor unique patients actively managed in the last 12 months [DISQUALIFY IF <20] [CONTINUE ≥20]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q8 [NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits. ______ [INPUT: 0-999] Neuroendocrine Tumor unique patients actively managed in the last 12 months [DISQUALIFY IF <20] [CONTINUE ≥20]",
+      "notes": null,
+      "metadata": {
+        "source_line": 113
+      }
+    },
+    {
+      "id": "Q9",
+      "variable": "Q9",
+      "title": "[NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories?",
+      "text": "Q9 [NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories? ______ [INPUT: 0-999] Functioning Neuroendocrine Tumor (NET) patients with Carcinoid Syndrome ______ [INPUT: 0-999] Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients [DISQUALIFY IF <3] [CONTINUE ≥3]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q9 [NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories? ______ [INPUT: 0-999] Functioning Neuroendocrine Tumor (NET) patients with Carcinoid Syndrome ______ [INPUT: 0-999] Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients [DISQUALIFY IF <3] [CONTINUE ≥3]",
+      "notes": null,
+      "metadata": {
+        "source_line": 115
+      }
+    },
+    {
+      "id": "Q10",
+      "variable": "Q10",
+      "title": "Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?",
+      "text": "Q10. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] GEP NF-NET patients Scenario 3. From the base profile, assume the product additionally has: A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript Improved treatment satisfaction NCCN guidelines inclusion for GEP NF-NET tumor control Quality of life benefit FDA-approved label for tumor control in NF GEP-NETs",
+      "section": "MAIN",
+      "question_type": "DATE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 118
+      }
+    },
+    {
+      "id": "Q11",
+      "variable": "Q11",
+      "title": "[SINGLE SELECT] How comfortable are you speaking about the current and expected future treatment landscape of Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) and, specifically, commenting on utilization of pharmacotherapies?",
+      "text": "Q11 [SINGLE SELECT] How comfortable are you speaking about the current and expected future treatment landscape of Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) and, specifically, commenting on utilization of pharmacotherapies? Not comfortable at all [DISQUALIFY] Slightly comfortable [DISQUALIFY] Moderately comfortable [DISQUALIFY] Very comfortable [CONTINUE] Extremely comfortable [CONTINUE]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 123
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": "Q12",
+      "title": "Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?",
+      "text": "Q12. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy? ______ % [INPUT: 0-100] carcinoid syndrome patients",
+      "section": "MAIN",
+      "question_type": "DATE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 129
+      }
+    },
+    {
+      "id": "Q13",
+      "variable": "Q13",
+      "title": "[MULTI SELECT] Are you, or is an immediate family member, currently or within the past 6 months employed by or under contract with any of the following? Select all that apply.",
+      "text": "Q13 [MULTI SELECT] Are you, or is an immediate family member, currently or within the past 6 months employed by or under contract with any of the following? Select all that apply. National Regulatory Body [DISQUALIFY] The Federal Government or agencies of the Federal Government [DISQUALIFY] The State Government or agencies of a State Government [DISQUALIFY] A marketing or market research department or company [DISQUALIFY] An advertising agency [DISQUALIFY] A pharmaceutical manufacturer or a healthcare company [DISQUALIFY] As a clinical investigator conducting clinical trials or providing consulting services for a Neuroendocrine Tumor (NET) drug [DISQUALIFY] None of the above [CONTINUE]",
+      "section": "MAIN",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 132
+      }
+    },
+    {
+      "id": "Q14",
+      "variable": "Q14",
+      "title": "To clarify, under contract with a “pharmaceutical manufacturer or healthcare company” includes performing duties as a speaker, Key Opinion Leader (KOL), or an Advisory Board Member. Are you, or an immediate family member currently or within the past 6 months working on behalf of a pharmaceutical manufacturer or healthcare company in any of these aforementioned roles?",
+      "text": "Q14 To clarify, under contract with a “pharmaceutical manufacturer or healthcare company” includes performing duties as a speaker, Key Opinion Leader (KOL), or an Advisory Board Member. Are you, or an immediate family member currently or within the past 6 months working on behalf of a pharmaceutical manufacturer or healthcare company in any of these aforementioned roles? Yes [DISQUALIFY] No [CONTINUE]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 141
+      }
+    },
+    {
+      "id": "Q15",
+      "variable": "Q15",
+      "title": "Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research?",
+      "text": "Q15 Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research? Yes [CONTINUE] No [CONTINUE] [RETAIN ALL SCREENER INFO AND PROVIDE TO AMBIT] [IF DISQUALIFIED] I’m sorry, but unfortunately, you do not qualify for our study. Thank you for your interest in participating in the research. We will keep you in mind for future studies. [IF QUALIFIED INVITE] Thank you for answering these questions. Based on your responses, we would like to invite you to participate in our study. The online survey is expected to take ~10 minutes. Please be assured that all your responses will be kept in strict confidence. We will ensure that the strictest standards of privacy are maintained with the content of your responses during the discussion. No identifying information will be collected, and all responses will remain anonymous. As such, please make every effort to be open and honest when responding to the questions. [END OF SCREENER] FLASH SURVEY In this survey, please think specifically about patients with functioning neuroendocrine tumors (NETs) with carcinoid syndrome (CS) and patients with Gastroenteropancreatic Non-Functioning Neuroendocrine Tumor (GEP NF-NETs). We are working with a pharmaceutical company who is developing an oral somatostatin receptor ligand (SRL) for the treatment of Carcinoid Syndrome (CS) and, potentially, Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs). As a note on terminology: CS is a functioning neuroendocrine tumor (NET), meaning it produces hormones that cause systemic symptoms. NF-NETs, by contrast, do not secrete active hormones. For the purposes of this discussion, we will use \"CS\" to refer to the functioning NET indication going forward. And we’ll refer to Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors as GEP NF-NETs. You will be shown a series of hypothetical evidence scenarios for a new oral somatostatin receptor ligand (SRL). These scenarios are for market research purposes only and are not intended to promote any product. Please assume adequate reimbursement coverage and commercial availability unless otherwise specified. PROGRAMMING NOTES: DISPLAY BASE PROFILE ON EACH SCENARIO SCREEN ASK EACH SCENARIO FOR CARCINOID SYNDROME PATIENTS FIRST, THEN NF-NET PATIENTS WHERE APPLICABLE DISPLAY SCENARIOS IN SEQUENTIAL ORDER (BASE → SCENARIO 1 → SCENARIO 2 → SCENARIO 3) RECORD COMPLETION TIME FOR ALL SURVEY QUESTIONS BASE PROFILE Consider a new oral Somatostatin Receptor Ligand (SRL) with the following profile: Oral once-daily administration Comparable tumor control efficacy to injectable SRLs Superior carcinoid syndrome symptom control compared with injectable SRLs Safety profile similar to injectable SRLs Progression-free survival benefit demonstrated in Phase III trial FDA approval for Carcinoid Syndrome based on a randomized Phase III trial for Product X v. placebo",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q15 Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research? Yes [CONTINUE] No [CONTINUE] [RETAIN ALL SCREENER INFO AND PROVIDE TO AMBIT] [IF DISQUALIFIED] I’m sorry, but unfortunately, you do not qualify for our study. Thank you for your interest in participating in the research. We will keep you in mind for future studies. [IF QUALIFIED INVITE] Thank you for answering these questions. Based on your responses, we would like to invite you to participate in our study. The online survey is expected to take ~10 minutes. Please be assured that all your responses will be kept in strict confidence. We will ensure that the strictest standards of privacy are maintained with the content of your responses during the discussion. No identifying information will be collected, and all responses will remain anonymous. As such, please make every effort to be open and honest when responding to the questions. [END OF SCREENER] FLASH SURVEY In this survey, please think specifically about patients with functioning neuroendocrine tumors (NETs) with carcinoid syndrome (CS) and patients with Gastroenteropancreatic Non-Functioning Neuroendocrine Tumor (GEP NF-NETs). We are working with a pharmaceutical company who is developing an oral somatostatin receptor ligand (SRL) for the treatment of Carcinoid Syndrome (CS) and, potentially, Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs). As a note on terminology: CS is a functioning neuroendocrine tumor (NET), meaning it produces hormones that cause systemic symptoms. NF-NETs, by contrast, do not secrete active hormones. For the purposes of this discussion, we will use \"CS\" to refer to the functioning NET indication going forward. And we’ll refer to Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors as GEP NF-NETs. You will be shown a series of hypothetical evidence scenarios for a new oral somatostatin receptor ligand (SRL). These scenarios are for market research purposes only and are not intended to promote any product. Please assume adequate reimbursement coverage and commercial availability unless otherwise specified. PROGRAMMING NOTES: DISPLAY BASE PROFILE ON EACH SCENARIO SCREEN ASK EACH SCENARIO FOR CARCINOID SYNDROME PATIENTS FIRST, THEN NF-NET PATIENTS WHERE APPLICABLE DISPLAY SCENARIOS IN SEQUENTIAL ORDER (BASE → SCENARIO 1 → SCENARIO 2 → SCENARIO 3) RECORD COMPLETION TIME FOR ALL SURVEY QUESTIONS BASE PROFILE Consider a new oral Somatostatin Receptor Ligand (SRL) with the following profile: Oral once-daily administration Comparable tumor control efficacy to injectable SRLs Superior carcinoid syndrome symptom control compared with injectable SRLs Safety profile similar to injectable SRLs Progression-free survival benefit demonstrated in Phase III trial FDA approval for Carcinoid Syndrome based on a randomized Phase III trial for Product X v. placebo",
+      "notes": null,
+      "metadata": {
+        "source_line": 144
+      }
+    },
+    {
+      "id": "Q16",
+      "variable": "Q16",
+      "title": "Thinking specifically about patients with GEP NF-NET, please rank the following characteristics according to their influence on your prescribing behavior. [RANKING EXERCISE]",
+      "text": "Q16. Thinking specifically about patients with GEP NF-NET, please rank the following characteristics according to their influence on your prescribing behavior. [RANKING EXERCISE] A new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript Improved treatment satisfaction NCCN guidelines inclusion for GEP NF-NET tumor control Quality of life benefit FDA-approved label for tumor control in NF GEP-NETs Thank you, the survey is now complete.",
+      "section": "MAIN",
+      "question_type": "RANKING",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 222
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "(V3_R99342) 2026JULY2_NF-NET Opportunity Market Research_HCP Quant Flash Survey_v5.docx",
+  "source_format": "docx",
+  "source_text": "30-40\nGEP Non-functioning Neuroendocrine Tumor (GEP NF-NET) market research\nQUANTITATIVE SURVEY TOOL June 2026\nGEP Non-functioning Neuroendocrine Tumor (GEP NF-NET) market research\nQUANTITATIVE SURVEY TOOL June 2026\nGEP NF-NET Market Research – HCP Screener\nType of Research\nDuration\nMethod\nQuantitative Research\n5-10 min\nFlash Survey\nSAMPLE OVERVIEW\nSpecialty\nSample\nHematologist-Oncologist\n30-40\nMedical-Oncologist\n30-40\nEndocrinologist\n5-10\nTOTAL\n65-90\nKey Screening Criteria:\nBoard certified\nActively practicing for 2-30 years\nSpends at least 60% of professional time in direct patient care\nActively manages at least 50 patients with Neuroendocrine Tumor (NET)\nActively manages at least 10 patients with Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients\nMix of practice settings\nMix of regions (North East, Mid West, South, West)\nPROGRAMMER KEY\nProgramming instructions and logic\n[PURPLE FOR LOGIC/INSTRUCTIONS]\n[blue FOR continue]\n[RED FOR TERMINATE]\nDISCLOSURES & PERMISSIONS\nPlease ask all screener questions and capture answers before terminating\nPlease use the prompt below when contacting potential respondents:\nINTRODUCTION AND DISCLOSURES\nThank you for your interest in participating in this market research study. Ambit is conducting this research on behalf of a pharmaceutical company to better understand perspectives relevant to the treatment and management of Carcinoid Syndrome and Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET), as well as gathering feedback on a potential new therapy. This research is for market research purposes only. It is not promotional, is not intended to influence your decisions or behaviors, and does not constitute medical, reimbursement, legal, or regulatory advice.\nIf selected, participation will involve a 10-minute virtual survey. You may receive [insert honoraria according to client FMVs] in appreciation of your time, in line with applicable laws, market research standards, and local fair-market-value or equivalent requirements where relevant.\nThe compensation you receive for this study is not intended to reward you for use of any products which may be mentioned in the study or induce you to use any such products, but rather to understand your views. Your participation is voluntary. You may choose not to answer any question, you may stop the discussion at any time, and you may withdraw your participation without penalty.\nYour responses will be analyzed together with responses from other participants and reported in aggregated, anonymized, de-identified, or otherwise non-attributed form, except where disclosure is required for safety reporting, transparency reporting, audit, or other legal and compliance purposes.\nYour personal data may be processed by Ambit and authorized research partners for recruitment, scheduling, incentive administration, study conduct, quality control, note-taking, analysis, and audit. Your personal data may be processed in countries outside your country of residence, including the United States, where different data protection laws may apply. Where required, appropriate safeguards and contractual, technical, or organizational protections will be used to protect your personal data.\nIf local law, project terms, or compliance requirements require the commissioning company to be identified, that information will be provided to you before any identifying information is shared in a way that requires disclosure, or at the latest by the end of the interview. You may withdraw at that time if you do not wish to proceed.\nFor privacy questions or requests regarding your data, please contact insert vendor’s email.\nAdverse Event / Product Complaint Clause\nIf during the course of this research you mention a possible adverse event, product complaint, special situation, or other safety-related information associated with a company product, Ambit or its research partners may be required to pass on the relevant information to the sponsoring company or its authorized safety representative in order to meet legal, regulatory, product-safety, or pharmacovigilance obligations. Where possible, your confidentiality will otherwise be protected. Please select one of the following options.\n1\nI want to remain anonymous\n[CONTINUE]\n2\nI agree to share my contact information with the sponsor, but would not like to be re-contacted\n[CONTINUE]\n3\nI agree to share my contact information with the sponsor and agree to be re-contacted\n[CONTINUE]\nHCP SCREENER\n[APPLY IMMEDIATE TERMINATION FOR ALL DQ CONDITIONS]\nQ1 [SINGLE SELECT] Which of the following best describes your primary medical specialty?\nEndocrinology [CONTINUE]\nGastroenterology [DISQUALIFY]\nHematology-Oncology [CONTINUE]\nMedical Oncologist [CONTINUE]\nPrimary Care Provider [DISQUALIFY]\nNurse Practitioner [DISQUALIFY]\nPhysician Assistant [DISQUALIFY]\nOther (please specify): ___________ [DISQUALIFY]\n[RECRUIT EVEN SPLIT BETWEEN MED-ONC AND HEM-ONC; TOTAL OF N=60-80]\nQ2 [SINGLE SELECT] Are you board-certified in your primary medical specialty?\nYes [CONTINUE]\nNo [DISQUALIFY]\nQ3 [SINGLE SELECT] In which state do you currently practice?\n[DROP-DOWN WITH EACH OF THE 50 STATES AND DISTRICT OF COLUMBIA]\n[DISQUALIFY IF VERMONT, WEST VIRGINIA, MAINE, MASSACHUSETTS, OR MINNESOTA SELECTED]\n[CLASSIFY AS NORTH EAST, MID WEST, SOUTH, OR WEST BASED ON S3 RESPONSE. RECRUIT MIX OF REGIONS]\n[HIDDEN QUESTION 1: CENSUS REGION]\nNortheast\nPA, NY, NJ, VT, NH, ME, MA, CT, RI\nMidwest\nND, SD, MN, IA, NE, KS, MO, WI, MI, IL, IN, OH\nSouth\nTX, OK, AR, LA, KY, TN, MS, AL, MD, DE, DC, WV, VA, NC, SC, GA, FL\nWest\nWA, OR, CA, ID, MT, WY, NV, UT, CO, AZ, NM, AK, HI\nQ4 [NUMERIC OE] How many years have you been in practice in the United States, excluding your residency?\n______ years [DISQUALIFY IF <2 OR >30]\nQ5 [NUMERIC OE] In a typical month, approximately what percentage of your professional time is spent in the following activities?\n______% Providing direct patient care [DISQUALIFY IF <60%]\n______% Performing academic functions (e.g., teaching, publishing, clinical research)\n______% Administrative functions\n______% Other activities\n[SHOW SUM; MUST SUM TO 100%]\nQ6 [SINGLE SELECT] Which of the following best describes your primary practice setting?\nAcademic Medical Center / University Hospital [CONTINUE]\nIntegrated/Specialized Neuroendocrine Tumor Treatment Center [CONTINUE]\nPrivate Multi-Specialty Practice [CONTINUE]\nPrivate Single-Specialty Practice [CONTINUE]\nLarge Community Practice (e.g., Florida Cancer Specialists, Texas Oncology) [CONTINUE]\nSmall Regional / Community Practice [CONTINUE]\nGovernment VA/Hospital [CONTINUE]\nOther (Please specify) [OE] _______ [DISQUALIFY]\n[HIDDEN QUESTION 2: PRACTICE SETTING]\nAcademic\nS6 = (a) or (b)\nCommunity\nS6 = (c) - (g)\n[Recruit mix OF practice settingS]\nQ7 [SINGLE SELECT] Are you affiliated with an official Neuroendocrine Tumor Center?\nYes [CONTINUE]\nNo [CONTINUE]\nQ8 [NUMERIC OE] In the past 12 months, how many patients with Neuroendocrine Tumor (NET) have you actively managed? “Managed” patients include those patients for whom you have played an ongoing and direct role in their diagnosis, treatment, referral, and/or follow-up care. Please count unique patients, not visits.\n______ [INPUT: 0-999] Neuroendocrine Tumor unique patients actively managed in the last 12 months [DISQUALIFY IF <20] [CONTINUE ≥20]\nQ9 [NUMERIC OE] Of the [INSERT Q8 response] Neuroendocrine Tumor (NET) patients you actively managed in the past 12 months, how many patients belong to the following categories?\n______ [INPUT: 0-999] Functioning Neuroendocrine Tumor (NET) patients with Carcinoid Syndrome\n______ [INPUT: 0-999] Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients [DISQUALIFY IF <3] [CONTINUE ≥3]\nQ10 [SINGLE SELECT] Which best describes your role in selecting pharmacologic treatment for Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) patients?\nPrimary treatment decision maker [CONTINUE]\nShared treatment decision maker [CONTINUE]\nPrimarily provide recommendations to another physician [DISQUALIFY]\nMinimal involvement in treatment selection [DISQUALIFY]\nQ11 [SINGLE SELECT] How comfortable are you speaking about the current and expected future treatment landscape of Gastroenteropancreatic Non-functioning Neuroendocrine Tumor (GEP NF-NET) and, specifically, commenting on utilization of pharmacotherapies?\nNot comfortable at all [DISQUALIFY]\nSlightly comfortable [DISQUALIFY]\nModerately comfortable [DISQUALIFY]\nVery comfortable [CONTINUE]\nExtremely comfortable [CONTINUE]\nQ12 [SINGLE SELECT] Have you personally participated in or supported any clinical trials related to neuroendocrine tumors (NETs)?\nYes\nNo\nQ13 [MULTI SELECT] Are you, or is an immediate family member, currently or within the past 6 months employed by or under contract with any of the following? Select all that apply.\nNational Regulatory Body [DISQUALIFY]\nThe Federal Government or agencies of the Federal Government [DISQUALIFY]\nThe State Government or agencies of a State Government [DISQUALIFY]\nA marketing or market research department or company [DISQUALIFY]\nAn advertising agency [DISQUALIFY]\nA pharmaceutical manufacturer or a healthcare company [DISQUALIFY]\nAs a clinical investigator conducting clinical trials or providing consulting services for a Neuroendocrine Tumor (NET) drug [DISQUALIFY]\nNone of the above [CONTINUE]\nQ14 To clarify, under contract with a “pharmaceutical manufacturer or healthcare company” includes performing duties as a speaker, Key Opinion Leader (KOL), or an Advisory Board Member. Are you, or an immediate family member currently or within the past 6 months working on behalf of a pharmaceutical manufacturer or healthcare company in any of these aforementioned roles?\nYes [DISQUALIFY]\nNo [CONTINUE]\nQ15 Ambit, the company conducting this research, may wish to undergo additional research regarding Neuroendocrine Tumors (NETs) in the future. Would you be willing to be re-contacted to take part in further research?\nYes [CONTINUE]\nNo [CONTINUE]\n[RETAIN ALL SCREENER INFO AND PROVIDE TO AMBIT]\n[IF DISQUALIFIED]\nI’m sorry, but unfortunately, you do not qualify for our study. Thank you for your interest in participating in the research. We will keep you in mind for future studies.\n[IF QUALIFIED INVITE]\nThank you for answering these questions. Based on your responses, we would like to invite you to participate in our study. The online survey is expected to take ~10 minutes.\nPlease be assured that all your responses will be kept in strict confidence. We will ensure that the strictest standards of privacy are maintained with the content of your responses during the discussion. No identifying information will be collected, and all responses will remain anonymous. As such, please make every effort to be open and honest when responding to the questions.\n[END OF SCREENER]\nFLASH SURVEY\nIn this survey, please think specifically about patients with functioning neuroendocrine tumors (NETs) with carcinoid syndrome (CS) and patients with Gastroenteropancreatic Non-Functioning Neuroendocrine Tumor (GEP NF-NETs).\nWe are working with a pharmaceutical company who is developing an oral somatostatin receptor ligand (SRL) for the treatment of Carcinoid Syndrome (CS) and, potentially, Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs).\nAs a note on terminology: CS is a functioning neuroendocrine tumor (NET), meaning it produces hormones that cause systemic symptoms. NF-NETs, by contrast, do not secrete active hormones. For the purposes of this discussion, we will use \"CS\" to refer to the functioning NET indication going forward. And we’ll refer to Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors as GEP NF-NETs.\nYou will be shown a series of hypothetical evidence scenarios for a new oral somatostatin receptor ligand (SRL). These scenarios are for market research purposes only and are not intended to promote any product.\nPlease assume adequate reimbursement coverage and commercial availability unless otherwise specified.\nPROGRAMMING NOTES:\nDISPLAY BASE PROFILE ON EACH SCENARIO SCREEN\nASK EACH SCENARIO FOR CARCINOID SYNDROME PATIENTS FIRST, THEN NF-NET PATIENTS WHERE APPLICABLE\nDISPLAY SCENARIOS IN SEQUENTIAL ORDER (BASE → SCENARIO 1 → SCENARIO 2 → SCENARIO 3)\nRECORD COMPLETION TIME FOR ALL SURVEY QUESTIONS\nBASE PROFILE\nConsider a new oral Somatostatin Receptor Ligand (SRL) with the following profile:\nOral once-daily administration\nComparable tumor control efficacy to injectable SRLs\nSuperior carcinoid syndrome symptom control compared with injectable SRLs\nSafety profile similar to injectable SRLs\nProgression-free survival benefit demonstrated in Phase III trial\nFDA approval for Carcinoid Syndrome based on a randomized Phase III trial for Product X v. placebo\nQ1. How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ2. Based on this base profile, approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] carcinoid syndrome patients\nSCENARIOS\nScenario 1. From the base profile, assume the product additionally has:\nA new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript\nQ3. How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ4. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] carcinoid syndrome patients\nQ5. How likely would you be to prescribe this therapy for patients with GEP NF-NET, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ6. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] GEP NF-NET patients\nScenario 2. From the base profile, assume the product additionally has:\nA new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript\nImproved treatment satisfaction\nNCCN guidelines inclusion for GEP NF-NET tumor control\nQuality of life benefit\nQ7. How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ8. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] carcinoid syndrome patients\nQ9. How likely would you be to prescribe this therapy for patients with GEP NF-NET, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ10. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] GEP NF-NET patients\nScenario 3. From the base profile, assume the product additionally has:\nA new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript\nImproved treatment satisfaction\nNCCN guidelines inclusion for GEP NF-NET tumor control\nQuality of life benefit\nFDA-approved label for tumor control in NF GEP-NETs\nQ11. How likely would you be to prescribe this therapy for patients with carcinoid syndrome, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ12. Approximately what percentage of your carcinoid syndrome patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] carcinoid syndrome patients\nQ13. How likely would you be to prescribe this therapy for patients with GEP NF-NET, where 1 is not at all likely and 7 is extremely likely?\n______ [SINGLE SELECT: 7-POINT SCALE, WHERE 1 = NOT AT ALL LIKELY AND 7 = EXTREMELY LIKELY]\nQ14. Approximately what percentage of your GEP NF-NET patients would you consider appropriate candidates for this therapy?\n______ % [INPUT: 0-100] GEP NF-NET patients\nVALIDATION\nQ15. Thinking specifically about patients with carcinoid syndrome, please rank the following characteristics according to their influence on your prescribing behavior. [RANKING EXERCISE]\nA new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript\nImproved treatment satisfaction\nNCCN guidelines inclusion for GEP NF-NET tumor control\nQuality of life benefit\nFDA-approved label for tumor control in NF GEP-NETs\nQ16. Thinking specifically about patients with GEP NF-NET, please rank the following characteristics according to their influence on your prescribing behavior. [RANKING EXERCISE]\nA new tumor control trial in Gastroenteropancreatic Non-Functioning Neuroendocrine Tumors (GEP NF-NETs) of Product X v. SOC SRLs showing progression-free survival (PFS) benefit at 18 months available as a peer reviewed manuscript\nImproved treatment satisfaction\nNCCN guidelines inclusion for GEP NF-NET tumor control\nQuality of life benefit\nFDA-approved label for tumor control in NF GEP-NETs\nThank you, the survey is now complete.",
+  "total_questions": 17,
+  "total_sections": 1,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 228,
+      "source_characters": 17925,
+      "question_style_blocks": 0
+    }
+  }
+}

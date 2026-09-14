@@ -1,0 +1,2269 @@
+{
+  "metadata": {
+    "title": "2026 Recurrent Pericarditis (HCP) Ad Tracker",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "W1",
+          "variable": "W1",
+          "title": "Changes 6.18.26",
+          "text": "W1 Changes 6.18.26 QUOTAS Quota 1 Cell Description Qualifying Logic Quota Hard Quota? 10 Cardiologists S2=Cardiology OR (Pediatric Cardiology AND on-list) OR (Cardiothoracic Surgeon AND on-list) n=110 Yes 20 Rheumatologists S2=Rheumatology n=40 Yes TOTAL n=150 Quota 2 Cell Description Qualifying Logic Quota Hard Quota? 10 Cardiologists Target/Call S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=CSS Target OR Target Type=rCSS Target OR (Target Type=Non-Target AND Call in Last 6 Months=Yes) n=55 Yes 11 Cardiologists CSS target S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=CSS Target Monitor No 12 Cardiologists rCSS target S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=rCSS Target Monitor No 13 Cardiologists with call only S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND (Target Type=Non-Target AND Call in Last 6 Months=Yes) Monitor No 20 Cardiologists non-targets (S2=Cardiology AND not on list) OR (S2=Cardiology AND on-list AND Target Type=Non-Target AND Call in Last 6 Months=No) n=55 Yes TOTAL n=110 Quota 3 Cell Description Qualifying Logic Quota Hard Quota? 10 Rheumatologists Target/Call S2= Rheumatology AND Target Type=CSS Target OR Target Type=rCSS Target OR (Target Type=Non-Target AND Call in Last 6 Months=Yes) Monitor No 11 Rheumatologists CSS target S2= Rheumatology AND Target Type=CSS Target Monitor No 12 Rheumatologists rCSS target S2= Rheumatology AND Target Type=rCSS Target Monitor No 13 Rheumatologists with call only S2= Rheumatology AND (Target Type=Non-Target AND Call in Last 6 Months=Yes) Monitor No 20 Rheumatologists non-targets (S2= Rheumatology AND not on list) OR (S2= Rheumatology AND on-list AND Target Type=Non-Target AND Call in Last 6 Months=No) Monitor No From target list, pass through variable Primary Specialty and CSS Target and Call in Last 6 Months Maximum of 30% off-list respondents who completed ATU W1 (25-101690-01). First invite on-list respondents who didn’t complete ATU W1; then invite those that did complete as necessary. SCREENER Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "10",
+              "text": "Hard Quota?",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "20",
+              "text": "Yes",
+              "value": 20,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Yes",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "No",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "No",
+              "value": 13,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 2
+          }
+        },
+        {
+          "id": "AE1",
+          "variable": "AE1",
+          "title": "This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company.",
+          "text": "AE1. This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company. The survey will take approximately 15 minutes of your time. With your consent, your information will only be collected and used for market research and analysis. Any information you give will be treated in the strictest confidence and results will only be reported back on an aggregated basis. As a member of EphMRA, Ipsos is bound by EphMRA Code of Conduct and all applicable laws protecting your personal data and responses. The study is conducted in compliance with ESOMAR/ EphMRA guidelines. You have the right to withdraw from the interview at any time. For more information about your rights please see our privacy notice, it is available at [INSERT PRIVACY NOTICE HYPERLINK]. You will receive an honorarium for your participation. We are required to pass on to our client details of adverse events/product complaints pertaining to their products that are mentioned during the interview. If this happens, we will need to collect details and report the event, even if you have already done so. By agreeing to participate in this survey you are consenting that should any side effects or product complaints relating to the sponsoring company’s product come up during the interview, your contact information (name, email, telephone) will be provided to the sponsoring company’s drug safety department for their follow-up. This will have no impact on the confidentiality and anonymity associated with the interview itself. We will start by asking you a few preliminary questions to determine if you qualify, at which point, you will be taken through the remainder of the study. Please confirm that: I have read, understood and accept the points above and am happy to proceed with the market research survey on those basis No, I do not want to participate in this research [TERMINATE] Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "AE1. This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company. The survey will take approximately 15 minutes of your time. With your consent, your information will only be collected and used for market research and analysis. Any information you give will be treated in the strictest confidence and results will only be reported back on an aggregated basis. As a member of EphMRA, Ipsos is bound by EphMRA Code of Conduct and all applicable laws protecting your personal data and responses. The study is conducted in compliance with ESOMAR/ EphMRA guidelines. You have the right to withdraw from the interview at any time. For more information about your rights please see our privacy notice, it is available at [INSERT PRIVACY NOTICE HYPERLINK]. You will receive an honorarium for your participation. We are required to pass on to our client details of adverse events/product complaints pertaining to their products that are mentioned during the interview. If this happens, we will need to collect details and report the event, even if you have already done so. By agreeing to participate in this survey you are consenting that should any side effects or product complaints relating to the sponsoring company’s product come up during the interview, your contact information (name, email, telephone) will be provided to the sponsoring company’s drug safety department for their follow-up. This will have no impact on the confidentiality and anonymity associated with the interview itself. We will start by asking you a few preliminary questions to determine if you qualify, at which point, you will be taken through the remainder of the study. Please confirm that: I have read, understood and accept the points above and am happy to proceed with the market research survey on those basis No, I do not want to participate in this research [TERMINATE] Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 92
+          }
+        },
+        {
+          "id": "S2",
+          "variable": "S2",
+          "title": "Which of the following best describes your primary medical specialty?",
+          "text": "S2. Which of the following best describes your primary medical specialty? [RANDOMIZE. ANCHOR OTHER] Internal Medicine / General Practice [TERMINATE] Cardiology Pediatric Cardiology [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Cardiothoracic Surgeon [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Rheumatology Other (please specify) [TERMINATE] Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S2. Which of the following best describes your primary medical specialty? [RANDOMIZE. ANCHOR OTHER] Internal Medicine / General Practice [TERMINATE] Cardiology Pediatric Cardiology [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Cardiothoracic Surgeon [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Rheumatology Other (please specify) [TERMINATE] Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 103
+          }
+        },
+        {
+          "id": "S3",
+          "variable": "S3",
+          "title": "Are you in full-time, active practice?",
+          "text": "S3. Are you in full-time, active practice? Yes No [TERMINATE] Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S3. Are you in full-time, active practice? Yes No [TERMINATE] Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 112
+          }
+        },
+        {
+          "id": "S4",
+          "variable": "S4",
+          "title": "In which state do you primarily practice?",
+          "text": "s4. In which state do you primarily practice? PROVIDE DROP-DOWN LIST OF US STATES IN ALPHABETICAL ORDER. FORCE SINGLE SELECTION. TERMINATE IF VERMONT OR “I DO NOT RESIDE IN THE UNITED STATES” Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "s4. In which state do you primarily practice? PROVIDE DROP-DOWN LIST OF US STATES IN ALPHABETICAL ORDER. FORCE SINGLE SELECTION. TERMINATE IF VERMONT OR “I DO NOT RESIDE IN THE UNITED STATES” Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 116
+          }
+        },
+        {
+          "id": "S5",
+          "variable": "S5",
+          "title": "What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)?",
+          "text": "S5. What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)? ________% [RANGE: 0-100%; IF <50%, TERMINATE] Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S5. What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)? ________% [RANGE: 0-100%; IF <50%, TERMINATE] Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 119
+          }
+        },
+        {
+          "id": "S6",
+          "variable": "S6",
+          "title": "Excluding your residency and fellowship, for how many years have you been practicing?",
+          "text": "s6. Excluding your residency and fellowship, for how many years have you been practicing? ________# of years [RANGE: 0-99] [IF <3 OR >35 AND NOT ON LIST, TERMINATE; IF <3 OR >40 AND ON-LIST, TERMINATE] Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "s6. Excluding your residency and fellowship, for how many years have you been practicing? ________# of years [RANGE: 0-99] [IF <3 OR >35 AND NOT ON LIST, TERMINATE; IF <3 OR >40 AND ON-LIST, TERMINATE] Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 122
+          }
+        },
+        {
+          "id": "S7",
+          "variable": "S7",
+          "title": "In the prior 12 months, how many patients have you managed with each of the following conditions?",
+          "text": "S7 In the prior 12 months, how many patients have you managed with each of the following conditions? Please enter 0 for those that do not apply. [RANDOMIZE. RANGE: 0 – 10,000] 1 _______Myocarditis 2 _______Pericarditis IF <5 FOR CARDS AND OR <2 FOR RHEUMS TERMINATE 3 _______Atrial fibrillation 4 _______Acute heart failure 5 _______Cryopyrin-Associated Periodic Syndromes (CAPS) 6 _______Still’s Disease 7 _______Rheumatic heart disease Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "[RANDOMIZE. RANGE: 0 – 10,000]",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "_______Myocarditis",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "<2 FOR RHEUMS TERMINATE",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "_______Atrial fibrillation",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "_______Acute heart failure",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "_______Cryopyrin-Associated Periodic Syndromes (CAPS)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "_______Still’s Disease",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "S7 In the prior 12 months, how many patients have you managed with each of the following conditions? Please enter 0 for those that do not apply. [RANDOMIZE. RANGE: 0 – 10,000] 1 _______Myocarditis 2 _______Pericarditis IF <5 FOR CARDS AND OR <2 FOR RHEUMS TERMINATE 3 _______Atrial fibrillation 4 _______Acute heart failure 5 _______Cryopyrin-Associated Periodic Syndromes (CAPS) 6 _______Still’s Disease 7 _______Rheumatic heart disease Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 126
+          }
+        },
+        {
+          "id": "S8",
+          "variable": "S8",
+          "title": "In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories?",
+          "text": "S8 In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories? [RANGE 0-S7_2 FOR EACH] 1 ________ patients with recurrent pericarditis (defined as patients having at least two pericarditis episodes separated by a symptom free period of at least 4 weeks) IF <3 FOR CARDS AND NOT ON LIST, TERMINATE IF <2 FOR CARDS AND ON-LIST, TERMINATE IF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE 2 ________ patients with a single episode of pericarditis [MUST SUM TO",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "[RANGE 0-S7_2 FOR EACH]",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "IF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "S8 In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories? [RANGE 0-S7_2 FOR EACH] 1 ________ patients with recurrent pericarditis (defined as patients having at least two pericarditis episodes separated by a symptom free period of at least 4 weeks) IF <3 FOR CARDS AND NOT ON LIST, TERMINATE IF <2 FOR CARDS AND ON-LIST, TERMINATE IF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE 2 ________ patients with a single episode of pericarditis [MUST SUM TO",
+          "notes": null,
+          "metadata": {
+            "source_line": 147
+          }
+        },
+        {
+          "id": "S7_2",
+          "variable": "S7_2",
+          "title": "SHOW SUM COUNTER]",
+          "text": "S7_2. SHOW SUM COUNTER] Base: All Respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 158
+          }
+        },
+        {
+          "id": "S9",
+          "variable": "S9",
+          "title": "How many of your [PIPE S8_1] recurrent pericarditis patients that you have managed in the last 12 months have each of the below etiologies?",
+          "text": "S9 How many of your [PIPE S8_1] recurrent pericarditis patients that you have managed in the last 12 months have each of the below etiologies? MUST SUM TO",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 160
+          }
+        },
+        {
+          "id": "S8_1",
+          "variable": "S8_1",
+          "title": "TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology)",
+          "text": "S8_1. TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology) 1 ________ viral pericarditis 2 ________ idiopathic pericarditis 3 ________ autoimmune pericarditis 4 ________ pericarditis associated with post-pericardiotomy syndrome 5 Other (please specify) Base: All Respondents Thank you for the information provided thus far. Your responses indicate that you are eligible for this survey. Please note that all responses will be anonymized and aggregated. For the rest of the survey, we would like to focus on recurrent pericarditis with non-autoimmune etiology (e.g., where the etiology is viral, idiopathic, and/or associated with post-pericardiotomy syndrome). We will refer to the condition as RP. Please click “next” to proceed with the rest of the questions. [INCLUDE THE FOLLOWING AT THE BOTTOM OF ALL PAGES: “RP: recurrent pericarditis with non-autoimmune etiology. ”] QUESTIONNAIRE",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "________ viral pericarditis",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "________ viral pericarditis",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "________ idiopathic pericarditis",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "________ autoimmune pericarditis",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "________ pericarditis associated with post-pericardiotomy syndrome",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "S8_1. TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology) 1 ________ viral pericarditis 2 ________ idiopathic pericarditis 3 ________ autoimmune pericarditis 4 ________ pericarditis associated with post-pericardiotomy syndrome 5 Other (please specify) Base: All Respondents Thank you for the information provided thus far. Your responses indicate that you are eligible for this survey. Please note that all responses will be anonymized and aggregated. For the rest of the survey, we would like to focus on recurrent pericarditis with non-autoimmune etiology (e.g., where the etiology is viral, idiopathic, and/or associated with post-pericardiotomy syndrome). We will refer to the condition as RP. Please click “next” to proceed with the rest of the questions. [INCLUDE THE FOLLOWING AT THE BOTTOM OF ALL PAGES: “RP: recurrent pericarditis with non-autoimmune etiology. ”] QUESTIONNAIRE",
+          "notes": null,
+          "metadata": {
+            "source_line": 163
+          }
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "title": "Brand Metrics & Ad Recall",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q105",
+          "variable": "Q105",
+          "title": "Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any.",
+          "text": "Q105. Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any. [INSERT 10 SEPARATE OE TEXT BOXES] Base: All Respondents",
+          "section": "1",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q105. Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any. [INSERT 10 SEPARATE OE TEXT BOXES] Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 183
+          }
+        },
+        {
+          "id": "Q110",
+          "variable": "Q110",
+          "title": "Please indicate your level of awareness with the below therapies that are used to treat recurrent pericarditis.",
+          "text": "Q110 Please indicate your level of awareness with the below therapies that are used to treat recurrent pericarditis. SELECT ONE FOR EACH THERAPY. RANDOMIZE AND KEEP IT IN THE SAME ORDER FOR THE REMAINING OF THE SURVEY. Unaware Aware, but not knowledgeable Aware and somewhat knowledgeable Aware and very knowledgeable 1 NSAIDs 2 Colchicine 3 Corticosteroids 4 Kineret (anakinra) 5 Arcalyst (rilonacept) Base: aware of products (any therapy=AWARE (COL 2-4) in q110)",
+          "section": "1",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Aware and very knowledgeable",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "NSAIDs",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Colchicine",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Corticosteroids",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Kineret (anakinra)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 186
+          }
+        },
+        {
+          "id": "Q115",
+          "variable": "Q115",
+          "title": "Which of the following therapies have you ever prescribed to patients with recurrent pericarditis? Please select one for each treatment.",
+          "text": "Q115 Which of the following therapies have you ever prescribed to patients with recurrent pericarditis? Please select one for each treatment. SHOW ONLY THE OPTIONS THAT HCPS ARE AWARE OF (=2-4) IN Q110 IN THE SAME ORDER AS",
+          "section": "1",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 204
+          }
+        },
+        {
+          "id": "Q120",
+          "variable": "Q120",
+          "title": "Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.",
+          "text": "Q120. Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I do not feel it is an important option 2 3 4 5 6 7 I feel it is a very important option 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: All Respondents",
+          "section": "1",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "RANDOMIZE IN SAME ORDER AS Q110",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I do not feel it is an important option",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I feel it is a very important option",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Corticosteroids",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Arcalyst (rilonacept)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q120. Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I do not feel it is an important option 2 3 4 5 6 7 I feel it is a very important option 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 222
+          }
+        },
+        {
+          "id": "Q125",
+          "variable": "Q125",
+          "title": "Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.",
+          "text": "Q125. Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I have no preference at all for this product 2 3 4 5 6 7 A product for which I have a very high preference 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: aware of NSAIDs, colchicine, ARCALYST, corticosteroids (q110_1, _2, _3, or _5=2-4 AWARE)",
+          "section": "1",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "RANDOMIZE IN SAME ORDER AS Q110",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I have no preference at all for this product",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "A product for which I have a very high preference",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Corticosteroids",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Arcalyst (rilonacept)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q125. Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I have no preference at all for this product 2 3 4 5 6 7 A product for which I have a very high preference 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: aware of NSAIDs, colchicine, ARCALYST, corticosteroids (q110_1, _2, _3, or _5=2-4 AWARE)",
+          "notes": null,
+          "metadata": {
+            "source_line": 238
+          }
+        },
+        {
+          "id": "Q130",
+          "variable": "Q130",
+          "title": "Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option.",
+          "text": "Q130. Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option. RANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST 1 Rapid symptom resolution 2 Prevention of future recurrences 3 Reduces the need for steroids 4 Excellent safety and side effect profile 5 Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.) 6 Convenient dosing and mode of administration 7 Mechanism of action impacts the underlying pathophysiology of RP 8 Excellent manufacturer support (e.g. patient assistance, etc.) 9 It is FDA approved and indicated for RP 10 There is strong clinical trial data to support the product’s efficacy 11 Expert endorsement of drug class 12 Real world data to support treatment use 13 Proven efficacy and safety over the long term 14 Clinically proven to prevent recurrences over the long term Base: All Respondents",
+          "section": "1",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "RANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Rapid symptom resolution",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Prevention of future recurrences",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Reduces the need for steroids",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Excellent safety and side effect profile",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Convenient dosing and mode of administration",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Mechanism of action impacts the underlying pathophysiology of RP",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Excellent manufacturer support (e.g. patient assistance, etc.)",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "It is FDA approved and indicated for RP",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "There is strong clinical trial data to support the product’s efficacy",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Expert endorsement of drug class",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "Real world data to support treatment use",
+              "value": 13,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "14",
+              "text": "Proven efficacy and safety over the long term",
+              "value": 14,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q130. Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option. RANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST 1 Rapid symptom resolution 2 Prevention of future recurrences 3 Reduces the need for steroids 4 Excellent safety and side effect profile 5 Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.) 6 Convenient dosing and mode of administration 7 Mechanism of action impacts the underlying pathophysiology of RP 8 Excellent manufacturer support (e.g. patient assistance, etc.) 9 It is FDA approved and indicated for RP 10 There is strong clinical trial data to support the product’s efficacy 11 Expert endorsement of drug class 12 Real world data to support treatment use 13 Proven efficacy and safety over the long term 14 Clinically proven to prevent recurrences over the long term Base: All Respondents",
+          "notes": null,
+          "metadata": {
+            "source_line": 254
+          }
+        },
+        {
+          "id": "Q135",
+          "variable": "Q135",
+          "title": "In the past 3 months, do you recall seeing any advertisements for the following products specific to the treatment of RP?",
+          "text": "Q135. In the past 3 months, do you recall seeing any advertisements for the following products specific to the treatment of RP? Please consider any advertisements you may have seen on TV, social media, the internet, etc. and select all that apply. [RANDOMIZE. ANCHOR NONE] NSAIDs Colchicine Corticosteroids Kineret (anakinra) Arcalyst (rilonacept) None of the above [EXCLUSIVE] BASE: RECALL SEEING AD (Q135=5)",
+          "section": "1",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 285
+          }
+        },
+        {
+          "id": "Q137",
+          "variable": "Q137",
+          "title": "What do you recall from the Arcalyst ad you saw in the past 3 months?",
+          "text": "Q137. What do you recall from the Arcalyst ad you saw in the past 3 months? Please be as specific as possible and describe what messages you remember, the images and phrases used, what the ad was trying to tell you about the product, etc. [INSERT OE TEXT BOX; MIN 15 CHARACTERS] BASE: RECALL SEEING AD FOR ARCALYST (Q135=5)",
+          "section": "1",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 295
+          }
+        },
+        {
+          "id": "Q140",
+          "variable": "Q140",
+          "title": "Where did you see the advertising for Arcalyst in the past 3 months?",
+          "text": "Q140. Where did you see the advertising for Arcalyst in the past 3 months? Select all that apply. [RANDOMIZE. ANCHOR OTHER AND DON’T KNOW] Traditional live TV services (including live broadcasts/networks, local channels, cable, and satellite) On a streaming service/app (e.g., Prime Video, Hulu, Peacock, Apple TV) on any device (TV, iPad/tablet, phone, etc.) On Arcalyst’s website In online search sites (e.g., Google, Yahoo, Bing, or others) In online advertising (e.g., video ads, banners, pop up ads) Social media (e.g., Facebook, Instagram, Twitter, TikTok, LinkedIn) YouTube Email from manufacturer EHR systems (e.g., Epic, Allscripts, NextGen) Doximity Healthcasts Other (please specify) Don’t remember / not sure [EXCLUSIVE]",
+          "section": "1",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 299
+          }
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Blinded Ad Recall",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q205",
+          "variable": "Q205",
+          "title": "Now we would like to show you a series of images from an advertisement you may have seen.",
+          "text": "Q205. Now we would like to show you a series of images from an advertisement you may have seen. [SHOW IMAGES] Have you seen this advertisement recently? Please note, if you would like to make the image bigger, you can click on it to enlarge it. Yes No [SKIP TO NEXT SECTION] NORM – BRAND LINK BASE: RECALL SEEING AD (Q205=1)",
+          "section": "2",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q205. Now we would like to show you a series of images from an advertisement you may have seen. [SHOW IMAGES] Have you seen this advertisement recently? Please note, if you would like to make the image bigger, you can click on it to enlarge it. Yes No [SKIP TO NEXT SECTION] NORM – BRAND LINK BASE: RECALL SEEING AD (Q205=1)",
+          "notes": null,
+          "metadata": {
+            "source_line": 318
+          }
+        },
+        {
+          "id": "Q210",
+          "variable": "Q210",
+          "title": "What therapy or brand was this advertisement for?",
+          "text": "Q210. What therapy or brand was this advertisement for? Please click here to review it again [PROVIDE LINK TO AD IMAGES]. [INSERT OE TEXT BOX] BASE: RECALL SEEING AD (Q205=1)",
+          "section": "2",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 326
+          }
+        },
+        {
+          "id": "Q220",
+          "variable": "Q220",
+          "title": "Which of the following therapies used to treat recurrent pericarditis do you believe the advertisement is associated with?",
+          "text": "Q220. Which of the following therapies used to treat recurrent pericarditis do you believe the advertisement is associated with? Please click here to review it again [PROVIDE LINK TO AD IMAGES]. [SHOW IN SAME ORDER AS",
+          "section": "2",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 330
+          }
+        },
+        {
+          "id": "Q230",
+          "variable": "Q230",
+          "title": "Where do you remember seeing this advertisement?",
+          "text": "Q230. Where do you remember seeing this advertisement? Select all that apply. [USE SAME RANDOMIZED LIST FROM Q140] BASE: RECALL SEEING AD (Q205=1)",
+          "section": "2",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 342
+          }
+        },
+        {
+          "id": "Q240",
+          "variable": "Q240",
+          "title": "About how many times have you seen this advertisement?",
+          "text": "Q240. About how many times have you seen this advertisement? Please click here to review it again [PROVIDE LINK TO AD IMAGES]. Best estimated number of times: _________ [RANGE 1-99] BASE: RECALL SEEING AD (Q205=1)",
+          "section": "2",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 346
+          }
+        },
+        {
+          "id": "Q245",
+          "variable": "Q245",
+          "title": "What do you think the main message of the advertisement is?",
+          "text": "Q245. What do you think the main message of the advertisement is? Please be as specific as possible and describe what you think the ad is trying to tell you about the product. [INSERT OE TEXT BOX; MIN 15 CHARACTERS] BASE: RECALL SEEING AD (Q205=1)",
+          "section": "2",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 350
+          }
+        },
+        {
+          "id": "Q250",
+          "variable": "Q250",
+          "title": "You may have mentioned this before, but what message(s) do you recall from this advertisement?",
+          "text": "Q250. You may have mentioned this before, but what message(s) do you recall from this advertisement? Select all that apply. [RANDOMIZE. ANCHOR NONE] ARCALYST® blocks IL-1, a key driver of the inflammation cycle in recurrent pericarditis 97% of patients taking ARCALYST® achieved pain relief and inflammation resolution, most after the first dose Patients taking ARCALYST saw a 96% reduction in the risk of a recurrent flare ARCALYST may help protect your heart’s home from recurrent flares Is your heart’s home impacted by recurrent pericarditis? ARCALYST – the only FDA-approved therapy to treat recurrent pericarditis The average time to treatment response was 5 days Help protect the heart’s home None of the above [EXCLUSVE] BASE: RECALL SEEING AD (Q205=1)",
+          "section": "2",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 354
+          }
+        },
+        {
+          "id": "Q255",
+          "variable": "Q255",
+          "title": "After seeing the advertisement, which of the following actions did you take?",
+          "text": "Q255. After seeing the advertisement, which of the following actions did you take? Select all that apply. [RANDOMIZE, KEEPING 5 AND 6 TOGETHER. ANCHOR OTHER, NONE] I researched clinical studies or published articles about this brand for recurrent pericarditis I discussed this brand's potential with my colleagues or within professional forums I visited the brand's professional website for detailed product and clinical information I considered this brand for future recommendations to my patients with recurrent pericarditis I began prescribing this brand to my patients with recurrent pericarditis I began discussing this brand with my patients with recurrent pericarditis I attended a professional webinar or educational session about this brand I reached out to the manufacturer of the brand (i.e. sales representative) for more information Other (please specify) I did not take any action [EXCLUSIVE]",
+          "section": "2",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 367
+          }
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Ad Evaluation",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q305",
+          "variable": "Q305",
+          "title": "What, in your opinion, was the main message of this advertisement?",
+          "text": "Q305. What, in your opinion, was the main message of this advertisement? Please be as specific as possible and describe what you think the ad is trying to tell you about the product. [INSERT OE TEXT BOX; MIN 10 CHARACTERS] NORM - likeability Base: All Respondents",
+          "section": "3",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 385
+          }
+        },
+        {
+          "id": "Q310",
+          "variable": "Q310",
+          "title": "Please indicate your overall impression of this advertisement.",
+          "text": "Q310. Please indicate your overall impression of this advertisement. Disliked it very much Disliked it somewhat Felt neutral about it Liked it somewhat Liked it very much Base: liking ad (q310=4,5)",
+          "section": "3",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 390
+          }
+        },
+        {
+          "id": "Q315",
+          "variable": "Q315",
+          "title": "What do you like about the ad?",
+          "text": "Q315. What do you like about the ad? Please be as specific as possible. [INSERT OE TEXT BOX] Base: dislike ad (q310=1,2)",
+          "section": "3",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 397
+          }
+        },
+        {
+          "id": "Q320",
+          "variable": "Q320",
+          "title": "What do you dislike about the ad?",
+          "text": "Q320. What do you dislike about the ad? Please be as specific as possible. [INSERT OE TEXT BOX] Base: All Respondents",
+          "section": "3",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 401
+          }
+        },
+        {
+          "id": "Q325",
+          "variable": "Q325",
+          "title": "How much do you agree with the following statements about this ad?",
+          "text": "Q325. How much do you agree with the following statements about this ad? Select one per row. RANDOMIZE Disagree 1 Agree somewhat 2 Agree strongly 3 1 The ad gave me a good feeling about the brand NORM 2 The ad was unique and different NORM 3 The ad was very informative NORM 4 The ad told me something new NORM 5 What the ad said and showed was interesting to me NORM 5 11 The ad made me want to discuss the brand with my RP patients 6 The ad is relevant for my RP patients 7 The ad made me want to seek out additional information about the brand 8 The ad made me want to utilize the brand in treating my RP patients 9 The ad made me want to visit the website NORM 10 The ad improved the familiarity and understanding of what this brand is about NORM Base: All Respondents",
+          "section": "3",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Agree somewhat",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Agree strongly",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "NORM",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "NORM",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "The ad made me want to discuss the brand with my RP patients",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "The ad is relevant for my RP patients",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "The ad made me want to seek out additional information about the brand",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "The ad made me want to utilize the brand in treating my RP patients",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "NORM",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 405
+          }
+        },
+        {
+          "id": "Q340",
+          "variable": "Q340",
+          "title": "After seeing the full advertisement, do you recall seeing this advertisement prior to today?",
+          "text": "Q340. After seeing the full advertisement, do you recall seeing this advertisement prior to today? Yes No BASE: RECALL SEEING AD (Q340=1)",
+          "section": "3",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 444
+          }
+        },
+        {
+          "id": "Q345",
+          "variable": "Q345",
+          "title": "Where do you remember seeing this ad? Select all that apply.",
+          "text": "Q345. Where do you remember seeing this ad? Select all that apply. [USE SAME RANDOMIZED LIST FROM Q140] Base: All Respondents",
+          "section": "3",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 448
+          }
+        },
+        {
+          "id": "Q350",
+          "variable": "Q350",
+          "title": "After seeing the ad, which of the following actions will you take?",
+          "text": "Q350. After seeing the ad, which of the following actions will you take? Select all that apply. [USE SAME RANDOMIZED ORDER FROM",
+          "section": "3",
+          "question_type": "MULTI",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 451
+          }
+        },
+        {
+          "id": "Q355",
+          "variable": "Q355",
+          "title": "In what timeframe will you start discussing or prescribing the brand with your RP patients?",
+          "text": "Q355. In what timeframe will you start discussing or prescribing the brand with your RP patients? Immediately Within the next month 1-2 months from now 3-6 months from now 7-12 months from now In more than a year from now",
+          "section": "3",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 466
+          }
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Demographics",
+      "description": null,
+      "questions": [
+        {
+          "id": "D1",
+          "variable": "D1",
+          "title": "Please indicate your biological sex.",
+          "text": "D1. Please indicate your biological sex. Female Male Other / Prefer not to answer BASE: ALL RESPONDENTS",
+          "section": "8",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 475
+          }
+        },
+        {
+          "id": "D2",
+          "variable": "D2",
+          "title": "What is your current age?",
+          "text": "D2. What is your current age? _____ [RANGE 0-100] BASE: ALL RESPONDENTS",
+          "section": "8",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 480
+          }
+        },
+        {
+          "id": "D3",
+          "variable": "D3",
+          "title": "In what type of geographic area is your practice located?",
+          "text": "D3. In what type of geographic area is your practice located? Urban Suburban Rural Base: All Respondents",
+          "section": "8",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 483
+          }
+        },
+        {
+          "id": "D4",
+          "variable": "D4",
+          "title": "Which of the below clinical settings best describes where you see your recurrent pericarditis patients?",
+          "text": "d4. Which of the below clinical settings best describes where you see your recurrent pericarditis patients? Academic/Teaching Institution Community-based Institution Private Practice BASE: ALL RESPONDENTS",
+          "section": "8",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 488
+          }
+        },
+        {
+          "id": "D5.THANK",
+          "variable": "D5.THANK",
+          "title": "you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment.",
+          "text": "D5.Thank you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment. Would you be interested in participating in this follow-up? Yes No APPENDIX: PRIVACY NOTICE This Ipsos Survey and your personal data 25-096947-01 This Privacy Notice explains who we are, the personal data we collect, how we use it, who we share it with, and what your legal rights are. About Ipsos Ipsos-Insight, LLC, is a specialist research agency, based in the United States, commonly known as Ipsos (“Ipsos”, “we”, or “us”). This research is conducted by an Ipsos division specialised in healthcare research, known as the “Healthcare Service Line”. The Healthcare Service Line is part of the Ipsos worldwide group of companies, and a member of Insights Association, ESOMAR (European Society for Opinion and Market Research) and EphMRA, the international association of the pharmaceutical market research industry. As such we abide by Insights Association/ESOMAR/EphMRA Code of Conduct and associated regulations and guidelines. What is Ipsos’ legal basis for processing your personal data? Ipsos requires a legal basis to process your personal data. Ipsos’s legal basis for processing is your consent to take part in this research survey. If you wish to withdraw your consent at any time, please see the section below covering ‘Your Rights’. Processing personal data for Drug Safety Monitoring - The medicines manufacturer commissioning this market research needs some information to continue identifying new side effects and problems with their medicines, and ways in which the risks of known side effects can be minimised. We are keen on supporting our client efforts towards drug safety and will pass our client details of adverse events that are mentioned during market or clinical research. Although in market or clinical research what you say will, of course, be treated in confidence, should you raise during the research an adverse event in a specific patient or group of patients, we will need to report this even if it has already been reported by you directly to the company or the regulatory authorities. Please note the sponsoring company may use a different legal basis to further process your personal data for drug and device safety purposes in compliance with their regulatory obligations. It may be important for you to know that your individual responses to the research tasks or questions may need to be retained by Ipsos for up to ten (10) years for the purpose of drug and device safety monitoring as instructed by the sponsoring client of the research. Everything else you say during the survey will continue to remain confidential, and you will still have the option to remain anonymous if you wish. How will Ipsos use any personal data including survey responses you provide? Firstly, responding to this survey is entirely voluntary and any answers are given with your consent. If you have been invited to participate in this study by a 3rd party, the organisation that invited you to participate has not provided Ipsos Healthcare with any information relating to you. In case you will be asked to provide personal data within the survey, Ipsos will keep your personal data and responses in strict confidence in accordance with this Privacy Policy. Anonymised individual responses may be shared with the commissioning client, however Ipsos can assure you that you will NOT be identifiable in any published results, unless you had given your consent to do so. Ipsos will use your personal data and responses solely for research purposes and to produce anonymous, statistical research findings and insights. Who we share your data with Ipsos will be using certain supplier organisation(s) to assist us in running the research survey and we will need to disclose your personal data to these supplier organisation(s) for that purpose. These supplier organisations include: Market Research Fieldwork Agencies Online Hosting Platforms Translation Agencies AI APIs, like Open AI APIs or Google Vertex using an Ipsos dedicated environment In case any of your answers will be identified as a reportable adverse event, we will be sharing your personal data with the sponsoring company’s drug safety department or the regulatory authorities. How will Ipsos ensure my personal information is secure? Ipsos takes its information security responsibilities seriously and applies various precautions to ensure your information is protected from loss, theft, or misuse. Security precautions include appropriate physical security of offices and controlled and limited access to computer systems as well as techniques such as pseudonymisation and encryption of your data both at rest and in transfer. How long will Ipsos retain my personal data and identifiable responses? Ipsos will only retain your data in a way that can identify you for as long as is necessary to support the research project and findings. In practice, this means that once we have satisfactorily reported the anonymous research findings, we will securely remove your personal, identifying data from our systems. For this project we will securely remove your personal data from our systems within 3 months after project closure. If your individual responses to the research tasks or questions are identifiable, it may be necessary to retain this material securely for a period of up to: One (1) year for research purposes, Ten (10) years for the purpose of drug and device safety monitoring by the sponsoring company. Your rights. You have the right to access your personal data within the limited period that Ipsos holds it. It’s important to note that If you have been invited to participate in this study by a 3rd party: unless you provide any personal information that identifies, or could be used to identify you, we will not hold any information that would enable Ipsos to identify your responses. Therefore, we would not be able to provide a copy. However, if you do include any personal information that identifies, or could be used to identify you, we can provide a copy of your responses to this research on request at any time before the results are anonymised. Providing responses to this survey is entirely voluntary and is done so with your consent. You have the right to withdraw your consent and to object to our processing of your personal data at any time. You also have the right to rectify any incorrect or out-of-date personal data about you which we may hold. If you want to exercise your rights, please contact us at the below Ipsos address. If you have any complaints, we will appreciate if you give us an opportunity to resolve any issue first, by contacting us as set out below. You are, however, always entitled to contact the regulatory body, the Federal Trade Commission (FTC) at https://www.ftc.gov or by postal mail at: Bureau of Consumer Protection Federal Trade Commission 600 Pennsylvania Ave., NW Washington, DC 20580 Or by phone at: (877)-382-4357 Other data protection authorities within your state of residence are also likely to accept your complaint. Where will my personal data be held & processed? All of your personal data used and collected for this survey will be stored by Ipsos in data centres and servers within the United States. We may though need to transfer your personal data to countries outside the United States. Some countries may not have laws that provide the same protections on personal data as inside the United States. Groups to whom Ipsos transfers personal data in such countries will be required to sign agreements to protect personal data or agree to data transfer agreements with third parties. How can I contact Ipsos about this survey and/or my personal data? Contact Ipsos: Email: DPO.USA@ipsos.com with 25-096947-01 in the email subject line. Postal Mail:Ref: 25-096947-01 Ipsos-Insight, LLC Attn: Data Protection Officer 222 W. Adams Street, Suite 1100 Chicago, IL 60606 State Legislative Requirements U.S. States, including California, Virginia, Colorado, Connecticut, and Utah, have established laws to both protect consumers and also provide them with certain rights as it pertains to their privacy. Ipsos is obligated to inform you of these rights and provide you with control over any information which can directly or indirectly identify you or other people who may reside in your household. This information is referred to in this notice as “Personal Data”. You have the right to request: “Access” to personal data Ipsos has imported, collected, and inferred relating to the purposes of this research and any third parties with whom Ipsos has provided access to complete the research. “Correction” to personal data Ipsos is holding. “Deletion” of personal data Ipsos is holding. “Portability” of the personal data Ipsos is holding, transferring it to another established business or organization. An opt out of the Sale of personal data which is being held. A “Sale” is the disclosure of personal data for monetary or other valuable consideration. Ipsos will not sell or pass on your personal data to any third party. An opt out of any “Processing” of personal data for the disclosed research purposes and research experience by withdrawing your consent. Processing can be accomplished from manual or automated decisions. You have the right to be free from any form of discrimination by a business for exercising any of the before mentioned privacy rights. Useful links Ipsos US Healthcare:www.ipsos.com/en-us/solutions/list?search=Healthcare Ipsos Group:www.ipsos.com Insights Association:www.InsightsAssociation.org ESOMAR:www.esomar.org EPHMRA:www.ephmra.org Federal Trade Commission:www.ftc.gov",
+          "section": "8",
+          "question_type": "DATE",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "D5.Thank you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment. Would you be interested in participating in this follow-up? Yes No APPENDIX: PRIVACY NOTICE This Ipsos Survey and your personal data 25-096947-01 This Privacy Notice explains who we are, the personal data we collect, how we use it, who we share it with, and what your legal rights are. About Ipsos Ipsos-Insight, LLC, is a specialist research agency, based in the United States, commonly known as Ipsos (“Ipsos”, “we”, or “us”). This research is conducted by an Ipsos division specialised in healthcare research, known as the “Healthcare Service Line”. The Healthcare Service Line is part of the Ipsos worldwide group of companies, and a member of Insights Association, ESOMAR (European Society for Opinion and Market Research) and EphMRA, the international association of the pharmaceutical market research industry. As such we abide by Insights Association/ESOMAR/EphMRA Code of Conduct and associated regulations and guidelines. What is Ipsos’ legal basis for processing your personal data? Ipsos requires a legal basis to process your personal data. Ipsos’s legal basis for processing is your consent to take part in this research survey. If you wish to withdraw your consent at any time, please see the section below covering ‘Your Rights’. Processing personal data for Drug Safety Monitoring - The medicines manufacturer commissioning this market research needs some information to continue identifying new side effects and problems with their medicines, and ways in which the risks of known side effects can be minimised. We are keen on supporting our client efforts towards drug safety and will pass our client details of adverse events that are mentioned during market or clinical research. Although in market or clinical research what you say will, of course, be treated in confidence, should you raise during the research an adverse event in a specific patient or group of patients, we will need to report this even if it has already been reported by you directly to the company or the regulatory authorities. Please note the sponsoring company may use a different legal basis to further process your personal data for drug and device safety purposes in compliance with their regulatory obligations. It may be important for you to know that your individual responses to the research tasks or questions may need to be retained by Ipsos for up to ten (10) years for the purpose of drug and device safety monitoring as instructed by the sponsoring client of the research. Everything else you say during the survey will continue to remain confidential, and you will still have the option to remain anonymous if you wish. How will Ipsos use any personal data including survey responses you provide? Firstly, responding to this survey is entirely voluntary and any answers are given with your consent. If you have been invited to participate in this study by a 3rd party, the organisation that invited you to participate has not provided Ipsos Healthcare with any information relating to you. In case you will be asked to provide personal data within the survey, Ipsos will keep your personal data and responses in strict confidence in accordance with this Privacy Policy. Anonymised individual responses may be shared with the commissioning client, however Ipsos can assure you that you will NOT be identifiable in any published results, unless you had given your consent to do so. Ipsos will use your personal data and responses solely for research purposes and to produce anonymous, statistical research findings and insights. Who we share your data with Ipsos will be using certain supplier organisation(s) to assist us in running the research survey and we will need to disclose your personal data to these supplier organisation(s) for that purpose. These supplier organisations include: Market Research Fieldwork Agencies Online Hosting Platforms Translation Agencies AI APIs, like Open AI APIs or Google Vertex using an Ipsos dedicated environment In case any of your answers will be identified as a reportable adverse event, we will be sharing your personal data with the sponsoring company’s drug safety department or the regulatory authorities. How will Ipsos ensure my personal information is secure? Ipsos takes its information security responsibilities seriously and applies various precautions to ensure your information is protected from loss, theft, or misuse. Security precautions include appropriate physical security of offices and controlled and limited access to computer systems as well as techniques such as pseudonymisation and encryption of your data both at rest and in transfer. How long will Ipsos retain my personal data and identifiable responses? Ipsos will only retain your data in a way that can identify you for as long as is necessary to support the research project and findings. In practice, this means that once we have satisfactorily reported the anonymous research findings, we will securely remove your personal, identifying data from our systems. For this project we will securely remove your personal data from our systems within 3 months after project closure. If your individual responses to the research tasks or questions are identifiable, it may be necessary to retain this material securely for a period of up to: One (1) year for research purposes, Ten (10) years for the purpose of drug and device safety monitoring by the sponsoring company. Your rights. You have the right to access your personal data within the limited period that Ipsos holds it. It’s important to note that If you have been invited to participate in this study by a 3rd party: unless you provide any personal information that identifies, or could be used to identify you, we will not hold any information that would enable Ipsos to identify your responses. Therefore, we would not be able to provide a copy. However, if you do include any personal information that identifies, or could be used to identify you, we can provide a copy of your responses to this research on request at any time before the results are anonymised. Providing responses to this survey is entirely voluntary and is done so with your consent. You have the right to withdraw your consent and to object to our processing of your personal data at any time. You also have the right to rectify any incorrect or out-of-date personal data about you which we may hold. If you want to exercise your rights, please contact us at the below Ipsos address. If you have any complaints, we will appreciate if you give us an opportunity to resolve any issue first, by contacting us as set out below. You are, however, always entitled to contact the regulatory body, the Federal Trade Commission (FTC) at https://www.ftc.gov or by postal mail at: Bureau of Consumer Protection Federal Trade Commission 600 Pennsylvania Ave., NW Washington, DC 20580 Or by phone at: (877)-382-4357 Other data protection authorities within your state of residence are also likely to accept your complaint. Where will my personal data be held & processed? All of your personal data used and collected for this survey will be stored by Ipsos in data centres and servers within the United States. We may though need to transfer your personal data to countries outside the United States. Some countries may not have laws that provide the same protections on personal data as inside the United States. Groups to whom Ipsos transfers personal data in such countries will be required to sign agreements to protect personal data or agree to data transfer agreements with third parties. How can I contact Ipsos about this survey and/or my personal data? Contact Ipsos: Email: DPO.USA@ipsos.com with 25-096947-01 in the email subject line. Postal Mail:Ref: 25-096947-01 Ipsos-Insight, LLC Attn: Data Protection Officer 222 W. Adams Street, Suite 1100 Chicago, IL 60606 State Legislative Requirements U.S. States, including California, Virginia, Colorado, Connecticut, and Utah, have established laws to both protect consumers and also provide them with certain rights as it pertains to their privacy. Ipsos is obligated to inform you of these rights and provide you with control over any information which can directly or indirectly identify you or other people who may reside in your household. This information is referred to in this notice as “Personal Data”. You have the right to request: “Access” to personal data Ipsos has imported, collected, and inferred relating to the purposes of this research and any third parties with whom Ipsos has provided access to complete the research. “Correction” to personal data Ipsos is holding. “Deletion” of personal data Ipsos is holding. “Portability” of the personal data Ipsos is holding, transferring it to another established business or organization. An opt out of the Sale of personal data which is being held. A “Sale” is the disclosure of personal data for monetary or other valuable consideration. Ipsos will not sell or pass on your personal data to any third party. An opt out of any “Processing” of personal data for the disclosed research purposes and research experience by withdrawing your consent. Processing can be accomplished from manual or automated decisions. You have the right to be free from any form of discrimination by a business for exercising any of the before mentioned privacy rights. Useful links Ipsos US Healthcare:www.ipsos.com/en-us/solutions/list?search=Healthcare Ipsos Group:www.ipsos.com Insights Association:www.InsightsAssociation.org ESOMAR:www.esomar.org EPHMRA:www.ephmra.org Federal Trade Commission:www.ftc.gov",
+          "notes": null,
+          "metadata": {
+            "source_line": 493
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "W1",
+      "variable": "W1",
+      "title": "Changes 6.18.26",
+      "text": "W1 Changes 6.18.26 QUOTAS Quota 1 Cell Description Qualifying Logic Quota Hard Quota? 10 Cardiologists S2=Cardiology OR (Pediatric Cardiology AND on-list) OR (Cardiothoracic Surgeon AND on-list) n=110 Yes 20 Rheumatologists S2=Rheumatology n=40 Yes TOTAL n=150 Quota 2 Cell Description Qualifying Logic Quota Hard Quota? 10 Cardiologists Target/Call S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=CSS Target OR Target Type=rCSS Target OR (Target Type=Non-Target AND Call in Last 6 Months=Yes) n=55 Yes 11 Cardiologists CSS target S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=CSS Target Monitor No 12 Cardiologists rCSS target S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=rCSS Target Monitor No 13 Cardiologists with call only S2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND (Target Type=Non-Target AND Call in Last 6 Months=Yes) Monitor No 20 Cardiologists non-targets (S2=Cardiology AND not on list) OR (S2=Cardiology AND on-list AND Target Type=Non-Target AND Call in Last 6 Months=No) n=55 Yes TOTAL n=110 Quota 3 Cell Description Qualifying Logic Quota Hard Quota? 10 Rheumatologists Target/Call S2= Rheumatology AND Target Type=CSS Target OR Target Type=rCSS Target OR (Target Type=Non-Target AND Call in Last 6 Months=Yes) Monitor No 11 Rheumatologists CSS target S2= Rheumatology AND Target Type=CSS Target Monitor No 12 Rheumatologists rCSS target S2= Rheumatology AND Target Type=rCSS Target Monitor No 13 Rheumatologists with call only S2= Rheumatology AND (Target Type=Non-Target AND Call in Last 6 Months=Yes) Monitor No 20 Rheumatologists non-targets (S2= Rheumatology AND not on list) OR (S2= Rheumatology AND on-list AND Target Type=Non-Target AND Call in Last 6 Months=No) Monitor No From target list, pass through variable Primary Specialty and CSS Target and Call in Last 6 Months Maximum of 30% off-list respondents who completed ATU W1 (25-101690-01). First invite on-list respondents who didn’t complete ATU W1; then invite those that did complete as necessary. SCREENER Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "10",
+          "text": "Hard Quota?",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "20",
+          "text": "Yes",
+          "value": 20,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Yes",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "No",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "No",
+          "value": 13,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 2
+      }
+    },
+    {
+      "id": "AE1",
+      "variable": "AE1",
+      "title": "This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company.",
+      "text": "AE1. This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company. The survey will take approximately 15 minutes of your time. With your consent, your information will only be collected and used for market research and analysis. Any information you give will be treated in the strictest confidence and results will only be reported back on an aggregated basis. As a member of EphMRA, Ipsos is bound by EphMRA Code of Conduct and all applicable laws protecting your personal data and responses. The study is conducted in compliance with ESOMAR/ EphMRA guidelines. You have the right to withdraw from the interview at any time. For more information about your rights please see our privacy notice, it is available at [INSERT PRIVACY NOTICE HYPERLINK]. You will receive an honorarium for your participation. We are required to pass on to our client details of adverse events/product complaints pertaining to their products that are mentioned during the interview. If this happens, we will need to collect details and report the event, even if you have already done so. By agreeing to participate in this survey you are consenting that should any side effects or product complaints relating to the sponsoring company’s product come up during the interview, your contact information (name, email, telephone) will be provided to the sponsoring company’s drug safety department for their follow-up. This will have no impact on the confidentiality and anonymity associated with the interview itself. We will start by asking you a few preliminary questions to determine if you qualify, at which point, you will be taken through the remainder of the study. Please confirm that: I have read, understood and accept the points above and am happy to proceed with the market research survey on those basis No, I do not want to participate in this research [TERMINATE] Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "AE1. This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company. The survey will take approximately 15 minutes of your time. With your consent, your information will only be collected and used for market research and analysis. Any information you give will be treated in the strictest confidence and results will only be reported back on an aggregated basis. As a member of EphMRA, Ipsos is bound by EphMRA Code of Conduct and all applicable laws protecting your personal data and responses. The study is conducted in compliance with ESOMAR/ EphMRA guidelines. You have the right to withdraw from the interview at any time. For more information about your rights please see our privacy notice, it is available at [INSERT PRIVACY NOTICE HYPERLINK]. You will receive an honorarium for your participation. We are required to pass on to our client details of adverse events/product complaints pertaining to their products that are mentioned during the interview. If this happens, we will need to collect details and report the event, even if you have already done so. By agreeing to participate in this survey you are consenting that should any side effects or product complaints relating to the sponsoring company’s product come up during the interview, your contact information (name, email, telephone) will be provided to the sponsoring company’s drug safety department for their follow-up. This will have no impact on the confidentiality and anonymity associated with the interview itself. We will start by asking you a few preliminary questions to determine if you qualify, at which point, you will be taken through the remainder of the study. Please confirm that: I have read, understood and accept the points above and am happy to proceed with the market research survey on those basis No, I do not want to participate in this research [TERMINATE] Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 92
+      }
+    },
+    {
+      "id": "S2",
+      "variable": "S2",
+      "title": "Which of the following best describes your primary medical specialty?",
+      "text": "S2. Which of the following best describes your primary medical specialty? [RANDOMIZE. ANCHOR OTHER] Internal Medicine / General Practice [TERMINATE] Cardiology Pediatric Cardiology [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Cardiothoracic Surgeon [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Rheumatology Other (please specify) [TERMINATE] Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S2. Which of the following best describes your primary medical specialty? [RANDOMIZE. ANCHOR OTHER] Internal Medicine / General Practice [TERMINATE] Cardiology Pediatric Cardiology [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Cardiothoracic Surgeon [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST] Rheumatology Other (please specify) [TERMINATE] Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 103
+      }
+    },
+    {
+      "id": "S3",
+      "variable": "S3",
+      "title": "Are you in full-time, active practice?",
+      "text": "S3. Are you in full-time, active practice? Yes No [TERMINATE] Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S3. Are you in full-time, active practice? Yes No [TERMINATE] Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 112
+      }
+    },
+    {
+      "id": "S4",
+      "variable": "S4",
+      "title": "In which state do you primarily practice?",
+      "text": "s4. In which state do you primarily practice? PROVIDE DROP-DOWN LIST OF US STATES IN ALPHABETICAL ORDER. FORCE SINGLE SELECTION. TERMINATE IF VERMONT OR “I DO NOT RESIDE IN THE UNITED STATES” Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "s4. In which state do you primarily practice? PROVIDE DROP-DOWN LIST OF US STATES IN ALPHABETICAL ORDER. FORCE SINGLE SELECTION. TERMINATE IF VERMONT OR “I DO NOT RESIDE IN THE UNITED STATES” Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 116
+      }
+    },
+    {
+      "id": "S5",
+      "variable": "S5",
+      "title": "What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)?",
+      "text": "S5. What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)? ________% [RANGE: 0-100%; IF <50%, TERMINATE] Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S5. What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)? ________% [RANGE: 0-100%; IF <50%, TERMINATE] Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 119
+      }
+    },
+    {
+      "id": "S6",
+      "variable": "S6",
+      "title": "Excluding your residency and fellowship, for how many years have you been practicing?",
+      "text": "s6. Excluding your residency and fellowship, for how many years have you been practicing? ________# of years [RANGE: 0-99] [IF <3 OR >35 AND NOT ON LIST, TERMINATE; IF <3 OR >40 AND ON-LIST, TERMINATE] Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "s6. Excluding your residency and fellowship, for how many years have you been practicing? ________# of years [RANGE: 0-99] [IF <3 OR >35 AND NOT ON LIST, TERMINATE; IF <3 OR >40 AND ON-LIST, TERMINATE] Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 122
+      }
+    },
+    {
+      "id": "S7",
+      "variable": "S7",
+      "title": "In the prior 12 months, how many patients have you managed with each of the following conditions?",
+      "text": "S7 In the prior 12 months, how many patients have you managed with each of the following conditions? Please enter 0 for those that do not apply. [RANDOMIZE. RANGE: 0 – 10,000] 1 _______Myocarditis 2 _______Pericarditis IF <5 FOR CARDS AND OR <2 FOR RHEUMS TERMINATE 3 _______Atrial fibrillation 4 _______Acute heart failure 5 _______Cryopyrin-Associated Periodic Syndromes (CAPS) 6 _______Still’s Disease 7 _______Rheumatic heart disease Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "[RANDOMIZE. RANGE: 0 – 10,000]",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "_______Myocarditis",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "<2 FOR RHEUMS TERMINATE",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "_______Atrial fibrillation",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "_______Acute heart failure",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "_______Cryopyrin-Associated Periodic Syndromes (CAPS)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "_______Still’s Disease",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "S7 In the prior 12 months, how many patients have you managed with each of the following conditions? Please enter 0 for those that do not apply. [RANDOMIZE. RANGE: 0 – 10,000] 1 _______Myocarditis 2 _______Pericarditis IF <5 FOR CARDS AND OR <2 FOR RHEUMS TERMINATE 3 _______Atrial fibrillation 4 _______Acute heart failure 5 _______Cryopyrin-Associated Periodic Syndromes (CAPS) 6 _______Still’s Disease 7 _______Rheumatic heart disease Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 126
+      }
+    },
+    {
+      "id": "S8",
+      "variable": "S8",
+      "title": "In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories?",
+      "text": "S8 In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories? [RANGE 0-S7_2 FOR EACH] 1 ________ patients with recurrent pericarditis (defined as patients having at least two pericarditis episodes separated by a symptom free period of at least 4 weeks) IF <3 FOR CARDS AND NOT ON LIST, TERMINATE IF <2 FOR CARDS AND ON-LIST, TERMINATE IF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE 2 ________ patients with a single episode of pericarditis [MUST SUM TO",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "[RANGE 0-S7_2 FOR EACH]",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "IF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "S8 In the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories? [RANGE 0-S7_2 FOR EACH] 1 ________ patients with recurrent pericarditis (defined as patients having at least two pericarditis episodes separated by a symptom free period of at least 4 weeks) IF <3 FOR CARDS AND NOT ON LIST, TERMINATE IF <2 FOR CARDS AND ON-LIST, TERMINATE IF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE 2 ________ patients with a single episode of pericarditis [MUST SUM TO",
+      "notes": null,
+      "metadata": {
+        "source_line": 147
+      }
+    },
+    {
+      "id": "S7_2",
+      "variable": "S7_2",
+      "title": "SHOW SUM COUNTER]",
+      "text": "S7_2. SHOW SUM COUNTER] Base: All Respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 158
+      }
+    },
+    {
+      "id": "S9",
+      "variable": "S9",
+      "title": "How many of your [PIPE S8_1] recurrent pericarditis patients that you have managed in the last 12 months have each of the below etiologies?",
+      "text": "S9 How many of your [PIPE S8_1] recurrent pericarditis patients that you have managed in the last 12 months have each of the below etiologies? MUST SUM TO",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 160
+      }
+    },
+    {
+      "id": "S8_1",
+      "variable": "S8_1",
+      "title": "TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology)",
+      "text": "S8_1. TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology) 1 ________ viral pericarditis 2 ________ idiopathic pericarditis 3 ________ autoimmune pericarditis 4 ________ pericarditis associated with post-pericardiotomy syndrome 5 Other (please specify) Base: All Respondents Thank you for the information provided thus far. Your responses indicate that you are eligible for this survey. Please note that all responses will be anonymized and aggregated. For the rest of the survey, we would like to focus on recurrent pericarditis with non-autoimmune etiology (e.g., where the etiology is viral, idiopathic, and/or associated with post-pericardiotomy syndrome). We will refer to the condition as RP. Please click “next” to proceed with the rest of the questions. [INCLUDE THE FOLLOWING AT THE BOTTOM OF ALL PAGES: “RP: recurrent pericarditis with non-autoimmune etiology. ”] QUESTIONNAIRE",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "________ viral pericarditis",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "________ viral pericarditis",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "________ idiopathic pericarditis",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "________ autoimmune pericarditis",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "________ pericarditis associated with post-pericardiotomy syndrome",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "S8_1. TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology) 1 ________ viral pericarditis 2 ________ idiopathic pericarditis 3 ________ autoimmune pericarditis 4 ________ pericarditis associated with post-pericardiotomy syndrome 5 Other (please specify) Base: All Respondents Thank you for the information provided thus far. Your responses indicate that you are eligible for this survey. Please note that all responses will be anonymized and aggregated. For the rest of the survey, we would like to focus on recurrent pericarditis with non-autoimmune etiology (e.g., where the etiology is viral, idiopathic, and/or associated with post-pericardiotomy syndrome). We will refer to the condition as RP. Please click “next” to proceed with the rest of the questions. [INCLUDE THE FOLLOWING AT THE BOTTOM OF ALL PAGES: “RP: recurrent pericarditis with non-autoimmune etiology. ”] QUESTIONNAIRE",
+      "notes": null,
+      "metadata": {
+        "source_line": 163
+      }
+    },
+    {
+      "id": "Q105",
+      "variable": "Q105",
+      "title": "Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any.",
+      "text": "Q105. Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any. [INSERT 10 SEPARATE OE TEXT BOXES] Base: All Respondents",
+      "section": "1",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q105. Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any. [INSERT 10 SEPARATE OE TEXT BOXES] Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 183
+      }
+    },
+    {
+      "id": "Q110",
+      "variable": "Q110",
+      "title": "Please indicate your level of awareness with the below therapies that are used to treat recurrent pericarditis.",
+      "text": "Q110 Please indicate your level of awareness with the below therapies that are used to treat recurrent pericarditis. SELECT ONE FOR EACH THERAPY. RANDOMIZE AND KEEP IT IN THE SAME ORDER FOR THE REMAINING OF THE SURVEY. Unaware Aware, but not knowledgeable Aware and somewhat knowledgeable Aware and very knowledgeable 1 NSAIDs 2 Colchicine 3 Corticosteroids 4 Kineret (anakinra) 5 Arcalyst (rilonacept) Base: aware of products (any therapy=AWARE (COL 2-4) in q110)",
+      "section": "1",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Aware and very knowledgeable",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "NSAIDs",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Colchicine",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Corticosteroids",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Kineret (anakinra)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 186
+      }
+    },
+    {
+      "id": "Q115",
+      "variable": "Q115",
+      "title": "Which of the following therapies have you ever prescribed to patients with recurrent pericarditis? Please select one for each treatment.",
+      "text": "Q115 Which of the following therapies have you ever prescribed to patients with recurrent pericarditis? Please select one for each treatment. SHOW ONLY THE OPTIONS THAT HCPS ARE AWARE OF (=2-4) IN Q110 IN THE SAME ORDER AS",
+      "section": "1",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 204
+      }
+    },
+    {
+      "id": "Q120",
+      "variable": "Q120",
+      "title": "Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.",
+      "text": "Q120. Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I do not feel it is an important option 2 3 4 5 6 7 I feel it is a very important option 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: All Respondents",
+      "section": "1",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "RANDOMIZE IN SAME ORDER AS Q110",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I do not feel it is an important option",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I feel it is a very important option",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Corticosteroids",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Arcalyst (rilonacept)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q120. Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I do not feel it is an important option 2 3 4 5 6 7 I feel it is a very important option 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 222
+      }
+    },
+    {
+      "id": "Q125",
+      "variable": "Q125",
+      "title": "Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.",
+      "text": "Q125. Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I have no preference at all for this product 2 3 4 5 6 7 A product for which I have a very high preference 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: aware of NSAIDs, colchicine, ARCALYST, corticosteroids (q110_1, _2, _3, or _5=2-4 AWARE)",
+      "section": "1",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "RANDOMIZE IN SAME ORDER AS Q110",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I have no preference at all for this product",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "A product for which I have a very high preference",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Corticosteroids",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Arcalyst (rilonacept)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q125. Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it. RANDOMIZE IN SAME ORDER AS Q110 1 I have no preference at all for this product 2 3 4 5 6 7 A product for which I have a very high preference 1. NSAIDs 2. Colchicine 3. Corticosteroids 4. Arcalyst (rilonacept) Base: aware of NSAIDs, colchicine, ARCALYST, corticosteroids (q110_1, _2, _3, or _5=2-4 AWARE)",
+      "notes": null,
+      "metadata": {
+        "source_line": 238
+      }
+    },
+    {
+      "id": "Q130",
+      "variable": "Q130",
+      "title": "Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option.",
+      "text": "Q130. Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option. RANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST 1 Rapid symptom resolution 2 Prevention of future recurrences 3 Reduces the need for steroids 4 Excellent safety and side effect profile 5 Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.) 6 Convenient dosing and mode of administration 7 Mechanism of action impacts the underlying pathophysiology of RP 8 Excellent manufacturer support (e.g. patient assistance, etc.) 9 It is FDA approved and indicated for RP 10 There is strong clinical trial data to support the product’s efficacy 11 Expert endorsement of drug class 12 Real world data to support treatment use 13 Proven efficacy and safety over the long term 14 Clinically proven to prevent recurrences over the long term Base: All Respondents",
+      "section": "1",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "RANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Rapid symptom resolution",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Prevention of future recurrences",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Reduces the need for steroids",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Excellent safety and side effect profile",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Convenient dosing and mode of administration",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Mechanism of action impacts the underlying pathophysiology of RP",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Excellent manufacturer support (e.g. patient assistance, etc.)",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "It is FDA approved and indicated for RP",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "There is strong clinical trial data to support the product’s efficacy",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Expert endorsement of drug class",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "Real world data to support treatment use",
+          "value": 13,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "14",
+          "text": "Proven efficacy and safety over the long term",
+          "value": 14,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q130. Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option. RANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST 1 Rapid symptom resolution 2 Prevention of future recurrences 3 Reduces the need for steroids 4 Excellent safety and side effect profile 5 Ease of access (e.g. insurance coverage, cost, affordable co-pay, etc.) 6 Convenient dosing and mode of administration 7 Mechanism of action impacts the underlying pathophysiology of RP 8 Excellent manufacturer support (e.g. patient assistance, etc.) 9 It is FDA approved and indicated for RP 10 There is strong clinical trial data to support the product’s efficacy 11 Expert endorsement of drug class 12 Real world data to support treatment use 13 Proven efficacy and safety over the long term 14 Clinically proven to prevent recurrences over the long term Base: All Respondents",
+      "notes": null,
+      "metadata": {
+        "source_line": 254
+      }
+    },
+    {
+      "id": "Q135",
+      "variable": "Q135",
+      "title": "In the past 3 months, do you recall seeing any advertisements for the following products specific to the treatment of RP?",
+      "text": "Q135. In the past 3 months, do you recall seeing any advertisements for the following products specific to the treatment of RP? Please consider any advertisements you may have seen on TV, social media, the internet, etc. and select all that apply. [RANDOMIZE. ANCHOR NONE] NSAIDs Colchicine Corticosteroids Kineret (anakinra) Arcalyst (rilonacept) None of the above [EXCLUSIVE] BASE: RECALL SEEING AD (Q135=5)",
+      "section": "1",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 285
+      }
+    },
+    {
+      "id": "Q137",
+      "variable": "Q137",
+      "title": "What do you recall from the Arcalyst ad you saw in the past 3 months?",
+      "text": "Q137. What do you recall from the Arcalyst ad you saw in the past 3 months? Please be as specific as possible and describe what messages you remember, the images and phrases used, what the ad was trying to tell you about the product, etc. [INSERT OE TEXT BOX; MIN 15 CHARACTERS] BASE: RECALL SEEING AD FOR ARCALYST (Q135=5)",
+      "section": "1",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 295
+      }
+    },
+    {
+      "id": "Q140",
+      "variable": "Q140",
+      "title": "Where did you see the advertising for Arcalyst in the past 3 months?",
+      "text": "Q140. Where did you see the advertising for Arcalyst in the past 3 months? Select all that apply. [RANDOMIZE. ANCHOR OTHER AND DON’T KNOW] Traditional live TV services (including live broadcasts/networks, local channels, cable, and satellite) On a streaming service/app (e.g., Prime Video, Hulu, Peacock, Apple TV) on any device (TV, iPad/tablet, phone, etc.) On Arcalyst’s website In online search sites (e.g., Google, Yahoo, Bing, or others) In online advertising (e.g., video ads, banners, pop up ads) Social media (e.g., Facebook, Instagram, Twitter, TikTok, LinkedIn) YouTube Email from manufacturer EHR systems (e.g., Epic, Allscripts, NextGen) Doximity Healthcasts Other (please specify) Don’t remember / not sure [EXCLUSIVE]",
+      "section": "1",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 299
+      }
+    },
+    {
+      "id": "Q205",
+      "variable": "Q205",
+      "title": "Now we would like to show you a series of images from an advertisement you may have seen.",
+      "text": "Q205. Now we would like to show you a series of images from an advertisement you may have seen. [SHOW IMAGES] Have you seen this advertisement recently? Please note, if you would like to make the image bigger, you can click on it to enlarge it. Yes No [SKIP TO NEXT SECTION] NORM – BRAND LINK BASE: RECALL SEEING AD (Q205=1)",
+      "section": "2",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q205. Now we would like to show you a series of images from an advertisement you may have seen. [SHOW IMAGES] Have you seen this advertisement recently? Please note, if you would like to make the image bigger, you can click on it to enlarge it. Yes No [SKIP TO NEXT SECTION] NORM – BRAND LINK BASE: RECALL SEEING AD (Q205=1)",
+      "notes": null,
+      "metadata": {
+        "source_line": 318
+      }
+    },
+    {
+      "id": "Q210",
+      "variable": "Q210",
+      "title": "What therapy or brand was this advertisement for?",
+      "text": "Q210. What therapy or brand was this advertisement for? Please click here to review it again [PROVIDE LINK TO AD IMAGES]. [INSERT OE TEXT BOX] BASE: RECALL SEEING AD (Q205=1)",
+      "section": "2",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 326
+      }
+    },
+    {
+      "id": "Q220",
+      "variable": "Q220",
+      "title": "Which of the following therapies used to treat recurrent pericarditis do you believe the advertisement is associated with?",
+      "text": "Q220. Which of the following therapies used to treat recurrent pericarditis do you believe the advertisement is associated with? Please click here to review it again [PROVIDE LINK TO AD IMAGES]. [SHOW IN SAME ORDER AS",
+      "section": "2",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 330
+      }
+    },
+    {
+      "id": "Q230",
+      "variable": "Q230",
+      "title": "Where do you remember seeing this advertisement?",
+      "text": "Q230. Where do you remember seeing this advertisement? Select all that apply. [USE SAME RANDOMIZED LIST FROM Q140] BASE: RECALL SEEING AD (Q205=1)",
+      "section": "2",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 342
+      }
+    },
+    {
+      "id": "Q240",
+      "variable": "Q240",
+      "title": "About how many times have you seen this advertisement?",
+      "text": "Q240. About how many times have you seen this advertisement? Please click here to review it again [PROVIDE LINK TO AD IMAGES]. Best estimated number of times: _________ [RANGE 1-99] BASE: RECALL SEEING AD (Q205=1)",
+      "section": "2",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 346
+      }
+    },
+    {
+      "id": "Q245",
+      "variable": "Q245",
+      "title": "What do you think the main message of the advertisement is?",
+      "text": "Q245. What do you think the main message of the advertisement is? Please be as specific as possible and describe what you think the ad is trying to tell you about the product. [INSERT OE TEXT BOX; MIN 15 CHARACTERS] BASE: RECALL SEEING AD (Q205=1)",
+      "section": "2",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 350
+      }
+    },
+    {
+      "id": "Q250",
+      "variable": "Q250",
+      "title": "You may have mentioned this before, but what message(s) do you recall from this advertisement?",
+      "text": "Q250. You may have mentioned this before, but what message(s) do you recall from this advertisement? Select all that apply. [RANDOMIZE. ANCHOR NONE] ARCALYST® blocks IL-1, a key driver of the inflammation cycle in recurrent pericarditis 97% of patients taking ARCALYST® achieved pain relief and inflammation resolution, most after the first dose Patients taking ARCALYST saw a 96% reduction in the risk of a recurrent flare ARCALYST may help protect your heart’s home from recurrent flares Is your heart’s home impacted by recurrent pericarditis? ARCALYST – the only FDA-approved therapy to treat recurrent pericarditis The average time to treatment response was 5 days Help protect the heart’s home None of the above [EXCLUSVE] BASE: RECALL SEEING AD (Q205=1)",
+      "section": "2",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 354
+      }
+    },
+    {
+      "id": "Q255",
+      "variable": "Q255",
+      "title": "After seeing the advertisement, which of the following actions did you take?",
+      "text": "Q255. After seeing the advertisement, which of the following actions did you take? Select all that apply. [RANDOMIZE, KEEPING 5 AND 6 TOGETHER. ANCHOR OTHER, NONE] I researched clinical studies or published articles about this brand for recurrent pericarditis I discussed this brand's potential with my colleagues or within professional forums I visited the brand's professional website for detailed product and clinical information I considered this brand for future recommendations to my patients with recurrent pericarditis I began prescribing this brand to my patients with recurrent pericarditis I began discussing this brand with my patients with recurrent pericarditis I attended a professional webinar or educational session about this brand I reached out to the manufacturer of the brand (i.e. sales representative) for more information Other (please specify) I did not take any action [EXCLUSIVE]",
+      "section": "2",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 367
+      }
+    },
+    {
+      "id": "Q305",
+      "variable": "Q305",
+      "title": "What, in your opinion, was the main message of this advertisement?",
+      "text": "Q305. What, in your opinion, was the main message of this advertisement? Please be as specific as possible and describe what you think the ad is trying to tell you about the product. [INSERT OE TEXT BOX; MIN 10 CHARACTERS] NORM - likeability Base: All Respondents",
+      "section": "3",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 385
+      }
+    },
+    {
+      "id": "Q310",
+      "variable": "Q310",
+      "title": "Please indicate your overall impression of this advertisement.",
+      "text": "Q310. Please indicate your overall impression of this advertisement. Disliked it very much Disliked it somewhat Felt neutral about it Liked it somewhat Liked it very much Base: liking ad (q310=4,5)",
+      "section": "3",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 390
+      }
+    },
+    {
+      "id": "Q315",
+      "variable": "Q315",
+      "title": "What do you like about the ad?",
+      "text": "Q315. What do you like about the ad? Please be as specific as possible. [INSERT OE TEXT BOX] Base: dislike ad (q310=1,2)",
+      "section": "3",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 397
+      }
+    },
+    {
+      "id": "Q320",
+      "variable": "Q320",
+      "title": "What do you dislike about the ad?",
+      "text": "Q320. What do you dislike about the ad? Please be as specific as possible. [INSERT OE TEXT BOX] Base: All Respondents",
+      "section": "3",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 401
+      }
+    },
+    {
+      "id": "Q325",
+      "variable": "Q325",
+      "title": "How much do you agree with the following statements about this ad?",
+      "text": "Q325. How much do you agree with the following statements about this ad? Select one per row. RANDOMIZE Disagree 1 Agree somewhat 2 Agree strongly 3 1 The ad gave me a good feeling about the brand NORM 2 The ad was unique and different NORM 3 The ad was very informative NORM 4 The ad told me something new NORM 5 What the ad said and showed was interesting to me NORM 5 11 The ad made me want to discuss the brand with my RP patients 6 The ad is relevant for my RP patients 7 The ad made me want to seek out additional information about the brand 8 The ad made me want to utilize the brand in treating my RP patients 9 The ad made me want to visit the website NORM 10 The ad improved the familiarity and understanding of what this brand is about NORM Base: All Respondents",
+      "section": "3",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Agree somewhat",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Agree strongly",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "NORM",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "NORM",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "The ad made me want to discuss the brand with my RP patients",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "The ad is relevant for my RP patients",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "The ad made me want to seek out additional information about the brand",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "The ad made me want to utilize the brand in treating my RP patients",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "NORM",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 405
+      }
+    },
+    {
+      "id": "Q340",
+      "variable": "Q340",
+      "title": "After seeing the full advertisement, do you recall seeing this advertisement prior to today?",
+      "text": "Q340. After seeing the full advertisement, do you recall seeing this advertisement prior to today? Yes No BASE: RECALL SEEING AD (Q340=1)",
+      "section": "3",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 444
+      }
+    },
+    {
+      "id": "Q345",
+      "variable": "Q345",
+      "title": "Where do you remember seeing this ad? Select all that apply.",
+      "text": "Q345. Where do you remember seeing this ad? Select all that apply. [USE SAME RANDOMIZED LIST FROM Q140] Base: All Respondents",
+      "section": "3",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 448
+      }
+    },
+    {
+      "id": "Q350",
+      "variable": "Q350",
+      "title": "After seeing the ad, which of the following actions will you take?",
+      "text": "Q350. After seeing the ad, which of the following actions will you take? Select all that apply. [USE SAME RANDOMIZED ORDER FROM",
+      "section": "3",
+      "question_type": "MULTI",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 451
+      }
+    },
+    {
+      "id": "Q355",
+      "variable": "Q355",
+      "title": "In what timeframe will you start discussing or prescribing the brand with your RP patients?",
+      "text": "Q355. In what timeframe will you start discussing or prescribing the brand with your RP patients? Immediately Within the next month 1-2 months from now 3-6 months from now 7-12 months from now In more than a year from now",
+      "section": "3",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 466
+      }
+    },
+    {
+      "id": "D1",
+      "variable": "D1",
+      "title": "Please indicate your biological sex.",
+      "text": "D1. Please indicate your biological sex. Female Male Other / Prefer not to answer BASE: ALL RESPONDENTS",
+      "section": "8",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 475
+      }
+    },
+    {
+      "id": "D2",
+      "variable": "D2",
+      "title": "What is your current age?",
+      "text": "D2. What is your current age? _____ [RANGE 0-100] BASE: ALL RESPONDENTS",
+      "section": "8",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 480
+      }
+    },
+    {
+      "id": "D3",
+      "variable": "D3",
+      "title": "In what type of geographic area is your practice located?",
+      "text": "D3. In what type of geographic area is your practice located? Urban Suburban Rural Base: All Respondents",
+      "section": "8",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 483
+      }
+    },
+    {
+      "id": "D4",
+      "variable": "D4",
+      "title": "Which of the below clinical settings best describes where you see your recurrent pericarditis patients?",
+      "text": "d4. Which of the below clinical settings best describes where you see your recurrent pericarditis patients? Academic/Teaching Institution Community-based Institution Private Practice BASE: ALL RESPONDENTS",
+      "section": "8",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 488
+      }
+    },
+    {
+      "id": "D5.THANK",
+      "variable": "D5.THANK",
+      "title": "you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment.",
+      "text": "D5.Thank you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment. Would you be interested in participating in this follow-up? Yes No APPENDIX: PRIVACY NOTICE This Ipsos Survey and your personal data 25-096947-01 This Privacy Notice explains who we are, the personal data we collect, how we use it, who we share it with, and what your legal rights are. About Ipsos Ipsos-Insight, LLC, is a specialist research agency, based in the United States, commonly known as Ipsos (“Ipsos”, “we”, or “us”). This research is conducted by an Ipsos division specialised in healthcare research, known as the “Healthcare Service Line”. The Healthcare Service Line is part of the Ipsos worldwide group of companies, and a member of Insights Association, ESOMAR (European Society for Opinion and Market Research) and EphMRA, the international association of the pharmaceutical market research industry. As such we abide by Insights Association/ESOMAR/EphMRA Code of Conduct and associated regulations and guidelines. What is Ipsos’ legal basis for processing your personal data? Ipsos requires a legal basis to process your personal data. Ipsos’s legal basis for processing is your consent to take part in this research survey. If you wish to withdraw your consent at any time, please see the section below covering ‘Your Rights’. Processing personal data for Drug Safety Monitoring - The medicines manufacturer commissioning this market research needs some information to continue identifying new side effects and problems with their medicines, and ways in which the risks of known side effects can be minimised. We are keen on supporting our client efforts towards drug safety and will pass our client details of adverse events that are mentioned during market or clinical research. Although in market or clinical research what you say will, of course, be treated in confidence, should you raise during the research an adverse event in a specific patient or group of patients, we will need to report this even if it has already been reported by you directly to the company or the regulatory authorities. Please note the sponsoring company may use a different legal basis to further process your personal data for drug and device safety purposes in compliance with their regulatory obligations. It may be important for you to know that your individual responses to the research tasks or questions may need to be retained by Ipsos for up to ten (10) years for the purpose of drug and device safety monitoring as instructed by the sponsoring client of the research. Everything else you say during the survey will continue to remain confidential, and you will still have the option to remain anonymous if you wish. How will Ipsos use any personal data including survey responses you provide? Firstly, responding to this survey is entirely voluntary and any answers are given with your consent. If you have been invited to participate in this study by a 3rd party, the organisation that invited you to participate has not provided Ipsos Healthcare with any information relating to you. In case you will be asked to provide personal data within the survey, Ipsos will keep your personal data and responses in strict confidence in accordance with this Privacy Policy. Anonymised individual responses may be shared with the commissioning client, however Ipsos can assure you that you will NOT be identifiable in any published results, unless you had given your consent to do so. Ipsos will use your personal data and responses solely for research purposes and to produce anonymous, statistical research findings and insights. Who we share your data with Ipsos will be using certain supplier organisation(s) to assist us in running the research survey and we will need to disclose your personal data to these supplier organisation(s) for that purpose. These supplier organisations include: Market Research Fieldwork Agencies Online Hosting Platforms Translation Agencies AI APIs, like Open AI APIs or Google Vertex using an Ipsos dedicated environment In case any of your answers will be identified as a reportable adverse event, we will be sharing your personal data with the sponsoring company’s drug safety department or the regulatory authorities. How will Ipsos ensure my personal information is secure? Ipsos takes its information security responsibilities seriously and applies various precautions to ensure your information is protected from loss, theft, or misuse. Security precautions include appropriate physical security of offices and controlled and limited access to computer systems as well as techniques such as pseudonymisation and encryption of your data both at rest and in transfer. How long will Ipsos retain my personal data and identifiable responses? Ipsos will only retain your data in a way that can identify you for as long as is necessary to support the research project and findings. In practice, this means that once we have satisfactorily reported the anonymous research findings, we will securely remove your personal, identifying data from our systems. For this project we will securely remove your personal data from our systems within 3 months after project closure. If your individual responses to the research tasks or questions are identifiable, it may be necessary to retain this material securely for a period of up to: One (1) year for research purposes, Ten (10) years for the purpose of drug and device safety monitoring by the sponsoring company. Your rights. You have the right to access your personal data within the limited period that Ipsos holds it. It’s important to note that If you have been invited to participate in this study by a 3rd party: unless you provide any personal information that identifies, or could be used to identify you, we will not hold any information that would enable Ipsos to identify your responses. Therefore, we would not be able to provide a copy. However, if you do include any personal information that identifies, or could be used to identify you, we can provide a copy of your responses to this research on request at any time before the results are anonymised. Providing responses to this survey is entirely voluntary and is done so with your consent. You have the right to withdraw your consent and to object to our processing of your personal data at any time. You also have the right to rectify any incorrect or out-of-date personal data about you which we may hold. If you want to exercise your rights, please contact us at the below Ipsos address. If you have any complaints, we will appreciate if you give us an opportunity to resolve any issue first, by contacting us as set out below. You are, however, always entitled to contact the regulatory body, the Federal Trade Commission (FTC) at https://www.ftc.gov or by postal mail at: Bureau of Consumer Protection Federal Trade Commission 600 Pennsylvania Ave., NW Washington, DC 20580 Or by phone at: (877)-382-4357 Other data protection authorities within your state of residence are also likely to accept your complaint. Where will my personal data be held & processed? All of your personal data used and collected for this survey will be stored by Ipsos in data centres and servers within the United States. We may though need to transfer your personal data to countries outside the United States. Some countries may not have laws that provide the same protections on personal data as inside the United States. Groups to whom Ipsos transfers personal data in such countries will be required to sign agreements to protect personal data or agree to data transfer agreements with third parties. How can I contact Ipsos about this survey and/or my personal data? Contact Ipsos: Email: DPO.USA@ipsos.com with 25-096947-01 in the email subject line. Postal Mail:Ref: 25-096947-01 Ipsos-Insight, LLC Attn: Data Protection Officer 222 W. Adams Street, Suite 1100 Chicago, IL 60606 State Legislative Requirements U.S. States, including California, Virginia, Colorado, Connecticut, and Utah, have established laws to both protect consumers and also provide them with certain rights as it pertains to their privacy. Ipsos is obligated to inform you of these rights and provide you with control over any information which can directly or indirectly identify you or other people who may reside in your household. This information is referred to in this notice as “Personal Data”. You have the right to request: “Access” to personal data Ipsos has imported, collected, and inferred relating to the purposes of this research and any third parties with whom Ipsos has provided access to complete the research. “Correction” to personal data Ipsos is holding. “Deletion” of personal data Ipsos is holding. “Portability” of the personal data Ipsos is holding, transferring it to another established business or organization. An opt out of the Sale of personal data which is being held. A “Sale” is the disclosure of personal data for monetary or other valuable consideration. Ipsos will not sell or pass on your personal data to any third party. An opt out of any “Processing” of personal data for the disclosed research purposes and research experience by withdrawing your consent. Processing can be accomplished from manual or automated decisions. You have the right to be free from any form of discrimination by a business for exercising any of the before mentioned privacy rights. Useful links Ipsos US Healthcare:www.ipsos.com/en-us/solutions/list?search=Healthcare Ipsos Group:www.ipsos.com Insights Association:www.InsightsAssociation.org ESOMAR:www.esomar.org EPHMRA:www.ephmra.org Federal Trade Commission:www.ftc.gov",
+      "section": "8",
+      "question_type": "DATE",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "D5.Thank you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment. Would you be interested in participating in this follow-up? Yes No APPENDIX: PRIVACY NOTICE This Ipsos Survey and your personal data 25-096947-01 This Privacy Notice explains who we are, the personal data we collect, how we use it, who we share it with, and what your legal rights are. About Ipsos Ipsos-Insight, LLC, is a specialist research agency, based in the United States, commonly known as Ipsos (“Ipsos”, “we”, or “us”). This research is conducted by an Ipsos division specialised in healthcare research, known as the “Healthcare Service Line”. The Healthcare Service Line is part of the Ipsos worldwide group of companies, and a member of Insights Association, ESOMAR (European Society for Opinion and Market Research) and EphMRA, the international association of the pharmaceutical market research industry. As such we abide by Insights Association/ESOMAR/EphMRA Code of Conduct and associated regulations and guidelines. What is Ipsos’ legal basis for processing your personal data? Ipsos requires a legal basis to process your personal data. Ipsos’s legal basis for processing is your consent to take part in this research survey. If you wish to withdraw your consent at any time, please see the section below covering ‘Your Rights’. Processing personal data for Drug Safety Monitoring - The medicines manufacturer commissioning this market research needs some information to continue identifying new side effects and problems with their medicines, and ways in which the risks of known side effects can be minimised. We are keen on supporting our client efforts towards drug safety and will pass our client details of adverse events that are mentioned during market or clinical research. Although in market or clinical research what you say will, of course, be treated in confidence, should you raise during the research an adverse event in a specific patient or group of patients, we will need to report this even if it has already been reported by you directly to the company or the regulatory authorities. Please note the sponsoring company may use a different legal basis to further process your personal data for drug and device safety purposes in compliance with their regulatory obligations. It may be important for you to know that your individual responses to the research tasks or questions may need to be retained by Ipsos for up to ten (10) years for the purpose of drug and device safety monitoring as instructed by the sponsoring client of the research. Everything else you say during the survey will continue to remain confidential, and you will still have the option to remain anonymous if you wish. How will Ipsos use any personal data including survey responses you provide? Firstly, responding to this survey is entirely voluntary and any answers are given with your consent. If you have been invited to participate in this study by a 3rd party, the organisation that invited you to participate has not provided Ipsos Healthcare with any information relating to you. In case you will be asked to provide personal data within the survey, Ipsos will keep your personal data and responses in strict confidence in accordance with this Privacy Policy. Anonymised individual responses may be shared with the commissioning client, however Ipsos can assure you that you will NOT be identifiable in any published results, unless you had given your consent to do so. Ipsos will use your personal data and responses solely for research purposes and to produce anonymous, statistical research findings and insights. Who we share your data with Ipsos will be using certain supplier organisation(s) to assist us in running the research survey and we will need to disclose your personal data to these supplier organisation(s) for that purpose. These supplier organisations include: Market Research Fieldwork Agencies Online Hosting Platforms Translation Agencies AI APIs, like Open AI APIs or Google Vertex using an Ipsos dedicated environment In case any of your answers will be identified as a reportable adverse event, we will be sharing your personal data with the sponsoring company’s drug safety department or the regulatory authorities. How will Ipsos ensure my personal information is secure? Ipsos takes its information security responsibilities seriously and applies various precautions to ensure your information is protected from loss, theft, or misuse. Security precautions include appropriate physical security of offices and controlled and limited access to computer systems as well as techniques such as pseudonymisation and encryption of your data both at rest and in transfer. How long will Ipsos retain my personal data and identifiable responses? Ipsos will only retain your data in a way that can identify you for as long as is necessary to support the research project and findings. In practice, this means that once we have satisfactorily reported the anonymous research findings, we will securely remove your personal, identifying data from our systems. For this project we will securely remove your personal data from our systems within 3 months after project closure. If your individual responses to the research tasks or questions are identifiable, it may be necessary to retain this material securely for a period of up to: One (1) year for research purposes, Ten (10) years for the purpose of drug and device safety monitoring by the sponsoring company. Your rights. You have the right to access your personal data within the limited period that Ipsos holds it. It’s important to note that If you have been invited to participate in this study by a 3rd party: unless you provide any personal information that identifies, or could be used to identify you, we will not hold any information that would enable Ipsos to identify your responses. Therefore, we would not be able to provide a copy. However, if you do include any personal information that identifies, or could be used to identify you, we can provide a copy of your responses to this research on request at any time before the results are anonymised. Providing responses to this survey is entirely voluntary and is done so with your consent. You have the right to withdraw your consent and to object to our processing of your personal data at any time. You also have the right to rectify any incorrect or out-of-date personal data about you which we may hold. If you want to exercise your rights, please contact us at the below Ipsos address. If you have any complaints, we will appreciate if you give us an opportunity to resolve any issue first, by contacting us as set out below. You are, however, always entitled to contact the regulatory body, the Federal Trade Commission (FTC) at https://www.ftc.gov or by postal mail at: Bureau of Consumer Protection Federal Trade Commission 600 Pennsylvania Ave., NW Washington, DC 20580 Or by phone at: (877)-382-4357 Other data protection authorities within your state of residence are also likely to accept your complaint. Where will my personal data be held & processed? All of your personal data used and collected for this survey will be stored by Ipsos in data centres and servers within the United States. We may though need to transfer your personal data to countries outside the United States. Some countries may not have laws that provide the same protections on personal data as inside the United States. Groups to whom Ipsos transfers personal data in such countries will be required to sign agreements to protect personal data or agree to data transfer agreements with third parties. How can I contact Ipsos about this survey and/or my personal data? Contact Ipsos: Email: DPO.USA@ipsos.com with 25-096947-01 in the email subject line. Postal Mail:Ref: 25-096947-01 Ipsos-Insight, LLC Attn: Data Protection Officer 222 W. Adams Street, Suite 1100 Chicago, IL 60606 State Legislative Requirements U.S. States, including California, Virginia, Colorado, Connecticut, and Utah, have established laws to both protect consumers and also provide them with certain rights as it pertains to their privacy. Ipsos is obligated to inform you of these rights and provide you with control over any information which can directly or indirectly identify you or other people who may reside in your household. This information is referred to in this notice as “Personal Data”. You have the right to request: “Access” to personal data Ipsos has imported, collected, and inferred relating to the purposes of this research and any third parties with whom Ipsos has provided access to complete the research. “Correction” to personal data Ipsos is holding. “Deletion” of personal data Ipsos is holding. “Portability” of the personal data Ipsos is holding, transferring it to another established business or organization. An opt out of the Sale of personal data which is being held. A “Sale” is the disclosure of personal data for monetary or other valuable consideration. Ipsos will not sell or pass on your personal data to any third party. An opt out of any “Processing” of personal data for the disclosed research purposes and research experience by withdrawing your consent. Processing can be accomplished from manual or automated decisions. You have the right to be free from any form of discrimination by a business for exercising any of the before mentioned privacy rights. Useful links Ipsos US Healthcare:www.ipsos.com/en-us/solutions/list?search=Healthcare Ipsos Group:www.ipsos.com Insights Association:www.InsightsAssociation.org ESOMAR:www.esomar.org EPHMRA:www.ephmra.org Federal Trade Commission:www.ftc.gov",
+      "notes": null,
+      "metadata": {
+        "source_line": 493
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "2026 Arcalyst HCP Ad Tracker W1_Programming_v6.docx",
+  "source_format": "docx",
+  "source_text": "2026 Recurrent Pericarditis (HCP) Ad Tracker\nW1\nChanges 6.18.26\nQUOTAS\nQuota 1\nCell\nDescription\nQualifying Logic\nQuota\nHard Quota?\n10\nCardiologists\nS2=Cardiology OR (Pediatric Cardiology AND on-list) OR\n(Cardiothoracic Surgeon AND on-list)\nn=110\nYes\n20\nRheumatologists\nS2=Rheumatology\nn=40\nYes\nTOTAL\nn=150\nQuota 2\nCell\nDescription\nQualifying Logic\nQuota\nHard Quota?\n10\nCardiologists Target/Call\nS2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=CSS Target OR Target Type=rCSS Target OR (Target Type=Non-Target AND Call in Last 6 Months=Yes)\nn=55\nYes\n11\nCardiologists CSS target\nS2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=CSS Target\nMonitor\nNo\n12\nCardiologists rCSS target\nS2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND Target Type=rCSS Target\nMonitor\nNo\n13\nCardiologists with call only\nS2=Cardiology, Pediatric Cardiology, Cardiothoracic Surgeon AND (Target Type=Non-Target AND Call in Last 6 Months=Yes)\nMonitor\nNo\n20\nCardiologists non-targets\n(S2=Cardiology AND not on list) OR (S2=Cardiology AND on-list AND Target Type=Non-Target AND Call in Last 6 Months=No)\nn=55\nYes\nTOTAL\nn=110\nQuota 3\nCell\nDescription\nQualifying Logic\nQuota\nHard Quota?\n10\nRheumatologists Target/Call\nS2= Rheumatology AND Target Type=CSS Target OR Target Type=rCSS Target OR (Target Type=Non-Target AND Call in Last 6 Months=Yes)\nMonitor\nNo\n11\nRheumatologists CSS target\nS2= Rheumatology AND Target Type=CSS Target\nMonitor\nNo\n12\nRheumatologists rCSS target\nS2= Rheumatology AND Target Type=rCSS Target\nMonitor\nNo\n13\nRheumatologists with call only\nS2= Rheumatology AND (Target Type=Non-Target AND Call in Last 6 Months=Yes)\nMonitor\nNo\n20\nRheumatologists non-targets\n(S2= Rheumatology AND not on list) OR (S2= Rheumatology AND on-list AND Target Type=Non-Target AND Call in Last 6 Months=No)\nMonitor\nNo\nFrom target list, pass through variable Primary Specialty and CSS Target and Call in Last 6 Months\nMaximum of 30% off-list respondents who completed ATU W1 (25-101690-01). First invite on-list respondents who didn’t complete ATU W1; then invite those that did complete as necessary.\nSCREENER\nBase: All Respondents\nAE1. This survey is being conducted by Ipsos, an independent market research agency based in the US, on behalf of a pharmaceutical company.\nThe survey will take approximately 15 minutes of your time.\nWith your consent, your information will only be collected and used for market research and analysis. Any information you give will be treated in the strictest confidence and results will only be reported back on an aggregated basis. As a member of EphMRA, Ipsos is bound by EphMRA Code of Conduct and all applicable laws protecting your personal data and responses. The study is conducted in compliance with ESOMAR/ EphMRA guidelines.\nYou have the right to withdraw from the interview at any time. For more information about your rights please see our privacy notice, it is available at [INSERT PRIVACY NOTICE HYPERLINK].\nYou will receive an honorarium for your participation.\nWe are required to pass on to our client details of adverse events/product complaints pertaining to their products that are mentioned during the interview. If this happens, we will need to collect details and report the event, even if you have already done so. By agreeing to participate in this survey you are consenting that should any side effects or product complaints relating to the sponsoring company’s product come up during the interview, your contact information (name, email, telephone) will be provided to the sponsoring company’s drug safety department for their follow-up. This will have no impact on the confidentiality and anonymity associated with the interview itself.\nWe will start by asking you a few preliminary questions to determine if you qualify, at which point, you will be taken through the remainder of the study.\nPlease confirm that:\nI have read, understood and accept the points above and am happy to proceed with the market research survey on those basis\nNo, I do not want to participate in this research [TERMINATE]\nBase: All Respondents\nS2. Which of the following best describes your primary medical specialty?\n[RANDOMIZE. ANCHOR OTHER]\nInternal Medicine / General Practice [TERMINATE]\nCardiology\nPediatric Cardiology [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST]\nCardiothoracic Surgeon [IF ON-LIST AND COUNT AGAINST CARDIOLOGY; TERMINATE IF NOT ON LIST]\nRheumatology\nOther (please specify) [TERMINATE]\nBase: All Respondents\nS3. Are you in full-time, active practice?\nYes\nNo [TERMINATE]\nBase: All Respondents\ns4. In which state do you primarily practice?\nPROVIDE DROP-DOWN LIST OF US STATES IN ALPHABETICAL ORDER. FORCE SINGLE SELECTION. TERMINATE IF VERMONT OR “I DO NOT RESIDE IN THE UNITED STATES”\nBase: All Respondents\nS5. What percentage of your time is spent in direct patient care (as opposed to teaching, research, and administration)?\n________% [RANGE: 0-100%; IF <50%, TERMINATE]\nBase: All Respondents\ns6. Excluding your residency and fellowship, for how many years have you been practicing?\n________# of years [RANGE: 0-99]\n[IF <3 OR >35 AND NOT ON LIST, TERMINATE; IF <3 OR >40 AND ON-LIST, TERMINATE]\nBase: All Respondents\nS7\nIn the prior 12 months, how many patients have you managed with each of the following conditions?\nPlease enter 0 for those that do not apply.\n[RANDOMIZE. RANGE: 0 – 10,000]\n1\n_______Myocarditis\n2\n_______Pericarditis\nIF <5 FOR CARDS AND OR\n<2 FOR RHEUMS TERMINATE\n3\n_______Atrial fibrillation\n4\n_______Acute heart failure\n5\n_______Cryopyrin-Associated Periodic Syndromes (CAPS)\n6\n_______Still’s Disease\n7\n_______Rheumatic heart disease\nBase: All Respondents\nS8\nIn the prior 12 months, how many of your [PIPE S7_2] pericarditis patients fall into the below categories?\n[RANGE 0-S7_2 FOR EACH]\n1\n________ patients with recurrent pericarditis (defined as patients having at least two pericarditis episodes separated by a symptom free period of at least 4 weeks)\nIF <3 FOR CARDS AND NOT ON LIST, TERMINATE\nIF <2 FOR CARDS AND ON-LIST, TERMINATE\nIF <2 FOR RHEUMS OR MORE THAN 99 FOR BOTH TERMINATE\n2\n________ patients with a single episode of pericarditis\n[MUST SUM TO\nS7_2. SHOW SUM COUNTER]\nBase: All Respondents\nS9\nHow many of your [PIPE S8_1] recurrent pericarditis patients that you have managed in the last 12 months have each of the below etiologies?\nMUST SUM TO\nS8_1. RANGE 0-\nS8_1. TERMINATE IF (S9_1+S9_2+S9_4 <3 AND S2 = Cardiology OR Pediatric Cardiology OR Cardiothoracic Surgeon) OR (S9_1+S9_2+S9_4 <2 AND S2 = Rheumatology)\n1\n________ viral pericarditis\n2\n________ idiopathic pericarditis\n3\n________ autoimmune pericarditis\n4\n________ pericarditis associated with post-pericardiotomy syndrome\n5\nOther (please specify)\nBase: All Respondents\nThank you for the information provided thus far. Your responses indicate that you are eligible for this survey. Please note that all responses will be anonymized and aggregated.\nFor the rest of the survey, we would like to focus on recurrent pericarditis with non-autoimmune etiology (e.g., where the etiology is viral, idiopathic, and/or associated with post-pericardiotomy syndrome). We will refer to the condition as RP.\nPlease click “next” to proceed with the rest of the questions.\n[INCLUDE THE FOLLOWING AT THE BOTTOM OF ALL PAGES: “RP: recurrent pericarditis with non-autoimmune etiology. ”]\nQUESTIONNAIRE\nSection 1: Brand Metrics & Ad Recall\nBase: All Respondents\nQ105. Which therapies, if any, are you aware of that are used for the treatment of recurrent pericarditis? Please type “none” in the first box if you are not aware of any.\n[INSERT 10 SEPARATE OE TEXT BOXES]\nBase: All Respondents\nQ110\nPlease indicate your level of awareness with the below therapies that are used to treat recurrent pericarditis.\nSELECT ONE FOR EACH THERAPY. RANDOMIZE AND KEEP IT IN THE SAME ORDER FOR THE REMAINING OF THE SURVEY.\nUnaware\nAware, but not knowledgeable\nAware and somewhat knowledgeable\nAware and very knowledgeable\n1\nNSAIDs\n2\nColchicine\n3\nCorticosteroids\n4\nKineret (anakinra)\n5\nArcalyst (rilonacept)\nBase: aware of products (any therapy=AWARE (COL 2-4) in q110)\nQ115\nWhich of the following therapies have you ever prescribed to patients with recurrent pericarditis? Please select one for each treatment.\nSHOW ONLY THE OPTIONS THAT HCPS ARE AWARE OF (=2-4) IN Q110 IN THE SAME ORDER AS\nQ110. ONE SELECTION PER ROW.\nCurrently prescribe\nHave prescribed in the past but not currently\nHave never prescribed\n1\nNSAIDs\n2\nColchicine\n3\nCorticosteroids\n4\nKineret (anakinra)\n5\nArcalyst (rilonacept)\nBase: All Respondents\nQ120. Please indicate your overall opinion on the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.\nRANDOMIZE IN SAME ORDER AS Q110\n1\nI do not feel it is an important option\n2\n3\n4\n5\n6\n7\nI feel it is a very important option\n1. NSAIDs\n2. Colchicine\n3. Corticosteroids\n4. Arcalyst (rilonacept)\nBase: All Respondents\nQ125. Now, please indicate your overall preference for each of the following products used for treating RP. If you have never used the product, please base your opinion on what you know about it.\nRANDOMIZE IN SAME ORDER AS Q110\n1\nI have no preference at all for this product\n2\n3\n4\n5\n6\n7\nA product for which I have a very high preference\n1. NSAIDs\n2. Colchicine\n3. Corticosteroids\n4. Arcalyst (rilonacept)\nBase: aware of NSAIDs, colchicine, ARCALYST, corticosteroids (q110_1, _2, _3, or _5=2-4 AWARE)\nQ130. Which RP treatments do you particularly associate as performing well on each of the following attributes? For each attribute, please select as many or as few of the treatments as you strongly associate with it. If you do not feel any of the treatments perform strongly on a given attribute, please select the “none” option.\nRANDOMIZE STATEMENTS. SHOW ONLY PRODUCTS PRESCRIBER IS AWARE OF IN Q110 IN COLUMNS. MAKE ‘NONE’ LAST COLUMN. REPEAT HEADER HALFWAY THROUGH LIST\n1\nRapid symptom resolution\n2\nPrevention of future recurrences\n3\nReduces the need for steroids\n4\nExcellent safety and side effect profile\n5\nEase of access (e.g. insurance coverage, cost, affordable co-pay, etc.)\n6\nConvenient dosing and mode of administration\n7\nMechanism of action impacts the underlying pathophysiology of RP\n8\nExcellent manufacturer support (e.g. patient assistance, etc.)\n9\nIt is FDA approved and indicated for RP\n10\nThere is strong clinical trial data to support the product’s efficacy\n11\nExpert endorsement of drug class\n12\nReal world data to support treatment use\n13\nProven efficacy and safety over the long term\n14\nClinically proven to prevent recurrences over the long term\nBase: All Respondents\nQ135. In the past 3 months, do you recall seeing any advertisements for the following products specific to the treatment of RP?\nPlease consider any advertisements you may have seen on TV, social media, the internet, etc. and select all that apply.\n[RANDOMIZE. ANCHOR NONE]\nNSAIDs\nColchicine\nCorticosteroids\nKineret (anakinra)\nArcalyst (rilonacept)\nNone of the above [EXCLUSIVE]\nBASE: RECALL SEEING AD (Q135=5)\nQ137. What do you recall from the Arcalyst ad you saw in the past 3 months?\nPlease be as specific as possible and describe what messages you remember, the images and phrases used, what the ad was trying to tell you about the product, etc.\n[INSERT OE TEXT BOX; MIN 15 CHARACTERS]\nBASE: RECALL SEEING AD FOR ARCALYST (Q135=5)\nQ140. Where did you see the advertising for Arcalyst in the past 3 months?\nSelect all that apply.\n[RANDOMIZE. ANCHOR OTHER AND DON’T KNOW]\nTraditional live TV services (including live broadcasts/networks, local channels, cable, and satellite)\nOn a streaming service/app (e.g., Prime Video, Hulu, Peacock, Apple TV) on any device (TV, iPad/tablet, phone, etc.)\nOn Arcalyst’s website\nIn online search sites (e.g., Google, Yahoo, Bing, or others)\nIn online advertising (e.g., video ads, banners, pop up ads)\nSocial media (e.g., Facebook, Instagram, Twitter, TikTok, LinkedIn)\nYouTube\nEmail from manufacturer\nEHR systems (e.g., Epic, Allscripts, NextGen)\nDoximity\nHealthcasts\nOther (please specify)\nDon’t remember / not sure [EXCLUSIVE]\nSection 2: Blinded Ad Recall\nNORM - RECALL\nBase: All Respondents\nQ205. Now we would like to show you a series of images from an advertisement you may have seen.\n[SHOW IMAGES]\nHave you seen this advertisement recently?\nPlease note, if you would like to make the image bigger, you can click on it to enlarge it.\nYes\nNo [SKIP TO NEXT SECTION]\nNORM – BRAND LINK\nBASE: RECALL SEEING AD (Q205=1)\nQ210. What therapy or brand was this advertisement for?\nPlease click here to review it again [PROVIDE LINK TO AD IMAGES].\n[INSERT OE TEXT BOX]\nBASE: RECALL SEEING AD (Q205=1)\nQ220. Which of the following therapies used to treat recurrent pericarditis do you believe the advertisement is associated with?\nPlease click here to review it again [PROVIDE LINK TO AD IMAGES].\n[SHOW IN SAME ORDER AS\nQ110. ANCHOR OTHER, NONE]\nNSAIDs\nColchicine\nCorticosteroids\nKineret (anakinra)\nArcalyst (rilonacept)\nOther (please specify)\nNone of the above\nBASE: RECALL SEEING AD (Q205=1)\nQ230. Where do you remember seeing this advertisement?\nSelect all that apply.\n[USE SAME RANDOMIZED LIST FROM Q140]\nBASE: RECALL SEEING AD (Q205=1)\nQ240. About how many times have you seen this advertisement?\nPlease click here to review it again [PROVIDE LINK TO AD IMAGES].\nBest estimated number of times: _________ [RANGE 1-99]\nBASE: RECALL SEEING AD (Q205=1)\nQ245. What do you think the main message of the advertisement is?\nPlease be as specific as possible and describe what you think the ad is trying to tell you about the product.\n[INSERT OE TEXT BOX; MIN 15 CHARACTERS]\nBASE: RECALL SEEING AD (Q205=1)\nQ250. You may have mentioned this before, but what message(s) do you recall from this advertisement?\nSelect all that apply.\n[RANDOMIZE. ANCHOR NONE]\nARCALYST® blocks IL-1, a key driver of the inflammation cycle in recurrent pericarditis\n97% of patients taking ARCALYST® achieved pain relief and inflammation resolution, most after the first dose\nPatients taking ARCALYST saw a 96% reduction in the risk of a recurrent flare\nARCALYST may help protect your heart’s home from recurrent flares\nIs your heart’s home impacted by recurrent pericarditis?\nARCALYST – the only FDA-approved therapy to treat recurrent pericarditis\nThe average time to treatment response was 5 days\nHelp protect the heart’s home\nNone of the above [EXCLUSVE]\nBASE: RECALL SEEING AD (Q205=1)\nQ255. After seeing the advertisement, which of the following actions did you take?\nSelect all that apply.\n[RANDOMIZE, KEEPING 5 AND 6 TOGETHER. ANCHOR OTHER, NONE]\nI researched clinical studies or published articles about this brand for recurrent pericarditis\nI discussed this brand's potential with my colleagues or within professional forums\nI visited the brand's professional website for detailed product and clinical information\nI considered this brand for future recommendations to my patients with recurrent pericarditis\nI began prescribing this brand to my patients with recurrent pericarditis\nI began discussing this brand with my patients with recurrent pericarditis\nI attended a professional webinar or educational session about this brand\nI reached out to the manufacturer of the brand (i.e. sales representative) for more information\nOther (please specify)\nI did not take any action [EXCLUSIVE]\nSection 3: Ad Evaluation\n[SHOW ON SEPARATE SCREEN]\nFor this next section, we’re going to show you a full advertisement. Please ensure that your speakers are on for viewing.\n[SHOW AD]\nBase: All Respondents\nQ305. What, in your opinion, was the main message of this advertisement?\nPlease be as specific as possible and describe what you think the ad is trying to tell you about the product.\n[INSERT OE TEXT BOX; MIN 10 CHARACTERS]\nNORM - likeability\nBase: All Respondents\nQ310. Please indicate your overall impression of this advertisement.\nDisliked it very much\nDisliked it somewhat\nFelt neutral about it\nLiked it somewhat\nLiked it very much\nBase: liking ad (q310=4,5)\nQ315. What do you like about the ad?\nPlease be as specific as possible.\n[INSERT OE TEXT BOX]\nBase: dislike ad (q310=1,2)\nQ320. What do you dislike about the ad?\nPlease be as specific as possible.\n[INSERT OE TEXT BOX]\nBase: All Respondents\nQ325. How much do you agree with the following statements about this ad?\nSelect one per row.\nRANDOMIZE\nDisagree\n1\nAgree somewhat\n2\nAgree strongly\n3\n1\nThe ad gave me a good feeling about the brand\nNORM\n2\nThe ad was unique and different\nNORM\n3\nThe ad was very informative\nNORM\n4\nThe ad told me something new\nNORM\n5\nWhat the ad said and showed was interesting to me\nNORM\n5 11\nThe ad made me want to discuss the brand with my RP patients\n6\nThe ad is relevant for my RP patients\n7\nThe ad made me want to seek out additional information about the brand\n8\nThe ad made me want to utilize the brand in treating my RP patients\n9\nThe ad made me want to visit the website\nNORM\n10\nThe ad improved the familiarity and understanding of what this brand is about\nNORM\nBase: All Respondents\nQ340. After seeing the full advertisement, do you recall seeing this advertisement prior to today?\nYes\nNo\nBASE: RECALL SEEING AD (Q340=1)\nQ345. Where do you remember seeing this ad? Select all that apply.\n[USE SAME RANDOMIZED LIST FROM Q140]\nBase: All Respondents\nQ350. After seeing the ad, which of the following actions will you take?\nSelect all that apply.\n[USE SAME RANDOMIZED ORDER FROM\nQ255. ANCHOR OTHER, NONE]\nI will research clinical studies or published articles about this brand for recurrent pericarditis\nI will discuss this brand's potential with my colleagues or within professional forums\nI will visit the brand's professional website for detailed product and clinical information\nI will consider this brand for future recommendations to my patients with recurrent pericarditis\nI will begin prescribing this brand to my patients with recurrent pericarditis\nI will begin discussing this brand with my patients with recurrent pericarditis\nI will attend a professional webinar or educational session about this brand\nI will reach out to the manufacturer of the brand (i.e. sales representative) for more information\nOther (please specify)\nI will not take any action [EXCLUSIVE]\nBase: will start discussing or prescribing (q350=5 OR 6)\nQ355. In what timeframe will you start discussing or prescribing the brand with your RP patients?\nImmediately\nWithin the next month\n1-2 months from now\n3-6 months from now\n7-12 months from now\nIn more than a year from now\nSection 8: Demographics\nBASE: ALL RESPONDENTS\nD1. Please indicate your biological sex.\nFemale\nMale\nOther / Prefer not to answer\nBASE: ALL RESPONDENTS\nD2. What is your current age?\n_____ [RANGE 0-100]\nBASE: ALL RESPONDENTS\nD3. In what type of geographic area is your practice located?\nUrban\nSuburban\nRural\nBase: All Respondents\nd4. Which of the below clinical settings best describes where you see your recurrent pericarditis patients?\nAcademic/Teaching Institution\nCommunity-based Institution\nPrivate Practice\nBASE: ALL RESPONDENTS\nD5.Thank you for participating in this Market Research study. We may plan to conduct several 30- to 45-minute follow-up live interviews (over the phone) with a select group of individuals for an additional payment.\nWould you be interested in participating in this follow-up?\nYes\nNo\nAPPENDIX: PRIVACY NOTICE\nThis Ipsos Survey and your personal data\n25-096947-01\nThis Privacy Notice explains who we are, the personal data we collect, how we use it, who we share it with, and what your legal rights are.\nAbout Ipsos\nIpsos-Insight, LLC, is a specialist research agency, based in the United States, commonly known as Ipsos (“Ipsos”, “we”, or “us”). This research is conducted by an Ipsos division specialised in healthcare research, known as the “Healthcare Service Line”. The Healthcare Service Line is part of the Ipsos worldwide group of companies, and a member of Insights Association, ESOMAR (European Society for Opinion and Market Research) and EphMRA, the international association of the pharmaceutical market research industry. As such we abide by Insights Association/ESOMAR/EphMRA Code of Conduct and associated regulations and guidelines.\nWhat is Ipsos’ legal basis for processing your personal data?\nIpsos requires a legal basis to process your personal data. Ipsos’s legal basis for processing is your consent to take part in this research survey. If you wish to withdraw your consent at any time, please see the section below covering ‘Your Rights’.\nProcessing personal data for Drug Safety Monitoring -\nThe medicines manufacturer commissioning this market research needs some information to continue identifying new side effects and problems with their medicines, and ways in which the risks of known side effects can be minimised.\nWe are keen on supporting our client efforts towards drug safety and will pass our client details of adverse events that are mentioned during market or clinical research. Although in market or clinical research what you say will, of course, be treated in confidence, should you raise during the research an adverse event in a specific patient or group of patients, we will need to report this even if it has already been reported by you directly to the company or the regulatory authorities.\nPlease note the sponsoring company may use a different legal basis to further process your personal data for drug and device safety purposes in compliance with their regulatory obligations.\nIt may be important for you to know that your individual responses to the research tasks or questions may need to be retained by Ipsos for up to ten (10) years for the purpose of drug and device safety monitoring as instructed by the sponsoring client of the research.\nEverything else you say during the survey will continue to remain confidential, and you will still have the option to remain anonymous if you wish.\nHow will Ipsos use any personal data including survey responses you provide?\nFirstly, responding to this survey is entirely voluntary and any answers are given with your consent.\nIf you have been invited to participate in this study by a 3rd party, the organisation that invited you to participate has not provided Ipsos Healthcare with any information relating to you.\nIn case you will be asked to provide personal data within the survey, Ipsos will keep your personal data and responses in strict confidence in accordance with this Privacy Policy. Anonymised individual responses may be shared with the commissioning client, however Ipsos can assure you that you will NOT be identifiable in any published results, unless you had given your consent to do so.\nIpsos will use your personal data and responses solely for research purposes and to produce anonymous, statistical research findings and insights.\nWho we share your data with\nIpsos will be using certain supplier organisation(s) to assist us in running the research survey and we will need to disclose your personal data to these supplier organisation(s) for that purpose. These supplier organisations include:\nMarket Research Fieldwork Agencies\nOnline Hosting Platforms\nTranslation Agencies\nAI APIs, like Open AI APIs or Google Vertex using an Ipsos dedicated environment\nIn case any of your answers will be identified as a reportable adverse event, we will be sharing your personal data with the sponsoring company’s drug safety department or the regulatory authorities.\nHow will Ipsos ensure my personal information is secure?\nIpsos takes its information security responsibilities seriously and applies various precautions to ensure your information is protected from loss, theft, or misuse. Security precautions include appropriate physical security of offices and controlled and limited access to computer systems as well as techniques such as pseudonymisation and encryption of your data both at rest and in transfer.\nHow long will Ipsos retain my personal data and identifiable responses?\nIpsos will only retain your data in a way that can identify you for as long as is necessary to support the research project and findings. In practice, this means that once we have satisfactorily reported the anonymous research findings, we will securely remove your personal, identifying data from our systems.\nFor this project we will securely remove your personal data from our systems within 3 months after project closure.\nIf your individual responses to the research tasks or questions are identifiable, it may be necessary to retain this material securely for a period of up to:\nOne (1) year for research purposes,\nTen (10) years for the purpose of drug and device safety monitoring by the sponsoring company.\nYour rights.\nYou have the right to access your personal data within the limited period that Ipsos holds it. It’s important to note that If you have been invited to participate in this study by a 3rd party:\nunless you provide any personal information that identifies, or could be used to identify you, we will not hold any information that would enable Ipsos to identify your responses. Therefore, we would not be able to provide a copy.\nHowever, if you do include any personal information that identifies, or could be used to identify you, we can provide a copy of your responses to this research on request at any time before the results are anonymised.\nProviding responses to this survey is entirely voluntary and is done so with your consent. You have the right to withdraw your consent and to object to our processing of your personal data at any time.\nYou also have the right to rectify any incorrect or out-of-date personal data about you which we may hold.\nIf you want to exercise your rights, please contact us at the below Ipsos address.\nIf you have any complaints, we will appreciate if you give us an opportunity to resolve any issue first, by contacting us as set out below. You are, however, always entitled to contact the regulatory body, the Federal Trade Commission (FTC) at https://www.ftc.gov or by postal mail at:\nBureau of Consumer Protection\nFederal Trade Commission\n600 Pennsylvania Ave., NW\nWashington, DC 20580\nOr by phone at: (877)-382-4357\nOther data protection authorities within your state of residence are also likely to accept your complaint.\nWhere will my personal data be held & processed?\nAll of your personal data used and collected for this survey will be stored by Ipsos in data centres and servers within the United States.\nWe may though need to transfer your personal data to countries outside the United States. Some countries may not have laws that provide the same protections on personal data as inside the United States. Groups to whom Ipsos transfers personal data in such countries will be required to sign agreements to protect personal data or agree to data transfer agreements with third parties.\nHow can I contact Ipsos about this survey and/or my personal data?\nContact Ipsos:\nEmail: DPO.USA@ipsos.com with 25-096947-01 in the email subject line.\nPostal Mail:Ref: 25-096947-01\nIpsos-Insight, LLC\nAttn: Data Protection Officer\n222 W. Adams Street, Suite 1100\nChicago, IL 60606\nState Legislative Requirements\nU.S. States, including California, Virginia, Colorado, Connecticut, and Utah, have established laws to both protect consumers and also provide them with certain rights as it pertains to their privacy. Ipsos is obligated to inform you of these rights and provide you with control over any information which can directly or indirectly identify you or other people who may reside in your household. This information is referred to in this notice as “Personal Data”.\nYou have the right to request:\n“Access” to personal data Ipsos has imported, collected, and inferred relating to the purposes of this research and any third parties with whom Ipsos has provided access to complete the research.\n“Correction” to personal data Ipsos is holding.\n“Deletion” of personal data Ipsos is holding.\n“Portability” of the personal data Ipsos is holding, transferring it to another established business or organization.\nAn opt out of the Sale of personal data which is being held. A “Sale” is the disclosure of personal data for monetary or other valuable consideration. Ipsos will not sell or pass on your personal data to any third party.\nAn opt out of any “Processing” of personal data for the disclosed research purposes and research experience by withdrawing your consent. Processing can be accomplished from manual or automated decisions.\nYou have the right to be free from any form of discrimination by a business for exercising any of the before mentioned privacy rights.\nUseful links\nIpsos US Healthcare:www.ipsos.com/en-us/solutions/list?search=Healthcare\nIpsos Group:www.ipsos.com\nInsights Association:www.InsightsAssociation.org\nESOMAR:www.esomar.org\nEPHMRA:www.ephmra.org\nFederal Trade Commission:www.ftc.gov",
+  "total_questions": 43,
+  "total_sections": 5,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 572,
+      "source_characters": 28269,
+      "question_style_blocks": 0
+    }
+  }
+}

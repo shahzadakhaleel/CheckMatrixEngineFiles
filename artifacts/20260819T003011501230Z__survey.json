@@ -1,0 +1,3644 @@
+{
+  "metadata": {
+    "title": "RINVOQ Derm ZIP – Vitiligo Phototherapy Usage",
+    "client": "AbbVie",
+    "project": "RINVOQ Derm ZIP Vitiligo Phototherapy Use Survey",
+    "language": "English",
+    "country": null,
+    "version": "v5.0"
+  },
+  "sections": [
+    {
+      "id": "Disclosures & Permissions",
+      "title": "Disclosures & Permissions",
+      "description": null,
+      "questions": [
+        {
+          "id": "D1",
+          "variable": null,
+          "title": "Consent to disclosure",
+          "text": "Please indicate whether you consent to us disclosing your name, contact information, and adverse event details to the sponsor in such situations.",
+          "section": "Disclosures & Permissions",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "No",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Select One.",
+          "metadata": {
+            "source_table": 2,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "D2",
+          "variable": null,
+          "title": "Proceed with survey",
+          "text": "Are you happy to proceed with the survey on this basis?",
+          "section": "Disclosures & Permissions",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes, I am willing to proceed and agree to potentially be contacted with follow-up questions",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Yes, I am willing to proceed but do not want to be contacted with follow-up questions",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No, I am not willing to proceed",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "1 CONTINUE; 2 CONTINUE; 3 TERMINATE IMMEDIATELY",
+          "notes": "Select One.",
+          "metadata": {
+            "source_table": 3,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "CON.0",
+          "variable": null,
+          "title": "Consent",
+          "text": "Consent. By selecting “I consent” below, you confirm that you have read and understand the information above and agree to the requirements to participate in this market research study.",
+          "section": "Disclosures & Permissions",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "I consent",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I do not consent",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "2 [TERMINATE IMMEDIATELY]",
+          "notes": "Select one.",
+          "metadata": {
+            "source_table": 4,
+            "source_row": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Screener",
+      "title": "Screener",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q1",
+          "variable": null,
+          "title": "Primary role",
+          "text": "Which of the following best describes your primary role?",
+          "section": "Screener",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Primary Care Doctor / Doctor of Internal Medicine",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Dermatologist",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Allergist",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Immunologist with a Dermatology sub-specialty",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Pediatrician (general or specialty)",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Nurse Practitioner in a Dermatology practice",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Physician Assistant in a Dermatology practice",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "99",
+              "text": "Other (Please specify) __________ [ANCHOR]",
+              "value": 99,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "1 TERMINATE IMMEDIATELY; 2 CONTINUE; 3 TERMINATE IMMEDIATELY; 4 CONTINUE; 7 TERMINATE IMMEDIATELY; 8 CONTINUE; 9 CONTINUE; 99 TERMINATE IMMEDIATELY",
+          "notes": "Randomize options. Select One.",
+          "metadata": {
+            "source_table": 5,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Q2",
+          "variable": null,
+          "title": "Primary setting",
+          "text": "Which of the following best describes the primary setting in which you see patients? Please select one answer only.",
+          "section": "Screener",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Private practice – solo",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Private practice – group, single specialty",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Private practice – group, multi-specialty",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "General or community hospital",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Community center",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Academic center",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "University or academic hospital",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "VA / Military Hospital",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "98",
+              "text": "Other (Please specify: ________) [ANCHOR]",
+              "value": 98,
+              "exclusive": false,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "1–5 CONTINUE AND CLASSIFY AS “COMMUNITY”; 6–7 CONTINUE AND CLASSIFY AS “ACADEMIC”; 8 TERMINATE IMMEDIATELY; 98 TERMINATE IMMEDIATELY",
+          "notes": "Randomize options. Select one.",
+          "metadata": {
+            "source_table": 6,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Q3_1",
+          "variable": null,
+          "title": "Moderate-to-Severe Atopic Dermatitis",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Moderate-to-Severe Atopic Dermatitis? Please count only unique patients and not patient visits.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q3_2",
+          "variable": null,
+          "title": "Moderate-to-Severe Plaque Psoriasis",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Moderate-to-Severe Plaque Psoriasis? Please count only unique patients and not patient visits.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q3_3",
+          "variable": null,
+          "title": "Acne",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Acne? Please count only unique patients and not patient visits.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q3_4",
+          "variable": null,
+          "title": "Severe Alopecia Areata",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Severe Alopecia Areata? Please count only unique patients and not patient visits.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q3_5",
+          "variable": null,
+          "title": "Moderate-to-Severe Hidradenitis Suppurativa",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Moderate-to-Severe Hidradenitis Suppurativa? Please count only unique patients and not patient visits.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q3_6",
+          "variable": null,
+          "title": "Non-Segmental Vitiligo",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Non-Segmental Vitiligo? Please count only unique patients and not patient visits.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "TERMINATE IMMEDIATELY IF 0",
+          "notes": "Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 7
+          }
+        },
+        {
+          "id": "Q3_98",
+          "variable": null,
+          "title": "Other conditions",
+          "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Other conditions? Please specify the condition.",
+          "section": "Screener",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Anchor. Whole number, range 0–999.",
+          "metadata": {
+            "source_table": 7,
+            "source_row": 8
+          }
+        }
+      ]
+    },
+    {
+      "id": "Survey",
+      "title": "Survey",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q4_1",
+          "variable": null,
+          "title": "Topical Steroids",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Topical Steroids? Your answers may sum to greater than 100% if you use multiple treatments in some patients.",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q4_2",
+          "variable": null,
+          "title": "Topical Calcineurin Inhibitors",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Topical Calcineurin Inhibitors (e.g., Tacrolimus ointment)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q4_3",
+          "variable": null,
+          "title": "Topical JAK Inhibitor",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Topical JAK Inhibitor (e.g., Opzelura (ruxolitinib))?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q4_4",
+          "variable": null,
+          "title": "Phototherapy",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Phototherapy (e.g., excimer laser, narrow-band UVB, at-home device)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q4_4>0 CONTINUE, ELSE TERMINATE IMMEDIATELY",
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q4_5",
+          "variable": null,
+          "title": "Systemic therapies",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Systemic therapies (Methotrexate, Immunosuppressants, etc.)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q4_6",
+          "variable": null,
+          "title": "Makeup",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Makeup (e.g., Dermablend)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 7
+          }
+        },
+        {
+          "id": "Q4_7",
+          "variable": null,
+          "title": "Depigmentation / Re-pigmentation",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Depigmentation / Re-pigmentation?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 8
+          }
+        },
+        {
+          "id": "Q4_8",
+          "variable": null,
+          "title": "Skin grafting",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Skin grafting?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 9
+          }
+        },
+        {
+          "id": "Q4_98",
+          "variable": null,
+          "title": "Other treatment",
+          "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Other treatment? Please specify.",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Anchor. Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 8,
+            "source_row": 10
+          }
+        },
+        {
+          "id": "Q5",
+          "variable": null,
+          "title": "Phototherapy Offering",
+          "text": "Does your practice offer phototherapy?",
+          "section": "Survey",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes, I offer narrow-band UVB in my practice",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Yes, I offer excimer laser in my practice",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Yes, I offer other types of phototherapy in my practice (Please specify: _________)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "No, I do not offer phototherapy in my practice",
+              "value": 4,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Select all that apply. Option 4 is displayed with a single-select control and is logically exclusive.",
+          "metadata": {
+            "source_table": 9,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Q6_1",
+          "variable": null,
+          "title": "In-office narrow-band UVB",
+          "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive In-office narrow-band UVB (in your practice or another clinic)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 10,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q6_2",
+          "variable": null,
+          "title": "In-office excimer laser",
+          "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive In-office excimer laser (in your practice or another clinic)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 10,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q6_3",
+          "variable": null,
+          "title": "Prescription at-home phototherapy device",
+          "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive a Prescription at-home phototherapy device (i.e., physician prescribes through a direct-to-patient company such as Phothera or Zerigo)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 10,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q6_4",
+          "variable": null,
+          "title": "At-home phototherapy device without prescription",
+          "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive an At-home phototherapy device that the patient purchases online without prescription?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 10,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q6_98",
+          "variable": null,
+          "title": "Other phototherapy",
+          "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive Other phototherapy? Please specify.",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Anchor. Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 10,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q7",
+          "variable": null,
+          "title": "Referrals and at-home devices",
+          "text": "Do you ever refer patients to other practices or recommend an at-home device for phototherapy? Please select one answer only.",
+          "section": "Survey",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes, I both refer patients to other practices for phototherapy and recommend at-home devices.",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Yes, I refer patients to other practices for phototherapy, but do not recommend at-home devices.",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Yes, I recommend at-home devices, but do not refer patients to other practices for phototherapy.",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "No, I do not refer patients to other practices for phototherapy and do not recommend at-home devices.",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Select one answer only.",
+          "metadata": {
+            "source_table": 11,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Q8_1",
+          "variable": null,
+          "title": "Insurance",
+          "text": "To the best of your knowledge, how are your Non-Segmental Vitiligo patients paying for their phototherapy treatment? For the Insurance (fully or partially covered) payment option, distribute patients across the applicable columns.",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Columns: In-office phototherapy (% of patients); Prescription at-home phototherapy device (% of patients). Show columns conditionally as specified in the source. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 12,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q8_2",
+          "variable": null,
+          "title": "Cash / out-of-pocket",
+          "text": "For the Cash / out-of-pocket (no insurance coverage) payment option, distribute your Non-Segmental Vitiligo patients across the applicable phototherapy columns.",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Columns: In-office phototherapy (% of patients); Prescription at-home phototherapy device (% of patients). Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 12,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q8_3",
+          "variable": null,
+          "title": "I don't know",
+          "text": "For the I don't know payment option, distribute your Non-Segmental Vitiligo patients across the applicable phototherapy columns.",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Columns: In-office phototherapy (% of patients); Prescription at-home phototherapy device (% of patients). Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 12,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q9_1",
+          "variable": null,
+          "title": "Sessions per week",
+          "text": "For In-office phototherapy – narrow-band UVB, In-office phototherapy – excimer laser, Prescription at-home device, and At-home DTC device (non-prescription), what is your most commonly recommended number of Sessions per week for Non-Segmental Vitiligo patients?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four numeric fields, one per treatment column. Whole numbers; range 0–7 sessions. Source table 13, row 2.",
+          "metadata": {
+            "source_table": 13,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q9_2",
+          "variable": null,
+          "title": "Total duration",
+          "text": "For each phototherapy regimen used for your Non-Segmental Vitiligo patients, what is your most commonly recommended Total duration? Enter the total duration in weeks for In-office phototherapy – narrow-band UVB, In-office phototherapy – excimer laser, Prescription at-home device, and At-home DTC device (non-prescription).",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four numeric fields, one per treatment column. Whole numbers; range 0–999 weeks.",
+          "metadata": {
+            "source_table": 13,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q10_1",
+          "variable": null,
+          "title": "Never started",
+          "text": "Approximately what percent of your Non-Segmental Vitiligo patients for whom you have prescribed or recommended phototherapy fall into the category: Never started / decided not to pursue the treatment?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns: In-office in my practice; In-office referred out; Prescription at-home device; At-home DTC device. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 14,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q10_2",
+          "variable": null,
+          "title": "Started but discontinued",
+          "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: Started but discontinued before the recommended duration of therapy?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%. This row controls Q11 display when any value is greater than 0.",
+          "metadata": {
+            "source_table": 14,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q10_3",
+          "variable": null,
+          "title": "Full duration, fewer sessions",
+          "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: Took treatment for the full duration, but fewer sessions per week than prescribed?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 14,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q10_4",
+          "variable": null,
+          "title": "Adherent",
+          "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: Adherent (follows the recommended phototherapy schedule as often as recommended, for the full course)?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 14,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q10_5",
+          "variable": null,
+          "title": "I don’t know",
+          "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: I don’t know?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "No response field for the In-office (in my practice) column; percentage fields for the other three columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 14,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q11_1",
+          "variable": null,
+          "title": "Within the first month",
+          "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Within the first month?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Show columns conditionally as specified in the source. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 15,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q11_2",
+          "variable": null,
+          "title": "Between 2–6 months",
+          "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Between 2–6 months?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 15,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q11_3",
+          "variable": null,
+          "title": "Between 7 and 9 months",
+          "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Between 7 and 9 months?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 15,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q11_4",
+          "variable": null,
+          "title": "Between 10 and 12 months",
+          "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Between 10 and 12 months?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 15,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q11_5",
+          "variable": null,
+          "title": "Greater than 12 months",
+          "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Greater than 12 months?",
+          "section": "Survey",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Four percentage columns. Column totals must equal 100%.",
+          "metadata": {
+            "source_table": 15,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q12",
+          "variable": null,
+          "title": "Reasons for not following through",
+          "text": "What are the main reasons you believe Non-Segmental Vitiligo patients may not follow through with phototherapy or may stop before completing the recommended course? Please be as specific as you can; you can list multiple reasons.",
+          "section": "Survey",
+          "question_type": "OPEN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_table": 16,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Q13_1",
+          "variable": null,
+          "title": "Satisfaction with in-office narrow-band UVB",
+          "text": "Please indicate your agreement: I am satisfied with in-office phototherapy – narrow-band UVB as a treatment option.",
+          "section": "Survey",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Strongly Disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3 – Neither Agree nor Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5 – Strongly Agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "SHOW ROW 1 ONLY IF Q6_1 > 0",
+          "notes": "Scale from 1 to 5.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q13_2",
+          "variable": null,
+          "title": "Satisfaction with excimer laser",
+          "text": "Please indicate your agreement: I am satisfied with in-office phototherapy – excimer laser as a treatment option.",
+          "section": "Survey",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Strongly Disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3 – Neither Agree nor Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5 – Strongly Agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "SHOW ROW 2 ONLY IF Q6_2 > 0",
+          "notes": "Scale from 1 to 5.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q13_3",
+          "variable": null,
+          "title": "Satisfaction with prescription at-home devices",
+          "text": "Please indicate your agreement: I am satisfied with prescription at-home phototherapy devices as a treatment option.",
+          "section": "Survey",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Strongly Disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3 – Neither Agree nor Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5 – Strongly Agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "SHOW ROW 3 ONLY IF Q6_3 > 0",
+          "notes": "Scale from 1 to 5.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q13_4",
+          "variable": null,
+          "title": "Satisfaction with at-home DTC devices",
+          "text": "Please indicate your agreement: I am satisfied with at-home DTC phototherapy devices as a treatment option.",
+          "section": "Survey",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Strongly Disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3 – Neither Agree nor Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5 – Strongly Agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "SHOW ROW 4 ONLY IF Q6_4 > 0",
+          "notes": "Scale from 1 to 5.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q13_5",
+          "variable": null,
+          "title": "Return of patients’ patches",
+          "text": "Please indicate your agreement: I expect the patients’ patches to return after the treatment ends.",
+          "section": "Survey",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Strongly Disagree",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3 – Neither Agree nor Disagree",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5 – Strongly Agree",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Scale from 1 to 5.",
+          "metadata": {
+            "source_table": 17,
+            "source_row": 6
+          }
+        },
+        {
+          "id": "Q14",
+          "variable": null,
+          "title": "Reasons for not offering phototherapy",
+          "text": "Can you explain in your own words the primary reasons you don't offer phototherapy to your Non-Segmental Vitiligo patients? Please be as specific as you can; you can list multiple reasons.",
+          "section": "Survey",
+          "question_type": "OPEN",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "ASK Q14 ONLY FOR THOSE WHO TERMINATE AT Q4",
+          "notes": null,
+          "metadata": {
+            "source_table": 18,
+            "source_row": 1
+          }
+        },
+        {
+          "id": "Q15",
+          "variable": null,
+          "title": "Barriers to phototherapy",
+          "text": "What are the primary barriers to your Non-Segmental Vitiligo patients receiving and continuing phototherapy treatment?",
+          "section": "Survey",
+          "question_type": "MULTI",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "My practice does not offer phototherapy in-office",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Limited availability of phototherapy providers/centers near patients",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Travel burden to get to phototherapy appointments",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Time commitment / scheduling demands (e.g., multiple sessions per week)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Cost to patient (e.g., co-pays, out-of-pocket costs)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Insurance authorization / reimbursement challenges",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Patients do not follow through on referrals to outside phototherapy providers",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Patients do not perceive enough benefit from phototherapy to justify continuing treatment",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Patients perceive phototherapy as inconvenient relative to other treatment options",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Patients prefer pharmacologic-only treatment (e.g., topicals, systemics)",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Concerns about long-term safety of phototherapy (e.g., UV exposure)",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "98",
+              "text": "Other (Please specify: _________) [ANCHOR]",
+              "value": 98,
+              "exclusive": false,
+              "anchor": true
+            },
+            {
+              "code": "99",
+              "text": "No significant barriers [EXCLUSIVE, ANCHOR TO BOTTOM]",
+              "value": 99,
+              "exclusive": true,
+              "anchor": true
+            }
+          ],
+          "validation_rules": [],
+          "routing": "TERMINATE IF Q1_8=1 OR Q1_9=1 AND Q4_4=0. ONLY ALLOW COMPLETES FOR Q4_4=0 IF Q1_2=1 OR Q1_4=1",
+          "notes": "Select all that apply. Option 99 is exclusive and anchored to bottom.",
+          "metadata": {
+            "source_table": 19,
+            "source_row": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "Opzelura and phototherapy",
+      "title": "Opzelura and phototherapy",
+      "description": null,
+      "questions": [
+        {
+          "id": "Q16_1",
+          "variable": null,
+          "title": "In-office narrow-band UVB and Opzelura",
+          "text": "For your Non-Segmental Vitiligo patients currently using In-office phototherapy – narrow-band UVB, what percentage are also prescribed Opzelura (ruxolitinib)?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "SHOW ROW 1 ONLY IF Q6_1 > 0",
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 20,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q16_2",
+          "variable": null,
+          "title": "In-office excimer laser and Opzelura",
+          "text": "For your Non-Segmental Vitiligo patients currently using In-office phototherapy – excimer laser, what percentage are also prescribed Opzelura (ruxolitinib)?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "SHOW ROW 2 ONLY IF Q6_2 > 0",
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 20,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q16_3",
+          "variable": null,
+          "title": "Prescription at-home device and Opzelura",
+          "text": "For your Non-Segmental Vitiligo patients currently using a Prescription at-home device, what percentage are also prescribed Opzelura (ruxolitinib)?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "SHOW ROW 3 ONLY IF Q6_3 > 0",
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 20,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q16_4",
+          "variable": null,
+          "title": "At-home DTC device and Opzelura",
+          "text": "For your Non-Segmental Vitiligo patients currently using an At-home DTC device (non-prescription), what percentage are also prescribed Opzelura (ruxolitinib)?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": "SHOW ROW 4 ONLY IF Q6_4 > 0",
+          "notes": "Whole number percentage, 0–100.",
+          "metadata": {
+            "source_table": 20,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q17",
+          "variable": null,
+          "title": "Phototherapy before and after Opzelura approval",
+          "text": "Thinking about your Non-Segmental Vitiligo patients, approximately what percent were prescribed any form of phototherapy (in-office or at-home) in the 12 months prior to Opzelura (ruxolitinib)’s FDA approval? How does that compare to the past 12 months? Phototherapy includes in-office narrow-band UVB, excimer laser, and at-home phototherapy devices.",
+          "section": "Opzelura and phototherapy",
+          "question_type": "NUMERIC",
+          "required": true,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Two percentage fields: % prescribed phototherapy before Opzelura’s FDA approval; % prescribed phototherapy after Opzelura’s FDA approval. Range 0–100.",
+          "metadata": {
+            "source_table": 21,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q18_1",
+          "variable": null,
+          "title": "Expected change in narrow-band UVB use",
+          "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of In-office phototherapy – narrow-band UVB to change?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Significant Decrease",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4 – No Change",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "7 – Significant Increase",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Scale from 1 to 7.",
+          "metadata": {
+            "source_table": 22,
+            "source_row": 2
+          }
+        },
+        {
+          "id": "Q18_2",
+          "variable": null,
+          "title": "Expected change in excimer laser use",
+          "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of In-office phototherapy – excimer laser to change?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Significant Decrease",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4 – No Change",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "7 – Significant Increase",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Scale from 1 to 7.",
+          "metadata": {
+            "source_table": 22,
+            "source_row": 3
+          }
+        },
+        {
+          "id": "Q18_3",
+          "variable": null,
+          "title": "Expected change in prescription at-home device use",
+          "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of Prescription at-home phototherapy devices to change?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Significant Decrease",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4 – No Change",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "7 – Significant Increase",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Scale from 1 to 7.",
+          "metadata": {
+            "source_table": 22,
+            "source_row": 4
+          }
+        },
+        {
+          "id": "Q18_4",
+          "variable": null,
+          "title": "Expected change in at-home DTC device use",
+          "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of At-home DTC phototherapy devices (non-prescription) to change?",
+          "section": "Opzelura and phototherapy",
+          "question_type": "GRID_SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "1 – Significant Decrease",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "2",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "3",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "4 – No Change",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "5",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "6",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "7 – Significant Increase",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Scale from 1 to 7.",
+          "metadata": {
+            "source_table": 22,
+            "source_row": 5
+          }
+        },
+        {
+          "id": "Q19",
+          "variable": null,
+          "title": "Sequencing phototherapy and oral JAK inhibitor",
+          "text": "For your Non-Segmental Vitiligo patients, which of the following best describes how you would sequence phototherapy and an oral JAK inhibitor in the future, once approved? Please select one answer only.",
+          "section": "Opzelura and phototherapy",
+          "question_type": "SINGLE",
+          "required": true,
+          "options": [
+            {
+              "code": "1",
+              "text": "I would start the oral JAK inhibitor at the same time as phototherapy",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I would start an oral JAK inhibitor first and then add phototherapy early in treatment",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I would start an oral JAK first and add phototherapy later only if response is inadequate",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "I would start phototherapy first and plan to add an oral JAK inhibitor early in treatment",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I would start phototherapy first and add an oral JAK inhibitor later only if response is inadequate",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "I would generally not use an oral JAK inhibitor with phototherapy",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I would not use an oral JAK inhibitor for Non-Segmental Vitiligo once approved",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "88",
+              "text": "It would depend on the patient / case specifics",
+              "value": 88,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": "Select one answer only.",
+          "metadata": {
+            "source_table": 23,
+            "source_row": 1
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D1",
+      "variable": null,
+      "title": "Consent to disclosure",
+      "text": "Please indicate whether you consent to us disclosing your name, contact information, and adverse event details to the sponsor in such situations.",
+      "section": "Disclosures & Permissions",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "No",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Select One.",
+      "metadata": {
+        "source_table": 2,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "D2",
+      "variable": null,
+      "title": "Proceed with survey",
+      "text": "Are you happy to proceed with the survey on this basis?",
+      "section": "Disclosures & Permissions",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes, I am willing to proceed and agree to potentially be contacted with follow-up questions",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Yes, I am willing to proceed but do not want to be contacted with follow-up questions",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No, I am not willing to proceed",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "1 CONTINUE; 2 CONTINUE; 3 TERMINATE IMMEDIATELY",
+      "notes": "Select One.",
+      "metadata": {
+        "source_table": 3,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "CON.0",
+      "variable": null,
+      "title": "Consent",
+      "text": "Consent. By selecting “I consent” below, you confirm that you have read and understand the information above and agree to the requirements to participate in this market research study.",
+      "section": "Disclosures & Permissions",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "I consent",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I do not consent",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "2 [TERMINATE IMMEDIATELY]",
+      "notes": "Select one.",
+      "metadata": {
+        "source_table": 4,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q1",
+      "variable": null,
+      "title": "Primary role",
+      "text": "Which of the following best describes your primary role?",
+      "section": "Screener",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Primary Care Doctor / Doctor of Internal Medicine",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Dermatologist",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Allergist",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Immunologist with a Dermatology sub-specialty",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Pediatrician (general or specialty)",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Nurse Practitioner in a Dermatology practice",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Physician Assistant in a Dermatology practice",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "99",
+          "text": "Other (Please specify) __________ [ANCHOR]",
+          "value": 99,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "1 TERMINATE IMMEDIATELY; 2 CONTINUE; 3 TERMINATE IMMEDIATELY; 4 CONTINUE; 7 TERMINATE IMMEDIATELY; 8 CONTINUE; 9 CONTINUE; 99 TERMINATE IMMEDIATELY",
+      "notes": "Randomize options. Select One.",
+      "metadata": {
+        "source_table": 5,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q2",
+      "variable": null,
+      "title": "Primary setting",
+      "text": "Which of the following best describes the primary setting in which you see patients? Please select one answer only.",
+      "section": "Screener",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Private practice – solo",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Private practice – group, single specialty",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Private practice – group, multi-specialty",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "General or community hospital",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Community center",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Academic center",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "University or academic hospital",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "VA / Military Hospital",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "98",
+          "text": "Other (Please specify: ________) [ANCHOR]",
+          "value": 98,
+          "exclusive": false,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "1–5 CONTINUE AND CLASSIFY AS “COMMUNITY”; 6–7 CONTINUE AND CLASSIFY AS “ACADEMIC”; 8 TERMINATE IMMEDIATELY; 98 TERMINATE IMMEDIATELY",
+      "notes": "Randomize options. Select one.",
+      "metadata": {
+        "source_table": 6,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q3_1",
+      "variable": null,
+      "title": "Moderate-to-Severe Atopic Dermatitis",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Moderate-to-Severe Atopic Dermatitis? Please count only unique patients and not patient visits.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q3_2",
+      "variable": null,
+      "title": "Moderate-to-Severe Plaque Psoriasis",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Moderate-to-Severe Plaque Psoriasis? Please count only unique patients and not patient visits.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q3_3",
+      "variable": null,
+      "title": "Acne",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Acne? Please count only unique patients and not patient visits.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q3_4",
+      "variable": null,
+      "title": "Severe Alopecia Areata",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Severe Alopecia Areata? Please count only unique patients and not patient visits.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q3_5",
+      "variable": null,
+      "title": "Moderate-to-Severe Hidradenitis Suppurativa",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Moderate-to-Severe Hidradenitis Suppurativa? Please count only unique patients and not patient visits.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q3_6",
+      "variable": null,
+      "title": "Non-Segmental Vitiligo",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Non-Segmental Vitiligo? Please count only unique patients and not patient visits.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "TERMINATE IMMEDIATELY IF 0",
+      "notes": "Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 7
+      }
+    },
+    {
+      "id": "Q3_98",
+      "variable": null,
+      "title": "Other conditions",
+      "text": "Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for Other conditions? Please specify the condition.",
+      "section": "Screener",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Anchor. Whole number, range 0–999.",
+      "metadata": {
+        "source_table": 7,
+        "source_row": 8
+      }
+    },
+    {
+      "id": "Q4_1",
+      "variable": null,
+      "title": "Topical Steroids",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Topical Steroids? Your answers may sum to greater than 100% if you use multiple treatments in some patients.",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q4_2",
+      "variable": null,
+      "title": "Topical Calcineurin Inhibitors",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Topical Calcineurin Inhibitors (e.g., Tacrolimus ointment)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q4_3",
+      "variable": null,
+      "title": "Topical JAK Inhibitor",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Topical JAK Inhibitor (e.g., Opzelura (ruxolitinib))?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q4_4",
+      "variable": null,
+      "title": "Phototherapy",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Phototherapy (e.g., excimer laser, narrow-band UVB, at-home device)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q4_4>0 CONTINUE, ELSE TERMINATE IMMEDIATELY",
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q4_5",
+      "variable": null,
+      "title": "Systemic therapies",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Systemic therapies (Methotrexate, Immunosuppressants, etc.)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q4_6",
+      "variable": null,
+      "title": "Makeup",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Makeup (e.g., Dermablend)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 7
+      }
+    },
+    {
+      "id": "Q4_7",
+      "variable": null,
+      "title": "Depigmentation / Re-pigmentation",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Depigmentation / Re-pigmentation?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 8
+      }
+    },
+    {
+      "id": "Q4_8",
+      "variable": null,
+      "title": "Skin grafting",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Skin grafting?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 9
+      }
+    },
+    {
+      "id": "Q4_98",
+      "variable": null,
+      "title": "Other treatment",
+      "text": "Typically, what percent of your Non-Segmental Vitiligo patients receive Other treatment? Please specify.",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Anchor. Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 8,
+        "source_row": 10
+      }
+    },
+    {
+      "id": "Q5",
+      "variable": null,
+      "title": "Phototherapy Offering",
+      "text": "Does your practice offer phototherapy?",
+      "section": "Survey",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes, I offer narrow-band UVB in my practice",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Yes, I offer excimer laser in my practice",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Yes, I offer other types of phototherapy in my practice (Please specify: _________)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "No, I do not offer phototherapy in my practice",
+          "value": 4,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Select all that apply. Option 4 is displayed with a single-select control and is logically exclusive.",
+      "metadata": {
+        "source_table": 9,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q6_1",
+      "variable": null,
+      "title": "In-office narrow-band UVB",
+      "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive In-office narrow-band UVB (in your practice or another clinic)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 10,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q6_2",
+      "variable": null,
+      "title": "In-office excimer laser",
+      "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive In-office excimer laser (in your practice or another clinic)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 10,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q6_3",
+      "variable": null,
+      "title": "Prescription at-home phototherapy device",
+      "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive a Prescription at-home phototherapy device (i.e., physician prescribes through a direct-to-patient company such as Phothera or Zerigo)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 10,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q6_4",
+      "variable": null,
+      "title": "At-home phototherapy device without prescription",
+      "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive an At-home phototherapy device that the patient purchases online without prescription?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 10,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q6_98",
+      "variable": null,
+      "title": "Other phototherapy",
+      "text": "Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive Other phototherapy? Please specify.",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Anchor. Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 10,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q7",
+      "variable": null,
+      "title": "Referrals and at-home devices",
+      "text": "Do you ever refer patients to other practices or recommend an at-home device for phototherapy? Please select one answer only.",
+      "section": "Survey",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes, I both refer patients to other practices for phototherapy and recommend at-home devices.",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Yes, I refer patients to other practices for phototherapy, but do not recommend at-home devices.",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Yes, I recommend at-home devices, but do not refer patients to other practices for phototherapy.",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "No, I do not refer patients to other practices for phototherapy and do not recommend at-home devices.",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Select one answer only.",
+      "metadata": {
+        "source_table": 11,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q8_1",
+      "variable": null,
+      "title": "Insurance",
+      "text": "To the best of your knowledge, how are your Non-Segmental Vitiligo patients paying for their phototherapy treatment? For the Insurance (fully or partially covered) payment option, distribute patients across the applicable columns.",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Columns: In-office phototherapy (% of patients); Prescription at-home phototherapy device (% of patients). Show columns conditionally as specified in the source. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 12,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q8_2",
+      "variable": null,
+      "title": "Cash / out-of-pocket",
+      "text": "For the Cash / out-of-pocket (no insurance coverage) payment option, distribute your Non-Segmental Vitiligo patients across the applicable phototherapy columns.",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Columns: In-office phototherapy (% of patients); Prescription at-home phototherapy device (% of patients). Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 12,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q8_3",
+      "variable": null,
+      "title": "I don't know",
+      "text": "For the I don't know payment option, distribute your Non-Segmental Vitiligo patients across the applicable phototherapy columns.",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Columns: In-office phototherapy (% of patients); Prescription at-home phototherapy device (% of patients). Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 12,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q9_1",
+      "variable": null,
+      "title": "Sessions per week",
+      "text": "For In-office phototherapy – narrow-band UVB, In-office phototherapy – excimer laser, Prescription at-home device, and At-home DTC device (non-prescription), what is your most commonly recommended number of Sessions per week for Non-Segmental Vitiligo patients?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four numeric fields, one per treatment column. Whole numbers; range 0–7 sessions. Source table 13, row 2.",
+      "metadata": {
+        "source_table": 13,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q9_2",
+      "variable": null,
+      "title": "Total duration",
+      "text": "For each phototherapy regimen used for your Non-Segmental Vitiligo patients, what is your most commonly recommended Total duration? Enter the total duration in weeks for In-office phototherapy – narrow-band UVB, In-office phototherapy – excimer laser, Prescription at-home device, and At-home DTC device (non-prescription).",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four numeric fields, one per treatment column. Whole numbers; range 0–999 weeks.",
+      "metadata": {
+        "source_table": 13,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q10_1",
+      "variable": null,
+      "title": "Never started",
+      "text": "Approximately what percent of your Non-Segmental Vitiligo patients for whom you have prescribed or recommended phototherapy fall into the category: Never started / decided not to pursue the treatment?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns: In-office in my practice; In-office referred out; Prescription at-home device; At-home DTC device. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 14,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q10_2",
+      "variable": null,
+      "title": "Started but discontinued",
+      "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: Started but discontinued before the recommended duration of therapy?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%. This row controls Q11 display when any value is greater than 0.",
+      "metadata": {
+        "source_table": 14,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q10_3",
+      "variable": null,
+      "title": "Full duration, fewer sessions",
+      "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: Took treatment for the full duration, but fewer sessions per week than prescribed?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 14,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q10_4",
+      "variable": null,
+      "title": "Adherent",
+      "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: Adherent (follows the recommended phototherapy schedule as often as recommended, for the full course)?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 14,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q10_5",
+      "variable": null,
+      "title": "I don’t know",
+      "text": "Approximately what percent of your Non-Segmental Vitiligo patients fall into the category: I don’t know?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "No response field for the In-office (in my practice) column; percentage fields for the other three columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 14,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q11_1",
+      "variable": null,
+      "title": "Within the first month",
+      "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Within the first month?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Show columns conditionally as specified in the source. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 15,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q11_2",
+      "variable": null,
+      "title": "Between 2–6 months",
+      "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Between 2–6 months?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 15,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q11_3",
+      "variable": null,
+      "title": "Between 7 and 9 months",
+      "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Between 7 and 9 months?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 15,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q11_4",
+      "variable": null,
+      "title": "Between 10 and 12 months",
+      "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Between 10 and 12 months?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 15,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q11_5",
+      "variable": null,
+      "title": "Greater than 12 months",
+      "text": "For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy: Greater than 12 months?",
+      "section": "Survey",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Four percentage columns. Column totals must equal 100%.",
+      "metadata": {
+        "source_table": 15,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": null,
+      "title": "Reasons for not following through",
+      "text": "What are the main reasons you believe Non-Segmental Vitiligo patients may not follow through with phototherapy or may stop before completing the recommended course? Please be as specific as you can; you can list multiple reasons.",
+      "section": "Survey",
+      "question_type": "OPEN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_table": 16,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q13_1",
+      "variable": null,
+      "title": "Satisfaction with in-office narrow-band UVB",
+      "text": "Please indicate your agreement: I am satisfied with in-office phototherapy – narrow-band UVB as a treatment option.",
+      "section": "Survey",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Strongly Disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3 – Neither Agree nor Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5 – Strongly Agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "SHOW ROW 1 ONLY IF Q6_1 > 0",
+      "notes": "Scale from 1 to 5.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q13_2",
+      "variable": null,
+      "title": "Satisfaction with excimer laser",
+      "text": "Please indicate your agreement: I am satisfied with in-office phototherapy – excimer laser as a treatment option.",
+      "section": "Survey",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Strongly Disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3 – Neither Agree nor Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5 – Strongly Agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "SHOW ROW 2 ONLY IF Q6_2 > 0",
+      "notes": "Scale from 1 to 5.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q13_3",
+      "variable": null,
+      "title": "Satisfaction with prescription at-home devices",
+      "text": "Please indicate your agreement: I am satisfied with prescription at-home phototherapy devices as a treatment option.",
+      "section": "Survey",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Strongly Disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3 – Neither Agree nor Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5 – Strongly Agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "SHOW ROW 3 ONLY IF Q6_3 > 0",
+      "notes": "Scale from 1 to 5.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q13_4",
+      "variable": null,
+      "title": "Satisfaction with at-home DTC devices",
+      "text": "Please indicate your agreement: I am satisfied with at-home DTC phototherapy devices as a treatment option.",
+      "section": "Survey",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Strongly Disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3 – Neither Agree nor Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5 – Strongly Agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "SHOW ROW 4 ONLY IF Q6_4 > 0",
+      "notes": "Scale from 1 to 5.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q13_5",
+      "variable": null,
+      "title": "Return of patients’ patches",
+      "text": "Please indicate your agreement: I expect the patients’ patches to return after the treatment ends.",
+      "section": "Survey",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Strongly Disagree",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3 – Neither Agree nor Disagree",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5 – Strongly Agree",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Scale from 1 to 5.",
+      "metadata": {
+        "source_table": 17,
+        "source_row": 6
+      }
+    },
+    {
+      "id": "Q14",
+      "variable": null,
+      "title": "Reasons for not offering phototherapy",
+      "text": "Can you explain in your own words the primary reasons you don't offer phototherapy to your Non-Segmental Vitiligo patients? Please be as specific as you can; you can list multiple reasons.",
+      "section": "Survey",
+      "question_type": "OPEN",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "ASK Q14 ONLY FOR THOSE WHO TERMINATE AT Q4",
+      "notes": null,
+      "metadata": {
+        "source_table": 18,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q15",
+      "variable": null,
+      "title": "Barriers to phototherapy",
+      "text": "What are the primary barriers to your Non-Segmental Vitiligo patients receiving and continuing phototherapy treatment?",
+      "section": "Survey",
+      "question_type": "MULTI",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "My practice does not offer phototherapy in-office",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Limited availability of phototherapy providers/centers near patients",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Travel burden to get to phototherapy appointments",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Time commitment / scheduling demands (e.g., multiple sessions per week)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Cost to patient (e.g., co-pays, out-of-pocket costs)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Insurance authorization / reimbursement challenges",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Patients do not follow through on referrals to outside phototherapy providers",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Patients do not perceive enough benefit from phototherapy to justify continuing treatment",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Patients perceive phototherapy as inconvenient relative to other treatment options",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Patients prefer pharmacologic-only treatment (e.g., topicals, systemics)",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Concerns about long-term safety of phototherapy (e.g., UV exposure)",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "98",
+          "text": "Other (Please specify: _________) [ANCHOR]",
+          "value": 98,
+          "exclusive": false,
+          "anchor": true
+        },
+        {
+          "code": "99",
+          "text": "No significant barriers [EXCLUSIVE, ANCHOR TO BOTTOM]",
+          "value": 99,
+          "exclusive": true,
+          "anchor": true
+        }
+      ],
+      "validation_rules": [],
+      "routing": "TERMINATE IF Q1_8=1 OR Q1_9=1 AND Q4_4=0. ONLY ALLOW COMPLETES FOR Q4_4=0 IF Q1_2=1 OR Q1_4=1",
+      "notes": "Select all that apply. Option 99 is exclusive and anchored to bottom.",
+      "metadata": {
+        "source_table": 19,
+        "source_row": 1
+      }
+    },
+    {
+      "id": "Q16_1",
+      "variable": null,
+      "title": "In-office narrow-band UVB and Opzelura",
+      "text": "For your Non-Segmental Vitiligo patients currently using In-office phototherapy – narrow-band UVB, what percentage are also prescribed Opzelura (ruxolitinib)?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "SHOW ROW 1 ONLY IF Q6_1 > 0",
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 20,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q16_2",
+      "variable": null,
+      "title": "In-office excimer laser and Opzelura",
+      "text": "For your Non-Segmental Vitiligo patients currently using In-office phototherapy – excimer laser, what percentage are also prescribed Opzelura (ruxolitinib)?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "SHOW ROW 2 ONLY IF Q6_2 > 0",
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 20,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q16_3",
+      "variable": null,
+      "title": "Prescription at-home device and Opzelura",
+      "text": "For your Non-Segmental Vitiligo patients currently using a Prescription at-home device, what percentage are also prescribed Opzelura (ruxolitinib)?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "SHOW ROW 3 ONLY IF Q6_3 > 0",
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 20,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q16_4",
+      "variable": null,
+      "title": "At-home DTC device and Opzelura",
+      "text": "For your Non-Segmental Vitiligo patients currently using an At-home DTC device (non-prescription), what percentage are also prescribed Opzelura (ruxolitinib)?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": "SHOW ROW 4 ONLY IF Q6_4 > 0",
+      "notes": "Whole number percentage, 0–100.",
+      "metadata": {
+        "source_table": 20,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q17",
+      "variable": null,
+      "title": "Phototherapy before and after Opzelura approval",
+      "text": "Thinking about your Non-Segmental Vitiligo patients, approximately what percent were prescribed any form of phototherapy (in-office or at-home) in the 12 months prior to Opzelura (ruxolitinib)’s FDA approval? How does that compare to the past 12 months? Phototherapy includes in-office narrow-band UVB, excimer laser, and at-home phototherapy devices.",
+      "section": "Opzelura and phototherapy",
+      "question_type": "NUMERIC",
+      "required": true,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Two percentage fields: % prescribed phototherapy before Opzelura’s FDA approval; % prescribed phototherapy after Opzelura’s FDA approval. Range 0–100.",
+      "metadata": {
+        "source_table": 21,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q18_1",
+      "variable": null,
+      "title": "Expected change in narrow-band UVB use",
+      "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of In-office phototherapy – narrow-band UVB to change?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Significant Decrease",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4 – No Change",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "7 – Significant Increase",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Scale from 1 to 7.",
+      "metadata": {
+        "source_table": 22,
+        "source_row": 2
+      }
+    },
+    {
+      "id": "Q18_2",
+      "variable": null,
+      "title": "Expected change in excimer laser use",
+      "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of In-office phototherapy – excimer laser to change?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Significant Decrease",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4 – No Change",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "7 – Significant Increase",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Scale from 1 to 7.",
+      "metadata": {
+        "source_table": 22,
+        "source_row": 3
+      }
+    },
+    {
+      "id": "Q18_3",
+      "variable": null,
+      "title": "Expected change in prescription at-home device use",
+      "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of Prescription at-home phototherapy devices to change?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Significant Decrease",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4 – No Change",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "7 – Significant Increase",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Scale from 1 to 7.",
+      "metadata": {
+        "source_table": 22,
+        "source_row": 4
+      }
+    },
+    {
+      "id": "Q18_4",
+      "variable": null,
+      "title": "Expected change in at-home DTC device use",
+      "text": "As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of At-home DTC phototherapy devices (non-prescription) to change?",
+      "section": "Opzelura and phototherapy",
+      "question_type": "GRID_SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "1 – Significant Decrease",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "2",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "3",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "4 – No Change",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "5",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "6",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "7 – Significant Increase",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Scale from 1 to 7.",
+      "metadata": {
+        "source_table": 22,
+        "source_row": 5
+      }
+    },
+    {
+      "id": "Q19",
+      "variable": null,
+      "title": "Sequencing phototherapy and oral JAK inhibitor",
+      "text": "For your Non-Segmental Vitiligo patients, which of the following best describes how you would sequence phototherapy and an oral JAK inhibitor in the future, once approved? Please select one answer only.",
+      "section": "Opzelura and phototherapy",
+      "question_type": "SINGLE",
+      "required": true,
+      "options": [
+        {
+          "code": "1",
+          "text": "I would start the oral JAK inhibitor at the same time as phototherapy",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I would start an oral JAK inhibitor first and then add phototherapy early in treatment",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I would start an oral JAK first and add phototherapy later only if response is inadequate",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "I would start phototherapy first and plan to add an oral JAK inhibitor early in treatment",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I would start phototherapy first and add an oral JAK inhibitor later only if response is inadequate",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "I would generally not use an oral JAK inhibitor with phototherapy",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I would not use an oral JAK inhibitor for Non-Segmental Vitiligo once approved",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "88",
+          "text": "It would depend on the patient / case specifics",
+          "value": 88,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": "Select one answer only.",
+      "metadata": {
+        "source_table": 23,
+        "source_row": 1
+      }
+    }
+  ],
+  "parser": "openai_document_extractor",
+  "parser_version": null,
+  "source_file": "(V2_R99525) RINVOQ Derm ZIP_Vitiligo Phototherapy Use Survey_v5.0 (002).docx",
+  "source_format": "docx",
+  "source_text": "RINVOQ Derm ZIP\nVitiligo Phototherapy Usage\nPrepared for AbbVie\nLast Updated: June 10th, 2026\nZS | +1 847 492 3600 | www.zs.com\nSample Plan\nN=~80 Dermatologists or Derm NP/PAs\nMaximum 20 NP/PAs\nMaximum Honoraria Assumptions\nWe will adhere to the following maximum honoraria assumptions in this physician research:\nDerms: $61.20 (assumes survey length of 10 mins)\nNP/PAs: $52.70 (assumes survey length of 10 mins)\nProgramming Instructions\nThere are several elements in this document that should not be shown on-line\nDo not show grey highlighted text on-line, these are programming instructions\nDo not show section headers, question numbers or response labels, as these are for internal use only\nAll columns or rows with “Total” should auto sum while the respondent enters data\nRespondents must answer each question before continuing unless otherwise noted\nInsert page breaks between all questions unless otherwise noted\nKeep “Other,” “I don’t know,” “None of the above” and “None” always last in lists in the order in which they appear for the question\nKeep the numbering as consistent with the questionnaire as possible so that the data export will show the same numbering as in this document\nUnless specified, ensure respondent can only enter positive values in numeric fields\nCode “Yes” = 1 and “No” = 2 unless otherwise specified\nAssign respective numbers provided to response codes for scales unless otherwise specified\nAssume the following logic applies based on the symbol used within the question unless otherwise specified:\nO\nAllow only one selection. Selected = 1, not selected = 0.\n□\nSelect all that apply. Selected = 1, not selected = 0.\n##\nNumeric, whole number between 0 - 999,999 required. Do not accept range.\n##%\nWhole number percentage between 0 - 100 required. Do not accept range.\n▼\nDrop-down option.\nAll screener questions must be answered directly by the respondent. Responses answered by a receptionist/nurse are not acceptable.\nSample should ensure diversity across geographic locations.\nDisclosures & Permissions\nGeneral Disclosures. Thank you for taking the time to complete this study today. We are conducting a market research study to understand your opinions about Non-Segmental Vitiligo (VIT). This study should take approximately 10 minutes to complete. Please answer all of the questions to the best of your ability.\nZS, the firm conducting this research, is an independent market research agency and consultancy. The research is sponsored by a pharmaceutical company. ZS complies with all laws that protect your personal information and the following market research codes of conduct: EphMRA, Insights Association, BHBIA, and ICC/ESOMAR.\nCompensation for participation in the study will be consistent with what was communicated in your invite email. This compensation is not intended to reward you for use of any products which may be mentioned in the study or induce you to use any such products, but rather to understand your views.\nTaking part is completely voluntary and you can withdraw at any time and without giving a reason.\nAdverse Events. We are required to pass on to the sponsor the details of any adverse events (including actual and potential adverse events or product complaints, etc.) that are included in your survey responses. Should you include an adverse event in a specific patient in your responses, we will need to report the adverse event even if you have already reported it directly to the company or the regulatory authorities. Your anonymity will be protected.\nThe sponsor may wish to request further information from you. This will have no impact on the anonymity associated with the research itself.\nD1. Please indicate whether you consent to us disclosing your name, contact information, and adverse event details to the sponsor in such situations.\nResponse\nSelect One\n[A]\n1\nYes\nO\n2\nNo\nO\n[PAGE BREAK]\nThis research has been commissioned by a company that manufactures medicines/medical devices (the “Company”).  It is a legal requirement that the Company keep records of any adverse events (side effects) or complaints about the product itself or packaging, that people may have about their medicines/medical devices.\nWhat you say will be treated with utmost confidence.  However, if during the interview you mention an adverse event, we will need to let the Company know about it, even if it has already been reported by you to the Company or regulatory authorities.\nThe Company may have follow-up questions connected to an adverse event that is reported - strictly for legal or regulatory reporting purposes.  This may include more details about your experience with their medicines/medical devices, exact dates that events took place, etc.  If not already collected, we may ask for your contact information so the Company can follow-up with you directly.  The Company will process any personal data relating to you solely to help meet its legal and regulatory obligations related to adverse events and safety reporting and not for any other purpose.\nD2. Are you happy to proceed with the survey on this basis?\nResponse\nSelect One\n[A]\nScreener\n[N/A]\n1\nYes, I am willing to proceed and agree to potentially be contacted with follow-up questions\nO\nCONTINUE\n2\nYes, I am willing to proceed but do not want to be contacted with follow-up questions\nO\nCONTINUE\n3\nNo, I am not willing to proceed\nO\nTERMINATE IMMEDIATELY\n[PAGE BREAK]\nData Protection. We need your consent for us to collect and use any information about you or your patients, which may include your name, your contact information, your professional background and qualifications, your patients’ non-identifiable health information, and your opinions. We will only collect or process data that is necessary to conduct the study, and not all aforementioned categories will be applicable to all studies. To the extent data about you is collected or processed in conjunction with the market research study, it may be transferred to third parties assisting with the study, such as a survey programmer, and will also be stored in the United States. In such cases, the necessary measures will be taken to ensure the safety of your data in accordance with applicable data protection laws. You can find out more about ZS’s privacy practices around processing and transferring data by reading the ZS Privacy Policy, which is available at https://www.zs.com/Privacy-Policy.aspx.\nUnder applicable data protection laws, you have a right to access your personal data and to request the rectification of any errors and may also have the right to restrict the processing or request the erasure or anonymization of your personal data. Your personal data will be stored only for as long as necessary for the purposes of the market research. Should you wish to exercise any of these rights or have any queries in relation to the use of your personal data, please contact ZS at dataprivacy@zs.com.\nArtificial Intelligence: The output of this study will be used for market research purposes and may be analyzed by internally-developed or licensed artificial intelligence solutions. The study data will remain anonymous and cannot be attributed to you or enable your re-identification.\nPermission to be Re-Contacted. ZS may need to re-contact you if, following the survey, we need clarification on any responses.\nCON.0 Consent. By selecting “I consent” below, you confirm that you have read and understand the information above and agree to the requirements to participate in this market research study.\nResponse\nSelect one\nLogic\n1\nI consent\nO\n2\nI do not consent\nO\n[TERMINATE IMMEDIATELY]\nSurvey\nQ1. Which of the following best describes your primary role?\nSpecialty\nRANDOMIZE\nSelect One\nScreener\n1\nPrimary Care Doctor / Doctor of Internal Medicine\nO\nTERMINATE IMMEDIATELY\n2\nDermatologist\nO\nCONTINUE\n3\nAllergist\nO\nTERMINATE IMMEDIATELY\n4\nImmunologist with a Dermatology sub-specialty\nO\nCONTINUE\n7\nPediatrician (general or specialty)\nO\nTERMINATE IMMEDIATELY\n8\nNurse Practitioner in a Dermatology practice\nO\nCONTINUE\n9\nPhysician Assistant in a Dermatology practice\nO\nCONTINUE\n99\nOther (Please specify) __________ [ANCHOR]\nO\nTERMINATE IMMEDIATELY\n[PAGE BREAK]\nQ2. Which of the following best describes the primary setting in which you see patients?\nPlease select one answer only.\nPrimary Setting\n[RANDOMIZE]\nSelect one\n[A]\nScreener\n[N/A]\n1\nPrivate practice – solo\nO\nCONTINUE AND CLASSIFY AS “COMMUNITY”\n2\nPrivate practice – group, single specialty\nO\n3\nPrivate practice – group, multi-specialty\nO\n4\nGeneral or community hospital\nO\n5\nCommunity center\nO\n6\nAcademic center\nO\nCONTINUE AND CLASSIFY AS “ACADEMIC”\n7\nUniversity or academic hospital\nO\n8\nVA / Military Hospital\nO\nTERMINATE IMMEDIATELY\n98\nOther (Please specify: ________) [ANCHOR]\nO\nTERMINATE IMMEDIATELY\n[PAGE BREAK]\nQ3. Approximately how many adult or adolescent (aged 12+) patients do you personally see in a typical month for the following conditions?\nPlease count only unique patients and not patient visits. If a patient has more than one of the below conditions, please count them for each condition.\n[RANGE 0-999 FOR EACH ROW]\nCondition\n[RANDOMIZE]\n# of unique (aged 12+) patients in typical month\nScreener\n1\nModerate-to-Severe Atopic Dermatitis\n_____\n2\nModerate-to-Severe Plaque Psoriasis\n_____\n3\nAcne\n_____\n4\nSevere Alopecia Areata\n_____\n5\nModerate-to-Severe Hidradenitis Suppurativa\n_____\n6\nNon-Segmental Vitiligo\n_____\nTERMINATE IMMEDIATELY IF 0\n98\nOther conditions [ANCHOR]\n_____\nTOTAL\n[AUTOSUM]\n[PAGE BREAK]\nQ4. Typically, what percent of your Non-Segmental Vitiligo patients receive the following treatments?\nYour answers may sum to greater than 100% if you use multiple treatments in some patients.\nTreatment\n[RANDOMIZE]\n% of patients\n[A]\n1\nTopical Steroids\n_____%\n2\nTopical Calcineurin Inhibitors (e.g., Tacrolimus ointment)\n_____%\n3\nTopical JAK Inhibitor (e.g., Opzelura (ruxolitinib))\n_____%\n4\nPhototherapy (e.g., excimer laser, narrow-band UVB, at-home device)\n_____%\n5\nSystemic therapies (Methotrexate, Immunosuppressants, etc.)\n_____%\n6\nMakeup (e.g., Dermablend)\n_____%\n7\nDepigmentation / Re-pigmentation\n_____%\n8\nSkin grafting\n_____%\n98\nOther (Please specify: _________) [ANCHOR]\n_____%\n[TOTAL SUM >= 100%]\n[Q4_4>0 CONTINUE, ELSE TERMINATE IMMEDIATELY]\n[FOR RESPONDENTS WHO TERMINATE HERE, WE CAN ALLOW UP TO 10 DERMS (Q1_2=1 OR Q1_4=1) TO COMPLETE Q14 AND Q15; ALL OTHER QUESTIONS WILL BE SKIPPED]\nQ5. Does your practice offer phototherapy?\nSelect all that apply.\nPhototherapy Offering\nSelect All\n1\nYes, I offer narrow-band UVB in my practice\n□\n2\nYes, I offer excimer laser in my practice\n□\n3\nYes, I offer other types of phototherapy in my practice (Please specify: _________)\n□\n4\nNo, I do not offer phototherapy in my practice\nO\n[PAGE BREAK]\n[PAGE BREAK]\nQ6. Among your Non-Segmental Vitiligo patients who receive phototherapy, what percentage receive each of the following phototherapy treatments?\nYour answers may sum to greater than 100% if you use multiple treatments in some patients.\nTreatment\n[RANDOMIZE]\n% of patients\n[A]\n1\nIn-office narrow-band UVB (in your practice or another clinic)\n_____%\n2\nIn-office excimer laser (in your practice or another clinic)\n_____%\n3\nPrescription at-home phototherapy device (i.e., physician prescribes through a direct-to-patient company such as Phothera or Zerigo)\n_____%\n4\nAt-home phototherapy device that patient purchases online without prescription\n_____%\n98\nOther (Please specify: _________) [ANCHOR]\n_____%\n[TOTAL SUM >= 100%]\n[Q6_1 OR Q6_2 OR Q6_3 >0 CONTINUE, ELSE TERMINATE]\n_________ SCREENER END_________\n[PAGE BREAK]\nWe’re now going to ask you a few questions about phototherapy usage for your Non-Segmental Vitiligo patients.\n[PAGE BREAK]\nQ7. Do you ever refer patients to other practices or recommend an at-home device for phototherapy?\nPlease select one answer only.\nPhototherapy Offering\nSelect One\n1\nYes, I both refer patients to other practices for phototherapy and recommend at-home devices.\nO\n2\nYes, I refer patients to other practices for phototherapy, but do not recommend at-home devices.\nO\n3\nYes, I recommend at-home devices, but do not refer patients to other practices for phototherapy.\nO\n4\nNo, I do not refer patients to other practices for phototherapy and do not recommend at-home devices.\nO\n[PAGE BREAK]\nQ8. To the best of your knowledge, how are your Non-Segmental Vitiligo patients paying for their phototherapy treatment?\nFor each column below, please distribute your patients across the following payment options. Your answers must sum to 100%.\n[SHOW \"In-office phototherapy” COLUMN ONLY IF Q5=1,2, OR 3]\n[SHOW \" Prescription at-home phototherapy device\" COLUMN ONLY IF Q6_3 > 0]\nPayment Method\nIn-office phototherapy (% of patients)\nPrescription at-home phototherapy device (% of patients)\n1\nInsurance (fully or partially covered)\n_____%\n_____%\n2\nCash / out-of-pocket (no insurance coverage)\n_____%\n_____%\n3\nI don't know\n_____%\n_____%\nTotal\n[SUM = 100%]\n[SUM = 100%]\n[PAGE BREAK]\nQ9. For each phototherapy regimen below used for your Non-Segmental Vitiligo patients, what is your most commonly recommended treatment schedule?\nFor each treatment regimen, please enter whole numbers for sessions completed per week and total duration completed in weeks.\n[SHOW COLUMN A ONLY IF Q6_1 > 0]\n[SHOW COLUMN B ONLY IF Q6_2 > 0]\n[SHOW COLUMN C ONLY IF Q6_3 > 0]\n[SHOW COLUMN D ONLY IF Q6_4 > 0]\n[ALLOW RANGE OF 0-7 FOR SESSIONS, and 0-999 FOR WEEKS]\nMeasurement\nIn-office phototherapy – narrow-band UVB [A]\nIn-office phototherapy – excimer laser [B]\nPrescription at-home device[C]\nAt-home DTC device (non-prescription) [D]\n1\nSessions per week\n_____ sessions\n_____ sessions\n_____ sessions\n_____ sessions\n2\nTotal duration\n_____ weeks\n_____ weeks\n_____ weeks\n_____ weeks\n[PAGE BREAK]\nQ10.  Approximately what percent of your Non-Segmental Vitiligo patients for whom you have prescribed or recommended phototherapy (in-office or at-home) fall into each of the following categories?\nYour answers within each column must sum to 100%.\n[SHOW \"In-office (in my practice)\" COLUMN ONLY IF Q5=1,2, OR 3]\n[SHOW \"In-office (referred out)\" COLUMN ONLY IF Q7=1 OR 2]\n[SHOW \"Prescription at-home device\" COLUMN ONLY IF Q6_3 > 0]\n[SHOW \"At-home DTC device\" COLUMN ONLY IF Q6_4 > 0]\nAdherence Level\nIn-office (in my practice) % of patients\nIn-office (referred out) % of patients\nPrescription at-home device % of patients\nAt-home DTC device % of patients (non-prescription)\n1\nNever started / decided not to pursue the treatment\n_____%\n_____%\n_____%\n_____%\n2\nStarted but discontinued before the recommended duration of therapy\n_____%\n_____%\n_____%\n_____%\n3\nTook treatment for the full duration, but fewer sessions per week than prescribed\n_____%\n_____%\n_____%\n_____%\n4\nAdherent (follows the recommended phototherapy schedule as often as recommended, for the full course)\n_____%\n_____%\n_____%\n_____%\n5\nI don’t know\n-\n_____%\n_____%\n_____%\nTotal\n[SUM = 100%]\n[SUM = 100%]\n[SUM = 100%]\n[SUM = 100%]\n[PAGE BREAK]\n[IF ANY Q10_2 in ANY COLUMN > 0]\nQ11. For your patients who do not complete the full duration of phototherapy treatment recommended, what is the typical distribution of when they stop therapy?\nPlease distribute your patients across the following time periods. Your answers must sum to 100%.\n[SHOW \"In-office (in my practice)\" COLUMN ONLY IF Q5=1,2, OR 3]\n[SHOW \"In-office (referred out)\" COLUMN ONLY IF Q7=1 OR 2]\n[SHOW \"Prescription at-home device\" COLUMN ONLY IF Q6_3 > 0]\n[SHOW \"At-home DTC device\" COLUMN ONLY IF Q6_4 > 0]\nTime Patients Stop Therapy\nIn-office (in my practice) % of patients\nIn-office (referred out) % of patients\nPrescription at-home device % of patients\nAt-home DTC device % of patients (non-prescription)\n1\nWithin the first month\n_____%\n_____%\n_____%\n_____%\n2\nBetween 2–6 months\n_____%\n_____%\n_____%\n_____%\n3\nBetween 7 and 9 months\n_____%\n_____%\n_____%\n_____%\n4\nBetween 10 and 12 months\n_____%\n_____%\n_____%\n_____%\n5\nGreater than 12 months\n_____%\n_____%\n_____%\n_____%\nTotal\n[SUM = 100%]\n[SUM = 100%]\n[SUM = 100%]\n[SUM = 100%]\n[PAGE BREAK]\nQ12. What are the main reasons you believe Non-Segmental Vitiligo patients may not follow through with phototherapy or may stop before completing the recommended course?\nPlease be as specific as you can; you can list multiple reasons.\n___________\n[PAGE BREAK]\nQ13. Please indicate your agreement with the following statements regarding phototherapy options as a treatment for Non-Segmental Vitiligo.\nPlease select your response on a scale from 1 to 5, where 1= \"Strongly disagree,\" 3= \"Neither agree nor disagree,\" and 5 = \"Strongly agree.\"\n[SHOW ROW 1 ONLY IF Q6_1 > 0]\n[SHOW ROW 2 ONLY IF Q6_2 > 0]\n[SHOW ROW 3 ONLY IF Q6_3 > 0]\n[SHOW ROW 4 ONLY IF Q6_4 > 0]\nStatement\n[RANDOMIZE]\n1 – Strongly Disagree\n2\n3 – Neither Agree nor Disagree\n4\n5 – Strongly Agree\n1\nI am satisfied with in-office phototherapy – narrow-band UVB as a treatment option\nO\nO\nO\nO\nO\n2\nI am satisfied with in-office phototherapy – excimer laser as a treatment option\nO\nO\nO\nO\nO\n3\nI am satisfied with prescription at-home phototherapy devices as a treatment option\nO\nO\nO\nO\nO\n4\nI am satisfied with at-home DTC phototherapy devices as a treatment option\nO\nO\nO\nO\nO\n5\nI expect the patients’ patches to return after the treatment ends\nO\nO\nO\nO\nO\n[PAGE BREAK]\n[ASK Q14 ONLY FOR THOSE WHO TERMINATE AT Q4]\nQ14. Can you explain in your own words the primary reasons you don't offer phototherapy to your Non-Segmental Vitiligo patients?\nPlease be as specific as you can; you can list multiple reasons.\n___________\n[PAGE BREAK]\n[ASK Q15 TO ALL, INCLUDING THOSE WHO TERMINATE AT Q4]\nQ15. What are the primary barriers to your Non-Segmental Vitiligo patients receiving and continuing phototherapy treatment?\nSelect all that apply.\nBarrier\n[RANDOMIZE]\nSelect all that apply\n1\nMy practice does not offer phototherapy in-office\n□\n2\nLimited availability of phototherapy providers/centers near patients\n□\n3\nTravel burden to get to phototherapy appointments\n□\n4\nTime commitment / scheduling demands (e.g., multiple sessions per week)\n□\n5\nCost to patient (e.g., co-pays, out-of-pocket costs)\n□\n6\nInsurance authorization / reimbursement challenges\n□\n7\nPatients do not follow through on referrals to outside phototherapy providers\n□\n8\nPatients do not perceive enough benefit from phototherapy to justify continuing treatment\n□\n9\nPatients perceive phototherapy as inconvenient relative to other treatment options\n□\n10\nPatients prefer pharmacologic-only treatment (e.g., topicals, systemics)\n□\n11\nConcerns about long-term safety of phototherapy (e.g., UV exposure)\n□\n98\nOther (Please specify: _________) [ANCHOR]\n□\n99\nNo significant barriers [EXCLUSIVE, ANCHOR TO BOTTOM]\nO\n[TERMINATE IF Q1_8=1 OR Q1_9=1 AND Q4_4=0. ONLY ALLOW COMPLETES FOR Q4_4=0 IF Q1_2=1 OR Q1_4=1]\n[PAGE BREAK]\nWe’re now going to ask you a few questions about how Opzelura (ruxolitinib) has impacted phototherapy usage for your Non-Segmental Vitiligo patients.\n[PAGE BREAK]\nQ16. For your Non-Segmental Vitiligo patients currently using the following phototherapy methods, what percentage are also prescribed Opzelura (ruxolitinib)?\n[RANGE 0-100]\n[SHOW ROW 1 ONLY IF Q6_1 > 0]\n[SHOW ROW 2 ONLY IF Q6_2 > 0]\n[SHOW ROW 3 ONLY IF Q6_3 > 0]\n[SHOW ROW 4 ONLY IF Q6_4 > 0]\nPlease enter a whole number between 0-100 in each row below.\nPhototherapy Method\n% of patients also prescribed Opzelura  [A]\n1\nIn-office phototherapy – narrow-band UVB\n_____ %\n2\nIn-office phototherapy – excimer laser\n_____ %\n3\nPrescription at-home device\n_____ %\n4\nAt-home DTC device (non-prescription)\n_____ %\n[PAGE BREAK]\nQ17. Thinking about your Non-Segmental Vitiligo patients, approximately what percent were prescribed any form of phototherapy (in-office or at-home) in the 12 months prior to Opzelura (ruxolitinib)’s FDA approval? How does that compare to the past 12 months?\nPhototherapy includes in-office narrow-band UVB, excimer laser, and at-home phototherapy devices.\n[ALLOW FOR RANGE OF 0-100]\nPopulation\n% prescribed phototherapy before Opzelura’s FDA approval\n% prescribed phototherapy after Opzelura’s FDA approval\n1\nNon-Segmental Vitiligo Patients\n_____%\n_____%\n[PAGE BREAK]\nQ18. As additional targeted therapies (e.g., oral JAK inhibitors or other novel agents) become available for Non-Segmental Vitiligo, how do you expect your use of the following forms of phototherapy to change?\nPlease select your response on a scale from 1 to 7, where 1= \"Significant decrease,\" 4= \"No change,\" and 7 = \"Significant increase.\"\nPhototherapy Option\n[RANDOMIZE]\n1 – Significant Decrease\n2\n3\n4 – No Change\n5\n6\n7 – Significant Increase\n1\nIn-office phototherapy – narrow-band UVB\nO\nO\nO\nO\nO\nO\nO\n2\nIn-office phototherapy – excimer laser\nO\nO\nO\nO\nO\nO\nO\n3\nPrescription at-home phototherapy devices\nO\nO\nO\nO\nO\nO\nO\n4\nAt-home DTC phototherapy devices (non-prescription)\nO\nO\nO\nO\nO\nO\nO\n[PAGE BREAK]\nQ19. For your Non-Segmental Vitiligo patients, which of the following best describes how you would sequence phototherapy and an oral JAK inhibitor in the future, once approved?\nPlease select one answer only.\nUse of Oral JAK Inhibitors with Phototherapy\nSelect One\n1\nI would start the oral JAK inhibitor at the same time as phototherapy\nO\n2\nI would start an oral JAK inhibitor first and then add phototherapy early in treatment\nO\n3\nI would start an oral JAK first and add phototherapy later only if response is inadequate\nO\n4\nI would start phototherapy first and plan to add an oral JAK inhibitor early in treatment\nO\n5\nI would start phototherapy first and add an oral JAK inhibitor later only if response is inadequate\nO\n6\nI would generally not use an oral JAK inhibitor with phototherapy\nO\n7\nI would not use an oral JAK inhibitor for Non-Segmental Vitiligo once approved\nO\n88\nIt would depend on the patient / case specifics\nO\n[PAGE BREAK]\nThank you for your participation in this survey.\nO | Allow only one selection. Selected = 1, not selected = 0.\n□ | Select all that apply. Selected = 1, not selected = 0.\n## | Numeric, whole number between 0 - 999,999 required. Do not accept range.\n##% | Whole number percentage between 0 - 100 required. Do not accept range.\n▼ | Drop-down option.\n | Response | Select One [A]\n1 | Yes | O\n2 | No | O\n | Response | Select One [A] | Screener [N/A]\n1 | Yes, I am willing to proceed and agree to potentially be contacted with follow-up questions | O | CONTINUE\n2 | Yes, I am willing to proceed but do not want to be contacted with follow-up questions | O | CONTINUE\n3 | No, I am not willing to proceed | O | TERMINATE IMMEDIATELY\n | Response | Select one | Logic\n1 | I consent | O | \n2 | I do not consent | O | [TERMINATE IMMEDIATELY]\n | Specialty RANDOMIZE | Select One | Screener\n1 | Primary Care Doctor / Doctor of Internal Medicine | O | TERMINATE IMMEDIATELY\n2 | Dermatologist | O | CONTINUE\n3 | Allergist | O | TERMINATE IMMEDIATELY\n4 | Immunologist with a Dermatology sub-specialty | O | CONTINUE\n7 | Pediatrician (general or specialty) | O | TERMINATE IMMEDIATELY\n8 | Nurse Practitioner in a Dermatology practice | O | CONTINUE\n9 | Physician Assistant in a Dermatology practice | O | CONTINUE\n99 | Other (Please specify) __________ [ANCHOR] | O | TERMINATE IMMEDIATELY\n | Primary Setting [RANDOMIZE] | Select one [A] | Screener [N/A]\n1 | Private practice – solo | O | CONTINUE AND CLASSIFY AS “COMMUNITY”\n2 | Private practice – group, single specialty | O | CONTINUE AND CLASSIFY AS “COMMUNITY”\n3 | Private practice – group, multi-specialty | O | CONTINUE AND CLASSIFY AS “COMMUNITY”\n4 | General or community hospital | O | CONTINUE AND CLASSIFY AS “COMMUNITY”\n5 | Community center | O | CONTINUE AND CLASSIFY AS “COMMUNITY”\n6 | Academic center | O | CONTINUE AND CLASSIFY AS “ACADEMIC”\n7 | University or academic hospital | O | CONTINUE AND CLASSIFY AS “ACADEMIC”\n8 | VA / Military Hospital | O | TERMINATE IMMEDIATELY\n98 | Other (Please specify: ________) [ANCHOR] | O | TERMINATE IMMEDIATELY\n | Condition [RANDOMIZE] | # of unique (aged 12+) patients in typical month | Screener\n1 | Moderate-to-Severe Atopic Dermatitis | _____ | \n2 | Moderate-to-Severe Plaque Psoriasis | _____ | \n3 | Acne | _____ | \n4 | Severe Alopecia Areata | _____ | \n5 | Moderate-to-Severe Hidradenitis Suppurativa | _____ | \n6 | Non-Segmental Vitiligo | _____ | TERMINATE IMMEDIATELY IF 0\n98 | Other conditions [ANCHOR] | _____ | \n | TOTAL | [AUTOSUM] | \n | Treatment [RANDOMIZE] | % of patients [A]\n1 | Topical Steroids | _____%\n2 | Topical Calcineurin Inhibitors (e.g., Tacrolimus ointment) | _____%\n3 | Topical JAK Inhibitor (e.g., Opzelura (ruxolitinib)) | _____%\n4 | Phototherapy (e.g., excimer laser, narrow-band UVB, at-home device) | _____%\n5 | Systemic therapies (Methotrexate, Immunosuppressants, etc.) | _____%\n6 | Makeup (e.g., Dermablend) | _____%\n7 | Depigmentation / Re-pigmentation | _____%\n8 | Skin grafting | _____%\n98 | Other (Please specify: _________) [ANCHOR] | _____%\n |  | [TOTAL SUM >= 100%]\n | Phototherapy Offering | Select All\n1 | Yes, I offer narrow-band UVB in my practice | □\n2 | Yes, I offer excimer laser in my practice | □\n3 | Yes, I offer other types of phototherapy in my practice (Please specify: _________) | □\n4 | No, I do not offer phototherapy in my practice | O\n | Treatment [RANDOMIZE] | % of patients [A]\n1 | In-office narrow-band UVB (in your practice or another clinic) | _____%\n2 | In-office excimer laser (in your practice or another clinic) | _____%\n3 | Prescription at-home phototherapy device (i.e., physician prescribes through a direct-to-patient company such as Phothera or Zerigo) | _____%\n4 | At-home phototherapy device that patient purchases online without prescription | _____%\n98 | Other (Please specify: _________) [ANCHOR] | _____%\n |  | [TOTAL SUM >= 100%]\n | Phototherapy Offering | Select One\n1 | Yes, I both refer patients to other practices for phototherapy and recommend at-home devices. | O\n2 | Yes, I refer patients to other practices for phototherapy, but do not recommend at-home devices. | O\n3 | Yes, I recommend at-home devices, but do not refer patients to other practices for phototherapy. | O\n4 | No, I do not refer patients to other practices for phototherapy and do not recommend at-home devices. | O\n | Payment Method | In-office phototherapy (% of patients) | Prescription at-home phototherapy device (% of patients)\n1 | Insurance (fully or partially covered) | _____% | _____%\n2 | Cash / out-of-pocket (no insurance coverage) | _____% | _____%\n3 | I don't know | _____% | _____%\nTotal | Total | [SUM = 100%] | [SUM = 100%]\n | Measurement | In-office phototherapy – narrow-band UVB [A] | In-office phototherapy – excimer laser [B] | Prescription at-home device [C] | At-home DTC device (non-prescription) [D]\n1 | Sessions per week | _____ sessions | _____ sessions | _____ sessions | _____ sessions\n2 | Total duration | _____ weeks | _____ weeks | _____ weeks | _____ weeks\n | Adherence Level | In-office (in my practice) % of patients | In-office (referred out) % of patients | Prescription at-home device % of patients | At-home DTC device % of patients (non-prescription)\n1 | Never started / decided not to pursue the treatment | _____% | _____% | _____% | _____%\n2 | Started but discontinued before the recommended duration of therapy | _____% | _____% | _____% | _____%\n3 | Took treatment for the full duration, but fewer sessions per week than prescribed | _____% | _____% | _____% | _____%\n4 | Adherent (follows the recommended phototherapy schedule as often as recommended, for the full course) | _____% | _____% | _____% | _____%\n5 | I don’t know | - | _____% | _____% | _____%\n | Total | [SUM = 100%] | [SUM = 100%] | [SUM = 100%] | [SUM = 100%]\n | Time Patients Stop Therapy | In-office (in my practice) % of patients | In-office (referred out) % of patients | Prescription at-home device % of patients | At-home DTC device % of patients (non-prescription)\n1 | Within the first month | _____% | _____% | _____% | _____%\n2 | Between 2–6 months | _____% | _____% | _____% | _____%\n3 | Between 7 and 9 months | _____% | _____% | _____% | _____%\n4 | Between 10 and 12 months | _____% | _____% | _____% | _____%\n5 | Greater than 12 months | _____% | _____% | _____% | _____%\n | Total | [SUM = 100%] | [SUM = 100%] | [SUM = 100%] | [SUM = 100%]\n___________\n | Statement [RANDOMIZE] | 1 – Strongly Disagree | 2 | 3 – Neither Agree nor Disagree | 4 | 5 – Strongly Agree\n1 | I am satisfied with in-office phototherapy – narrow-band UVB as a treatment option | O | O | O | O | O\n2 | I am satisfied with in-office phototherapy – excimer laser as a treatment option | O | O | O | O | O\n3 | I am satisfied with prescription at-home phototherapy devices as a treatment option | O | O | O | O | O\n4 | I am satisfied with at-home DTC phototherapy devices as a treatment option | O | O | O | O | O\n5 | I expect the patients’ patches to return after the treatment ends | O | O | O | O | O\n___________\n | Barrier [RANDOMIZE] | Select all that apply\n1 | My practice does not offer phototherapy in-office | □\n2 | Limited availability of phototherapy providers/centers near patients | □\n3 | Travel burden to get to phototherapy appointments | □\n4 | Time commitment / scheduling demands (e.g., multiple sessions per week) | □\n5 | Cost to patient (e.g., co-pays, out-of-pocket costs) | □\n6 | Insurance authorization / reimbursement challenges | □\n7 | Patients do not follow through on referrals to outside phototherapy providers | □\n8 | Patients do not perceive enough benefit from phototherapy to justify continuing treatment | □\n9 | Patients perceive phototherapy as inconvenient relative to other treatment options | □\n10 | Patients prefer pharmacologic-only treatment (e.g., topicals, systemics) | □\n11 | Concerns about long-term safety of phototherapy (e.g., UV exposure) | □\n98 | Other (Please specify: _________) [ANCHOR] | □\n99 | No significant barriers [EXCLUSIVE, ANCHOR TO BOTTOM] | O\n | Phototherapy Method | % of patients also prescribed Opzelura [A]\n1 | In-office phototherapy – narrow-band UVB | _____ %\n2 | In-office phototherapy – excimer laser | _____ %\n3 | Prescription at-home device | _____ %\n4 | At-home DTC device (non-prescription) | _____ %\n | Population | % prescribed phototherapy before Opzelura’s FDA approval | % prescribed phototherapy after Opzelura’s FDA approval\n1 | Non-Segmental Vitiligo Patients | _____% | _____%\n | Phototherapy Option [RANDOMIZE] | 1 – Significant Decrease | 2 | 3 | 4 – No Change | 5 | 6 | 7 – Significant Increase\n1 | In-office phototherapy – narrow-band UVB | O | O | O | O | O | O | O\n2 | In-office phototherapy – excimer laser | O | O | O | O | O | O | O\n3 | Prescription at-home phototherapy devices | O | O | O | O | O | O | O\n4 | At-home DTC phototherapy devices (non-prescription) | O | O | O | O | O | O | O\n | Use of Oral JAK Inhibitors with Phototherapy | Select One\n1 | I would start the oral JAK inhibitor at the same time as phototherapy | O\n2 | I would start an oral JAK inhibitor first and then add phototherapy early in treatment | O\n3 | I would start an oral JAK first and add phototherapy later only if response is inadequate | O\n4 | I would start phototherapy first and plan to add an oral JAK inhibitor early in treatment | O\n5 | I would start phototherapy first and add an oral JAK inhibitor later only if response is inadequate | O\n6 | I would generally not use an oral JAK inhibitor with phototherapy | O\n7 | I would not use an oral JAK inhibitor for Non-Segmental Vitiligo once approved | O\n88 | It would depend on the patient / case specifics | O",
+  "total_questions": 61,
+  "total_sections": 4,
+  "metadata_extra": {}
+}

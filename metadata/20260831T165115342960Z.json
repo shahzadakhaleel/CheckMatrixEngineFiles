@@ -1,0 +1,191 @@
+{
+  "run_id": "20260831T165115342960Z",
+  "user": "appadmin",
+  "created_at": "2026-08-31T16:55:25.993452+00:00",
+  "generation_seconds": 569.0,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "0ed5eecf1a666d65fa1013138a4135b42a345de9dc1557baa905fa907c3102ff",
+  "input": {
+    "key": "20260831T165115342960Z__V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "filename": "V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "size": 60220,
+    "created_at": "2026-08-31T16:51:15.345270+00:00"
+  },
+  "output": {
+    "key": "Validation_260831165525.sps",
+    "filename": "Validation_260831165525.sps",
+    "size": 58028,
+    "created_at": "2026-08-31T16:55:25.993452+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 163,
+    "checksEmitted": 179,
+    "questionsOmitted": 29,
+    "coveragePercent": 82.2,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Introduction",
+        "prefix": "INTRO, S",
+        "questions": 15,
+        "checksEmitted": 36,
+        "questionsOmitted": 1,
+        "coveragePercent": 93.3,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "INTRO",
+            "reason": "Informational introduction text; no respondent-entered data to validate."
+          }
+        ]
+      },
+      {
+        "block": "Survey",
+        "prefix": "Q",
+        "questions": 132,
+        "checksEmitted": 143,
+        "questionsOmitted": 12,
+        "coveragePercent": 90.9,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q3_R01",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R02",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R03",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R04",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R05",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R06",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R07",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R08",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R09",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R10",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R11",
+            "reason": "The supplied source gives conflicting numeric ranges for this question (1\u201399 and 0\u2013199), so no range check is emitted."
+          },
+          {
+            "questionId": "Q3_R12",
+            "reason": "Numeric range evidence is conflicting in the supplied source: both 1\u201399 and 0\u2013199 are stated, so no deterministic range check is supported."
+          }
+        ]
+      },
+      {
+        "block": "Classification",
+        "prefix": "\u2014",
+        "questions": 14,
+        "checksEmitted": 0,
+        "questionsOmitted": 14,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "10",
+            "reason": "The question provides defined age codes, but no canonical variable is supplied for an executable invalid-code check."
+          },
+          {
+            "questionId": "11",
+            "reason": "A numeric range of 1\u201330 is documented, but no canonical variable is supplied for an executable numeric-range check."
+          },
+          {
+            "questionId": "12",
+            "reason": "The question provides defined gender codes, but no canonical variable is supplied for an executable invalid-code check."
+          },
+          {
+            "questionId": "13",
+            "reason": "No SPSS variable is supplied for this optional single-select classification question; an operational allowed-code check cannot be generated without inventing a variable."
+          },
+          {
+            "questionId": "14",
+            "reason": "No SPSS variable is supplied for this optional single-select classification question; an operational allowed-code check cannot be generated without inventing a variable."
+          },
+          {
+            "questionId": "15",
+            "reason": "No SPSS variable is supplied for this optional single-select classification question; an operational allowed-code check cannot be generated without inventing a variable."
+          },
+          {
+            "questionId": "16",
+            "reason": "No SPSS variable is supplied for this optional single-select classification question; an operational allowed-code check cannot be generated without inventing a variable."
+          },
+          {
+            "questionId": "17",
+            "reason": "No SPSS variable is supplied for this optional single-select classification question; an operational allowed-code check cannot be generated without inventing a variable."
+          },
+          {
+            "questionId": "18_R01",
+            "reason": "No SPSS variable is supplied for this percentage-allocation component; the documented 100% total cannot be operationalized without inventing target variables."
+          },
+          {
+            "questionId": "18_R02",
+            "reason": "No SPSS variable is supplied for this percentage-allocation component; the documented 100% total cannot be operationalized without inventing target variables."
+          },
+          {
+            "questionId": "18_R03",
+            "reason": "No SPSS variable is supplied for this percentage-allocation component; the documented 100% total cannot be operationalized without inventing target variables."
+          },
+          {
+            "questionId": "18_R04",
+            "reason": "No SPSS variable is supplied for this percentage-allocation component; the documented 100% total cannot be operationalized without inventing target variables."
+          },
+          {
+            "questionId": "18_R05",
+            "reason": "No SPSS variable is supplied for this percentage-allocation component; the documented 100% total cannot be operationalized without inventing target variables."
+          },
+          {
+            "questionId": "19",
+            "reason": "Although a numeric range and health-system routing condition are documented, no target SPSS variable or S3 variable is supplied, so the checks cannot be represented without inventing variables."
+          }
+        ]
+      },
+      {
+        "block": "Unclassified",
+        "prefix": "\u2014",
+        "questions": 2,
+        "checksEmitted": 0,
+        "questionsOmitted": 2,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "20",
+            "reason": "Although a numeric range and health-system routing condition are documented, no target SPSS variable or S3 variable is supplied, so the checks cannot be represented without inventing variables."
+          },
+          {
+            "questionId": "21",
+            "reason": "Although response codes and health-system routing are documented, no SPSS variable or S3 variable is supplied, so the checks cannot be represented without inventing variables."
+          }
+        ]
+      }
+    ]
+  }
+}

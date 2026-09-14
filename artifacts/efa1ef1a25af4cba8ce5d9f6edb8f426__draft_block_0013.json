@@ -1,0 +1,20 @@
+{
+  "block_id": "B13",
+  "source_variables": [
+    "Q5r1",
+    "Q5r2",
+    "Q5r3",
+    "Q5r4",
+    "Q5r5",
+    "Q5r6",
+    "S10r1",
+    "S10r2"
+  ],
+  "temporary_variables": [
+    "Q5_total",
+    "S10_best1"
+  ],
+  "spss": "tit Q5.\ncompute S10_best1=sum(S10r1,S10r2).\ncompute Q5_total=sum(Q5r1,Q5r2,Q5r3,Q5r4,Q5r5,Q5r6).\nexe.\ntemporary.\nsel if miss(Q5r1) or Q5r1<0 or Q5r1>S10_best1 or miss(Q5r2) or Q5r2<0 or Q5r2>S10_best1 or miss(Q5r3) or Q5r3<0 or Q5r3>S10_best1 or miss(Q5r4) or Q5r4<0 or Q5r4>S10_best1 or miss(Q5r5) or Q5r5<0 or Q5r5>S10_best1 or miss(Q5r6) or Q5r6<0 or Q5r6>S10_best1 or Q5_total<>S10_best1.\nlist respid, S10_best1, Q5r1 to Q5r6, Q5_total.\ndel var Q5_total S10_best1.\nexe.",
+  "omission_reason": null,
+  "warnings": []
+}

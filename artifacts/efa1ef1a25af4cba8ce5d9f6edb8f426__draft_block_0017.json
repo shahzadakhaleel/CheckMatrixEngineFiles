@@ -1,0 +1,16 @@
+{
+  "block_id": "B17",
+  "source_variables": [
+    "Q9r1",
+    "Q9r2",
+    "Q9r3",
+    "Q9r4",
+    "Q9r5"
+  ],
+  "temporary_variables": [
+    "Q9_total"
+  ],
+  "spss": "tit Q9.\ncompute Q9_total=sum(Q9r1,Q9r2,Q9r3,Q9r4,Q9r5).\nexe.\ntemporary.\nsel if miss(Q9r1) or ~range(Q9r1,0,100) or miss(Q9r2) or ~range(Q9r2,0,100) or miss(Q9r3) or ~range(Q9r3,0,100) or miss(Q9r4) or ~range(Q9r4,0,100) or miss(Q9r5) or ~range(Q9r5,0,100) or Q9_total<>100.\nlist respid, Q9r1 to Q9r5, Q9_total.\ndel var Q9_total.\nexe.",
+  "omission_reason": null,
+  "warnings": []
+}

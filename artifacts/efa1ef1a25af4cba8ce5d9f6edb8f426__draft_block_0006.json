@@ -1,0 +1,20 @@
+{
+  "block_id": "B06",
+  "source_variables": [
+    "S8r1",
+    "S8r2",
+    "S8r3",
+    "S8r4",
+    "S8r5",
+    "S8r6",
+    "S8r7",
+    "S8r8",
+    "S8r7oe"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S8.\ntemporary.\nsel if nvalid(S8r1 to S8r8)>0 and (S8r1<>0 and S8r1<>1 or S8r2<>0 and S8r2<>1 or S8r3<>0 and S8r3<>1 or S8r4<>0 and S8r4<>1 or S8r5<>0 and S8r5<>1 or S8r6<>0 and S8r6<>1 or S8r7<>0 and S8r7<>1 or S8r8<>0 and S8r8<>1 or S8r1<>1).\nlist respid, S8r1 to S8r8.\ntit S8r7oe.\ntemporary.\nsel if S8r7=1 and S8r7oe=\"\".\nlist respid, S8r7, S8r7oe.",
+  "omission_reason": null,
+  "warnings": [
+    "S8r1 to S8r8 are physically contiguous in the supplied dictionary, so the TO span is used. The source requires S8r1 and marks S8r8 exclusive; the check reports invalid coding and missing required S8r1 but does not reproduce termination."
+  ]
+}

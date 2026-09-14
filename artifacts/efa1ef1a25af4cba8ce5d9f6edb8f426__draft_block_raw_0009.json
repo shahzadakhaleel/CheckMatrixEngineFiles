@@ -1,0 +1,22 @@
+{
+  "block_id": "B09",
+  "source_variables": [
+    "Q1ar21c1",
+    "Q1ar22c1",
+    "Q1ar23c1",
+    "Q1br31c1",
+    "Q1br32c1",
+    "Q1br33c1",
+    "Q1c",
+    "Q1d",
+    "Q1r2c1",
+    "Q1r3c1"
+  ],
+  "temporary_variables": [
+    "Q1a_bvmd_total",
+    "Q1b_arb_total"
+  ],
+  "spss": "tit Q1a-Q1d.\ntemporary.\nsel if miss(Q1ar21c1) or ~range(Q1ar21c1,0,300) or miss(Q1ar22c1) or ~range(Q1ar22c1,0,300) or miss(Q1ar23c1) or ~range(Q1ar23c1,0,300) or miss(Q1br31c1) or ~range(Q1br31c1,0,300) or miss(Q1br32c1) or ~range(Q1br32c1,0,300) or miss(Q1br33c1) or ~range(Q1br33c1,0,300) or miss(Q1c) or ~range(Q1c,0,300) or miss(Q1d) or ~range(Q1d,0,300).\nlist respid, Q1r2c1, Q1r3c1, Q1ar21c1, Q1ar22c1, Q1ar23c1, Q1br31c1, Q1br32c1, Q1br33c1, Q1c, Q1d.\ncompute Q1a_bvmd_total=sum(Q1ar21c1,Q1ar22c1,Q1ar23c1).\ncompute Q1b_arb_total=sum(Q1br31c1,Q1br32c1,Q1br33c1).\nexe.\ntit Q1a total.\ntemporary.\nsel if Q1r2c1>0 and Q1a_bvmd_total<>Q1r2c1.\nlist respid, Q1r2c1, Q1ar21c1, Q1ar22c1, Q1ar23c1.\ntit Q1b total.\ntemporary.\nsel if Q1r3c1>0 and Q1b_arb_total<>Q1r3c1.\nlist respid, Q1r3c1, Q1br31c1, Q1br32c1, Q1br33c1.\ndel var Q1a_bvmd_total Q1b_arb_total.\nexe.",
+  "omission_reason": null,
+  "warnings": []
+}

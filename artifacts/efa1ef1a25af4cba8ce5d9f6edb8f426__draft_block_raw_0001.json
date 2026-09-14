@@ -1,0 +1,10 @@
+{
+  "block_id": "B01",
+  "source_variables": [
+    "qCountry"
+  ],
+  "temporary_variables": [],
+  "spss": "tit QCOUNTRY.\ntemporary.\nsel if miss(qCountry) or ~any(qCountry,98,1033).\nlist respid, qCountry.",
+  "omission_reason": null,
+  "warnings": []
+}

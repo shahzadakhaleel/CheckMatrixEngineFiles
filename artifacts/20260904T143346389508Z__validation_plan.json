@@ -1,0 +1,1097 @@
+{
+  "questionnaire_title": "Umfrage: Format-Präferenzen und Trendentwicklung in der ärztlichen Fortbildung",
+  "project_name": "V1_R100696 Marktumfrage CME Veranstaltungsmarkt revised",
+  "validations": [
+    {
+      "question_id": "S3",
+      "variable": "S3",
+      "rules": [
+        {
+          "id": "S3_invalid_codes",
+          "question_id": "S3",
+          "validation_type": "invalid_codes",
+          "description": "S3 darf nur einen der vorgesehenen Antwortcodes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S3_screen_out",
+          "question_id": "S3",
+          "validation_type": "screen_out",
+          "description": "Bei Antwort Nein wird die Befragung beendet.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S3",
+                "operator": "equals",
+                "values": [
+                  "2"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S4",
+      "variable": "S4",
+      "rules": [
+        {
+          "id": "S4_invalid_codes",
+          "question_id": "S4",
+          "validation_type": "invalid_codes",
+          "description": "S4 darf nur einen der vorgesehenen Antwortcodes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S4_screen_out",
+          "question_id": "S4",
+          "validation_type": "screen_out",
+          "description": "Bei Antwort Nein wird die Befragung beendet.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S4",
+                "operator": "equals",
+                "values": [
+                  "2"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S1",
+      "variable": "S1",
+      "rules": [
+        {
+          "id": "S1_invalid_codes",
+          "question_id": "S1",
+          "validation_type": "invalid_codes",
+          "description": "S1 darf nur einen der vorgesehenen Fachrichtungs-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S2",
+      "variable": "S2",
+      "rules": [
+        {
+          "id": "S2_invalid_codes",
+          "question_id": "S2",
+          "validation_type": "invalid_codes",
+          "description": "S2 darf nur einen der vorgesehenen Tätigkeitsort-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "A1",
+      "variable": "A1",
+      "rules": [
+        {
+          "id": "A1_invalid_codes",
+          "question_id": "A1",
+          "validation_type": "invalid_codes",
+          "description": "A1 darf nur die vorgesehenen Format-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "A1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "A1_multiple_response",
+          "question_id": "A1",
+          "validation_type": "multiple_response",
+          "description": "A1 ist als Mehrfachauswahl zu prüfen.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "A1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "A2",
+      "variable": "A2",
+      "rules": [
+        {
+          "id": "A2_invalid_codes",
+          "question_id": "A2",
+          "validation_type": "invalid_codes",
+          "description": "A2 darf nur einen der fünf vorgesehenen Anteils-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "A2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "A3",
+      "variable": "A3",
+      "rules": [
+        {
+          "id": "A3_invalid_codes",
+          "question_id": "A3",
+          "validation_type": "invalid_codes",
+          "description": "A3 darf nur einen der vorgesehenen Hürden-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "A3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "B1",
+      "variable": "B1",
+      "rules": [
+        {
+          "id": "B1_invalid_codes",
+          "question_id": "B1",
+          "validation_type": "invalid_codes",
+          "description": "B1 darf nur zwischen Präsenz- und Online-Veranstaltung unterscheiden.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "B1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "B2",
+      "variable": "B2",
+      "rules": [
+        {
+          "id": "B2_ranking",
+          "question_id": "B2",
+          "validation_type": "ranking",
+          "description": "B2 muss die vier Formate mit Rangwerten von 1 bis 4 abbilden.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "B2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": 1,
+            "rank_maximum": 4,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "C1",
+      "variable": "C1",
+      "rules": [
+        {
+          "id": "C1_multiple_response",
+          "question_id": "C1",
+          "validation_type": "multiple_response",
+          "description": "C1 ist eine Mehrfachauswahl mit höchstens drei Nennungen.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": 3,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C1_exclusive_none",
+          "question_id": "C1",
+          "validation_type": "exclusive_answers",
+          "description": "Die exklusive Antwort „nichts davon“ darf nicht gemeinsam mit anderen Antworten gewählt werden.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [
+              "C1_8"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "C2",
+      "variable": "C2",
+      "rules": [
+        {
+          "id": "C2_multiple_response",
+          "question_id": "C2",
+          "validation_type": "multiple_response",
+          "description": "C2 ist eine Mehrfachauswahl mit höchstens zwei Nennungen.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": 2,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "C2_exclusive_none",
+          "question_id": "C2",
+          "validation_type": "exclusive_answers",
+          "description": "Die exklusive Antwort „nichts davon“ darf nicht gemeinsam mit anderen Antworten gewählt werden.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "C2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [
+              "C2_6"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "D1",
+      "variable": "D1",
+      "rules": [
+        {
+          "id": "D1_invalid_codes",
+          "question_id": "D1",
+          "validation_type": "invalid_codes",
+          "description": "D1 darf nur einen der fünf Entwicklungscodes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "D2",
+      "variable": "D2",
+      "rules": [
+        {
+          "id": "D2_invalid_codes",
+          "question_id": "D2",
+          "validation_type": "invalid_codes",
+          "description": "D2 darf nur einen der fünf Entwicklungscodes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "D3",
+      "variable": "D3",
+      "rules": [
+        {
+          "id": "D3_multiple_response",
+          "question_id": "D3",
+          "validation_type": "multiple_response",
+          "description": "D3 ist eine Mehrfachauswahl mit höchstens drei Nennungen.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": 3,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "D3_exclusive_none",
+          "question_id": "D3",
+          "validation_type": "exclusive_answers",
+          "description": "Die exklusive Antwort „nichts davon“ darf nicht gemeinsam mit anderen Antworten gewählt werden.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [
+              "D3_6"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "D4",
+      "variable": "D4",
+      "rules": [
+        {
+          "id": "D4_numeric_range",
+          "question_id": "D4",
+          "validation_type": "numeric_range",
+          "description": "D4 darf nur die Bewertungsskala von 1 bis 5 enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "D4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "E1",
+      "variable": "E1",
+      "rules": [
+        {
+          "id": "E1_ranking",
+          "question_id": "E1",
+          "validation_type": "ranking",
+          "description": "E1 ist ein Ranking der Entscheidungskriterien mit Rangwerten bis einschließlich 3.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "E1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": 3,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "E2",
+      "variable": "E2",
+      "rules": [
+        {
+          "id": "E2_invalid_codes",
+          "question_id": "E2",
+          "validation_type": "invalid_codes",
+          "description": "E2 darf nur einen der vier vorgesehenen Einfluss-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "E2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "E3",
+      "variable": "E3",
+      "rules": [
+        {
+          "id": "E3_open_end",
+          "question_id": "E3",
+          "validation_type": "open_end",
+          "description": "E3 ist als offene Textantwort zu prüfen.",
+          "enabled": true,
+          "severity": "info",
+          "parameters": {
+            "variables": [
+              "E3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "F1",
+      "variable": "F1",
+      "rules": [
+        {
+          "id": "F1_invalid_codes",
+          "question_id": "F1",
+          "validation_type": "invalid_codes",
+          "description": "F1 darf nur einen der fünf Altersgruppen-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "F1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "F2",
+      "variable": "F2",
+      "rules": [
+        {
+          "id": "F2_invalid_codes",
+          "question_id": "F2",
+          "validation_type": "invalid_codes",
+          "description": "F2 darf nur einen der drei vorgesehenen Länder-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "F2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "F3",
+      "variable": "F3",
+      "rules": [
+        {
+          "id": "F3_invalid_codes",
+          "question_id": "F3",
+          "validation_type": "invalid_codes",
+          "description": "F3 darf nur einen der vier Berufserfahrungs-Codes enthalten.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "F3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

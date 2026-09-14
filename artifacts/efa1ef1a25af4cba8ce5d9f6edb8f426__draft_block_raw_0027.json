@@ -1,0 +1,15 @@
+{
+  "block_id": "B27",
+  "source_variables": [
+    "Q23a",
+    "Q23b",
+    "Q23c",
+    "Q22"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q23.\ntemporary.\nsel if miss(Q23a) or ~range(Q23a,0,10) or miss(Q23b) or Q23b<0 or Q23b>Q23a or miss(Q23c) or Q23c<0 or Q23c>Q23b.\nlist respid, Q22, Q23a, Q23b, Q23c.",
+  "omission_reason": null,
+  "warnings": [
+    "The source routes Q23 from Q22>0 and conditionally asks Q23b/Q23c."
+  ]
+}

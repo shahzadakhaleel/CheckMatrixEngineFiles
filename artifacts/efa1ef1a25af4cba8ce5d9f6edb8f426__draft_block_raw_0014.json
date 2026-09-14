@@ -1,0 +1,18 @@
+{
+  "block_id": "B14",
+  "source_variables": [
+    "Q6r1",
+    "Q6r2",
+    "Q5r1",
+    "Q5r2"
+  ],
+  "temporary_variables": [
+    "Q5_referred",
+    "Q6_total"
+  ],
+  "spss": "tit Q6.\ncompute Q5_referred=sum(Q5r1,Q5r2).\ncompute Q6_total=sum(Q6r1,Q6r2).\nexe.\ntemporary.\nsel if miss(Q6r1) or Q6r1<0 or Q6r1>Q5_referred or miss(Q6r2) or Q6r2<0 or Q6r2>Q5_referred or Q6_total<>Q5_referred.\nlist respid, Q5r1, Q5r2, Q6r1, Q6r2, Q6_total.\ndel var Q5_referred Q6_total.\nexe.",
+  "omission_reason": null,
+  "warnings": [
+    "The source routes Q6 only when Q5r1+Q5r2>0. This draft checks answered records but does not independently flag answers outside the routed population."
+  ]
+}

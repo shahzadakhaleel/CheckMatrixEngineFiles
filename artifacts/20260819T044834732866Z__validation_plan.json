@@ -1,0 +1,284 @@
+{
+  "questionnaire_title": "Specialty pharmacy perception questionnaire",
+  "project_name": "Definium_spec_pharm_07.20.26",
+  "validations": [
+    {
+      "question_id": "qCountry",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question is required and has routing and coded-response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr0",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has coded responses and termination routing, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has coded responses and termination routing, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has coded responses and termination routing, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr2a",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has state-list and termination evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has coded responses and termination routing, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds and termination evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Sc6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has coded responses and termination routing, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Sc7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds and termination evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Sc8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds and termination evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr10_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds and termination evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr10_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Scr10_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has numeric bounds, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "Qintro_info",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Informational introduction text with no respondent-entered response."
+    },
+    {
+      "question_id": "Qintro_consent",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question has coded responses and termination routing, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional open-ended response with no supplied SPSS variable or executable text-validation target."
+    },
+    {
+      "question_id": "S1Q2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional open-ended response with no supplied SPSS variable or executable text-validation target."
+    },
+    {
+      "question_id": "S1Q3_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The grid row has coded response evidence, but no SPSS variable is supplied for a validatable target."
+    },
+    {
+      "question_id": "S1Q3_8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so a target variable cannot be identified without inventing one."
+    },
+    {
+      "question_id": "S1Q3_9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so a target variable cannot be identified without inventing one."
+    },
+    {
+      "question_id": "S1Q3a",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The top-three selection evidence supports a maximum-selection check, but no SPSS variable is supplied for the multi-response question."
+    },
+    {
+      "question_id": "S1Q3b",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "This optional open-text question has no supplied SPSS variable, so the target cannot be identified without inventing one."
+    },
+    {
+      "question_id": "S1Q3c",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "This optional open-text question has no supplied SPSS variable, so the target cannot be identified without inventing one."
+    },
+    {
+      "question_id": "S1Q4_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_10",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q4_11",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No SPSS variable is supplied for this grid row, so an allowed-code or missingness check cannot be targeted safely."
+    },
+    {
+      "question_id": "S1Q6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes and conditional display evidence are present, but no SPSS variable is supplied for this question or its routing source."
+    },
+    {
+      "question_id": "S1Q8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire specifies a 0–100 whole-number range, but no SPSS variable is supplied for the numeric target."
+    },
+    {
+      "question_id": "S1Q9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Allowed response codes and conditional display evidence are present, but no SPSS variable is supplied for this question or its routing source."
+    },
+    {
+      "question_id": "S1Q11",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "This optional open-text question has no supplied SPSS variable, so the target cannot be identified without inventing one."
+    }
+  ],
+  "warnings": [
+    "No canonical question in this batch supplies an SPSS variable name; evidence-supported checks were omitted rather than inventing variables.",
+    "All questions in this batch have variable set to null. Evidence-supported checks requiring target variables were omitted to comply with the prohibition against inventing SPSS variable names. Routing references were also not converted into predicates because their source variable names were not supplied."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

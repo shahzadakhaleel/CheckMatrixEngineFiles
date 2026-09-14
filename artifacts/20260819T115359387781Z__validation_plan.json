@@ -1,0 +1,237 @@
+{
+  "questionnaire_title": "Nexus Post Market Surveillance Questionnaires for Picot 1 and Picot 2 — Questionnaire for PICOT 1: “Multistep” or “25 Steps” function",
+  "project_name": "12847",
+  "validations": [
+    {
+      "question_id": "Q0",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported routing and response-code checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported multiple-response and other-specify checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q2_01",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q2_02",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q2_03",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q2_04",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q2_05",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q3_01",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q3_02",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q3_03",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q3_04",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q3_05",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q4_01",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q4_02",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q4_03",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q4_04",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q4_05",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported ranking and duplicate-ranking checks are present, but no SPSS variables are supplied for this question."
+    },
+    {
+      "question_id": "Q6_01",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q6_02",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q6_03",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q6_04",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q6_05",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q7_01",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q7_02",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Evidence-supported allowed-response-code and mandatory-path checks are present, but no SPSS variable is supplied for this question."
+    },
+    {
+      "question_id": "Q7_03",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q7_04",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q7_05",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The ranking scale is specified, but no target variable is supplied for the ranking fields."
+    },
+    {
+      "question_id": "Q9",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q10",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q11_A",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q11_B",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q11_C",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q11_D",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options support a single-select code check, but no target variable is supplied."
+    },
+    {
+      "question_id": "Q11_E",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question provides response codes and conditional wording, but no target variable is supplied to define an invalid-code or routing check."
+    },
+    {
+      "question_id": "Q12",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question supports a multi-response code check, but no target variable is supplied."
+    }
+  ],
+  "warnings": [
+    "No question-level SPSS variables were supplied in batch 1; validation rules requiring target variables were therefore omitted.",
+    "The source marks questions as not required, while the questionnaire text indicates select-one, select-all, or ranking formats; mandatory checks were not emitted because the canonical required flags are false.",
+    "No question variables were supplied in this batch; evidence-supported rules requiring target variables were therefore omitted."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

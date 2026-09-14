@@ -1,0 +1,765 @@
+{
+  "metadata": {
+    "title": "Final Primary Care Landscape (6/16/26)",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "V2",
+          "variable": "V2",
+          "title": "06/26/2026 The Chestnut Partnership",
+          "text": "V2 06/26/2026 The Chestnut Partnership",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 2
+          }
+        },
+        {
+          "id": "V3",
+          "variable": "V3",
+          "title": "06/29/2026 The Chestnut Partnership",
+          "text": "V3 06/29/2026 The Chestnut Partnership",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 3
+          }
+        },
+        {
+          "id": "V4",
+          "variable": "V4",
+          "title": "06/30/2026 The Chestnut Partnership",
+          "text": "V4 06/30/2026 The Chestnut Partnership",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 4
+          }
+        },
+        {
+          "id": "V5",
+          "variable": "V5",
+          "title": "07/04/2026 The Chestnut Partnership",
+          "text": "V5 07/04/2026 The Chestnut Partnership [All terminates are immediate] Introduction We are a market research agency conducting a study amongst healthcare professionals to better understand their usage of recent advances in diagnostic and clinical lab testing. The purpose of the study is for market research only and your answers will be held in strict confidence and reported on an anonymous basis.",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "V5 07/04/2026 The Chestnut Partnership [All terminates are immediate] Introduction We are a market research agency conducting a study amongst healthcare professionals to better understand their usage of recent advances in diagnostic and clinical lab testing. The purpose of the study is for market research only and your answers will be held in strict confidence and reported on an anonymous basis.",
+          "notes": null,
+          "metadata": {
+            "source_line": 5
+          }
+        },
+        {
+          "id": "S1",
+          "variable": "S1",
+          "title": "Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company?",
+          "text": "S1. Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company? Yes[Terminate] No[Continue]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S1. Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company? Yes[Terminate] No[Continue]",
+          "notes": null,
+          "metadata": {
+            "source_line": 9
+          }
+        },
+        {
+          "id": "S2",
+          "variable": "S2",
+          "title": "Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select]",
+          "text": "S2. Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select] General Practice (GP)[Continue] Family Practice (FP)[Continue] Internal Medicine (IM)[Continue] Nurse Practitioner (NP)[Continue] Physician Assistant (PA)[Continue] Other certification or practice type[Terminate]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S2. Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select] General Practice (GP)[Continue] Family Practice (FP)[Continue] Internal Medicine (IM)[Continue] Nurse Practitioner (NP)[Continue] Physician Assistant (PA)[Continue] Other certification or practice type[Terminate]",
+          "notes": null,
+          "metadata": {
+            "source_line": 12
+          }
+        },
+        {
+          "id": "S3",
+          "variable": "S3",
+          "title": "How would you best describe your current practice affiliation and ownership? [Single Select]",
+          "text": "S3. How would you best describe your current practice affiliation and ownership? [Single Select] Academic or Teaching Hospital-Owned Health System 2+ affiliated hospitals (AHS) Community Hospital-Owned Health System, 2+ affiliated hospitals (CHS) Physician-Owned Group Practice/Network of Practices, 30 or more MD/DOs (POG30+) Physician-Owned Group Practice/Network of Practices, 5 to 29 MD/DOs (POG5-29) Physician-Owned Group/Solo Practice, 1 to 4 MD/DOs (POG1-4) Other[Terminate] [combine S2 and S3; Quotas: 40 GP/FP/IM each in AHS, CHS, and POG30+; 30 GP/FP/IM in either POG5-29 or POG1-4); 25 NP and 25 PA]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S3. How would you best describe your current practice affiliation and ownership? [Single Select] Academic or Teaching Hospital-Owned Health System 2+ affiliated hospitals (AHS) Community Hospital-Owned Health System, 2+ affiliated hospitals (CHS) Physician-Owned Group Practice/Network of Practices, 30 or more MD/DOs (POG30+) Physician-Owned Group Practice/Network of Practices, 5 to 29 MD/DOs (POG5-29) Physician-Owned Group/Solo Practice, 1 to 4 MD/DOs (POG1-4) Other[Terminate] [combine S2 and S3; Quotas: 40 GP/FP/IM each in AHS, CHS, and POG30+; 30 GP/FP/IM in either POG5-29 or POG1-4); 25 NP and 25 PA]",
+          "notes": null,
+          "metadata": {
+            "source_line": 19
+          }
+        },
+        {
+          "id": "S4",
+          "variable": "S4",
+          "title": "How many years have you been in practice?",
+          "text": "S4. How many years have you been in practice? _______ Years in Practice[Range: 1-40; Terminate if less than 2 yrs or more than 29 yrs]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S4. How many years have you been in practice? _______ Years in Practice[Range: 1-40; Terminate if less than 2 yrs or more than 29 yrs]",
+          "notes": null,
+          "metadata": {
+            "source_line": 27
+          }
+        },
+        {
+          "id": "S5",
+          "variable": "S5",
+          "title": "Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years?",
+          "text": "S5. Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years? Yes[Terminate] No[Continue]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S5. Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years? Yes[Terminate] No[Continue]",
+          "notes": null,
+          "metadata": {
+            "source_line": 29
+          }
+        },
+        {
+          "id": "S6",
+          "variable": "S6",
+          "title": "How many patients do you see in an average week? [Single Select]",
+          "text": "S6. How many patients do you see in an average week? [Single Select] Less than 75 patients per week[Terminate] 75 to 99 patients[Continue] 100 to 124 patients[Continue] 125 to 149 patients[Continue] 150 to 174 patients[Continue] 175 to 199 patients[Continue] 200 or more patients[Continue]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S6. How many patients do you see in an average week? [Single Select] Less than 75 patients per week[Terminate] 75 to 99 patients[Continue] 100 to 124 patients[Continue] 125 to 149 patients[Continue] 150 to 174 patients[Continue] 175 to 199 patients[Continue] 200 or more patients[Continue]",
+          "notes": null,
+          "metadata": {
+            "source_line": 32
+          }
+        },
+        {
+          "id": "S7",
+          "variable": "S7",
+          "title": "Do you have an assigned panel of patients you see on a continuing basis?",
+          "text": "S7. Do you have an assigned panel of patients you see on a continuing basis? Yes, If so, about how many patients are in this panel? _________[Range: 1-5,000] [Continue] No [Continue]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S7. Do you have an assigned panel of patients you see on a continuing basis? Yes, If so, about how many patients are in this panel? _________[Range: 1-5,000] [Continue] No [Continue]",
+          "notes": null,
+          "metadata": {
+            "source_line": 40
+          }
+        },
+        {
+          "id": "S8",
+          "variable": "S8",
+          "title": "What percentage of your patients are covered by the following payors?",
+          "text": "S8. What percentage of your patients are covered by the following payors? _____%Commercial Insurance _____ %Medicare _____ %Medicaid _____ %Other 100% [Terminate if total for Commercial, Medicare, and Medicaid is less than 70%]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S8. What percentage of your patients are covered by the following payors? _____%Commercial Insurance _____ %Medicare _____ %Medicaid _____ %Other 100% [Terminate if total for Commercial, Medicare, and Medicaid is less than 70%]",
+          "notes": null,
+          "metadata": {
+            "source_line": 43
+          }
+        },
+        {
+          "id": "S9",
+          "variable": "S9",
+          "title": "Are you practicing either part or full-time at a Federally Qualified Health Center (FQHC)?",
+          "text": "S9. Are you practicing either part or full-time at a Federally Qualified Health Center (FQHC)? Yes[Continue] No[Continue]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 50
+          }
+        },
+        {
+          "id": "S10",
+          "variable": "S10",
+          "title": "Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine?",
+          "text": "S10. Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine? Yes[Continue] No[Continue] Survey What percent of the patients that you see in an average month receive a lab test in each of the following test areas or for the following reasons? Please respond for each test area from 0% to 100% of patients in an average month. Additionally, Please note that on a given visit the same patient may be tested in more than one test area so that percentages need not add to 100% across test areas. [Randomize list order for each respondent & maintain order across questions] Range: 0-100] Test Areas or Reasons _____ %Cardiometabolic (CMD) _____ %CKM syndrome and obesity or weight management _____ %Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ %Vector-borne (e.g., Lyme, insect) _____ %Colorectal screening _____ %STIs _____ %Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ %HIV or Hepatitis _____ %Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ %Functional medicine (holistic or root cause testing) _____ %Neurodegenerative diseases (e.g., Parkinson’s) _____ %Autoimmune diseases (e.g., rheumatology, gastroenterology) 2. How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1] Number of PanelsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 3. How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1] Number of Additional TestsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 4. Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 5. Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 6. Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area. Near-termLonger-term Availability (2-3 yrs)Availability (5+ yrs) Test Area or Reason Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 7. The following is a list of future developments or trends in primary care and lab testing. (a) Is this development or trend currently affecting your practice? (b) On a 10-point scale (1 = “little if any potential for improving care” to 10 = “very great potential for improving care”) please rate each development or trend. [Randomize list order for each respondent] Currently AffectingLittle PotentialGreat Potential Your Practicefor Improving Carefor Improving Care Yes No Commercial labs actively working to help increase patient access to needed testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) New, advanced tests leading to earlier detection and intervention in disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to save provider time and streamline practice operations or workflow [ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to guide primary care in diagnosis and developing treatment plans[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI apps to support providers in navigation and coordination of other medical specialties[ ] [ ](1 2 3 4 5 6 7 8 9 10) Improved patient portals and AI guided patient education programs[ ] [ ](1 2 3 4 5 6 7 8 9 10) Development of services for in-home collection of specimens for lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased usage of wearable devices to monitor or collect data on patients in real time[ ] [ ](1 2 3 4 5 6 7 8 9 10) Provider apps to search and summarize the latest advances in lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Services to counsel or fact check patients on the use of social or other web media[ ] [ ](1 2 3 4 5 6 7 8 9 10) Lab tests/algorithms/data analysis to personalize tests in the context of the patient’s overall health status[ ] [ ](1 2 3 4 5 6 7 8 9 10) Custom panels to improve functional medicine testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increasing use of IGRA blood vs skin testing in tuberculosis screening[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased screening and broader utility of Vitamin D deficiency for a greater number of indications[ ] [ ](1 2 3 4 5 6 7 8 9 10) Faster or in-office screening for Lyme disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) MCED or multi-cancer early detection to assess and counsel patients on future screening and risk[ ] [ ](1 2 3 4 5 6 7 8 9 10) Primary care taking a greater role or engaging in specialist lab testing and treatment prior to referral[ ] [ ](1 2 3 4 5 6 7 8 9 10) Patient at-home monitoring of micronutrients, hormones, or other functional medicine biomarkers[ ] [ ](1 2 3 4 5 6 7 8 9 10) Surveillance services to monitor the need for increased HIV or hepatitis screening in your local area (zip/county)[ ] [ ](1 2 3 4 5 6 7 8 9 10) Use of AI to recommend lab tests for earlier detection and intervention by primary care[ ] [ ](1 2 3 4 5 6 7 8 9 10) 8. The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area. [Expose list as a roll-down menu for single selection response on rank importance, Randomize the list] (a thru l) From the list of lab test and service improvements below, what are the top three you would most like to see happen in (present each of the 12 Test Area or Reason in random order). your practice for the test area or reason for testing listed at the top of the improvements Please rank only the top three improvements by indicating whether they are the 1st , 2nd, or 3rd most important for that specific test area or reason for testing. After indicating the top three improvements you may move on to the next question. [Show only attributes >4% in Q1] Indicate only top 3 and then advance to next question. Add 4th response column: “Not in Top 3 Important” for all test areas1st 2nd 3rd MostMostMost ImportantImportantImportant Lab test and Service improvements Greater flexibility within test menu (to allow for rapid escalation to secondary/confirming tests; target tests for more efficient use of samples; prevent needless testing) [ ] [ ] [ ] Better standardized panels (to review diagnostic yield; align to guidelines; minimize cost; reduce TAT) [ ] [ ] [ ] Ability to customize panel [ ] [ ] [ ] Better patient education [ ] [ ] [ ] Improved patient convenience [ ] [ ] [ ] Programs to improve patient knowledge and understanding [ ] [ ] [ ] Self-collection (to improve compliance; patient QOL; cost) [ ] [ ] [ ] Better screening (improved risk stratification; use of genomic/biomarker testing; digital health monitoring; point-of-care testing) [ ] [ ] [ ] AI enhancement (to improve efficiency of workflow; improved diagnosis; HCP learning) [ ] [ ] [ ] For guidance on clinical decisions [ ] [ ] [ ] To enable earlier intervention in treatment [ ] [ ] [ ] For guidance on personalized treatment options [ ] [ ] [ ] 9. Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row] [Randomize list order for each respondent] Neither AgreeAgreeAgree NorDisagreeDisagree StronglySomewhatDisagreeSomewhatStrongly Large national labs have the same advanced testing that is available at niche or specialty laboratories[ ][ ][ ][ ][ ] I know more than other primary care physicians about the most recent trends in genetics and medical science[ ][ ][ ][ ][ ] If I have a problem, I now prefer to solve it assisted by AI[ ][ ][ ][ ][ ] A test is a test, no matter which reference lab does it[ ][ ][ ][ ][ ] I am fascinated by advances in genomic testing[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt new diagnostic tests[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt AI for greater efficiency in workflow/operations[ ][ ][ ][ ][ ] The future will see fewer primary care doctors caring for more patients in a system based on AI, data, and technology[ ][ ][ ][ ][ ] These final questions are for classification purposes only. 10. What is your age? [Single Select] Under 30 30 to 34 35 to 39 40 to 44 45 to 49 50 to 54 55 to 59 60 to 64 65 or over 11. How many days in an average month do you see patients at your office sites? _____ days [Range: 1-30] 12. Please indicate your gender. [Single Select] Male Female 13. In what geographic region are you located? [Single Select] Northeast South/Southeast Midwest Southwest West 14. Is your practice best described as residing in one of the following? [Single Select] Major Urban Core Area (high population density) Suburban Location (areas surrounding major urban core) Mid-size to Smaller City (urban or suburban) Smaller Town/Rural 15. Is your practice single specialty or multispecialty? [Single Select] Single specialty Multispecialty 16. How many primary care physicians are in your group practice, network, or system? [Single Select] Solo 2 to 9 10 to 24 25 to 49 50 to 99 100 or more 17. How large is the hospital (number of beds) you are affiliated with? [Single Select] Under 100 beds 100 to 299 beds 300 to 599 beds 600 to 999 beds 1,000 or more beds Not affiliated with a hospital 18. What percent of your practice’s commercial lab testing is done by the following reference labs? _____%Quest Diagnostics _____%Labcorp _____%Mayo Clinic Labs _____% Academic or Specialty Lab _____%Other Commercial Lab 100% 19. [Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system? ______ Number of hospitals in your health system [Range: 1-499] 20. [Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system? ______ Number of physician groups in your health system [Range: 0-999] 21. [Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select] Only one state Two states More than 2 states",
+          "section": "MAIN",
+          "question_type": "RANKING",
+          "required": false,
+          "options": [
+            {
+              "code": "2",
+              "text": "How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1]",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1]",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development.",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services.",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area.",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "The following is a list of future developments or trends in primary care and lab testing.",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area.",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row]",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "What is your age? [Single Select]",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "How many days in an average month do you see patients at your office sites?",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Please indicate your gender. [Single Select]",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "In what geographic region are you located? [Single Select]",
+              "value": 13,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "14",
+              "text": "Is your practice best described as residing in one of the following? [Single Select]",
+              "value": 14,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "15",
+              "text": "Is your practice single specialty or multispecialty? [Single Select]",
+              "value": 15,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "16",
+              "text": "How many primary care physicians are in your group practice, network, or system? [Single Select]",
+              "value": 16,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "17",
+              "text": "How large is the hospital (number of beds) you are affiliated with? [Single Select]",
+              "value": 17,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "18",
+              "text": "What percent of your practice’s commercial lab testing is done by the following reference labs?",
+              "value": 18,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "19",
+              "text": "[Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system?",
+              "value": 19,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "20",
+              "text": "[Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system?",
+              "value": 20,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "21",
+              "text": "[Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select]",
+              "value": 21,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "S10. Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine? Yes[Continue] No[Continue] Survey What percent of the patients that you see in an average month receive a lab test in each of the following test areas or for the following reasons? Please respond for each test area from 0% to 100% of patients in an average month. Additionally, Please note that on a given visit the same patient may be tested in more than one test area so that percentages need not add to 100% across test areas. [Randomize list order for each respondent & maintain order across questions] Range: 0-100] Test Areas or Reasons _____ %Cardiometabolic (CMD) _____ %CKM syndrome and obesity or weight management _____ %Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ %Vector-borne (e.g., Lyme, insect) _____ %Colorectal screening _____ %STIs _____ %Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ %HIV or Hepatitis _____ %Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ %Functional medicine (holistic or root cause testing) _____ %Neurodegenerative diseases (e.g., Parkinson’s) _____ %Autoimmune diseases (e.g., rheumatology, gastroenterology) 2. How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1] Number of PanelsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 3. How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1] Number of Additional TestsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 4. Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 5. Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 6. Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area. Near-termLonger-term Availability (2-3 yrs)Availability (5+ yrs) Test Area or Reason Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 7. The following is a list of future developments or trends in primary care and lab testing. (a) Is this development or trend currently affecting your practice? (b) On a 10-point scale (1 = “little if any potential for improving care” to 10 = “very great potential for improving care”) please rate each development or trend. [Randomize list order for each respondent] Currently AffectingLittle PotentialGreat Potential Your Practicefor Improving Carefor Improving Care Yes No Commercial labs actively working to help increase patient access to needed testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) New, advanced tests leading to earlier detection and intervention in disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to save provider time and streamline practice operations or workflow [ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to guide primary care in diagnosis and developing treatment plans[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI apps to support providers in navigation and coordination of other medical specialties[ ] [ ](1 2 3 4 5 6 7 8 9 10) Improved patient portals and AI guided patient education programs[ ] [ ](1 2 3 4 5 6 7 8 9 10) Development of services for in-home collection of specimens for lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased usage of wearable devices to monitor or collect data on patients in real time[ ] [ ](1 2 3 4 5 6 7 8 9 10) Provider apps to search and summarize the latest advances in lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Services to counsel or fact check patients on the use of social or other web media[ ] [ ](1 2 3 4 5 6 7 8 9 10) Lab tests/algorithms/data analysis to personalize tests in the context of the patient’s overall health status[ ] [ ](1 2 3 4 5 6 7 8 9 10) Custom panels to improve functional medicine testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increasing use of IGRA blood vs skin testing in tuberculosis screening[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased screening and broader utility of Vitamin D deficiency for a greater number of indications[ ] [ ](1 2 3 4 5 6 7 8 9 10) Faster or in-office screening for Lyme disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) MCED or multi-cancer early detection to assess and counsel patients on future screening and risk[ ] [ ](1 2 3 4 5 6 7 8 9 10) Primary care taking a greater role or engaging in specialist lab testing and treatment prior to referral[ ] [ ](1 2 3 4 5 6 7 8 9 10) Patient at-home monitoring of micronutrients, hormones, or other functional medicine biomarkers[ ] [ ](1 2 3 4 5 6 7 8 9 10) Surveillance services to monitor the need for increased HIV or hepatitis screening in your local area (zip/county)[ ] [ ](1 2 3 4 5 6 7 8 9 10) Use of AI to recommend lab tests for earlier detection and intervention by primary care[ ] [ ](1 2 3 4 5 6 7 8 9 10) 8. The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area. [Expose list as a roll-down menu for single selection response on rank importance, Randomize the list] (a thru l) From the list of lab test and service improvements below, what are the top three you would most like to see happen in (present each of the 12 Test Area or Reason in random order). your practice for the test area or reason for testing listed at the top of the improvements Please rank only the top three improvements by indicating whether they are the 1st , 2nd, or 3rd most important for that specific test area or reason for testing. After indicating the top three improvements you may move on to the next question. [Show only attributes >4% in Q1] Indicate only top 3 and then advance to next question. Add 4th response column: “Not in Top 3 Important” for all test areas1st 2nd 3rd MostMostMost ImportantImportantImportant Lab test and Service improvements Greater flexibility within test menu (to allow for rapid escalation to secondary/confirming tests; target tests for more efficient use of samples; prevent needless testing) [ ] [ ] [ ] Better standardized panels (to review diagnostic yield; align to guidelines; minimize cost; reduce TAT) [ ] [ ] [ ] Ability to customize panel [ ] [ ] [ ] Better patient education [ ] [ ] [ ] Improved patient convenience [ ] [ ] [ ] Programs to improve patient knowledge and understanding [ ] [ ] [ ] Self-collection (to improve compliance; patient QOL; cost) [ ] [ ] [ ] Better screening (improved risk stratification; use of genomic/biomarker testing; digital health monitoring; point-of-care testing) [ ] [ ] [ ] AI enhancement (to improve efficiency of workflow; improved diagnosis; HCP learning) [ ] [ ] [ ] For guidance on clinical decisions [ ] [ ] [ ] To enable earlier intervention in treatment [ ] [ ] [ ] For guidance on personalized treatment options [ ] [ ] [ ] 9. Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row] [Randomize list order for each respondent] Neither AgreeAgreeAgree NorDisagreeDisagree StronglySomewhatDisagreeSomewhatStrongly Large national labs have the same advanced testing that is available at niche or specialty laboratories[ ][ ][ ][ ][ ] I know more than other primary care physicians about the most recent trends in genetics and medical science[ ][ ][ ][ ][ ] If I have a problem, I now prefer to solve it assisted by AI[ ][ ][ ][ ][ ] A test is a test, no matter which reference lab does it[ ][ ][ ][ ][ ] I am fascinated by advances in genomic testing[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt new diagnostic tests[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt AI for greater efficiency in workflow/operations[ ][ ][ ][ ][ ] The future will see fewer primary care doctors caring for more patients in a system based on AI, data, and technology[ ][ ][ ][ ][ ] These final questions are for classification purposes only. 10. What is your age? [Single Select] Under 30 30 to 34 35 to 39 40 to 44 45 to 49 50 to 54 55 to 59 60 to 64 65 or over 11. How many days in an average month do you see patients at your office sites? _____ days [Range: 1-30] 12. Please indicate your gender. [Single Select] Male Female 13. In what geographic region are you located? [Single Select] Northeast South/Southeast Midwest Southwest West 14. Is your practice best described as residing in one of the following? [Single Select] Major Urban Core Area (high population density) Suburban Location (areas surrounding major urban core) Mid-size to Smaller City (urban or suburban) Smaller Town/Rural 15. Is your practice single specialty or multispecialty? [Single Select] Single specialty Multispecialty 16. How many primary care physicians are in your group practice, network, or system? [Single Select] Solo 2 to 9 10 to 24 25 to 49 50 to 99 100 or more 17. How large is the hospital (number of beds) you are affiliated with? [Single Select] Under 100 beds 100 to 299 beds 300 to 599 beds 600 to 999 beds 1,000 or more beds Not affiliated with a hospital 18. What percent of your practice’s commercial lab testing is done by the following reference labs? _____%Quest Diagnostics _____%Labcorp _____%Mayo Clinic Labs _____% Academic or Specialty Lab _____%Other Commercial Lab 100% 19. [Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system? ______ Number of hospitals in your health system [Range: 1-499] 20. [Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system? ______ Number of physician groups in your health system [Range: 0-999] 21. [Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select] Only one state Two states More than 2 states",
+          "notes": null,
+          "metadata": {
+            "source_line": 53
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "V2",
+      "variable": "V2",
+      "title": "06/26/2026 The Chestnut Partnership",
+      "text": "V2 06/26/2026 The Chestnut Partnership",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 2
+      }
+    },
+    {
+      "id": "V3",
+      "variable": "V3",
+      "title": "06/29/2026 The Chestnut Partnership",
+      "text": "V3 06/29/2026 The Chestnut Partnership",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 3
+      }
+    },
+    {
+      "id": "V4",
+      "variable": "V4",
+      "title": "06/30/2026 The Chestnut Partnership",
+      "text": "V4 06/30/2026 The Chestnut Partnership",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 4
+      }
+    },
+    {
+      "id": "V5",
+      "variable": "V5",
+      "title": "07/04/2026 The Chestnut Partnership",
+      "text": "V5 07/04/2026 The Chestnut Partnership [All terminates are immediate] Introduction We are a market research agency conducting a study amongst healthcare professionals to better understand their usage of recent advances in diagnostic and clinical lab testing. The purpose of the study is for market research only and your answers will be held in strict confidence and reported on an anonymous basis.",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "V5 07/04/2026 The Chestnut Partnership [All terminates are immediate] Introduction We are a market research agency conducting a study amongst healthcare professionals to better understand their usage of recent advances in diagnostic and clinical lab testing. The purpose of the study is for market research only and your answers will be held in strict confidence and reported on an anonymous basis.",
+      "notes": null,
+      "metadata": {
+        "source_line": 5
+      }
+    },
+    {
+      "id": "S1",
+      "variable": "S1",
+      "title": "Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company?",
+      "text": "S1. Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company? Yes[Terminate] No[Continue]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S1. Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company? Yes[Terminate] No[Continue]",
+      "notes": null,
+      "metadata": {
+        "source_line": 9
+      }
+    },
+    {
+      "id": "S2",
+      "variable": "S2",
+      "title": "Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select]",
+      "text": "S2. Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select] General Practice (GP)[Continue] Family Practice (FP)[Continue] Internal Medicine (IM)[Continue] Nurse Practitioner (NP)[Continue] Physician Assistant (PA)[Continue] Other certification or practice type[Terminate]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S2. Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select] General Practice (GP)[Continue] Family Practice (FP)[Continue] Internal Medicine (IM)[Continue] Nurse Practitioner (NP)[Continue] Physician Assistant (PA)[Continue] Other certification or practice type[Terminate]",
+      "notes": null,
+      "metadata": {
+        "source_line": 12
+      }
+    },
+    {
+      "id": "S3",
+      "variable": "S3",
+      "title": "How would you best describe your current practice affiliation and ownership? [Single Select]",
+      "text": "S3. How would you best describe your current practice affiliation and ownership? [Single Select] Academic or Teaching Hospital-Owned Health System 2+ affiliated hospitals (AHS) Community Hospital-Owned Health System, 2+ affiliated hospitals (CHS) Physician-Owned Group Practice/Network of Practices, 30 or more MD/DOs (POG30+) Physician-Owned Group Practice/Network of Practices, 5 to 29 MD/DOs (POG5-29) Physician-Owned Group/Solo Practice, 1 to 4 MD/DOs (POG1-4) Other[Terminate] [combine S2 and S3; Quotas: 40 GP/FP/IM each in AHS, CHS, and POG30+; 30 GP/FP/IM in either POG5-29 or POG1-4); 25 NP and 25 PA]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S3. How would you best describe your current practice affiliation and ownership? [Single Select] Academic or Teaching Hospital-Owned Health System 2+ affiliated hospitals (AHS) Community Hospital-Owned Health System, 2+ affiliated hospitals (CHS) Physician-Owned Group Practice/Network of Practices, 30 or more MD/DOs (POG30+) Physician-Owned Group Practice/Network of Practices, 5 to 29 MD/DOs (POG5-29) Physician-Owned Group/Solo Practice, 1 to 4 MD/DOs (POG1-4) Other[Terminate] [combine S2 and S3; Quotas: 40 GP/FP/IM each in AHS, CHS, and POG30+; 30 GP/FP/IM in either POG5-29 or POG1-4); 25 NP and 25 PA]",
+      "notes": null,
+      "metadata": {
+        "source_line": 19
+      }
+    },
+    {
+      "id": "S4",
+      "variable": "S4",
+      "title": "How many years have you been in practice?",
+      "text": "S4. How many years have you been in practice? _______ Years in Practice[Range: 1-40; Terminate if less than 2 yrs or more than 29 yrs]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S4. How many years have you been in practice? _______ Years in Practice[Range: 1-40; Terminate if less than 2 yrs or more than 29 yrs]",
+      "notes": null,
+      "metadata": {
+        "source_line": 27
+      }
+    },
+    {
+      "id": "S5",
+      "variable": "S5",
+      "title": "Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years?",
+      "text": "S5. Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years? Yes[Terminate] No[Continue]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S5. Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years? Yes[Terminate] No[Continue]",
+      "notes": null,
+      "metadata": {
+        "source_line": 29
+      }
+    },
+    {
+      "id": "S6",
+      "variable": "S6",
+      "title": "How many patients do you see in an average week? [Single Select]",
+      "text": "S6. How many patients do you see in an average week? [Single Select] Less than 75 patients per week[Terminate] 75 to 99 patients[Continue] 100 to 124 patients[Continue] 125 to 149 patients[Continue] 150 to 174 patients[Continue] 175 to 199 patients[Continue] 200 or more patients[Continue]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S6. How many patients do you see in an average week? [Single Select] Less than 75 patients per week[Terminate] 75 to 99 patients[Continue] 100 to 124 patients[Continue] 125 to 149 patients[Continue] 150 to 174 patients[Continue] 175 to 199 patients[Continue] 200 or more patients[Continue]",
+      "notes": null,
+      "metadata": {
+        "source_line": 32
+      }
+    },
+    {
+      "id": "S7",
+      "variable": "S7",
+      "title": "Do you have an assigned panel of patients you see on a continuing basis?",
+      "text": "S7. Do you have an assigned panel of patients you see on a continuing basis? Yes, If so, about how many patients are in this panel? _________[Range: 1-5,000] [Continue] No [Continue]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S7. Do you have an assigned panel of patients you see on a continuing basis? Yes, If so, about how many patients are in this panel? _________[Range: 1-5,000] [Continue] No [Continue]",
+      "notes": null,
+      "metadata": {
+        "source_line": 40
+      }
+    },
+    {
+      "id": "S8",
+      "variable": "S8",
+      "title": "What percentage of your patients are covered by the following payors?",
+      "text": "S8. What percentage of your patients are covered by the following payors? _____%Commercial Insurance _____ %Medicare _____ %Medicaid _____ %Other 100% [Terminate if total for Commercial, Medicare, and Medicaid is less than 70%]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S8. What percentage of your patients are covered by the following payors? _____%Commercial Insurance _____ %Medicare _____ %Medicaid _____ %Other 100% [Terminate if total for Commercial, Medicare, and Medicaid is less than 70%]",
+      "notes": null,
+      "metadata": {
+        "source_line": 43
+      }
+    },
+    {
+      "id": "S9",
+      "variable": "S9",
+      "title": "Are you practicing either part or full-time at a Federally Qualified Health Center (FQHC)?",
+      "text": "S9. Are you practicing either part or full-time at a Federally Qualified Health Center (FQHC)? Yes[Continue] No[Continue]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 50
+      }
+    },
+    {
+      "id": "S10",
+      "variable": "S10",
+      "title": "Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine?",
+      "text": "S10. Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine? Yes[Continue] No[Continue] Survey What percent of the patients that you see in an average month receive a lab test in each of the following test areas or for the following reasons? Please respond for each test area from 0% to 100% of patients in an average month. Additionally, Please note that on a given visit the same patient may be tested in more than one test area so that percentages need not add to 100% across test areas. [Randomize list order for each respondent & maintain order across questions] Range: 0-100] Test Areas or Reasons _____ %Cardiometabolic (CMD) _____ %CKM syndrome and obesity or weight management _____ %Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ %Vector-borne (e.g., Lyme, insect) _____ %Colorectal screening _____ %STIs _____ %Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ %HIV or Hepatitis _____ %Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ %Functional medicine (holistic or root cause testing) _____ %Neurodegenerative diseases (e.g., Parkinson’s) _____ %Autoimmune diseases (e.g., rheumatology, gastroenterology) 2. How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1] Number of PanelsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 3. How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1] Number of Additional TestsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 4. Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 5. Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 6. Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area. Near-termLonger-term Availability (2-3 yrs)Availability (5+ yrs) Test Area or Reason Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 7. The following is a list of future developments or trends in primary care and lab testing. (a) Is this development or trend currently affecting your practice? (b) On a 10-point scale (1 = “little if any potential for improving care” to 10 = “very great potential for improving care”) please rate each development or trend. [Randomize list order for each respondent] Currently AffectingLittle PotentialGreat Potential Your Practicefor Improving Carefor Improving Care Yes No Commercial labs actively working to help increase patient access to needed testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) New, advanced tests leading to earlier detection and intervention in disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to save provider time and streamline practice operations or workflow [ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to guide primary care in diagnosis and developing treatment plans[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI apps to support providers in navigation and coordination of other medical specialties[ ] [ ](1 2 3 4 5 6 7 8 9 10) Improved patient portals and AI guided patient education programs[ ] [ ](1 2 3 4 5 6 7 8 9 10) Development of services for in-home collection of specimens for lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased usage of wearable devices to monitor or collect data on patients in real time[ ] [ ](1 2 3 4 5 6 7 8 9 10) Provider apps to search and summarize the latest advances in lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Services to counsel or fact check patients on the use of social or other web media[ ] [ ](1 2 3 4 5 6 7 8 9 10) Lab tests/algorithms/data analysis to personalize tests in the context of the patient’s overall health status[ ] [ ](1 2 3 4 5 6 7 8 9 10) Custom panels to improve functional medicine testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increasing use of IGRA blood vs skin testing in tuberculosis screening[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased screening and broader utility of Vitamin D deficiency for a greater number of indications[ ] [ ](1 2 3 4 5 6 7 8 9 10) Faster or in-office screening for Lyme disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) MCED or multi-cancer early detection to assess and counsel patients on future screening and risk[ ] [ ](1 2 3 4 5 6 7 8 9 10) Primary care taking a greater role or engaging in specialist lab testing and treatment prior to referral[ ] [ ](1 2 3 4 5 6 7 8 9 10) Patient at-home monitoring of micronutrients, hormones, or other functional medicine biomarkers[ ] [ ](1 2 3 4 5 6 7 8 9 10) Surveillance services to monitor the need for increased HIV or hepatitis screening in your local area (zip/county)[ ] [ ](1 2 3 4 5 6 7 8 9 10) Use of AI to recommend lab tests for earlier detection and intervention by primary care[ ] [ ](1 2 3 4 5 6 7 8 9 10) 8. The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area. [Expose list as a roll-down menu for single selection response on rank importance, Randomize the list] (a thru l) From the list of lab test and service improvements below, what are the top three you would most like to see happen in (present each of the 12 Test Area or Reason in random order). your practice for the test area or reason for testing listed at the top of the improvements Please rank only the top three improvements by indicating whether they are the 1st , 2nd, or 3rd most important for that specific test area or reason for testing. After indicating the top three improvements you may move on to the next question. [Show only attributes >4% in Q1] Indicate only top 3 and then advance to next question. Add 4th response column: “Not in Top 3 Important” for all test areas1st 2nd 3rd MostMostMost ImportantImportantImportant Lab test and Service improvements Greater flexibility within test menu (to allow for rapid escalation to secondary/confirming tests; target tests for more efficient use of samples; prevent needless testing) [ ] [ ] [ ] Better standardized panels (to review diagnostic yield; align to guidelines; minimize cost; reduce TAT) [ ] [ ] [ ] Ability to customize panel [ ] [ ] [ ] Better patient education [ ] [ ] [ ] Improved patient convenience [ ] [ ] [ ] Programs to improve patient knowledge and understanding [ ] [ ] [ ] Self-collection (to improve compliance; patient QOL; cost) [ ] [ ] [ ] Better screening (improved risk stratification; use of genomic/biomarker testing; digital health monitoring; point-of-care testing) [ ] [ ] [ ] AI enhancement (to improve efficiency of workflow; improved diagnosis; HCP learning) [ ] [ ] [ ] For guidance on clinical decisions [ ] [ ] [ ] To enable earlier intervention in treatment [ ] [ ] [ ] For guidance on personalized treatment options [ ] [ ] [ ] 9. Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row] [Randomize list order for each respondent] Neither AgreeAgreeAgree NorDisagreeDisagree StronglySomewhatDisagreeSomewhatStrongly Large national labs have the same advanced testing that is available at niche or specialty laboratories[ ][ ][ ][ ][ ] I know more than other primary care physicians about the most recent trends in genetics and medical science[ ][ ][ ][ ][ ] If I have a problem, I now prefer to solve it assisted by AI[ ][ ][ ][ ][ ] A test is a test, no matter which reference lab does it[ ][ ][ ][ ][ ] I am fascinated by advances in genomic testing[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt new diagnostic tests[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt AI for greater efficiency in workflow/operations[ ][ ][ ][ ][ ] The future will see fewer primary care doctors caring for more patients in a system based on AI, data, and technology[ ][ ][ ][ ][ ] These final questions are for classification purposes only. 10. What is your age? [Single Select] Under 30 30 to 34 35 to 39 40 to 44 45 to 49 50 to 54 55 to 59 60 to 64 65 or over 11. How many days in an average month do you see patients at your office sites? _____ days [Range: 1-30] 12. Please indicate your gender. [Single Select] Male Female 13. In what geographic region are you located? [Single Select] Northeast South/Southeast Midwest Southwest West 14. Is your practice best described as residing in one of the following? [Single Select] Major Urban Core Area (high population density) Suburban Location (areas surrounding major urban core) Mid-size to Smaller City (urban or suburban) Smaller Town/Rural 15. Is your practice single specialty or multispecialty? [Single Select] Single specialty Multispecialty 16. How many primary care physicians are in your group practice, network, or system? [Single Select] Solo 2 to 9 10 to 24 25 to 49 50 to 99 100 or more 17. How large is the hospital (number of beds) you are affiliated with? [Single Select] Under 100 beds 100 to 299 beds 300 to 599 beds 600 to 999 beds 1,000 or more beds Not affiliated with a hospital 18. What percent of your practice’s commercial lab testing is done by the following reference labs? _____%Quest Diagnostics _____%Labcorp _____%Mayo Clinic Labs _____% Academic or Specialty Lab _____%Other Commercial Lab 100% 19. [Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system? ______ Number of hospitals in your health system [Range: 1-499] 20. [Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system? ______ Number of physician groups in your health system [Range: 0-999] 21. [Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select] Only one state Two states More than 2 states",
+      "section": "MAIN",
+      "question_type": "RANKING",
+      "required": false,
+      "options": [
+        {
+          "code": "2",
+          "text": "How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1]",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1]",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development.",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services.",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area.",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "The following is a list of future developments or trends in primary care and lab testing.",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area.",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row]",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "What is your age? [Single Select]",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "How many days in an average month do you see patients at your office sites?",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Please indicate your gender. [Single Select]",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "In what geographic region are you located? [Single Select]",
+          "value": 13,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "14",
+          "text": "Is your practice best described as residing in one of the following? [Single Select]",
+          "value": 14,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "15",
+          "text": "Is your practice single specialty or multispecialty? [Single Select]",
+          "value": 15,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "16",
+          "text": "How many primary care physicians are in your group practice, network, or system? [Single Select]",
+          "value": 16,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "17",
+          "text": "How large is the hospital (number of beds) you are affiliated with? [Single Select]",
+          "value": 17,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "18",
+          "text": "What percent of your practice’s commercial lab testing is done by the following reference labs?",
+          "value": 18,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "19",
+          "text": "[Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system?",
+          "value": 19,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "20",
+          "text": "[Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system?",
+          "value": 20,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "21",
+          "text": "[Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select]",
+          "value": 21,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "S10. Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine? Yes[Continue] No[Continue] Survey What percent of the patients that you see in an average month receive a lab test in each of the following test areas or for the following reasons? Please respond for each test area from 0% to 100% of patients in an average month. Additionally, Please note that on a given visit the same patient may be tested in more than one test area so that percentages need not add to 100% across test areas. [Randomize list order for each respondent & maintain order across questions] Range: 0-100] Test Areas or Reasons _____ %Cardiometabolic (CMD) _____ %CKM syndrome and obesity or weight management _____ %Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ %Vector-borne (e.g., Lyme, insect) _____ %Colorectal screening _____ %STIs _____ %Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ %HIV or Hepatitis _____ %Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ %Functional medicine (holistic or root cause testing) _____ %Neurodegenerative diseases (e.g., Parkinson’s) _____ %Autoimmune diseases (e.g., rheumatology, gastroenterology) 2. How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1] Number of PanelsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 3. How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1] Number of Additional TestsTest Areas or Reasons _____ Cardiometabolic (CMD) _____ CKM syndrome/ and obesity or weight management _____ Guideline-based screening (e.g., tuberculosis, multiple myeloma) _____ Vector-borne (e.g., Lyme, insect) _____ Colorectal screening _____ STIs _____ Allergy (e.g., food, seasonal, asthma-related or other respiratory) _____ HIV or Hepatitis _____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis) _____ Functional medicine (holistic or root cause testing) _____ Neurodegenerative diseases (e.g., Parkinson’s) _____ Autoimmune diseases (e.g., rheumatology, gastroenterology) 4. Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 5. Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services. Little to NoVery Great NeedNeed Test Areas or Reasons Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 6. Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area. Near-termLonger-term Availability (2-3 yrs)Availability (5+ yrs) Test Area or Reason Cardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10) CKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10) Guideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10) Vector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10) Colorectal screening(1 2 3 4 5 6 7 8 9 10) STIs(1 2 3 4 5 6 7 8 9 10) Allergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10) HIV or Hepatitis(1 2 3 4 5 6 7 8 9 10) Women’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10) Functional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10) Neurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10) Autoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10) 7. The following is a list of future developments or trends in primary care and lab testing. (a) Is this development or trend currently affecting your practice? (b) On a 10-point scale (1 = “little if any potential for improving care” to 10 = “very great potential for improving care”) please rate each development or trend. [Randomize list order for each respondent] Currently AffectingLittle PotentialGreat Potential Your Practicefor Improving Carefor Improving Care Yes No Commercial labs actively working to help increase patient access to needed testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) New, advanced tests leading to earlier detection and intervention in disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to save provider time and streamline practice operations or workflow [ ] [ ](1 2 3 4 5 6 7 8 9 10) AI applications to guide primary care in diagnosis and developing treatment plans[ ] [ ](1 2 3 4 5 6 7 8 9 10) AI apps to support providers in navigation and coordination of other medical specialties[ ] [ ](1 2 3 4 5 6 7 8 9 10) Improved patient portals and AI guided patient education programs[ ] [ ](1 2 3 4 5 6 7 8 9 10) Development of services for in-home collection of specimens for lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased usage of wearable devices to monitor or collect data on patients in real time[ ] [ ](1 2 3 4 5 6 7 8 9 10) Provider apps to search and summarize the latest advances in lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Services to counsel or fact check patients on the use of social or other web media[ ] [ ](1 2 3 4 5 6 7 8 9 10) Lab tests/algorithms/data analysis to personalize tests in the context of the patient’s overall health status[ ] [ ](1 2 3 4 5 6 7 8 9 10) Custom panels to improve functional medicine testing[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increasing use of IGRA blood vs skin testing in tuberculosis screening[ ] [ ](1 2 3 4 5 6 7 8 9 10) Increased screening and broader utility of Vitamin D deficiency for a greater number of indications[ ] [ ](1 2 3 4 5 6 7 8 9 10) Faster or in-office screening for Lyme disease[ ] [ ](1 2 3 4 5 6 7 8 9 10) MCED or multi-cancer early detection to assess and counsel patients on future screening and risk[ ] [ ](1 2 3 4 5 6 7 8 9 10) Primary care taking a greater role or engaging in specialist lab testing and treatment prior to referral[ ] [ ](1 2 3 4 5 6 7 8 9 10) Patient at-home monitoring of micronutrients, hormones, or other functional medicine biomarkers[ ] [ ](1 2 3 4 5 6 7 8 9 10) Surveillance services to monitor the need for increased HIV or hepatitis screening in your local area (zip/county)[ ] [ ](1 2 3 4 5 6 7 8 9 10) Use of AI to recommend lab tests for earlier detection and intervention by primary care[ ] [ ](1 2 3 4 5 6 7 8 9 10) 8. The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area. [Expose list as a roll-down menu for single selection response on rank importance, Randomize the list] (a thru l) From the list of lab test and service improvements below, what are the top three you would most like to see happen in (present each of the 12 Test Area or Reason in random order). your practice for the test area or reason for testing listed at the top of the improvements Please rank only the top three improvements by indicating whether they are the 1st , 2nd, or 3rd most important for that specific test area or reason for testing. After indicating the top three improvements you may move on to the next question. [Show only attributes >4% in Q1] Indicate only top 3 and then advance to next question. Add 4th response column: “Not in Top 3 Important” for all test areas1st 2nd 3rd MostMostMost ImportantImportantImportant Lab test and Service improvements Greater flexibility within test menu (to allow for rapid escalation to secondary/confirming tests; target tests for more efficient use of samples; prevent needless testing) [ ] [ ] [ ] Better standardized panels (to review diagnostic yield; align to guidelines; minimize cost; reduce TAT) [ ] [ ] [ ] Ability to customize panel [ ] [ ] [ ] Better patient education [ ] [ ] [ ] Improved patient convenience [ ] [ ] [ ] Programs to improve patient knowledge and understanding [ ] [ ] [ ] Self-collection (to improve compliance; patient QOL; cost) [ ] [ ] [ ] Better screening (improved risk stratification; use of genomic/biomarker testing; digital health monitoring; point-of-care testing) [ ] [ ] [ ] AI enhancement (to improve efficiency of workflow; improved diagnosis; HCP learning) [ ] [ ] [ ] For guidance on clinical decisions [ ] [ ] [ ] To enable earlier intervention in treatment [ ] [ ] [ ] For guidance on personalized treatment options [ ] [ ] [ ] 9. Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row] [Randomize list order for each respondent] Neither AgreeAgreeAgree NorDisagreeDisagree StronglySomewhatDisagreeSomewhatStrongly Large national labs have the same advanced testing that is available at niche or specialty laboratories[ ][ ][ ][ ][ ] I know more than other primary care physicians about the most recent trends in genetics and medical science[ ][ ][ ][ ][ ] If I have a problem, I now prefer to solve it assisted by AI[ ][ ][ ][ ][ ] A test is a test, no matter which reference lab does it[ ][ ][ ][ ][ ] I am fascinated by advances in genomic testing[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt new diagnostic tests[ ][ ][ ][ ][ ] I am amongst the first of my primary care colleagues to adopt AI for greater efficiency in workflow/operations[ ][ ][ ][ ][ ] The future will see fewer primary care doctors caring for more patients in a system based on AI, data, and technology[ ][ ][ ][ ][ ] These final questions are for classification purposes only. 10. What is your age? [Single Select] Under 30 30 to 34 35 to 39 40 to 44 45 to 49 50 to 54 55 to 59 60 to 64 65 or over 11. How many days in an average month do you see patients at your office sites? _____ days [Range: 1-30] 12. Please indicate your gender. [Single Select] Male Female 13. In what geographic region are you located? [Single Select] Northeast South/Southeast Midwest Southwest West 14. Is your practice best described as residing in one of the following? [Single Select] Major Urban Core Area (high population density) Suburban Location (areas surrounding major urban core) Mid-size to Smaller City (urban or suburban) Smaller Town/Rural 15. Is your practice single specialty or multispecialty? [Single Select] Single specialty Multispecialty 16. How many primary care physicians are in your group practice, network, or system? [Single Select] Solo 2 to 9 10 to 24 25 to 49 50 to 99 100 or more 17. How large is the hospital (number of beds) you are affiliated with? [Single Select] Under 100 beds 100 to 299 beds 300 to 599 beds 600 to 999 beds 1,000 or more beds Not affiliated with a hospital 18. What percent of your practice’s commercial lab testing is done by the following reference labs? _____%Quest Diagnostics _____%Labcorp _____%Mayo Clinic Labs _____% Academic or Specialty Lab _____%Other Commercial Lab 100% 19. [Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system? ______ Number of hospitals in your health system [Range: 1-499] 20. [Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system? ______ Number of physician groups in your health system [Range: 0-999] 21. [Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select] Only one state Two states More than 2 states",
+      "notes": null,
+      "metadata": {
+        "source_line": 53
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "(V5 R94036) Bob Response PC_Final_WAQ (2).docx",
+  "source_format": "docx",
+  "source_text": "Final Primary Care Landscape (6/16/26)\nV2 06/26/2026 The Chestnut Partnership\nV3 06/29/2026 The Chestnut Partnership\nV4 06/30/2026 The Chestnut Partnership\nV5 07/04/2026 The Chestnut Partnership\n[All terminates are immediate]\nIntroduction\nWe are a market research agency conducting a study amongst healthcare professionals to better understand their usage of recent advances in diagnostic and clinical lab testing. The purpose of the study is for market research only and your answers will be held in strict confidence and reported on an anonymous basis.\nS1. Are you or anyone in your immediate family currently employed by a market research company, a healthcare communication agency, the Food and Drug Administration (FDA), or a medical device, diagnostic, or pharmaceutical company?\nYes[Terminate]\nNo[Continue]\nS2. Are you an office-based primary care physician (MD/DO) board-certified as a GP, FP, or IM, or a licensed/board-certified nurse practitioner or physician assistant practicing primary care? [Single Select]\nGeneral Practice (GP)[Continue]\nFamily Practice (FP)[Continue]\nInternal Medicine (IM)[Continue]\nNurse Practitioner (NP)[Continue]\nPhysician Assistant (PA)[Continue]\nOther certification or practice type[Terminate]\nS3. How would you best describe your current practice affiliation and ownership? [Single Select]\nAcademic or Teaching Hospital-Owned Health System 2+ affiliated hospitals (AHS)\nCommunity Hospital-Owned Health System, 2+ affiliated hospitals (CHS)\nPhysician-Owned Group Practice/Network of Practices, 30 or more MD/DOs (POG30+)\nPhysician-Owned Group Practice/Network of Practices, 5 to 29 MD/DOs (POG5-29)\nPhysician-Owned Group/Solo Practice, 1 to 4 MD/DOs (POG1-4)\nOther[Terminate]\n[combine S2 and S3; Quotas: 40 GP/FP/IM each in AHS, CHS, and POG30+; 30 GP/FP/IM in either POG5-29 or POG1-4); 25 NP and 25 PA]\nS4. How many years have you been in practice?\n_______ Years in Practice[Range: 1-40; Terminate if less than 2 yrs or more than 29 yrs]\nS5. Are you currently planning to leave primary care or retire from practice within the next 2 to 3 years?\nYes[Terminate]\nNo[Continue]\nS6. How many patients do you see in an average week? [Single Select]\nLess than 75 patients per week[Terminate]\n75 to 99 patients[Continue]\n100 to 124 patients[Continue]\n125 to 149 patients[Continue]\n150 to 174 patients[Continue]\n175 to 199 patients[Continue]\n200 or more patients[Continue]\nS7. Do you have an assigned panel of patients you see on a continuing basis?\nYes, If so, about how many patients are in this panel? _________[Range: 1-5,000] [Continue]\nNo [Continue]\nS8. What percentage of your patients are covered by the following payors?\n_____%Commercial Insurance\n_____ %Medicare\n_____ %Medicaid\n_____ %Other\n100%\n[Terminate if total for Commercial, Medicare, and Medicaid is less than 70%]\nS9. Are you practicing either part or full-time at a Federally Qualified Health Center (FQHC)?\nYes[Continue]\nNo[Continue]\nS10. Have you received CME or CE credits in functional medicine, reviewed or been tested on AAFP functional medicine topics, or been certified in functional medicine?\nYes[Continue]\nNo[Continue]\nSurvey\nWhat percent of the patients that you see in an average month receive a lab test in each of the following test areas or for the following reasons? Please respond for each test area from 0% to 100% of patients in an average month. Additionally, Please note that on a given visit the same patient may be tested in more than one test area so that percentages need not add to 100% across test areas.\n[Randomize list order for each respondent & maintain order across questions]\nRange: 0-100]\nTest Areas or Reasons\n_____ %Cardiometabolic (CMD)\n_____ %CKM syndrome and obesity or weight management\n_____ %Guideline-based screening (e.g., tuberculosis, multiple myeloma)\n_____ %Vector-borne (e.g., Lyme, insect)\n_____ %Colorectal screening\n_____ %STIs\n_____ %Allergy (e.g., food, seasonal, asthma-related or other respiratory)\n_____ %HIV or Hepatitis\n_____ %Women’s health screening (e.g., cervical cancer, HPV, vaginitis)\n_____ %Functional medicine (holistic or root cause testing)\n_____ %Neurodegenerative diseases (e.g., Parkinson’s)\n_____ %Autoimmune diseases (e.g., rheumatology, gastroenterology)\n2. How many separate test panels (groupings of related lab tests, e.g., CBC, CMP, Thyroid panel, etc.) are ordered in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-99] [Show only attributes >4% in Q1]\nNumber\nof PanelsTest Areas or Reasons\n_____ Cardiometabolic (CMD)\n_____ CKM syndrome/ and obesity or weight management\n_____ Guideline-based screening (e.g., tuberculosis, multiple myeloma)\n_____ Vector-borne (e.g., Lyme, insect)\n_____ Colorectal screening\n_____ STIs\n_____ Allergy (e.g., food, seasonal, asthma-related or other respiratory)\n_____ HIV or Hepatitis\n_____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis)\n_____ Functional medicine (holistic or root cause testing)\n_____ Neurodegenerative diseases (e.g., Parkinson’s)\n_____ Autoimmune diseases (e.g., rheumatology, gastroenterology)\n3. How many other single tests, biomarkers, or test groupings/algorithms are done in addition to these panels in an average visit for each of these test areas/reasons? [Numeric; Range: 1-99 0-199] [Show only attributes >4% in Q1]\nNumber of\nAdditional TestsTest Areas or Reasons\n_____ Cardiometabolic (CMD)\n_____ CKM syndrome/ and obesity or weight management\n_____ Guideline-based screening (e.g., tuberculosis, multiple myeloma)\n_____ Vector-borne (e.g., Lyme, insect)\n_____ Colorectal screening\n_____ STIs\n_____ Allergy (e.g., food, seasonal, asthma-related or other respiratory)\n_____ HIV or Hepatitis\n_____ Women’s health screening (e.g., cervical cancer, HPV, vaginitis)\n_____ Functional medicine (holistic or root cause testing)\n_____ Neurodegenerative diseases (e.g., Parkinson’s)\n_____ Autoimmune diseases (e.g., rheumatology, gastroenterology)\n4. Where is the greatest need for lab test development? This includes improvements in existing tests as well as new tests based on clinical or scientific advances. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test development.\nLittle to NoVery Great\nNeedNeed\nTest Areas or Reasons\nCardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10)\nCKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10)\nGuideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10)\nVector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10)\nColorectal screening(1 2 3 4 5 6 7 8 9 10)\nSTIs(1 2 3 4 5 6 7 8 9 10)\nAllergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10)\nHIV or Hepatitis(1 2 3 4 5 6 7 8 9 10)\nWomen’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10)\nFunctional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10)\nNeurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10)\nAutoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10)\n5. Where is the greatest need for improvements in lab test support services to healthcare professionals and patients? This includes improvements in existing support services as well as new innovations in service. On a 10-point scale (1 = “little to no need” to 10 = “very great need”), please rate the relative or greatest need for lab test support services.\nLittle to NoVery Great\nNeedNeed\nTest Areas or Reasons\nCardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10)\nCKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10)\nGuideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10)\nVector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10)\nColorectal screening(1 2 3 4 5 6 7 8 9 10)\nSTIs(1 2 3 4 5 6 7 8 9 10)\nAllergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10)\nHIV or Hepatitis(1 2 3 4 5 6 7 8 9 10)\nWomen’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10)\nFunctional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10)\nNeurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10)\nAutoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10)\n6. Given your knowledge of the pace at which lab tests and support services are now developing and coming into your practice, when are you likely to see major improvements taking place and becoming available for your patients? On a 10-point scale (1 = “Near-term, 2-3 yrs” to 10 = “Longer-term, 5+ yrs”), please rate the expected availability of major improvements in each area.\nNear-termLonger-term\nAvailability (2-3 yrs)Availability (5+ yrs)\nTest Area or Reason\nCardiometabolic (CMD)(1 2 3 4 5 6 7 8 9 10)\nCKM syndrome/ and obesity or weight management(1 2 3 4 5 6 7 8 9 10)\nGuideline-based screening (e.g., tuberculosis, multiple myeloma)(1 2 3 4 5 6 7 8 9 10)\nVector-borne (e.g., Lyme, insect)(1 2 3 4 5 6 7 8 9 10)\nColorectal screening(1 2 3 4 5 6 7 8 9 10)\nSTIs(1 2 3 4 5 6 7 8 9 10)\nAllergy (e.g., food, seasonal, asthma-related or other respiratory)(1 2 3 4 5 6 7 8 9 10)\nHIV or Hepatitis(1 2 3 4 5 6 7 8 9 10)\nWomen’s health screening (e.g., cervical cancer, HPV, vaginitis)(1 2 3 4 5 6 7 8 9 10)\nFunctional medicine (holistic or root cause testing)(1 2 3 4 5 6 7 8 9 10)\nNeurodegenerative diseases (e.g., Parkinson’s)(1 2 3 4 5 6 7 8 9 10)\nAutoimmune diseases (e.g., rheumatology, gastroenterology)(1 2 3 4 5 6 7 8 9 10)\n7. The following is a list of future developments or trends in primary care and lab testing.\n(a) Is this development or trend currently affecting your practice?\n(b) On a 10-point scale (1 = “little if any potential for improving care” to 10 = “very great potential for improving care”) please rate each development or trend.\n[Randomize list order for each respondent]\nCurrently AffectingLittle PotentialGreat Potential\nYour Practicefor Improving Carefor Improving Care\nYes No\nCommercial labs actively working to help increase\npatient access to needed testing[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nNew, advanced tests leading to earlier detection\nand intervention in disease[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nAI applications to save provider time and streamline\npractice operations or workflow [ ] [ ](1 2 3 4 5 6 7 8 9 10)\nAI applications to guide primary care in diagnosis\nand developing treatment plans[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nAI apps to support providers in navigation and\ncoordination of other medical specialties[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nImproved patient portals and AI guided\npatient education programs[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nDevelopment of services for in-home collection of\nspecimens for lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nIncreased usage of wearable devices to monitor\nor collect data on patients in real time[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nProvider apps to search and summarize the latest\nadvances in lab testing[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nServices to counsel or fact check patients on the\nuse of social or other web media[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nLab tests/algorithms/data analysis to personalize tests\nin the context of the patient’s overall health status[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nCustom panels to improve functional medicine testing[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nIncreasing use of IGRA blood vs skin testing in tuberculosis\nscreening[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nIncreased screening and broader utility of Vitamin D\ndeficiency for a greater number of indications[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nFaster or in-office screening for Lyme disease[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nMCED or multi-cancer early detection to assess\nand counsel patients on future screening and risk[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nPrimary care taking a greater role or engaging in\nspecialist lab testing and treatment prior to referral[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nPatient at-home monitoring of micronutrients, hormones,\nor other functional medicine biomarkers[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nSurveillance services to monitor the need for increased\nHIV or hepatitis screening in your local area (zip/county)[ ] [ ](1 2 3 4 5 6 7 8 9 10)\nUse of AI to recommend lab tests for earlier\ndetection and intervention by primary care[ ] [ ](1 2 3 4 5 6 7 8 9 10)\n8. The following is a list of lab test developments and service improvements. Please rank your top three priorities (from 1 = “most important” to 3 = “third most important”) for improving primary care tests and services in each area.\n[Expose list as a roll-down menu for single selection response on rank importance, Randomize the list]\n(a thru l) From the list of lab test and service improvements below, what are the top three you would most like to see happen in (present each of the 12 Test Area or Reason in random order). your practice for the test area or reason for testing listed at the top of the improvements Please rank only the top three improvements by indicating whether they are the 1st , 2nd, or 3rd most important for that specific test area or reason for testing. After indicating the top three improvements you may move on to the next question. [Show only attributes >4% in Q1]\nIndicate only top 3 and then advance to next question.\nAdd 4th response column: “Not in Top 3 Important” for all test areas1st 2nd 3rd\nMostMostMost\nImportantImportantImportant\nLab test and Service improvements\nGreater flexibility within test menu (to allow for rapid escalation to\nsecondary/confirming tests; target tests for more efficient use of samples;\nprevent needless testing) [ ] [ ] [ ]\nBetter standardized panels (to review diagnostic yield; align\nto guidelines; minimize cost; reduce TAT) [ ] [ ] [ ]\nAbility to customize panel [ ] [ ] [ ]\nBetter patient education [ ] [ ] [ ]\nImproved patient convenience [ ] [ ] [ ]\nPrograms to improve patient knowledge and understanding [ ] [ ] [ ]\nSelf-collection (to improve compliance; patient QOL; cost) [ ] [ ] [ ]\nBetter screening (improved risk stratification; use of genomic/biomarker\ntesting; digital health monitoring; point-of-care testing) [ ] [ ] [ ]\nAI enhancement (to improve efficiency of workflow;\nimproved diagnosis; HCP learning) [ ] [ ] [ ]\nFor guidance on clinical decisions [ ] [ ] [ ]\nTo enable earlier intervention in treatment [ ] [ ] [ ]\nFor guidance on personalized treatment options [ ] [ ] [ ]\n9. Below are a number of statements or opinions. You may agree or disagree, or find them true or not for you personally. Please give us your opinion by indicating how much you either agree or disagree with each. [Single Select per row]\n[Randomize list order for each respondent]\nNeither\nAgreeAgreeAgree NorDisagreeDisagree\nStronglySomewhatDisagreeSomewhatStrongly\nLarge national labs have the same advanced testing\nthat is available at niche or specialty laboratories[ ][ ][ ][ ][ ]\nI know more than other primary care physicians about\nthe most recent trends in genetics and medical science[ ][ ][ ][ ][ ]\nIf I have a problem, I now prefer to solve it assisted by AI[ ][ ][ ][ ][ ]\nA test is a test, no matter which reference lab does it[ ][ ][ ][ ][ ]\nI am fascinated by advances in genomic testing[ ][ ][ ][ ][ ]\nI am amongst the first of my primary care colleagues\nto adopt new diagnostic tests[ ][ ][ ][ ][ ]\nI am amongst the first of my primary care colleagues\nto adopt AI for greater efficiency in workflow/operations[ ][ ][ ][ ][ ]\nThe future will see fewer primary care doctors caring for more\npatients in a system based on AI, data, and technology[ ][ ][ ][ ][ ]\nThese final questions are for classification purposes only.\n10. What is your age? [Single Select]\nUnder 30\n30 to 34\n35 to 39\n40 to 44\n45 to 49\n50 to 54\n55 to 59\n60 to 64\n65 or over\n11. How many days in an average month do you see patients at your office sites?\n_____ days [Range: 1-30]\n12. Please indicate your gender. [Single Select]\nMale\nFemale\n13. In what geographic region are you located? [Single Select]\nNortheast\nSouth/Southeast\nMidwest\nSouthwest\nWest\n14. Is your practice best described as residing in one of the following? [Single Select]\nMajor Urban Core Area (high population density)\nSuburban Location (areas surrounding major urban core)\nMid-size to Smaller City (urban or suburban)\nSmaller Town/Rural\n15. Is your practice single specialty or multispecialty? [Single Select]\nSingle specialty\nMultispecialty\n16. How many primary care physicians are in your group practice, network, or system? [Single Select]\nSolo\n2 to 9\n10 to 24\n25 to 49\n50 to 99\n100 or more\n17. How large is the hospital (number of beds) you are affiliated with? [Single Select]\nUnder 100 beds\n100 to 299 beds\n300 to 599 beds\n600 to 999 beds\n1,000 or more beds\nNot affiliated with a hospital\n18. What percent of your practice’s commercial lab testing is done by the following reference labs?\n_____%Quest Diagnostics\n_____%Labcorp\n_____%Mayo Clinic Labs\n_____% Academic or Specialty Lab\n_____%Other Commercial Lab\n100%\n19. [Ask only of health system respondents, S3= 1 or 2] How many hospitals are in your health system?\n______ Number of hospitals in your health system [Range: 1-499]\n20. [Ask only of health system respondents, S3= 1 or 2] How many physician groups are in your health system?\n______ Number of physician groups in your health system [Range: 0-999]\n21. [Ask only of health system respondents, S3= 1 or 2] Does your health system operate in the following number of states? [Single Select]\nOnly one state\nTwo states\nMore than 2 states",
+  "total_questions": 14,
+  "total_sections": 1,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 297,
+      "source_characters": 17085,
+      "question_style_blocks": 0
+    }
+  }
+}

@@ -1,0 +1,1033 @@
+{
+  "questionnaire_title": "Final Primary Care Landscape (6/16/26)",
+  "project_name": null,
+  "validations": [
+    {
+      "question_id": "V2",
+      "variable": "V2",
+      "rules": [],
+      "no_validation_reason": "Date and client-identification text only; no respondent-entered value or validation evidence."
+    },
+    {
+      "question_id": "V3",
+      "variable": "V3",
+      "rules": [],
+      "no_validation_reason": "Date and client-identification text only; no respondent-entered value or validation evidence."
+    },
+    {
+      "question_id": "V4",
+      "variable": "V4",
+      "rules": [],
+      "no_validation_reason": "Date and client-identification text only; no respondent-entered value or validation evidence."
+    },
+    {
+      "question_id": "V5",
+      "variable": "V5",
+      "rules": [],
+      "no_validation_reason": "Introduction and study-information text only; no respondent-entered value or validation evidence."
+    },
+    {
+      "question_id": "S1",
+      "variable": "S1",
+      "rules": [
+        {
+          "id": "S1_MANDATORY",
+          "question_id": "S1",
+          "validation_type": "mandatory",
+          "description": "Require a response to the employment screening question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S1_INVALID_CODES",
+          "question_id": "S1",
+          "validation_type": "invalid_codes",
+          "description": "Allow only Yes or No responses.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Yes",
+              "No"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S1_SCREENOUT_YES",
+          "question_id": "S1",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents answering Yes to the exclusion question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S1",
+                "operator": "equals",
+                "values": [
+                  "Yes"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S2",
+      "variable": "S2",
+      "rules": [
+        {
+          "id": "S2_MANDATORY",
+          "question_id": "S2",
+          "validation_type": "mandatory",
+          "description": "Require a primary-care certification or practice-type response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S2_INVALID_CODES",
+          "question_id": "S2",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed certification or practice-type responses.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "General Practice (GP)",
+              "Family Practice (FP)",
+              "Internal Medicine (IM)",
+              "Nurse Practitioner (NP)",
+              "Physician Assistant (PA)",
+              "Other certification or practice type"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S2_SCREENOUT_OTHER",
+          "question_id": "S2",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents selecting Other certification or practice type.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S2",
+                "operator": "equals",
+                "values": [
+                  "Other certification or practice type"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S3",
+      "variable": "S3",
+      "rules": [
+        {
+          "id": "S3_MANDATORY",
+          "question_id": "S3",
+          "validation_type": "mandatory",
+          "description": "Require a practice affiliation and ownership response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S3_INVALID_CODES",
+          "question_id": "S3",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed practice affiliation and ownership responses.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Academic or Teaching Hospital-Owned Health System 2+ affiliated hospitals (AHS)",
+              "Community Hospital-Owned Health System, 2+ affiliated hospitals (CHS)",
+              "Physician-Owned Group Practice/Network of Practices, 30 or more MD/DOs (POG30+)",
+              "Physician-Owned Group/Network of Practices, 5 to 29 MD/DOs (POG5-29)",
+              "Physician-Owned Group/Solo Practice, 1 to 4 MD/DOs (POG1-4)",
+              "Other"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S3_SCREENOUT_OTHER",
+          "question_id": "S3",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents selecting Other practice affiliation or ownership.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S3",
+                "operator": "equals",
+                "values": [
+                  "Other"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S4",
+      "variable": "S4",
+      "rules": [
+        {
+          "id": "S4_MANDATORY",
+          "question_id": "S4",
+          "validation_type": "mandatory",
+          "description": "Require years in practice.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S4_RANGE",
+          "question_id": "S4",
+          "validation_type": "numeric_range",
+          "description": "Accept years in practice from 1 through 40.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S4_SCREENOUT_LT2",
+          "question_id": "S4",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents with fewer than 2 years in practice.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S4",
+                "operator": "less_than",
+                "values": [
+                  2
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S4_SCREENOUT_GT29",
+          "question_id": "S4",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents with more than 29 years in practice.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S4",
+                "operator": "greater_than",
+                "values": [
+                  29
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S5",
+      "variable": "S5",
+      "rules": [
+        {
+          "id": "S5_MANDATORY",
+          "question_id": "S5",
+          "validation_type": "mandatory",
+          "description": "Require a response about planned departure or retirement.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S5_INVALID_CODES",
+          "question_id": "S5",
+          "validation_type": "invalid_codes",
+          "description": "Allow only Yes or No responses.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Yes",
+              "No"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S5_SCREENOUT_YES",
+          "question_id": "S5",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents planning to leave primary care or retire within 2 to 3 years.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S5",
+                "operator": "equals",
+                "values": [
+                  "Yes"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S6",
+      "variable": "S6",
+      "rules": [
+        {
+          "id": "S6_MANDATORY",
+          "question_id": "S6",
+          "validation_type": "mandatory",
+          "description": "Require average weekly patient volume.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S6_INVALID_CODES",
+          "question_id": "S6",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the listed weekly patient-volume categories.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S6"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Less than 75 patients per week",
+              "75 to 99 patients",
+              "100 to 124 patients",
+              "125 to 149 patients",
+              "150 to 174 patients",
+              "175 to 199 patients",
+              "200 or more patients"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S6_SCREENOUT_LOW_VOLUME",
+          "question_id": "S6",
+          "validation_type": "screen_out",
+          "description": "Terminate respondents seeing fewer than 75 patients per week.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [
+              {
+                "variable": "S6",
+                "operator": "equals",
+                "values": [
+                  "Less than 75 patients per week"
+                ]
+              }
+            ],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S7",
+      "variable": "S7",
+      "rules": [
+        {
+          "id": "S7_MANDATORY",
+          "question_id": "S7",
+          "validation_type": "mandatory",
+          "description": "Require a response about having an assigned patient panel.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S7_INVALID_CODES",
+          "question_id": "S7",
+          "validation_type": "invalid_codes",
+          "description": "Allow only Yes or No responses for assigned patient panel.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Yes",
+              "No"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S8",
+      "variable": "S8",
+      "rules": [
+        {
+          "id": "S8_MANDATORY",
+          "question_id": "S8",
+          "validation_type": "mandatory",
+          "description": "Require payor coverage percentages.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S8_PERCENTAGE_TOTAL",
+          "question_id": "S8",
+          "validation_type": "percentage_total",
+          "description": "Require payor percentages to total 100%.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S8"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": 100.0,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S9",
+      "variable": "S9",
+      "rules": [
+        {
+          "id": "S9_MANDATORY",
+          "question_id": "S9",
+          "validation_type": "mandatory",
+          "description": "Require a response about FQHC practice.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "S9_INVALID_CODES",
+          "question_id": "S9",
+          "validation_type": "invalid_codes",
+          "description": "Allow only Yes or No responses.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S9"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              "Yes",
+              "No"
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "S10",
+      "variable": "S10",
+      "rules": [
+        {
+          "id": "S10_MANDATORY",
+          "question_id": "S10",
+          "validation_type": "mandatory",
+          "description": "Require a response to the functional-medicine experience question and associated survey block.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "S10"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "S10 contains multiple embedded survey questions and grids, but no separate canonical variables were supplied; uncertain subquestion-level range, ranking, duplicate-ranking, and routing checks were omitted.",
+    "The S8 termination condition depends on the subtotal of three named payor fields, but those component variables were not supplied; no aggregate threshold rule was added.",
+    "The conditional numeric panel-count field in S7 has no separate canonical variable; its range check was omitted.",
+    "Omitted incomplete model rule: Rule S8_PERCENTAGE_RANGE requires variables and a range or allowed_values"
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

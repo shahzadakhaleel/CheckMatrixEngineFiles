@@ -1,0 +1,35 @@
+{
+  "run_id": "20260730T155406158664Z",
+  "created_at": "2026-07-30T15:56:01.125075+00:00",
+  "generation_seconds": 115.07,
+  "input": {
+    "key": "20260730T155406158664Z__Medium_Survey.docx",
+    "filename": "Medium_Survey.docx",
+    "size": 398338,
+    "created_at": "2026-07-30T15:54:06.164850+00:00"
+  },
+  "output": {
+    "key": "Validation_20260730T155406158664Z.sps",
+    "filename": "Validation_20260730T155406158664Z.sps",
+    "size": 27793,
+    "created_at": "2026-07-30T15:56:01.125075+00:00"
+  },
+  "validationSummary": {
+    "questions": 73,
+    "checksEmitted": 92,
+    "questionsOmitted": 15,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Questionnaire",
+        "prefix": "V, QUOTA, SCREENER, CONSENT, SURVEY, PT, S, Q",
+        "questions": 73,
+        "checksEmitted": 92,
+        "questionsOmitted": 15,
+        "coverage": "Partial"
+      }
+    ],
+    "user": "appadmin"
+  },
+  "user": "appadmin"
+}

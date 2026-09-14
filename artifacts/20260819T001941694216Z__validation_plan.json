@@ -1,0 +1,369 @@
+{
+  "questionnaire_title": "A UK Delphi Consensus on Atopic Dermatitis with Head and Neck Involvement",
+  "project_name": "LEO_HN_AD_M3_R1_survey_June_2026_v2.0",
+  "validations": [
+    {
+      "question_id": "CONSENT",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "S1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "S2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "S3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options and termination routing are documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "S4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Response options are documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_001",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid and conditional open-text instruction are documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_002",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_003",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_004",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_005",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_006",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_007",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_008",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_009",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_010",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_011",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_012",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_013",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_014",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_015",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_016",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_017",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_018",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_019",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_020",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "A six-point grid is documented, but no target variable is supplied for a supported validation rule."
+    },
+    {
+      "question_id": "Q_AUTO_021",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_022",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_023",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_024",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_025",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_026",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_027",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_028",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_029",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_030",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_031",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_032",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_033",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_034",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_035",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_036",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_037",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_038",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_039",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_040",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_041",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_042",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_043",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_044",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_045",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "No variable identifier was supplied, so the response-scale check cannot be safely targeted."
+    },
+    {
+      "question_id": "Q_AUTO_046",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_047",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_048",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_049",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_050",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_051",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_052",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q_AUTO_053",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional single-response grid item has no canonical response variable, so an evidence-supported response-code check cannot be assigned without inventing a variable."
+    },
+    {
+      "question_id": "Q54",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "Optional acknowledgement open-text question has no canonical response variable; no supported open-end consistency check can be assigned without inventing a variable."
+    }
+  ],
+  "warnings": [
+    "All questions in this batch have null variable identifiers. Evidence-supported checks requiring target variables were therefore omitted rather than inferred from question IDs.",
+    "All questions in this batch lack variable identifiers; although each supplies response codes 1-6, no validation rule was emitted because variables must not be inferred.",
+    "Canonical response variables are absent for all questions in this batch; response-code, missingness, and open-text checks were therefore omitted."
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

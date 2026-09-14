@@ -1,0 +1,12 @@
+{
+  "block_id": "B29",
+  "source_variables": [
+    "Q25"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q25.\ntemporary.\nsel if Q25=\"\".\nlist respid, Q25.",
+  "omission_reason": null,
+  "warnings": [
+    "The dictionary confirms Q25 is a string with width 255; the questionnaire describes a 250-character limit, but no string-length check is generated."
+  ]
+}

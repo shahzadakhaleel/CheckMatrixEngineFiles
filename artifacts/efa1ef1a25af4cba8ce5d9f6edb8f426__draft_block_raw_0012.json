@@ -1,0 +1,21 @@
+{
+  "block_id": "B12",
+  "source_variables": [
+    "Q4r1",
+    "Q4r2",
+    "Q4r3",
+    "Q4r4",
+    "Q4r5",
+    "Q4r6",
+    "S10r1",
+    "S10r2"
+  ],
+  "temporary_variables": [
+    "S10_best1"
+  ],
+  "spss": "tit Q4.\ncompute S10_best1=sum(S10r1,S10r2).\nexe.\ntemporary.\nsel if miss(Q4r1) or Q4r1<0 or Q4r1>S10_best1 or miss(Q4r2) or Q4r2<0 or Q4r2>S10_best1 or miss(Q4r3) or Q4r3<0 or Q4r3>S10_best1 or miss(Q4r4) or Q4r4<0 or Q4r4>S10_best1 or miss(Q4r5) or Q4r5<0 or Q4r5>S10_best1 or miss(Q4r6) or Q4r6<0 or Q4r6>S10_best1.\nlist respid, S10_best1, Q4r1 to Q4r6.\ndel var S10_best1.\nexe.",
+  "omission_reason": null,
+  "warnings": [
+    "Q4 includes an I don't know row. The source supplies no explicit exclusivity rule for that row, so only missing and bounds checks are generated."
+  ]
+}

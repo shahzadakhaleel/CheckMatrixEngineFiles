@@ -1,0 +1,424 @@
+[
+  {
+    "id": "ADMIN_RESPID",
+    "question_ids": [],
+    "source_variables": [
+      "respid"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:respid"
+    ]
+  },
+  {
+    "id": "ADMIN_USER_ID",
+    "question_ids": [],
+    "source_variables": [
+      "user_id"
+    ],
+    "checks": [
+      "Shared default: nonblank []"
+    ],
+    "provenance": [
+      "defaults:1:user_id"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_START",
+    "question_ids": [],
+    "source_variables": [
+      "interview_start"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_start"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_END",
+    "question_ids": [],
+    "source_variables": [
+      "interview_end"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_end"
+    ]
+  },
+  {
+    "id": "ADMIN_SCREENSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "screenstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:screenstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_SCRSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "scrstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:scrstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDCHANGE",
+    "question_ids": [],
+    "source_variables": [
+      "hidchange"
+    ],
+    "checks": [
+      "Shared default: range [\"0\", \"10\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidchange"
+    ]
+  },
+  {
+    "id": "b01_q0",
+    "question_ids": [
+      "q0"
+    ],
+    "source_variables": [
+      "q0"
+    ],
+    "checks": [
+      "q0 is required and must be 1 or 2; q0=2 terminates the questionnaire.",
+      "Include shared-default test-token check for ordinary response fields."
+    ],
+    "provenance": [
+      "Questionnaire blocks 31-36",
+      "Shared defaults: ordinary_questions_required=true, include_test_case_check=true"
+    ]
+  },
+  {
+    "id": "b02_q1",
+    "question_ids": [
+      "q1"
+    ],
+    "source_variables": [
+      "q0",
+      "q1_1",
+      "q1_2",
+      "q1_3",
+      "q1_4",
+      "q1_5",
+      "q1_6",
+      "q1_7",
+      "q1_8",
+      "q1_9",
+      "q1_10",
+      "q1_11",
+      "q1_98",
+      "q1_98_other"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Validate Q1 response fields as binary multiple-response items; codes require analyst confirmation because the source does not state them.",
+      "Require q1_98_other when q1_98 is selected."
+    ],
+    "provenance": [
+      "Questionnaire blocks 37-49",
+      "Dataset dictionary variable names and labels"
+    ]
+  },
+  {
+    "id": "b03_q2",
+    "question_ids": [
+      "q2"
+    ],
+    "source_variables": [
+      "q0",
+      "q2_1",
+      "q2_2",
+      "q2_3",
+      "q2_4",
+      "q2_98",
+      "q2_98_other"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q2 rating must be one of codes 1-7.",
+      "Require q2_98_other when the Q2 Other item is answered."
+    ],
+    "provenance": [
+      "Questionnaire blocks 51-71",
+      "Dataset dictionary value labels for q2_1-q2_4 and q2_98"
+    ]
+  },
+  {
+    "id": "b04_q3",
+    "question_ids": [
+      "q3"
+    ],
+    "source_variables": [
+      "q0",
+      "q3_1",
+      "q3_2",
+      "q3_3",
+      "q3_4",
+      "q3_5"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q3 rating must be one of codes 1-5."
+    ],
+    "provenance": [
+      "Questionnaire blocks 72-88",
+      "Dataset dictionary value labels for q3_1-q3_5"
+    ]
+  },
+  {
+    "id": "b05_q4",
+    "question_ids": [
+      "q4"
+    ],
+    "source_variables": [
+      "q0",
+      "q4_1",
+      "q4_2",
+      "q4_3",
+      "q4_4",
+      "q4_5"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q4 rating must be one of codes 1-5."
+    ],
+    "provenance": [
+      "Questionnaire blocks 89-105",
+      "Dataset dictionary value labels for q4_1-q4_5"
+    ]
+  },
+  {
+    "id": "b06_q5",
+    "question_ids": [
+      "q5"
+    ],
+    "source_variables": [
+      "q0",
+      "q5_1",
+      "q5_2",
+      "q5_3",
+      "q5_4",
+      "q5_5"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q5 rank must be between 1 and 5.",
+      "The five Q5 ranks must be unique and complete."
+    ],
+    "provenance": [
+      "Questionnaire blocks 106-111",
+      "Explicit ranking bounds in questionnaire"
+    ]
+  },
+  {
+    "id": "b07_q6",
+    "question_ids": [
+      "q6"
+    ],
+    "source_variables": [
+      "q0",
+      "q6_1",
+      "q6_2",
+      "q6_3",
+      "q6_4",
+      "q6_5"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q6 rating must be one of codes 1-5."
+    ],
+    "provenance": [
+      "Questionnaire blocks 112-128",
+      "Dataset dictionary value labels for q6_1-q6_5"
+    ]
+  },
+  {
+    "id": "b08_q7",
+    "question_ids": [
+      "q7"
+    ],
+    "source_variables": [
+      "q0",
+      "q7_1",
+      "q7_2",
+      "q7_3",
+      "q7_4",
+      "q7_5"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q7 rating must be one of codes 1-5."
+    ],
+    "provenance": [
+      "Questionnaire blocks 129-145",
+      "Dataset dictionary value labels for q7_1-q7_5"
+    ]
+  },
+  {
+    "id": "b09_q8",
+    "question_ids": [
+      "q8"
+    ],
+    "source_variables": [
+      "q0",
+      "q8_1",
+      "q8_2",
+      "q8_3",
+      "q8_4",
+      "q8_5"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Each Q8 rank must be between 1 and 5.",
+      "The five Q8 ranks must be unique and complete."
+    ],
+    "provenance": [
+      "Questionnaire blocks 146-151",
+      "Explicit ranking bounds in questionnaire"
+    ]
+  },
+  {
+    "id": "b10_q9",
+    "question_ids": [
+      "q9"
+    ],
+    "source_variables": [
+      "q0",
+      "q9"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "q9 must be one of categorical codes 1-7; do not treat the percentage labels as numeric values."
+    ],
+    "provenance": [
+      "Questionnaire blocks 153-160",
+      "Dataset dictionary value labels for q9"
+    ]
+  },
+  {
+    "id": "b11_q10",
+    "question_ids": [
+      "q10"
+    ],
+    "source_variables": [
+      "q0",
+      "q10"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "q10 must be one of categorical codes 1-7; do not treat the percentage labels as numeric values."
+    ],
+    "provenance": [
+      "Questionnaire blocks 161-168",
+      "Dataset dictionary value labels for q10"
+    ]
+  },
+  {
+    "id": "b12_q11",
+    "question_ids": [
+      "q11"
+    ],
+    "source_variables": [
+      "q0",
+      "q11a",
+      "q11b",
+      "q11c",
+      "q11d",
+      "q11e"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "q11a-q11d must be one of codes 1-5; q11e must be one of codes 1-6.",
+      "Preserve the Q11 five-second Next-button delay as an application presentation rule.",
+      "q11e=6 is the explicit Not applicable to me exception for non-BD-neXus users."
+    ],
+    "provenance": [
+      "Questionnaire blocks 169-205",
+      "Dataset dictionary value labels for q11a-q11e"
+    ]
+  },
+  {
+    "id": "b13_q12",
+    "question_ids": [
+      "q12"
+    ],
+    "source_variables": [
+      "q0",
+      "q12_1",
+      "q12_2",
+      "q12_3",
+      "q12_4",
+      "q12_5",
+      "q12_98",
+      "q12_98_other"
+    ],
+    "checks": [
+      "Run only when q0=1.",
+      "Validate Q12 response fields as binary multiple-response items; codes require analyst confirmation because the source does not state them.",
+      "Require q12_98_other when q12_98 is selected.",
+      "Preserve the exception that Other is not randomised."
+    ],
+    "provenance": [
+      "Questionnaire blocks 206-212",
+      "Dataset dictionary variable names and labels"
+    ]
+  },
+  {
+    "id": "ADMIN_SURVEYLOI",
+    "question_ids": [],
+    "source_variables": [
+      "surveyloi"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:surveyloi"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDOEBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidoebatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidoebatch"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDDVBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hiddvbatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hiddvbatch"
+    ]
+  }
+]

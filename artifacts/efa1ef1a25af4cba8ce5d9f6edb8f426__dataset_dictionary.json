@@ -1,0 +1,1443 @@
+{
+  "filename": "R98972.sav",
+  "schema_hash": "e79144ddaf1d2d1afe1445a750c38cc671ce33170ce8a08f535ce842345d2b9e",
+  "variables": [
+    {
+      "name": "record",
+      "label": "record: Record number",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F7.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "uuid",
+      "label": "uuid: Participant identifier",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A16",
+      "missing_ranges": []
+    },
+    {
+      "name": "user_id",
+      "label": "user_id: Captured variable",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A60",
+      "missing_ranges": []
+    },
+    {
+      "name": "start_date",
+      "label": "start_date: Survey start time",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "DATETIME40",
+      "missing_ranges": []
+    },
+    {
+      "name": "date",
+      "label": "date: Completion time and date",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "DATETIME40",
+      "missing_ranges": []
+    },
+    {
+      "name": "status",
+      "label": "status: Participant status",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Terminated",
+        "2.0": "Overquota",
+        "3.0": "Qualified",
+        "4.0": "Partial"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "scrStatus",
+      "label": "scrStatus: Comma delimited list of all the reason the respondent was terminated",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A50",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidPLATFORM",
+      "label": "hidPLATFORM: HIDDEN: Device",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "DESKTOP",
+        "2.0": "MOBILE/TABLET"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "qList",
+      "label": "qList: HIDDEN: List Type",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "List",
+        "2.0": "Off-List"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidChange",
+      "label": "hidChange: HIDDEN: Tracking any changes made during fielding",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Original - No Changes",
+        "2.0": "(date and time of change) - (QRE Version)",
+        "3.0": "(date and time of change) - (QRE Version)",
+        "4.0": "(date and time of change) - (QRE Version)",
+        "5.0": "(date and time of change) - (QRE Version)",
+        "6.0": "(date and time of change) - (QRE Version)",
+        "7.0": "(date and time of change) - (QRE Version)",
+        "8.0": "(date and time of change) - (QRE Version)",
+        "9.0": "(date and time of change) - (QRE Version)",
+        "10.0": "(date and time of change) - (QRE Version)",
+        "11.0": "(date and time of change) - (QRE Version)"
+      },
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "qCountry",
+      "label": "qCountry: Which country are you currently practicing in?",
+      "storage_type": "double",
+      "value_labels": {
+        "98.0": "Other",
+        "1033.0": "United States"
+      },
+      "candidate_question": true,
+      "original_format": "F4.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S1",
+      "label": "S1: Which of the following best describes your current role?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Physician (MD, DO)",
+        "2.0": "Physician Assistant (PA)",
+        "3.0": "Optometrist",
+        "4.0": "Nurse Practitioner (NP)",
+        "5.0": "Other (please specify):"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S1r5oe",
+      "label": "S1r5oe: Which of the following best describes your current role? - Other (please specify):",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A60",
+      "missing_ranges": []
+    },
+    {
+      "name": "S2",
+      "label": "S2: In what medical specialty are you board-certified?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Dermatology",
+        "2.0": "Surgery",
+        "3.0": "Pulmonology",
+        "4.0": "Internal Medicine, without a subspecialty",
+        "5.0": "OB/GYN",
+        "6.0": "Ophthalmology",
+        "7.0": "Transplant Hepatology",
+        "8.0": "Family or General Practice",
+        "9.0": "Other (please specify):"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S2r9oe",
+      "label": "S2r9oe: In what medical specialty are you board-certified? - Other (please specify):",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A60",
+      "missing_ranges": []
+    },
+    {
+      "name": "S3",
+      "label": "S3: What is your primary subspecialty?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "General/Comprehensive",
+        "2.0": "Glaucoma",
+        "3.0": "Cornea",
+        "4.0": "Uveitis and Immunology",
+        "5.0": "Vitreo-retinal or Retinal",
+        "6.0": "Other (please specify):"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S3r6oe",
+      "label": "S3r6oe: What is your primary subspecialty? - Other (please specify):",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A60",
+      "missing_ranges": []
+    },
+    {
+      "name": "S4",
+      "label": "S4: For how many years have you been in practice?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S5",
+      "label": "S5: What percentage of your professional time do you spend treating patients, as opposed to research, teaching, or administration?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S6",
+      "label": "S6: In what U.S. state do you currently practice?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "AL Alabama",
+        "2.0": "AK Alaska",
+        "3.0": "AZ Arizona",
+        "4.0": "AR Arkansas",
+        "5.0": "CA California",
+        "6.0": "CO Colorado",
+        "7.0": "CT Connecticut",
+        "8.0": "DC Washington DC",
+        "9.0": "DE Delaware",
+        "10.0": "FL Florida",
+        "11.0": "GA Georgia",
+        "12.0": "HI Hawaii",
+        "13.0": "ID Idaho",
+        "14.0": "IL Illinois",
+        "15.0": "IN Indiana",
+        "16.0": "IA Iowa",
+        "17.0": "KS Kansas",
+        "18.0": "KY Kentucky",
+        "19.0": "LA Louisiana",
+        "20.0": "ME Maine",
+        "21.0": "MD Maryland",
+        "22.0": "MA Massachusetts",
+        "23.0": "MI Michigan",
+        "24.0": "MN Minnesota",
+        "25.0": "MS Mississippi",
+        "26.0": "MO Missouri",
+        "27.0": "MT Montana",
+        "28.0": "NC North Carolina",
+        "29.0": "ND North Dakota",
+        "30.0": "NE Nebraska",
+        "31.0": "NV Nevada",
+        "32.0": "NH New Hampshire",
+        "33.0": "NJ New Jersey",
+        "34.0": "NM New Mexico",
+        "35.0": "NY New York",
+        "36.0": "OH Ohio",
+        "37.0": "OK Oklahoma",
+        "38.0": "OR Oregon",
+        "39.0": "PA Pennsylvania",
+        "40.0": "RI Rhode Island",
+        "41.0": "SC South Carolina",
+        "42.0": "SD South Dakota",
+        "43.0": "TN Tennessee",
+        "44.0": "TX Texas",
+        "45.0": "UT Utah",
+        "46.0": "VT Vermont",
+        "47.0": "VA Virginia",
+        "48.0": "WA Washington",
+        "49.0": "WV West Virginia",
+        "50.0": "WI Wisconsin",
+        "51.0": "WY Wyoming",
+        "52.0": "Outside US"
+      },
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "qtRegion",
+      "label": "qtRegion: HIDDEN: Region from qState",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Northeast",
+        "2.0": "Midwest",
+        "3.0": "Southeast",
+        "4.0": "West",
+        "5.0": "Southwest/Mountain West"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S7",
+      "label": "S7: In what setting do you practice?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Solo or small group private practice",
+        "2.0": "Large multispecialty private practice ophthalmology/physician group",
+        "3.0": "Academic medical centers",
+        "4.0": "Specialized ocular gene therapy treatment centers",
+        "5.0": "Hospital-employed practice",
+        "6.0": "Corporate ophthalmology management organizations"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidS7",
+      "label": "hidS7: Target a mix of respondents with emphasis on respondents who choose S7=D",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Specialized ocular gene therapy treatment centers",
+        "2.0": "Other"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S9",
+      "label": "S9: Please estimate how many unique patients you currently manage with inherited retinal diseases.",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r1",
+      "label": "S8r1: Bestrophinopathies (BVMD or ARB) - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r2",
+      "label": "S8r2: Leber Congenital Amaurosis - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r3",
+      "label": "S8r3: Retinitis Pigmentosa (RP) - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r4",
+      "label": "S8r4: Stargardt Disease - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r5",
+      "label": "S8r5: Cone-rod Dystrophy - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r6",
+      "label": "S8r6: Achromatopsia - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r7",
+      "label": "S8r7: Other (specify) - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r8",
+      "label": "S8r8: None of the above - Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage?",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Not selected",
+        "1.0": "Selected"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S8r7oe",
+      "label": "S8r7oe: Of the patients you diagnose and manage with an inherited retinal disease, which of the following do you manage? - Other (specify)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A60",
+      "missing_ranges": []
+    },
+    {
+      "name": "S10r1",
+      "label": "S10r1: Best vitelliform macular dystrophy (BVMD): - Please estimate how many unique patients you currently manage with the following IRDs:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S10r2",
+      "label": "S10r2: Autosomal recessive bestrophinopathy (ARB): - Please estimate how many unique patients you currently manage with the following IRDs:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "S10r3",
+      "label": "S10r3: Leber congenital amaurosis: - Please estimate how many unique patients you currently manage with the following IRDs:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r1c1",
+      "label": "Q1r1c1: Leber Congenital Amaurosis - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r2c1",
+      "label": "Q1r2c1: Best Vitelliform Macular Dystrophy (BVMD) - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r3c1",
+      "label": "Q1r3c1: Autosomal recessive Bestrophinopathy (ARB) - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r4c1",
+      "label": "Q1r4c1: Retinitis Pigmentosa (RP) - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r5c1",
+      "label": "Q1r5c1: Stargardt Disease - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r6c1",
+      "label": "Q1r6c1: Cone-rod Dystrophy - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r7c1",
+      "label": "Q1r7c1: Achromatopsia - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1r8c1",
+      "label": "Q1r8c1: Unspecified Inherited Retinal Disease - In the past year, how many unique patients have you seen where you suspected they had the following conditions?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1ar21c1",
+      "label": "Q1ar21c1: Diagnosed myself - Of the 99 suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1ar22c1",
+      "label": "Q1ar22c1: Referred to another provider - Of the 99 suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1ar23c1",
+      "label": "Q1ar23c1: Neither diagnosed nor referred - Of the 99 suspected BVMD patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1br31c1",
+      "label": "Q1br31c1: Diagnosed myself - Of the 99 suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1br32c1",
+      "label": "Q1br32c1: Referred to another provider - Of the 99 suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1br33c1",
+      "label": "Q1br33c1: Neither diagnosed nor referred - Of the 99 suspected ARB patients, how many did you diagnose yourself, refer to a specialist for diagnosis, or neither?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1c",
+      "label": "Q1c: Of the 99 patients that you suspected of having BVMD, how many patients ended up with a BVMD diagnosis confirmation?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q1d",
+      "label": "Q1d: Of the 99 patients that you suspected of having ARB, how many patients ended up with an ARB diagnosis confirmation?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q2",
+      "label": "Q2: On a scale from 1 to 7, with 1=not at all confident to 7= very confident, how confident are you that you would recognize a patient with Best disease (i.e., BVMD) without genetic testing?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all confident",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Very confident"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q3r1c1",
+      "label": "Q3r1c1: Symptom onset spurring medical attention for complaints (e.g., blurred vision) - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosi",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q3r2c1",
+      "label": "Q3r2c1: Incidental findings from routine screenings or visits - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q3r3c1",
+      "label": "Q3r3c1: Family cascade testing following diagnosis or genetic findings in a relative - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q3r4c1",
+      "label": "Q3r4c1: Other (Please specify) - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q3r4oe",
+      "label": "Q3r4oe: What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) begin the journey to diagnosis due to the following? - Other (Please specify)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A3",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q4r1",
+      "label": "Q4r1: Optometrist - To the best of your knowledge, of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part of t",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q4r2",
+      "label": "Q4r2: General/Comprehensive Ophthalmologist (excluding myself) - To the best of your knowledge, of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q4r3",
+      "label": "Q4r3: Pediatric Ophthalmologist (excluding myself) - To the best of your knowledge, of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following m",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q4r4",
+      "label": "Q4r4: Retinal Specialist Ophthalmologist (excluding myself) - To the best of your knowledge, of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the fo",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q4r5",
+      "label": "Q4r5: Primary Care Physician - To the best of your knowledge, of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals a",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q4r6",
+      "label": "Q4r6: I don’t know - To the best of your knowledge, of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB), what number have seen each of the following medical professionals as part o",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q5r1",
+      "label": "Q5r1: Patients referred to me for diagnosis of a suspected IRD that I diagnosed myself (alone or in collaboration with a geneticist) - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestro",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q5r2",
+      "label": "Q5r2: Patients referred to me for diagnosis of a suspected IRD that I referred to another provider for a diagnosis - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) f",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q5r3",
+      "label": "Q5r3: Patients that I suspected of an IRD and diagnosed myself (alone or in collaboration with a geneticist) - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit int",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q5r4",
+      "label": "Q5r4: Patients that I suspected of an IRD and referred to another provider for a diagnosis - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit into each of the belo",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q5r5",
+      "label": "Q5r5: Patient referrals who were previously misdiagnosed with another disease that I diagnosed as Best disease - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB) fit i",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q5r6",
+      "label": "Q5r6: Patient referrals who were previously diagnosed with BEST1 disease and see me for reasons other than diagnosis - What number of your patients with BEST1 diseases Best vitelliform macular dystrophy (BMVD) or autosomal recessive bestrophinopathy (ARB)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q6r1",
+      "label": "Q6r1: Patient referrals I received from an ophthalmologist: - Of the patients who were referred to you for diagnosis, what number fit into each of the categories below?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q6r2",
+      "label": "Q6r2: Patient referrals I received from an optometrist: - Of the patients who were referred to you for diagnosis, what number fit into each of the categories below?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q7r1c1",
+      "label": "Q7r1c1: Stage 0 - Previtelliform - Of your Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q7r2c1",
+      "label": "Q7r2c1: Stage 1 - Vitelliform (“Egg-yolk”) - Of your Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q7r3c1",
+      "label": "Q7r3c1: Stage 2 - Pseudohypopyon - Of your Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q7r4c1",
+      "label": "Q7r4c1: Stage 3 - Vitelliruptive (“Scrambled Egg”) - Of your Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q7r5c1",
+      "label": "Q7r5c1: Stage 4 - Atrophic - Of your Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q7r6c1",
+      "label": "Q7r6c1: Stage 5 - CNV/Fibrotic End Stage - Of your Best vitelliform macular dystrophy (BVMD) patients, how many fall into the following stage categories?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q8r1",
+      "label": "Q8r1: Clinical criteria alone - What number of your patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q8r2",
+      "label": "Q8r2: Genetic testing alone - What number of your patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q8r3",
+      "label": "Q8r3: Both clinical criteria and genetic testing - What number of your patients suspected to have Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) were diagnosed using:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q9r1",
+      "label": "Q9r1: Remain undiagnosed - In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q9r2",
+      "label": "Q9r2: Are misdiagnosed as having a different inherited retinal disease (IRD) - In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q9r3",
+      "label": "Q9r3: Are diagnosed by clinical criteria alone - In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q9r4",
+      "label": "Q9r4: Are diagnosed by genetic testing alone - In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the following categories:",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q9r5",
+      "label": "Q9r5: Are diagnosed with both clinical criteria and genetic testing - In your estimation, what overall proportion of US patients with BEST1 IRDs Best vitelliform macular dystrophy (BVMD) or Autosomal recessive bestrophinopathy (ARB) fall into the followin",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q10",
+      "label": "Q10: Based on your experience, what percentage of patients suspected of having Best vitelliform macular degeneration (BVMD) or autosomal bestrophinopathy (ARB) in your clinic may never receive a definitive diagnosis and therefore remain undiagnosed?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q11",
+      "label": "Q11: Do you believe the diagnosis rate at your practice is consistent with overall diagnostic rates for BEST1 patients in the US?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes, I believe it is likely consistent",
+        "2.0": "No - I believe overall diagnosis rates are likely higher than at my practice",
+        "3.0": "No - I believe overall diagnosis rates are likely lower than at my practice"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q11a",
+      "label": "Q11a: What is your current best estimate for the overall percentage of patients with Best vitelliform macular degeneration (BVMD) that are undiagnosed in the US?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q11b",
+      "label": "Q11b: What is your current best estimate for the overall percentage of patients with autosomal bestrophinopathy (ARB) that are undiagnosed in the US?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q12r1",
+      "label": "Q12r1: Best vitelliform macular dystrophy (BVMD) - On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions:",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Lowest unmet need",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Highest unmet need"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q12r2",
+      "label": "Q12r2: Autosomal recessive bestrophinopathy (ARB) - On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions:",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Lowest unmet need",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Highest unmet need"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q12r3",
+      "label": "Q12r3: Leber congenital amaurosis type 2 (LCA caused by mutations in the RPE65 gene) - On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions:",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Lowest unmet need",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Highest unmet need"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q12r4",
+      "label": "Q12r4: Leber congenital amaurosis type 5 (LCA caused by mutations in lebercilin gene) - On a scale from 1-7, where 1=lowest unmet need and 7=highest unmet need, how would you rate the level of unmet need for the following conditions:",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Lowest unmet need",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Highest unmet need"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q13r1",
+      "label": "Q13r1: Overall Rating - On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopat",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all favorable",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely favorable"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q13r2",
+      "label": "Q13r2: Efficacy - On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (AR",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all favorable",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely favorable"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q13r3",
+      "label": "Q13r3: Safety - On a scale from 1-7, where 1=not at all favorable and 7=extremely favorable, how would you rate the following characteristics for use in patients with Best vitelliform macular dystrophy (BVMD) and Autosomal recessive bestrophinopathy (ARB)",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all favorable",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely favorable"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q14r1",
+      "label": "Q14r1: Clinically significant improvement in microperimetry mean sensitivity - On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BE",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all compelling",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely compelling"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q14r2",
+      "label": "Q14r2: 3-line (or equivalent) improvement in BCVA or LLVA by ETDRS - On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 diseas",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all compelling",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely compelling"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q14r3",
+      "label": "Q14r3: 30% improvement in lesion size or fluid reduction from baseline in SD-OCT - On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X i",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all compelling",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely compelling"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q14r4",
+      "label": "Q14r4: 20% improvement in MRDQ score - On a scale from 1-7, where 1=not at all compelling and 7=extremely compelling, how would you rate the following trial efficacy results for compelling the use of Product X in BEST1 disease patients:",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "1 – Not at all compelling",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "7 – Extremely compelling"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q15",
+      "label": "Q15: What additional endpoints and magnitude of improvements would you want to see for Product X to be more compelling for the treatment of BEST1 disease patients?",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A255",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q16",
+      "label": "Q16: What overall percentage of US patients with Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) do you estimate could be addressed with Product X?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q17",
+      "label": "Q17: What number of your current patients with Best vitelliform macular dystrophy (BVMD) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q18",
+      "label": "Q18: Please describe the type of Best vitelliform macular dystrophy (BVMD) patient(s) that you would consider most suited for Product X treatment:",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A255",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q19a",
+      "label": "Q19a: You previously noted that out of your patients with Best vitelliform macular dystrophy (BVMD) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what num",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q19b",
+      "label": "Q19b: What number of those patients recommended for treatment do you think would be receptive to Product X?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q19c",
+      "label": "Q19c: What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q20a",
+      "label": "Q20a: Now, please consider the rest of your Best vitelliform macular dystrophy (BVMD) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-su",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q20b",
+      "label": "Q20b: What number of those recommended patients do you think would be receptive to Product X?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q20c",
+      "label": "Q20c: What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q21",
+      "label": "Q21: How many of your current patients with autosomal recessive bestrophinopathy (ARB) do you believe could be addressed with Product X?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q22",
+      "label": "Q22: How many of your patients with autosomal recessive bestrophinopathy (ARB) do you feel are most suited for Product X treatment (e.g., based on patient disease status, age, suitability for surgical administration, or other factors)?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q23a",
+      "label": "Q23a: You noted that out of your patients with autosomal recessive bestrophinopathy (ARB) are most suited for treatment with Product X. For the next questions, please assume you have 10 patients similar to your most suited patients: For what number of tho",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q23b",
+      "label": "Q23b: What number of those patients recommended for treatment do you think would be receptive to Product X?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q23c",
+      "label": "Q23c: What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q24a",
+      "label": "Q24a: Now, please consider the rest of your autosomal recessive bestrophinopathy (ARB) patients, i.e., the remaining patients outside of those who you indicated were most suited for Product X. Please assume you have 10 patients similar to those non-most-s",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q24b",
+      "label": "Q24b: What number of those recommended patients do you think would be receptive to Product X?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q24c",
+      "label": "Q24c: What number of those receptive patients do you think would follow through with Product X administration (including travel to treatment centers, etc.)?",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q25",
+      "label": "Q25: What factors prevent you from potentially recommending the use of Product X in every Best vitelliform macular dystrophy (BVMD) or autosomal recessive bestrophinopathy (ARB) patient?",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A255",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q26r1",
+      "label": "Q26r1: Luxturna in LCA - How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Product X has a lower degree of benefit relative to this therapy",
+        "2.0": "Product X has a similar degree of benefit relative to this therapy",
+        "3.0": "Product X has a greater degree of benefit relative to this therapy",
+        "4.0": "I am not familiar with this therapy"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q26r2",
+      "label": "Q26r2: Encelto in MacTel2 - How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Product X has a lower degree of benefit relative to this therapy",
+        "2.0": "Product X has a similar degree of benefit relative to this therapy",
+        "3.0": "Product X has a greater degree of benefit relative to this therapy",
+        "4.0": "I am not familiar with this therapy"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q26r3",
+      "label": "Q26r3: Hemgenix in Hemophilia B - How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Product X has a lower degree of benefit relative to this therapy",
+        "2.0": "Product X has a similar degree of benefit relative to this therapy",
+        "3.0": "Product X has a greater degree of benefit relative to this therapy",
+        "4.0": "I am not familiar with this therapy"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "Q26r4",
+      "label": "Q26r4: Zolgensma in SMA - How would you rate the benefit of the Product X profile compared to the benefit observed for the following therapies in their respective indications?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Product X has a lower degree of benefit relative to this therapy",
+        "2.0": "Product X has a similar degree of benefit relative to this therapy",
+        "3.0": "Product X has a greater degree of benefit relative to this therapy",
+        "4.0": "I am not familiar with this therapy"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "qtime",
+      "label": "qtime: Total Interview Time",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F22.2",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidOEBatch",
+      "label": "hidOEBatch: hidOEBatch - Hidden variable for DP",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidDVBatch",
+      "label": "hidDVBatch: hidDVBatch - Hidden variable for DP",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    }
+  ],
+  "candidate_groups": [
+    "Q1",
+    "Q10",
+    "Q11",
+    "Q12",
+    "Q13",
+    "Q14",
+    "Q15",
+    "Q16",
+    "Q17",
+    "Q18",
+    "Q19",
+    "Q2",
+    "Q20",
+    "Q21",
+    "Q22",
+    "Q23",
+    "Q24",
+    "Q25",
+    "Q26",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6",
+    "Q7",
+    "Q8",
+    "Q9",
+    "QCOUNTRY",
+    "QLIST",
+    "QTIME",
+    "QTREGION"
+  ]
+}

@@ -1,0 +1,557 @@
+[
+  {
+    "id": "ADMIN_RESPID",
+    "question_ids": [],
+    "source_variables": [
+      "respid"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:respid"
+    ]
+  },
+  {
+    "id": "ADMIN_USER_ID",
+    "question_ids": [],
+    "source_variables": [
+      "user_id"
+    ],
+    "checks": [
+      "Shared default: nonblank []"
+    ],
+    "provenance": [
+      "defaults:1:user_id"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_START",
+    "question_ids": [],
+    "source_variables": [
+      "interview_start"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_start"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_END",
+    "question_ids": [],
+    "source_variables": [
+      "interview_end"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_end"
+    ]
+  },
+  {
+    "id": "ADMIN_SCREENSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "screenstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:screenstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_SCRSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "scrstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:scrstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDCHANGE",
+    "question_ids": [],
+    "source_variables": [
+      "hidchange"
+    ],
+    "checks": [
+      "Shared default: range [\"0\", \"10\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidchange"
+    ]
+  },
+  {
+    "id": "B01",
+    "question_ids": [
+      "AE1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9"
+    ],
+    "source_variables": [
+      "ae1",
+      "s2",
+      "s2_98_other",
+      "s3",
+      "s4",
+      "s5_1",
+      "s6_1",
+      "s7_1",
+      "s7_2",
+      "s7_3",
+      "s7_4",
+      "s7_5",
+      "s7_6",
+      "s7_7",
+      "s8_1",
+      "s8_2",
+      "s9_1",
+      "s9_2",
+      "s9_3",
+      "s9_4",
+      "s9_98",
+      "s9_98_other",
+      "qlist",
+      "targettype",
+      "call_in_last_6_months"
+    ],
+    "checks": [
+      "Required screener responses use the questionnaire default; provenance: shared_defaults. Verify specialty, list status, target type, and call variables are available before applying quota/routing; provenance: document blocks 4–89 and dataset dictionary.",
+      "S8 values must be bounded by s7_2 and sum to s7_2; provenance: document blocks 147–157.",
+      "S9 values must be bounded by s8_1 and sum to s8_1; provenance: document blocks 159–171."
+    ],
+    "provenance": [
+      "document blocks 90–171",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "B02",
+    "question_ids": [
+      "Q105",
+      "Q110",
+      "Q115",
+      "Q120",
+      "Q125",
+      "Q130",
+      "Q135",
+      "Q137",
+      "Q140"
+    ],
+    "source_variables": [
+      "q105_1",
+      "q105_2",
+      "q105_3",
+      "q105_4",
+      "q105_5",
+      "q105_6",
+      "q105_7",
+      "q105_8",
+      "q105_9",
+      "q105_10",
+      "q110_1",
+      "q110_2",
+      "q110_3",
+      "q110_4",
+      "q110_5",
+      "q115_1",
+      "q115_2",
+      "q115_3",
+      "q115_4",
+      "q115_5",
+      "q120_1",
+      "q120_2",
+      "q120_3",
+      "q120_4",
+      "q120_5",
+      "q125_1",
+      "q125_2",
+      "q125_3",
+      "q125_4",
+      "q125_5",
+      "q130_1_1",
+      "q130_1_2",
+      "q130_1_3",
+      "q130_1_4",
+      "q130_1_5",
+      "q130_1_99",
+      "q130_2_1",
+      "q130_2_2",
+      "q130_2_3",
+      "q130_2_4",
+      "q130_2_5",
+      "q130_2_99",
+      "q130_3_1",
+      "q130_3_2",
+      "q130_3_3",
+      "q130_3_4",
+      "q130_3_5",
+      "q130_3_99",
+      "q130_4_1",
+      "q130_4_2",
+      "q130_4_3",
+      "q130_4_4",
+      "q130_4_5",
+      "q130_4_99",
+      "q130_5_1",
+      "q130_5_2",
+      "q130_5_3",
+      "q130_5_4",
+      "q130_5_5",
+      "q130_5_99",
+      "q130_6_1",
+      "q130_6_2",
+      "q130_6_3",
+      "q130_6_4",
+      "q130_6_5",
+      "q130_6_99",
+      "q130_7_1",
+      "q130_7_2",
+      "q130_7_3",
+      "q130_7_4",
+      "q130_7_5",
+      "q130_7_99",
+      "q130_8_1",
+      "q130_8_2",
+      "q130_8_3",
+      "q130_8_4",
+      "q130_8_5",
+      "q130_8_99",
+      "q130_9_1",
+      "q130_9_2",
+      "q130_9_3",
+      "q130_9_4",
+      "q130_9_5",
+      "q130_9_99",
+      "q130_10_1",
+      "q130_10_2",
+      "q130_10_3",
+      "q130_10_4",
+      "q130_10_5",
+      "q130_10_99",
+      "q130_11_1",
+      "q130_11_2",
+      "q130_11_3",
+      "q130_11_4",
+      "q130_11_5",
+      "q130_11_99",
+      "q130_12_1",
+      "q130_12_2",
+      "q130_12_3",
+      "q130_12_4",
+      "q130_12_5",
+      "q130_12_99",
+      "q130_13_1",
+      "q130_13_2",
+      "q130_13_3",
+      "q130_13_4",
+      "q130_13_5",
+      "q130_13_99",
+      "q130_14_1",
+      "q130_14_2",
+      "q130_14_3",
+      "q130_14_4",
+      "q130_14_5",
+      "q130_14_99",
+      "q135_1",
+      "q135_2",
+      "q135_3",
+      "q135_4",
+      "q135_5",
+      "q135_99",
+      "q137",
+      "q140_1",
+      "q140_2",
+      "q140_3",
+      "q140_4",
+      "q140_5",
+      "q140_6",
+      "q140_7",
+      "q140_8",
+      "q140_9",
+      "q140_10",
+      "q140_11",
+      "q140_98",
+      "q140_99",
+      "q140_98_other"
+    ],
+    "checks": [
+      "Validate all Q130 variables as separate binary items; NONE is exclusive within each attribute; provenance: document blocks 250–279 and dictionary labels.",
+      "Q115 and Q130 visibility depends on Q110 awareness; provenance: document blocks 200–216 and 249–251.",
+      "Q137 and Q140 route from q135_5=1; provenance: document blocks 290–310."
+    ],
+    "provenance": [
+      "document blocks 177–310",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "B03",
+    "question_ids": [
+      "Q205",
+      "Q210",
+      "Q220",
+      "Q230",
+      "Q240",
+      "Q245",
+      "Q250",
+      "Q255"
+    ],
+    "source_variables": [
+      "q205",
+      "q210",
+      "q220",
+      "q220_98_other",
+      "q230_1",
+      "q230_2",
+      "q230_3",
+      "q230_4",
+      "q230_5",
+      "q230_6",
+      "q230_7",
+      "q230_8",
+      "q230_9",
+      "q230_10",
+      "q230_11",
+      "q230_98",
+      "q230_99",
+      "q230_98_other",
+      "q240_1",
+      "q245",
+      "q250_1",
+      "q250_2",
+      "q250_3",
+      "q250_4",
+      "q250_5",
+      "q250_6",
+      "q250_7",
+      "q250_8",
+      "q250_99",
+      "q255_1",
+      "q255_2",
+      "q255_3",
+      "q255_4",
+      "q255_5",
+      "q255_6",
+      "q255_7",
+      "q255_8",
+      "q255_98",
+      "q255_99",
+      "q255_98_other"
+    ],
+    "checks": [
+      "All Q205 follow-up groups route only when q205=1; provenance: document blocks 313–374.",
+      "Other text fields are separate variables linked by other_for; provenance: dataset dictionary and document blocks 324,334,373."
+    ],
+    "provenance": [
+      "document blocks 311–374",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "B04",
+    "question_ids": [
+      "Q305",
+      "Q310",
+      "Q315",
+      "Q320",
+      "Q325",
+      "Q340",
+      "Q345",
+      "Q350",
+      "Q355"
+    ],
+    "source_variables": [
+      "q305",
+      "q310",
+      "q315",
+      "q320",
+      "q325_1",
+      "q325_2",
+      "q325_3",
+      "q325_4",
+      "q325_5",
+      "q325_11",
+      "q325_6",
+      "q325_7",
+      "q325_8",
+      "q325_9",
+      "q325_10",
+      "q340",
+      "q345_1",
+      "q345_2",
+      "q345_3",
+      "q345_4",
+      "q345_5",
+      "q345_6",
+      "q345_7",
+      "q345_8",
+      "q345_9",
+      "q345_10",
+      "q345_11",
+      "q345_98",
+      "q345_97",
+      "q345_98_other",
+      "q350_1",
+      "q350_2",
+      "q350_3",
+      "q350_4",
+      "q350_5",
+      "q350_6",
+      "q350_7",
+      "q350_8",
+      "q350_98",
+      "q350_10",
+      "q350_98_other",
+      "q355"
+    ],
+    "checks": [
+      "Q315 routes when q310=4 or 5; Q320 routes when q310=1 or 2; provenance: document blocks 391–398.",
+      "Q345 routes when q340=1; Q355 routes when q350=5 or 6; provenance: document blocks 442–466.",
+      "Q325 scale codes are 1–3, not percentages; provenance: dictionary labels and document blocks 399–437."
+    ],
+    "provenance": [
+      "document blocks 375–490",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "AUTO_D1",
+    "question_ids": [
+      "D1"
+    ],
+    "source_variables": [
+      "d1"
+    ],
+    "checks": [
+      "Derive checks only from this group's extracted items, scales, constraints, routing and applicable shared defaults. Preserve the whole grid/ranking and other-text links. Give an explicit omission reason where unsupported."
+    ],
+    "provenance": [
+      "coverage_recovery:verified_extraction",
+      "source:467",
+      "source:472"
+    ]
+  },
+  {
+    "id": "AUTO_D2",
+    "question_ids": [
+      "D2"
+    ],
+    "source_variables": [
+      "d2_1"
+    ],
+    "checks": [
+      "Derive checks only from this group's extracted items, scales, constraints, routing and applicable shared defaults. Preserve the whole grid/ranking and other-text links. Give an explicit omission reason where unsupported."
+    ],
+    "provenance": [
+      "coverage_recovery:verified_extraction",
+      "source:473",
+      "source:475"
+    ]
+  },
+  {
+    "id": "AUTO_D3",
+    "question_ids": [
+      "D3"
+    ],
+    "source_variables": [
+      "d3"
+    ],
+    "checks": [
+      "Derive checks only from this group's extracted items, scales, constraints, routing and applicable shared defaults. Preserve the whole grid/ranking and other-text links. Give an explicit omission reason where unsupported."
+    ],
+    "provenance": [
+      "coverage_recovery:verified_extraction",
+      "source:476",
+      "source:480"
+    ]
+  },
+  {
+    "id": "AUTO_D4",
+    "question_ids": [
+      "D4"
+    ],
+    "source_variables": [
+      "d4"
+    ],
+    "checks": [
+      "Derive checks only from this group's extracted items, scales, constraints, routing and applicable shared defaults. Preserve the whole grid/ranking and other-text links. Give an explicit omission reason where unsupported."
+    ],
+    "provenance": [
+      "coverage_recovery:verified_extraction",
+      "source:481",
+      "source:485"
+    ]
+  },
+  {
+    "id": "AUTO_D5",
+    "question_ids": [
+      "D5"
+    ],
+    "source_variables": [
+      "d5"
+    ],
+    "checks": [
+      "Derive checks only from this group's extracted items, scales, constraints, routing and applicable shared defaults. Preserve the whole grid/ranking and other-text links. Give an explicit omission reason where unsupported."
+    ],
+    "provenance": [
+      "coverage_recovery:verified_extraction",
+      "source:486",
+      "source:490"
+    ]
+  },
+  {
+    "id": "ADMIN_SURVEYLOI",
+    "question_ids": [],
+    "source_variables": [
+      "surveyloi"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:surveyloi"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDOEBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidoebatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidoebatch"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDDVBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hiddvbatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hiddvbatch"
+    ]
+  }
+]

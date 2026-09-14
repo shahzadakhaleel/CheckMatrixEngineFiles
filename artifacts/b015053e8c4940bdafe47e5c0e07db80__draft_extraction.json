@@ -1,0 +1,2237 @@
+{
+  "title": "Draft manifest - Nexus Post Market Surveillance Questionnaire, PICOT 1 Multistep / 25 Steps",
+  "groups": [
+    {
+      "id": "q0",
+      "text": "Q0: This questionnaire asks about your experience and opinion using the “Multistep” or “25 Steps” function on the Becton Dickinson (BD)’s infusion pumps. [Select one answer]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "q0_1",
+          "text": "I understand and continue.",
+          "variable": "q0",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Code 1 continues to Q1-Q12."
+          ],
+          "source_blocks": [
+            31,
+            35
+          ]
+        },
+        {
+          "id": "q0_2",
+          "text": "I have not used this function – Thank and close",
+          "variable": "q0",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": null,
+          "constraints": [
+            "Code 2 terminates the questionnaire."
+          ],
+          "source_blocks": [
+            31,
+            36
+          ]
+        }
+      ],
+      "routing": null,
+      "source_blocks": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": "q1",
+      "text": "Q1. In which clinical area do you use the “Multistep” or “25 Steps” function? [Select all that apply]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "q1_1",
+          "text": "Oncology",
+          "variable": "q1_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            38
+          ]
+        },
+        {
+          "id": "q1_2",
+          "text": "Autoimmune Care Unit",
+          "variable": "q1_2",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            39
+          ]
+        },
+        {
+          "id": "q1_3",
+          "text": "Intensive Care Unit (ICU/NICU/PICU)",
+          "variable": "q1_3",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            40
+          ]
+        },
+        {
+          "id": "q1_4",
+          "text": "Haematology",
+          "variable": "q1_4",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            41
+          ]
+        },
+        {
+          "id": "q1_5",
+          "text": "Gastroenterology",
+          "variable": "q1_5",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            42
+          ]
+        },
+        {
+          "id": "q1_6",
+          "text": "High Dependence Unit (HDU)",
+          "variable": "q1_6",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            43
+          ]
+        },
+        {
+          "id": "q1_7",
+          "text": "Emergency Departments",
+          "variable": "q1_7",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            44
+          ]
+        },
+        {
+          "id": "q1_8",
+          "text": "Admissions Ward",
+          "variable": "q1_8",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            45
+          ]
+        },
+        {
+          "id": "q1_9",
+          "text": "Intestinal Failure Unit / Intestinal Rehabilitation Unit",
+          "variable": "q1_9",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            46
+          ]
+        },
+        {
+          "id": "q1_10",
+          "text": "Virtual Wards / Hospital at Home",
+          "variable": "q1_10",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            47
+          ]
+        },
+        {
+          "id": "q1_11",
+          "text": "Community Infusion Centres",
+          "variable": "q1_11",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            48
+          ]
+        },
+        {
+          "id": "q1_98",
+          "text": "Other, please specify:",
+          "variable": "q1_98",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            37,
+            49
+          ]
+        },
+        {
+          "id": "q1_98_other",
+          "text": "Other, please specify:",
+          "variable": "q1_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "q1_98",
+          "routing": "q0 = 1 and q1_98 selected",
+          "constraints": [
+            "Text entry linked to the Q1 Other option."
+          ],
+          "source_blocks": [
+            49
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "id": "q2",
+      "text": "Q2. How often do you administer the following medications or products with the “Multistep” or “25 Steps” function? (1=Never, 7=More than 10 times per shift) [Select one answer for each item]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "grid",
+      "items": [
+        {
+          "id": "q2_1",
+          "text": "Intravenous immunoglobulin (IVIG)",
+          "variable": "q2_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Scale: 1=Never; 2=Very rarely; 3=Every other shift; 4=1-2 times per shift; 5=3-5 times per shift; 6=6-10 times per shift; 7=More than 10 times per shift.",
+            "Options may be randomised."
+          ],
+          "source_blocks": [
+            51,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67
+          ]
+        },
+        {
+          "id": "q2_2",
+          "text": "Monoclonal antibodies",
+          "variable": "q2_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same 1-7 scale as Q2; options may be randomised."
+          ],
+          "source_blocks": [
+            51,
+            52,
+            67,
+            68
+          ]
+        },
+        {
+          "id": "q2_3",
+          "text": "Blood products",
+          "variable": "q2_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same 1-7 scale as Q2; options may be randomised."
+          ],
+          "source_blocks": [
+            51,
+            52,
+            69
+          ]
+        },
+        {
+          "id": "q2_4",
+          "text": "Beta-interferons",
+          "variable": "q2_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same 1-7 scale as Q2; options may be randomised."
+          ],
+          "source_blocks": [
+            51,
+            52,
+            70
+          ]
+        },
+        {
+          "id": "q2_98",
+          "text": "Others, please specify:",
+          "variable": "q2_98",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same 1-7 scale as Q2; options may be randomised."
+          ],
+          "source_blocks": [
+            51,
+            52,
+            71
+          ]
+        },
+        {
+          "id": "q2_98_other",
+          "text": "Others, please specify:",
+          "variable": "q2_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "q2_98",
+          "routing": "q0 = 1 and q2_98 answered",
+          "constraints": [
+            "Text entry linked to the Q2 Other medication/product item."
+          ],
+          "source_blocks": [
+            71
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id": "q3",
+      "text": "Q3. How much have you experienced the following outcomes when using the “Multistep” or “25 Steps” function? (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "grid",
+      "items": [
+        {
+          "id": "q3_1",
+          "text": "Increased medication safety",
+          "variable": "q3_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Scale: 1=Not at all; 2=Slightly; 3=Moderately; 4=Considerably; 5=Substantially. Options may be randomised."
+          ],
+          "source_blocks": [
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84
+          ]
+        },
+        {
+          "id": "q3_2",
+          "text": "Improved workflow efficiency",
+          "variable": "q3_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q3 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            72,
+            73,
+            85
+          ]
+        },
+        {
+          "id": "q3_3",
+          "text": "More time for clinical care",
+          "variable": "q3_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q3 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            72,
+            73,
+            86
+          ]
+        },
+        {
+          "id": "q3_4",
+          "text": "Reduced risk of potential medication errors",
+          "variable": "q3_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q3 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            72,
+            73,
+            87
+          ]
+        },
+        {
+          "id": "q3_5",
+          "text": "Quicker completion of therapy",
+          "variable": "q3_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q3 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            72,
+            73,
+            88
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "id": "q4",
+      "text": "Q4. How valuable are the following outcomes to you when using the “Multistep” or “25 Steps” function? (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "grid",
+      "items": [
+        {
+          "id": "q4_1",
+          "text": "Increased medication safety",
+          "variable": "q4_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Scale: 1=Not important; 2=Slightly important; 3=Moderately important; 4=Highly important; 5=Extremely important. Options may be randomised."
+          ],
+          "source_blocks": [
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+          ]
+        },
+        {
+          "id": "q4_2",
+          "text": "Improved workflow efficiency",
+          "variable": "q4_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q4 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            89,
+            90,
+            102
+          ]
+        },
+        {
+          "id": "q4_3",
+          "text": "More time for clinical care",
+          "variable": "q4_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q4 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            89,
+            90,
+            103
+          ]
+        },
+        {
+          "id": "q4_4",
+          "text": "Reduced risk of potential medication errors",
+          "variable": "q4_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q4 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            89,
+            90,
+            104
+          ]
+        },
+        {
+          "id": "q4_5",
+          "text": "Quicker completion of therapy",
+          "variable": "q4_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q4 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            89,
+            90,
+            105
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    },
+    {
+      "id": "q5",
+      "text": "Q5. Based on their value to you, rank the following outcomes from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "ranking",
+      "items": [
+        {
+          "id": "q5_1",
+          "text": "Increased medication safety",
+          "variable": "q5_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q5; each of the five outcomes must receive a unique rank from 1 to 5."
+          ],
+          "source_blocks": [
+            106,
+            107
+          ]
+        },
+        {
+          "id": "q5_2",
+          "text": "Improved workflow efficiency",
+          "variable": "q5_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q5; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            106,
+            108
+          ]
+        },
+        {
+          "id": "q5_3",
+          "text": "More time for clinical care",
+          "variable": "q5_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q5; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            106,
+            109
+          ]
+        },
+        {
+          "id": "q5_4",
+          "text": "Reduced risk of potential medication errors",
+          "variable": "q5_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q5; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            106,
+            110
+          ]
+        },
+        {
+          "id": "q5_5",
+          "text": "Quicker completion of therapy",
+          "variable": "q5_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q5; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            106,
+            111
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111
+      ]
+    },
+    {
+      "id": "q6",
+      "text": "Q6. How much do the following “Multistep” or “25 Steps” capabilities help reduce medication errors in your clinical setting? (1=Not at all, 5=Substantially) [Select one answer for each item]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "grid",
+      "items": [
+        {
+          "id": "q6_1",
+          "text": "Minimise manual interventions between rate changes.",
+          "variable": "q6_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Scale: 1=Not at all; 2=Slightly; 3=Moderately; 4=Considerably; 5=Substantially. Options may be randomised."
+          ],
+          "source_blocks": [
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124
+          ]
+        },
+        {
+          "id": "q6_2",
+          "text": "Automate movement through the dosing process without the pressure of speedy programming.",
+          "variable": "q6_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q6 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            112,
+            113,
+            125
+          ]
+        },
+        {
+          "id": "q6_3",
+          "text": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+          "variable": "q6_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q6 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            112,
+            113,
+            126
+          ]
+        },
+        {
+          "id": "q6_4",
+          "text": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+          "variable": "q6_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q6 scale; source dictionary label is truncated but source document gives the complete scale."
+          ],
+          "source_blocks": [
+            112,
+            113,
+            127
+          ]
+        },
+        {
+          "id": "q6_5",
+          "text": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+          "variable": "q6_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q6 scale; source dictionary label is truncated but source document gives the complete scale."
+          ],
+          "source_blocks": [
+            112,
+            113,
+            128
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ]
+    },
+    {
+      "id": "q7",
+      "text": "Q7. How valuable are the following “Multistep” or “25 Steps” capabilities in reducing medication errors in your clinical setting? (1=Not important, 5=Extremely important) [Select one answer for each item]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "grid",
+      "items": [
+        {
+          "id": "q7_1",
+          "text": "Minimise manual interventions between rate changes.",
+          "variable": "q7_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Scale: 1=Not important; 2=Slightly important; 3=Moderately important; 4=Highly important; 5=Extremely important. Options may be randomised."
+          ],
+          "source_blocks": [
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141
+          ]
+        },
+        {
+          "id": "q7_2",
+          "text": "Automate movement through the dosing process without the pressure of speedy programming.",
+          "variable": "q7_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q7 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            129,
+            130,
+            142
+          ]
+        },
+        {
+          "id": "q7_3",
+          "text": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+          "variable": "q7_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q7 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            129,
+            130,
+            143
+          ]
+        },
+        {
+          "id": "q7_4",
+          "text": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+          "variable": "q7_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q7 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            129,
+            130,
+            144
+          ]
+        },
+        {
+          "id": "q7_5",
+          "text": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+          "variable": "q7_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q7 scale; options may be randomised."
+          ],
+          "source_blocks": [
+            129,
+            130,
+            145
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145
+      ]
+    },
+    {
+      "id": "q8",
+      "text": "Q8. Based on their value to you, rank the following capabilities from the most valuable (1) to the least valuable (5). [Rank] [Randomise the order of options]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "ranking",
+      "items": [
+        {
+          "id": "q8_1",
+          "text": "Minimise manual interventions between rate changes.",
+          "variable": "q8_1",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q8; each capability must receive a unique rank from 1 to 5."
+          ],
+          "source_blocks": [
+            146,
+            147
+          ]
+        },
+        {
+          "id": "q8_2",
+          "text": "Automate movement through the dosing process without the pressure of speedy programming.",
+          "variable": "q8_2",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q8; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            146,
+            148
+          ]
+        },
+        {
+          "id": "q8_3",
+          "text": "Allow for a “one check” process for 2 nurse checks of medication administration.",
+          "variable": "q8_3",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q8; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            146,
+            149
+          ]
+        },
+        {
+          "id": "q8_4",
+          "text": "Be able to map the entire prescription requirements against one screen following set-up on the pump.",
+          "variable": "q8_4",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q8; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            146,
+            150
+          ]
+        },
+        {
+          "id": "q8_5",
+          "text": "Use a set-up that can be matched to the IVIG or other medication’s specific manufacturer’s instructions for administration.",
+          "variable": "q8_5",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Ranking set Q8; unique ranks 1-5."
+          ],
+          "source_blocks": [
+            146,
+            151
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        146,
+        147,
+        148,
+        149,
+        150,
+        151
+      ]
+    },
+    {
+      "id": "q9",
+      "text": "Q9. Approximately how much time have you saved by using the “Multistep” or “25 Steps” function comparing with not using this function? [Select one answer]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "q9",
+          "text": "Approximately how much time have you saved?",
+          "variable": "q9",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Codes are categorical percentage/time-saving responses, not a numeric percentage: 1=More than 50%; 2=26 - 50%; 3=11 - 25%; 4=Up to 10%; 5=No time saved; 6=It takes more time now; 7=I don't know."
+          ],
+          "source_blocks": [
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160
+      ]
+    },
+    {
+      "id": "q10",
+      "text": "Q10. Approximately by what percentage does using the “Multistep” or “25 Steps” function improve your productivity comparing with not using this function? (e.g., faster task completion, higher care quality, more patients to attend, etc.) [Select one answer]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "single_choice",
+      "items": [
+        {
+          "id": "q10",
+          "text": "Approximately by what percentage does the function improve your productivity?",
+          "variable": "q10",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Codes are categorical percentage/productivity responses, not a numeric percentage: 1=More than 50%; 2=26 - 50%; 3=11 - 25%; 4=Up to 10%; 5=No improvement; 6=It decreased productivity; 7=I don't know."
+          ],
+          "source_blocks": [
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168
+      ]
+    },
+    {
+      "id": "q11",
+      "text": "Question 11: In the following series Q11, indicate how much you agree or disagree with the statements related to the “Multistep” or “25 Steps” function of the BD pumps. [Select one answer for each statement]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "grid",
+      "items": [
+        {
+          "id": "q11a",
+          "text": "Statement A: “It is difficult to understand and rectify alarm messages when using the ‘Multistep’ or ‘25 Steps’ function.”",
+          "variable": "q11a",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "1=Strongly agree; 2=Agree; 3=Disagree; 4=Strongly disagree; 5=I haven't used it.",
+            "Statements are presented with a 5 second time delay on the Next button."
+          ],
+          "source_blocks": [
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            175,
+            176,
+            177
+          ]
+        },
+        {
+          "id": "q11b",
+          "text": "Statement B: “It is easy to suspend, pause, stop or change the rate of delivery, and it is clear when this has been completed when using the ‘Multistep’ or ‘25 Steps’ function.”",
+          "variable": "q11b",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q11 scale."
+          ],
+          "source_blocks": [
+            178,
+            179,
+            180,
+            181,
+            182,
+            183
+          ]
+        },
+        {
+          "id": "q11c",
+          "text": "Statement C: “Setting the delivery rates for each step when using the ‘Multistep’ or ‘25 Steps’ function is NOT easy, and it is unclear when this has been completed correctly.”",
+          "variable": "q11c",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q11 scale."
+          ],
+          "source_blocks": [
+            184,
+            185,
+            186,
+            187,
+            188,
+            189
+          ]
+        },
+        {
+          "id": "q11d",
+          "text": "Statement D: “I have had more time to concentrate on clinical care when using the ‘Multistep’ or ‘25 Steps’ function.”",
+          "variable": "q11d",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Same Q11 scale."
+          ],
+          "source_blocks": [
+            190,
+            191,
+            192,
+            193,
+            194,
+            195
+          ]
+        },
+        {
+          "id": "q11e",
+          "text": "Statement E: “The prompts were useful as they act as a reminder to return to the patient to complete vital signs checks before moving to the next infusion step.”",
+          "variable": "q11e",
+          "required": true,
+          "allowed_codes": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "1=Strongly agree; 2=Agree; 3=Disagree; 4=Strongly disagree; 5=I haven't used it; 6=Not applicable to me.",
+            "Only applicable to respondents who use the BD neXus pump; otherwise select Not applicable to me."
+          ],
+          "source_blocks": [
+            196,
+            197,
+            198,
+            199,
+            200,
+            201,
+            202,
+            203,
+            204,
+            205
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ]
+    },
+    {
+      "id": "q12",
+      "text": "Q12. If the “Multistep” or “25 Steps” function could save your time up to 1 hour, what other activities would you like to do instead? [Select all that apply] [Randomise the order of options, except Other]",
+      "section": "Questionnaire for PICOT 1 - “Multistep” or “25 Steps” function",
+      "kind": "multiple_response",
+      "items": [
+        {
+          "id": "q12_1",
+          "text": "Patient care, such as taking vital signs",
+          "variable": "q12_1",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code. Options may be randomised."
+          ],
+          "source_blocks": [
+            206,
+            207
+          ]
+        },
+        {
+          "id": "q12_2",
+          "text": "Patient counselling",
+          "variable": "q12_2",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code. Options may be randomised."
+          ],
+          "source_blocks": [
+            206,
+            208
+          ]
+        },
+        {
+          "id": "q12_3",
+          "text": "Non-clinical administrative tasks",
+          "variable": "q12_3",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code. Options may be randomised."
+          ],
+          "source_blocks": [
+            206,
+            209
+          ]
+        },
+        {
+          "id": "q12_4",
+          "text": "Teaching and training",
+          "variable": "q12_4",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code. Options may be randomised."
+          ],
+          "source_blocks": [
+            206,
+            210
+          ]
+        },
+        {
+          "id": "q12_5",
+          "text": "Managing additional patients",
+          "variable": "q12_5",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; source does not state the affirmative/selected code. Options may be randomised."
+          ],
+          "source_blocks": [
+            206,
+            211
+          ]
+        },
+        {
+          "id": "q12_98",
+          "text": "Other, please specify:",
+          "variable": "q12_98",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": null,
+          "routing": "q0 = 1",
+          "constraints": [
+            "Binary multiple-response item; Other is not randomised; source does not state the affirmative/selected code."
+          ],
+          "source_blocks": [
+            206,
+            212
+          ]
+        },
+        {
+          "id": "q12_98_other",
+          "text": "Other, please specify:",
+          "variable": "q12_98_other",
+          "required": true,
+          "allowed_codes": [],
+          "minimum": null,
+          "maximum": null,
+          "other_for": "q12_98",
+          "routing": "q0 = 1 and q12_98 selected",
+          "constraints": [
+            "Text entry linked to the Q12 Other activity item."
+          ],
+          "source_blocks": [
+            212
+          ]
+        }
+      ],
+      "routing": "q0 = 1",
+      "source_blocks": [
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b01_q0",
+      "question_ids": [
+        "q0"
+      ],
+      "source_variables": [
+        "q0"
+      ],
+      "checks": [
+        "q0 is required and must be 1 or 2; q0=2 terminates the questionnaire.",
+        "Include shared-default test-token check for ordinary response fields."
+      ],
+      "provenance": [
+        "Questionnaire blocks 31-36",
+        "Shared defaults: ordinary_questions_required=true, include_test_case_check=true"
+      ]
+    },
+    {
+      "id": "b02_q1",
+      "question_ids": [
+        "q1"
+      ],
+      "source_variables": [
+        "q0",
+        "q1_1",
+        "q1_2",
+        "q1_3",
+        "q1_4",
+        "q1_5",
+        "q1_6",
+        "q1_7",
+        "q1_8",
+        "q1_9",
+        "q1_10",
+        "q1_11",
+        "q1_98",
+        "q1_98_other"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Validate Q1 response fields as binary multiple-response items; codes require analyst confirmation because the source does not state them.",
+        "Require q1_98_other when q1_98 is selected."
+      ],
+      "provenance": [
+        "Questionnaire blocks 37-49",
+        "Dataset dictionary variable names and labels"
+      ]
+    },
+    {
+      "id": "b03_q2",
+      "question_ids": [
+        "q2"
+      ],
+      "source_variables": [
+        "q0",
+        "q2_1",
+        "q2_2",
+        "q2_3",
+        "q2_4",
+        "q2_98",
+        "q2_98_other"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q2 rating must be one of codes 1-7.",
+        "Require q2_98_other when the Q2 Other item is answered."
+      ],
+      "provenance": [
+        "Questionnaire blocks 51-71",
+        "Dataset dictionary value labels for q2_1-q2_4 and q2_98"
+      ]
+    },
+    {
+      "id": "b04_q3",
+      "question_ids": [
+        "q3"
+      ],
+      "source_variables": [
+        "q0",
+        "q3_1",
+        "q3_2",
+        "q3_3",
+        "q3_4",
+        "q3_5"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q3 rating must be one of codes 1-5."
+      ],
+      "provenance": [
+        "Questionnaire blocks 72-88",
+        "Dataset dictionary value labels for q3_1-q3_5"
+      ]
+    },
+    {
+      "id": "b05_q4",
+      "question_ids": [
+        "q4"
+      ],
+      "source_variables": [
+        "q0",
+        "q4_1",
+        "q4_2",
+        "q4_3",
+        "q4_4",
+        "q4_5"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q4 rating must be one of codes 1-5."
+      ],
+      "provenance": [
+        "Questionnaire blocks 89-105",
+        "Dataset dictionary value labels for q4_1-q4_5"
+      ]
+    },
+    {
+      "id": "b06_q5",
+      "question_ids": [
+        "q5"
+      ],
+      "source_variables": [
+        "q0",
+        "q5_1",
+        "q5_2",
+        "q5_3",
+        "q5_4",
+        "q5_5"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q5 rank must be between 1 and 5.",
+        "The five Q5 ranks must be unique and complete."
+      ],
+      "provenance": [
+        "Questionnaire blocks 106-111",
+        "Explicit ranking bounds in questionnaire"
+      ]
+    },
+    {
+      "id": "b07_q6",
+      "question_ids": [
+        "q6"
+      ],
+      "source_variables": [
+        "q0",
+        "q6_1",
+        "q6_2",
+        "q6_3",
+        "q6_4",
+        "q6_5"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q6 rating must be one of codes 1-5."
+      ],
+      "provenance": [
+        "Questionnaire blocks 112-128",
+        "Dataset dictionary value labels for q6_1-q6_5"
+      ]
+    },
+    {
+      "id": "b08_q7",
+      "question_ids": [
+        "q7"
+      ],
+      "source_variables": [
+        "q0",
+        "q7_1",
+        "q7_2",
+        "q7_3",
+        "q7_4",
+        "q7_5"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q7 rating must be one of codes 1-5."
+      ],
+      "provenance": [
+        "Questionnaire blocks 129-145",
+        "Dataset dictionary value labels for q7_1-q7_5"
+      ]
+    },
+    {
+      "id": "b09_q8",
+      "question_ids": [
+        "q8"
+      ],
+      "source_variables": [
+        "q0",
+        "q8_1",
+        "q8_2",
+        "q8_3",
+        "q8_4",
+        "q8_5"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Each Q8 rank must be between 1 and 5.",
+        "The five Q8 ranks must be unique and complete."
+      ],
+      "provenance": [
+        "Questionnaire blocks 146-151",
+        "Explicit ranking bounds in questionnaire"
+      ]
+    },
+    {
+      "id": "b10_q9",
+      "question_ids": [
+        "q9"
+      ],
+      "source_variables": [
+        "q0",
+        "q9"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "q9 must be one of categorical codes 1-7; do not treat the percentage labels as numeric values."
+      ],
+      "provenance": [
+        "Questionnaire blocks 153-160",
+        "Dataset dictionary value labels for q9"
+      ]
+    },
+    {
+      "id": "b11_q10",
+      "question_ids": [
+        "q10"
+      ],
+      "source_variables": [
+        "q0",
+        "q10"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "q10 must be one of categorical codes 1-7; do not treat the percentage labels as numeric values."
+      ],
+      "provenance": [
+        "Questionnaire blocks 161-168",
+        "Dataset dictionary value labels for q10"
+      ]
+    },
+    {
+      "id": "b12_q11",
+      "question_ids": [
+        "q11"
+      ],
+      "source_variables": [
+        "q0",
+        "q11a",
+        "q11b",
+        "q11c",
+        "q11d",
+        "q11e"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "q11a-q11d must be one of codes 1-5; q11e must be one of codes 1-6.",
+        "Preserve the Q11 five-second Next-button delay as an application presentation rule.",
+        "q11e=6 is the explicit Not applicable to me exception for non-BD-neXus users."
+      ],
+      "provenance": [
+        "Questionnaire blocks 169-205",
+        "Dataset dictionary value labels for q11a-q11e"
+      ]
+    },
+    {
+      "id": "b13_q12",
+      "question_ids": [
+        "q12"
+      ],
+      "source_variables": [
+        "q0",
+        "q12_1",
+        "q12_2",
+        "q12_3",
+        "q12_4",
+        "q12_5",
+        "q12_98",
+        "q12_98_other"
+      ],
+      "checks": [
+        "Run only when q0=1.",
+        "Validate Q12 response fields as binary multiple-response items; codes require analyst confirmation because the source does not state them.",
+        "Require q12_98_other when q12_98 is selected.",
+        "Preserve the exception that Other is not randomised."
+      ],
+      "provenance": [
+        "Questionnaire blocks 206-212",
+        "Dataset dictionary variable names and labels"
+      ]
+    }
+  ],
+  "excluded_variables": [
+    {
+      "variable": "respid",
+      "reason": "Administrative variable handled by the application; shared default positive check is inserted before questionnaire blocks."
+    },
+    {
+      "variable": "user_id",
+      "reason": "Administrative variable handled by the application; shared default nonblank check is inserted before questionnaire blocks."
+    },
+    {
+      "variable": "interview_start",
+      "reason": "Administrative variable handled by the application; shared default nonmissing check is inserted before questionnaire blocks."
+    },
+    {
+      "variable": "interview_end",
+      "reason": "Administrative variable handled by the application; shared default nonmissing check is inserted before questionnaire blocks."
+    },
+    {
+      "variable": "screenstatus",
+      "reason": "Administrative hidden status variable handled by the application; not a respondent question."
+    },
+    {
+      "variable": "scrstatus",
+      "reason": "Administrative hidden status variable handled by the application; not a respondent question."
+    },
+    {
+      "variable": "hidchange",
+      "reason": "Administrative version/change variable handled by the application; not a respondent question."
+    },
+    {
+      "variable": "surveyloi",
+      "reason": "Administrative interview-length variable handled by the application; not a respondent question."
+    },
+    {
+      "variable": "hidoebatch",
+      "reason": "Administrative batch variable handled by the application; not a respondent question."
+    },
+    {
+      "variable": "hiddvbatch",
+      "reason": "Administrative batch variable handled by the application; not a respondent question."
+    },
+    {
+      "variable": "qcountry",
+      "reason": "Candidate SAV variable has a question label but no corresponding question or response item in the supplied questionnaire blocks; excluded pending source confirmation rather than inferred from the dictionary alone."
+    }
+  ],
+  "warnings": [
+    "The Q2 introductory instruction at block 50 says respondents will rate items using a scale from 1 to 5, while Q2 itself and the SAV dictionary specify codes 1-7. The question-specific Q2 scale and dictionary labels take precedence; retain the conflict for analyst review.",
+    "Q1 and Q12 are explicitly select-all-that-apply, but the questionnaire and dictionary do not specify the binary selected/unselected codes. Variables are preserved with null/empty allowed-code lists pending confirmation.",
+    "The source dictionary contains truncated Q6/Q7 labels for some items, while the questionnaire blocks provide the complete wording and scale; the questionnaire wording is retained.",
+    "Q5 and Q8 are ranking sets with explicit 1-5 bounds in the questionnaire, but the dictionary supplies no value labels; these codes are based on the explicit ranking instruction, not option position.",
+    "qcountry is present as a candidate SAV variable but has no questionnaire evidence in the supplied document and is therefore excluded pending confirmation.",
+    "The supplied document contains PICOT 2-4 front matter, but only the PICOT 1 questionnaire has response items and SAV variables in scope; no additional questions were inferred."
+  ]
+}

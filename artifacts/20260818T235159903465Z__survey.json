@@ -1,0 +1,1187 @@
+{
+  "metadata": {
+    "title": "│",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "V1",
+          "variable": "V1",
+          "title": "Norstella 2026/07/13",
+          "text": "V1 Norstella 2026/07/13",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 7
+          }
+        },
+        {
+          "id": "V2",
+          "variable": "V2",
+          "title": "Norstella 2026/07/15",
+          "text": "V2 Norstella 2026/07/15",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 8
+          }
+        },
+        {
+          "id": "V3",
+          "variable": "V3",
+          "title": "Norstella 2026/07/17",
+          "text": "V3 Norstella 2026/07/17 SCREENER This survey is designed to gather insights into the current management of myelofibrosis, including not only primary myelofibrosis but also post-polycythemia vera and post-essential thrombocythemia myelofibrosis, and your views on Product X, a new therapy currently in development. [Overall quota: 485 respondents in total. Recruit 100 US / 50 UK / 50 DE / 50 FR / 50 ES / 50 IT / 75 CN / 60 JP.]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 9
+          }
+        },
+        {
+          "id": "S1",
+          "variable": "S1",
+          "title": "Where do you practice?",
+          "text": "S1: Where do you practice? [PN: Allow single selection] [O] United States CONTINUE [O] United Kingdom CONTINUE [O] Germany CONTINUE [O] France CONTINUE [O] Spain CONTINUE [O] Italy CONTINUE [O] China CONTINUE [O] Japan CONTINUE [O] Other TERMINATE IMMEDIATELY [S2: China respondents only. Skip S2 for other countries.] [Recruit Beijing >20, Shanghai >20, Guangzhou >20.]",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S1: Where do you practice? [PN: Allow single selection] [O] United States CONTINUE [O] United Kingdom CONTINUE [O] Germany CONTINUE [O] France CONTINUE [O] Spain CONTINUE [O] Italy CONTINUE [O] China CONTINUE [O] Japan CONTINUE [O] Other TERMINATE IMMEDIATELY [S2: China respondents only. Skip S2 for other countries.] [Recruit Beijing >20, Shanghai >20, Guangzhou >20.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 13
+          }
+        },
+        {
+          "id": "S2",
+          "variable": "S2",
+          "title": "Which city do you primarily practice in?",
+          "text": "S2: Which city do you primarily practice in? [PN: Allow single selection] [O] Beijing CONTINUE [O] Shanghai CONTINUE [O] Guangzhou CONTINUE [O] Other TERMINATE IMMEDIATELY",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S2: Which city do you primarily practice in? [PN: Allow single selection] [O] Beijing CONTINUE [O] Shanghai CONTINUE [O] Guangzhou CONTINUE [O] Other TERMINATE IMMEDIATELY",
+          "notes": null,
+          "metadata": {
+            "source_line": 44
+          }
+        },
+        {
+          "id": "S3",
+          "variable": "S3",
+          "title": "What is your primary specialty?",
+          "text": "S3: What is your primary specialty? [PN: Allow single selection] [O] Medical oncology CONTINUE [O] Hematology CONTINUE [O] Hematology / Oncology CONTINUE [O] Other TERMINATE IMMEDIATELY",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S3: What is your primary specialty? [PN: Allow single selection] [O] Medical oncology CONTINUE [O] Hematology CONTINUE [O] Hematology / Oncology CONTINUE [O] Other TERMINATE IMMEDIATELY",
+          "notes": null,
+          "metadata": {
+            "source_line": 58
+          }
+        },
+        {
+          "id": "S4",
+          "variable": "S4",
+          "title": "Which statement best describes your role in managing myelofibrosis patients?",
+          "text": "S4: Which statement best describes your role in managing myelofibrosis patients? [PN: Allow single selection] [O] I am the primary treating physician for myelofibrosis patients. CONTINUE [O] I co-manage myelofibrosis patients as part of a multidisciplinary team. TERMINATE IMMEDIATELY [O] I diagnose / refer only. TERMINATE IMMEDIATELY [O] I do not treat myelofibrosis patients. TERMINATE IMMEDIATELY [O] Other TERMINATE IMMEDIATELY",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S4: Which statement best describes your role in managing myelofibrosis patients? [PN: Allow single selection] [O] I am the primary treating physician for myelofibrosis patients. CONTINUE [O] I co-manage myelofibrosis patients as part of a multidisciplinary team. TERMINATE IMMEDIATELY [O] I diagnose / refer only. TERMINATE IMMEDIATELY [O] I do not treat myelofibrosis patients. TERMINATE IMMEDIATELY [O] Other TERMINATE IMMEDIATELY",
+          "notes": null,
+          "metadata": {
+            "source_line": 72
+          }
+        },
+        {
+          "id": "S5",
+          "variable": "S5",
+          "title": "In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician?",
+          "text": "S5: In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. [PN: Numerical entry – 0-999] Newly diagnosed (i.e., patients newly diagnosed with myelofibrosis or new to your practice in the past 12 months) [number] Ongoing patients (i.e., patients with a prior myelofibrosis diagnosis who were already under your care before the past 12 months) [number] PN: If sum of “Newly diagnosed” + “Ongoing patients” is ≥ 5 patients, CONTINUE. If sum of “Newly diagnosed” + “Ongoing patients” is < 5, TERMINATE Survey questionnaire Current patient distribution snapshot",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "S5: In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. [PN: Numerical entry – 0-999] Newly diagnosed (i.e., patients newly diagnosed with myelofibrosis or new to your practice in the past 12 months) [number] Ongoing patients (i.e., patients with a prior myelofibrosis diagnosis who were already under your care before the past 12 months) [number] PN: If sum of “Newly diagnosed” + “Ongoing patients” is ≥ 5 patients, CONTINUE. If sum of “Newly diagnosed” + “Ongoing patients” is < 5, TERMINATE Survey questionnaire Current patient distribution snapshot",
+          "notes": null,
+          "metadata": {
+            "source_line": 89
+          }
+        },
+        {
+          "id": "Q1",
+          "variable": "Q1",
+          "title": "Please consider your myelofibrosis (MF) patients in the past 12 months who are transplant ineligible and require treatment for MF (DIPSS intermediate-1, intermediate-2, and high-risk), and describe their distribution in terms of which line of therapy they are currently undergoing.",
+          "text": "Q1: Please consider your myelofibrosis (MF) patients in the past 12 months who are transplant ineligible and require treatment for MF (DIPSS intermediate-1, intermediate-2, and high-risk), and describe their distribution in terms of which line of therapy they are currently undergoing. Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. Please ensure your answers for 1st line, 2nd line, and 3rd line or later sum as 100%. [PN: Numerical entry – 0-100] Among my current MF patients (transplant ineligible and DIPSS intermediate-1 or above): Currently in their 1st line of treatment: [0-100] % Currently in their 2nd line of treatment: [0-100] % Currently in their 3rd line or later of treatment: [0-100] % [PN: Numbers in the column should add up to 100%] Treatment algorithm",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 101
+          }
+        },
+        {
+          "id": "Q2",
+          "variable": "Q2",
+          "title": "Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk?",
+          "text": "Q2: Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. Please ensure percentages total 100%. [PN: Numerical entry – 0-100] Newly diagnosed MF patients who are: DIPSS low risk [0-100] % DIPSS intermediate-1 / intermediate-2 / high risk [0-100] % [PN: Numbers in the column should add up to 100%] [SKIP if answer to Q2 for Intermediate-1/-2/high is 0.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q2: Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. Please ensure percentages total 100%. [PN: Numerical entry – 0-100] Newly diagnosed MF patients who are: DIPSS low risk [0-100] % DIPSS intermediate-1 / intermediate-2 / high risk [0-100] % [PN: Numbers in the column should add up to 100%] [SKIP if answer to Q2 for Intermediate-1/-2/high is 0.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 114
+          }
+        },
+        {
+          "id": "Q3",
+          "variable": "Q3",
+          "title": "What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible?",
+          "text": "Q3: What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible? [PN: Numerical entry – 0-100] Transplant-ineligible patients among DIPSS int-1, int-2, high risk MF patients: [0-100] % [SKIP if answer to Q3 is 0.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q3: What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible? [PN: Numerical entry – 0-100] Transplant-ineligible patients among DIPSS int-1, int-2, high risk MF patients: [0-100] % [SKIP if answer to Q3 is 0.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 125
+          }
+        },
+        {
+          "id": "Q4",
+          "variable": "Q4",
+          "title": "Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment?",
+          "text": "Q4: Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment? For 1st line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 1st line treatment: [0-100] % [SKIP the remaining survey including Product X section if answer to Q2 for Intermediate-1/-2/high or Q3 or Q4 is 0.] In the remaining parts of this survey, please focus on myelofibrosis patients who are transplant-ineligible and equivalent to DIPSS intermediate-1, intermediate-2, or high risk.",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q4: Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment? For 1st line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 1st line treatment: [0-100] % [SKIP the remaining survey including Product X section if answer to Q2 for Intermediate-1/-2/high or Q3 or Q4 is 0.] In the remaining parts of this survey, please focus on myelofibrosis patients who are transplant-ineligible and equivalent to DIPSS intermediate-1, intermediate-2, or high risk.",
+          "notes": null,
+          "metadata": {
+            "source_line": 130
+          }
+        },
+        {
+          "id": "Q5",
+          "variable": "Q5",
+          "title": "Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?",
+          "text": "Q5: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your relevant 1st line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 1st line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 1st line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: ONLY for respondents who answer US in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 137
+          }
+        },
+        {
+          "id": "Q6",
+          "variable": "Q6",
+          "title": "Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q6: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q6: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 146
+          }
+        },
+        {
+          "id": "Q7",
+          "variable": "Q7",
+          "title": "Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q7: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer China in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q7: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer China in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 171
+          }
+        },
+        {
+          "id": "Q8",
+          "variable": "Q8",
+          "title": "Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q8: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q8: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 193
+          }
+        },
+        {
+          "id": "Q9",
+          "variable": "Q9",
+          "title": "Assuming your typical transplant-ineligible myelofibrosis (MF) patients who have received 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 2nd line treatment?",
+          "text": "Q9: Assuming your typical transplant-ineligible myelofibrosis (MF) patients who have received 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 2nd line treatment? For 2nd line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 2nd line treatment: [0-100] % [PN: SKIP for respondents who answer 0 in Q9]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 211
+          }
+        },
+        {
+          "id": "Q10",
+          "variable": "Q10",
+          "title": "Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?",
+          "text": "Q10: Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 2nd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 2nd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 2nd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q5<Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q5)% of your 1st line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 2nd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer US in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q10: Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 2nd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 2nd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 2nd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q5<Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q5)% of your 1st line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 2nd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer US in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 217
+          }
+        },
+        {
+          "id": "Q11",
+          "variable": "Q11",
+          "title": "Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q11: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q11: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 228
+          }
+        },
+        {
+          "id": "Q12",
+          "variable": "Q12",
+          "title": "Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q12: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer China in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q12: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer China in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 254
+          }
+        },
+        {
+          "id": "Q13",
+          "variable": "Q13",
+          "title": "Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q13: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q13: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9]",
+          "notes": null,
+          "metadata": {
+            "source_line": 277
+          }
+        },
+        {
+          "id": "Q14",
+          "variable": "Q14",
+          "title": "Assuming your typical transplant-ineligible myelofibrosis (MF) patients who received 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 3rd line treatment?",
+          "text": "Q14: Assuming your typical transplant-ineligible myelofibrosis (MF) patients who received 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 3rd line treatment? For 3rd line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 3rd line treatment: [0-100] % [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 296
+          }
+        },
+        {
+          "id": "Q15",
+          "variable": "Q15",
+          "title": "Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?",
+          "text": "Q15: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 3rd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 3rd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 3rd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q15>Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q10)% of your 2nd line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 3rd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer US in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q15: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 3rd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 3rd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 3rd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q15>Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q10)% of your 2nd line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 3rd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer US in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 302
+          }
+        },
+        {
+          "id": "Q16",
+          "variable": "Q16",
+          "title": "Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q16: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q16: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 313
+          }
+        },
+        {
+          "id": "Q17",
+          "variable": "Q17",
+          "title": "Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q17: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer China in S1]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q17: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer China in S1]",
+          "notes": null,
+          "metadata": {
+            "source_line": 339
+          }
+        },
+        {
+          "id": "Q18",
+          "variable": "Q18",
+          "title": "Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+          "text": "Q18: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] Product X In the next section, we will ask for your feedback on Product X, a new therapy currently in development for myelofibrosis. Please review the provided TPP (target product profile) carefully before proceeding. (PN: Show TPP at the same time as the questions in all remaining sections so that respondents can refer back to it if needed.Show appropriate version of TPP.)",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q18: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] Product X In the next section, we will ask for your feedback on Product X, a new therapy currently in development for myelofibrosis. Please review the provided TPP (target product profile) carefully before proceeding. (PN: Show TPP at the same time as the questions in all remaining sections so that respondents can refer back to it if needed.Show appropriate version of TPP.)",
+          "notes": null,
+          "metadata": {
+            "source_line": 362
+          }
+        },
+        {
+          "id": "Q19",
+          "variable": "Q19",
+          "title": "Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week.",
+          "text": "Q19: Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q19: Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 383
+          }
+        },
+        {
+          "id": "Q20",
+          "variable": "Q20",
+          "title": "Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?",
+          "text": "Q20: Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q20: Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 394
+          }
+        },
+        {
+          "id": "Q21",
+          "variable": "Q21",
+          "title": "Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week.",
+          "text": "Q21: Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q21: Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 405
+          }
+        },
+        {
+          "id": "Q22",
+          "variable": "Q22",
+          "title": "Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?",
+          "text": "Q22: Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q22: Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 416
+          }
+        },
+        {
+          "id": "Q23",
+          "variable": "Q23",
+          "title": "Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week.",
+          "text": "Q23: Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q23: Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 427
+          }
+        },
+        {
+          "id": "Q24",
+          "variable": "Q24",
+          "title": "Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?",
+          "text": "Q24: Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q24: Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 438
+          }
+        },
+        {
+          "id": "Q25",
+          "variable": "Q25",
+          "title": "Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week.",
+          "text": "Q25: Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week. Approximately what percentage of your typical 1st line MF patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? Please treat your 1st line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 1st line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q5 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q25: Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week. Approximately what percentage of your typical 1st line MF patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? Please treat your 1st line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 1st line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q5 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 449
+          }
+        },
+        {
+          "id": "Q26",
+          "variable": "Q26",
+          "title": "Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?",
+          "text": "Q26: Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st line (previous question), the same patients cannot be considered for prescribing Product X in 2nd line. Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q26: Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st line (previous question), the same patients cannot be considered for prescribing Product X in 2nd line. Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 457
+          }
+        },
+        {
+          "id": "Q27",
+          "variable": "Q27",
+          "title": "Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?",
+          "text": "Q27: Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st or 2nd line (previous questions), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "section": "MAIN",
+          "question_type": "NUMERIC",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q27: Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st or 2nd line (previous questions), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.]",
+          "notes": null,
+          "metadata": {
+            "source_line": 465
+          }
+        },
+        {
+          "id": "Q28",
+          "variable": "Q28",
+          "title": "Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion.",
+          "text": "Q28: Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion. [PN: Single selection] [○] I do not consider three-times-per-week dosing a compliance risk. [○] It would likely be a compliance risk — weekly blister packaging can be an effective mitigation. [○] It would likely be a compliance risk — a patient medication calendar can be an effective mitigation. [○] It would likely be a compliance risk — both weekly blister packaging and a patient medication calendar can be effective mitigations. [○] It would likely be a compliance risk — another mitigation can be effective (please specify): [Free text] [○] It would likely be a compliance risk — there is no effective mitigation. END OF SURVEY",
+          "section": "MAIN",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q28: Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion. [PN: Single selection] [○] I do not consider three-times-per-week dosing a compliance risk. [○] It would likely be a compliance risk — weekly blister packaging can be an effective mitigation. [○] It would likely be a compliance risk — a patient medication calendar can be an effective mitigation. [○] It would likely be a compliance risk — both weekly blister packaging and a patient medication calendar can be effective mitigations. [○] It would likely be a compliance risk — another mitigation can be effective (please specify): [Free text] [○] It would likely be a compliance risk — there is no effective mitigation. END OF SURVEY",
+          "notes": null,
+          "metadata": {
+            "source_line": 473
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "V1",
+      "variable": "V1",
+      "title": "Norstella 2026/07/13",
+      "text": "V1 Norstella 2026/07/13",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 7
+      }
+    },
+    {
+      "id": "V2",
+      "variable": "V2",
+      "title": "Norstella 2026/07/15",
+      "text": "V2 Norstella 2026/07/15",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 8
+      }
+    },
+    {
+      "id": "V3",
+      "variable": "V3",
+      "title": "Norstella 2026/07/17",
+      "text": "V3 Norstella 2026/07/17 SCREENER This survey is designed to gather insights into the current management of myelofibrosis, including not only primary myelofibrosis but also post-polycythemia vera and post-essential thrombocythemia myelofibrosis, and your views on Product X, a new therapy currently in development. [Overall quota: 485 respondents in total. Recruit 100 US / 50 UK / 50 DE / 50 FR / 50 ES / 50 IT / 75 CN / 60 JP.]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 9
+      }
+    },
+    {
+      "id": "S1",
+      "variable": "S1",
+      "title": "Where do you practice?",
+      "text": "S1: Where do you practice? [PN: Allow single selection] [O] United States CONTINUE [O] United Kingdom CONTINUE [O] Germany CONTINUE [O] France CONTINUE [O] Spain CONTINUE [O] Italy CONTINUE [O] China CONTINUE [O] Japan CONTINUE [O] Other TERMINATE IMMEDIATELY [S2: China respondents only. Skip S2 for other countries.] [Recruit Beijing >20, Shanghai >20, Guangzhou >20.]",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S1: Where do you practice? [PN: Allow single selection] [O] United States CONTINUE [O] United Kingdom CONTINUE [O] Germany CONTINUE [O] France CONTINUE [O] Spain CONTINUE [O] Italy CONTINUE [O] China CONTINUE [O] Japan CONTINUE [O] Other TERMINATE IMMEDIATELY [S2: China respondents only. Skip S2 for other countries.] [Recruit Beijing >20, Shanghai >20, Guangzhou >20.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 13
+      }
+    },
+    {
+      "id": "S2",
+      "variable": "S2",
+      "title": "Which city do you primarily practice in?",
+      "text": "S2: Which city do you primarily practice in? [PN: Allow single selection] [O] Beijing CONTINUE [O] Shanghai CONTINUE [O] Guangzhou CONTINUE [O] Other TERMINATE IMMEDIATELY",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S2: Which city do you primarily practice in? [PN: Allow single selection] [O] Beijing CONTINUE [O] Shanghai CONTINUE [O] Guangzhou CONTINUE [O] Other TERMINATE IMMEDIATELY",
+      "notes": null,
+      "metadata": {
+        "source_line": 44
+      }
+    },
+    {
+      "id": "S3",
+      "variable": "S3",
+      "title": "What is your primary specialty?",
+      "text": "S3: What is your primary specialty? [PN: Allow single selection] [O] Medical oncology CONTINUE [O] Hematology CONTINUE [O] Hematology / Oncology CONTINUE [O] Other TERMINATE IMMEDIATELY",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S3: What is your primary specialty? [PN: Allow single selection] [O] Medical oncology CONTINUE [O] Hematology CONTINUE [O] Hematology / Oncology CONTINUE [O] Other TERMINATE IMMEDIATELY",
+      "notes": null,
+      "metadata": {
+        "source_line": 58
+      }
+    },
+    {
+      "id": "S4",
+      "variable": "S4",
+      "title": "Which statement best describes your role in managing myelofibrosis patients?",
+      "text": "S4: Which statement best describes your role in managing myelofibrosis patients? [PN: Allow single selection] [O] I am the primary treating physician for myelofibrosis patients. CONTINUE [O] I co-manage myelofibrosis patients as part of a multidisciplinary team. TERMINATE IMMEDIATELY [O] I diagnose / refer only. TERMINATE IMMEDIATELY [O] I do not treat myelofibrosis patients. TERMINATE IMMEDIATELY [O] Other TERMINATE IMMEDIATELY",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S4: Which statement best describes your role in managing myelofibrosis patients? [PN: Allow single selection] [O] I am the primary treating physician for myelofibrosis patients. CONTINUE [O] I co-manage myelofibrosis patients as part of a multidisciplinary team. TERMINATE IMMEDIATELY [O] I diagnose / refer only. TERMINATE IMMEDIATELY [O] I do not treat myelofibrosis patients. TERMINATE IMMEDIATELY [O] Other TERMINATE IMMEDIATELY",
+      "notes": null,
+      "metadata": {
+        "source_line": 72
+      }
+    },
+    {
+      "id": "S5",
+      "variable": "S5",
+      "title": "In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician?",
+      "text": "S5: In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. [PN: Numerical entry – 0-999] Newly diagnosed (i.e., patients newly diagnosed with myelofibrosis or new to your practice in the past 12 months) [number] Ongoing patients (i.e., patients with a prior myelofibrosis diagnosis who were already under your care before the past 12 months) [number] PN: If sum of “Newly diagnosed” + “Ongoing patients” is ≥ 5 patients, CONTINUE. If sum of “Newly diagnosed” + “Ongoing patients” is < 5, TERMINATE Survey questionnaire Current patient distribution snapshot",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "S5: In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. [PN: Numerical entry – 0-999] Newly diagnosed (i.e., patients newly diagnosed with myelofibrosis or new to your practice in the past 12 months) [number] Ongoing patients (i.e., patients with a prior myelofibrosis diagnosis who were already under your care before the past 12 months) [number] PN: If sum of “Newly diagnosed” + “Ongoing patients” is ≥ 5 patients, CONTINUE. If sum of “Newly diagnosed” + “Ongoing patients” is < 5, TERMINATE Survey questionnaire Current patient distribution snapshot",
+      "notes": null,
+      "metadata": {
+        "source_line": 89
+      }
+    },
+    {
+      "id": "Q1",
+      "variable": "Q1",
+      "title": "Please consider your myelofibrosis (MF) patients in the past 12 months who are transplant ineligible and require treatment for MF (DIPSS intermediate-1, intermediate-2, and high-risk), and describe their distribution in terms of which line of therapy they are currently undergoing.",
+      "text": "Q1: Please consider your myelofibrosis (MF) patients in the past 12 months who are transplant ineligible and require treatment for MF (DIPSS intermediate-1, intermediate-2, and high-risk), and describe their distribution in terms of which line of therapy they are currently undergoing. Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. Please ensure your answers for 1st line, 2nd line, and 3rd line or later sum as 100%. [PN: Numerical entry – 0-100] Among my current MF patients (transplant ineligible and DIPSS intermediate-1 or above): Currently in their 1st line of treatment: [0-100] % Currently in their 2nd line of treatment: [0-100] % Currently in their 3rd line or later of treatment: [0-100] % [PN: Numbers in the column should add up to 100%] Treatment algorithm",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 101
+      }
+    },
+    {
+      "id": "Q2",
+      "variable": "Q2",
+      "title": "Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk?",
+      "text": "Q2: Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. Please ensure percentages total 100%. [PN: Numerical entry – 0-100] Newly diagnosed MF patients who are: DIPSS low risk [0-100] % DIPSS intermediate-1 / intermediate-2 / high risk [0-100] % [PN: Numbers in the column should add up to 100%] [SKIP if answer to Q2 for Intermediate-1/-2/high is 0.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q2: Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk? Myelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis. Please ensure percentages total 100%. [PN: Numerical entry – 0-100] Newly diagnosed MF patients who are: DIPSS low risk [0-100] % DIPSS intermediate-1 / intermediate-2 / high risk [0-100] % [PN: Numbers in the column should add up to 100%] [SKIP if answer to Q2 for Intermediate-1/-2/high is 0.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 114
+      }
+    },
+    {
+      "id": "Q3",
+      "variable": "Q3",
+      "title": "What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible?",
+      "text": "Q3: What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible? [PN: Numerical entry – 0-100] Transplant-ineligible patients among DIPSS int-1, int-2, high risk MF patients: [0-100] % [SKIP if answer to Q3 is 0.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q3: What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible? [PN: Numerical entry – 0-100] Transplant-ineligible patients among DIPSS int-1, int-2, high risk MF patients: [0-100] % [SKIP if answer to Q3 is 0.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 125
+      }
+    },
+    {
+      "id": "Q4",
+      "variable": "Q4",
+      "title": "Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment?",
+      "text": "Q4: Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment? For 1st line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 1st line treatment: [0-100] % [SKIP the remaining survey including Product X section if answer to Q2 for Intermediate-1/-2/high or Q3 or Q4 is 0.] In the remaining parts of this survey, please focus on myelofibrosis patients who are transplant-ineligible and equivalent to DIPSS intermediate-1, intermediate-2, or high risk.",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q4: Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment? For 1st line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 1st line treatment: [0-100] % [SKIP the remaining survey including Product X section if answer to Q2 for Intermediate-1/-2/high or Q3 or Q4 is 0.] In the remaining parts of this survey, please focus on myelofibrosis patients who are transplant-ineligible and equivalent to DIPSS intermediate-1, intermediate-2, or high risk.",
+      "notes": null,
+      "metadata": {
+        "source_line": 130
+      }
+    },
+    {
+      "id": "Q5",
+      "variable": "Q5",
+      "title": "Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?",
+      "text": "Q5: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your relevant 1st line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 1st line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 1st line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: ONLY for respondents who answer US in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 137
+      }
+    },
+    {
+      "id": "Q6",
+      "variable": "Q6",
+      "title": "Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q6: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q6: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 146
+      }
+    },
+    {
+      "id": "Q7",
+      "variable": "Q7",
+      "title": "Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q7: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer China in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q7: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: ONLY for respondents who answer China in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 171
+      }
+    },
+    {
+      "id": "Q8",
+      "variable": "Q8",
+      "title": "Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q8: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q8: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q5 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 193
+      }
+    },
+    {
+      "id": "Q9",
+      "variable": "Q9",
+      "title": "Assuming your typical transplant-ineligible myelofibrosis (MF) patients who have received 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 2nd line treatment?",
+      "text": "Q9: Assuming your typical transplant-ineligible myelofibrosis (MF) patients who have received 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 2nd line treatment? For 2nd line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 2nd line treatment: [0-100] % [PN: SKIP for respondents who answer 0 in Q9]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 211
+      }
+    },
+    {
+      "id": "Q10",
+      "variable": "Q10",
+      "title": "Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?",
+      "text": "Q10: Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 2nd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 2nd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 2nd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q5<Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q5)% of your 1st line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 2nd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer US in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q10: Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 2nd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 2nd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 2nd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q5<Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q5)% of your 1st line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 2nd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer US in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 217
+      }
+    },
+    {
+      "id": "Q11",
+      "variable": "Q11",
+      "title": "Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q11: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q11: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 228
+      }
+    },
+    {
+      "id": "Q12",
+      "variable": "Q12",
+      "title": "Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q12: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer China in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q12: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9] [PN: ONLY for respondents who answer China in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 254
+      }
+    },
+    {
+      "id": "Q13",
+      "variable": "Q13",
+      "title": "Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q13: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q13: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q10 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q9]",
+      "notes": null,
+      "metadata": {
+        "source_line": 277
+      }
+    },
+    {
+      "id": "Q14",
+      "variable": "Q14",
+      "title": "Assuming your typical transplant-ineligible myelofibrosis (MF) patients who received 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 3rd line treatment?",
+      "text": "Q14: Assuming your typical transplant-ineligible myelofibrosis (MF) patients who received 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 3rd line treatment? For 3rd line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials. [PN: Numerical entry – 0-100] MF patients receiving 3rd line treatment: [0-100] % [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 296
+      }
+    },
+    {
+      "id": "Q15",
+      "variable": "Q15",
+      "title": "Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?",
+      "text": "Q15: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 3rd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 3rd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 3rd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q15>Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q10)% of your 2nd line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 3rd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer US in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q15: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)? Please consider all your 3rd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 3rd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more: [0-100] % 3rd line MF patients with platelet counts below 50,000/µL (50x10^9/L): [0-100] % [PN: Numbers should add up to 100 before proceeding.] [PN: If Q15>Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q10)% of your 2nd line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 3rd line just now. Are you sure you want to continue?”] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer US in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 302
+      }
+    },
+    {
+      "id": "Q16",
+      "variable": "Q16",
+      "title": "Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q16: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q16: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Pacritinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 313
+      }
+    },
+    {
+      "id": "Q17",
+      "variable": "Q17",
+      "title": "Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q17: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer China in S1]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q17: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Momelotinib [0-100] % [0-100] % Fedratinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14] [PN: ONLY for respondents who answer China in S1]",
+      "notes": null,
+      "metadata": {
+        "source_line": 339
+      }
+    },
+    {
+      "id": "Q18",
+      "variable": "Q18",
+      "title": "Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.",
+      "text": "Q18: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] Product X In the next section, we will ask for your feedback on Product X, a new therapy currently in development for myelofibrosis. Please review the provided TPP (target product profile) carefully before proceeding. (PN: Show TPP at the same time as the questions in all remaining sections so that respondents can refer back to it if needed.Show appropriate version of TPP.)",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q18: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively. Please include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group. [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) Ruxolitinib [0-100] % [0-100] % Gecacitinib [0-100] % [0-100] % Other (including best supportive care and clinical trials) [0-100] % [0-100] % [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] [PN: SKIP if Q15 is 0 for this platelet group.] [PN: Numbers in the same column should add up to 100 before proceeding.] Product X In the next section, we will ask for your feedback on Product X, a new therapy currently in development for myelofibrosis. Please review the provided TPP (target product profile) carefully before proceeding. (PN: Show TPP at the same time as the questions in all remaining sections so that respondents can refer back to it if needed.Show appropriate version of TPP.)",
+      "notes": null,
+      "metadata": {
+        "source_line": 362
+      }
+    },
+    {
+      "id": "Q19",
+      "variable": "Q19",
+      "title": "Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week.",
+      "text": "Q19: Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q19: Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 383
+      }
+    },
+    {
+      "id": "Q20",
+      "variable": "Q20",
+      "title": "Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?",
+      "text": "Q20: Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q20: Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 394
+      }
+    },
+    {
+      "id": "Q21",
+      "variable": "Q21",
+      "title": "Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week.",
+      "text": "Q21: Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q21: Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 405
+      }
+    },
+    {
+      "id": "Q22",
+      "variable": "Q22",
+      "title": "Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?",
+      "text": "Q22: Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q22: Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 416
+      }
+    },
+    {
+      "id": "Q23",
+      "variable": "Q23",
+      "title": "Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week.",
+      "text": "Q23: Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q23: Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week. Approximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.] [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 427
+      }
+    },
+    {
+      "id": "Q24",
+      "variable": "Q24",
+      "title": "Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?",
+      "text": "Q24: Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q24: Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L). [PN: Numerical entry – 0-100] 50,000/µL (50x10^9/L) or more Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to: [0-100] % [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.] [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 438
+      }
+    },
+    {
+      "id": "Q25",
+      "variable": "Q25",
+      "title": "Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week.",
+      "text": "Q25: Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week. Approximately what percentage of your typical 1st line MF patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? Please treat your 1st line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 1st line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q5 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q25: Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week. Approximately what percentage of your typical 1st line MF patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? Please treat your 1st line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 1st line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q5 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 449
+      }
+    },
+    {
+      "id": "Q26",
+      "variable": "Q26",
+      "title": "Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?",
+      "text": "Q26: Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st line (previous question), the same patients cannot be considered for prescribing Product X in 2nd line. Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q26: Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st line (previous question), the same patients cannot be considered for prescribing Product X in 2nd line. Please treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 2nd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q10 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 457
+      }
+    },
+    {
+      "id": "Q27",
+      "variable": "Q27",
+      "title": "Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?",
+      "text": "Q27: Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st or 2nd line (previous questions), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "section": "MAIN",
+      "question_type": "NUMERIC",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q27: Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to? If you have indicated your intention to prescribe Product X to certain patients in 1st or 2nd line (previous questions), the same patients cannot be considered for prescribing Product X in 3rd line. Please treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. [PN: Numerical entry – 0-100] Below 50,000/µL (50x10^9/L) 3rd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to: [0-100] % [PN: SKIP if Q15 is 0% for the same platelet group.]",
+      "notes": null,
+      "metadata": {
+        "source_line": 465
+      }
+    },
+    {
+      "id": "Q28",
+      "variable": "Q28",
+      "title": "Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion.",
+      "text": "Q28: Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion. [PN: Single selection] [○] I do not consider three-times-per-week dosing a compliance risk. [○] It would likely be a compliance risk — weekly blister packaging can be an effective mitigation. [○] It would likely be a compliance risk — a patient medication calendar can be an effective mitigation. [○] It would likely be a compliance risk — both weekly blister packaging and a patient medication calendar can be effective mitigations. [○] It would likely be a compliance risk — another mitigation can be effective (please specify): [Free text] [○] It would likely be a compliance risk — there is no effective mitigation. END OF SURVEY",
+      "section": "MAIN",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q28: Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion. [PN: Single selection] [○] I do not consider three-times-per-week dosing a compliance risk. [○] It would likely be a compliance risk — weekly blister packaging can be an effective mitigation. [○] It would likely be a compliance risk — a patient medication calendar can be an effective mitigation. [○] It would likely be a compliance risk — both weekly blister packaging and a patient medication calendar can be effective mitigations. [○] It would likely be a compliance risk — another mitigation can be effective (please specify): [Free text] [○] It would likely be a compliance risk — there is no effective mitigation. END OF SURVEY",
+      "notes": null,
+      "metadata": {
+        "source_line": 473
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "(V3_R99343) Myelofibrosis_Quant_survey_vFINAL_Clean_Updated_v3_Norstella_20260717.docx",
+  "source_format": "docx",
+  "source_text": "│\nPortfolio Strategy Advisory\n│\nPortfolio Strategy Advisory\nMyelofibrosis – Quantitative survey\nVersion FINAL, June 2026\nV1 Norstella 2026/07/13\nV2 Norstella 2026/07/15\nV3 Norstella 2026/07/17\nSCREENER\nThis survey is designed to gather insights into the current management of myelofibrosis, including not only primary myelofibrosis but also post-polycythemia vera and post-essential thrombocythemia myelofibrosis, and your views on Product X, a new therapy currently in development.\n[Overall quota: 485 respondents in total. Recruit 100 US / 50 UK / 50 DE / 50 FR / 50 ES / 50 IT / 75 CN / 60 JP.]\nS1: Where do you practice?\n[PN: Allow single selection]\n[O]\nUnited States\nCONTINUE\n[O]\nUnited Kingdom\nCONTINUE\n[O]\nGermany\nCONTINUE\n[O]\nFrance\nCONTINUE\n[O]\nSpain\nCONTINUE\n[O]\nItaly\nCONTINUE\n[O]\nChina\nCONTINUE\n[O]\nJapan\nCONTINUE\n[O]\nOther\nTERMINATE IMMEDIATELY\n[S2: China respondents only. Skip S2 for other countries.]\n[Recruit Beijing >20, Shanghai >20, Guangzhou >20.]\nS2: Which city do you primarily practice in?\n[PN: Allow single selection]\n[O]\nBeijing\nCONTINUE\n[O]\nShanghai\nCONTINUE\n[O]\nGuangzhou\nCONTINUE\n[O]\nOther\nTERMINATE IMMEDIATELY\nS3: What is your primary specialty?\n[PN: Allow single selection]\n[O]\nMedical oncology\nCONTINUE\n[O]\nHematology\nCONTINUE\n[O]\nHematology / Oncology\nCONTINUE\n[O]\nOther\nTERMINATE IMMEDIATELY\nS4: Which statement best describes your role in managing myelofibrosis patients?\n[PN: Allow single selection]\n[O]\nI am the primary treating physician for myelofibrosis patients.\nCONTINUE\n[O]\nI co-manage myelofibrosis patients as part of a multidisciplinary team.\nTERMINATE IMMEDIATELY\n[O]\nI diagnose / refer only.\nTERMINATE IMMEDIATELY\n[O]\nI do not treat myelofibrosis patients.\nTERMINATE IMMEDIATELY\n[O]\nOther\nTERMINATE IMMEDIATELY\nS5: In the past 12 months, how many unique patients with myelofibrosis, who are newly diagnosed within the year or ongoing from previous years, have you managed as the primary treating physician?\nMyelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis.\n[PN: Numerical entry – 0-999]\nNewly diagnosed\n(i.e., patients newly diagnosed with myelofibrosis or new to your practice in the past 12 months)\n[number]\nOngoing patients\n(i.e., patients with a prior myelofibrosis diagnosis who were already under your care before the past 12 months)\n[number]\nPN: If sum of “Newly diagnosed” + “Ongoing patients” is ≥ 5 patients, CONTINUE. If sum of “Newly diagnosed” + “Ongoing patients” is < 5, TERMINATE\nSurvey questionnaire\nCurrent patient distribution snapshot\nQ1: Please consider your myelofibrosis (MF) patients in the past 12 months who are transplant ineligible and require treatment for MF (DIPSS intermediate-1, intermediate-2, and high-risk), and describe their distribution in terms of which line of therapy they are currently undergoing.\nMyelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis.\nPlease ensure your answers for 1st line, 2nd line, and 3rd line or later sum as 100%.\n[PN: Numerical entry – 0-100]\nAmong my current MF patients (transplant ineligible and DIPSS intermediate-1 or above):\nCurrently in their 1st line of treatment:\n[0-100] %\nCurrently in their 2nd line of treatment:\n[0-100] %\nCurrently in their 3rd line or later of treatment:\n[0-100] %\n[PN: Numbers in the column should add up to 100%]\nTreatment algorithm\nQ2: Considering newly diagnosed myelofibrosis (MF) patients you typically see, what is the approximate split between DIPSS low risk and DIPSS intermediate-1 / intermediate-2 / high risk?\nMyelofibrosis includes not only primary myelofibrosis but also post-PV (polycythemia vera) and post-ET (essential thrombocythemia) myelofibrosis.\nPlease ensure percentages total 100%.\n[PN: Numerical entry – 0-100]\nNewly diagnosed MF patients who are:\nDIPSS low risk\n[0-100] %\nDIPSS intermediate-1 / intermediate-2 / high risk\n[0-100] %\n[PN: Numbers in the column should add up to 100%]\n[SKIP if answer to Q2 for Intermediate-1/-2/high is 0.]\nQ3: What percentage of your typical newly diagnosed myelofibrosis (MF) patients who are either DIPSS intermediate-1, intermediate-2, or high risk is transplant-ineligible?\n[PN: Numerical entry – 0-100]\nTransplant-ineligible patients among DIPSS int-1, int-2, high risk MF patients:\n[0-100] %\n[SKIP if answer to Q3 is 0.]\nQ4: Among the newly diagnosed, transplant-ineligible myelofibrosis (MF) patients you typically see who are DIPSS intermediate-1, intermediate-2, or high risk, approximately what percentage receives 1st line treatment?\nFor 1st line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials.\n[PN: Numerical entry – 0-100]\nMF patients receiving 1st line treatment:\n[0-100] %\n[SKIP the remaining survey including Product X section if answer to Q2 for Intermediate-1/-2/high or Q3 or Q4 is 0.]\nIn the remaining parts of this survey, please focus on myelofibrosis patients who are transplant-ineligible and equivalent to DIPSS intermediate-1, intermediate-2, or high risk.\nQ5: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?\nPlease consider all your relevant 1st line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n1st line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more:\n[0-100] %\n1st line MF patients with platelet counts below 50,000/µL (50x10^9/L):\n[0-100] %\n[PN: Numbers should add up to 100 before proceeding.]\n[PN: ONLY for respondents who answer US in S1]\nQ6: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis (MF) patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nMomelotinib\n[0-100] %\n[0-100] %\nPacritinib\n[0-100] %\n[0-100] %\nFedratinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q5 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q5 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]\nQ7: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nMomelotinib\n[0-100] %\n[0-100] %\nFedratinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q5 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q5 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: ONLY for respondents who answer China in S1]\nQ8: Please indicate your typical 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nGecacitinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q5 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q5 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\nQ9: Assuming your typical transplant-ineligible myelofibrosis (MF) patients who have received 1st line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 2nd line treatment?\nFor 2nd line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials.\n[PN: Numerical entry – 0-100]\nMF patients receiving 2nd line treatment:\n[0-100] %\n[PN: SKIP for respondents who answer 0 in Q9]\nQ10: Approximately what percentage of your typical transplant ineligible myelofibrosis (MF) patients receiving 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?\nPlease consider all your 2nd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n2nd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more:\n[0-100] %\n2nd line MF patients with platelet counts below 50,000/µL (50x10^9/L):\n[0-100] %\n[PN: Numbers should add up to 100 before proceeding.]\n[PN: If Q5<Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q5)% of your 1st line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 2nd line just now. Are you sure you want to continue?”]\n[PN: SKIP for respondents who answer 0 in Q9]\n[PN: ONLY for respondents who answer US in S1]\nQ11: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nMomelotinib\n[0-100] %\n[0-100] %\nPacritinib\n[0-100] %\n[0-100] %\nFedratinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q10 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q10 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP for respondents who answer 0 in Q9]\n[PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]\nQ12: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nMomelotinib\n[0-100] %\n[0-100] %\nFedratinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q10 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q10 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP for respondents who answer 0 in Q9]\n[PN: ONLY for respondents who answer China in S1]\nQ13: Please indicate your typical 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nGecacitinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q10 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q10 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP for respondents who answer 0 in Q9]\nQ14: Assuming your typical transplant-ineligible myelofibrosis (MF) patients who received 2nd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) as 100%, approximately what percentage goes on to receive 3rd line treatment?\nFor 3rd line treatment, please exclude observation / active monitoring only but include any active pharmacologic therapy, best supportive care and clinical trials.\n[PN: Numerical entry – 0-100]\nMF patients receiving 3rd line treatment:\n[0-100] %\n[PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14]\nQ15: Approximately what percentage of your typical transplant-ineligible myelofibrosis (MF) patients receiving 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) has platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L)?\nPlease consider all your 3rd line patients, including anemic patients, in terms of platelet counts so that they are either ≥50,000/µL (50x10^9/L) or <50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n3rd line MF patients with platelet counts of 50,000/µL (50x10^9/L) or more:\n[0-100] %\n3rd line MF patients with platelet counts below 50,000/µL (50x10^9/L):\n[0-100] %\n[PN: Numbers should add up to 100 before proceeding.]\n[PN: If Q15>Q10 for 50,000/µL (50x10^9/L) or more group, present soft error message “You have previously indicated that (Q10)% of your 2nd line treatment patients has platelet counts of 50,000/µL (50x10^9/L) or more, and indicated greater % of 50,000/µL (50x10^9/L) patients in the 3rd line just now. Are you sure you want to continue?”]\n[PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14]\n[PN: ONLY for respondents who answer US in S1]\nQ16: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nMomelotinib\n[0-100] %\n[0-100] %\nPacritinib\n[0-100] %\n[0-100] %\nFedratinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q15 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q15 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14]\n[PN: ONLY for respondents who answer UK, EU4 (DE,FR,IT ES), or Japan in S1]\nQ17: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nMomelotinib\n[0-100] %\n[0-100] %\nFedratinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q15 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q15 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP for respondents who answer 0 in Q14, or who skipped Q14]\n[PN: ONLY for respondents who answer China in S1]\nQ18: Please indicate your typical 3rd line treatment (any active pharmacologic therapy, best supportive care, clinical trials) breakdown for transplant-ineligible myelofibrosis patients with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively.\nPlease include all relevant patients regardless of their anemia status, and ensure your answers add up to 100% for respective group.\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\nRuxolitinib\n[0-100] %\n[0-100] %\nGecacitinib\n[0-100] %\n[0-100] %\nOther (including best supportive care and clinical trials)\n[0-100] %\n[0-100] %\n[PN: SKIP if Q15 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\n[PN: SKIP if Q15 is 0 for this platelet group.]\n[PN: Numbers in the same column should add up to 100 before proceeding.]\nProduct X\nIn the next section, we will ask for your feedback on Product X, a new therapy currently in development for myelofibrosis. Please review the provided TPP (target product profile) carefully before proceeding.\n(PN: Show TPP at the same time as the questions in all remaining sections so that respondents can refer back to it if needed.Show appropriate version of TPP.)\nQ19: Please consider scenario A: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: >45% and TSS50: >55%. Please also note that Product X requires oral administration three times per week.\nApproximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?\nPlease treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\n2nd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to:\n[0-100] %\n[0-100] %\n[PN: SKIP if Q10 is 0% for the same platelet group.]\n[PN: SKIP if Q10 is 0% for the same platelet group.]\nQ20: Under the same scenario A, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?\nIf you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line.\nPlease treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\n3rd line MF patients I would prescribe Product X (SVR35: >45%, TSS50: >55%) to:\n[0-100] %\n[0-100] %\n[PN: SKIP if Q15 is 0% for the same platelet group.]\n[PN: SKIP if Q15 is 0% for the same platelet group.]\nQ21: Please consider scenario B: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 30% and TSS50: 40%. Please also note that Product X requires oral administration three times per week.\nApproximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?\nPlease treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\n2nd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to:\n[0-100] %\n[0-100] %\n[PN: SKIP if Q10 is 0% for the same platelet group.]\n[PN: SKIP if Q10 is 0% for the same platelet group.]\nQ22: Under the same scenario B, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?\nIf you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line.\nPlease treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\n3rd line MF patients I would prescribe Product X (SVR35: 30%, TSS50: 40%) to:\n[0-100] %\n[0-100] %\n[PN: SKIP if Q15 is 0% for the same platelet group.]\n[PN: SKIP if Q15 is 0% for the same platelet group.]\nQ23: Please consider scenario C: Product X is indicated for myelofibrosis (MF) patients with prior JAKi exposure and exhibiting SVR35: 20% and TSS50: 30%. Please also note that Product X requires oral administration three times per week.\nApproximately what percentage of your typical 2nd line MF patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?\nPlease treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\n2nd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to:\n[0-100] %\n[0-100] %\n[PN: SKIP if Q10 is 0% for the same platelet group.]\n[PN: SKIP if Q10 is 0% for the same platelet group.]\nQ24: Under the same scenario C, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts of 50,000/µL (50x10^9/L) or more and below 50,000/µL (50x10^9/L), respectively, would you prescribe Product X to?\nIf you have indicated your intention to prescribe Product X to certain patients in 2nd line (previous question), the same patients cannot be considered for prescribing Product X in 3rd line.\nPlease treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts of 50,000/µL (50x10^9/L) or more regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%. Apply the same assumption to the group with platelet counts below 50,000/µL (50x10^9/L).\n[PN: Numerical entry – 0-100]\n50,000/µL (50x10^9/L) or more\nBelow 50,000/µL (50x10^9/L)\n3rd line MF patients I would prescribe Product X (SVR35: 20%, TSS50: 30%) to:\n[0-100] %\n[0-100] %\n[PN: SKIP if Q15 is 0% for the same platelet group.]\n[PN: SKIP if Q15 is 0% for the same platelet group.]\nQ25: Please consider scenario D: Product X is indicated for myelofibrosis (MF) patients with platelet counts below 50,000/µL (50x10^9/L) who have prior JAKi exposure or are JAKi-ineligible. Product X exhibits superior efficacy compared to best available therapy (BAT) excluding JAK inhibitors and requires oral administration three times per week.\nApproximately what percentage of your typical 1st line MF patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?\nPlease treat your 1st line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%.\n[PN: Numerical entry – 0-100]\nBelow 50,000/µL (50x10^9/L)\n1st line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to:\n[0-100] %\n[PN: SKIP if Q5 is 0% for the same platelet group.]\nQ26: Under the same scenario D, approximately what percentage of your typical 2nd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?\nIf you have indicated your intention to prescribe Product X to certain patients in 1st line (previous question), the same patients cannot be considered for prescribing Product X in 2nd line.\nPlease treat your 2nd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%.\n[PN: Numerical entry – 0-100]\nBelow 50,000/µL (50x10^9/L)\n2nd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to:\n[0-100] %\n[PN: SKIP if Q10 is 0% for the same platelet group.]\nQ27: Under the same scenario D, approximately what percentage of your typical 3rd line myelofibrosis (MF) patients who are transplant-ineligible with platelet counts below 50,000/µL (50x10^9/L) would you prescribe Product X to?\nIf you have indicated your intention to prescribe Product X to certain patients in 1st or 2nd line (previous questions), the same patients cannot be considered for prescribing Product X in 3rd line.\nPlease treat your 3rd line patients (transplant-ineligible; DIPSS intermediate-1, intermediate-2, or high risk) with platelet counts below 50,000/µL (50x10^9/L) regardless of anemia status as the full population (100%) for this segment, and include patients receiving any pharmacologic therapy, best supportive care and those in clinical trials within that 100%.\n[PN: Numerical entry – 0-100]\nBelow 50,000/µL (50x10^9/L)\n3rd line MF patients I would prescribe Product X (superior vs BAT excluding JAK inhibitors) to:\n[0-100] %\n[PN: SKIP if Q15 is 0% for the same platelet group.]\nQ28: Do you consider Product X dosing of three times per week a compliance risk? If yes, what would you consider as effective mitigation(s)? Please select one that is closest to your opinion.\n[PN: Single selection]\n[○]\nI do not consider three-times-per-week dosing a compliance risk.\n[○]\nIt would likely be a compliance risk — weekly blister packaging can be an effective mitigation.\n[○]\nIt would likely be a compliance risk — a patient medication calendar can be an effective mitigation.\n[○]\nIt would likely be a compliance risk — both weekly blister packaging and a patient medication calendar can be effective mitigations.\n[○]\nIt would likely be a compliance risk — another mitigation can be effective (please specify): [Free text]\n[○]\nIt would likely be a compliance risk — there is no effective mitigation.\nEND OF SURVEY",
+  "total_questions": 36,
+  "total_sections": 1,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 487,
+      "source_characters": 29503,
+      "question_style_blocks": 0
+    }
+  }
+}

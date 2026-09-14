@@ -1,0 +1,18 @@
+{
+  "run_id": "20260730T124646554875Z",
+  "created_at": "2026-07-30T12:47:03.300247+00:00",
+  "generation_seconds": 16.94,
+  "input": {
+    "key": "20260730T124646554875Z__V9_R98676_CRA-Astellas_Dravet_Syndrome_HCP_Survey_v28May2026.docx",
+    "filename": "V9_R98676_CRA-Astellas_Dravet_Syndrome_HCP_Survey_v28May2026.docx",
+    "size": 398338,
+    "created_at": "2026-07-30T12:46:46.557656+00:00"
+  },
+  "output": {
+    "key": "Validation_20260730T124646554875Z.sps",
+    "filename": "Validation_20260730T124646554875Z.sps",
+    "size": 3748,
+    "created_at": "2026-07-30T12:47:03.300247+00:00"
+  },
+  "user": "appadmin"
+}

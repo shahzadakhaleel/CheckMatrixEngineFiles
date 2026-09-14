@@ -1,0 +1,205 @@
+{
+  "run_id": "20260819T032851408421Z",
+  "user": "appadmin",
+  "created_at": "2026-08-19T03:30:01.908966+00:00",
+  "generation_seconds": 135.18,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "60167f594227cf39389089218105a54166a41047ea48d6a0960f3c28c3ee6d0c",
+  "input": {
+    "key": "20260819T032851408421Z__V2_R99525_RINVOQ_Derm_ZIP_Vitiligo_Phototherapy_Use_Survey_v5.0_002_.docx",
+    "filename": "V2_R99525_RINVOQ_Derm_ZIP_Vitiligo_Phototherapy_Use_Survey_v5.0_002_.docx",
+    "size": 346333,
+    "created_at": "2026-08-19T03:28:51.407830+00:00"
+  },
+  "output": {
+    "key": "Validation_260819033001.sps",
+    "filename": "Validation_260819033001.sps",
+    "size": 19291,
+    "created_at": "2026-08-19T03:30:01.908966+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 58,
+    "checksEmitted": 59,
+    "questionsOmitted": 33,
+    "coveragePercent": 43.1,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Disclosures & Permissions",
+        "prefix": "D, CON",
+        "questions": 3,
+        "checksEmitted": 8,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Screener",
+        "prefix": "Q",
+        "questions": 20,
+        "checksEmitted": 46,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Survey",
+        "prefix": "Q",
+        "questions": 28,
+        "checksEmitted": 5,
+        "questionsOmitted": 26,
+        "coveragePercent": 7.1,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q9_1",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_2",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_3",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_4",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_5",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_6",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_7",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q9_8",
+            "reason": "Numeric range, mandatory, and routing evidence is present, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q10_1",
+            "reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q10_2",
+            "reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q10_3",
+            "reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q10_4",
+            "reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q10_5",
+            "reason": "Mandatory and percentage-response evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q11_1",
+            "reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q11_2",
+            "reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q11_3",
+            "reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q11_4",
+            "reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q11_5",
+            "reason": "Mandatory, percentage-response, and conditional-routing evidence is present, but no canonical response variable or explicit percentage bounds are supplied."
+          },
+          {
+            "questionId": "Q12",
+            "reason": "This is a required open-ended response, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q13_1",
+            "reason": "Allowed response codes 1\u20135, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q13_2",
+            "reason": "Allowed response codes 1\u20135, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q13_3",
+            "reason": "Allowed response codes 1\u20135, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q13_4",
+            "reason": "Allowed response codes 1\u20135, mandatory status, and conditional routing are evidenced, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q13_5",
+            "reason": "Allowed response codes 1\u20135 and mandatory status are evidenced, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q14",
+            "reason": "This is a required open-ended response with routing evidence, but no canonical response variable is supplied."
+          },
+          {
+            "questionId": "Q15",
+            "reason": "The questionnaire supplies selection, required, and exclusivity evidence, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+          }
+        ]
+      },
+      {
+        "block": "Opzelura and phototherapy",
+        "prefix": "Q",
+        "questions": 7,
+        "checksEmitted": 0,
+        "questionsOmitted": 7,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "Q16",
+            "reason": "The questionnaire specifies required whole-number percentage responses from 0\u2013100, but no target SPSS variable or row-variable range is supplied; a deterministic validation rule cannot be emitted without inventing variables."
+          },
+          {
+            "questionId": "Q17",
+            "reason": "The questionnaire specifies two required percentage responses with a 0\u2013100 range, but no target SPSS variables are supplied; a deterministic validation rule cannot be emitted without inventing variables."
+          },
+          {
+            "questionId": "Q18_1",
+            "reason": "The questionnaire specifies a required 1\u20137 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+          },
+          {
+            "questionId": "Q18_2",
+            "reason": "The questionnaire specifies a required 1\u20137 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+          },
+          {
+            "questionId": "Q18_3",
+            "reason": "The questionnaire specifies a required 1\u20137 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+          },
+          {
+            "questionId": "Q18_4",
+            "reason": "The questionnaire specifies a required 1\u20137 response, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+          },
+          {
+            "questionId": "Q19",
+            "reason": "The questionnaire specifies a required single response with allowed codes 1\u20137 and 88, but no target SPSS variable is supplied; a deterministic validation rule cannot be emitted without inventing a variable."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2389 @@
+{
+  "questionnaire_title": "RINVOQ Derm ZIP – Vitiligo Phototherapy Usage",
+  "project_name": "RINVOQ Derm ZIP Vitiligo Phototherapy Use Survey",
+  "validations": [
+    {
+      "question_id": "D1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides consent and response-code evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "D2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides consent, response-code, and termination-routing evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "CON.0",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides consent, response-code, and termination-routing evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required single-select, allowed-code, and termination-routing evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required single-select, allowed-code, and termination-routing evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number and 0–999 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number and 0–999 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number and 0–999 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number and 0–999 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number and 0–999 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number, 0–999 range, and zero-response termination evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q3_98",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number and 0–999 range evidence, plus an other-condition specification, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_4",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage, 0–100 range, and conditional termination evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_6",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_7",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_8",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q4_98",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, plus an other-treatment specification, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q5",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required multiple-response, allowed-code, and exclusive-option evidence, but no SPSS base variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q6_1",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q6_2",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q6_3",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The questionnaire provides required whole-number percentage and 0–100 range evidence, but no SPSS variable is supplied to bind a validation rule."
+    },
+    {
+      "question_id": "Q6_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q6_4_MISSING",
+          "question_id": "Q6_4",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_4_RANGE",
+          "question_id": "Q6_4",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q6_98",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q6_98_MISSING",
+          "question_id": "Q6_98",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q6_98_RANGE",
+          "question_id": "Q6_98",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be a whole number from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q6_98"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q7",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q7_MISSING",
+          "question_id": "Q7",
+          "validation_type": "mandatory",
+          "description": "A single response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q7_CODES",
+          "question_id": "Q7",
+          "validation_type": "invalid_codes",
+          "description": "Response must use one of the specified answer codes 1 through 4.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q7"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q8_1_MISSING",
+          "question_id": "Q8_1",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_1_RANGE",
+          "question_id": "Q8_1",
+          "validation_type": "numeric_range",
+          "description": "Payment allocation percentages must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q8_2_MISSING",
+          "question_id": "Q8_2",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_2_RANGE",
+          "question_id": "Q8_2",
+          "validation_type": "numeric_range",
+          "description": "Payment allocation percentages must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q8_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q8_3_MISSING",
+          "question_id": "Q8_3",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q8_3_RANGE",
+          "question_id": "Q8_3",
+          "validation_type": "numeric_range",
+          "description": "Payment allocation percentages must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q8_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q9_1_MISSING",
+          "question_id": "Q9_1",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q9_1_RANGE",
+          "question_id": "Q9_1",
+          "validation_type": "numeric_range",
+          "description": "Sessions per week must be a whole number from 0 to 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 7.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q9_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q9_2_MISSING",
+          "question_id": "Q9_2",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q9_2_RANGE",
+          "question_id": "Q9_2",
+          "validation_type": "numeric_range",
+          "description": "Duration must be a whole number from 0 to 999 weeks.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q9_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 999.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_1_MISSING",
+          "question_id": "Q10_1",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_1_RANGE",
+          "question_id": "Q10_1",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_2_MISSING",
+          "question_id": "Q10_2",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_2_RANGE",
+          "question_id": "Q10_2",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_3_MISSING",
+          "question_id": "Q10_3",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_3_RANGE",
+          "question_id": "Q10_3",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_4_MISSING",
+          "question_id": "Q10_4",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_4_RANGE",
+          "question_id": "Q10_4",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q10_5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q10_5_MISSING",
+          "question_id": "Q10_5",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q10_5_RANGE",
+          "question_id": "Q10_5",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q10_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q11_1_MISSING",
+          "question_id": "Q11_1",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11_1_RANGE",
+          "question_id": "Q11_1",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q11_2_MISSING",
+          "question_id": "Q11_2",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11_2_RANGE",
+          "question_id": "Q11_2",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q11_3_MISSING",
+          "question_id": "Q11_3",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11_3_RANGE",
+          "question_id": "Q11_3",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q11_4_MISSING",
+          "question_id": "Q11_4",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11_4_RANGE",
+          "question_id": "Q11_4",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q11_5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q11_5_MISSING",
+          "question_id": "Q11_5",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q11_5_RANGE",
+          "question_id": "Q11_5",
+          "validation_type": "numeric_range",
+          "description": "Percentage must be from 0 to 100.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q11_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q12",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q12_OPEN",
+          "question_id": "Q12",
+          "validation_type": "open_end",
+          "description": "A free-text response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q12"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13_1",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q13_1_CODES",
+          "question_id": "Q13_1",
+          "validation_type": "invalid_codes",
+          "description": "Satisfaction response must be coded from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13_2",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q13_2_CODES",
+          "question_id": "Q13_2",
+          "validation_type": "invalid_codes",
+          "description": "Satisfaction response must be coded from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13_3",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q13_3_CODES",
+          "question_id": "Q13_3",
+          "validation_type": "invalid_codes",
+          "description": "Satisfaction response must be coded from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13_4",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q13_4_ROUTE",
+          "question_id": "Q13_4",
+          "validation_type": "routing",
+          "description": "Validate that the row is applicable only when Q6_4 is greater than 0.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [
+              {
+                "variable": "Q6_4",
+                "operator": "greater_than",
+                "values": [
+                  0
+                ]
+              }
+            ],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q13_4_CODES",
+          "question_id": "Q13_4",
+          "validation_type": "invalid_codes",
+          "description": "Satisfaction response must be coded from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q13_5",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q13_5_MISSING",
+          "question_id": "Q13_5",
+          "validation_type": "mandatory",
+          "description": "Response is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q13_5_CODES",
+          "question_id": "Q13_5",
+          "validation_type": "invalid_codes",
+          "description": "Agreement response must be coded from 1 to 5.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q13_5"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q14",
+      "variable": null,
+      "rules": [
+        {
+          "id": "Q14_OPEN",
+          "question_id": "Q14",
+          "validation_type": "open_end",
+          "description": "A free-text response is required for respondents routed to this question.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q14"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q15",
+      "variable": "Q15",
+      "rules": [
+        {
+          "id": "Q15_MULTI",
+          "question_id": "Q15",
+          "validation_type": "multiple_response",
+          "description": "Validate the multi-response selection structure for barriers to phototherapy.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q15_CODES",
+          "question_id": "Q15",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the documented barrier response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              98,
+              99
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q15_MIN",
+          "question_id": "Q15",
+          "validation_type": "minimum_selections",
+          "description": "Require at least one barrier response because the question is required.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": 1,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q15_EXCLUSIVE",
+          "question_id": "Q15",
+          "validation_type": "exclusive_answers",
+          "description": "Ensure that No significant barriers is not selected with any other barrier.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q15"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [
+              "Q15_99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q16_1",
+      "variable": "Q16_1",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q16_2",
+      "variable": "Q16_2",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q16_3",
+      "variable": "Q16_3",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q16_4",
+      "variable": "Q16_4",
+      "rules": [],
+      "no_validation_reason": "The model proposed only rules with unknown variables; they were omitted during deterministic validation"
+    },
+    {
+      "question_id": "Q17",
+      "variable": null,
+      "rules": [],
+      "no_validation_reason": "The question contains two percentage fields, but no field-level variables are supplied to identify the two targets without inventing variable names."
+    },
+    {
+      "question_id": "Q18_1",
+      "variable": "Q18_1",
+      "rules": [
+        {
+          "id": "Q18_1_CODES",
+          "question_id": "Q18_1",
+          "validation_type": "invalid_codes",
+          "description": "Allow only scale responses from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18_1_MANDATORY",
+          "question_id": "Q18_1",
+          "validation_type": "mandatory",
+          "description": "Require a response to the narrow-band UVB change assessment.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_1"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18_GRID_STRAIGHTLINE",
+          "question_id": "Q18_1",
+          "validation_type": "straightlining",
+          "description": "Flag identical responses across the four-item expected-change rating battery.",
+          "enabled": true,
+          "severity": "warning",
+          "parameters": {
+            "variables": [
+              "Q18_1",
+              "Q18_2",
+              "Q18_3",
+              "Q18_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q18_2",
+      "variable": "Q18_2",
+      "rules": [
+        {
+          "id": "Q18_2_CODES",
+          "question_id": "Q18_2",
+          "validation_type": "invalid_codes",
+          "description": "Allow only scale responses from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18_2_MANDATORY",
+          "question_id": "Q18_2",
+          "validation_type": "mandatory",
+          "description": "Require a response to the excimer laser change assessment.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_2"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q18_3",
+      "variable": "Q18_3",
+      "rules": [
+        {
+          "id": "Q18_3_CODES",
+          "question_id": "Q18_3",
+          "validation_type": "invalid_codes",
+          "description": "Allow only scale responses from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18_3_MANDATORY",
+          "question_id": "Q18_3",
+          "validation_type": "mandatory",
+          "description": "Require a response to the prescription at-home device change assessment.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_3"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q18_4",
+      "variable": "Q18_4",
+      "rules": [
+        {
+          "id": "Q18_4_CODES",
+          "question_id": "Q18_4",
+          "validation_type": "invalid_codes",
+          "description": "Allow only scale responses from 1 through 7.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q18_4_MANDATORY",
+          "question_id": "Q18_4",
+          "validation_type": "mandatory",
+          "description": "Require a response to the at-home DTC device change assessment.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q18_4"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    },
+    {
+      "question_id": "Q19",
+      "variable": "Q19",
+      "rules": [
+        {
+          "id": "Q19_CODES",
+          "question_id": "Q19",
+          "validation_type": "invalid_codes",
+          "description": "Allow only the documented sequencing response codes.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              88
+            ],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        },
+        {
+          "id": "Q19_MANDATORY",
+          "question_id": "Q19",
+          "validation_type": "mandatory",
+          "description": "Require exactly one sequencing response.",
+          "enabled": true,
+          "severity": "error",
+          "parameters": {
+            "variables": [
+              "Q19"
+            ],
+            "start_variable": null,
+            "end_variable": null,
+            "allowed_values": [],
+            "exclusive_variables": [],
+            "minimum": null,
+            "maximum": null,
+            "selection_minimum": null,
+            "selection_maximum": null,
+            "expected_total": null,
+            "rank_minimum": null,
+            "rank_maximum": null,
+            "applicability": [],
+            "trigger": [],
+            "expected_answered": null,
+            "left_variable": null,
+            "right_variable": null,
+            "comparison": null
+          },
+          "macro": null
+        }
+      ],
+      "no_validation_reason": null
+    }
+  ],
+  "warnings": [
+    "Evidence-supported checks could not be emitted because every supplied question has a null variable and no valid SPSS variable names were provided.",
+    "Percentage-total checks were not added because the canonical data does not identify the individual column variables needed to calculate each row or column total.",
+    "Q9_1 and Q9_2 describe four numeric fields each, but the canonical data supplies no individual field variables; range checks therefore target only the supplied question identifiers.",
+    "The Q14 routing instruction refers to respondents who terminate at Q4, but it does not provide a structured predicate value or an explicit termination variable, so no routing rule was added.",
+    "Omitted unsafe model rule: Rule Q13_1_ROUTE references unknown variables: ['Q6_1']",
+    "Omitted unsafe model rule: Rule Q13_2_ROUTE references unknown variables: ['Q6_2']",
+    "Omitted unsafe model rule: Rule Q13_3_ROUTE references unknown variables: ['Q6_3']",
+    "Q17 specifies two percentage fields but does not supply separate field-level variables; its range and mandatory checks were omitted to avoid inventing variables.",
+    "Q15 contains routing and termination instructions using an OR condition that cannot be represented deterministically with the supplied predicate structure; no routing or screen-out rule was emitted.",
+    "Omitted unsafe model rule: Rule Q16_1_MANDATORY references unknown variables: ['Q6_1']",
+    "Omitted unsafe model rule: Rule Q16_1_RANGE references unknown variables: ['Q6_1']",
+    "Omitted unsafe model rule: Rule Q16_2_MANDATORY references unknown variables: ['Q6_2']",
+    "Omitted unsafe model rule: Rule Q16_2_RANGE references unknown variables: ['Q6_2']",
+    "Omitted unsafe model rule: Rule Q16_3_MANDATORY references unknown variables: ['Q6_3']",
+    "Omitted unsafe model rule: Rule Q16_3_RANGE references unknown variables: ['Q6_3']",
+    "Omitted unsafe model rule: Rule Q16_4_MANDATORY references unknown variables: ['Q6_4']",
+    "Omitted unsafe model rule: Rule Q16_4_RANGE references unknown variables: ['Q6_4']"
+  ],
+  "notes": [],
+  "metadata": {
+    "respondent_id_variable": null
+  }
+}

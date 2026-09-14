@@ -1,0 +1,13 @@
+{
+  "block_id": "B18",
+  "source_variables": [
+    "Q10",
+    "Q11",
+    "Q11a",
+    "Q11b"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q10-Q11b.\ntemporary.\nsel if miss(Q10) or ~range(Q10,0,99) or miss(Q11) or ~range(Q11,1,3) or miss(Q11a) or ~range(Q11a,0,99) or miss(Q11b) or ~range(Q11b,0,99).\nlist respid, Q10, Q11, Q11a, Q11b.",
+  "omission_reason": null,
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "block_id": "B05",
+  "source_variables": [
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S9"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S4-S7,S9.\ntemporary.\nsel if miss(S4) or ~range(S4,0,99) or miss(S5) or ~range(S5,0,100) or miss(S6) or ~range(S6,1,52) or miss(S7) or ~range(S7,1,6) or miss(S9) or ~range(S9,0,300).\nlist respid, S4, S5, S6, S7, S9.",
+  "omission_reason": null,
+  "warnings": [
+    "The questionnaire specifies source-backed screener termination rules; this draft reports invalid or missing values but does not reproduce survey termination behavior."
+  ]
+}

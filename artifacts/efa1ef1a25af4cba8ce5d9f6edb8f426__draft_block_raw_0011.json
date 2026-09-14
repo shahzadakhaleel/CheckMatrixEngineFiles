@@ -1,0 +1,19 @@
+{
+  "block_id": "B11",
+  "source_variables": [
+    "Q3r1c1",
+    "Q3r2c1",
+    "Q3r3c1",
+    "Q3r4c1",
+    "Q3r4oe",
+    "S10r1",
+    "S10r2"
+  ],
+  "temporary_variables": [
+    "Q3_total",
+    "S10_best1"
+  ],
+  "spss": "tit Q3.\ntemporary.\nsel if miss(Q3r1c1) or Q3r1c1<0 or miss(Q3r2c1) or Q3r2c1<0 or miss(Q3r3c1) or Q3r3c1<0 or miss(Q3r4c1) or Q3r4c1<0.\nlist respid, Q3r1c1, Q3r2c1, Q3r3c1, Q3r4c1.\ncompute S10_best1=sum(S10r1,S10r2).\ncompute Q3_total=sum(Q3r1c1,Q3r2c1,Q3r3c1,Q3r4c1).\nexe.\ntit Q3 total.\ntemporary.\nsel if Q3_total<>S10_best1.\nlist respid, S10r1, S10r2, Q3r1c1, Q3r2c1, Q3r3c1, Q3r4c1.\ntit Q3r4oe.\ntemporary.\nsel if Q3r4c1>0 and Q3r4oe=\"\".\nlist respid, Q3r4c1, Q3r4oe.\ndel var Q3_total S10_best1.\nexe.",
+  "omission_reason": null,
+  "warnings": []
+}

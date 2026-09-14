@@ -1,0 +1,81 @@
+{
+  "run_id": "20260912T052424327584Z",
+  "user": "appadmin",
+  "created_at": "2026-09-12T05:25:32.519062+00:00",
+  "generation_seconds": 68.23,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "cached",
+  "document_hash": "d46650c4b002b04140c50bb0ae48d8bf1b29dad2379fdf4225b21e0982e6641f",
+  "input": {
+    "key": "20260912T052424327584Z__V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "filename": "V3_R93941_12847_BD_Nexus_Post_Market_Surveillance_Qre_260429_James_02.docx",
+    "size": 1074868,
+    "created_at": "2026-09-12T05:24:24.333410+00:00"
+  },
+  "output": {
+    "key": "Validation_260912052532.sps",
+    "filename": "Validation_260912052532.sps",
+    "size": 18597,
+    "created_at": "2026-09-12T05:25:32.519062+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 45,
+    "checksEmitted": 49,
+    "questionsOmitted": 0,
+    "coveragePercent": 100.0,
+    "coverage": "Complete",
+    "blocks": [
+      {
+        "block": "Questionnaire for PICOT 1 - \u201cMultistep\u201d or \u201c25 Steps\u201d function.",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 4,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q2\u2013Q8 rating and ranking questions",
+        "prefix": "Q",
+        "questions": 35,
+        "checksEmitted": 36,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q9\u2013Q10 estimates",
+        "prefix": "Q",
+        "questions": 2,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Q11 statements about the \u201cMultistep\u201d or \u201c25 Steps\u201d function",
+        "prefix": "Q",
+        "questions": 5,
+        "checksEmitted": 5,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Final question",
+        "prefix": "Q",
+        "questions": 1,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      }
+    ]
+  }
+}

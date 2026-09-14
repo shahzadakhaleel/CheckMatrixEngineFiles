@@ -1,0 +1,101 @@
+{
+  "run_id": "20260904T144833353002Z",
+  "user": "appadmin",
+  "created_at": "2026-09-04T14:49:26.794657+00:00",
+  "generation_seconds": 94.83,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "8531e2791169e47601e83e82f4e93bd4736cd4d630147c984d07e7f0c4bdee97",
+  "input": {
+    "key": "20260904T144833353002Z__V1_R100696_Marktumfrage_CME_Veranstaltungsmarkt_revised.docx",
+    "filename": "V1_R100696_Marktumfrage_CME_Veranstaltungsmarkt_revised.docx",
+    "size": 32424,
+    "created_at": "2026-09-04T14:48:33.356592+00:00"
+  },
+  "output": {
+    "key": "Validation_260904144926.sps",
+    "filename": "Validation_260904144926.sps",
+    "size": 10474,
+    "created_at": "2026-09-04T14:49:26.794657+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 21,
+    "checksEmitted": 30,
+    "questionsOmitted": 0,
+    "coveragePercent": 100.0,
+    "coverage": "Complete",
+    "blocks": [
+      {
+        "block": "Block 0 - Screening",
+        "prefix": "S",
+        "questions": 4,
+        "checksEmitted": 6,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Block A - Status quo: Wie wird heute gesammelt",
+        "prefix": "A",
+        "questions": 3,
+        "checksEmitted": 4,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Block B - Pr\u00e4ferenz (Kernblock)",
+        "prefix": "B",
+        "questions": 2,
+        "checksEmitted": 2,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Block C - Die zwei gegenl\u00e4ufigen Kr\u00e4fte",
+        "prefix": "C",
+        "questions": 2,
+        "checksEmitted": 6,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Block D - Zukunftserwartung (der Trend)",
+        "prefix": "D",
+        "questions": 4,
+        "checksEmitted": 6,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Block E - Auswahl & Anbieter",
+        "prefix": "E",
+        "questions": 3,
+        "checksEmitted": 3,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Block F \u2013 Klassifikation",
+        "prefix": "F",
+        "questions": 3,
+        "checksEmitted": 3,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      }
+    ]
+  }
+}

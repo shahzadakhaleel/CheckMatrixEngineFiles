@@ -1,0 +1,13 @@
+{
+  "run_id": "463103b95fef4290b3edfcd52d973a60",
+  "created_at": "2026-09-13T06:12:34.617119+00:00",
+  "status": "failed",
+  "stage": "generation",
+  "reason": "Block B_screener assigns an undeclared temporary",
+  "input": {
+    "key": "463103b95fef4290b3edfcd52d973a60__2026_Arcalyst_HCP_Ad_Tracker_W1_Programming_v6.docx",
+    "filename": "2026_Arcalyst_HCP_Ad_Tracker_W1_Programming_v6.docx",
+    "size": 2004358,
+    "created_at": "2026-09-13T06:08:50.652211+00:00"
+  }
+}

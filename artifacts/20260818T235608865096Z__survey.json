@@ -1,0 +1,2545 @@
+{
+  "metadata": {
+    "title": "29/6/26 – UPDATES V0b1/7/26 – UPDATES V1",
+    "client": null,
+    "project": null,
+    "language": "English",
+    "country": null,
+    "version": null
+  },
+  "sections": [
+    {
+      "id": "MAIN",
+      "title": "Questionnaire",
+      "description": null,
+      "questions": [
+        {
+          "id": "S1",
+          "variable": "S1",
+          "title": "Answered by interviewer",
+          "text": "S1 Answered by interviewer (need to prioritise shoppers for the first 2 groups) Target – Soft Quota 50% - shopped from bay 40% looked but didn’t buy 10% didn’t look at bay Picked up items from lamb bay 1 Looked at the lamb bay, but didn’t pick up any items 2 Didn’t look at lamb bay – but did browse and shop in the red meat section (interviewer to walk them to the lamb bay for the interview) 3 [Track on dashboard)",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Picked up items from lamb bay",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Looked at the lamb bay, but didn’t pick up any items",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Didn’t look at lamb bay – but did browse and shop in the red meat section (interviewer to walk them to the lamb bay for the interview)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 35
+          }
+        },
+        {
+          "id": "S2",
+          "variable": "S2",
+          "title": "Which gender do you identify with? (Select one) <SC>",
+          "text": "S2. Which gender do you identify with? (Select one) <SC> Female 1 Male 2 Non-Binary 3 Prefer not to answer 4 [Track on Dashboard)",
+          "section": "MAIN",
+          "question_type": "SINGLE",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Female",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Male",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Non-Binary",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Prefer not to answer",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 48
+          }
+        },
+        {
+          "id": "S3",
+          "variable": "S3",
+          "title": "What is your age? <SC>",
+          "text": "S3. What is your age? <SC> <18 Years 1 18-25 2 26-35 3 36-45 4 46-55 5 56-65 6 66-75 7 75+ 8 [Track on Dashboard: EXIT – if s3=1 “Thank you for your time, but we can only take people who are 19-25”",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "<18 Years",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "18-25",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "26-35",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "36-45",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "46-55",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "56-65",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "66-75",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "75+",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "S3. What is your age? <SC> <18 Years 1 18-25 2 26-35 3 36-45 4 46-55 5 56-65 6 66-75 7 75+ 8 [Track on Dashboard: EXIT – if s3=1 “Thank you for your time, but we can only take people who are 19-25”",
+          "notes": null,
+          "metadata": {
+            "source_line": 58
+          }
+        },
+        {
+          "id": "S3.5",
+          "variable": "S3.5",
+          "title": "Which group best describes how you live? <SC>",
+          "text": "S3.5 Which group best describes how you live? <SC> I live by myself 1 I live with my partner 2 I am a sole parent (living with my children, youngest is below 18 3 I live with my partner and children (youngest is below 18) 4 I live in a share house 5 I live with adult children 6 I live with my parent/s 7",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "I live by myself",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I live with my partner",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I am a sole parent (living with my children, youngest is below 18",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "I live with my partner and children (youngest is below 18)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I live in a share house",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "I live with adult children",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I live with my parent/s",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 76
+          }
+        },
+        {
+          "id": "S4",
+          "variable": "S4",
+          "title": "How frequently do you normally buy lamb from Coles? <SC>",
+          "text": "S4. How frequently do you normally buy lamb from Coles? <SC> Weekly or fortnightly 1 About monthly (every 2-4 weeks) 2 2-4 times a year 3 Very infrequently – once a year or less 4 I do not purchase lamb from Coles (I use a Butcher. Online or another retailer) 5 I do not purchase lamb at all (including from Butchers and other retailers) 6 For those that picked up < If S1 = 1 (ie picked up items from lamb bay)>",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Weekly or fortnightly",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "About monthly (every 2-4 weeks)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "2-4 times a year",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Very infrequently – once a year or less",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I do not purchase lamb from Coles (I use a Butcher. Online or another retailer)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "I do not purchase lamb at all (including from Butchers and other retailers)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "S4. How frequently do you normally buy lamb from Coles? <SC> Weekly or fortnightly 1 About monthly (every 2-4 weeks) 2 2-4 times a year 3 Very infrequently – once a year or less 4 I do not purchase lamb from Coles (I use a Butcher. Online or another retailer) 5 I do not purchase lamb at all (including from Butchers and other retailers) 6 For those that picked up < If S1 = 1 (ie picked up items from lamb bay)>",
+          "notes": null,
+          "metadata": {
+            "source_line": 92
+          }
+        },
+        {
+          "id": "Q1.1",
+          "variable": "Q1.1",
+          "title": "Tick the items which you picked up from the lamb bay today? <MC>",
+          "text": "Q1.1 Tick the items which you picked up from the lamb bay today? <MC> Lamb Strips Souvlaki seasoning 1 Lamb Leg Steak 2 Lamb Loin Chops 3 Lamb Boneless Shoulder Roast 4 Mexican Seasoning mix 5 Pappardelle Pasta 6 Chicken Stock Liquid 7 Crushed Tomatoes 8 4 Leaf salad 9 Kitchen Coleslaw 10 Baby Cucumbers 11 Rosemary 12 Mint 13 Tzatziki Dip 14 Greek Style Yoghurt 15 Recipe cards 16 <If Q1.1 = 1,2,3,4 (ie lamb cuts)>",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Lamb Strips Souvlaki seasoning",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Lamb Leg Steak",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Lamb Loin Chops",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Lamb Boneless Shoulder Roast",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Mexican Seasoning mix",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Pappardelle Pasta",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Chicken Stock Liquid",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Crushed Tomatoes",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "4 Leaf salad",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Kitchen Coleslaw",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "11",
+              "text": "Baby Cucumbers",
+              "value": 11,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "12",
+              "text": "Rosemary",
+              "value": 12,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "13",
+              "text": "Mint",
+              "value": 13,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "14",
+              "text": "Tzatziki Dip",
+              "value": 14,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "15",
+              "text": "Greek Style Yoghurt",
+              "value": 15,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "16",
+              "text": "Recipe cards",
+              "value": 16,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1.1 Tick the items which you picked up from the lamb bay today? <MC> Lamb Strips Souvlaki seasoning 1 Lamb Leg Steak 2 Lamb Loin Chops 3 Lamb Boneless Shoulder Roast 4 Mexican Seasoning mix 5 Pappardelle Pasta 6 Chicken Stock Liquid 7 Crushed Tomatoes 8 4 Leaf salad 9 Kitchen Coleslaw 10 Baby Cucumbers 11 Rosemary 12 Mint 13 Tzatziki Dip 14 Greek Style Yoghurt 15 Recipe cards 16 <If Q1.1 = 1,2,3,4 (ie lamb cuts)>",
+          "notes": null,
+          "metadata": {
+            "source_line": 107
+          }
+        },
+        {
+          "id": "Q1.2",
+          "variable": "Q1.2",
+          "title": "What best describes the occasion when you will be eating this lamb? (SC)",
+          "text": "Q1.2 What best describes the occasion when you will be eating this lamb? (SC) Regular weeknight by myself /with my partner and/or with kids 1 Weekend or special occasion with family 2 Dinner party or special occasion with invited guests 3 If Q1.1 = 1,2,3,4 (ie lamb cuts)",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Regular weeknight by myself /with my partner and/or with kids",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Weekend or special occasion with family",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Dinner party or special occasion with invited guests",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1.2 What best describes the occasion when you will be eating this lamb? (SC) Regular weeknight by myself /with my partner and/or with kids 1 Weekend or special occasion with family 2 Dinner party or special occasion with invited guests 3 If Q1.1 = 1,2,3,4 (ie lamb cuts)",
+          "notes": null,
+          "metadata": {
+            "source_line": 141
+          }
+        },
+        {
+          "id": "Q1.3WHAT",
+          "variable": "Q1.3WHAT",
+          "title": "recipe will you use for this lamb? (MC)",
+          "text": "Q1.3What recipe will you use for this lamb? (MC) Souvlaki Lamb and Salad Wrap – featured recipe 1 Mexican Lamb Tacos – featured recipe 2 Lamb Loin Chops – featured recipe 3 Lamb Ragu with Pappardelle – featured recipe 4 No sauce/seasoning – just natural 5 My own recipe (open text) 6 <If Q1.1 = 5-16 (ie ingredients)>",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Souvlaki Lamb and Salad Wrap – featured recipe",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Mexican Lamb Tacos – featured recipe",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Lamb Loin Chops – featured recipe",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Lamb Ragu with Pappardelle – featured recipe",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "No sauce/seasoning – just natural",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "My own recipe (open text)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1.3What recipe will you use for this lamb? (MC) Souvlaki Lamb and Salad Wrap – featured recipe 1 Mexican Lamb Tacos – featured recipe 2 Lamb Loin Chops – featured recipe 3 Lamb Ragu with Pappardelle – featured recipe 4 No sauce/seasoning – just natural 5 My own recipe (open text) 6 <If Q1.1 = 5-16 (ie ingredients)>",
+          "notes": null,
+          "metadata": {
+            "source_line": 149
+          }
+        },
+        {
+          "id": "Q1.4",
+          "variable": "Q1.4",
+          "title": "What best describes why you picked up the ingredients? (SC)",
+          "text": "Q1.4 What best describes why you picked up the ingredients? (SC) It was part of the lamb recipe highlighted on the Lamb Bay 1 Usual product for me, but saw it so picked it up here 2 I bought it to use in another dish (i.e. NOT a lamb dish) 3 Impulse – thought it would be good to have 4 Other (open text) 5 <If Q1.1 did NOT include codes 1-4 (ie ingredients but not lamb)>",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "It was part of the lamb recipe highlighted on the Lamb Bay",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Usual product for me, but saw it so picked it up here",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I bought it to use in another dish (i.e. NOT a lamb dish)",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Impulse – thought it would be good to have",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Other (open text)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1.4 What best describes why you picked up the ingredients? (SC) It was part of the lamb recipe highlighted on the Lamb Bay 1 Usual product for me, but saw it so picked it up here 2 I bought it to use in another dish (i.e. NOT a lamb dish) 3 Impulse – thought it would be good to have 4 Other (open text) 5 <If Q1.1 did NOT include codes 1-4 (ie ingredients but not lamb)>",
+          "notes": null,
+          "metadata": {
+            "source_line": 163
+          }
+        },
+        {
+          "id": "Q1.5",
+          "variable": "Q1.5",
+          "title": "Why did you NOT pick up a lamb cut today? (MC)",
+          "text": "Q1.5 Why did you NOT pick up a lamb cut today? (MC) I didn’t want any of the cuts of lamb that were on the bay 1 I didn’t like to look of the lamb (I liked the cuts) 2 The price was not right for me 3 I purchase lamb from butchers or other retailers 4 I don’t purchase lamb 5 Other (open text) 98",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "I didn’t want any of the cuts of lamb that were on the bay",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I didn’t like to look of the lamb (I liked the cuts)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "The price was not right for me",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "I purchase lamb from butchers or other retailers",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I don’t purchase lamb",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "98",
+              "text": "Other (open text)",
+              "value": 98,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 175
+          }
+        },
+        {
+          "id": "Q1.6",
+          "variable": "Q1.6",
+          "title": "What appealed to you most about the Lamb Bay? Pick the answer that best meets your view (SC)",
+          "text": "Q1.6: What appealed to you most about the Lamb Bay? Pick the answer that best meets your view (SC) Having lamb and ingredients together in one place to make an easy meal 1 Meal ideas, recipe cards / QR codes 2 Having ingredients on display in the meat section 3 Reminding me of Lamb (as I don’t often purchase it) 4 The colours and graphics 5 Nothing 6",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Having lamb and ingredients together in one place to make an easy meal",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Meal ideas, recipe cards / QR codes",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Having ingredients on display in the meat section",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Reminding me of Lamb (as I don’t often purchase it)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "The colours and graphics",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Nothing",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 188
+          }
+        },
+        {
+          "id": "Q1.7",
+          "variable": "Q1.7",
+          "title": "Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC)",
+          "text": "Q1.7 Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC) Yes, I wouldn’t have normally purchased lamb 1 I was planning to purchase lamb anyway 2 I noticed the Lamb Bay, but it didn’t make me want to buy lamb 3 This Lamb Bay did not interest me at all 4 For those that looked but didn’t pick up If S1=2 (ie looked but didn’t pick up)",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes, I wouldn’t have normally purchased lamb",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I was planning to purchase lamb anyway",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I noticed the Lamb Bay, but it didn’t make me want to buy lamb",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "This Lamb Bay did not interest me at all",
+              "value": 4,
+              "exclusive": true,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q1.7 Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC) Yes, I wouldn’t have normally purchased lamb 1 I was planning to purchase lamb anyway 2 I noticed the Lamb Bay, but it didn’t make me want to buy lamb 3 This Lamb Bay did not interest me at all 4 For those that looked but didn’t pick up If S1=2 (ie looked but didn’t pick up)",
+          "notes": null,
+          "metadata": {
+            "source_line": 201
+          }
+        },
+        {
+          "id": "Q2.1",
+          "variable": "Q2.1",
+          "title": "What attracted you to look at the Lamb Bay? Pick the answer that best meets your view <SC>",
+          "text": "Q2.1 What attracted you to look at the Lamb Bay? Pick the answer that best meets your view <SC> Something new – keen to see what it was 1 Having lamb and ingredients together in one place to make an easy meal 2 Meal ideas, recipe cards / QR codes 3 Having ingredients on display in the meat section 4 Reminded me of Lamb (as I don’t often purchase it) 5 The colours and graphics 6 Thought it would be filled with items on special 7 Other (Open text) 8",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Something new – keen to see what it was",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Having lamb and ingredients together in one place to make an easy meal",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Meal ideas, recipe cards / QR codes",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Having ingredients on display in the meat section",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Reminded me of Lamb (as I don’t often purchase it)",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "The colours and graphics",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "Thought it would be filled with items on special",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "Other (Open text)",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 212
+          }
+        },
+        {
+          "id": "Q2.2",
+          "variable": "Q2.2",
+          "title": "You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view.",
+          "text": "Q2.2 You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view. The cuts of lamb didn’t appeal 1 I prefer to buy lamb from the main lamb section 2 I don’t buy lamb from Coles 3 I prefer to buy ingredients from the regular aisles 4 I don’t like the brands of ingredients on the Bay 5 The prices didn’t suit my budget – too high 6 I was expecting things to be on special 7 The recipes didn’t interest me 8 I was just having a browse 9 Other (open) 10 those that did not look at the bay if S1=3 (ie didn’t look at the Bay)",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "The cuts of lamb didn’t appeal",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I prefer to buy lamb from the main lamb section",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I don’t buy lamb from Coles",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "I prefer to buy ingredients from the regular aisles",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I don’t like the brands of ingredients on the Bay",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "The prices didn’t suit my budget – too high",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I was expecting things to be on special",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "The recipes didn’t interest me",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "I was just having a browse",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "10",
+              "text": "Other (open)",
+              "value": 10,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": "Q2.2 You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view. The cuts of lamb didn’t appeal 1 I prefer to buy lamb from the main lamb section 2 I don’t buy lamb from Coles 3 I prefer to buy ingredients from the regular aisles 4 I don’t like the brands of ingredients on the Bay 5 The prices didn’t suit my budget – too high 6 I was expecting things to be on special 7 The recipes didn’t interest me 8 I was just having a browse 9 Other (open) 10 those that did not look at the bay if S1=3 (ie didn’t look at the Bay)",
+          "notes": null,
+          "metadata": {
+            "source_line": 229
+          }
+        },
+        {
+          "id": "Q3.1",
+          "variable": "Q3.1",
+          "title": "Did you notice this new Lamb Bay? (SC)",
+          "text": "Q3.1 Did you notice this new Lamb Bay? (SC) Yes, I remember noticing it 1 I Just remember noticing it a little (but it didn’t get my attention) 2 No, I didn’t notice it at all 3",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Yes, I remember noticing it",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I Just remember noticing it a little (but it didn’t get my attention)",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "No, I didn’t notice it at all",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 252
+          }
+        },
+        {
+          "id": "Q3.2",
+          "variable": "Q3.2",
+          "title": "Now that you are looking at this bay, select an answer about what you like about the concept? (MC)",
+          "text": "Q3.2 Now that you are looking at this bay, select an answer about what you like about the concept? (MC) . Having lamb and ingredients together in one place to make an easy meal 1 Meal ideas, recipe cards / QR codes 2 Having ingredients on display in the meat section 3 Reminding me of Lamb (as I don’t often purchase it) 4 The colours and graphics 5 Other (open) 6",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Having lamb and ingredients together in one place to make an easy meal",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Meal ideas, recipe cards / QR codes",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Having ingredients on display in the meat section",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Reminding me of Lamb (as I don’t often purchase it)",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "The colours and graphics",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "Other (open)",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 259
+          }
+        },
+        {
+          "id": "Q3.3",
+          "variable": "Q3.3",
+          "title": "Conversely, what do you not like about the concept? (MC)",
+          "text": "Q3.3 Conversely, what do you not like about the concept? (MC) . The cuts of lamb didn’t appeal 1 I prefer to buy lamb from the main lamb section 2 I don’t buy lamb from Coles 3 I prefer to buy ingredients from the regular aisles 4 I don’t like the brands of ingredients on the Bay 5 The prices didn’t suit my budget – too high 6 I was expecting things to be on special 7 The recipes didn’t interest me 8 Other (open) 9 All respondents Final questions for all respondents",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "The cuts of lamb didn’t appeal",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "I prefer to buy lamb from the main lamb section",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "I don’t buy lamb from Coles",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "I prefer to buy ingredients from the regular aisles",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "I don’t like the brands of ingredients on the Bay",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "6",
+              "text": "The prices didn’t suit my budget – too high",
+              "value": 6,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "7",
+              "text": "I was expecting things to be on special",
+              "value": 7,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "8",
+              "text": "The recipes didn’t interest me",
+              "value": 8,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "9",
+              "text": "Other (open)",
+              "value": 9,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 273
+          }
+        },
+        {
+          "id": "Q4.1",
+          "variable": "Q4.1",
+          "title": "Overall, how would you rate the appeal of this new Lamb Bay? <1 to 10 scale>",
+          "text": "Q4.1: Overall, how would you rate the appeal of this new Lamb Bay? <1 to 10 scale> 1 = not at all appealing, and 10 = very appealing",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 295
+          }
+        },
+        {
+          "id": "Q4.2",
+          "variable": "Q4.2",
+          "title": "How useful would you rate the idea of a bay with lamb, ingredients and recipe ideas?",
+          "text": "Q4.2 How useful would you rate the idea of a bay with lamb, ingredients and recipe ideas? 1 = not at all useful, and 10 = very useful",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 297
+          }
+        },
+        {
+          "id": "Q4.3",
+          "variable": "Q4.3",
+          "title": "How likely are you to cook each of the featured recipes?",
+          "text": "Q4.3 How likely are you to cook each of the featured recipes? 1 = not at all likely, and 10 = very likely Score Souvlaki Lamb and Salad Wrap Mexican Lamb Tacos Lamb Loin Chops Lamb Ragu with Pappardelle",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 299
+          }
+        },
+        {
+          "id": "Q4.4",
+          "variable": "Q4.4",
+          "title": "How appealing is the phrase “ Lamb made easy”?",
+          "text": "Q4.4 How appealing is the phrase “ Lamb made easy”? 1 = not at all appealing, and 10 = very appealing",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 306
+          }
+        },
+        {
+          "id": "Q4.4A",
+          "variable": "Q4.4A",
+          "title": "Why? <Open ended comments, ask on same page as Q4.4>",
+          "text": "Q4.4a. Why? <Open ended comments, ask on same page as Q4.4>",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 308
+          }
+        },
+        {
+          "id": "Q4.5",
+          "variable": "Q4.5",
+          "title": "How appealing are the images of the meals on this bay?",
+          "text": "Q4.5 How appealing are the images of the meals on this bay? 1 = not at all appealing, and 10 = very appealing",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 309
+          }
+        },
+        {
+          "id": "Q4.5A",
+          "variable": "Q4.5A",
+          "title": "Why? <Open ended comments, ask on same page as Q4.5>",
+          "text": "Q4.5a. Why? <Open ended comments, ask on same page as Q4.5>",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 311
+          }
+        },
+        {
+          "id": "Q4.6",
+          "variable": "Q4.6",
+          "title": "How likely are you to purchase from this Lamb Bay in future? <SC>",
+          "text": "Q4.6: How likely are you to purchase from this Lamb Bay in future? <SC> Regularly - Will look and consider products on most shopping trips 1 Infrequently - I will look/ purchase occasionally 2 Unlikely – this was for a special occasion or once off. 3 Unlikely – would prefer to purchase from the normal lamb section and from the aisles 4 Never – I don’t purchase Lamb 5",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [
+            {
+              "code": "1",
+              "text": "Regularly - Will look and consider products on most shopping trips",
+              "value": 1,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "2",
+              "text": "Infrequently - I will look/ purchase occasionally",
+              "value": 2,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "3",
+              "text": "Unlikely – this was for a special occasion or once off.",
+              "value": 3,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "4",
+              "text": "Unlikely – would prefer to purchase from the normal lamb section and from the aisles",
+              "value": 4,
+              "exclusive": false,
+              "anchor": false
+            },
+            {
+              "code": "5",
+              "text": "Never – I don’t purchase Lamb",
+              "value": 5,
+              "exclusive": false,
+              "anchor": false
+            }
+          ],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 312
+          }
+        },
+        {
+          "id": "Q4.7",
+          "variable": "Q4.7",
+          "title": "Do you think Coles should roll this out as a permanent fixture to their stores?<1 to 10 scale>",
+          "text": "Q4.7 Do you think Coles should roll this out as a permanent fixture to their stores?<1 to 10 scale> 1 = definitely should not be implemented and 10 = definitely should be implemented",
+          "section": "MAIN",
+          "question_type": "UNKNOWN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": null,
+          "notes": null,
+          "metadata": {
+            "source_line": 323
+          }
+        },
+        {
+          "id": "Q4.8",
+          "variable": "Q4.8",
+          "title": "What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network?",
+          "text": "Q4.8: What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network? <Open ended> We really appreciate all the insights you have given us in this survey. Please accept a token of $5 for your assistance.",
+          "section": "MAIN",
+          "question_type": "OPEN",
+          "required": false,
+          "options": [],
+          "validation_rules": [],
+          "routing": "Q4.8: What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network? <Open ended> We really appreciate all the insights you have given us in this survey. Please accept a token of $5 for your assistance.",
+          "notes": null,
+          "metadata": {
+            "source_line": 325
+          }
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "S1",
+      "variable": "S1",
+      "title": "Answered by interviewer",
+      "text": "S1 Answered by interviewer (need to prioritise shoppers for the first 2 groups) Target – Soft Quota 50% - shopped from bay 40% looked but didn’t buy 10% didn’t look at bay Picked up items from lamb bay 1 Looked at the lamb bay, but didn’t pick up any items 2 Didn’t look at lamb bay – but did browse and shop in the red meat section (interviewer to walk them to the lamb bay for the interview) 3 [Track on dashboard)",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Picked up items from lamb bay",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Looked at the lamb bay, but didn’t pick up any items",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Didn’t look at lamb bay – but did browse and shop in the red meat section (interviewer to walk them to the lamb bay for the interview)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 35
+      }
+    },
+    {
+      "id": "S2",
+      "variable": "S2",
+      "title": "Which gender do you identify with? (Select one) <SC>",
+      "text": "S2. Which gender do you identify with? (Select one) <SC> Female 1 Male 2 Non-Binary 3 Prefer not to answer 4 [Track on Dashboard)",
+      "section": "MAIN",
+      "question_type": "SINGLE",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Female",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Male",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Non-Binary",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Prefer not to answer",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 48
+      }
+    },
+    {
+      "id": "S3",
+      "variable": "S3",
+      "title": "What is your age? <SC>",
+      "text": "S3. What is your age? <SC> <18 Years 1 18-25 2 26-35 3 36-45 4 46-55 5 56-65 6 66-75 7 75+ 8 [Track on Dashboard: EXIT – if s3=1 “Thank you for your time, but we can only take people who are 19-25”",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "<18 Years",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "18-25",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "26-35",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "36-45",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "46-55",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "56-65",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "66-75",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "75+",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "S3. What is your age? <SC> <18 Years 1 18-25 2 26-35 3 36-45 4 46-55 5 56-65 6 66-75 7 75+ 8 [Track on Dashboard: EXIT – if s3=1 “Thank you for your time, but we can only take people who are 19-25”",
+      "notes": null,
+      "metadata": {
+        "source_line": 58
+      }
+    },
+    {
+      "id": "S3.5",
+      "variable": "S3.5",
+      "title": "Which group best describes how you live? <SC>",
+      "text": "S3.5 Which group best describes how you live? <SC> I live by myself 1 I live with my partner 2 I am a sole parent (living with my children, youngest is below 18 3 I live with my partner and children (youngest is below 18) 4 I live in a share house 5 I live with adult children 6 I live with my parent/s 7",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "I live by myself",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I live with my partner",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I am a sole parent (living with my children, youngest is below 18",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "I live with my partner and children (youngest is below 18)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I live in a share house",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "I live with adult children",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I live with my parent/s",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 76
+      }
+    },
+    {
+      "id": "S4",
+      "variable": "S4",
+      "title": "How frequently do you normally buy lamb from Coles? <SC>",
+      "text": "S4. How frequently do you normally buy lamb from Coles? <SC> Weekly or fortnightly 1 About monthly (every 2-4 weeks) 2 2-4 times a year 3 Very infrequently – once a year or less 4 I do not purchase lamb from Coles (I use a Butcher. Online or another retailer) 5 I do not purchase lamb at all (including from Butchers and other retailers) 6 For those that picked up < If S1 = 1 (ie picked up items from lamb bay)>",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Weekly or fortnightly",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "About monthly (every 2-4 weeks)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "2-4 times a year",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Very infrequently – once a year or less",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I do not purchase lamb from Coles (I use a Butcher. Online or another retailer)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "I do not purchase lamb at all (including from Butchers and other retailers)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "S4. How frequently do you normally buy lamb from Coles? <SC> Weekly or fortnightly 1 About monthly (every 2-4 weeks) 2 2-4 times a year 3 Very infrequently – once a year or less 4 I do not purchase lamb from Coles (I use a Butcher. Online or another retailer) 5 I do not purchase lamb at all (including from Butchers and other retailers) 6 For those that picked up < If S1 = 1 (ie picked up items from lamb bay)>",
+      "notes": null,
+      "metadata": {
+        "source_line": 92
+      }
+    },
+    {
+      "id": "Q1.1",
+      "variable": "Q1.1",
+      "title": "Tick the items which you picked up from the lamb bay today? <MC>",
+      "text": "Q1.1 Tick the items which you picked up from the lamb bay today? <MC> Lamb Strips Souvlaki seasoning 1 Lamb Leg Steak 2 Lamb Loin Chops 3 Lamb Boneless Shoulder Roast 4 Mexican Seasoning mix 5 Pappardelle Pasta 6 Chicken Stock Liquid 7 Crushed Tomatoes 8 4 Leaf salad 9 Kitchen Coleslaw 10 Baby Cucumbers 11 Rosemary 12 Mint 13 Tzatziki Dip 14 Greek Style Yoghurt 15 Recipe cards 16 <If Q1.1 = 1,2,3,4 (ie lamb cuts)>",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Lamb Strips Souvlaki seasoning",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Lamb Leg Steak",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Lamb Loin Chops",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Lamb Boneless Shoulder Roast",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Mexican Seasoning mix",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Pappardelle Pasta",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Chicken Stock Liquid",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Crushed Tomatoes",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "4 Leaf salad",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Kitchen Coleslaw",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "11",
+          "text": "Baby Cucumbers",
+          "value": 11,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "12",
+          "text": "Rosemary",
+          "value": 12,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "13",
+          "text": "Mint",
+          "value": 13,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "14",
+          "text": "Tzatziki Dip",
+          "value": 14,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "15",
+          "text": "Greek Style Yoghurt",
+          "value": 15,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "16",
+          "text": "Recipe cards",
+          "value": 16,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1.1 Tick the items which you picked up from the lamb bay today? <MC> Lamb Strips Souvlaki seasoning 1 Lamb Leg Steak 2 Lamb Loin Chops 3 Lamb Boneless Shoulder Roast 4 Mexican Seasoning mix 5 Pappardelle Pasta 6 Chicken Stock Liquid 7 Crushed Tomatoes 8 4 Leaf salad 9 Kitchen Coleslaw 10 Baby Cucumbers 11 Rosemary 12 Mint 13 Tzatziki Dip 14 Greek Style Yoghurt 15 Recipe cards 16 <If Q1.1 = 1,2,3,4 (ie lamb cuts)>",
+      "notes": null,
+      "metadata": {
+        "source_line": 107
+      }
+    },
+    {
+      "id": "Q1.2",
+      "variable": "Q1.2",
+      "title": "What best describes the occasion when you will be eating this lamb? (SC)",
+      "text": "Q1.2 What best describes the occasion when you will be eating this lamb? (SC) Regular weeknight by myself /with my partner and/or with kids 1 Weekend or special occasion with family 2 Dinner party or special occasion with invited guests 3 If Q1.1 = 1,2,3,4 (ie lamb cuts)",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Regular weeknight by myself /with my partner and/or with kids",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Weekend or special occasion with family",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Dinner party or special occasion with invited guests",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1.2 What best describes the occasion when you will be eating this lamb? (SC) Regular weeknight by myself /with my partner and/or with kids 1 Weekend or special occasion with family 2 Dinner party or special occasion with invited guests 3 If Q1.1 = 1,2,3,4 (ie lamb cuts)",
+      "notes": null,
+      "metadata": {
+        "source_line": 141
+      }
+    },
+    {
+      "id": "Q1.3WHAT",
+      "variable": "Q1.3WHAT",
+      "title": "recipe will you use for this lamb? (MC)",
+      "text": "Q1.3What recipe will you use for this lamb? (MC) Souvlaki Lamb and Salad Wrap – featured recipe 1 Mexican Lamb Tacos – featured recipe 2 Lamb Loin Chops – featured recipe 3 Lamb Ragu with Pappardelle – featured recipe 4 No sauce/seasoning – just natural 5 My own recipe (open text) 6 <If Q1.1 = 5-16 (ie ingredients)>",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Souvlaki Lamb and Salad Wrap – featured recipe",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Mexican Lamb Tacos – featured recipe",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Lamb Loin Chops – featured recipe",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Lamb Ragu with Pappardelle – featured recipe",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "No sauce/seasoning – just natural",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "My own recipe (open text)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1.3What recipe will you use for this lamb? (MC) Souvlaki Lamb and Salad Wrap – featured recipe 1 Mexican Lamb Tacos – featured recipe 2 Lamb Loin Chops – featured recipe 3 Lamb Ragu with Pappardelle – featured recipe 4 No sauce/seasoning – just natural 5 My own recipe (open text) 6 <If Q1.1 = 5-16 (ie ingredients)>",
+      "notes": null,
+      "metadata": {
+        "source_line": 149
+      }
+    },
+    {
+      "id": "Q1.4",
+      "variable": "Q1.4",
+      "title": "What best describes why you picked up the ingredients? (SC)",
+      "text": "Q1.4 What best describes why you picked up the ingredients? (SC) It was part of the lamb recipe highlighted on the Lamb Bay 1 Usual product for me, but saw it so picked it up here 2 I bought it to use in another dish (i.e. NOT a lamb dish) 3 Impulse – thought it would be good to have 4 Other (open text) 5 <If Q1.1 did NOT include codes 1-4 (ie ingredients but not lamb)>",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "It was part of the lamb recipe highlighted on the Lamb Bay",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Usual product for me, but saw it so picked it up here",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I bought it to use in another dish (i.e. NOT a lamb dish)",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Impulse – thought it would be good to have",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Other (open text)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1.4 What best describes why you picked up the ingredients? (SC) It was part of the lamb recipe highlighted on the Lamb Bay 1 Usual product for me, but saw it so picked it up here 2 I bought it to use in another dish (i.e. NOT a lamb dish) 3 Impulse – thought it would be good to have 4 Other (open text) 5 <If Q1.1 did NOT include codes 1-4 (ie ingredients but not lamb)>",
+      "notes": null,
+      "metadata": {
+        "source_line": 163
+      }
+    },
+    {
+      "id": "Q1.5",
+      "variable": "Q1.5",
+      "title": "Why did you NOT pick up a lamb cut today? (MC)",
+      "text": "Q1.5 Why did you NOT pick up a lamb cut today? (MC) I didn’t want any of the cuts of lamb that were on the bay 1 I didn’t like to look of the lamb (I liked the cuts) 2 The price was not right for me 3 I purchase lamb from butchers or other retailers 4 I don’t purchase lamb 5 Other (open text) 98",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "I didn’t want any of the cuts of lamb that were on the bay",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I didn’t like to look of the lamb (I liked the cuts)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "The price was not right for me",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "I purchase lamb from butchers or other retailers",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I don’t purchase lamb",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "98",
+          "text": "Other (open text)",
+          "value": 98,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 175
+      }
+    },
+    {
+      "id": "Q1.6",
+      "variable": "Q1.6",
+      "title": "What appealed to you most about the Lamb Bay? Pick the answer that best meets your view (SC)",
+      "text": "Q1.6: What appealed to you most about the Lamb Bay? Pick the answer that best meets your view (SC) Having lamb and ingredients together in one place to make an easy meal 1 Meal ideas, recipe cards / QR codes 2 Having ingredients on display in the meat section 3 Reminding me of Lamb (as I don’t often purchase it) 4 The colours and graphics 5 Nothing 6",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Having lamb and ingredients together in one place to make an easy meal",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Meal ideas, recipe cards / QR codes",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Having ingredients on display in the meat section",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Reminding me of Lamb (as I don’t often purchase it)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "The colours and graphics",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Nothing",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 188
+      }
+    },
+    {
+      "id": "Q1.7",
+      "variable": "Q1.7",
+      "title": "Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC)",
+      "text": "Q1.7 Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC) Yes, I wouldn’t have normally purchased lamb 1 I was planning to purchase lamb anyway 2 I noticed the Lamb Bay, but it didn’t make me want to buy lamb 3 This Lamb Bay did not interest me at all 4 For those that looked but didn’t pick up If S1=2 (ie looked but didn’t pick up)",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes, I wouldn’t have normally purchased lamb",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I was planning to purchase lamb anyway",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I noticed the Lamb Bay, but it didn’t make me want to buy lamb",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "This Lamb Bay did not interest me at all",
+          "value": 4,
+          "exclusive": true,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q1.7 Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC) Yes, I wouldn’t have normally purchased lamb 1 I was planning to purchase lamb anyway 2 I noticed the Lamb Bay, but it didn’t make me want to buy lamb 3 This Lamb Bay did not interest me at all 4 For those that looked but didn’t pick up If S1=2 (ie looked but didn’t pick up)",
+      "notes": null,
+      "metadata": {
+        "source_line": 201
+      }
+    },
+    {
+      "id": "Q2.1",
+      "variable": "Q2.1",
+      "title": "What attracted you to look at the Lamb Bay? Pick the answer that best meets your view <SC>",
+      "text": "Q2.1 What attracted you to look at the Lamb Bay? Pick the answer that best meets your view <SC> Something new – keen to see what it was 1 Having lamb and ingredients together in one place to make an easy meal 2 Meal ideas, recipe cards / QR codes 3 Having ingredients on display in the meat section 4 Reminded me of Lamb (as I don’t often purchase it) 5 The colours and graphics 6 Thought it would be filled with items on special 7 Other (Open text) 8",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Something new – keen to see what it was",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Having lamb and ingredients together in one place to make an easy meal",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Meal ideas, recipe cards / QR codes",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Having ingredients on display in the meat section",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Reminded me of Lamb (as I don’t often purchase it)",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "The colours and graphics",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "Thought it would be filled with items on special",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "Other (Open text)",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 212
+      }
+    },
+    {
+      "id": "Q2.2",
+      "variable": "Q2.2",
+      "title": "You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view.",
+      "text": "Q2.2 You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view. The cuts of lamb didn’t appeal 1 I prefer to buy lamb from the main lamb section 2 I don’t buy lamb from Coles 3 I prefer to buy ingredients from the regular aisles 4 I don’t like the brands of ingredients on the Bay 5 The prices didn’t suit my budget – too high 6 I was expecting things to be on special 7 The recipes didn’t interest me 8 I was just having a browse 9 Other (open) 10 those that did not look at the bay if S1=3 (ie didn’t look at the Bay)",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "The cuts of lamb didn’t appeal",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I prefer to buy lamb from the main lamb section",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I don’t buy lamb from Coles",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "I prefer to buy ingredients from the regular aisles",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I don’t like the brands of ingredients on the Bay",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "The prices didn’t suit my budget – too high",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I was expecting things to be on special",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "The recipes didn’t interest me",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "I was just having a browse",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "10",
+          "text": "Other (open)",
+          "value": 10,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": "Q2.2 You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view. The cuts of lamb didn’t appeal 1 I prefer to buy lamb from the main lamb section 2 I don’t buy lamb from Coles 3 I prefer to buy ingredients from the regular aisles 4 I don’t like the brands of ingredients on the Bay 5 The prices didn’t suit my budget – too high 6 I was expecting things to be on special 7 The recipes didn’t interest me 8 I was just having a browse 9 Other (open) 10 those that did not look at the bay if S1=3 (ie didn’t look at the Bay)",
+      "notes": null,
+      "metadata": {
+        "source_line": 229
+      }
+    },
+    {
+      "id": "Q3.1",
+      "variable": "Q3.1",
+      "title": "Did you notice this new Lamb Bay? (SC)",
+      "text": "Q3.1 Did you notice this new Lamb Bay? (SC) Yes, I remember noticing it 1 I Just remember noticing it a little (but it didn’t get my attention) 2 No, I didn’t notice it at all 3",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Yes, I remember noticing it",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I Just remember noticing it a little (but it didn’t get my attention)",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "No, I didn’t notice it at all",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 252
+      }
+    },
+    {
+      "id": "Q3.2",
+      "variable": "Q3.2",
+      "title": "Now that you are looking at this bay, select an answer about what you like about the concept? (MC)",
+      "text": "Q3.2 Now that you are looking at this bay, select an answer about what you like about the concept? (MC) . Having lamb and ingredients together in one place to make an easy meal 1 Meal ideas, recipe cards / QR codes 2 Having ingredients on display in the meat section 3 Reminding me of Lamb (as I don’t often purchase it) 4 The colours and graphics 5 Other (open) 6",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Having lamb and ingredients together in one place to make an easy meal",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Meal ideas, recipe cards / QR codes",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Having ingredients on display in the meat section",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Reminding me of Lamb (as I don’t often purchase it)",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "The colours and graphics",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "Other (open)",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 259
+      }
+    },
+    {
+      "id": "Q3.3",
+      "variable": "Q3.3",
+      "title": "Conversely, what do you not like about the concept? (MC)",
+      "text": "Q3.3 Conversely, what do you not like about the concept? (MC) . The cuts of lamb didn’t appeal 1 I prefer to buy lamb from the main lamb section 2 I don’t buy lamb from Coles 3 I prefer to buy ingredients from the regular aisles 4 I don’t like the brands of ingredients on the Bay 5 The prices didn’t suit my budget – too high 6 I was expecting things to be on special 7 The recipes didn’t interest me 8 Other (open) 9 All respondents Final questions for all respondents",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "The cuts of lamb didn’t appeal",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "I prefer to buy lamb from the main lamb section",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "I don’t buy lamb from Coles",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "I prefer to buy ingredients from the regular aisles",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "I don’t like the brands of ingredients on the Bay",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "6",
+          "text": "The prices didn’t suit my budget – too high",
+          "value": 6,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "7",
+          "text": "I was expecting things to be on special",
+          "value": 7,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "8",
+          "text": "The recipes didn’t interest me",
+          "value": 8,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "9",
+          "text": "Other (open)",
+          "value": 9,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 273
+      }
+    },
+    {
+      "id": "Q4.1",
+      "variable": "Q4.1",
+      "title": "Overall, how would you rate the appeal of this new Lamb Bay? <1 to 10 scale>",
+      "text": "Q4.1: Overall, how would you rate the appeal of this new Lamb Bay? <1 to 10 scale> 1 = not at all appealing, and 10 = very appealing",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 295
+      }
+    },
+    {
+      "id": "Q4.2",
+      "variable": "Q4.2",
+      "title": "How useful would you rate the idea of a bay with lamb, ingredients and recipe ideas?",
+      "text": "Q4.2 How useful would you rate the idea of a bay with lamb, ingredients and recipe ideas? 1 = not at all useful, and 10 = very useful",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 297
+      }
+    },
+    {
+      "id": "Q4.3",
+      "variable": "Q4.3",
+      "title": "How likely are you to cook each of the featured recipes?",
+      "text": "Q4.3 How likely are you to cook each of the featured recipes? 1 = not at all likely, and 10 = very likely Score Souvlaki Lamb and Salad Wrap Mexican Lamb Tacos Lamb Loin Chops Lamb Ragu with Pappardelle",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 299
+      }
+    },
+    {
+      "id": "Q4.4",
+      "variable": "Q4.4",
+      "title": "How appealing is the phrase “ Lamb made easy”?",
+      "text": "Q4.4 How appealing is the phrase “ Lamb made easy”? 1 = not at all appealing, and 10 = very appealing",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 306
+      }
+    },
+    {
+      "id": "Q4.4A",
+      "variable": "Q4.4A",
+      "title": "Why? <Open ended comments, ask on same page as Q4.4>",
+      "text": "Q4.4a. Why? <Open ended comments, ask on same page as Q4.4>",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 308
+      }
+    },
+    {
+      "id": "Q4.5",
+      "variable": "Q4.5",
+      "title": "How appealing are the images of the meals on this bay?",
+      "text": "Q4.5 How appealing are the images of the meals on this bay? 1 = not at all appealing, and 10 = very appealing",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 309
+      }
+    },
+    {
+      "id": "Q4.5A",
+      "variable": "Q4.5A",
+      "title": "Why? <Open ended comments, ask on same page as Q4.5>",
+      "text": "Q4.5a. Why? <Open ended comments, ask on same page as Q4.5>",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 311
+      }
+    },
+    {
+      "id": "Q4.6",
+      "variable": "Q4.6",
+      "title": "How likely are you to purchase from this Lamb Bay in future? <SC>",
+      "text": "Q4.6: How likely are you to purchase from this Lamb Bay in future? <SC> Regularly - Will look and consider products on most shopping trips 1 Infrequently - I will look/ purchase occasionally 2 Unlikely – this was for a special occasion or once off. 3 Unlikely – would prefer to purchase from the normal lamb section and from the aisles 4 Never – I don’t purchase Lamb 5",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [
+        {
+          "code": "1",
+          "text": "Regularly - Will look and consider products on most shopping trips",
+          "value": 1,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "2",
+          "text": "Infrequently - I will look/ purchase occasionally",
+          "value": 2,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "3",
+          "text": "Unlikely – this was for a special occasion or once off.",
+          "value": 3,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "4",
+          "text": "Unlikely – would prefer to purchase from the normal lamb section and from the aisles",
+          "value": 4,
+          "exclusive": false,
+          "anchor": false
+        },
+        {
+          "code": "5",
+          "text": "Never – I don’t purchase Lamb",
+          "value": 5,
+          "exclusive": false,
+          "anchor": false
+        }
+      ],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 312
+      }
+    },
+    {
+      "id": "Q4.7",
+      "variable": "Q4.7",
+      "title": "Do you think Coles should roll this out as a permanent fixture to their stores?<1 to 10 scale>",
+      "text": "Q4.7 Do you think Coles should roll this out as a permanent fixture to their stores?<1 to 10 scale> 1 = definitely should not be implemented and 10 = definitely should be implemented",
+      "section": "MAIN",
+      "question_type": "UNKNOWN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": null,
+      "notes": null,
+      "metadata": {
+        "source_line": 323
+      }
+    },
+    {
+      "id": "Q4.8",
+      "variable": "Q4.8",
+      "title": "What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network?",
+      "text": "Q4.8: What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network? <Open ended> We really appreciate all the insights you have given us in this survey. Please accept a token of $5 for your assistance.",
+      "section": "MAIN",
+      "question_type": "OPEN",
+      "required": false,
+      "options": [],
+      "validation_rules": [],
+      "routing": "Q4.8: What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network? <Open ended> We really appreciate all the insights you have given us in this survey. Please accept a token of $5 for your assistance.",
+      "notes": null,
+      "metadata": {
+        "source_line": 325
+      }
+    }
+  ],
+  "parser": "docx",
+  "parser_version": "1.0",
+  "source_file": "(v2_R99482) MLA_Lamb_bay_instore_interviews_-_PJ_review (2).docx",
+  "source_format": "docx",
+  "source_text": "29/6/26 – UPDATES V0b1/7/26 – UPDATES V1\n1/7/26 – UPDATES V2\nProject: MLA\nSTORELAB job reference\nEKAS Recruitment job reference:\nIn store interviewing\nMechanics & Method\nProcess\nMethodology\nIntercept research in the high and low performing stores featuring the lamb occasion bay.\nProcess\n2 high performing and 2 low performing stores will be selected by MLA for interviews\n8 sessions where a researcher will observe shoppers and intercept shoppers during a 4 hour window\n3 versions of the interview script will be used for:\nThose that shopped from the lamb bay\nThose that looked but did not purchase\nThose that did not look or interact with the lamb bay but purchased or shopped in the red meat section\nEnvironment\n4 Coles stores\nRecruitmen\nRecruitment targets\nCategory\nLamb bay\nLocation\nAustralia\nRespondents\nEstimate 20-30 interviews per 4 hour session. Ie estimate. 8x 25 = 200 interviews\nQuotas\nOver 18\nAim for spread across age groups and genders\nINVITING TO PARTICIPATE\nIntro: Hello, I am …. and working with Coles to understand what shoppers are thinking of their new Lamb Bay.\nWould I be able to ask you a couple of quick questions in return for a $5 thank you.\nCould we ask you to answer some questions on our ipad?\nS1 Answered by interviewer\n(need to prioritise shoppers for the first 2 groups)\nTarget – Soft Quota\n50% - shopped from bay\n40% looked but didn’t buy\n10% didn’t look at bay\nPicked up items from lamb bay\n1\nLooked at the lamb bay, but didn’t pick up any items\n2\nDidn’t look at lamb bay – but did browse and shop in the red meat section (interviewer to walk them to the lamb bay for the interview)\n3\n[Track on dashboard)\nS2. Which gender do you identify with? (Select one) <SC>\nFemale\n1\nMale\n2\nNon-Binary\n3\nPrefer not to answer\n4\n[Track on Dashboard)\nS3. What is your age? <SC>\n<18 Years\n1\n18-25\n2\n26-35\n3\n36-45\n4\n46-55\n5\n56-65\n6\n66-75\n7\n75+\n8\n[Track on Dashboard: EXIT – if s3=1 “Thank you for your time, but we can only take people who are 19-25”\nS3.5\nWhich group best describes how you live? <SC>\nI live by myself\n1\nI live with my partner\n2\nI am a sole parent (living with my children, youngest is below 18\n3\nI live with my partner and children (youngest is below 18)\n4\nI live in a share house\n5\nI live with adult children\n6\nI live with my parent/s\n7\nS4. How frequently do you normally buy lamb from Coles? <SC>\nWeekly or fortnightly\n1\nAbout monthly (every 2-4 weeks)\n2\n2-4 times a year\n3\nVery infrequently – once a year or less\n4\nI do not purchase lamb from Coles (I use a Butcher. Online or another retailer)\n5\nI do not purchase lamb at all (including from Butchers and other retailers)\n6\nFor those that picked up\n< If S1 = 1 (ie picked up items from lamb bay)>\nQ1.1 Tick the items which you picked up from the lamb bay today? <MC>\nLamb Strips Souvlaki seasoning\n1\nLamb Leg Steak\n2\nLamb Loin Chops\n3\nLamb Boneless Shoulder Roast\n4\nMexican Seasoning mix\n5\nPappardelle Pasta\n6\nChicken Stock Liquid\n7\nCrushed Tomatoes\n8\n4 Leaf salad\n9\nKitchen Coleslaw\n10\nBaby Cucumbers\n11\nRosemary\n12\nMint\n13\nTzatziki Dip\n14\nGreek Style Yoghurt\n15\nRecipe cards\n16\n<If Q1.1 = 1,2,3,4 (ie lamb cuts)>\nQ1.2 What best describes the occasion when you will be eating this lamb? (SC)\nRegular weeknight by myself /with my partner and/or with kids\n1\nWeekend or special occasion with family\n2\nDinner party or special occasion with invited guests\n3\nIf Q1.1 = 1,2,3,4 (ie lamb cuts)\nQ1.3What recipe will you use for this lamb? (MC)\nSouvlaki Lamb and Salad Wrap – featured recipe\n1\nMexican Lamb Tacos – featured recipe\n2\nLamb Loin Chops – featured recipe\n3\nLamb Ragu with Pappardelle – featured recipe\n4\nNo sauce/seasoning – just natural\n5\nMy own recipe (open text)\n6\n<If Q1.1 = 5-16 (ie ingredients)>\nQ1.4 What best describes why you picked up the ingredients? (SC)\nIt was part of the lamb recipe highlighted on the Lamb Bay\n1\nUsual product for me, but saw it so picked it up here\n2\nI bought it to use in another dish (i.e. NOT a lamb dish)\n3\nImpulse – thought it would be good to have\n4\nOther (open text)\n5\n<If Q1.1 did NOT include codes 1-4 (ie ingredients but not lamb)>\nQ1.5 Why did you NOT pick up a lamb cut today? (MC)\nI didn’t want any of the cuts of lamb that were on the bay\n1\nI didn’t like to look of the lamb (I liked the cuts)\n2\nThe price was not right for me\n3\nI purchase lamb from butchers or other retailers\n4\nI don’t purchase lamb\n5\nOther (open text)\n98\nQ1.6: What appealed to you most about the Lamb Bay? Pick the answer that best meets your view (SC)\nHaving lamb and ingredients together in one place to make an easy meal\n1\nMeal ideas, recipe cards / QR codes\n2\nHaving ingredients on display in the meat section\n3\nReminding me of Lamb (as I don’t often purchase it)\n4\nThe colours and graphics\n5\nNothing\n6\nQ1.7 Did this Lamb bay inspire you to purchase Lamb that you would not have normally purchased? (SC)\nYes, I wouldn’t have normally purchased lamb\n1\nI was planning to purchase lamb anyway\n2\nI noticed the Lamb Bay, but it didn’t make me want to buy lamb\n3\nThis Lamb Bay did not interest me at all\n4\nFor those that looked but didn’t pick up\nIf S1=2 (ie looked but didn’t pick up)\nQ2.1 What attracted you to look at the Lamb Bay? Pick the answer that best meets your view <SC>\nSomething new – keen to see what it was\n1\nHaving lamb and ingredients together in one place to make an easy meal\n2\nMeal ideas, recipe cards / QR codes\n3\nHaving ingredients on display in the meat section\n4\nReminded me of Lamb (as I don’t often purchase it)\n5\nThe colours and graphics\n6\nThought it would be filled with items on special\n7\nOther (Open text)\n8\nQ2.2 You didn’t pick up any items from this Bay, why was that? Tick 1-3 reasons that best reflects your view.\nThe cuts of lamb didn’t appeal\n1\nI prefer to buy lamb from the main lamb section\n2\nI don’t buy lamb from Coles\n3\nI prefer to buy ingredients from the regular aisles\n4\nI don’t like the brands of ingredients on the Bay\n5\nThe prices didn’t suit my budget – too high\n6\nI was expecting things to be on special\n7\nThe recipes didn’t interest me\n8\nI was just having a browse\n9\nOther (open)\n10\nthose that did not look at the bay\nif S1=3 (ie didn’t look at the Bay)\nQ3.1 Did you notice this new Lamb Bay? (SC)\nYes, I remember noticing it\n1\nI Just remember noticing it a little (but it didn’t get my attention)\n2\nNo, I didn’t notice it at all\n3\nQ3.2 Now that you are looking at this bay, select an answer about what you like about the concept? (MC)\n.\nHaving lamb and ingredients together in one place to make an easy meal\n1\nMeal ideas, recipe cards / QR codes\n2\nHaving ingredients on display in the meat section\n3\nReminding me of Lamb (as I don’t often purchase it)\n4\nThe colours and graphics\n5\nOther (open)\n6\nQ3.3 Conversely, what do you not like about the concept? (MC)\n.\nThe cuts of lamb didn’t appeal\n1\nI prefer to buy lamb from the main lamb section\n2\nI don’t buy lamb from Coles\n3\nI prefer to buy ingredients from the regular aisles\n4\nI don’t like the brands of ingredients on the Bay\n5\nThe prices didn’t suit my budget – too high\n6\nI was expecting things to be on special\n7\nThe recipes didn’t interest me\n8\nOther (open)\n9\nAll respondents\nFinal questions for all respondents\nQ4.1: Overall, how would you rate the appeal of this new Lamb Bay? <1 to 10 scale>\n1 = not at all appealing, and 10 = very appealing\nQ4.2 How useful would you rate the idea of a bay with lamb, ingredients and recipe ideas?\n1 = not at all useful, and 10 = very useful\nQ4.3 How likely are you to cook each of the featured recipes?\n1 = not at all likely, and 10 = very likely\nScore\nSouvlaki Lamb and Salad Wrap\nMexican Lamb Tacos\nLamb Loin Chops\nLamb Ragu with Pappardelle\nQ4.4 How appealing is the phrase “ Lamb made easy”?\n1 = not at all appealing, and 10 = very appealing\nQ4.4a. Why? <Open ended comments, ask on same page as Q4.4>\nQ4.5 How appealing are the images of the meals on this bay?\n1 = not at all appealing, and 10 = very appealing\nQ4.5a. Why? <Open ended comments, ask on same page as Q4.5>\nQ4.6: How likely are you to purchase from this Lamb Bay in future? <SC>\nRegularly - Will look and consider products on most shopping trips\n1\nInfrequently - I will look/ purchase occasionally\n2\nUnlikely – this was for a special occasion or once off.\n3\nUnlikely – would prefer to purchase from the normal lamb section and from the aisles\n4\nNever – I don’t purchase Lamb\n5\nQ4.7 Do you think Coles should roll this out as a permanent fixture to their stores?<1 to 10 scale>\n1 = definitely should not be implemented and 10 = definitely should be implemented\nQ4.8: What suggestions do you have that would improve the appeal of this lamb bay if Coles decides to roll it out across their network?\n<Open ended>\nWe really appreciate all the insights you have given us in this survey.\nPlease accept a token of $5 for your assistance.",
+  "total_questions": 27,
+  "total_sections": 1,
+  "metadata_extra": {
+    "parser_diagnostics": {
+      "text_blocks": 328,
+      "source_characters": 8425,
+      "question_style_blocks": 0
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "run_id": "20260820T231858971038Z",
+  "user": "appadmin",
+  "created_at": "2026-08-20T23:22:41.284294+00:00",
+  "generation_seconds": 453.02,
+  "model": "gpt-5.6-luna",
+  "processing_mode": "intelligent",
+  "document_hash": "0ed5eecf1a666d65fa1013138a4135b42a345de9dc1557baa905fa907c3102ff",
+  "input": {
+    "key": "20260820T231858971038Z__V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "filename": "V5_R94036_Bob_Response_PC_Final_WAQ_2_.docx",
+    "size": 60220,
+    "created_at": "2026-08-20T23:18:58.971019+00:00"
+  },
+  "output": {
+    "key": "Validation_260820232241.sps",
+    "filename": "Validation_260820232241.sps",
+    "size": 72957,
+    "created_at": "2026-08-20T23:22:41.284294+00:00"
+  },
+  "validationSummary": {
+    "user": "appadmin",
+    "questions": 159,
+    "checksEmitted": 175,
+    "questionsOmitted": 14,
+    "coveragePercent": 91.2,
+    "coverage": "Partial",
+    "blocks": [
+      {
+        "block": "Introduction",
+        "prefix": "INTRO",
+        "questions": 1,
+        "checksEmitted": 0,
+        "questionsOmitted": 1,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "INTRO",
+            "reason": "Informational introduction text with no respondent-entered data."
+          }
+        ]
+      },
+      {
+        "block": "Screening",
+        "prefix": "S",
+        "questions": 14,
+        "checksEmitted": 34,
+        "questionsOmitted": 0,
+        "coveragePercent": 100.0,
+        "coverage": "Complete",
+        "omittedQuestions": []
+      },
+      {
+        "block": "Survey",
+        "prefix": "Q",
+        "questions": 132,
+        "checksEmitted": 141,
+        "questionsOmitted": 1,
+        "coveragePercent": 99.2,
+        "coverage": "Partial",
+        "omittedQuestions": [
+          {
+            "questionId": "Q3_12",
+            "reason": "Numeric range evidence is conflicting: the source notes both 1\u201399 and 0\u2013199, so no range check is emitted."
+          }
+        ]
+      },
+      {
+        "block": "Classification",
+        "prefix": "\u2014",
+        "questions": 10,
+        "checksEmitted": 0,
+        "questionsOmitted": 10,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "10",
+            "reason": "The documented age response codes are present, but the canonical question has no SPSS variable to target."
+          },
+          {
+            "questionId": "11",
+            "reason": "A 1\u201330 day range is documented, but the canonical numeric question has no SPSS variable to target."
+          },
+          {
+            "questionId": "12",
+            "reason": "The documented gender response codes are present, but the canonical question has no SPSS variable to target."
+          },
+          {
+            "questionId": "13",
+            "reason": "Classification question is optional and has no canonical variable, so response-code validation cannot be safely defined."
+          },
+          {
+            "questionId": "14",
+            "reason": "Classification question is optional and has no canonical variable, so response-code validation cannot be safely defined."
+          },
+          {
+            "questionId": "15",
+            "reason": "Classification question is optional and has no canonical variable, so response-code validation cannot be safely defined."
+          },
+          {
+            "questionId": "16",
+            "reason": "Classification question is optional and has no canonical variable, so response-code validation cannot be safely defined."
+          },
+          {
+            "questionId": "17",
+            "reason": "Classification question is optional and has no canonical variable, so response-code validation cannot be safely defined."
+          },
+          {
+            "questionId": "18",
+            "reason": "Percentage allocation evidence is present, but no canonical variable or component variables are supplied, so numeric-range and total validation cannot be safely defined."
+          },
+          {
+            "questionId": "19",
+            "reason": "The question has a documented conditional route and numeric range, but no canonical variable or routing variable is supplied, so validation cannot be safely defined."
+          }
+        ]
+      },
+      {
+        "block": "Classification purposes only",
+        "prefix": "\u2014",
+        "questions": 2,
+        "checksEmitted": 0,
+        "questionsOmitted": 2,
+        "coveragePercent": 0.0,
+        "coverage": "Not emitted",
+        "omittedQuestions": [
+          {
+            "questionId": "20",
+            "reason": "The question has a documented conditional route and numeric range, but no canonical variable or routing variable is supplied, so validation cannot be safely defined."
+          },
+          {
+            "questionId": "21",
+            "reason": "The question has a documented conditional route and response options, but no canonical variable or routing variable is supplied, so validation cannot be safely defined."
+          }
+        ]
+      }
+    ]
+  }
+}

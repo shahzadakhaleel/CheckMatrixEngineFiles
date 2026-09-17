@@ -1,0 +1,21 @@
+{
+  "block_id": "b_q105",
+  "source_variables": [
+    "q105_1",
+    "q105_2",
+    "q105_3",
+    "q105_4",
+    "q105_5",
+    "q105_6",
+    "q105_7",
+    "q105_8",
+    "q105_9",
+    "q105_10"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q105.\n!String ask=q105_1 opr=<> value=\"\" myvars=q105_1 q105_2 q105_3 q105_4 q105_5 q105_6 q105_7 q105_8 q105_9 q105_10.",
+  "omission_reason": null,
+  "warnings": [
+    "The source requests the first box to contain none when no therapies are known; no exact textual exclusivity rule is generated because response coding is open text."
+  ]
+}

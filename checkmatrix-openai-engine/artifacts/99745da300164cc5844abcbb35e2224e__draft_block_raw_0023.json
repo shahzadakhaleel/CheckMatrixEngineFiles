@@ -1,0 +1,12 @@
+{
+  "block_id": "B_Q100",
+  "source_variables": [
+    "q100_1",
+    "q100_2",
+    "q100_3"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q100.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=q100_1 q100_2 q100_3.\n!Sum_to_var svar=q100_1 evar=q100_3 qnt=Q100 ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": []
+}

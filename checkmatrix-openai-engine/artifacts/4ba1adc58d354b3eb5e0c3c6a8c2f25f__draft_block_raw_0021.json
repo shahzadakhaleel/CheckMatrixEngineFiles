@@ -1,0 +1,33 @@
+{
+  "block_id": "B_Q190_Q200",
+  "source_variables": [
+    "q190_1",
+    "q190_2",
+    "q190_3",
+    "q190_4",
+    "q190_5",
+    "q190_6",
+    "q190_7",
+    "q190_8",
+    "q190_99",
+    "q190_98",
+    "q190g_98_other",
+    "q200_1",
+    "q200_2",
+    "q200_3",
+    "q200_4",
+    "q200_5",
+    "q200_6",
+    "q200_7",
+    "q200_8",
+    "q200_99",
+    "q200_98",
+    "q200g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "!MULTI_B svar=q190_1 evar=q190_98 qnt=Q190 ctr=10.\n!String ask=q190_98 opr=<> value=0 myvars=q190g_98_other.\n!MULTI_B svar=q200_1 evar=q200_98 qnt=Q200 ctr=10.\n!String ask=q200_98 opr=<> value=0 myvars=q200g_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "Q190/Q200 allow up to three selections and have exclusive anchor choices; the supplied multi-response macro does not encode the maximum-three constraint or cross-question disabling."
+  ]
+}

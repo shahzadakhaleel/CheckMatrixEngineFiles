@@ -1,0 +1,33 @@
+{
+  "block_id": "b01_screener",
+  "source_variables": [
+    "ae1",
+    "s2",
+    "s2_98_other",
+    "s3",
+    "s4",
+    "s5_1",
+    "s6_1",
+    "s7_1",
+    "s7_2",
+    "s7_3",
+    "s7_4",
+    "s7_5",
+    "s7_6",
+    "s7_7",
+    "s8_1",
+    "s8_2",
+    "s9_1",
+    "s9_2",
+    "s9_3",
+    "s9_4",
+    "s9_98",
+    "s9_98_other"
+  ],
+  "temporary_variables": [
+    "flag"
+  ],
+  "spss": "tit SCREENER.\ntemporary.\nsel if miss(ae1) or ~range(ae1,1,2).\nlist respid, ae1.\ntit S2.\ntemporary.\nsel if miss(s2) or ~range(s2,1,98).\nlist respid, s2.\ntit S3.\ntemporary.\nsel if miss(s3) or ~range(s3,1,2).\nlist respid, s3.\ntit S4.\ntemporary.\nsel if miss(s4) or ~range(s4,1,99).\nlist respid, s4.\ntit S5.\ntemporary.\nsel if miss(s5_1) or ~range(s5_1,0,100).\nlist respid, s5_1.\ntit S6.\ntemporary.\nsel if miss(s6_1) or ~range(s6_1,0,99).\nlist respid, s6_1.\ndo repeat x=s7_1 s7_2 s7_3 s7_4 s7_5 s7_6 s7_7.\ncompute flag=0.\nif miss(x) or ~range(x,0,10000) flag=1.\nend repeat.\ntit S7.\ntemporary.\nsel if flag=1.\nlist respid flag s7_1 s7_2 s7_3 s7_4 s7_5 s7_6 s7_7.\ndel var flag.\n!Numeric ask=s8_1 opr== value=0 min=0 max=9999 myvars=s8_1.\n!Numeric ask=s8_2 opr== value=0 min=0 max=9999 myvars=s8_2.\n!Numeric ask=s9_1 opr== value=0 min=0 max=9999 myvars=s9_1.\n!Numeric ask=s9_2 opr== value=0 min=0 max=9999 myvars=s9_2.\n!Numeric ask=s9_3 opr== value=0 min=0 max=9999 myvars=s9_3.\n!Numeric ask=s9_4 opr== value=0 min=0 max=9999 myvars=s9_4.\n!Numeric ask=s9_98 opr== value=0 min=0 max=9999 myvars=s9_98.",
+  "omission_reason": null,
+  "warnings": []
+}

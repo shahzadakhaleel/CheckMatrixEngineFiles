@@ -1,0 +1,16 @@
+{
+  "block_id": "B_S85",
+  "source_variables": [
+    "s85_1",
+    "s85_2",
+    "s85_3",
+    "s85_4",
+    "s85_5"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=s85_1 opr=<> value=0 min=0 max=100 myvars=s85_1.\n!Numeric ask=s85_2 opr=<> value=0 min=0 max=100 myvars=s85_2.\n!Numeric ask=s85_3 opr=<> value=0 min=0 max=100 myvars=s85_3.\n!Numeric ask=s85_4 opr=<> value=0 min=0 max=100 myvars=s85_4.\n!Numeric ask=s85_5 opr=<> value=0 min=0 max=100 myvars=s85_5.\n!Sum_to_var svar=s85_1 evar=s85_5 qnt=S85_SUM ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": [
+    "S85 is present only in the dataset dictionary; its questionnaire source is represented by the adjacent S80/S85 material, but no independent question block was supplied."
+  ]
+}

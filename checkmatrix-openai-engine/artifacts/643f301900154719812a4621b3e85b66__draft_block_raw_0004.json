@@ -1,0 +1,19 @@
+{
+  "block_id": "b04_q120_q125",
+  "source_variables": [
+    "q120_1",
+    "q120_2",
+    "q120_3",
+    "q120_4",
+    "q120_5",
+    "q125_1",
+    "q125_2",
+    "q125_3",
+    "q125_4",
+    "q125_5"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q120_1 opr== value=0 min=1 max=7 myvars=q120_1 q120_2 q120_3 q120_4 q120_5.\n!Numeric ask=q125_1 opr== value=0 min=1 max=7 myvars=q125_1 q125_2 q125_3 q125_4 q125_5.",
+  "omission_reason": null,
+  "warnings": []
+}

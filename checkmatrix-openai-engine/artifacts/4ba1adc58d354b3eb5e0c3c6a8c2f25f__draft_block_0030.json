@@ -1,0 +1,13 @@
+{
+  "block_id": "B_Q460_Q480",
+  "source_variables": [
+    "q460",
+    "q470_1",
+    "q470_2",
+    "q480"
+  ],
+  "temporary_variables": [],
+  "spss": "!String ask=q460 opr=<> value=0 myvars=q460.\n!Numeric ask=q470_1 opr=<> value=0 min=0 max=60 myvars=q470_1.\n!Numeric ask=q470_2 opr=<> value=0 min=0 max=60 myvars=q470_2.\n!String ask=q480 opr=<> value=0 myvars=q480.",
+  "omission_reason": null,
+  "warnings": []
+}

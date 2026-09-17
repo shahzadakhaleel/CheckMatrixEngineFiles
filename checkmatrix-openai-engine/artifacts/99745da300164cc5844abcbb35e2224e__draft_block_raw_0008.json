@@ -1,0 +1,12 @@
+{
+  "block_id": "B_S60",
+  "source_variables": [
+    "s60"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S60.\n!Numeric ask=0 opr== value=0 min=1 max=53 myvars=s60.",
+  "omission_reason": null,
+  "warnings": [
+    "The document specifies market-specific termination values, but no explicit user instruction authorized applying those eligibility restrictions in this draft."
+  ]
+}

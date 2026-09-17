@@ -1,0 +1,5 @@
+[
+  "Extraction validation: Block b11_dictionary_quality has unknown or absent question groups",
+  "Block b01_screener: Block b01_screener assigns an undeclared temporary",
+  "Block b08_ad_evaluation: Block b08_ad_evaluation assigns an undeclared temporary"
+]

@@ -1,0 +1,38 @@
+{
+  "block_id": "b09_ad_recall_followup",
+  "source_variables": [
+    "q340",
+    "q345_1",
+    "q345_2",
+    "q345_3",
+    "q345_4",
+    "q345_5",
+    "q345_6",
+    "q345_7",
+    "q345_8",
+    "q345_9",
+    "q345_10",
+    "q345_11",
+    "q345_98",
+    "q345_97",
+    "q345_98_other",
+    "q350_1",
+    "q350_2",
+    "q350_3",
+    "q350_4",
+    "q350_5",
+    "q350_6",
+    "q350_7",
+    "q350_8",
+    "q350_98",
+    "q350_10",
+    "q350_98_other",
+    "q355"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q340 opr== value=0 min=1 max=2 myvars=q340.\n!MULTI_B svar=q345_1 evar=q345_97 qnt=Q345 ctr=13.\n!MULTI_B svar=q350_1 evar=q350_10 qnt=Q350 ctr=10.\n!Numeric ask=q355 opr== value=0 min=1 max=6 myvars=q355.",
+  "omission_reason": null,
+  "warnings": [
+    "Q345 and Q350 are conditionally displayed, respectively, after Q340=1 and as a follow-up action set; conditional missingness is not separately filtered."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "block_id": "b_q135",
+  "source_variables": [
+    "q135_1",
+    "q135_2",
+    "q135_3",
+    "q135_4",
+    "q135_5",
+    "q135_99"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q135.\n!MULTI_B svar=q135_1 evar=q135_99 qnt=Q135 ctr=6.",
+  "omission_reason": null,
+  "warnings": [
+    "Q135 NONE is source-marked exclusive; !MULTI_B is used for the response set."
+  ]
+}

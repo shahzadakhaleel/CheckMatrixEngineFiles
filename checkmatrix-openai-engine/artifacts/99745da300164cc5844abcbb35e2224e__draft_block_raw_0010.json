@@ -1,0 +1,13 @@
+{
+  "block_id": "B_S80",
+  "source_variables": [
+    "s80_1",
+    "s80_2",
+    "s80_3",
+    "s80_4"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S80.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=s80_1 s80_2 s80_3 s80_4.",
+  "omission_reason": null,
+  "warnings": []
+}

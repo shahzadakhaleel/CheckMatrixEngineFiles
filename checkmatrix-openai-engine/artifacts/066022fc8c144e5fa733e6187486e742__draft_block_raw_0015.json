@@ -1,0 +1,26 @@
+{
+  "block_id": "b_q305_q325",
+  "source_variables": [
+    "q305",
+    "q310",
+    "q315",
+    "q320",
+    "q325_1",
+    "q325_2",
+    "q325_3",
+    "q325_4",
+    "q325_5",
+    "q325_11",
+    "q325_6",
+    "q325_7",
+    "q325_8",
+    "q325_9",
+    "q325_10"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q305-Q325.\n!String ask=q305 opr=<> value=\"\" myvars=q305.\n!Numeric ask=q310 opr== value=0 min=1 max=5 myvars=q310.\n!String ask=q310 opr== value=4 myvars=q315.\n!String ask=q310 opr== value=5 myvars=q315.\n!String ask=q310 opr== value=1 myvars=q320.\n!String ask=q310 opr== value=2 myvars=q320.\n!Numeric ask=q325_1 opr== value=0 min=1 max=3 myvars=q325_1 q325_2 q325_3 q325_4 q325_5 q325_11 q325_6 q325_7 q325_8 q325_9 q325_10.",
+  "omission_reason": null,
+  "warnings": [
+    "The Q315/Q320 bases are explicitly sourced from Q310, but the open text fields are checked only for nonblank when in base."
+  ]
+}

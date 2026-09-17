@@ -1,0 +1,15 @@
+{
+  "block_id": "B_Q70_Q90",
+  "source_variables": [
+    "q70",
+    "q70g_98_other",
+    "q80",
+    "q90_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q70 opr=<> value=0 min=1 max=98 myvars=q70.\n!String ask=q70 opr=<> value=0 myvars=q70g_98_other.\n!String ask=q70 opr=<> value=0 myvars=q80.\n!Numeric ask=q70 opr=<> value=0 min=0 max=100 myvars=q90_1.",
+  "omission_reason": null,
+  "warnings": [
+    "Q80 and Q90 are routed by Q70; routing-specific requiredness is documented in the manifest, but the generic string/numeric calls do not conditionally suppress missing checks."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "block_id": "B_S50_S60",
+  "source_variables": [
+    "s50",
+    "s60"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=s50 opr=<> value=0 min=1 max=7 myvars=s50.\n!Numeric ask=s60 opr=<> value=0 min=1 max=53 myvars=s60.",
+  "omission_reason": null,
+  "warnings": [
+    "S50 and S60 contain source-specific termination rules that are not represented by the generic numeric macro."
+  ]
+}

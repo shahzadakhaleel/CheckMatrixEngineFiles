@@ -1,0 +1,18 @@
+{
+  "block_id": "B_Q10",
+  "source_variables": [
+    "q10_1",
+    "q10_2",
+    "q10_3",
+    "q10_4",
+    "q10_98",
+    "q10dk_99",
+    "q10g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q10_1 opr=<> value=0 min=0 max=100 myvars=q10_1.\n!Numeric ask=q10_2 opr=<> value=0 min=0 max=100 myvars=q10_2.\n!Numeric ask=q10_3 opr=<> value=0 min=0 max=100 myvars=q10_3.\n!Numeric ask=q10_4 opr=<> value=0 min=0 max=100 myvars=q10_4.\n!Numeric ask=q10_98 opr=<> value=0 min=0 max=100 myvars=q10_98.\n!Numeric ask=q10dk_99 opr=<> value=0 min=0 max=99 myvars=q10dk_99.\n!String ask=q10_98 opr=<> value=0 myvars=q10g_98_other.\n!Sum_to_var svar=q10_1 evar=q10_98 qnt=Q10_SUM ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": [
+    "Q10 has an exclusive I do not know item; conditional exclusivity is not encoded because the approved macro library has no single-select exclusivity macro."
+  ]
+}

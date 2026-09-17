@@ -1,0 +1,10 @@
+{
+  "block_id": "B_S30",
+  "source_variables": [
+    "s30"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S30.\n!Numeric ask=0 opr== value=0 min=1 max=2 myvars=s30.",
+  "omission_reason": null,
+  "warnings": []
+}

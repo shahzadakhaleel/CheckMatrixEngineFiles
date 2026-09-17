@@ -1,0 +1,17 @@
+{
+  "block_id": "B_Q210_Q220",
+  "source_variables": [
+    "q210x1_1",
+    "q210x2_1",
+    "q210x3_1",
+    "q210x4_1",
+    "q210x5_1",
+    "q220_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q210x1_1 opr=<> value=0 min=0 max=100 myvars=q210x1_1.\n!Numeric ask=q210x2_1 opr=<> value=0 min=0 max=100 myvars=q210x2_1.\n!Numeric ask=q210x3_1 opr=<> value=0 min=0 max=100 myvars=q210x3_1.\n!Numeric ask=q210x4_1 opr=<> value=0 min=0 max=100 myvars=q210x4_1.\n!Numeric ask=q210x5_1 opr=<> value=0 min=0 max=100 myvars=q210x5_1.\n!Numeric ask=q220_1 opr=<> value=0 min=1 max=11 myvars=q220_1.",
+  "omission_reason": null,
+  "warnings": [
+    "Q210 age-group percentage items are conditional on Q110 age groups; conditional routing is retained in the manifest but not implemented in this compact draft."
+  ]
+}

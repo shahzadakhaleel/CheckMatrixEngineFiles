@@ -1,0 +1,21 @@
+{
+  "block_id": "B_Q290_Q300",
+  "source_variables": [
+    "q290x1_1",
+    "q290x2_1",
+    "q290x3_1",
+    "q290x4_1",
+    "q290x5_1",
+    "q300_1",
+    "q300_2",
+    "q300_3",
+    "q300_4",
+    "q300_5"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q290x1_1 opr=<> value=0 min=0 max=100 myvars=q290x1_1.\n!Numeric ask=q290x2_1 opr=<> value=0 min=0 max=100 myvars=q290x2_1.\n!Numeric ask=q290x3_1 opr=<> value=0 min=0 max=100 myvars=q290x3_1.\n!Numeric ask=q290x4_1 opr=<> value=0 min=0 max=100 myvars=q290x4_1.\n!Numeric ask=q290x5_1 opr=<> value=0 min=0 max=100 myvars=q290x5_1.\n!Numeric ask=q300_1 opr=<> value=0 min=1 max=5 myvars=q300_1.\n!Numeric ask=q300_2 opr=<> value=0 min=1 max=5 myvars=q300_2.\n!Numeric ask=q300_3 opr=<> value=0 min=1 max=5 myvars=q300_3.\n!Numeric ask=q300_4 opr=<> value=0 min=1 max=5 myvars=q300_4.\n!Numeric ask=q300_5 opr=<> value=0 min=1 max=5 myvars=q300_5.",
+  "omission_reason": null,
+  "warnings": [
+    "The Q300 introductory text says 1-7 while the supplied SAV labels and codes are 1-5; the SAV-specific scale was used."
+  ]
+}

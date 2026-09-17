@@ -1,0 +1,26 @@
+{
+  "block_id": "B_Q130",
+  "source_variables": [
+    "q130x1_1",
+    "q130x1_3",
+    "q130x1_4",
+    "q130x2_1",
+    "q130x2_3",
+    "q130x2_4",
+    "q130x3_1",
+    "q130x3_3",
+    "q130x3_4",
+    "q130x4_1",
+    "q130x4_3",
+    "q130x4_4",
+    "q130x5_1",
+    "q130x5_3",
+    "q130x5_4"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q130x1_1 opr=<> value=0 min=0 max=100 myvars=q130x1_1.\n!Numeric ask=q130x1_3 opr=<> value=0 min=0 max=100 myvars=q130x1_3.\n!Numeric ask=q130x1_4 opr=<> value=0 min=0 max=100 myvars=q130x1_4.\n!Numeric ask=q130x2_1 opr=<> value=0 min=0 max=100 myvars=q130x2_1.\n!Numeric ask=q130x2_3 opr=<> value=0 min=0 max=100 myvars=q130x2_3.\n!Numeric ask=q130x2_4 opr=<> value=0 min=0 max=100 myvars=q130x2_4.\n!Numeric ask=q130x3_1 opr=<> value=0 min=0 max=100 myvars=q130x3_1.\n!Numeric ask=q130x3_3 opr=<> value=0 min=0 max=100 myvars=q130x3_3.\n!Numeric ask=q130x3_4 opr=<> value=0 min=0 max=100 myvars=q130x3_4.\n!Numeric ask=q130x4_1 opr=<> value=0 min=0 max=100 myvars=q130x4_1.\n!Numeric ask=q130x4_3 opr=<> value=0 min=0 max=100 myvars=q130x4_3.\n!Numeric ask=q130x4_4 opr=<> value=0 min=0 max=100 myvars=q130x4_4.\n!Numeric ask=q130x5_1 opr=<> value=0 min=0 max=100 myvars=q130x5_1.\n!Numeric ask=q130x5_3 opr=<> value=0 min=0 max=100 myvars=q130x5_3.\n!Numeric ask=q130x5_4 opr=<> value=0 min=0 max=100 myvars=q130x5_4.",
+  "omission_reason": null,
+  "warnings": [
+    "Q130 row variables are noncontiguous by age; per-variable range checks are generated, but age-specific sum-to-100 checks are omitted."
+  ]
+}

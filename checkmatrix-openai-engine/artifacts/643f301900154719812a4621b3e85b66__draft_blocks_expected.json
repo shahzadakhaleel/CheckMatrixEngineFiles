@@ -1,0 +1,589 @@
+[
+  {
+    "id": "ADMIN_RESPID",
+    "question_ids": [],
+    "source_variables": [
+      "respid"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:respid"
+    ]
+  },
+  {
+    "id": "ADMIN_USER_ID",
+    "question_ids": [],
+    "source_variables": [
+      "user_id"
+    ],
+    "checks": [
+      "Shared default: nonblank []"
+    ],
+    "provenance": [
+      "defaults:1:user_id"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_START",
+    "question_ids": [],
+    "source_variables": [
+      "interview_start"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_start"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_END",
+    "question_ids": [],
+    "source_variables": [
+      "interview_end"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_end"
+    ]
+  },
+  {
+    "id": "ADMIN_SCREENSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "screenstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:screenstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_SCRSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "scrstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:scrstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDCHANGE",
+    "question_ids": [],
+    "source_variables": [
+      "hidchange"
+    ],
+    "checks": [
+      "Shared default: range [\"0\", \"10\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidchange"
+    ]
+  },
+  {
+    "id": "b01_screener",
+    "question_ids": [
+      "g_ae1",
+      "g_s2",
+      "g_s3_s6",
+      "g_s7",
+      "g_s8_s9"
+    ],
+    "source_variables": [
+      "ae1",
+      "s2",
+      "s2_98_other",
+      "s3",
+      "s4",
+      "s5_1",
+      "s6_1",
+      "s7_1",
+      "s7_2",
+      "s7_3",
+      "s7_4",
+      "s7_5",
+      "s7_6",
+      "s7_7",
+      "s8_1",
+      "s8_2",
+      "s9_1",
+      "s9_2",
+      "s9_3",
+      "s9_4",
+      "s9_98",
+      "s9_98_other"
+    ],
+    "checks": [
+      "document-requiredness",
+      "document-coded-ranges",
+      "document-numeric-bounds"
+    ],
+    "provenance": [
+      "document blocks 109-209",
+      "shared_defaults:ordinary_questions_required"
+    ]
+  },
+  {
+    "id": "b02_q105",
+    "question_ids": [
+      "g_q105"
+    ],
+    "source_variables": [
+      "q105_1",
+      "q105_2",
+      "q105_3",
+      "q105_4",
+      "q105_5",
+      "q105_6",
+      "q105_7",
+      "q105_8",
+      "q105_9",
+      "q105_10"
+    ],
+    "checks": [
+      "required first open end"
+    ],
+    "provenance": [
+      "document blocks 218-219"
+    ]
+  },
+  {
+    "id": "b03_q110_q115",
+    "question_ids": [
+      "g_q110_q115"
+    ],
+    "source_variables": [
+      "q110_1",
+      "q110_2",
+      "q110_3",
+      "q110_4",
+      "q110_5",
+      "q115_1",
+      "q115_2",
+      "q115_3",
+      "q115_4",
+      "q115_5"
+    ],
+    "checks": [
+      "Q110 codes 1-4",
+      "Q115 codes 1-3"
+    ],
+    "provenance": [
+      "document blocks 222-269",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b04_q120_q125",
+    "question_ids": [
+      "g_q120_q125"
+    ],
+    "source_variables": [
+      "q120_1",
+      "q120_2",
+      "q120_3",
+      "q120_4",
+      "q120_5",
+      "q125_1",
+      "q125_2",
+      "q125_3",
+      "q125_4",
+      "q125_5"
+    ],
+    "checks": [
+      "Q120/Q125 bounds 1-7"
+    ],
+    "provenance": [
+      "document blocks 272-315",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b05_q130",
+    "question_ids": [
+      "g_q130"
+    ],
+    "source_variables": [
+      "q130_1_1",
+      "q130_1_2",
+      "q130_1_3",
+      "q130_1_4",
+      "q130_1_5",
+      "q130_1_99",
+      "q130_2_1",
+      "q130_2_2",
+      "q130_2_3",
+      "q130_2_4",
+      "q130_2_5",
+      "q130_2_99",
+      "q130_3_1",
+      "q130_3_2",
+      "q130_3_3",
+      "q130_3_4",
+      "q130_3_5",
+      "q130_3_99",
+      "q130_4_1",
+      "q130_4_2",
+      "q130_4_3",
+      "q130_4_4",
+      "q130_4_5",
+      "q130_4_99",
+      "q130_5_1",
+      "q130_5_2",
+      "q130_5_3",
+      "q130_5_4",
+      "q130_5_5",
+      "q130_5_99",
+      "q130_6_1",
+      "q130_6_2",
+      "q130_6_3",
+      "q130_6_4",
+      "q130_6_5",
+      "q130_6_99",
+      "q130_7_1",
+      "q130_7_2",
+      "q130_7_3",
+      "q130_7_4",
+      "q130_7_5",
+      "q130_7_99",
+      "q130_8_1",
+      "q130_8_2",
+      "q130_8_3",
+      "q130_8_4",
+      "q130_8_5",
+      "q130_8_99",
+      "q130_9_1",
+      "q130_9_2",
+      "q130_9_3",
+      "q130_9_4",
+      "q130_9_5",
+      "q130_9_99",
+      "q130_10_1",
+      "q130_10_2",
+      "q130_10_3",
+      "q130_10_4",
+      "q130_10_5",
+      "q130_10_99",
+      "q130_11_1",
+      "q130_11_2",
+      "q130_11_3",
+      "q130_11_4",
+      "q130_11_5",
+      "q130_11_99",
+      "q130_12_1",
+      "q130_12_2",
+      "q130_12_3",
+      "q130_12_4",
+      "q130_12_5",
+      "q130_12_99",
+      "q130_13_1",
+      "q130_13_2",
+      "q130_13_3",
+      "q130_13_4",
+      "q130_13_5",
+      "q130_13_99",
+      "q130_14_1",
+      "q130_14_2",
+      "q130_14_3",
+      "q130_14_4",
+      "q130_14_5",
+      "q130_14_99"
+    ],
+    "checks": [
+      "binary multi-response",
+      "none exclusivity"
+    ],
+    "provenance": [
+      "document blocks 318-360",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b06_q135_q140",
+    "question_ids": [
+      "g_q135_q140"
+    ],
+    "source_variables": [
+      "q135_1",
+      "q135_2",
+      "q135_3",
+      "q135_4",
+      "q135_5",
+      "q135_99",
+      "q137",
+      "q140_1",
+      "q140_2",
+      "q140_3",
+      "q140_4",
+      "q140_5",
+      "q140_6",
+      "q140_7",
+      "q140_8",
+      "q140_9",
+      "q140_10",
+      "q140_11",
+      "q140_98",
+      "q140_99",
+      "q140_98_other"
+    ],
+    "checks": [
+      "binary multi-response",
+      "other text link"
+    ],
+    "provenance": [
+      "document blocks 364-393",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b07_blinded_recall",
+    "question_ids": [
+      "g_q205_q255"
+    ],
+    "source_variables": [
+      "q205",
+      "q210",
+      "q220",
+      "q220_98_other",
+      "q230_1",
+      "q230_2",
+      "q230_3",
+      "q230_4",
+      "q230_5",
+      "q230_6",
+      "q230_7",
+      "q230_8",
+      "q230_9",
+      "q230_10",
+      "q230_11",
+      "q230_98",
+      "q230_99",
+      "q230_98_other",
+      "q240_1",
+      "q245",
+      "q250_1",
+      "q250_2",
+      "q250_3",
+      "q250_4",
+      "q250_5",
+      "q250_6",
+      "q250_7",
+      "q250_8",
+      "q250_99",
+      "q255_1",
+      "q255_2",
+      "q255_3",
+      "q255_4",
+      "q255_5",
+      "q255_6",
+      "q255_7",
+      "q255_8",
+      "q255_98",
+      "q255_99",
+      "q255_98_other"
+    ],
+    "checks": [
+      "coded ranges",
+      "binary multi-response",
+      "other text links"
+    ],
+    "provenance": [
+      "document blocks 397-457",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b08_ad_evaluation",
+    "question_ids": [
+      "g_q305_q325"
+    ],
+    "source_variables": [
+      "q305",
+      "q310",
+      "q315",
+      "q320",
+      "q325_1",
+      "q325_2",
+      "q325_3",
+      "q325_4",
+      "q325_5",
+      "q325_11",
+      "q325_6",
+      "q325_7",
+      "q325_8",
+      "q325_9",
+      "q325_10"
+    ],
+    "checks": [
+      "coded ranges",
+      "grid requiredness",
+      "routing"
+    ],
+    "provenance": [
+      "document blocks 463-532",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b09_ad_recall_followup",
+    "question_ids": [
+      "g_q340_q355"
+    ],
+    "source_variables": [
+      "q340",
+      "q345_1",
+      "q345_2",
+      "q345_3",
+      "q345_4",
+      "q345_5",
+      "q345_6",
+      "q345_7",
+      "q345_8",
+      "q345_9",
+      "q345_10",
+      "q345_11",
+      "q345_98",
+      "q345_97",
+      "q345_98_other",
+      "q350_1",
+      "q350_2",
+      "q350_3",
+      "q350_4",
+      "q350_5",
+      "q350_6",
+      "q350_7",
+      "q350_8",
+      "q350_98",
+      "q350_10",
+      "q350_98_other",
+      "q355"
+    ],
+    "checks": [
+      "coded ranges",
+      "binary multi-response",
+      "routing"
+    ],
+    "provenance": [
+      "document blocks 534-561",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b10_demographics",
+    "question_ids": [
+      "g_demographics"
+    ],
+    "source_variables": [
+      "d1",
+      "d2_1",
+      "d3",
+      "d4",
+      "d5"
+    ],
+    "checks": [
+      "coded ranges",
+      "age bound"
+    ],
+    "provenance": [
+      "document blocks 564-585",
+      "dataset dictionary"
+    ]
+  },
+  {
+    "id": "b11_dictionary_quality",
+    "question_ids": [
+      "g_dictionary_quality"
+    ],
+    "source_variables": [
+      "responseid",
+      "status",
+      "last_touched",
+      "lastcomplete",
+      "screenstatusall_COMPLETE",
+      "screenstatusall_SCREENER_QUIT",
+      "screenstatusall_SURVEY_QUIT",
+      "screenstatusall_PRETEST",
+      "screenstatusall_TEST",
+      "screenstatusall_PMTEST",
+      "screenstatusall_QC",
+      "screenstatusall_CLIENTQC",
+      "screenstatusall_DUPE",
+      "screenstatusall_EXTRACOMP",
+      "screenstatusall_BADDATA",
+      "screenstatusall_COUNTRY",
+      "screenstatusall_NOSCRIPT",
+      "screenstatusall_NOJS",
+      "screenstatusall_NoUserID",
+      "screenstatusall_IP",
+      "screenstatusall_CAPTEST",
+      "screenstatusall_hbot1",
+      "screenstatusall_USERNAME",
+      "screenstatusall_SPECIALTY",
+      "screenstatusall_AE1",
+      "screenstatusall_S2",
+      "screenstatusall_S3",
+      "screenstatusall_S4",
+      "screenstatusall_S5",
+      "screenstatusall_S6",
+      "screenstatusall_S7",
+      "screenstatusall_S8",
+      "screenstatusall_S9",
+      "screenstatusall_VIDEO"
+    ],
+    "checks": [
+      "dictionary schema presence"
+    ],
+    "provenance": [
+      "dataset_dictionary"
+    ]
+  },
+  {
+    "id": "ADMIN_SURVEYLOI",
+    "question_ids": [],
+    "source_variables": [
+      "surveyloi"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:surveyloi"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDOEBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidoebatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidoebatch"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDDVBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hiddvbatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hiddvbatch"
+    ]
+  }
+]

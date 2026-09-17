@@ -1,0 +1,32 @@
+{
+  "block_id": "B_Q330",
+  "source_variables": [
+    "q330x1_1",
+    "q330x1_2",
+    "q330x1_3",
+    "q330x1_98",
+    "q330x2_1",
+    "q330x2_2",
+    "q330x2_3",
+    "q330x2_98",
+    "q330x3_1",
+    "q330x3_2",
+    "q330x3_3",
+    "q330x3_98",
+    "q330x4_1",
+    "q330x4_2",
+    "q330x4_3",
+    "q330x4_98",
+    "q330x5_1",
+    "q330x5_2",
+    "q330x5_3",
+    "q330x5_98",
+    "q330g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q330.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=q330x1_1 q330x1_2 q330x1_3 q330x1_98 q330x2_1 q330x2_2 q330x2_3 q330x2_98 q330x3_1 q330x3_2 q330x3_3 q330x3_98 q330x4_1 q330x4_2 q330x4_3 q330x4_98 q330x5_1 q330x5_2 q330x5_3 q330x5_98.\n!String ask=0 opr== value=0 myvars=q330g_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "Age-column sums and conditional applicability are source-backed but not fully generated."
+  ]
+}

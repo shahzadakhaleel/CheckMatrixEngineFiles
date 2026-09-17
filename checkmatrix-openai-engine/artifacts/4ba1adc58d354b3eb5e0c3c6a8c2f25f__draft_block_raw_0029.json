@@ -1,0 +1,15 @@
+{
+  "block_id": "B_Q430_Q450",
+  "source_variables": [
+    "q430",
+    "q430_98_other",
+    "q440_1",
+    "q450_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q430 opr=<> value=0 min=1 max=99 myvars=q430.\n!String ask=q430 opr=<> value=0 myvars=q430_98_other.\n!Numeric ask=q430 opr=<> value=0 min=0 max=60 myvars=q440_1.\n!Numeric ask=q430 opr=<> value=0 min=1 max=7 myvars=q450_1.",
+  "omission_reason": null,
+  "warnings": [
+    "Q440 and Q450 are routed by Q430=1; routing is retained in the manifest but not conditionally applied by the compact macro calls."
+  ]
+}

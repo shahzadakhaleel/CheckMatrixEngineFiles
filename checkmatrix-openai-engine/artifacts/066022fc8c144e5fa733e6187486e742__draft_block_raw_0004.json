@@ -1,0 +1,10 @@
+{
+  "block_id": "b_qtestvideo",
+  "source_variables": [
+    "qtestvideo"
+  ],
+  "temporary_variables": [],
+  "spss": "tit QTestVideo.\ntemporary.\nsel if miss(qtestvideo) or ~range(qtestvideo,1,2).\nlist respid, qtestvideo.",
+  "omission_reason": null,
+  "warnings": []
+}

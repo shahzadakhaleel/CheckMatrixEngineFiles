@@ -1,0 +1,18 @@
+{
+  "block_id": "B_Q140",
+  "source_variables": [
+    "q140_1",
+    "q140_2",
+    "q140_3",
+    "q140_4",
+    "q140_5",
+    "q140_6",
+    "q140_7",
+    "q140_98",
+    "q140g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q140.\n!MULTI_A svar=q140_1 evar=q140_98 qnt=Q140 ctr=8.\n!String ask=q140_98 opr== value=1 myvars=q140g_98_other.",
+  "omission_reason": null,
+  "warnings": []
+}

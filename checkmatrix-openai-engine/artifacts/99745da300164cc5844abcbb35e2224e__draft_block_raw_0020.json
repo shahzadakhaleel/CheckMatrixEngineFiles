@@ -1,0 +1,11 @@
+{
+  "block_id": "B_Q70",
+  "source_variables": [
+    "q70",
+    "q70g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q70.\n!Numeric ask=0 opr== value=0 min=1 max=98 myvars=q70.\n!String ask=q70 opr== value=98 myvars=q70g_98_other.",
+  "omission_reason": null,
+  "warnings": []
+}

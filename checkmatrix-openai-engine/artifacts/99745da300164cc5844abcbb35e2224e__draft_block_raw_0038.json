@@ -1,0 +1,40 @@
+{
+  "block_id": "B_Q250",
+  "source_variables": [
+    "q250_1",
+    "q250_2",
+    "q250_3",
+    "q250_4",
+    "q250_5",
+    "q250_6",
+    "q250_7",
+    "q250_8",
+    "q250_9",
+    "q250_10",
+    "q250_11",
+    "q250_12",
+    "q250_13",
+    "q250_98",
+    "q250g_98_other",
+    "q240_1",
+    "q240_2",
+    "q240_3",
+    "q240_4",
+    "q240_5",
+    "q240_6",
+    "q240_7",
+    "q240_8",
+    "q240_9",
+    "q240_10",
+    "q240_11",
+    "q240_12",
+    "q240_13",
+    "q240_98"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q250.\n!MULTI_A svar=q250_1 evar=q250_98 qnt=Q250 ctr=14.\n!String ask=q250_98 opr== value=1 myvars=q250g_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "The source requires Q240-selected attributes to be unavailable in Q250. This cross-question rule is not generated; Q240 variables are included as dependencies."
+  ]
+}

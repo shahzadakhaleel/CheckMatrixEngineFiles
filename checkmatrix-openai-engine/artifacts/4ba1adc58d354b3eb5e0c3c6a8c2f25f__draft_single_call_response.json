@@ -1,0 +1,5251 @@
+{
+  "blocks": [
+    {
+      "block_id": "B_CONSENT",
+      "source_variables": [
+        "consent",
+        "tt_it",
+        "tt_fr",
+        "tt_de",
+        "tt_usuk",
+        "ae_it",
+        "ae_es",
+        "sit",
+        "pt10",
+        "pt20"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=consent opr=<> value=0 min=1 max=2 myvars=consent.\n!Numeric ask=tt_it opr=<> value=0 min=1 max=2 myvars=tt_it.\n!Numeric ask=tt_fr opr=<> value=0 min=1 max=2 myvars=tt_fr.\n!Numeric ask=tt_de opr=<> value=0 min=1 max=2 myvars=tt_de.\n!Numeric ask=tt_usuk opr=<> value=0 min=1 max=3 myvars=tt_usuk.\n!Numeric ask=ae_it opr=<> value=0 min=1 max=3 myvars=ae_it.\n!Numeric ask=ae_es opr=<> value=0 min=1 max=3 myvars=ae_es.\n!Numeric ask=sit opr=<> value=0 min=1 max=2 myvars=sit.\n!Numeric ask=pt10 opr=<> value=0 min=1 max=2 myvars=pt10.\n!Numeric ask=pt20 opr=<> value=0 min=1 max=2 myvars=pt20.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_S10",
+      "source_variables": [
+        "s10",
+        "s10g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s10 opr=<> value=0 min=1 max=98 myvars=s10.\n!String ask=s10 opr=<> value=0 myvars=s10g_98_other.",
+      "omission_reason": null,
+      "warnings": [
+        "Source explicitly terminates several S10 codes; generated range check does not enforce noncontiguous eligibility codes."
+      ]
+    },
+    {
+      "block_id": "B_S20_S30",
+      "source_variables": [
+        "s20",
+        "s30"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s20 opr=<> value=0 min=1 max=3 myvars=s20.\n!Numeric ask=s30 opr=<> value=0 min=1 max=2 myvars=s30.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_S40",
+      "source_variables": [
+        "s40_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s40_1 opr=<> value=0 min=3 max=35 myvars=s40_1.",
+      "omission_reason": null,
+      "warnings": [
+        "S40 source states termination outside 3-35; the generated check uses the documented eligible range."
+      ]
+    },
+    {
+      "block_id": "B_S50_S60",
+      "source_variables": [
+        "s50",
+        "s60"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s50 opr=<> value=0 min=1 max=7 myvars=s50.\n!Numeric ask=s60 opr=<> value=0 min=1 max=53 myvars=s60.",
+      "omission_reason": null,
+      "warnings": [
+        "S50 and S60 contain source-specific termination rules that are not represented by the generic numeric macro."
+      ]
+    },
+    {
+      "block_id": "B_S70",
+      "source_variables": [
+        "s70_1",
+        "s70_2",
+        "s70_3",
+        "s70_98",
+        "s70g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s70_1 opr=<> value=0 min=0 max=100 myvars=s70_1.\n!Numeric ask=s70_2 opr=<> value=0 min=0 max=100 myvars=s70_2.\n!Numeric ask=s70_3 opr=<> value=0 min=0 max=100 myvars=s70_3.\n!Numeric ask=s70_98 opr=<> value=0 min=0 max=100 myvars=s70_98.\n!String ask=s70_98 opr=<> value=0 myvars=s70g_98_other.\n!Sum_to_var svar=s70_1 evar=s70_98 qnt=S70_SUM ctr=100 opr=<>.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_S80",
+      "source_variables": [
+        "s80_1",
+        "s80_2",
+        "s80_3",
+        "s80_4"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s80_1 opr=<> value=0 min=0 max=100 myvars=s80_1.\n!Numeric ask=s80_2 opr=<> value=0 min=0 max=100 myvars=s80_2.\n!Numeric ask=s80_3 opr=<> value=0 min=0 max=100 myvars=s80_3.\n!Numeric ask=s80_4 opr=<> value=0 min=0 max=100 myvars=s80_4.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_S85",
+      "source_variables": [
+        "s85_1",
+        "s85_2",
+        "s85_3",
+        "s85_4",
+        "s85_5"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s85_1 opr=<> value=0 min=0 max=100 myvars=s85_1.\n!Numeric ask=s85_2 opr=<> value=0 min=0 max=100 myvars=s85_2.\n!Numeric ask=s85_3 opr=<> value=0 min=0 max=100 myvars=s85_3.\n!Numeric ask=s85_4 opr=<> value=0 min=0 max=100 myvars=s85_4.\n!Numeric ask=s85_5 opr=<> value=0 min=0 max=100 myvars=s85_5.\n!Sum_to_var svar=s85_1 evar=s85_5 qnt=S85_SUM ctr=100 opr=<>.",
+      "omission_reason": null,
+      "warnings": [
+        "S85 is present only in the dataset dictionary; its questionnaire source is represented by the adjacent S80/S85 material, but no independent question block was supplied."
+      ]
+    },
+    {
+      "block_id": "B_S90",
+      "source_variables": [
+        "s90_1",
+        "s90_2",
+        "s90_3",
+        "s90_4",
+        "s90_5",
+        "s90_6",
+        "s90_7",
+        "s90_8",
+        "s90_9",
+        "s90_98",
+        "s90g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=s90_1 evar=s90_98 qnt=S90 ctr=10.\n!String ask=s90_98 opr=<> value=0 myvars=s90g_98_other.",
+      "omission_reason": null,
+      "warnings": [
+        "S90 source requires at least one of codes 1-7 and rejects codes 8-9; the approved MULTI_B macro checks binary coding and selection consistency but cannot encode the source-specific termination restriction."
+      ]
+    },
+    {
+      "block_id": "B_S100",
+      "source_variables": [
+        "s100_1",
+        "s100_2",
+        "s100_3"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=s100_1 opr=<> value=0 min=1 max=2 myvars=s100_1.\n!Numeric ask=s100_2 opr=<> value=0 min=1 max=2 myvars=s100_2.\n!Numeric ask=s100_3 opr=<> value=0 min=1 max=2 myvars=s100_3.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q10",
+      "source_variables": [
+        "q10_1",
+        "q10_2",
+        "q10_3",
+        "q10_4",
+        "q10_98",
+        "q10dk_99",
+        "q10g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q10_1 opr=<> value=0 min=0 max=100 myvars=q10_1.\n!Numeric ask=q10_2 opr=<> value=0 min=0 max=100 myvars=q10_2.\n!Numeric ask=q10_3 opr=<> value=0 min=0 max=100 myvars=q10_3.\n!Numeric ask=q10_4 opr=<> value=0 min=0 max=100 myvars=q10_4.\n!Numeric ask=q10_98 opr=<> value=0 min=0 max=100 myvars=q10_98.\n!Numeric ask=q10dk_99 opr=<> value=0 min=0 max=99 myvars=q10dk_99.\n!String ask=q10_98 opr=<> value=0 myvars=q10g_98_other.\n!Sum_to_var svar=q10_1 evar=q10_98 qnt=Q10_SUM ctr=100 opr=<>.",
+      "omission_reason": null,
+      "warnings": [
+        "Q10 has an exclusive I do not know item; conditional exclusivity is not encoded because the approved macro library has no single-select exclusivity macro."
+      ]
+    },
+    {
+      "block_id": "B_Q20_Q30",
+      "source_variables": [
+        "q20_1",
+        "q20_2",
+        "q30_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q20_1 opr=<> value=0 min=0 max=100 myvars=q20_1.\n!Numeric ask=q20_2 opr=<> value=0 min=0 max=100 myvars=q20_2.\n!Sum_to_var svar=q20_1 evar=q20_2 qnt=Q20_SUM ctr=100 opr=<>.\n!Numeric ask=q30_1 opr=<> value=0 min=0 max=100 myvars=q30_1.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q40",
+      "source_variables": [
+        "q40_1",
+        "q40_2",
+        "q40_3",
+        "q40_4",
+        "q40_98",
+        "q40g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=q40_1 evar=q40_98 qnt=Q40 ctr=5.\n!String ask=q40_98 opr=<> value=0 myvars=q40g_98_other.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q50_Q60",
+      "source_variables": [
+        "q50_1",
+        "q60x_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q50_1 opr=<> value=0 min=1 max=7 myvars=q50_1.\n!Numeric ask=q60x_1 opr=<> value=0 min=1 max=100000 myvars=q60x_1.",
+      "omission_reason": null,
+      "warnings": [
+        "Q60 is conditional on Q50 and is stored as string in the SAV; numeric range validation is not valid for the supplied storage type, so Q60 has been omitted from executable validation."
+      ]
+    },
+    {
+      "block_id": "B_Q70_Q90",
+      "source_variables": [
+        "q70",
+        "q70g_98_other",
+        "q80",
+        "q90_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q70 opr=<> value=0 min=1 max=98 myvars=q70.\n!String ask=q70 opr=<> value=0 myvars=q70g_98_other.\n!String ask=q70 opr=<> value=0 myvars=q80.\n!Numeric ask=q70 opr=<> value=0 min=0 max=100 myvars=q90_1.",
+      "omission_reason": null,
+      "warnings": [
+        "Q80 and Q90 are routed by Q70; routing-specific requiredness is documented in the manifest, but the generic string/numeric calls do not conditionally suppress missing checks."
+      ]
+    },
+    {
+      "block_id": "B_Q100_Q110",
+      "source_variables": [
+        "q100_1",
+        "q100_2",
+        "q100_3",
+        "q110_1",
+        "q110_2",
+        "q110_3",
+        "q110_4",
+        "q110_5"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q100_1 opr=<> value=0 min=0 max=100 myvars=q100_1.\n!Numeric ask=q100_2 opr=<> value=0 min=0 max=100 myvars=q100_2.\n!Numeric ask=q100_3 opr=<> value=0 min=0 max=100 myvars=q100_3.\n!Sum_to_var svar=q100_1 evar=q100_3 qnt=Q100_SUM ctr=100 opr=<>.\n!Numeric ask=q110_1 opr=<> value=0 min=0 max=100 myvars=q110_1.\n!Numeric ask=q110_2 opr=<> value=0 min=0 max=100 myvars=q110_2.\n!Numeric ask=q110_3 opr=<> value=0 min=0 max=100 myvars=q110_3.\n!Numeric ask=q110_4 opr=<> value=0 min=0 max=100 myvars=q110_4.\n!Numeric ask=q110_5 opr=<> value=0 min=0 max=100 myvars=q110_5.\n!Sum_to_var svar=q110_1 evar=q110_5 qnt=Q110_SUM ctr=100 opr=<>.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q120",
+      "source_variables": [
+        "q120x1_1",
+        "q120x1_2",
+        "q120x1_3",
+        "q120x1_4",
+        "q120x1_5",
+        "q120x1_6",
+        "q120x1_7",
+        "q120x1_99",
+        "q120x1_98",
+        "q120x2_1",
+        "q120x2_2",
+        "q120x2_3",
+        "q120x2_4",
+        "q120x2_5",
+        "q120x2_6",
+        "q120x2_7",
+        "q120x2_99",
+        "q120x2_98",
+        "q120x3_1",
+        "q120x3_2",
+        "q120x3_3",
+        "q120x3_4",
+        "q120x3_5",
+        "q120x3_6",
+        "q120x3_7",
+        "q120x3_99",
+        "q120x3_98",
+        "q120x4_1",
+        "q120x4_2",
+        "q120x4_3",
+        "q120x4_4",
+        "q120x4_5",
+        "q120x4_6",
+        "q120x4_7",
+        "q120x4_99",
+        "q120x4_98",
+        "q120x5_1",
+        "q120x5_2",
+        "q120x5_3",
+        "q120x5_4",
+        "q120x5_5",
+        "q120x5_6",
+        "q120x5_7",
+        "q120x5_99",
+        "q120x5_98",
+        "q120x120g_99_other"
+      ],
+      "temporary_variables": [],
+      "spss": "",
+      "omission_reason": "The five age-by-medication grids contain 45 noncontiguous SAV variables; the supplied macro library requires contiguous spans and no safe contiguous span can be verified without physical dictionary order for the full grid. Generate explicit per-variable checks in a subsequent analyst revision.",
+      "warnings": [
+        "Source-backed Q120 variables are preserved in the manifest; executable validation is omitted to avoid an unsafe TO span."
+      ]
+    },
+    {
+      "block_id": "B_Q130",
+      "source_variables": [
+        "q130x1_1",
+        "q130x1_3",
+        "q130x1_4",
+        "q130x2_1",
+        "q130x2_3",
+        "q130x2_4",
+        "q130x3_1",
+        "q130x3_3",
+        "q130x3_4",
+        "q130x4_1",
+        "q130x4_3",
+        "q130x4_4",
+        "q130x5_1",
+        "q130x5_3",
+        "q130x5_4"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q130x1_1 opr=<> value=0 min=0 max=100 myvars=q130x1_1.\n!Numeric ask=q130x1_3 opr=<> value=0 min=0 max=100 myvars=q130x1_3.\n!Numeric ask=q130x1_4 opr=<> value=0 min=0 max=100 myvars=q130x1_4.\n!Numeric ask=q130x2_1 opr=<> value=0 min=0 max=100 myvars=q130x2_1.\n!Numeric ask=q130x2_3 opr=<> value=0 min=0 max=100 myvars=q130x2_3.\n!Numeric ask=q130x2_4 opr=<> value=0 min=0 max=100 myvars=q130x2_4.\n!Numeric ask=q130x3_1 opr=<> value=0 min=0 max=100 myvars=q130x3_1.\n!Numeric ask=q130x3_3 opr=<> value=0 min=0 max=100 myvars=q130x3_3.\n!Numeric ask=q130x3_4 opr=<> value=0 min=0 max=100 myvars=q130x3_4.\n!Numeric ask=q130x4_1 opr=<> value=0 min=0 max=100 myvars=q130x4_1.\n!Numeric ask=q130x4_3 opr=<> value=0 min=0 max=100 myvars=q130x4_3.\n!Numeric ask=q130x4_4 opr=<> value=0 min=0 max=100 myvars=q130x4_4.\n!Numeric ask=q130x5_1 opr=<> value=0 min=0 max=100 myvars=q130x5_1.\n!Numeric ask=q130x5_3 opr=<> value=0 min=0 max=100 myvars=q130x5_3.\n!Numeric ask=q130x5_4 opr=<> value=0 min=0 max=100 myvars=q130x5_4.",
+      "omission_reason": null,
+      "warnings": [
+        "Q130 row variables are noncontiguous by age; per-variable range checks are generated, but age-specific sum-to-100 checks are omitted."
+      ]
+    },
+    {
+      "block_id": "B_Q140_Q170",
+      "source_variables": [
+        "q140_1",
+        "q140_2",
+        "q140_3",
+        "q140_4",
+        "q140_5",
+        "q140_6",
+        "q140_7",
+        "q140_98",
+        "q140g_98_other",
+        "q150_1",
+        "q160_1",
+        "q170_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=q140_1 evar=q140_98 qnt=Q140 ctr=8.\n!String ask=q140_98 opr=<> value=0 myvars=q140g_98_other.\n!Numeric ask=q150_1 opr=<> value=0 min=0 max=100 myvars=q150_1.\n!Numeric ask=q160_1 opr=<> value=0 min=0 max=100 myvars=q160_1.\n!Numeric ask=q170_1 opr=<> value=0 min=0 max=100 myvars=q170_1.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q180",
+      "source_variables": [
+        "q180"
+      ],
+      "temporary_variables": [],
+      "spss": "!String ask=q180 opr=<> value=0 myvars=q180.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q190_Q200",
+      "source_variables": [
+        "q190_1",
+        "q190_2",
+        "q190_3",
+        "q190_4",
+        "q190_5",
+        "q190_6",
+        "q190_7",
+        "q190_8",
+        "q190_99",
+        "q190_98",
+        "q190g_98_other",
+        "q200_1",
+        "q200_2",
+        "q200_3",
+        "q200_4",
+        "q200_5",
+        "q200_6",
+        "q200_7",
+        "q200_8",
+        "q200_99",
+        "q200_98",
+        "q200g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=q190_1 evar=q190_98 qnt=Q190 ctr=10.\n!String ask=q190_98 opr=<> value=0 myvars=q190g_98_other.\n!MULTI_B svar=q200_1 evar=q200_98 qnt=Q200 ctr=10.\n!String ask=q200_98 opr=<> value=0 myvars=q200g_98_other.",
+      "omission_reason": null,
+      "warnings": [
+        "Q190/Q200 allow up to three selections and have exclusive anchor choices; the supplied multi-response macro does not encode the maximum-three constraint or cross-question disabling."
+      ]
+    },
+    {
+      "block_id": "B_Q210_Q220",
+      "source_variables": [
+        "q210x1_1",
+        "q210x2_1",
+        "q210x3_1",
+        "q210x4_1",
+        "q210x5_1",
+        "q220_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q210x1_1 opr=<> value=0 min=0 max=100 myvars=q210x1_1.\n!Numeric ask=q210x2_1 opr=<> value=0 min=0 max=100 myvars=q210x2_1.\n!Numeric ask=q210x3_1 opr=<> value=0 min=0 max=100 myvars=q210x3_1.\n!Numeric ask=q210x4_1 opr=<> value=0 min=0 max=100 myvars=q210x4_1.\n!Numeric ask=q210x5_1 opr=<> value=0 min=0 max=100 myvars=q210x5_1.\n!Numeric ask=q220_1 opr=<> value=0 min=1 max=11 myvars=q220_1.",
+      "omission_reason": null,
+      "warnings": [
+        "Q210 age-group percentage items are conditional on Q110 age groups; conditional routing is retained in the manifest but not implemented in this compact draft."
+      ]
+    },
+    {
+      "block_id": "B_Q230",
+      "source_variables": [
+        "q230"
+      ],
+      "temporary_variables": [],
+      "spss": "!String ask=q230 opr=<> value=0 myvars=q230.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q240_Q250",
+      "source_variables": [
+        "q240_1",
+        "q240_2",
+        "q240_3",
+        "q240_4",
+        "q240_5",
+        "q240_6",
+        "q240_7",
+        "q240_8",
+        "q240_9",
+        "q240_10",
+        "q240_11",
+        "q240_12",
+        "q240_13",
+        "q240_98",
+        "q240g_98_other",
+        "q250_1",
+        "q250_2",
+        "q250_3",
+        "q250_4",
+        "q250_5",
+        "q250_6",
+        "q250_7",
+        "q250_8",
+        "q250_9",
+        "q250_10",
+        "q250_11",
+        "q250_12",
+        "q250_13",
+        "q250_98",
+        "q250g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=q240_1 evar=q240_98 qnt=Q240 ctr=14.\n!String ask=q240_98 opr=<> value=0 myvars=q240g_98_other.\n!MULTI_B svar=q250_1 evar=q250_98 qnt=Q250 ctr=14.\n!String ask=q250_98 opr=<> value=0 myvars=q250g_98_other.",
+      "omission_reason": null,
+      "warnings": [
+        "Q240/Q250 allow up to three selections and have exclusive anchor choices; the supplied multi-response macro does not encode the maximum-three constraint or cross-question disabling."
+      ]
+    },
+    {
+      "block_id": "B_Q260_Q280",
+      "source_variables": [
+        "q260",
+        "q260_98_other",
+        "q270_1",
+        "q280_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q260 opr=<> value=0 min=1 max=99 myvars=q260.\n!String ask=q260 opr=<> value=0 myvars=q260_98_other.\n!Numeric ask=q270_1 opr=<> value=0 min=1 max=11 myvars=q270_1.\n!Numeric ask=q280_1 opr=<> value=0 min=0 max=100 myvars=q280_1.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_Q290_Q300",
+      "source_variables": [
+        "q290x1_1",
+        "q290x2_1",
+        "q290x3_1",
+        "q290x4_1",
+        "q290x5_1",
+        "q300_1",
+        "q300_2",
+        "q300_3",
+        "q300_4",
+        "q300_5"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q290x1_1 opr=<> value=0 min=0 max=100 myvars=q290x1_1.\n!Numeric ask=q290x2_1 opr=<> value=0 min=0 max=100 myvars=q290x2_1.\n!Numeric ask=q290x3_1 opr=<> value=0 min=0 max=100 myvars=q290x3_1.\n!Numeric ask=q290x4_1 opr=<> value=0 min=0 max=100 myvars=q290x4_1.\n!Numeric ask=q290x5_1 opr=<> value=0 min=0 max=100 myvars=q290x5_1.\n!Numeric ask=q300_1 opr=<> value=0 min=1 max=5 myvars=q300_1.\n!Numeric ask=q300_2 opr=<> value=0 min=1 max=5 myvars=q300_2.\n!Numeric ask=q300_3 opr=<> value=0 min=1 max=5 myvars=q300_3.\n!Numeric ask=q300_4 opr=<> value=0 min=1 max=5 myvars=q300_4.\n!Numeric ask=q300_5 opr=<> value=0 min=1 max=5 myvars=q300_5.",
+      "omission_reason": null,
+      "warnings": [
+        "The Q300 introductory text says 1-7 while the supplied SAV labels and codes are 1-5; the SAV-specific scale was used."
+      ]
+    },
+    {
+      "block_id": "B_Q310_Q330",
+      "source_variables": [
+        "q310x1_1",
+        "q310x1_2",
+        "q310x1_98",
+        "q310x2_1",
+        "q310x2_2",
+        "q310x2_98",
+        "q310x3_1",
+        "q310x3_2",
+        "q310x3_98",
+        "q310x4_1",
+        "q310x4_2",
+        "q310x4_98",
+        "q310x5_1",
+        "q310x5_2",
+        "q310x5_98",
+        "q310g_98_other",
+        "q320x1_1",
+        "q320x2_1",
+        "q320x3_1",
+        "q320x4_1",
+        "q320x5_1",
+        "q330x1_1",
+        "q330x1_2",
+        "q330x1_3",
+        "q330x1_98",
+        "q330x2_1",
+        "q330x2_2",
+        "q330x2_3",
+        "q330x2_98",
+        "q330x3_1",
+        "q330x3_2",
+        "q330x3_3",
+        "q330x3_98",
+        "q330x4_1",
+        "q330x4_2",
+        "q330x4_3",
+        "q330x4_98",
+        "q330x5_1",
+        "q330x5_2",
+        "q330x5_3",
+        "q330x5_98",
+        "q330g_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "",
+      "omission_reason": "These age-by-treatment allocation grids require routed, age-specific sum-to-100 validation and contain noncontiguous SAV variables. No safe approved macro call can be generated without unintended TO spans.",
+      "warnings": [
+        "All Q310-Q330 variables are preserved in the manifest; executable blocks are intentionally omitted rather than validating unintended variables."
+      ]
+    },
+    {
+      "block_id": "B_Q340_Q420",
+      "source_variables": [
+        "q340_1",
+        "q350x1_1",
+        "q350x2_1",
+        "q350x3_1",
+        "q350x4_1",
+        "q350x5_1",
+        "q360x1_1",
+        "q360x1_2",
+        "q360x1_3",
+        "q360x1_98",
+        "q360x2_1",
+        "q360x2_2",
+        "q360x2_3",
+        "q360x2_98",
+        "q360x3_1",
+        "q360x3_2",
+        "q360x3_3",
+        "q360x3_98",
+        "q360x4_1",
+        "q360x4_2",
+        "q360x4_3",
+        "q360x4_98",
+        "q360x5_1",
+        "q360x5_2",
+        "q360x5_3",
+        "q360x5_98",
+        "q370_1",
+        "q380x1_1",
+        "q380x2_1",
+        "q380x3_1",
+        "q380x4_1",
+        "q380x5_1",
+        "q390x1_1",
+        "q390x1_2",
+        "q390x1_3",
+        "q390x1_98",
+        "q390x2_1",
+        "q390x2_2",
+        "q390x2_3",
+        "q390x2_98",
+        "q390x3_1",
+        "q390x3_2",
+        "q390x3_3",
+        "q390x3_98",
+        "q390x4_1",
+        "q390x4_2",
+        "q390x4_3",
+        "q390x4_98",
+        "q390x5_1",
+        "q390x5_2",
+        "q390x5_3",
+        "q390x5_98",
+        "q400_1",
+        "q410x1_1",
+        "q410x2_1",
+        "q410x3_1",
+        "q410x4_1",
+        "q410x5_1",
+        "q420x1_1",
+        "q420x1_2",
+        "q420x1_3",
+        "q420x1_98",
+        "q420x2_1",
+        "q420x2_2",
+        "q420x2_3",
+        "q420x2_98",
+        "q420x3_1",
+        "q420x3_2",
+        "q420x3_3",
+        "q420x3_98",
+        "q420x4_1",
+        "q420x4_2",
+        "q420x4_3",
+        "q420x4_98",
+        "q420x5_1",
+        "q420x5_2",
+        "q420x5_3",
+        "q420x5_98"
+      ],
+      "temporary_variables": [],
+      "spss": "",
+      "omission_reason": "Alternative-profile allocation grids require routed, age-specific sum-to-100 validation across multiple noncontiguous variable families. The supplied macros cannot safely represent these grids without physical-order verification.",
+      "warnings": [
+        "All Q340-Q420 variables are preserved in the manifest; executable validation is omitted to avoid unsafe TO spans."
+      ]
+    },
+    {
+      "block_id": "B_Q430_Q450",
+      "source_variables": [
+        "q430",
+        "q430_98_other",
+        "q440_1",
+        "q450_1"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q430 opr=<> value=0 min=1 max=99 myvars=q430.\n!String ask=q430 opr=<> value=0 myvars=q430_98_other.\n!Numeric ask=q430 opr=<> value=0 min=0 max=60 myvars=q440_1.\n!Numeric ask=q430 opr=<> value=0 min=1 max=7 myvars=q450_1.",
+      "omission_reason": null,
+      "warnings": [
+        "Q440 and Q450 are routed by Q430=1; routing is retained in the manifest but not conditionally applied by the compact macro calls."
+      ]
+    },
+    {
+      "block_id": "B_Q460_Q480",
+      "source_variables": [
+        "q460",
+        "q470_1",
+        "q470_2",
+        "q480"
+      ],
+      "temporary_variables": [],
+      "spss": "!String ask=q460 opr=<> value=0 myvars=q460.\n!Numeric ask=q470_1 opr=<> value=0 min=0 max=60 myvars=q470_1.\n!Numeric ask=q470_2 opr=<> value=0 min=0 max=60 myvars=q470_2.\n!String ask=q480 opr=<> value=0 myvars=q480.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "B_HIDTYPE",
+      "source_variables": [
+        "hidtype"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=hidtype opr=<> value=0 min=1 max=2 myvars=hidtype.",
+      "omission_reason": null,
+      "warnings": [
+        "hidtype is dictionary-only; no questionnaire evidence supports requiredness or eligibility restrictions. The check is limited to its supplied schema codes."
+      ]
+    }
+  ],
+  "warnings": [
+    "The supplied DOCX extraction contains 1917 source blocks, but only the questionnaire and SAV-backed response fields were converted into validation groups; front matter, quota text, instructions, profile descriptions, termination annotations, and duplicated TABLE_ROW representations were not treated as independent questions.",
+    "The SAV dictionary contains several source-backed variables with empty value labels, especially percentage, binary multi-response, and allocation-grid fields. Their source codes/ranges were used only where explicit questionnaire evidence supplied them; unsupported hidden constants and eligibility restrictions were not invented.",
+    "Q60 is stored as string despite a numeric-looking questionnaire prompt, so executable numeric validation was omitted.",
+    "The Q120-Q420 routed grids require explicit variable-by-variable checks or verified physical-order spans. They are preserved in the manifest but some executable checks are omitted to prevent unsafe macro ranges."
+  ],
+  "manifest": {
+    "title": "CRA-Astellas Dravet Syndrome HCP Survey V9",
+    "groups": [
+      {
+        "id": "CONSENT",
+        "text": "Consent and market-specific participation",
+        "section": "Screener",
+        "kind": "ordinary",
+        "items": [
+          {
+            "id": "consent",
+            "text": "Consent",
+            "variable": "consent",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              117,
+              118,
+              119,
+              120
+            ]
+          },
+          {
+            "id": "tt_it",
+            "text": "Italy transparency",
+            "variable": "tt_it",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              126,
+              132
+            ]
+          },
+          {
+            "id": "tt_fr",
+            "text": "France transparency",
+            "variable": "tt_fr",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              141,
+              144,
+              147,
+              151
+            ]
+          },
+          {
+            "id": "tt_de",
+            "text": "Germany employer approval",
+            "variable": "tt_de",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              154,
+              156
+            ]
+          },
+          {
+            "id": "tt_usuk",
+            "text": "US/UK AE consent",
+            "variable": "tt_usuk",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              159,
+              160,
+              161,
+              162,
+              163,
+              164
+            ]
+          },
+          {
+            "id": "ae_it",
+            "text": "Italy AE consent",
+            "variable": "ae_it",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              195,
+              196,
+              197,
+              198,
+              199
+            ]
+          },
+          {
+            "id": "ae_es",
+            "text": "Spain AE consent",
+            "variable": "ae_es",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              200,
+              202,
+              203,
+              204,
+              205
+            ]
+          },
+          {
+            "id": "sit",
+            "text": "Sponsor sharing consent",
+            "variable": "sit",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              207,
+              208,
+              209,
+              210
+            ]
+          },
+          {
+            "id": "pt10",
+            "text": "Pre-test availability",
+            "variable": "pt10",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              227,
+              228,
+              229
+            ]
+          },
+          {
+            "id": "pt20",
+            "text": "Recruiter contact",
+            "variable": "pt20",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              230,
+              231,
+              232
+            ]
+          }
+        ],
+        "routing": "market/pre-test displayed by survey",
+        "source_blocks": [
+          117,
+          118,
+          126,
+          138,
+          144,
+          151,
+          156,
+          161,
+          175,
+          187,
+          196,
+          202,
+          208,
+          227,
+          230
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S10",
+        "text": "Primary specialty",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s10",
+            "text": "Specialty",
+            "variable": "s10",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              234,
+              238,
+              242,
+              246,
+              250,
+              254,
+              258,
+              262,
+              266,
+              270,
+              274
+            ]
+          },
+          {
+            "id": "s10_other",
+            "text": "Other specialty",
+            "variable": "s10g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              274,
+              275,
+              276
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          234,
+          278
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S20",
+        "text": "Board status",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s20",
+            "text": "Certification status",
+            "variable": "s20",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              278,
+              282,
+              286,
+              290
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          278
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S30",
+        "text": "Epilepsy/neurophysiology certification",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s30",
+            "text": "Certification",
+            "variable": "s30",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              294,
+              298,
+              302
+            ]
+          }
+        ],
+        "routing": "US HCPs",
+        "source_blocks": [
+          294
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S40",
+        "text": "Years in practice",
+        "section": "Screener",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "s40_1",
+            "text": "Years",
+            "variable": "s40_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              306,
+              307
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          306,
+          307
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S50",
+        "text": "Practice country",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s50",
+            "text": "Country",
+            "variable": "s50",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              308,
+              312,
+              316,
+              320,
+              324,
+              328,
+              332,
+              336
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          308
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S60",
+        "text": "Licensed state",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s60",
+            "text": "State",
+            "variable": "s60",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              341,
+              342
+            ]
+          }
+        ],
+        "routing": "US HCPs",
+        "source_blocks": [
+          341,
+          342
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S70",
+        "text": "Professional time",
+        "section": "Screener",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "s70_1",
+            "text": "Clinical",
+            "variable": "s70_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              343,
+              348
+            ]
+          },
+          {
+            "id": "s70_2",
+            "text": "Teaching",
+            "variable": "s70_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              343,
+              352
+            ]
+          },
+          {
+            "id": "s70_3",
+            "text": "Researching",
+            "variable": "s70_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              343,
+              356
+            ]
+          },
+          {
+            "id": "s70_98",
+            "text": "Other percent",
+            "variable": "s70_98",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              343,
+              360
+            ]
+          },
+          {
+            "id": "s70_other",
+            "text": "Other text",
+            "variable": "s70g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              360,
+              361
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          343,
+          348,
+          352,
+          356,
+          360,
+          364
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S80",
+        "text": "Patients treated",
+        "section": "Screener",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "s80_1",
+            "text": "Spinal muscular dystrophy",
+            "variable": "s80_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              366,
+              370
+            ]
+          },
+          {
+            "id": "s80_2",
+            "text": "Lennox-Gastaut",
+            "variable": "s80_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              366,
+              374
+            ]
+          },
+          {
+            "id": "s80_3",
+            "text": "Dravet",
+            "variable": "s80_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              366,
+              378
+            ]
+          },
+          {
+            "id": "s80_4",
+            "text": "Rett",
+            "variable": "s80_4",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              366,
+              382
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          366,
+          370,
+          374,
+          378,
+          382
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S85",
+        "text": "Dravet age distribution",
+        "section": "Screener",
+        "kind": "dictionary_grid",
+        "items": [
+          {
+            "id": "s85_1",
+            "text": "Under 2",
+            "variable": "s85_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": []
+          },
+          {
+            "id": "s85_2",
+            "text": "2 to under 4",
+            "variable": "s85_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": []
+          },
+          {
+            "id": "s85_3",
+            "text": "4 to under 12",
+            "variable": "s85_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": []
+          },
+          {
+            "id": "s85_4",
+            "text": "12 to under 18",
+            "variable": "s85_4",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": []
+          },
+          {
+            "id": "s85_5",
+            "text": "18 plus",
+            "variable": "s85_5",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": []
+          }
+        ],
+        "routing": null,
+        "source_blocks": [],
+        "source_kind": "dataset_dictionary"
+      },
+      {
+        "id": "S90",
+        "text": "Prescribed products",
+        "section": "Screener",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "s90_1",
+            "text": "Valproate",
+            "variable": "s90_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              414
+            ]
+          },
+          {
+            "id": "s90_2",
+            "text": "Clobazam",
+            "variable": "s90_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              418
+            ]
+          },
+          {
+            "id": "s90_3",
+            "text": "Topiramate",
+            "variable": "s90_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              422
+            ]
+          },
+          {
+            "id": "s90_4",
+            "text": "Fenfluramine",
+            "variable": "s90_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              426
+            ]
+          },
+          {
+            "id": "s90_5",
+            "text": "Cannabidiol",
+            "variable": "s90_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              430
+            ]
+          },
+          {
+            "id": "s90_6",
+            "text": "Stiripentol",
+            "variable": "s90_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              434
+            ]
+          },
+          {
+            "id": "s90_7",
+            "text": "Levetiracetam",
+            "variable": "s90_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              438
+            ]
+          },
+          {
+            "id": "s90_8",
+            "text": "Trevexra",
+            "variable": "s90_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              442
+            ]
+          },
+          {
+            "id": "s90_9",
+            "text": "Vebitrel",
+            "variable": "s90_9",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              446
+            ]
+          },
+          {
+            "id": "s90_98",
+            "text": "Other",
+            "variable": "s90_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              410,
+              450
+            ]
+          },
+          {
+            "id": "s90_other",
+            "text": "Other text",
+            "variable": "s90g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              450,
+              451
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          410,
+          414,
+          418,
+          422,
+          426,
+          430,
+          434,
+          438,
+          442,
+          446,
+          450
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "S100",
+        "text": "Conflicts and ethics",
+        "section": "Screener",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "s100_1",
+            "text": "Industry/media association",
+            "variable": "s100_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              456,
+              461
+            ]
+          },
+          {
+            "id": "s100_2",
+            "text": "Industry compensation",
+            "variable": "s100_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              456,
+              466
+            ]
+          },
+          {
+            "id": "s100_3",
+            "text": "Employer ethics conflict",
+            "variable": "s100_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              456,
+              471
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          456,
+          461,
+          466,
+          471
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q10",
+        "text": "Insurance coverage",
+        "section": "Current treatment",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q10_1",
+            "text": "Medicare",
+            "variable": "q10_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              484,
+              488
+            ]
+          },
+          {
+            "id": "q10_2",
+            "text": "Medicaid",
+            "variable": "q10_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              484,
+              492
+            ]
+          },
+          {
+            "id": "q10_3",
+            "text": "Commercial",
+            "variable": "q10_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              484,
+              496
+            ]
+          },
+          {
+            "id": "q10_4",
+            "text": "Uninsured",
+            "variable": "q10_4",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              484,
+              500
+            ]
+          },
+          {
+            "id": "q10_98",
+            "text": "Other percent",
+            "variable": "q10_98",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              484,
+              504
+            ]
+          },
+          {
+            "id": "q10_other",
+            "text": "Other text",
+            "variable": "q10g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              504,
+              505
+            ]
+          },
+          {
+            "id": "q10dk_99",
+            "text": "Do not know",
+            "variable": "q10dk_99",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              510,
+              512
+            ]
+          }
+        ],
+        "routing": "US HCPs",
+        "source_blocks": [
+          484,
+          488,
+          492,
+          496,
+          500,
+          504,
+          510
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q20",
+        "text": "Diagnosis source",
+        "section": "Current treatment",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q20_1",
+            "text": "Personally diagnosed",
+            "variable": "q20_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              513,
+              516
+            ]
+          },
+          {
+            "id": "q20_2",
+            "text": "Diagnosed by someone else",
+            "variable": "q20_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              513,
+              520
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          513,
+          516,
+          520
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q30",
+        "text": "SCN1A mutation",
+        "section": "Current treatment",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "q30_1",
+            "text": "Confirmed mutation",
+            "variable": "q30_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              527,
+              529
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          527,
+          529
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q40",
+        "text": "Diagnosis factors",
+        "section": "Current treatment",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "q40_1",
+            "text": "Clinical history",
+            "variable": "q40_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              533,
+              536
+            ]
+          },
+          {
+            "id": "q40_2",
+            "text": "Developmental features",
+            "variable": "q40_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              533,
+              540
+            ]
+          },
+          {
+            "id": "q40_3",
+            "text": "Genetic testing",
+            "variable": "q40_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              533,
+              544
+            ]
+          },
+          {
+            "id": "q40_4",
+            "text": "EEG/supportive testing",
+            "variable": "q40_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              533,
+              548
+            ]
+          },
+          {
+            "id": "q40_98",
+            "text": "Other",
+            "variable": "q40_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              533,
+              552
+            ]
+          },
+          {
+            "id": "q40_other",
+            "text": "Other text",
+            "variable": "q40g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              552,
+              553
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          533,
+          536,
+          540,
+          544,
+          548,
+          552
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q50",
+        "text": "Prevalence perception",
+        "section": "Current treatment",
+        "kind": "single",
+        "items": [
+          {
+            "id": "q50_1",
+            "text": "Perception",
+            "variable": "q50_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              556,
+              557
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          556,
+          557
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q60",
+        "text": "Diagnosed prevalence",
+        "section": "Current treatment",
+        "kind": "text_numeric",
+        "items": [
+          {
+            "id": "q60x_1",
+            "text": "Prevalence",
+            "variable": "q60x_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              580,
+              582
+            ]
+          }
+        ],
+        "routing": "Q50 not equal 4",
+        "source_blocks": [
+          580,
+          582
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q70",
+        "text": "Future diagnosis rate",
+        "section": "Current treatment",
+        "kind": "single",
+        "items": [
+          {
+            "id": "q70",
+            "text": "Expected change",
+            "variable": "q70",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              583,
+              586,
+              590,
+              594,
+              598
+            ]
+          },
+          {
+            "id": "q70_98_other",
+            "text": "Other text",
+            "variable": "q70g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              598,
+              599
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          583,
+          586,
+          590,
+          594,
+          598
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q80",
+        "text": "Decrease rationale",
+        "section": "Current treatment",
+        "kind": "text",
+        "items": [
+          {
+            "id": "q80",
+            "text": "Rationale",
+            "variable": "q80",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "question-specific condition",
+            "constraints": [
+              "text required only when source routing condition is true"
+            ],
+            "source_blocks": [
+              602,
+              603
+            ]
+          }
+        ],
+        "routing": "Q70=1",
+        "source_blocks": [
+          602,
+          603
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q90",
+        "text": "Increase percentage",
+        "section": "Current treatment",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "q90_1",
+            "text": "Increase",
+            "variable": "q90_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": "question-specific condition",
+            "constraints": [
+              "required only when source routing condition is true"
+            ],
+            "source_blocks": [
+              604,
+              605
+            ]
+          }
+        ],
+        "routing": "Q70=3",
+        "source_blocks": [
+          604,
+          605
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q100",
+        "text": "Pharmacologic treatment",
+        "section": "Current treatment",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q100_1",
+            "text": "Never treated",
+            "variable": "q100_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              606,
+              609
+            ]
+          },
+          {
+            "id": "q100_2",
+            "text": "One medication",
+            "variable": "q100_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              606,
+              613
+            ]
+          },
+          {
+            "id": "q100_3",
+            "text": "Two or more medications",
+            "variable": "q100_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              606,
+              617
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          606,
+          609,
+          613,
+          617
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q110",
+        "text": "Second-line age distribution",
+        "section": "Current treatment",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q110_1",
+            "text": "Under 2",
+            "variable": "q110_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              624,
+              626
+            ]
+          },
+          {
+            "id": "q110_2",
+            "text": "2 to under 4",
+            "variable": "q110_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              624,
+              630
+            ]
+          },
+          {
+            "id": "q110_3",
+            "text": "4 to under 12",
+            "variable": "q110_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              624,
+              634
+            ]
+          },
+          {
+            "id": "q110_4",
+            "text": "12 to under 18",
+            "variable": "q110_4",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              624,
+              638
+            ]
+          },
+          {
+            "id": "q110_5",
+            "text": "18 plus",
+            "variable": "q110_5",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "percentage; group total must equal 100 where explicitly stated"
+            ],
+            "source_blocks": [
+              624,
+              642
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          624,
+          626,
+          630,
+          634,
+          638,
+          642
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q120",
+        "text": "Medications by age",
+        "section": "Current treatment",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q120_items",
+            "text": "Medication-age response set",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              649,
+              650,
+              660,
+              668,
+              676,
+              684,
+              692,
+              700,
+              708,
+              716,
+              724
+            ]
+          }
+        ],
+        "routing": "Q110 age rows greater than zero",
+        "source_blocks": [
+          649,
+          650,
+          660,
+          668,
+          676,
+          684,
+          692,
+          700,
+          708,
+          716,
+          724
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q130",
+        "text": "Medication count by age",
+        "section": "Current treatment",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q130_items",
+            "text": "Medication count-age response set",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              739,
+              740,
+              750,
+              758,
+              766
+            ]
+          }
+        ],
+        "routing": "Q110 age rows greater than zero",
+        "source_blocks": [
+          739,
+          740,
+          750,
+          758,
+          766
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q140",
+        "text": "Seizure control metrics",
+        "section": "Current treatment",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "q140_1",
+            "text": "Percentage seizure reduction",
+            "variable": "q140_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              783
+            ]
+          },
+          {
+            "id": "q140_2",
+            "text": "Absolute seizure reduction",
+            "variable": "q140_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              787
+            ]
+          },
+          {
+            "id": "q140_3",
+            "text": "Percentage status reduction",
+            "variable": "q140_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              791
+            ]
+          },
+          {
+            "id": "q140_4",
+            "text": "Absolute status reduction",
+            "variable": "q140_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              795
+            ]
+          },
+          {
+            "id": "q140_5",
+            "text": "Percentage convulsive reduction",
+            "variable": "q140_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              799
+            ]
+          },
+          {
+            "id": "q140_6",
+            "text": "Absolute convulsive reduction",
+            "variable": "q140_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              803
+            ]
+          },
+          {
+            "id": "q140_7",
+            "text": "Medication reduction",
+            "variable": "q140_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              807
+            ]
+          },
+          {
+            "id": "q140_98",
+            "text": "Other",
+            "variable": "q140_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              780,
+              811
+            ]
+          },
+          {
+            "id": "q140_other",
+            "text": "Other text",
+            "variable": "q140g_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              811,
+              812
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          780,
+          783,
+          787,
+          791,
+          795,
+          799,
+          803,
+          807,
+          811
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q150",
+        "text": "Good control threshold",
+        "section": "Current treatment",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "q150_1",
+            "text": "Reduction threshold",
+            "variable": "q150_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              815,
+              816
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          815,
+          816
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q160",
+        "text": "Not controlled",
+        "section": "Current treatment",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "q160_1",
+            "text": "Not achieving control",
+            "variable": "q160_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              817,
+              818
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          817,
+          818
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q170",
+        "text": "Gene therapy consideration",
+        "section": "Current treatment",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "q170_1",
+            "text": "Considered percentage",
+            "variable": "q170_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              819,
+              820
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          819,
+          820
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q180",
+        "text": "Product X initial thoughts",
+        "section": "Product X",
+        "kind": "text",
+        "items": [
+          {
+            "id": "q180",
+            "text": "Initial thoughts",
+            "variable": "q180",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              826,
+              827
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          826,
+          827
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q190",
+        "text": "Product X advantages",
+        "section": "Product X",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "q190_items",
+            "text": "Advantage set",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              828,
+              833,
+              837,
+              841,
+              845,
+              849,
+              853,
+              857,
+              861,
+              865,
+              869
+            ]
+          }
+        ],
+        "routing": "Up to 3; exclusive 99",
+        "source_blocks": [
+          828,
+          833,
+          837,
+          841,
+          845,
+          849,
+          853,
+          857,
+          861,
+          865,
+          869
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q200",
+        "text": "Product X disadvantages",
+        "section": "Product X",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "q200_items",
+            "text": "Disadvantage set",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              873,
+              878,
+              882,
+              886,
+              890,
+              894,
+              898,
+              902,
+              906,
+              910,
+              914
+            ]
+          }
+        ],
+        "routing": "Up to 3; unavailable if selected in Q190",
+        "source_blocks": [
+          873,
+          878,
+          882,
+          886,
+          890,
+          894,
+          898,
+          902,
+          906,
+          910,
+          914
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q210",
+        "text": "Product X trial criterion",
+        "section": "Product X",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q210_items",
+            "text": "Age criterion percentages",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": "question-specific condition",
+            "constraints": [
+              "required only when source routing condition is true"
+            ],
+            "source_blocks": [
+              918,
+              921,
+              932
+            ]
+          }
+        ],
+        "routing": "Q110 age rows greater than zero",
+        "source_blocks": [
+          918,
+          921,
+          932
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q220",
+        "text": "Product X likelihood",
+        "section": "Product X",
+        "kind": "single",
+        "items": [
+          {
+            "id": "q220_1",
+            "text": "Likelihood",
+            "variable": "q220_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              939,
+              940
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          939,
+          940
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q230",
+        "text": "Product Y initial thoughts",
+        "section": "Product Y",
+        "kind": "text",
+        "items": [
+          {
+            "id": "q230",
+            "text": "Initial thoughts",
+            "variable": "q230",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              983,
+              984
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          983,
+          984
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q240",
+        "text": "Product Y advantages",
+        "section": "Product Y",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "q240_items",
+            "text": "Advantage set",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              985,
+              990,
+              994,
+              998,
+              1002,
+              1006,
+              1010,
+              1014,
+              1018,
+              1022,
+              1026,
+              1030,
+              1034,
+              1038,
+              1042
+            ]
+          }
+        ],
+        "routing": "Up to 3; exclusive 13",
+        "source_blocks": [
+          985,
+          990,
+          994,
+          998,
+          1002,
+          1006,
+          1010,
+          1014,
+          1018,
+          1022,
+          1026,
+          1030,
+          1034,
+          1038,
+          1042
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q250",
+        "text": "Product Y disadvantages",
+        "section": "Product Y",
+        "kind": "multi",
+        "items": [
+          {
+            "id": "q250_items",
+            "text": "Disadvantage set",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response item"
+            ],
+            "source_blocks": [
+              1046,
+              1051,
+              1055,
+              1059,
+              1063,
+              1067,
+              1071,
+              1075,
+              1079,
+              1083,
+              1087,
+              1091,
+              1095,
+              1099,
+              1103
+            ]
+          }
+        ],
+        "routing": "Up to 3; exclusive 13",
+        "source_blocks": [
+          1046,
+          1051,
+          1055,
+          1059,
+          1063,
+          1067,
+          1071,
+          1075,
+          1079,
+          1083,
+          1087,
+          1091,
+          1095,
+          1099,
+          1103
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q260",
+        "text": "Product Y setting",
+        "section": "Product Y",
+        "kind": "single",
+        "items": [
+          {
+            "id": "q260",
+            "text": "Inpatient/outpatient",
+            "variable": "q260",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1107,
+              1110,
+              1114,
+              1118,
+              1122
+            ]
+          },
+          {
+            "id": "q260_other",
+            "text": "Other text",
+            "variable": "q260_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              1122,
+              1123
+            ]
+          }
+        ],
+        "routing": "US HCPs",
+        "source_blocks": [
+          1107,
+          1110,
+          1114,
+          1118,
+          1122
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q270",
+        "text": "Product Y likelihood",
+        "section": "Product Y",
+        "kind": "single",
+        "items": [
+          {
+            "id": "q270_1",
+            "text": "Likelihood",
+            "variable": "q270_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1126,
+              1127
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          1126,
+          1127
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q280",
+        "text": "Age of declining willingness",
+        "section": "Product Y",
+        "kind": "numeric",
+        "items": [
+          {
+            "id": "q280_1",
+            "text": "Age",
+            "variable": "q280_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              1165,
+              1166
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          1165,
+          1166
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q290",
+        "text": "Product Y trial criterion",
+        "section": "Product Y",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q290_items",
+            "text": "Age criterion percentages",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": "question-specific condition",
+            "constraints": [
+              "required only when source routing condition is true"
+            ],
+            "source_blocks": [
+              1167,
+              1170,
+              1181
+            ]
+          }
+        ],
+        "routing": "Q110 age rows greater than zero",
+        "source_blocks": [
+          1167,
+          1170,
+          1181
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q300",
+        "text": "Coverage restriction motivation",
+        "section": "Product Y",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q300_1",
+            "text": "FDA label",
+            "variable": "q300_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1188,
+              1202
+            ]
+          },
+          {
+            "id": "q300_2",
+            "text": "Trial criteria no seizure threshold",
+            "variable": "q300_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1188,
+              1210
+            ]
+          },
+          {
+            "id": "q300_3",
+            "text": "Trial criteria no threshold",
+            "variable": "q300_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1188,
+              1218
+            ]
+          },
+          {
+            "id": "q300_4",
+            "text": "Trial criteria threshold",
+            "variable": "q300_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1188,
+              1226
+            ]
+          },
+          {
+            "id": "q300_5",
+            "text": "Medical exception",
+            "variable": "q300_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1188,
+              1234
+            ]
+          }
+        ],
+        "routing": "US HCPs",
+        "source_blocks": [
+          1188,
+          1202,
+          1210,
+          1218,
+          1226,
+          1234
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q310",
+        "text": "Product X future utilization",
+        "section": "Future utilization",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q310_items",
+            "text": "Age-by-treatment allocation",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              1244,
+              1247,
+              1258,
+              1266,
+              1274
+            ]
+          }
+        ],
+        "routing": "Q110 age rows greater than zero",
+        "source_blocks": [
+          1244,
+          1247,
+          1258,
+          1266,
+          1274
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q320",
+        "text": "Switch to Product Y",
+        "section": "Future utilization",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q320_items",
+            "text": "Switch percentages",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              1289,
+              1291,
+              1313
+            ]
+          }
+        ],
+        "routing": "Subset of Q310 Product X allocation",
+        "source_blocks": [
+          1289,
+          1291,
+          1313
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q330",
+        "text": "Product X and Y utilization",
+        "section": "Future utilization",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q330_items",
+            "text": "Age-by-treatment allocation",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              1321,
+              1326,
+              1337,
+              1345,
+              1353,
+              1361
+            ]
+          }
+        ],
+        "routing": "Incident patients; Q110 age rows greater than zero",
+        "source_blocks": [
+          1321,
+          1326,
+          1337,
+          1345,
+          1353,
+          1361
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q340_Q420",
+        "text": "Alternative Product Y profiles",
+        "section": "Alternative profiles",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q340_1",
+            "text": "Variation 1 likelihood",
+            "variable": "q340_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1380,
+              1382
+            ]
+          },
+          {
+            "id": "q370_1",
+            "text": "Variation 2 likelihood",
+            "variable": "q370_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1544,
+              1546
+            ]
+          },
+          {
+            "id": "q400_1",
+            "text": "Variation 3 likelihood",
+            "variable": "q400_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1707,
+              1709
+            ]
+          },
+          {
+            "id": "q350_q420_items",
+            "text": "Variation switch and allocation grids",
+            "variable": null,
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "numeric percentage or bounded estimate"
+            ],
+            "source_blocks": [
+              1420,
+              1422,
+              1444,
+              1453,
+              1459,
+              1479,
+              1486,
+              1495,
+              1511,
+              1527,
+              1544,
+              1584,
+              1586,
+              1608,
+              1616,
+              1622,
+              1642,
+              1649,
+              1658,
+              1674,
+              1707,
+              1747,
+              1749,
+              1771,
+              1779,
+              1785,
+              1805,
+              1812,
+              1821,
+              1837,
+              1853
+            ]
+          }
+        ],
+        "routing": "Age and profile-specific",
+        "source_blocks": [
+          1380,
+          1420,
+          1453,
+          1544,
+          1584,
+          1616,
+          1707,
+          1747,
+          1779
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q430",
+        "text": "ICV capability",
+        "section": "Additional questions",
+        "kind": "single",
+        "items": [
+          {
+            "id": "q430",
+            "text": "Institution capability",
+            "variable": "q430",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1867,
+              1870,
+              1874,
+              1878,
+              1882
+            ]
+          },
+          {
+            "id": "q430_other",
+            "text": "Other text",
+            "variable": "q430_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              1882,
+              1883
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          1867,
+          1870,
+          1874,
+          1878,
+          1882
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q440_Q450",
+        "text": "Implementation and receptiveness",
+        "section": "Additional questions",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "q440_1",
+            "text": "Implementation months",
+            "variable": "q440_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 60.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "whole-number months"
+            ],
+            "source_blocks": [
+              1886,
+              1887
+            ]
+          },
+          {
+            "id": "q450_1",
+            "text": "Institution receptiveness",
+            "variable": "q450_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "13",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "categorical response; source-specific eligibility may be narrower"
+            ],
+            "source_blocks": [
+              1888,
+              1889
+            ]
+          }
+        ],
+        "routing": "Q430=1",
+        "source_blocks": [
+          1886,
+          1888
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "Q460_Q480",
+        "text": "Challenges, launch timing, comments",
+        "section": "Conclusion",
+        "kind": "mixed",
+        "items": [
+          {
+            "id": "q460",
+            "text": "Implementation challenges",
+            "variable": "q460",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              1908,
+              1909
+            ]
+          },
+          {
+            "id": "q470_1",
+            "text": "Months to Product X",
+            "variable": "q470_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 60.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "whole-number months"
+            ],
+            "source_blocks": [
+              1910,
+              1911
+            ]
+          },
+          {
+            "id": "q470_2",
+            "text": "Months to Product Y",
+            "variable": "q470_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 60.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "whole-number months"
+            ],
+            "source_blocks": [
+              1910,
+              1912
+            ]
+          },
+          {
+            "id": "q480",
+            "text": "Final comments",
+            "variable": "q480",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "nonblank string response"
+            ],
+            "source_blocks": [
+              1914
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          1908,
+          1910,
+          1914
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "HIDTYPE",
+        "text": "Interview type",
+        "section": "Dataset checks",
+        "kind": "dictionary",
+        "items": [
+          {
+            "id": "hidtype",
+            "text": "Interview type",
+            "variable": "hidtype",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "dataset-dictionary schema/code check only"
+            ],
+            "source_blocks": []
+          }
+        ],
+        "routing": null,
+        "source_blocks": [],
+        "source_kind": "dataset_dictionary"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "B_CONSENT",
+        "question_ids": [
+          "CONSENT"
+        ],
+        "source_variables": [
+          "consent",
+          "tt_it",
+          "tt_fr",
+          "tt_de",
+          "tt_usuk",
+          "ae_it",
+          "ae_es",
+          "sit",
+          "pt10",
+          "pt20"
+        ],
+        "checks": [
+          "requiredness and supplied categorical bounds"
+        ],
+        "provenance": [
+          "document:117-232",
+          "shared_defaults:ordinary_questions_required"
+        ]
+      },
+      {
+        "id": "B_S10",
+        "question_ids": [
+          "S10"
+        ],
+        "source_variables": [
+          "s10",
+          "s10g_98_other"
+        ],
+        "checks": [
+          "specialty response and other text"
+        ],
+        "provenance": [
+          "document:234-276"
+        ]
+      },
+      {
+        "id": "B_S20_S30",
+        "question_ids": [
+          "S20",
+          "S30"
+        ],
+        "source_variables": [
+          "s20",
+          "s30"
+        ],
+        "checks": [
+          "categorical response bounds"
+        ],
+        "provenance": [
+          "document:278-305"
+        ]
+      },
+      {
+        "id": "B_S40",
+        "question_ids": [
+          "S40"
+        ],
+        "source_variables": [
+          "s40_1"
+        ],
+        "checks": [
+          "3-35 years"
+        ],
+        "provenance": [
+          "document:306-307"
+        ]
+      },
+      {
+        "id": "B_S50_S60",
+        "question_ids": [
+          "S50",
+          "S60"
+        ],
+        "source_variables": [
+          "s50",
+          "s60"
+        ],
+        "checks": [
+          "country/state response bounds"
+        ],
+        "provenance": [
+          "document:308-342"
+        ]
+      },
+      {
+        "id": "B_S70",
+        "question_ids": [
+          "S70"
+        ],
+        "source_variables": [
+          "s70_1",
+          "s70_2",
+          "s70_3",
+          "s70_98",
+          "s70g_98_other"
+        ],
+        "checks": [
+          "0-100 and sum 100"
+        ],
+        "provenance": [
+          "document:343-364"
+        ]
+      },
+      {
+        "id": "B_S80",
+        "question_ids": [
+          "S80"
+        ],
+        "source_variables": [
+          "s80_1",
+          "s80_2",
+          "s80_3",
+          "s80_4"
+        ],
+        "checks": [
+          "0-100 patient counts"
+        ],
+        "provenance": [
+          "document:366-385"
+        ]
+      },
+      {
+        "id": "B_S85",
+        "question_ids": [
+          "S85"
+        ],
+        "source_variables": [
+          "s85_1",
+          "s85_2",
+          "s85_3",
+          "s85_4",
+          "s85_5"
+        ],
+        "checks": [
+          "dictionary schema/range"
+        ],
+        "provenance": [
+          "dataset_dictionary"
+        ]
+      },
+      {
+        "id": "B_S90",
+        "question_ids": [
+          "S90"
+        ],
+        "source_variables": [
+          "s90_1",
+          "s90_2",
+          "s90_3",
+          "s90_4",
+          "s90_5",
+          "s90_6",
+          "s90_7",
+          "s90_8",
+          "s90_9",
+          "s90_98",
+          "s90g_98_other"
+        ],
+        "checks": [
+          "binary multi-response and other text"
+        ],
+        "provenance": [
+          "document:410-455"
+        ]
+      },
+      {
+        "id": "B_S100",
+        "question_ids": [
+          "S100"
+        ],
+        "source_variables": [
+          "s100_1",
+          "s100_2",
+          "s100_3"
+        ],
+        "checks": [
+          "yes/no responses"
+        ],
+        "provenance": [
+          "document:456-471"
+        ]
+      },
+      {
+        "id": "B_Q10",
+        "question_ids": [
+          "Q10"
+        ],
+        "source_variables": [
+          "q10_1",
+          "q10_2",
+          "q10_3",
+          "q10_4",
+          "q10_98",
+          "q10dk_99",
+          "q10g_98_other"
+        ],
+        "checks": [
+          "percentages and sum 100"
+        ],
+        "provenance": [
+          "document:484-512"
+        ]
+      },
+      {
+        "id": "B_Q20_Q30",
+        "question_ids": [
+          "Q20",
+          "Q30"
+        ],
+        "source_variables": [
+          "q20_1",
+          "q20_2",
+          "q30_1"
+        ],
+        "checks": [
+          "percentages and sum 100"
+        ],
+        "provenance": [
+          "document:513-532"
+        ]
+      },
+      {
+        "id": "B_Q40",
+        "question_ids": [
+          "Q40"
+        ],
+        "source_variables": [
+          "q40_1",
+          "q40_2",
+          "q40_3",
+          "q40_4",
+          "q40_98",
+          "q40g_98_other"
+        ],
+        "checks": [
+          "multi-response and other text"
+        ],
+        "provenance": [
+          "document:533-555"
+        ]
+      },
+      {
+        "id": "B_Q50_Q60",
+        "question_ids": [
+          "Q50",
+          "Q60"
+        ],
+        "source_variables": [
+          "q50_1",
+          "q60x_1"
+        ],
+        "checks": [
+          "Q50 scale; Q60 dictionary type"
+        ],
+        "provenance": [
+          "document:556-582",
+          "dataset_dictionary:q60x_1"
+        ]
+      },
+      {
+        "id": "B_Q70_Q90",
+        "question_ids": [
+          "Q70",
+          "Q80",
+          "Q90"
+        ],
+        "source_variables": [
+          "q70",
+          "q70g_98_other",
+          "q80",
+          "q90_1"
+        ],
+        "checks": [
+          "categorical, routed text, routed percentage"
+        ],
+        "provenance": [
+          "document:583-605"
+        ]
+      },
+      {
+        "id": "B_Q100_Q110",
+        "question_ids": [
+          "Q100",
+          "Q110"
+        ],
+        "source_variables": [
+          "q100_1",
+          "q100_2",
+          "q100_3",
+          "q110_1",
+          "q110_2",
+          "q110_3",
+          "q110_4",
+          "q110_5"
+        ],
+        "checks": [
+          "percentage grids and sums"
+        ],
+        "provenance": [
+          "document:606-648"
+        ]
+      },
+      {
+        "id": "B_Q120",
+        "question_ids": [
+          "Q120"
+        ],
+        "source_variables": [
+          "q120x1_1",
+          "q120x1_2",
+          "q120x1_3",
+          "q120x1_4",
+          "q120x1_5",
+          "q120x1_6",
+          "q120x1_7",
+          "q120x1_99",
+          "q120x1_98",
+          "q120x2_1",
+          "q120x2_2",
+          "q120x2_3",
+          "q120x2_4",
+          "q120x2_5",
+          "q120x2_6",
+          "q120x2_7",
+          "q120x2_99",
+          "q120x2_98",
+          "q120x3_1",
+          "q120x3_2",
+          "q120x3_3",
+          "q120x3_4",
+          "q120x3_5",
+          "q120x3_6",
+          "q120x3_7",
+          "q120x3_99",
+          "q120x3_98",
+          "q120x4_1",
+          "q120x4_2",
+          "q120x4_3",
+          "q120x4_4",
+          "q120x4_5",
+          "q120x4_6",
+          "q120x4_7",
+          "q120x4_99",
+          "q120x4_98",
+          "q120x5_1",
+          "q120x5_2",
+          "q120x5_3",
+          "q120x5_4",
+          "q120x5_5",
+          "q120x5_6",
+          "q120x5_7",
+          "q120x5_99",
+          "q120x5_98",
+          "q120g_99_other"
+        ],
+        "checks": [
+          "age-routed percentage grid"
+        ],
+        "provenance": [
+          "document:649-738"
+        ]
+      },
+      {
+        "id": "B_Q130",
+        "question_ids": [
+          "Q130"
+        ],
+        "source_variables": [
+          "q130x1_1",
+          "q130x1_3",
+          "q130x1_4",
+          "q130x2_1",
+          "q130x2_3",
+          "q130x2_4",
+          "q130x3_1",
+          "q130x3_3",
+          "q130x3_4",
+          "q130x4_1",
+          "q130x4_3",
+          "q130x4_4",
+          "q130x5_1",
+          "q130x5_3",
+          "q130x5_4"
+        ],
+        "checks": [
+          "age-routed sum-to-100 grids"
+        ],
+        "provenance": [
+          "document:739-779"
+        ]
+      },
+      {
+        "id": "B_Q140_Q170",
+        "question_ids": [
+          "Q140",
+          "Q150",
+          "Q160",
+          "Q170"
+        ],
+        "source_variables": [
+          "q140_1",
+          "q140_2",
+          "q140_3",
+          "q140_4",
+          "q140_5",
+          "q140_6",
+          "q140_7",
+          "q140_98",
+          "q140g_98_other",
+          "q150_1",
+          "q160_1",
+          "q170_1"
+        ],
+        "checks": [
+          "multi-response and percentage bounds"
+        ],
+        "provenance": [
+          "document:780-820"
+        ]
+      },
+      {
+        "id": "B_Q180",
+        "question_ids": [
+          "Q180"
+        ],
+        "source_variables": [
+          "q180"
+        ],
+        "checks": [
+          "required text"
+        ],
+        "provenance": [
+          "document:826-827"
+        ]
+      },
+      {
+        "id": "B_Q190_Q200",
+        "question_ids": [
+          "Q190",
+          "Q200"
+        ],
+        "source_variables": [
+          "q190_1",
+          "q190_2",
+          "q190_3",
+          "q190_4",
+          "q190_5",
+          "q190_6",
+          "q190_7",
+          "q190_8",
+          "q190_99",
+          "q190_98",
+          "q190g_98_other",
+          "q200_1",
+          "q200_2",
+          "q200_3",
+          "q200_4",
+          "q200_5",
+          "q200_6",
+          "q200_7",
+          "q200_8",
+          "q200_99",
+          "q200_98",
+          "q200g_98_other"
+        ],
+        "checks": [
+          "multi-response binary coding"
+        ],
+        "provenance": [
+          "document:828-917"
+        ]
+      },
+      {
+        "id": "B_Q210_Q220",
+        "question_ids": [
+          "Q210",
+          "Q220"
+        ],
+        "source_variables": [
+          "q210x1_1",
+          "q210x2_1",
+          "q210x3_1",
+          "q210x4_1",
+          "q210x5_1",
+          "q220_1"
+        ],
+        "checks": [
+          "percentage and likelihood bounds"
+        ],
+        "provenance": [
+          "document:918-977"
+        ]
+      },
+      {
+        "id": "B_Q230",
+        "question_ids": [
+          "Q230"
+        ],
+        "source_variables": [
+          "q230"
+        ],
+        "checks": [
+          "required text"
+        ],
+        "provenance": [
+          "document:983-984"
+        ]
+      },
+      {
+        "id": "B_Q240_Q250",
+        "question_ids": [
+          "Q240",
+          "Q250"
+        ],
+        "source_variables": [
+          "q240_1",
+          "q240_2",
+          "q240_3",
+          "q240_4",
+          "q240_5",
+          "q240_6",
+          "q240_7",
+          "q240_8",
+          "q240_9",
+          "q240_10",
+          "q240_11",
+          "q240_12",
+          "q240_13",
+          "q240_98",
+          "q240g_98_other",
+          "q250_1",
+          "q250_2",
+          "q250_3",
+          "q250_4",
+          "q250_5",
+          "q250_6",
+          "q250_7",
+          "q250_8",
+          "q250_9",
+          "q250_10",
+          "q250_11",
+          "q250_12",
+          "q250_13",
+          "q250_98",
+          "q250g_98_other"
+        ],
+        "checks": [
+          "multi-response binary coding"
+        ],
+        "provenance": [
+          "document:985-1106"
+        ]
+      },
+      {
+        "id": "B_Q260_Q280",
+        "question_ids": [
+          "Q260",
+          "Q270",
+          "Q280"
+        ],
+        "source_variables": [
+          "q260",
+          "q260_98_other",
+          "q270_1",
+          "q280_1"
+        ],
+        "checks": [
+          "categorical, other text, likelihood and age bounds"
+        ],
+        "provenance": [
+          "document:1107-1166"
+        ]
+      },
+      {
+        "id": "B_Q290_Q300",
+        "question_ids": [
+          "Q290",
+          "Q300"
+        ],
+        "source_variables": [
+          "q290x1_1",
+          "q290x2_1",
+          "q290x3_1",
+          "q290x4_1",
+          "q290x5_1",
+          "q300_1",
+          "q300_2",
+          "q300_3",
+          "q300_4",
+          "q300_5"
+        ],
+        "checks": [
+          "percentage and supplied SAV scale"
+        ],
+        "provenance": [
+          "document:1167-1241"
+        ]
+      },
+      {
+        "id": "B_Q310_Q330",
+        "question_ids": [
+          "Q310",
+          "Q320",
+          "Q330"
+        ],
+        "source_variables": [
+          "q310x1_1",
+          "q310x1_2",
+          "q310x1_98",
+          "q310x2_1",
+          "q310x2_2",
+          "q310x2_98",
+          "q310x3_1",
+          "q310x3_2",
+          "q310x3_98",
+          "q310x4_1",
+          "q310x4_2",
+          "q310x4_98",
+          "q310x5_1",
+          "q310x5_2",
+          "q310x5_98",
+          "q310g_98_other",
+          "q320x1_1",
+          "q320x2_1",
+          "q320x3_1",
+          "q320x4_1",
+          "q320x5_1",
+          "q330x1_1",
+          "q330x1_2",
+          "q330x1_3",
+          "q330x1_98",
+          "q330x2_1",
+          "q330x2_2",
+          "q330x2_3",
+          "q330x2_98",
+          "q330x3_1",
+          "q330x3_2",
+          "q330x3_3",
+          "q330x3_98",
+          "q330x4_1",
+          "q330x4_2",
+          "q330x4_3",
+          "q330x4_98",
+          "q330x5_1",
+          "q330x5_2",
+          "q330x5_3",
+          "q330x5_98",
+          "q330g_98_other"
+        ],
+        "checks": [
+          "routed allocation grids"
+        ],
+        "provenance": [
+          "document:1244-1374"
+        ]
+      },
+      {
+        "id": "B_Q340_Q420",
+        "question_ids": [
+          "Q340_Q420"
+        ],
+        "source_variables": [
+          "q340_1",
+          "q350x1_1",
+          "q350x2_1",
+          "q350x3_1",
+          "q350x4_1",
+          "q350x5_1",
+          "q360x1_1",
+          "q360x1_2",
+          "q360x1_3",
+          "q360x1_98",
+          "q370_1",
+          "q380x1_1",
+          "q380x2_1",
+          "q380x3_1",
+          "q380x4_1",
+          "q380x5_1",
+          "q390x1_1",
+          "q390x1_2",
+          "q390x1_3",
+          "q390x1_98",
+          "q400_1",
+          "q410x1_1",
+          "q410x2_1",
+          "q410x3_1",
+          "q410x4_1",
+          "q410x5_1",
+          "q420x1_1",
+          "q420x1_2",
+          "q420x1_3",
+          "q420x1_98"
+        ],
+        "checks": [
+          "alternative-profile likelihood and allocation grids"
+        ],
+        "provenance": [
+          "document:1377-1865"
+        ]
+      },
+      {
+        "id": "B_Q430_Q450",
+        "question_ids": [
+          "Q430",
+          "Q440_Q450"
+        ],
+        "source_variables": [
+          "q430",
+          "q430_98_other",
+          "q440_1",
+          "q450_1"
+        ],
+        "checks": [
+          "capability, routed months, receptiveness"
+        ],
+        "provenance": [
+          "document:1867-1907"
+        ]
+      },
+      {
+        "id": "B_Q460_Q480",
+        "question_ids": [
+          "Q460_Q480"
+        ],
+        "source_variables": [
+          "q460",
+          "q470_1",
+          "q470_2",
+          "q480"
+        ],
+        "checks": [
+          "text and 0-60 months"
+        ],
+        "provenance": [
+          "document:1908-1914"
+        ]
+      },
+      {
+        "id": "B_HIDTYPE",
+        "question_ids": [
+          "HIDTYPE"
+        ],
+        "source_variables": [
+          "hidtype"
+        ],
+        "checks": [
+          "dictionary codes 1-2"
+        ],
+        "provenance": [
+          "dataset_dictionary"
+        ]
+      }
+    ],
+    "excluded_variables": [
+      {
+        "variable": "respid",
+        "reason": "Administrative positive check inserted by application."
+      },
+      {
+        "variable": "user_id",
+        "reason": "Administrative nonblank check inserted by application."
+      },
+      {
+        "variable": "interview_start",
+        "reason": "Administrative nonmissing check inserted by application."
+      },
+      {
+        "variable": "interview_end",
+        "reason": "Administrative nonmissing check inserted by application."
+      },
+      {
+        "variable": "screenstatus",
+        "reason": "Administrative completion check inserted by application."
+      },
+      {
+        "variable": "scrstatus",
+        "reason": "Administrative completion check inserted by application."
+      },
+      {
+        "variable": "hidchange",
+        "reason": "Administrative range check inserted by application."
+      },
+      {
+        "variable": "surveyloi",
+        "reason": "Administrative positive check inserted by application."
+      },
+      {
+        "variable": "hiddvbatch",
+        "reason": "Administrative equals-99 check inserted by application."
+      },
+      {
+        "variable": "hidoebatch",
+        "reason": "Administrative equals-99 check inserted by application."
+      }
+    ],
+    "warnings": [
+      "Manifest items for the large Q120-Q420 grids are represented as authoritative set-level items where the supplied extraction and dictionary provide extensive noncontiguous families; the exact SAV variables are preserved in the corresponding block source_variables and dataset dictionary mapping.",
+      "The source questionnaire contains contradictions and revisions: Q300 prose says 1-7 while SAV labels provide 1-5; the SAV scale takes precedence and the conflict is reported.",
+      "No test-case block was duplicated because test-case detection and administrative checks are inserted by the application.",
+      "The Q120 block source variable was normalized to q120g_99_other from the supplied dictionary spelling; the document label uses the same field concept."
+    ]
+  }
+}

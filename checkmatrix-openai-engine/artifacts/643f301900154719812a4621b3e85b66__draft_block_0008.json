@@ -1,0 +1,26 @@
+{
+  "block_id": "b08_ad_evaluation",
+  "source_variables": [
+    "q305",
+    "q310",
+    "q315",
+    "q320",
+    "q325_1",
+    "q325_2",
+    "q325_3",
+    "q325_4",
+    "q325_5",
+    "q325_11",
+    "q325_6",
+    "q325_7",
+    "q325_8",
+    "q325_9",
+    "q325_10"
+  ],
+  "temporary_variables": [
+    "flag"
+  ],
+  "spss": "tit Q305.\ntemporary.\nsel if q305=\"\".\nlist respid, q305.\ntit Q310.\ntemporary.\nsel if miss(q310) or ~range(q310,1,5).\nlist respid, q310.\ntit Q315.\ntemporary.\nsel if q315=\"\" and q310>=4.\nlist respid, q310 q315.\ntit Q320.\ntemporary.\nsel if q320=\"\" and q310<=2.\nlist respid, q310 q320.\ndo repeat x=q325_1 q325_2 q325_3 q325_4 q325_5 q325_11 q325_6 q325_7 q325_8 q325_9 q325_10.\ncompute flag=0.\nif miss(x) or ~range(x,1,3) flag=1.\nend repeat.\ntit Q325.\ntemporary.\nsel if flag=1.\nlist respid flag q325_1 q325_2 q325_3 q325_4 q325_5 q325_11 q325_6 q325_7 q325_8 q325_9 q325_10.\ndel var flag.",
+  "omission_reason": null,
+  "warnings": []
+}

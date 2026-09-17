@@ -1,0 +1,14 @@
+{
+  "block_id": "B_S70",
+  "source_variables": [
+    "s70_1",
+    "s70_2",
+    "s70_3",
+    "s70_98",
+    "s70g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S70.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=s70_1 s70_2 s70_3 s70_98.\n!String ask=s70_98 opr== value=0 myvars=s70g_98_other.\n!Sum_to_var svar=s70_1 evar=s70_98 qnt=S70 ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": []
+}

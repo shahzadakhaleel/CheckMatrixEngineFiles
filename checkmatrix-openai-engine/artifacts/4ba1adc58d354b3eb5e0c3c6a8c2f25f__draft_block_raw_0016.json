@@ -1,0 +1,17 @@
+{
+  "block_id": "B_Q100_Q110",
+  "source_variables": [
+    "q100_1",
+    "q100_2",
+    "q100_3",
+    "q110_1",
+    "q110_2",
+    "q110_3",
+    "q110_4",
+    "q110_5"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q100_1 opr=<> value=0 min=0 max=100 myvars=q100_1.\n!Numeric ask=q100_2 opr=<> value=0 min=0 max=100 myvars=q100_2.\n!Numeric ask=q100_3 opr=<> value=0 min=0 max=100 myvars=q100_3.\n!Sum_to_var svar=q100_1 evar=q100_3 qnt=Q100_SUM ctr=100 opr=<>.\n!Numeric ask=q110_1 opr=<> value=0 min=0 max=100 myvars=q110_1.\n!Numeric ask=q110_2 opr=<> value=0 min=0 max=100 myvars=q110_2.\n!Numeric ask=q110_3 opr=<> value=0 min=0 max=100 myvars=q110_3.\n!Numeric ask=q110_4 opr=<> value=0 min=0 max=100 myvars=q110_4.\n!Numeric ask=q110_5 opr=<> value=0 min=0 max=100 myvars=q110_5.\n!Sum_to_var svar=q110_1 evar=q110_5 qnt=Q110_SUM ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": []
+}

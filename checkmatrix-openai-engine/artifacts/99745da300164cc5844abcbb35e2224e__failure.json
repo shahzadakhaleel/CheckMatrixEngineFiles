@@ -1,0 +1,13 @@
+{
+  "run_id": "99745da300164cc5844abcbb35e2224e",
+  "created_at": "2026-09-16T09:51:33.138775+00:00",
+  "status": "failed",
+  "stage": "generation",
+  "reason": "1 validation error for SingleCallDraft Invalid JSON: EOF while parsing a string at line 1 column 102707 [type=json_invalid, input_value='{\"blocks\":[{\"block_id\":\"...:0,\"maximum\":100,\"other', input_type=str] For further information visit https://errors.pydantic.dev/2.13/v/json_invalid",
+  "input": {
+    "key": "99745da300164cc5844abcbb35e2224e__V9_R98676_CRA-Astellas_Dravet_Syndrome_HCP_Survey_v28May2026.docx",
+    "filename": "V9_R98676_CRA-Astellas_Dravet_Syndrome_HCP_Survey_v28May2026.docx",
+    "size": 267672,
+    "created_at": "2026-09-16T09:46:30.230695+00:00"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "block_id": "B_Q130",
+  "source_variables": [
+    "q130x1_1",
+    "q130x1_3",
+    "q130x1_4",
+    "q130x2_1",
+    "q130x2_3",
+    "q130x2_4",
+    "q130x3_1",
+    "q130x3_3",
+    "q130x3_4",
+    "q130x4_1",
+    "q130x4_3",
+    "q130x4_4",
+    "q130x5_1",
+    "q130x5_3",
+    "q130x5_4"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q130.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=q130x1_1 q130x1_3 q130x1_4 q130x2_1 q130x2_3 q130x2_4 q130x3_1 q130x3_3 q130x3_4 q130x4_1 q130x4_3 q130x4_4 q130x5_1 q130x5_3 q130x5_4.",
+  "omission_reason": null,
+  "warnings": [
+    "The five age-specific percentage rows require separate column totals and routing based on Q110; those dependencies are preserved in source_variables but not fully generated."
+  ]
+}

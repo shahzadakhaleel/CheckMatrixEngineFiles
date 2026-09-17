@@ -1,0 +1,896 @@
+[
+  {
+    "id": "ADMIN_RESPID",
+    "question_ids": [],
+    "source_variables": [
+      "respid"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:respid"
+    ]
+  },
+  {
+    "id": "ADMIN_USER_ID",
+    "question_ids": [],
+    "source_variables": [
+      "user_id"
+    ],
+    "checks": [
+      "Shared default: nonblank []"
+    ],
+    "provenance": [
+      "defaults:1:user_id"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_START",
+    "question_ids": [],
+    "source_variables": [
+      "interview_start"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_start"
+    ]
+  },
+  {
+    "id": "ADMIN_INTERVIEW_END",
+    "question_ids": [],
+    "source_variables": [
+      "interview_end"
+    ],
+    "checks": [
+      "Shared default: nonmissing []"
+    ],
+    "provenance": [
+      "defaults:1:interview_end"
+    ]
+  },
+  {
+    "id": "ADMIN_SCREENSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "screenstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:screenstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_SCRSTATUS",
+    "question_ids": [],
+    "source_variables": [
+      "scrstatus"
+    ],
+    "checks": [
+      "Shared default: equals [\"COMPLETE\"]"
+    ],
+    "provenance": [
+      "defaults:1:scrstatus"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDCHANGE",
+    "question_ids": [],
+    "source_variables": [
+      "hidchange"
+    ],
+    "checks": [
+      "Shared default: range [\"0\", \"10\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidchange"
+    ]
+  },
+  {
+    "id": "B_CONSENT",
+    "question_ids": [
+      "CONSENT"
+    ],
+    "source_variables": [
+      "consent",
+      "tt_it",
+      "tt_fr",
+      "tt_de",
+      "tt_usuk",
+      "ae_it",
+      "ae_es",
+      "sit",
+      "pt10",
+      "pt20"
+    ],
+    "checks": [
+      "requiredness and supplied categorical bounds"
+    ],
+    "provenance": [
+      "document:117-232",
+      "shared_defaults:ordinary_questions_required"
+    ]
+  },
+  {
+    "id": "B_S10",
+    "question_ids": [
+      "S10"
+    ],
+    "source_variables": [
+      "s10",
+      "s10g_98_other"
+    ],
+    "checks": [
+      "specialty response and other text"
+    ],
+    "provenance": [
+      "document:234-276"
+    ]
+  },
+  {
+    "id": "B_S20_S30",
+    "question_ids": [
+      "S20",
+      "S30"
+    ],
+    "source_variables": [
+      "s20",
+      "s30"
+    ],
+    "checks": [
+      "categorical response bounds"
+    ],
+    "provenance": [
+      "document:278-305"
+    ]
+  },
+  {
+    "id": "B_S40",
+    "question_ids": [
+      "S40"
+    ],
+    "source_variables": [
+      "s40_1"
+    ],
+    "checks": [
+      "3-35 years"
+    ],
+    "provenance": [
+      "document:306-307"
+    ]
+  },
+  {
+    "id": "B_S50_S60",
+    "question_ids": [
+      "S50",
+      "S60"
+    ],
+    "source_variables": [
+      "s50",
+      "s60"
+    ],
+    "checks": [
+      "country/state response bounds"
+    ],
+    "provenance": [
+      "document:308-342"
+    ]
+  },
+  {
+    "id": "B_S70",
+    "question_ids": [
+      "S70"
+    ],
+    "source_variables": [
+      "s70_1",
+      "s70_2",
+      "s70_3",
+      "s70_98",
+      "s70g_98_other"
+    ],
+    "checks": [
+      "0-100 and sum 100"
+    ],
+    "provenance": [
+      "document:343-364"
+    ]
+  },
+  {
+    "id": "B_S80",
+    "question_ids": [
+      "S80"
+    ],
+    "source_variables": [
+      "s80_1",
+      "s80_2",
+      "s80_3",
+      "s80_4"
+    ],
+    "checks": [
+      "0-100 patient counts"
+    ],
+    "provenance": [
+      "document:366-385"
+    ]
+  },
+  {
+    "id": "B_S85",
+    "question_ids": [
+      "S85"
+    ],
+    "source_variables": [
+      "s85_1",
+      "s85_2",
+      "s85_3",
+      "s85_4",
+      "s85_5"
+    ],
+    "checks": [
+      "dictionary schema/range"
+    ],
+    "provenance": [
+      "dataset_dictionary",
+      "dictionary:s85_1",
+      "dictionary:s85_2",
+      "dictionary:s85_3",
+      "dictionary:s85_4",
+      "dictionary:s85_5"
+    ]
+  },
+  {
+    "id": "B_S90",
+    "question_ids": [
+      "S90"
+    ],
+    "source_variables": [
+      "s90_1",
+      "s90_2",
+      "s90_3",
+      "s90_4",
+      "s90_5",
+      "s90_6",
+      "s90_7",
+      "s90_8",
+      "s90_9",
+      "s90_98",
+      "s90g_98_other"
+    ],
+    "checks": [
+      "binary multi-response and other text"
+    ],
+    "provenance": [
+      "document:410-455"
+    ]
+  },
+  {
+    "id": "B_S100",
+    "question_ids": [
+      "S100"
+    ],
+    "source_variables": [
+      "s100_1",
+      "s100_2",
+      "s100_3"
+    ],
+    "checks": [
+      "yes/no responses"
+    ],
+    "provenance": [
+      "document:456-471"
+    ]
+  },
+  {
+    "id": "B_Q10",
+    "question_ids": [
+      "Q10"
+    ],
+    "source_variables": [
+      "q10_1",
+      "q10_2",
+      "q10_3",
+      "q10_4",
+      "q10_98",
+      "q10dk_99",
+      "q10g_98_other"
+    ],
+    "checks": [
+      "percentages and sum 100"
+    ],
+    "provenance": [
+      "document:484-512"
+    ]
+  },
+  {
+    "id": "B_Q20_Q30",
+    "question_ids": [
+      "Q20",
+      "Q30"
+    ],
+    "source_variables": [
+      "q20_1",
+      "q20_2",
+      "q30_1"
+    ],
+    "checks": [
+      "percentages and sum 100"
+    ],
+    "provenance": [
+      "document:513-532"
+    ]
+  },
+  {
+    "id": "B_Q40",
+    "question_ids": [
+      "Q40"
+    ],
+    "source_variables": [
+      "q40_1",
+      "q40_2",
+      "q40_3",
+      "q40_4",
+      "q40_98",
+      "q40g_98_other"
+    ],
+    "checks": [
+      "multi-response and other text"
+    ],
+    "provenance": [
+      "document:533-555"
+    ]
+  },
+  {
+    "id": "B_Q50_Q60",
+    "question_ids": [
+      "Q50",
+      "Q60"
+    ],
+    "source_variables": [
+      "q50_1",
+      "q60x_1"
+    ],
+    "checks": [
+      "Q50 scale; Q60 dictionary type"
+    ],
+    "provenance": [
+      "document:556-582",
+      "dataset_dictionary:q60x_1"
+    ]
+  },
+  {
+    "id": "B_Q70_Q90",
+    "question_ids": [
+      "Q70",
+      "Q80",
+      "Q90"
+    ],
+    "source_variables": [
+      "q70",
+      "q70g_98_other",
+      "q80",
+      "q90_1"
+    ],
+    "checks": [
+      "categorical, routed text, routed percentage"
+    ],
+    "provenance": [
+      "document:583-605"
+    ]
+  },
+  {
+    "id": "B_Q100_Q110",
+    "question_ids": [
+      "Q100",
+      "Q110"
+    ],
+    "source_variables": [
+      "q100_1",
+      "q100_2",
+      "q100_3",
+      "q110_1",
+      "q110_2",
+      "q110_3",
+      "q110_4",
+      "q110_5"
+    ],
+    "checks": [
+      "percentage grids and sums"
+    ],
+    "provenance": [
+      "document:606-648"
+    ]
+  },
+  {
+    "id": "B_Q120",
+    "question_ids": [
+      "Q120"
+    ],
+    "source_variables": [
+      "q120x1_1",
+      "q120x1_2",
+      "q120x1_3",
+      "q120x1_4",
+      "q120x1_5",
+      "q120x1_6",
+      "q120x1_7",
+      "q120x1_99",
+      "q120x1_98",
+      "q120x2_1",
+      "q120x2_2",
+      "q120x2_3",
+      "q120x2_4",
+      "q120x2_5",
+      "q120x2_6",
+      "q120x2_7",
+      "q120x2_99",
+      "q120x2_98",
+      "q120x3_1",
+      "q120x3_2",
+      "q120x3_3",
+      "q120x3_4",
+      "q120x3_5",
+      "q120x3_6",
+      "q120x3_7",
+      "q120x3_99",
+      "q120x3_98",
+      "q120x4_1",
+      "q120x4_2",
+      "q120x4_3",
+      "q120x4_4",
+      "q120x4_5",
+      "q120x4_6",
+      "q120x4_7",
+      "q120x4_99",
+      "q120x4_98",
+      "q120x5_1",
+      "q120x5_2",
+      "q120x5_3",
+      "q120x5_4",
+      "q120x5_5",
+      "q120x5_6",
+      "q120x5_7",
+      "q120x5_99",
+      "q120x5_98",
+      "q120g_99_other"
+    ],
+    "checks": [
+      "age-routed percentage grid"
+    ],
+    "provenance": [
+      "document:649-738"
+    ]
+  },
+  {
+    "id": "B_Q130",
+    "question_ids": [
+      "Q130"
+    ],
+    "source_variables": [
+      "q130x1_1",
+      "q130x1_3",
+      "q130x1_4",
+      "q130x2_1",
+      "q130x2_3",
+      "q130x2_4",
+      "q130x3_1",
+      "q130x3_3",
+      "q130x3_4",
+      "q130x4_1",
+      "q130x4_3",
+      "q130x4_4",
+      "q130x5_1",
+      "q130x5_3",
+      "q130x5_4"
+    ],
+    "checks": [
+      "age-routed sum-to-100 grids"
+    ],
+    "provenance": [
+      "document:739-779"
+    ]
+  },
+  {
+    "id": "B_Q140_Q170",
+    "question_ids": [
+      "Q140",
+      "Q150",
+      "Q160",
+      "Q170"
+    ],
+    "source_variables": [
+      "q140_1",
+      "q140_2",
+      "q140_3",
+      "q140_4",
+      "q140_5",
+      "q140_6",
+      "q140_7",
+      "q140_98",
+      "q140g_98_other",
+      "q150_1",
+      "q160_1",
+      "q170_1"
+    ],
+    "checks": [
+      "multi-response and percentage bounds"
+    ],
+    "provenance": [
+      "document:780-820"
+    ]
+  },
+  {
+    "id": "B_Q180",
+    "question_ids": [
+      "Q180"
+    ],
+    "source_variables": [
+      "q180"
+    ],
+    "checks": [
+      "required text"
+    ],
+    "provenance": [
+      "document:826-827"
+    ]
+  },
+  {
+    "id": "B_Q190_Q200",
+    "question_ids": [
+      "Q190",
+      "Q200"
+    ],
+    "source_variables": [
+      "q190_1",
+      "q190_2",
+      "q190_3",
+      "q190_4",
+      "q190_5",
+      "q190_6",
+      "q190_7",
+      "q190_8",
+      "q190_99",
+      "q190_98",
+      "q190g_98_other",
+      "q200_1",
+      "q200_2",
+      "q200_3",
+      "q200_4",
+      "q200_5",
+      "q200_6",
+      "q200_7",
+      "q200_8",
+      "q200_99",
+      "q200_98",
+      "q200g_98_other"
+    ],
+    "checks": [
+      "multi-response binary coding"
+    ],
+    "provenance": [
+      "document:828-917"
+    ]
+  },
+  {
+    "id": "B_Q210_Q220",
+    "question_ids": [
+      "Q210",
+      "Q220"
+    ],
+    "source_variables": [
+      "q210x1_1",
+      "q210x2_1",
+      "q210x3_1",
+      "q210x4_1",
+      "q210x5_1",
+      "q220_1"
+    ],
+    "checks": [
+      "percentage and likelihood bounds"
+    ],
+    "provenance": [
+      "document:918-977"
+    ]
+  },
+  {
+    "id": "B_Q230",
+    "question_ids": [
+      "Q230"
+    ],
+    "source_variables": [
+      "q230"
+    ],
+    "checks": [
+      "required text"
+    ],
+    "provenance": [
+      "document:983-984"
+    ]
+  },
+  {
+    "id": "B_Q240_Q250",
+    "question_ids": [
+      "Q240",
+      "Q250"
+    ],
+    "source_variables": [
+      "q240_1",
+      "q240_2",
+      "q240_3",
+      "q240_4",
+      "q240_5",
+      "q240_6",
+      "q240_7",
+      "q240_8",
+      "q240_9",
+      "q240_10",
+      "q240_11",
+      "q240_12",
+      "q240_13",
+      "q240_98",
+      "q240g_98_other",
+      "q250_1",
+      "q250_2",
+      "q250_3",
+      "q250_4",
+      "q250_5",
+      "q250_6",
+      "q250_7",
+      "q250_8",
+      "q250_9",
+      "q250_10",
+      "q250_11",
+      "q250_12",
+      "q250_13",
+      "q250_98",
+      "q250g_98_other"
+    ],
+    "checks": [
+      "multi-response binary coding"
+    ],
+    "provenance": [
+      "document:985-1106"
+    ]
+  },
+  {
+    "id": "B_Q260_Q280",
+    "question_ids": [
+      "Q260",
+      "Q270",
+      "Q280"
+    ],
+    "source_variables": [
+      "q260",
+      "q260_98_other",
+      "q270_1",
+      "q280_1"
+    ],
+    "checks": [
+      "categorical, other text, likelihood and age bounds"
+    ],
+    "provenance": [
+      "document:1107-1166"
+    ]
+  },
+  {
+    "id": "B_Q290_Q300",
+    "question_ids": [
+      "Q290",
+      "Q300"
+    ],
+    "source_variables": [
+      "q290x1_1",
+      "q290x2_1",
+      "q290x3_1",
+      "q290x4_1",
+      "q290x5_1",
+      "q300_1",
+      "q300_2",
+      "q300_3",
+      "q300_4",
+      "q300_5"
+    ],
+    "checks": [
+      "percentage and supplied SAV scale"
+    ],
+    "provenance": [
+      "document:1167-1241"
+    ]
+  },
+  {
+    "id": "B_Q310_Q330",
+    "question_ids": [
+      "Q310",
+      "Q320",
+      "Q330"
+    ],
+    "source_variables": [
+      "q310x1_1",
+      "q310x1_2",
+      "q310x1_98",
+      "q310x2_1",
+      "q310x2_2",
+      "q310x2_98",
+      "q310x3_1",
+      "q310x3_2",
+      "q310x3_98",
+      "q310x4_1",
+      "q310x4_2",
+      "q310x4_98",
+      "q310x5_1",
+      "q310x5_2",
+      "q310x5_98",
+      "q310g_98_other",
+      "q320x1_1",
+      "q320x2_1",
+      "q320x3_1",
+      "q320x4_1",
+      "q320x5_1",
+      "q330x1_1",
+      "q330x1_2",
+      "q330x1_3",
+      "q330x1_98",
+      "q330x2_1",
+      "q330x2_2",
+      "q330x2_3",
+      "q330x2_98",
+      "q330x3_1",
+      "q330x3_2",
+      "q330x3_3",
+      "q330x3_98",
+      "q330x4_1",
+      "q330x4_2",
+      "q330x4_3",
+      "q330x4_98",
+      "q330x5_1",
+      "q330x5_2",
+      "q330x5_3",
+      "q330x5_98",
+      "q330g_98_other"
+    ],
+    "checks": [
+      "routed allocation grids"
+    ],
+    "provenance": [
+      "document:1244-1374"
+    ]
+  },
+  {
+    "id": "B_Q340_Q420",
+    "question_ids": [
+      "Q340_Q420"
+    ],
+    "source_variables": [
+      "q340_1",
+      "q350x1_1",
+      "q350x2_1",
+      "q350x3_1",
+      "q350x4_1",
+      "q350x5_1",
+      "q360x1_1",
+      "q360x1_2",
+      "q360x1_3",
+      "q360x1_98",
+      "q370_1",
+      "q380x1_1",
+      "q380x2_1",
+      "q380x3_1",
+      "q380x4_1",
+      "q380x5_1",
+      "q390x1_1",
+      "q390x1_2",
+      "q390x1_3",
+      "q390x1_98",
+      "q400_1",
+      "q410x1_1",
+      "q410x2_1",
+      "q410x3_1",
+      "q410x4_1",
+      "q410x5_1",
+      "q420x1_1",
+      "q420x1_2",
+      "q420x1_3",
+      "q420x1_98"
+    ],
+    "checks": [
+      "alternative-profile likelihood and allocation grids"
+    ],
+    "provenance": [
+      "document:1377-1865"
+    ]
+  },
+  {
+    "id": "B_Q430_Q450",
+    "question_ids": [
+      "Q430",
+      "Q440_Q450"
+    ],
+    "source_variables": [
+      "q430",
+      "q430_98_other",
+      "q440_1",
+      "q450_1"
+    ],
+    "checks": [
+      "capability, routed months, receptiveness"
+    ],
+    "provenance": [
+      "document:1867-1907"
+    ]
+  },
+  {
+    "id": "B_Q460_Q480",
+    "question_ids": [
+      "Q460_Q480"
+    ],
+    "source_variables": [
+      "q460",
+      "q470_1",
+      "q470_2",
+      "q480"
+    ],
+    "checks": [
+      "text and 0-60 months"
+    ],
+    "provenance": [
+      "document:1908-1914"
+    ]
+  },
+  {
+    "id": "B_HIDTYPE",
+    "question_ids": [
+      "HIDTYPE"
+    ],
+    "source_variables": [
+      "hidtype"
+    ],
+    "checks": [
+      "dictionary codes 1-2"
+    ],
+    "provenance": [
+      "dataset_dictionary",
+      "dictionary:hidtype"
+    ]
+  },
+  {
+    "id": "ADMIN_SURVEYLOI",
+    "question_ids": [],
+    "source_variables": [
+      "surveyloi"
+    ],
+    "checks": [
+      "Shared default: positive []"
+    ],
+    "provenance": [
+      "defaults:1:surveyloi"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDOEBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hidoebatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hidoebatch"
+    ]
+  },
+  {
+    "id": "ADMIN_HIDDVBATCH",
+    "question_ids": [],
+    "source_variables": [
+      "hiddvbatch"
+    ],
+    "checks": [
+      "Shared default: equals [\"99\"]"
+    ],
+    "provenance": [
+      "defaults:1:hiddvbatch"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "block_id": "B_Q400",
+  "source_variables": [
+    "q400_1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q400.\n!Numeric ask=0 opr== value=0 min=1 max=11 myvars=q400_1.",
+  "omission_reason": null,
+  "warnings": []
+}

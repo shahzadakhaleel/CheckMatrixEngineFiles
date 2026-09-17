@@ -1,0 +1,3563 @@
+{
+  "filename": "CE+OE (Silverlight) [9657875].sav",
+  "schema_hash": "417273356eceb6039c39f8ba321730df18b19cad12a64eb04d92a8e09ffd1798",
+  "variables": [
+    {
+      "name": "respid",
+      "label": "respid",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F8.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "user_id",
+      "label": "user_id - //user_id",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A100",
+      "missing_ranges": []
+    },
+    {
+      "name": "interview_start",
+      "label": "interview_start",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "DATETIME19",
+      "missing_ranges": []
+    },
+    {
+      "name": "interview_end",
+      "label": "interview_end",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "DATETIME19",
+      "missing_ranges": []
+    },
+    {
+      "name": "screenstatus",
+      "label": "First Screen Point - This question stores the custom status of each respdent.  THE VARIABLE TYPE FOR THIS QUESTION MUST BE SET TO 'HIDDEN'.",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A19",
+      "missing_ranges": []
+    },
+    {
+      "name": "scrstatus",
+      "label": "All term pts stored here",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidchange",
+      "label": "hidChange - // hidden question for tracking any changes made during fielding",
+      "storage_type": "double",
+      "value_labels": {
+        "0.0": "Original - No Changes",
+        "1.0": "6/8/26 - v7 changes",
+        "2.0": "6/9/26 - v8 changes",
+        "3.0": "[date and time of change] - [QRE Version]",
+        "4.0": "[date and time of change] - [QRE Version]",
+        "5.0": "[date and time of change] - [QRE Version]",
+        "6.0": "[date and time of change] - [QRE Version]",
+        "7.0": "[date and time of change] - [QRE Version]",
+        "8.0": "[date and time of change] - [QRE Version]",
+        "9.0": "[date and time of change] - [QRE Version]",
+        "10.0": "[date and time of change] - [QRE Version]"
+      },
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidtype",
+      "label": "hidType",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Pretest",
+        "2.0": "Web interview"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s50",
+      "label": "S50 - Select one",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "US",
+        "2.0": "UK",
+        "3.0": "Germany",
+        "4.0": "France",
+        "5.0": "Italy",
+        "6.0": "Spain",
+        "7.0": "Other"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "consent",
+      "label": "Consent - Before we begin, we’d like you to take a moment to read the following about this study:  This research is being conducted by Charles River Associates, a consulting firm that advises companies in the health care industry.  We are surveying peopl",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "YES, I CONSENT",
+        "2.0": "NO, I DO NOT CONSENT"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "tt_it",
+      "label": "TT_IT - The procedure for the collection of the information and data will be managed under the sole responsibilities of the Charles River Associates  Charles River Associates will be obliged to acquire the data consistently with the Legislative Decree 196/",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "tt_fr",
+      "label": "TT_FR - As you are aware the Ministère des Solidarités et de la Santé is requesting more transparency from pharmaceutical companies on payments made to doctors. This means market research companies are now obliged to provide details of the name and hono",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "tt_de",
+      "label": "TT_DE - I am sure you are aware, the FSA Code recommends that employer permission (Dienstherrengenehmigung DHG) is sought and granted for healthcare professionals employed in public entities to participate in market research. Physicians should let their em",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "tt_usuk",
+      "label": "TT_USUK - Any Adverse Events (including Special Situations) and/or Product Quality Complaints (including counterfeit medicinal products) that may arise during the course of this market research interview must be reported to the commissioning company, even",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes - I consent to allow my personal contact details to be passed to the commissioning company’s pharmacovigilance dep",
+        "2.0": "Yes - I consent to the reporting of Adverse Events (including Special Situations) and/or Product Quality Complaints, but",
+        "3.0": "No - I would not like to continue"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "ae_it",
+      "label": "AE_IT - Eventuali Eventi Avversi (incluse Situazioni Speciali) e/o Reclami sulla Qualità dei Prodotti (compresi i medicinali contraffatti) che potrebbero presentarsi nel corso di questa intervista inerente una ricerca di mercato devono essere segnalati al",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Sì - Acconsento che i miei dati di contatto personali vengano trasmessi al Reparto di Farmacovigilanza della società c",
+        "2.0": "Sì - Acconsento alla segnalazione di Eventi Avversi (incluse Situazioni Speciali) e/o Reclami sulla Qualità del Prodot",
+        "3.0": "No - Non vorrei continuare"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "ae_es",
+      "label": "AE_ES - Cualquier acontecimiento adverso (incluyendo situaciones especiales) o reclamaciones sobre la calidad de producto (incluyendo los medicamentos falsificados) que surjan durante el curso de la entrevista de este estudio de mercado, deben ser notifica",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Sí - Doy mi consentimiento para pasar mis datos personales de contacto para que el Departamento de Farmacovigilancia de",
+        "2.0": "Sí - Doy mi consentimiento para notificar acontecimientos adversos (incluyendo situaciones especiales) o reclamaciones",
+        "3.0": "No - No me gustaría continuar"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "sit",
+      "label": "SIT - At the conclusion of this interview, I will provide you with the sponsor’s name and contact information.  If at the end of this interview, you object to your responses being shared with the sponsor or no longer want to participate, we ensure you th",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "pt10",
+      "label": "PT10 - Can you please confirm if you would be available to participate in this live survey pre-test?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "pt20",
+      "label": "PT20 - May the recruiters for this study reach out to you to request your participation in a live recorded pre-test which would also involve a telephone conversation while you fill out the survey?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s10g_98_other",
+      "label": "Other (please specify): (S10 - Please select your primary medical specialty.)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "s10",
+      "label": "S10 - Select one",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Oncology",
+        "2.0": "Ophthalmology",
+        "3.0": "Neurology",
+        "4.0": "Pediatric Neurology",
+        "5.0": "General Practitioner / Primary Care",
+        "6.0": "Gastroenterology",
+        "7.0": "Internal Medicine",
+        "8.0": "Anesthesiology",
+        "9.0": "Emergency Medicine",
+        "98.0": "Other (please specify):"
+      },
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s20",
+      "label": "S20 - Select one",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Board Certified",
+        "2.0": "Board Eligible",
+        "3.0": "Neither"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s30",
+      "label": "S30 - Select one",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s40_1",
+      "label": "S40_1 (S40 - For how many years have you been in practice?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s60",
+      "label": "S60 - Please select the state in which you are licensed and practicing.",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "AL Alabama",
+        "2.0": "AK Alaska",
+        "3.0": "AZ Arizona",
+        "4.0": "AR Arkansas",
+        "5.0": "CA California",
+        "6.0": "CO Colorado",
+        "7.0": "CT Connecticut",
+        "8.0": "DC District of Columbia",
+        "9.0": "DE Delaware",
+        "10.0": "FL Florida",
+        "11.0": "GA Georgia",
+        "12.0": "HI Hawaii",
+        "13.0": "ID Idaho",
+        "14.0": "IL Illinois",
+        "15.0": "IN Indiana",
+        "16.0": "IA Iowa",
+        "17.0": "KS Kansas",
+        "18.0": "KY Kentucky",
+        "19.0": "LA Louisiana",
+        "20.0": "ME Maine",
+        "21.0": "MD Maryland",
+        "22.0": "MA Massachusetts",
+        "23.0": "MI Michigan",
+        "24.0": "MN Minnesota",
+        "25.0": "MS Mississippi",
+        "26.0": "MO Missouri",
+        "27.0": "MT Montana",
+        "28.0": "NC North Carolina",
+        "29.0": "ND North Dakota",
+        "30.0": "NE Nebraska",
+        "31.0": "NV Nevada",
+        "32.0": "NH New Hampshire",
+        "33.0": "NJ New Jersey",
+        "34.0": "NM New Mexico",
+        "35.0": "NY New York",
+        "36.0": "OH Ohio",
+        "37.0": "OK Oklahoma",
+        "38.0": "OR Oregon",
+        "39.0": "PA Pennsylvania",
+        "40.0": "RI Rhode Island",
+        "41.0": "SC South Carolina",
+        "42.0": "SD South Dakota",
+        "43.0": "TN Tennessee",
+        "44.0": "TX Texas",
+        "45.0": "UT Utah",
+        "46.0": "VT Vermont",
+        "47.0": "VA Virginia",
+        "48.0": "WA Washington",
+        "49.0": "WV West Virginia",
+        "50.0": "WI Wisconsin",
+        "51.0": "WY Wyoming",
+        "52.0": "U.S. Territories",
+        "53.0": "I practice medicine outside of the U.S."
+      },
+      "candidate_question": false,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s70g_98_other",
+      "label": "Other (please specify): (S70 - Approximately what proportion of your professional time is spent in each of the following activities?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "s70_1",
+      "label": "Clinical setting – seeing and / or treating patients (S70 - Percent of Time)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s70_2",
+      "label": "Teaching (S70 - Percent of Time)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s70_3",
+      "label": "Researching (S70 - Percent of Time)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s70_98",
+      "label": "Other (please specify): (S70 - Percent of Time)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s80_1",
+      "label": "Spinal Muscular Dystrophy (S80 - # of Patients Treated in Last 12 Months)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s80_2",
+      "label": "Lennox–Gastaut Syndrome (S80 - # of Patients Treated in Last 12 Months)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s80_3",
+      "label": "Dravet Syndrome (S80 - # of Patients Treated in Last 12 Months)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s80_4",
+      "label": "Rett Syndrome (S80 - # of Patients Treated in Last 12 Months)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90g_98_other",
+      "label": "Other (please specify): (S90 - Considering all your ^f('S80').item('3').get()^ Dravet Syndrome patients that you treated personally in the last 12 months, which of the following products have you prescribed or recommended? )",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_1",
+      "label": "Valproate (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_2",
+      "label": "Clobazam (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_3",
+      "label": "Topiramate (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_4",
+      "label": "Fenfluramine (Fintepla) (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_5",
+      "label": "Cannabidiol (Epidiolex/Epidyolex) (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_6",
+      "label": "Stiripentol (Diacomit) (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_7",
+      "label": "Levetiracetam (Keppra) (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_8",
+      "label": "Trevexra (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_9",
+      "label": "Vebitrel (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s90_98",
+      "label": "Other (please specify): (S90 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s100_1",
+      "label": "Are you or any member of your immediate family associated with a market research company, a pharmaceutical company, a drug manufacturer, the FDA, the Centers for Medicare and Medicaid Services (CMS), an advertising agency, a newspaper, a magazine, a TV or",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s100_2",
+      "label": "Are you currently compensated by a pharmaceutical or medical device firm as part of marketing, for example as a consultant or speaker? (S100 - Please answer the following questions.)",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s100_3",
+      "label": "Is there any reason why your participation in a market research study and acceptance of honoraria does not comply with applicable ethics rules of your employer? (S100 - Please answer the following questions.)",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No"
+      },
+      "candidate_question": false,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10g_98_other",
+      "label": "Other (please specify): (Q10 - Considering all your ^f('S80').item('3').get()^ Dravet Syndrome patients that you treated personally in the last 12 months, what is the approximate distribution of patient coverage across the following insurance types?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10_1",
+      "label": "Medicare (Q10 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10_2",
+      "label": "Medicaid (Q10 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10_3",
+      "label": "Commercial/Private Insurance (Q10 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10_4",
+      "label": "Uninsured (Q10 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10_98",
+      "label": "Other (please specify): (Q10 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q10dk_99",
+      "label": "I don’t know  (Q10DK)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q20_1",
+      "label": "% of patients I personally diagnosed with Dravet Syndrome (Q20 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q20_2",
+      "label": "% of patients someone else diagnosed with Dravet Syndrome (Q20 - Percentage of Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q30_1",
+      "label": "Confirmed SCN1A mutation (Q30 - For the ^f('S80').item('3').get()^ Dravet Syndrome patients you personally treated in the last 12 months, what is the approximate proportion of patients with a confirmed SCN1A mutation?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q40g_98_other",
+      "label": "Other (please specify:) (Q40 - What factors do you consider when diagnosing Dravet Syndrome?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q40_1",
+      "label": "Clinical history and seizure pattern (Q40 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q40_2",
+      "label": "Developmental/neurologic features (Q40 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q40_3",
+      "label": "Genetic testing (Q40 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q40_4",
+      "label": "EEG and other supportive testing (Q40 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q40_98",
+      "label": "Other (please specify:) (Q40 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q50_1",
+      "label": "Q50_1 (Q50 - It is estimated that there are currently ^f('S50').any('1') ? '11.5K patients' : f('S50').any('3') ? '1,121 cases' : f('S50').any('4') ? '1,010 patients' : f('S50').any('5') ? '733 patients' : f('S50').any('6') ? '628 patients' : '1,070 patien",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "I believe prevalence is significantly lower than the estimate provided",
+        "2.0": "I believe prevalence is somewhat lower than the estimate provided",
+        "3.0": "I believe prevalence is slightly lower than the estimate provided",
+        "4.0": "I believe prevalence is similar to the estimate provided",
+        "5.0": "I believe prevalence is slightly higher than the estimate provided",
+        "6.0": "I believe prevalence is somewhat higher than the estimate provided",
+        "7.0": "I believe prevalence is significantly higher than the estimate provided"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q60x_1",
+      "label": "Q60x_1 (Q60 - Please provide the diagnosed prevalence that you believe is representative.)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q70g_98_other",
+      "label": "Other (please specify:) (Q70 - If there were a disease-modifying therapy indicated for Dravet Syndrome in the future, how, if at all, would you expect diagnosis rates to change?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q70",
+      "label": "Q70 - Select one",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Future diagnosis rate would DECREASE vs. current diagnosis rate",
+        "2.0": "Future diagnosis rate would STAY THE SAME vs. current diagnosis rate",
+        "3.0": "Future diagnosis rate would INCREASE vs. current diagnosis rate",
+        "98.0": "Other (please specify:)"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q80",
+      "label": "Q80 - Please explain your rationale regarding why future diagnosis rates would decrease.",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q90_1",
+      "label": "Q90_1 (Q90 - By what percentage would you expect the diagnosis rate to increase in the future if there were a disease-modifying therapy indicated for Dravet Syndrome?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q100_1",
+      "label": "Patients who have never received pharmacologic treatment (Q100 - % of Dravet Syndrome Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q100_2",
+      "label": "Patients receiving only one anti-seizure medication (Q100 - % of Dravet Syndrome Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q100_3",
+      "label": "Patients receiving two or more anti-seizure medications (Q100 - % of Dravet Syndrome Patients)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q110_1",
+      "label": "<2 years (Q110 - What is the age distribution of the Dravet Syndrome patients you treat that have tried two or more anti-seizure medications? We will refer to patients who have tried two or more anti-seizure medications as second line.)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q110_2",
+      "label": "2 to <4 years (Q110 - What is the age distribution of the Dravet Syndrome patients you treat that have tried two or more anti-seizure medications? We will refer to patients who have tried two or more anti-seizure medications as second line.)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q110_3",
+      "label": "4 to <12 years (Q110 - What is the age distribution of the Dravet Syndrome patients you treat that have tried two or more anti-seizure medications? We will refer to patients who have tried two or more anti-seizure medications as second line.)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q110_4",
+      "label": "12 to <18 years (Q110 - What is the age distribution of the Dravet Syndrome patients you treat that have tried two or more anti-seizure medications? We will refer to patients who have tried two or more anti-seizure medications as second line.)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q110_5",
+      "label": "18 years and above (Q110 - What is the age distribution of the Dravet Syndrome patients you treat that have tried two or more anti-seizure medications? We will refer to patients who have tried two or more anti-seizure medications as second line.)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120g_99_other",
+      "label": "Other (please specify): (Q120 - Considering the Dravet Syndrome patients you personally treat, which anti-seizure medications do you currently prescribe for patients receiving two or more anti-seizure medications?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_1",
+      "label": "Valproate (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_2",
+      "label": "Clobazam (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_3",
+      "label": "Topiramate (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_4",
+      "label": "Fenfluramine (Fintepla) (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_5",
+      "label": "Cannabidiol (Epidiolex/Epidyolex) (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_6",
+      "label": "Stiripentol (Diacomit) (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_7",
+      "label": "Levetiracetam (Keppra) (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_99",
+      "label": "Other (please specify): (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x1_98",
+      "label": "No anti-seizure medication treatment (Q120x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_1",
+      "label": "Valproate (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_2",
+      "label": "Clobazam (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_3",
+      "label": "Topiramate (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_4",
+      "label": "Fenfluramine (Fintepla) (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_5",
+      "label": "Cannabidiol (Epidiolex/Epidyolex) (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_6",
+      "label": "Stiripentol (Diacomit) (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_7",
+      "label": "Levetiracetam (Keppra) (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_99",
+      "label": "Other (please specify): (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x2_98",
+      "label": "No anti-seizure medication treatment (Q120x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_1",
+      "label": "Valproate (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_2",
+      "label": "Clobazam (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_3",
+      "label": "Topiramate (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_4",
+      "label": "Fenfluramine (Fintepla) (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_5",
+      "label": "Cannabidiol (Epidiolex/Epidyolex) (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_6",
+      "label": "Stiripentol (Diacomit) (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_7",
+      "label": "Levetiracetam (Keppra) (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_99",
+      "label": "Other (please specify): (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x3_98",
+      "label": "No anti-seizure medication treatment (Q120x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_1",
+      "label": "Valproate (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_2",
+      "label": "Clobazam (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_3",
+      "label": "Topiramate (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_4",
+      "label": "Fenfluramine (Fintepla) (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_5",
+      "label": "Cannabidiol (Epidiolex/Epidyolex) (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_6",
+      "label": "Stiripentol (Diacomit) (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_7",
+      "label": "Levetiracetam (Keppra) (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_99",
+      "label": "Other (please specify): (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x4_98",
+      "label": "No anti-seizure medication treatment (Q120x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_1",
+      "label": "Valproate (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_2",
+      "label": "Clobazam (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_3",
+      "label": "Topiramate (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_4",
+      "label": "Fenfluramine (Fintepla) (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_5",
+      "label": "Cannabidiol (Epidiolex/Epidyolex) (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_6",
+      "label": "Stiripentol (Diacomit) (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_7",
+      "label": "Levetiracetam (Keppra) (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_99",
+      "label": "Other (please specify): (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q120x5_98",
+      "label": "No anti-seizure medication treatment (Q120x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x1_1",
+      "label": "Patients receiving 2 anti-seizure medications to achieve good seizure control (Q130x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x1_3",
+      "label": "Patients receiving 3 anti-seizure medications to achieve good seizure control (Q130x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x1_4",
+      "label": "Patients receiving 4+ anti-seizure medications to achieve good seizure control (Q130x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x2_1",
+      "label": "Patients receiving 2 anti-seizure medications to achieve good seizure control (Q130x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x2_3",
+      "label": "Patients receiving 3 anti-seizure medications to achieve good seizure control (Q130x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x2_4",
+      "label": "Patients receiving 4+ anti-seizure medications to achieve good seizure control (Q130x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x3_1",
+      "label": "Patients receiving 2 anti-seizure medications to achieve good seizure control (Q130x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x3_3",
+      "label": "Patients receiving 3 anti-seizure medications to achieve good seizure control (Q130x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x3_4",
+      "label": "Patients receiving 4+ anti-seizure medications to achieve good seizure control (Q130x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x4_1",
+      "label": "Patients receiving 2 anti-seizure medications to achieve good seizure control (Q130x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x4_3",
+      "label": "Patients receiving 3 anti-seizure medications to achieve good seizure control (Q130x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x4_4",
+      "label": "Patients receiving 4+ anti-seizure medications to achieve good seizure control (Q130x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x5_1",
+      "label": "Patients receiving 2 anti-seizure medications to achieve good seizure control (Q130x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x5_3",
+      "label": "Patients receiving 3 anti-seizure medications to achieve good seizure control (Q130x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q130x5_4",
+      "label": "Patients receiving 4+ anti-seizure medications to achieve good seizure control (Q130x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140g_98_other",
+      "label": "Other (please specify): (Q140 - What metrics do you use to measure seizure control?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_1",
+      "label": "Percentage reduction in seizures (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_2",
+      "label": "Absolute reduction in number of seizures (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_3",
+      "label": "Percentage reduction in status epilepticus (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_4",
+      "label": "Absolute reduction in status epilepticus (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_5",
+      "label": "Percentage reduction in convulsive seizures (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_6",
+      "label": "Absolute reduction in convulsive seizures (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_7",
+      "label": "Reduction in number of anti-seizure medications that patient is receiving (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q140_98",
+      "label": "Other (please specify): (Q140 - Select all that apply)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q150_1",
+      "label": "Q150_1 (Q150 - From your perspective, what relative percentage reduction from baseline seizures constitutes good seizure control?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q160_1",
+      "label": "Q160_1 (Q160 - What percentage of your second line Dravet Syndrome patients are not achieving good seizure control according to the threshold you described in the previous question?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q170_1",
+      "label": "Q170_1 (Q170 - Of the ^f('S80').item('3').get()^ Dravet Syndrome patients you personally treated in the last 12 months, what percentage of patients would you consider for a new gene therapy that is indicated for Dravet Syndrome and targets SCN1A?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q180",
+      "label": "Q180 - What are your initial thoughts on PRODUCT X?",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190g_98_other",
+      "label": "Other (please specify): (Q190 - Which of the following PRODUCT X attributes are specific advantages that would influence your likelihood to prescribe? )",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_1",
+      "label": "Indication (treatment of children aged 2-17 years with Dravet Syndrome) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_2",
+      "label": "Trial inclusion criteria (loss-of-function SCN1A variant, 6 or more major motor seizures during 6-week period, have used at least 2 prior interventions for seizures, including at least one ASM) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_3",
+      "label": "Mechanism of action (ASO targeting pre-mRNA to boost production of full-length SCN1A mRNA and protein) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_4",
+      "label": "Dosing and administration (intrathecal injections every 4 months) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_5",
+      "label": "Primary endpoint outcome (~76% reduction in median seizures vs. baseline at 52 weeks) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_6",
+      "label": "Secondary endpoint outcomes (substantial improvements vs. baseline in cognition and behavior for Vineland-3 (>4-7 mean point improvements) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_7",
+      "label": "Long-term data (with up to 5 years of follow-up data, seizure rate reduction is maintained) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_8",
+      "label": "Safety and tolerability (~20% of patients experienced a treatment-emergent serious adverse event; ~30% of patients experienced a study drug–related TEAE) (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_99",
+      "label": "I do not see any advantages of PRODUCT X (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q190_98",
+      "label": "Other (please specify): (Q190 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200g_98_other",
+      "label": "Other (please specify): (Q200 - Which of the following PRODUCT X attributes are specific disadvantages that would influence your likelihood to prescribe? )",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_1",
+      "label": "Indication (treatment of children aged 2-17 years with Dravet Syndrome) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_2",
+      "label": "Trial inclusion criteria (loss-of-function SCN1A variant, 6 or more major motor seizures during 6-week period, have used at least 2 prior interventions for seizures, including at least one ASM) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_3",
+      "label": "Mechanism of action (ASO targeting pre-mRNA to boost production of full-length SCN1A mRNA and protein) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_4",
+      "label": "Dosing and administration (intrathecal injections every 4 months) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_5",
+      "label": "Primary endpoint outcome (~76% reduction in median seizures vs. baseline at 52 weeks) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_6",
+      "label": "Secondary endpoint outcomes (substantial improvements vs. baseline in cognition and behavior for Vineland-3 (>4-7 mean point improvements) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_7",
+      "label": "Long-term data (with up to 5 years of follow-up data, seizure rate reduction is maintained) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_8",
+      "label": "Safety and tolerability (~20% of patients experienced a treatment-emergent serious adverse event; ~30% of patients experienced a study drug–related TEAE) (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_99",
+      "label": "I do not see any disadvantages of PRODUCT X (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q200_98",
+      "label": "Other (please specify): (Q200 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q210x1_1",
+      "label": "Q210x1_1 (Q210x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q210x2_1",
+      "label": "Q210x2_1 (Q210x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q210x3_1",
+      "label": "Q210x3_1 (Q210x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q210x4_1",
+      "label": "Q210x4_1 (Q210x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q210x5_1",
+      "label": "Q210x5_1 (Q210x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q220_1",
+      "label": "Q220_1 (Q220 - Based on your review of PRODUCT X - and assuming ^isUS()?'prior authorization to clinical trial criteria':'payer reimbursement will be in place'^ – what is your likelihood to prescribe PRODUCT X?)",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Almost no chance1 in 100",
+        "2.0": "Very slight chance1 in 10",
+        "3.0": "Slight chance2 in 10",
+        "4.0": "Some chance3 in 10",
+        "5.0": "Fair chance4 in 10",
+        "6.0": "Fairly good chance5 in 10",
+        "7.0": "Good chance6 in 10",
+        "8.0": "Probable7 in 10",
+        "9.0": "Very probable8 in 10",
+        "10.0": "Almost sure9 in 10",
+        "11.0": "Certain99 in 100"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q230",
+      "label": "Q230 - Assume that both PRODUCT X and PRODUCT Y receive ^isUS()?'FDA':'EMA'^ approval. What are your initial thoughts on PRODUCT Y?",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240g_98_other",
+      "label": "Other (please specify): (Q240 - Which of the following PRODUCT Y attributes are specific advantages that would influence your likelihood to prescribe? )",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_1",
+      "label": "Indication (treatment of children aged 6 months to less than 4 years with Dravet Syndrome) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_2",
+      "label": "Trial inclusion criteria (loss-of-function SCN1A variant, experienced first seizure between 3 and 15 months of age) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_3",
+      "label": "Mechanism of action (CNS directed AAV gene therapy targeting SCN1A) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_4",
+      "label": "Dosing and administration (One-time intracerebroventricular (ICV) administration) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_5",
+      "label": "Primary endpoint outcome (>75% reduction in monthly countable seizure frequency (MCSF) from dosing through 52 weeks) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_6",
+      "label": "Primary endpoint outcome (>90% reduction in episodes of status epilepticus (SE) or prolonged seizures) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_7",
+      "label": "Secondary endpoint outcomes (>60% of patients showed clinically meaningful improvement on Vineland-3 scale and Bayley-4 instruments) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_8",
+      "label": "Secondary endpoint outcomes (>60% (54% (<4 years) of patients showed improvement on CGI-I) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_9",
+      "label": "Secondary endpoint outcomes (>50% (45% (<4 years) of patients showed improvement on PEDI) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_10",
+      "label": "Long-term data (with up to 5 years of follow-up data, 90% of patients maintain seizure rate reduction) (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_11",
+      "label": "Safety and tolerability (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_12",
+      "label": "Monitoring requirements (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_13",
+      "label": "I do not see any advantages of PRODUCT Y (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q240_98",
+      "label": "Other (please specify): (Q240 - Up to 3 advantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250g_98_other",
+      "label": "Other (please specify): (Q250 - Which of the following PRODUCT Y attributes are specific disadvantages that would influence your likelihood to prescribe? )",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_1",
+      "label": "Indication (treatment of children aged 6 months to less than 4 years with Dravet Syndrome) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_2",
+      "label": "Trial inclusion criteria (loss-of-function SCN1A variant, experienced first seizure between 3 and 15 months of age) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_3",
+      "label": "Mechanism of action (CNS directed AAV gene therapy targeting SCN1A) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_4",
+      "label": "Dosing and administration (One-time intracerebroventricular (ICV) administration) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_5",
+      "label": "Primary endpoint outcome (>75% reduction in monthly countable seizure frequency (MCSF) from dosing through 52 weeks) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_6",
+      "label": "Primary endpoint outcome (>90% reduction in episodes of status epilepticus (SE) or prolonged seizures) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_7",
+      "label": "Secondary endpoint outcomes (>60% of patients showed clinically meaningful improvement on Vineland-3 scale and Bayley-4 instruments) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_8",
+      "label": "Secondary endpoint outcomes (>60% (54% (<4 years) of patients showed improvement on CGI-I) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_9",
+      "label": "Secondary endpoint outcomes (>50% (45% (<4 years) of patients showed improvement on PEDI) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_10",
+      "label": "Long-term data (with up to 5 years of follow-up data, 90% of patients maintain seizure rate reduction) (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_11",
+      "label": "Safety and tolerability (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_12",
+      "label": "Monitoring requirements (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_13",
+      "label": "I do not see any disadvantages of PRODUCT Y (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q250_98",
+      "label": "Other (please specify): (Q250 - Up to 3 disadvantages)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q260",
+      "label": "Q260 - Would you expect PRODUCT Y to be administered in an inpatient or outpatient setting?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Inpatient",
+        "2.0": "Outpatient",
+        "98.0": "Other (please specify):",
+        "99.0": "I don't know"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q260_98_other",
+      "label": "Other (please specify): (Q260 - Would you expect PRODUCT Y to be administered in an inpatient or outpatient setting?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q270_1",
+      "label": "Q270_1 (Q270 - Based on your review of PRODUCT Y, and assuming ^isUS()?'prior authorization to clinical trial criteria':'payer reimbursement'^, please indicate your likelihood to prescribe PRODUCT Y?)",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Almost no chance1 in 100",
+        "2.0": "Very slight chance1 in 10",
+        "3.0": "Slight chance2 in 10",
+        "4.0": "Some chance3 in 10",
+        "5.0": "Fair chance4 in 10",
+        "6.0": "Fairly good chance5 in 10",
+        "7.0": "Good chance6 in 10",
+        "8.0": "Probable7 in 10",
+        "9.0": "Very probable8 in 10",
+        "10.0": "Almost sure9 in 10",
+        "11.0": "Certain99 in 100"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q280_1",
+      "label": "Q280_1 (Q280 - At what patient age would your willingness to use PRODUCT Y decline significantly due to concerns that developmental delays may already be established and difficult to reverse?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q290x1_1",
+      "label": "Q290x1_1 (Q290x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q290x2_1",
+      "label": "Q290x2_1 (Q290x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q290x3_1",
+      "label": "Q290x3_1 (Q290x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q290x4_1",
+      "label": "Q290x4_1 (Q290x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q290x5_1",
+      "label": "Q290x5_1 (Q290x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q300_1",
+      "label": "Prior authorization to FDA-approved label (Q300 - To what extent, if at all, would you be motivated to complete the coverage/payer restrictions shown in the table below to secure approval for PRODUCT Y? Please rate on a scale of 1-7, where 1 is not at all",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Not at all motivated (Will complete paperwork 0% of the time)1",
+        "2.0": "(Will complete paperwork 25% of the time)2",
+        "3.0": "(Will complete paperwork 50% of the time)3",
+        "4.0": "(Will complete paperwork 75% of the time)4",
+        "5.0": "Extremely motivated (Will complete paperwork 100% of the time)5"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q300_2",
+      "label": "Prior authorization to clinical trial inclusion exclusion criteria (patients must have experienced their first seizure between 3 and 15 months of age and remain on standard-of-care anti-seizure medications) (Q300 - To what extent, if at all, would you be m",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Not at all motivated (Will complete paperwork 0% of the time)1",
+        "2.0": "(Will complete paperwork 25% of the time)2",
+        "3.0": "(Will complete paperwork 50% of the time)3",
+        "4.0": "(Will complete paperwork 75% of the time)4",
+        "5.0": "Extremely motivated (Will complete paperwork 100% of the time)5"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q300_3",
+      "label": "Prior authorization to clinical trial inclusion exclusion criteria and trial and failure of two or more anti-seizure medications (payer does NOT require patients to meet a specific seizure frequency threshold) (Q300 - To what extent, if at all, would you b",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Not at all motivated (Will complete paperwork 0% of the time)1",
+        "2.0": "(Will complete paperwork 25% of the time)2",
+        "3.0": "(Will complete paperwork 50% of the time)3",
+        "4.0": "(Will complete paperwork 75% of the time)4",
+        "5.0": "Extremely motivated (Will complete paperwork 100% of the time)5"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q300_4",
+      "label": "Prior authorization to clinical trial inclusion exclusion criteria and trial and failure of two or more anti-seizure medications (payer does require patients to meet a specific seizure frequency threshold) (Q300 - To what extent, if at all, would you be mo",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Not at all motivated (Will complete paperwork 0% of the time)1",
+        "2.0": "(Will complete paperwork 25% of the time)2",
+        "3.0": "(Will complete paperwork 50% of the time)3",
+        "4.0": "(Will complete paperwork 75% of the time)4",
+        "5.0": "Extremely motivated (Will complete paperwork 100% of the time)5"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q300_5",
+      "label": "Medical exception (Q300 - To what extent, if at all, would you be motivated to complete the coverage/payer restrictions shown in the table below to secure approval for PRODUCT Y? Please rate on a scale of 1-7, where 1 is not at all motivated and 7 is extre",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Not at all motivated (Will complete paperwork 0% of the time)1",
+        "2.0": "(Will complete paperwork 25% of the time)2",
+        "3.0": "(Will complete paperwork 50% of the time)3",
+        "4.0": "(Will complete paperwork 75% of the time)4",
+        "5.0": "Extremely motivated (Will complete paperwork 100% of the time)5"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310g_98_other",
+      "label": "Other (please specify): (Q310 - Given the introduction of PRODUCT X into the treatment paradigm (PRODUCT Y is NOT YET available), how would you expect to prescribe the following therapies among your future Dravet Syndrome patients in second-line onwards? P",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x1_1",
+      "label": "Product X +/- anti-seizure medications (Q310x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x1_2",
+      "label": "Anti-seizure medications only (Q310x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x1_98",
+      "label": "Other (please specify): (Q310x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x2_1",
+      "label": "Product X +/- anti-seizure medications (Q310x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x2_2",
+      "label": "Anti-seizure medications only (Q310x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x2_98",
+      "label": "Other (please specify): (Q310x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x3_1",
+      "label": "Product X +/- anti-seizure medications (Q310x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x3_2",
+      "label": "Anti-seizure medications only (Q310x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x3_98",
+      "label": "Other (please specify): (Q310x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x4_1",
+      "label": "Product X +/- anti-seizure medications (Q310x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x4_2",
+      "label": "Anti-seizure medications only (Q310x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x4_98",
+      "label": "Other (please specify): (Q310x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x5_1",
+      "label": "Product X +/- anti-seizure medications (Q310x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x5_2",
+      "label": "Anti-seizure medications only (Q310x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q310x5_98",
+      "label": "Other (please specify): (Q310x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q320x1_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q320x1 - You indicated that you would prescribe Product X to ^GetNum('Q310x1_1')^%",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q320x2_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q320x2 - You indicated that you would prescribe Product X to ^GetNum('Q310x2_1')^%",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q320x3_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q320x3 - You indicated that you would prescribe Product X to ^GetNum('Q310x3_1')^%",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q320x4_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q320x4 - You indicated that you would prescribe Product X to ^GetNum('Q310x4_1')^%",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q320x5_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q320x5 - You indicated that you would prescribe Product X to ^GetNum('Q310x5_1')^%",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330g_98_other",
+      "label": "Other (please specify): (Q330 - Given the introduction of PRODUCT X AND PRODUCT Y into the treatment paradigm (both products are now available), how would you expect to prescribe the following therapies among your future incident Dravet Syndrome patients i",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x1_1",
+      "label": "Product X +/- anti-seizure medications (Q330x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x1_2",
+      "label": "Product Y +/- anti-seizure medications (Q330x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x1_3",
+      "label": "Anti-seizure medications only (Q330x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x1_98",
+      "label": "Other (please specify): (Q330x1 - <2 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x2_1",
+      "label": "Product X +/- anti-seizure medications (Q330x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x2_2",
+      "label": "Product Y +/- anti-seizure medications (Q330x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x2_3",
+      "label": "Anti-seizure medications only (Q330x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x2_98",
+      "label": "Other (please specify): (Q330x2 - 2 to <4 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x3_1",
+      "label": "Product X +/- anti-seizure medications (Q330x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x3_2",
+      "label": "Product Y +/- anti-seizure medications (Q330x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x3_3",
+      "label": "Anti-seizure medications only (Q330x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x3_98",
+      "label": "Other (please specify): (Q330x3 - 4 to <12 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x4_1",
+      "label": "Product X +/- anti-seizure medications (Q330x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x4_2",
+      "label": "Product Y +/- anti-seizure medications (Q330x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x4_3",
+      "label": "Anti-seizure medications only (Q330x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x4_98",
+      "label": "Other (please specify): (Q330x4 - 12 to <18 years)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x5_1",
+      "label": "Product X +/- anti-seizure medications (Q330x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x5_2",
+      "label": "Product Y +/- anti-seizure medications (Q330x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x5_3",
+      "label": "Anti-seizure medications only (Q330x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q330x5_98",
+      "label": "Other (please specify): (Q330x5 - 18 years and above)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q340_1",
+      "label": "Q340_1 (Q340 - Based on your review of PRODUCT Y (variation #1), and assuming ^isUS()?'prior authorization to clinical trial criteria':'payer reimbursement'^, please indicate your likelihood to prescribe PRODUCT Y (variation #1)? Please assume that Product",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Almost no chance1 in 100",
+        "2.0": "Very slight chance1 in 10",
+        "3.0": "Slight chance2 in 10",
+        "4.0": "Some chance3 in 10",
+        "5.0": "Fair chance4 in 10",
+        "6.0": "Fairly good chance5 in 10",
+        "7.0": "Good chance6 in 10",
+        "8.0": "Probable7 in 10",
+        "9.0": "Very probable8 in 10",
+        "10.0": "Almost sure9 in 10",
+        "11.0": "Certain99 in 100"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q350x1_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #1) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q350x1 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q350x2_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #1) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q350x2 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q350x3_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #1) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q350x3 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q350x4_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #1) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q350x4 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q350x5_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #1) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q350x5 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x1_1",
+      "label": "Product X +/- anti-seizure medications (Q360x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x1_2",
+      "label": "Product Y (variation #1) +/- anti-seizure medications (Q360x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x1_3",
+      "label": "Anti-seizure medications only (Q360x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x1_98",
+      "label": "^f('Q330G_98_other')^ (Q360x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x2_1",
+      "label": "Product X +/- anti-seizure medications (Q360x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x2_2",
+      "label": "Product Y (variation #1) +/- anti-seizure medications (Q360x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x2_3",
+      "label": "Anti-seizure medications only (Q360x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x2_98",
+      "label": "^f('Q330G_98_other')^ (Q360x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x3_1",
+      "label": "Product X +/- anti-seizure medications (Q360x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x3_2",
+      "label": "Product Y (variation #1) +/- anti-seizure medications (Q360x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x3_3",
+      "label": "Anti-seizure medications only (Q360x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x3_98",
+      "label": "^f('Q330G_98_other')^ (Q360x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x4_1",
+      "label": "Product X +/- anti-seizure medications (Q360x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x4_2",
+      "label": "Product Y (variation #1) +/- anti-seizure medications (Q360x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x4_3",
+      "label": "Anti-seizure medications only (Q360x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x4_98",
+      "label": "^f('Q330G_98_other')^ (Q360x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x5_1",
+      "label": "Product X +/- anti-seizure medications (Q360x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x5_2",
+      "label": "Product Y (variation #1) +/- anti-seizure medications (Q360x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x5_3",
+      "label": "Anti-seizure medications only (Q360x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q360x5_98",
+      "label": "^f('Q330G_98_other')^ (Q360x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q370_1",
+      "label": "Q370_1 (Q370 - Based on your review of PRODUCT Y (variation #2), and assuming ^isUS()?'prior authorization to clinical trial criteria':'payer reimbursement'^, please indicate your likelihood to prescribe PRODUCT Y (variation #2)? Please assume that Product",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Almost no chance1 in 100",
+        "2.0": "Very slight chance1 in 10",
+        "3.0": "Slight chance2 in 10",
+        "4.0": "Some chance3 in 10",
+        "5.0": "Fair chance4 in 10",
+        "6.0": "Fairly good chance5 in 10",
+        "7.0": "Good chance6 in 10",
+        "8.0": "Probable7 in 10",
+        "9.0": "Very probable8 in 10",
+        "10.0": "Almost sure9 in 10",
+        "11.0": "Certain99 in 100"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q380x1_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #2) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q380x1 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q380x2_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #2) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q380x2 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q380x3_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #2) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q380x3 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q380x4_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #2) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q380x4 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q380x5_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #2) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q380x5 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x1_1",
+      "label": "Product X +/- anti-seizure medications (Q390x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x1_2",
+      "label": "Product Y (variation #2) +/- anti-seizure medications (Q390x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x1_3",
+      "label": "Anti-seizure medications only (Q390x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x1_98",
+      "label": "^f('Q330G_98_other')^ (Q390x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x2_1",
+      "label": "Product X +/- anti-seizure medications (Q390x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x2_2",
+      "label": "Product Y (variation #2) +/- anti-seizure medications (Q390x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x2_3",
+      "label": "Anti-seizure medications only (Q390x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x2_98",
+      "label": "^f('Q330G_98_other')^ (Q390x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x3_1",
+      "label": "Product X +/- anti-seizure medications (Q390x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x3_2",
+      "label": "Product Y (variation #2) +/- anti-seizure medications (Q390x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x3_3",
+      "label": "Anti-seizure medications only (Q390x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x3_98",
+      "label": "^f('Q330G_98_other')^ (Q390x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x4_1",
+      "label": "Product X +/- anti-seizure medications (Q390x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x4_2",
+      "label": "Product Y (variation #2) +/- anti-seizure medications (Q390x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x4_3",
+      "label": "Anti-seizure medications only (Q390x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x4_98",
+      "label": "^f('Q330G_98_other')^ (Q390x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x5_1",
+      "label": "Product X +/- anti-seizure medications (Q390x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x5_2",
+      "label": "Product Y (variation #2) +/- anti-seizure medications (Q390x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x5_3",
+      "label": "Anti-seizure medications only (Q390x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q390x5_98",
+      "label": "^f('Q330G_98_other')^ (Q390x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q400_1",
+      "label": "Q400_1 (Q400 - Based on your review of PRODUCT Y (variation #3), and assuming ^isUS()?'prior authorization to clinical trial criteria':'payer reimbursement'^, please indicate your likelihood to prescribe PRODUCT Y (variation #3)? Please assume that Product",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Almost no chance1 in 100",
+        "2.0": "Very slight chance1 in 10",
+        "3.0": "Slight chance2 in 10",
+        "4.0": "Some chance3 in 10",
+        "5.0": "Fair chance4 in 10",
+        "6.0": "Fairly good chance5 in 10",
+        "7.0": "Good chance6 in 10",
+        "8.0": "Probable7 in 10",
+        "9.0": "Very probable8 in 10",
+        "10.0": "Almost sure9 in 10",
+        "11.0": "Certain99 in 100"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q410x1_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #3) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q410x1 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q410x2_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #3) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q410x2 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q410x3_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #3) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q410x3 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q410x4_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #3) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q410x4 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q410x5_1",
+      "label": "Proportion of patients previously treated with Product X who will switch to Product Y (variation #3) +/- anti-seizure medications (indicate from 0% to 100% of selected patients to switch) (Q410x5 - You indicated that you would prescribe Product X to ^GetNu",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x1_1",
+      "label": "Product X +/- anti-seizure medications (Q420x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x1_2",
+      "label": "Product Y (variation #3) +/- anti-seizure medications (Q420x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x1_3",
+      "label": "Anti-seizure medications only (Q420x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x1_98",
+      "label": "^f('Q330G_98_other')^ (Q420x1 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x2_1",
+      "label": "Product X +/- anti-seizure medications (Q420x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x2_2",
+      "label": "Product Y (variation #3) +/- anti-seizure medications (Q420x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x2_3",
+      "label": "Anti-seizure medications only (Q420x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x2_98",
+      "label": "^f('Q330G_98_other')^ (Q420x2 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x3_1",
+      "label": "Product X +/- anti-seizure medications (Q420x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x3_2",
+      "label": "Product Y (variation #3) +/- anti-seizure medications (Q420x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x3_3",
+      "label": "Anti-seizure medications only (Q420x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x3_98",
+      "label": "^f('Q330G_98_other')^ (Q420x3 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x4_1",
+      "label": "Product X +/- anti-seizure medications (Q420x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x4_2",
+      "label": "Product Y (variation #3) +/- anti-seizure medications (Q420x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x4_3",
+      "label": "Anti-seizure medications only (Q420x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x4_98",
+      "label": "^f('Q330G_98_other')^ (Q420x4 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x5_1",
+      "label": "Product X +/- anti-seizure medications (Q420x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x5_2",
+      "label": "Product Y (variation #3) +/- anti-seizure medications (Q420x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x5_3",
+      "label": "Anti-seizure medications only (Q420x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q420x5_98",
+      "label": "^f('Q330G_98_other')^ (Q420x5 - New answer)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q430",
+      "label": "Q430 - Does the institution you work for have the capabilities to administer Product Y which requires intracerebroventricular (ICV) delivery for pediatric patients?",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Yes",
+        "2.0": "No",
+        "98.0": "Other (please specify:)",
+        "99.0": "I don't know"
+      },
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q430_98_other",
+      "label": "Other (please specify:) (Q430 - Does the institution you work for have the capabilities to administer Product Y which requires intracerebroventricular (ICV) delivery for pediatric patients?)",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q440_1",
+      "label": "Q440_1 (Q440 - What time is typically required to implement a therapy like Product Y at your institution?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q450_1",
+      "label": "Q450_1 (Q450 - How receptive would your institution be to adopting an inpatient gene therapy like Product Y?)",
+      "storage_type": "double",
+      "value_labels": {
+        "1.0": "Not at all receptive1",
+        "2.0": "2",
+        "3.0": "3",
+        "4.0": "Somewhat receptive4",
+        "5.0": "5",
+        "6.0": "6",
+        "7.0": "Extremely receptive7"
+      },
+      "candidate_question": true,
+      "original_format": "F1.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q460",
+      "label": "Q460 - What challenges, if any, would you anticipate in the implementation process for introducing Product Y in your country?",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "q470_1",
+      "label": "months for Product X (Q470 - Approximately how many months after the launch of Product X and Product Y in your country would you anticipate prescribing these therapies to your first patient with Dravet syndrome?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q470_2",
+      "label": "months for Product Y (Q470 - Approximately how many months after the launch of Product X and Product Y in your country would you anticipate prescribing these therapies to your first patient with Dravet syndrome?)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "F2.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "q480",
+      "label": "Q480 - Thank you for your time. In the space below, please provide any final comments prompted by this survey.  ^isUS()?'':'The sponsor company of this market research, who is ultimately the data controller, is Astellas Pharma Global Development, Inc., whi",
+      "storage_type": "string",
+      "value_labels": {},
+      "candidate_question": true,
+      "original_format": "A500",
+      "missing_ranges": []
+    },
+    {
+      "name": "surveyloi",
+      "label": "surveyLOI - This question holds the LOI in minutes, for each respondent.  THE VARIABLE TYPE FOR THIS QUESTION MUST BE SET TO 'HIDDEN'.",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F20.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "hiddvbatch",
+      "label": "hidDVBatch",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "hidoebatch",
+      "label": "hidOEBatch",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s85_1",
+      "label": "< 2 years (S85 - %)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s85_2",
+      "label": "2 to < 4 years (S85 - %)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s85_3",
+      "label": "4 to < 12 years (S85 - %)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s85_4",
+      "label": "12 to < 18 years (S85 - %)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    },
+    {
+      "name": "s85_5",
+      "label": "18 years and above (S85 - %)",
+      "storage_type": "double",
+      "value_labels": {},
+      "candidate_question": false,
+      "original_format": "F3.0",
+      "missing_ranges": []
+    }
+  ],
+  "candidate_groups": [
+    "Q10",
+    "Q100",
+    "Q110",
+    "Q120",
+    "Q130",
+    "Q140",
+    "Q150",
+    "Q160",
+    "Q170",
+    "Q180",
+    "Q190",
+    "Q20",
+    "Q200",
+    "Q210",
+    "Q220",
+    "Q230",
+    "Q240",
+    "Q250",
+    "Q260",
+    "Q270",
+    "Q280",
+    "Q290",
+    "Q30",
+    "Q300",
+    "Q310",
+    "Q320",
+    "Q330",
+    "Q340",
+    "Q350",
+    "Q360",
+    "Q370",
+    "Q380",
+    "Q390",
+    "Q40",
+    "Q400",
+    "Q410",
+    "Q420",
+    "Q430",
+    "Q440",
+    "Q450",
+    "Q460",
+    "Q470",
+    "Q480",
+    "Q50",
+    "Q60",
+    "Q70",
+    "Q80",
+    "Q90"
+  ]
+}

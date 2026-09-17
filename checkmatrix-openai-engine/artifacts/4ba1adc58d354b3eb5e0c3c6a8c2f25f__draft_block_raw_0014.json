@@ -1,0 +1,13 @@
+{
+  "block_id": "B_Q50_Q60",
+  "source_variables": [
+    "q50_1",
+    "q60x_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q50_1 opr=<> value=0 min=1 max=7 myvars=q50_1.\n!Numeric ask=q60x_1 opr=<> value=0 min=1 max=100000 myvars=q60x_1.",
+  "omission_reason": null,
+  "warnings": [
+    "Q60 is conditional on Q50 and is stored as string in the SAV; numeric range validation is not valid for the supplied storage type, so Q60 has been omitted from executable validation."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "block_id": "b_q130_2",
+  "source_variables": [
+    "q130_2_1",
+    "q130_2_2",
+    "q130_2_3",
+    "q130_2_4",
+    "q130_2_5",
+    "q130_2_99",
+    "q110_1",
+    "q110_2",
+    "q110_3",
+    "q110_4",
+    "q110_5"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q130 Prevention of future recurrences.\n!MULTI_B_FLT svar=q130_2_1 evar=q130_2_99 qnt=Q130_2 ctr=5 filter=q110_1.",
+  "omission_reason": null,
+  "warnings": [
+    "Dynamic column display and NONE exclusivity require analyst confirmation."
+  ]
+}

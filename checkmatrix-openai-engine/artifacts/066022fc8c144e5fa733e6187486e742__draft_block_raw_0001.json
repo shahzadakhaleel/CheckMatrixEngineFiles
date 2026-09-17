@@ -1,0 +1,10 @@
+{
+  "block_id": "b_ae1",
+  "source_variables": [
+    "ae1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit AE1.\ntemporary.\nsel if miss(ae1) or ~range(ae1,1,2).\nlist respid, ae1.",
+  "omission_reason": null,
+  "warnings": []
+}

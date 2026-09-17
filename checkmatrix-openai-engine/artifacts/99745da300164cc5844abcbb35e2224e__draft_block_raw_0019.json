@@ -1,0 +1,12 @@
+{
+  "block_id": "B_Q60",
+  "source_variables": [
+    "q60x_1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q60.\n!String ask=0 opr== value=0 myvars=q60x_1.",
+  "omission_reason": null,
+  "warnings": [
+    "The source describes a whole-number range of 1-100000, but the SAV stores this response as string; numeric validation is omitted."
+  ]
+}

@@ -1,0 +1,5271 @@
+{
+  "blocks": [
+    {
+      "block_id": "b01_screener",
+      "source_variables": [
+        "ae1",
+        "s2",
+        "s2_98_other",
+        "s3",
+        "s4",
+        "s5_1",
+        "s6_1",
+        "s7_1",
+        "s7_2",
+        "s7_3",
+        "s7_4",
+        "s7_5",
+        "s7_6",
+        "s7_7",
+        "s8_1",
+        "s8_2",
+        "s9_1",
+        "s9_2",
+        "s9_3",
+        "s9_4",
+        "s9_98",
+        "s9_98_other"
+      ],
+      "temporary_variables": [
+        "flag"
+      ],
+      "spss": "tit SCREENER.\ntemporary.\nsel if miss(ae1) or ~range(ae1,1,2).\nlist respid, ae1.\ntit S2.\ntemporary.\nsel if miss(s2) or ~range(s2,1,98).\nlist respid, s2.\ntit S3.\ntemporary.\nsel if miss(s3) or ~range(s3,1,2).\nlist respid, s3.\ntit S4.\ntemporary.\nsel if miss(s4) or ~range(s4,1,99).\nlist respid, s4.\ntit S5.\ntemporary.\nsel if miss(s5_1) or ~range(s5_1,0,100).\nlist respid, s5_1.\ntit S6.\ntemporary.\nsel if miss(s6_1) or ~range(s6_1,0,99).\nlist respid, s6_1.\ndo repeat x=s7_1 s7_2 s7_3 s7_4 s7_5 s7_6 s7_7.\ncompute flag=0.\nif miss(x) or ~range(x,0,10000) flag=1.\nend repeat.\ntit S7.\ntemporary.\nsel if flag=1.\nlist respid flag s7_1 s7_2 s7_3 s7_4 s7_5 s7_6 s7_7.\ndel var flag.\n!Numeric ask=s8_1 opr== value=0 min=0 max=9999 myvars=s8_1.\n!Numeric ask=s8_2 opr== value=0 min=0 max=9999 myvars=s8_2.\n!Numeric ask=s9_1 opr== value=0 min=0 max=9999 myvars=s9_1.\n!Numeric ask=s9_2 opr== value=0 min=0 max=9999 myvars=s9_2.\n!Numeric ask=s9_3 opr== value=0 min=0 max=9999 myvars=s9_3.\n!Numeric ask=s9_4 opr== value=0 min=0 max=9999 myvars=s9_4.\n!Numeric ask=s9_98 opr== value=0 min=0 max=9999 myvars=s9_98.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "b02_q105",
+      "source_variables": [
+        "q105_1",
+        "q105_2",
+        "q105_3",
+        "q105_4",
+        "q105_5",
+        "q105_6",
+        "q105_7",
+        "q105_8",
+        "q105_9",
+        "q105_10"
+      ],
+      "temporary_variables": [],
+      "spss": "tit Q105.\ntemporary.\nsel if q105_1=\"\".\nlist respid, q105_1.",
+      "omission_reason": null,
+      "warnings": [
+        "The questionnaire explicitly requires the first open-ended box to contain none when no therapy is known; this text-specific rule is not reliably enforceable in SPSS draft code."
+      ]
+    },
+    {
+      "block_id": "b03_q110_q115",
+      "source_variables": [
+        "q110_1",
+        "q110_2",
+        "q110_3",
+        "q110_4",
+        "q110_5",
+        "q115_1",
+        "q115_2",
+        "q115_3",
+        "q115_4",
+        "q115_5"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q110_1 opr== value=0 min=1 max=4 myvars=q110_1 q110_2 q110_3 q110_4 q110_5.\n!Numeric ask=q115_1 opr== value=0 min=1 max=3 myvars=q115_1 q115_2 q115_3 q115_4 q115_5.",
+      "omission_reason": null,
+      "warnings": [
+        "Q115 is conditionally displayed only for therapies aware in Q110; conditional missingness is not reproduced because the shared macro filter requires a separately declared filter variable."
+      ]
+    },
+    {
+      "block_id": "b04_q120_q125",
+      "source_variables": [
+        "q120_1",
+        "q120_2",
+        "q120_3",
+        "q120_4",
+        "q120_5",
+        "q125_1",
+        "q125_2",
+        "q125_3",
+        "q125_4",
+        "q125_5"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q120_1 opr== value=0 min=1 max=7 myvars=q120_1 q120_2 q120_3 q120_4 q120_5.\n!Numeric ask=q125_1 opr== value=0 min=1 max=7 myvars=q125_1 q125_2 q125_3 q125_4 q125_5.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "b05_q130",
+      "source_variables": [
+        "q130_1_1",
+        "q130_1_2",
+        "q130_1_3",
+        "q130_1_4",
+        "q130_1_5",
+        "q130_1_99",
+        "q130_2_1",
+        "q130_2_2",
+        "q130_2_3",
+        "q130_2_4",
+        "q130_2_5",
+        "q130_2_99",
+        "q130_3_1",
+        "q130_3_2",
+        "q130_3_3",
+        "q130_3_4",
+        "q130_3_5",
+        "q130_3_99",
+        "q130_4_1",
+        "q130_4_2",
+        "q130_4_3",
+        "q130_4_4",
+        "q130_4_5",
+        "q130_4_99",
+        "q130_5_1",
+        "q130_5_2",
+        "q130_5_3",
+        "q130_5_4",
+        "q130_5_5",
+        "q130_5_99",
+        "q130_6_1",
+        "q130_6_2",
+        "q130_6_3",
+        "q130_6_4",
+        "q130_6_5",
+        "q130_6_99",
+        "q130_7_1",
+        "q130_7_2",
+        "q130_7_3",
+        "q130_7_4",
+        "q130_7_5",
+        "q130_7_99",
+        "q130_8_1",
+        "q130_8_2",
+        "q130_8_3",
+        "q130_8_4",
+        "q130_8_5",
+        "q130_8_99",
+        "q130_9_1",
+        "q130_9_2",
+        "q130_9_3",
+        "q130_9_4",
+        "q130_9_5",
+        "q130_9_99",
+        "q130_10_1",
+        "q130_10_2",
+        "q130_10_3",
+        "q130_10_4",
+        "q130_10_5",
+        "q130_10_99",
+        "q130_11_1",
+        "q130_11_2",
+        "q130_11_3",
+        "q130_11_4",
+        "q130_11_5",
+        "q130_11_99",
+        "q130_12_1",
+        "q130_12_2",
+        "q130_12_3",
+        "q130_12_4",
+        "q130_12_5",
+        "q130_12_99",
+        "q130_13_1",
+        "q130_13_2",
+        "q130_13_3",
+        "q130_13_4",
+        "q130_13_5",
+        "q130_13_99",
+        "q130_14_1",
+        "q130_14_2",
+        "q130_14_3",
+        "q130_14_4",
+        "q130_14_5",
+        "q130_14_99"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=q130_1_1 evar=q130_1_99 qnt=Q130_1 ctr=6.\n!MULTI_B svar=q130_2_1 evar=q130_2_99 qnt=Q130_2 ctr=6.\n!MULTI_B svar=q130_3_1 evar=q130_3_99 qnt=Q130_3 ctr=6.\n!MULTI_B svar=q130_4_1 evar=q130_4_99 qnt=Q130_4 ctr=6.\n!MULTI_B svar=q130_5_1 evar=q130_5_99 qnt=Q130_5 ctr=6.\n!MULTI_B svar=q130_6_1 evar=q130_6_99 qnt=Q130_6 ctr=6.\n!MULTI_B svar=q130_7_1 evar=q130_7_99 qnt=Q130_7 ctr=6.\n!MULTI_B svar=q130_8_1 evar=q130_8_99 qnt=Q130_8 ctr=6.\n!MULTI_B svar=q130_9_1 evar=q130_9_99 qnt=Q130_9 ctr=6.\n!MULTI_B svar=q130_10_1 evar=q130_10_99 qnt=Q130_10 ctr=6.\n!MULTI_B svar=q130_11_1 evar=q130_11_99 qnt=Q130_11 ctr=6.\n!MULTI_B svar=q130_12_1 evar=q130_12_99 qnt=Q130_12 ctr=6.\n!MULTI_B svar=q130_13_1 evar=q130_13_99 qnt=Q130_13 ctr=6.\n!MULTI_B svar=q130_14_1 evar=q130_14_99 qnt=Q130_14 ctr=6.",
+      "omission_reason": null,
+      "warnings": [
+        "Q130 is displayed only for therapies aware in Q110, but the SAV does not provide a dedicated filter variable. The draft validates binary coding and none exclusivity for all stored rows."
+      ]
+    },
+    {
+      "block_id": "b06_q135_q140",
+      "source_variables": [
+        "q135_1",
+        "q135_2",
+        "q135_3",
+        "q135_4",
+        "q135_5",
+        "q135_99",
+        "q137",
+        "q140_1",
+        "q140_2",
+        "q140_3",
+        "q140_4",
+        "q140_5",
+        "q140_6",
+        "q140_7",
+        "q140_8",
+        "q140_9",
+        "q140_10",
+        "q140_11",
+        "q140_98",
+        "q140_99",
+        "q140_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!MULTI_B svar=q135_1 evar=q135_99 qnt=Q135 ctr=6.\n!String ask=q137 opr=> value=0 myvars=q137.\n!MULTI_B svar=q140_1 evar=q140_99 qnt=Q140 ctr=13.\n!String ask=q140_98 opr== value=1 myvars=q140_98_other.",
+      "omission_reason": null,
+      "warnings": [
+        "Q137 requires at least 15 characters, but the supplied macro library does not provide a character-length check."
+      ]
+    },
+    {
+      "block_id": "b07_blinded_recall",
+      "source_variables": [
+        "q205",
+        "q210",
+        "q220",
+        "q220_98_other",
+        "q230_1",
+        "q230_2",
+        "q230_3",
+        "q230_4",
+        "q230_5",
+        "q230_6",
+        "q230_7",
+        "q230_8",
+        "q230_9",
+        "q230_10",
+        "q230_11",
+        "q230_98",
+        "q230_99",
+        "q230_98_other",
+        "q240_1",
+        "q245",
+        "q250_1",
+        "q250_2",
+        "q250_3",
+        "q250_4",
+        "q250_5",
+        "q250_6",
+        "q250_7",
+        "q250_8",
+        "q250_99",
+        "q255_1",
+        "q255_2",
+        "q255_3",
+        "q255_4",
+        "q255_5",
+        "q255_6",
+        "q255_7",
+        "q255_8",
+        "q255_98",
+        "q255_99",
+        "q255_98_other"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q205 opr== value=0 min=1 max=2 myvars=q205.\n!String ask=q210 opr=> value=0 myvars=q210.\n!Numeric ask=q220 opr== value=0 min=1 max=99 myvars=q220.\n!String ask=q220 opr== value=98 myvars=q220_98_other.\n!MULTI_B svar=q230_1 evar=q230_99 qnt=Q230 ctr=13.\n!Numeric ask=q240_1 opr== value=0 min=1 max=99 myvars=q240_1.\n!String ask=q245 opr=> value=0 myvars=q245.\n!MULTI_B svar=q250_1 evar=q250_99 qnt=Q250 ctr=9.\n!MULTI_B svar=q255_1 evar=q255_99 qnt=Q255 ctr=10.\n!String ask=q255_98 opr== value=1 myvars=q255_98_other.",
+      "omission_reason": null,
+      "warnings": [
+        "Q210, Q245 and Q137 are open-ended responses with documented minimum lengths that are not implemented by the approved macro library.",
+        "Q230 and Q255 are conditionally displayed after Q205=1; no temporary filter is generated because the filter variable is not present in the dictionary."
+      ]
+    },
+    {
+      "block_id": "b08_ad_evaluation",
+      "source_variables": [
+        "q305",
+        "q310",
+        "q315",
+        "q320",
+        "q325_1",
+        "q325_2",
+        "q325_3",
+        "q325_4",
+        "q325_5",
+        "q325_11",
+        "q325_6",
+        "q325_7",
+        "q325_8",
+        "q325_9",
+        "q325_10"
+      ],
+      "temporary_variables": [
+        "flag"
+      ],
+      "spss": "tit Q305.\ntemporary.\nsel if q305=\"\".\nlist respid, q305.\ntit Q310.\ntemporary.\nsel if miss(q310) or ~range(q310,1,5).\nlist respid, q310.\ntit Q315.\ntemporary.\nsel if q315=\"\" and q310>=4.\nlist respid, q310 q315.\ntit Q320.\ntemporary.\nsel if q320=\"\" and q310<=2.\nlist respid, q310 q320.\ndo repeat x=q325_1 q325_2 q325_3 q325_4 q325_5 q325_11 q325_6 q325_7 q325_8 q325_9 q325_10.\ncompute flag=0.\nif miss(x) or ~range(x,1,3) flag=1.\nend repeat.\ntit Q325.\ntemporary.\nsel if flag=1.\nlist respid flag q325_1 q325_2 q325_3 q325_4 q325_5 q325_11 q325_6 q325_7 q325_8 q325_9 q325_10.\ndel var flag.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "b09_ad_recall_followup",
+      "source_variables": [
+        "q340",
+        "q345_1",
+        "q345_2",
+        "q345_3",
+        "q345_4",
+        "q345_5",
+        "q345_6",
+        "q345_7",
+        "q345_8",
+        "q345_9",
+        "q345_10",
+        "q345_11",
+        "q345_98",
+        "q345_97",
+        "q345_98_other",
+        "q350_1",
+        "q350_2",
+        "q350_3",
+        "q350_4",
+        "q350_5",
+        "q350_6",
+        "q350_7",
+        "q350_8",
+        "q350_98",
+        "q350_10",
+        "q350_98_other",
+        "q355"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=q340 opr== value=0 min=1 max=2 myvars=q340.\n!MULTI_B svar=q345_1 evar=q345_97 qnt=Q345 ctr=13.\n!MULTI_B svar=q350_1 evar=q350_10 qnt=Q350 ctr=10.\n!Numeric ask=q355 opr== value=0 min=1 max=6 myvars=q355.",
+      "omission_reason": null,
+      "warnings": [
+        "Q345 and Q350 are conditionally displayed, respectively, after Q340=1 and as a follow-up action set; conditional missingness is not separately filtered."
+      ]
+    },
+    {
+      "block_id": "b10_demographics",
+      "source_variables": [
+        "d1",
+        "d2_1",
+        "d3",
+        "d4",
+        "d5"
+      ],
+      "temporary_variables": [],
+      "spss": "!Numeric ask=d1 opr== value=0 min=1 max=97 myvars=d1.\n!Numeric ask=d2_1 opr== value=0 min=0 max=100 myvars=d2_1.\n!Numeric ask=d3 opr== value=0 min=1 max=3 myvars=d3.\n!Numeric ask=d4 opr== value=0 min=1 max=3 myvars=d4.\n!Numeric ask=d5 opr== value=0 min=1 max=2 myvars=d5.",
+      "omission_reason": null,
+      "warnings": []
+    },
+    {
+      "block_id": "b11_dictionary_quality",
+      "source_variables": [
+        "responseid",
+        "status",
+        "last_touched",
+        "lastcomplete",
+        "screenstatusall_COMPLETE",
+        "screenstatusall_SCREENER_QUIT",
+        "screenstatusall_SURVEY_QUIT",
+        "screenstatusall_PRETEST",
+        "screenstatusall_TEST",
+        "screenstatusall_PMTEST",
+        "screenstatusall_QC",
+        "screenstatusall_CLIENTQC",
+        "screenstatusall_DUPE",
+        "screenstatusall_EXTRACOMP",
+        "screenstatusall_BADDATA",
+        "screenstatusall_COUNTRY",
+        "screenstatusall_NOSCRIPT",
+        "screenstatusall_NOJS",
+        "screenstatusall_NoUserID",
+        "screenstatusall_IP",
+        "screenstatusall_CAPTEST",
+        "screenstatusall_hbot1",
+        "screenstatusall_USERNAME",
+        "screenstatusall_SPECIALTY",
+        "screenstatusall_AE1",
+        "screenstatusall_S2",
+        "screenstatusall_S3",
+        "screenstatusall_S4",
+        "screenstatusall_S5",
+        "screenstatusall_S6",
+        "screenstatusall_S7",
+        "screenstatusall_S8",
+        "screenstatusall_S9",
+        "screenstatusall_VIDEO"
+      ],
+      "temporary_variables": [],
+      "spss": "tit DICTIONARY QUALITY.\ntemporary.\nsel if miss(responseid).\nlist respid responseid.\ntemporary.\nsel if miss(status).\nlist respid status.",
+      "omission_reason": null,
+      "warnings": [
+        "Dictionary-only quality fields are preserved as schema-oriented checks only; no eligibility, routing, or requiredness restrictions are inferred from their labels."
+      ]
+    }
+  ],
+  "warnings": [
+    "The supplied document contains extensive quota, privacy-notice, implementation, and administrative content. Quota logic and administrative checks are not duplicated because the application handles administrative rules and the document does not supply respondent answer variables for quota outcomes.",
+    "The questionnaire states several termination and conditional-display rules, including specialty, list status, awareness, prior advertisement recall, and action-based routing. Some rules depend on hidden or sample variables and are documented in manifest routing but are not independently enforced in the draft where no safe filter variable is available.",
+    "The SAV dictionary includes many framework, hidden, timing, quota, error-message, quality, and metadata variables. Questionnaire response variables are mapped below; non-question framework fields not needed for the supplied checks are listed in excluded_variables or retained only as dictionary-quality fields.",
+    "The source shows a conflict between the Q130/Q135/Q140/Q230/Q250/Q255/Q325 multi-response instructions and the dictionary's binary value labels. The draft follows the explicit binary code 1 and uses approved multi-response macros.",
+    "Q345 uses dictionary code 97 for Don't remember/not sure, while Q140 and Q230 use code 99. These are preserved as separate groups and rules."
+  ],
+  "manifest": {
+    "title": "2026 Recurrent Pericarditis (HCP) Ad Tracker W1",
+    "groups": [
+      {
+        "id": "g_ae1",
+        "text": "AE1 consent",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "ae1",
+            "text": "Consent",
+            "variable": "ae1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              109,
+              117,
+              118
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          109,
+          117,
+          118
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_s2",
+        "text": "S2 specialty",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s2",
+            "text": "Primary specialty",
+            "variable": "s2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "3",
+              "4",
+              "6",
+              "98"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "s2_98_other",
+            "routing": "document specialty termination/list logic",
+            "constraints": [],
+            "source_blocks": [
+              120,
+              122,
+              123,
+              124,
+              125,
+              126,
+              127
+            ]
+          },
+          {
+            "id": "s2_other",
+            "text": "Other specialty text",
+            "variable": "s2_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": "document",
+            "constraints": [
+              "whole-number percentage"
+            ],
+            "source_blocks": [
+              120,
+              127
+            ]
+          }
+        ],
+        "routing": "S2 codes 1,3,4,6,98 have documented termination/list routing",
+        "source_blocks": [
+          120,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_s3_s6",
+        "text": "S3-S6 practice profile",
+        "section": "Screener",
+        "kind": "single",
+        "items": [
+          {
+            "id": "s3",
+            "text": "Active practice",
+            "variable": "s3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              129,
+              130,
+              131
+            ]
+          },
+          {
+            "id": "s4",
+            "text": "Practice state",
+            "variable": "s4",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 99.0,
+            "other_for": null,
+            "routing": "document",
+            "constraints": [
+              "whole-number years"
+            ],
+            "source_blocks": [
+              133,
+              134
+            ]
+          },
+          {
+            "id": "s5_1",
+            "text": "Direct patient care percent",
+            "variable": "s5_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 10000.0,
+            "other_for": null,
+            "routing": "document",
+            "constraints": [
+              "whole-number patient count"
+            ],
+            "source_blocks": [
+              136,
+              137
+            ]
+          },
+          {
+            "id": "s6_1",
+            "text": "Years practicing",
+            "variable": "s6_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 9999.0,
+            "other_for": null,
+            "routing": "document",
+            "constraints": [
+              "dependent on preceding count"
+            ],
+            "source_blocks": [
+              139,
+              140,
+              141
+            ]
+          }
+        ],
+        "routing": "S3, S4, S5 and S6 contain documented termination rules",
+        "source_blocks": [
+          129,
+          133,
+          136,
+          139
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_s7",
+        "text": "S7 condition counts",
+        "section": "Screener",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "s7_1",
+            "text": "Myocarditis",
+            "variable": "s7_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              149,
+              151
+            ]
+          },
+          {
+            "id": "s7_2",
+            "text": "Pericarditis",
+            "variable": "s7_2",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              152,
+              154,
+              155,
+              156
+            ]
+          },
+          {
+            "id": "s7_3",
+            "text": "Atrial fibrillation",
+            "variable": "s7_3",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              157,
+              159
+            ]
+          },
+          {
+            "id": "s7_4",
+            "text": "Acute heart failure",
+            "variable": "s7_4",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              160,
+              162
+            ]
+          },
+          {
+            "id": "s7_5",
+            "text": "CAPS",
+            "variable": "s7_5",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              163,
+              165
+            ]
+          },
+          {
+            "id": "s7_6",
+            "text": "Still's Disease",
+            "variable": "s7_6",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              166,
+              168
+            ]
+          },
+          {
+            "id": "s7_7",
+            "text": "Rheumatic heart disease",
+            "variable": "s7_7",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "required open text"
+            ],
+            "source_blocks": [
+              144,
+              169,
+              171
+            ]
+          }
+        ],
+        "routing": "S7 counts are required and bounded 0-10000",
+        "source_blocks": [
+          144,
+          149,
+          152,
+          157,
+          160,
+          163,
+          166,
+          169
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_s8_s9",
+        "text": "S8-S9 etiologies",
+        "section": "Screener",
+        "kind": "grid",
+        "items": [
+          {
+            "id": "s8_1",
+            "text": "Recurrent pericarditis",
+            "variable": "s8_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              174,
+              178,
+              180,
+              181,
+              182,
+              183
+            ]
+          },
+          {
+            "id": "s8_2",
+            "text": "Single episode",
+            "variable": "s8_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              174,
+              184,
+              186
+            ]
+          },
+          {
+            "id": "s9_1",
+            "text": "Viral",
+            "variable": "s9_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              191,
+              195,
+              197
+            ]
+          },
+          {
+            "id": "s9_2",
+            "text": "Idiopathic",
+            "variable": "s9_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              191,
+              198,
+              200
+            ]
+          },
+          {
+            "id": "s9_3",
+            "text": "Autoimmune",
+            "variable": "s9_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              191,
+              201,
+              203
+            ]
+          },
+          {
+            "id": "s9_4",
+            "text": "Post-pericardiotomy",
+            "variable": "s9_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              191,
+              204,
+              206
+            ]
+          },
+          {
+            "id": "s9_98",
+            "text": "Other count",
+            "variable": "s9_98",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q110 awareness base controls later grids",
+            "constraints": [],
+            "source_blocks": [
+              191,
+              207,
+              209
+            ]
+          },
+          {
+            "id": "s9_98_other",
+            "text": "Other etiology text",
+            "variable": "s9_98_other",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": "document",
+            "constraints": [
+              "whole-number percentage"
+            ],
+            "source_blocks": [
+              191,
+              207,
+              209
+            ]
+          }
+        ],
+        "routing": "S8 sums to S7_2; S9 sums to S8_1 and contains specialty termination rules",
+        "source_blocks": [
+          174,
+          191
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q105",
+        "text": "Q105 awareness text",
+        "section": "Brand Metrics",
+        "kind": "open_end_set",
+        "items": [
+          {
+            "id": "q105_1",
+            "text": "Therapy 1",
+            "variable": "q105_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_2",
+            "text": "Therapy 2",
+            "variable": "q105_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_3",
+            "text": "Therapy 3",
+            "variable": "q105_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_4",
+            "text": "Therapy 4",
+            "variable": "q105_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_5",
+            "text": "Therapy 5",
+            "variable": "q105_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_6",
+            "text": "Therapy 6",
+            "variable": "q105_6",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_7",
+            "text": "Therapy 7",
+            "variable": "q105_7",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_8",
+            "text": "Therapy 8",
+            "variable": "q105_8",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_9",
+            "text": "Therapy 9",
+            "variable": "q105_9",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          },
+          {
+            "id": "q105_10",
+            "text": "Therapy 10",
+            "variable": "q105_10",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              218,
+              219
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          218,
+          219
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q110_q115",
+        "text": "Q110-Q115 therapy metrics",
+        "section": "Brand Metrics",
+        "kind": "grids",
+        "items": [
+          {
+            "id": "q110_1",
+            "text": "NSAIDs awareness",
+            "variable": "q110_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              222,
+              231,
+              233
+            ]
+          },
+          {
+            "id": "q110_2",
+            "text": "Colchicine awareness",
+            "variable": "q110_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              222,
+              234,
+              236
+            ]
+          },
+          {
+            "id": "q110_3",
+            "text": "Corticosteroids awareness",
+            "variable": "q110_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              222,
+              237,
+              239
+            ]
+          },
+          {
+            "id": "q110_4",
+            "text": "Kineret awareness",
+            "variable": "q110_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              222,
+              240,
+              242
+            ]
+          },
+          {
+            "id": "q110_5",
+            "text": "Arcalyst awareness",
+            "variable": "q110_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              222,
+              243,
+              245
+            ]
+          },
+          {
+            "id": "q115_1",
+            "text": "NSAIDs prescribing",
+            "variable": "q115_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response"
+            ],
+            "source_blocks": [
+              248,
+              255,
+              257
+            ]
+          },
+          {
+            "id": "q115_2",
+            "text": "Colchicine prescribing",
+            "variable": "q115_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response"
+            ],
+            "source_blocks": [
+              248,
+              258,
+              260
+            ]
+          },
+          {
+            "id": "q115_3",
+            "text": "Corticosteroids prescribing",
+            "variable": "q115_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response"
+            ],
+            "source_blocks": [
+              248,
+              261,
+              263
+            ]
+          },
+          {
+            "id": "q115_4",
+            "text": "Kineret prescribing",
+            "variable": "q115_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response"
+            ],
+            "source_blocks": [
+              248,
+              264,
+              266
+            ]
+          },
+          {
+            "id": "q115_5",
+            "text": "Arcalyst prescribing",
+            "variable": "q115_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response"
+            ],
+            "source_blocks": [
+              248,
+              267,
+              269
+            ]
+          }
+        ],
+        "routing": "Q115 shown for therapies aware in Q110",
+        "source_blocks": [
+          222,
+          248
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q120_q125",
+        "text": "Q120-Q125 opinions",
+        "section": "Brand Metrics",
+        "kind": "grids",
+        "items": [
+          {
+            "id": "q120_1",
+            "text": "NSAIDs opinion",
+            "variable": "q120_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              272,
+              285,
+              286
+            ]
+          },
+          {
+            "id": "q120_2",
+            "text": "Colchicine opinion",
+            "variable": "q120_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              272,
+              287,
+              288
+            ]
+          },
+          {
+            "id": "q120_3",
+            "text": "Corticosteroids opinion",
+            "variable": "q120_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              272,
+              289,
+              290
+            ]
+          },
+          {
+            "id": "q120_4",
+            "text": "Kineret opinion",
+            "variable": "q120_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              272,
+              291,
+              292
+            ]
+          },
+          {
+            "id": "q120_5",
+            "text": "Arcalyst opinion",
+            "variable": "q120_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              272,
+              291,
+              292
+            ]
+          },
+          {
+            "id": "q125_1",
+            "text": "NSAIDs preference",
+            "variable": "q125_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              295,
+              308,
+              309
+            ]
+          },
+          {
+            "id": "q125_2",
+            "text": "Colchicine preference",
+            "variable": "q125_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              295,
+              310,
+              311
+            ]
+          },
+          {
+            "id": "q125_3",
+            "text": "Corticosteroids preference",
+            "variable": "q125_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              295,
+              312,
+              313
+            ]
+          },
+          {
+            "id": "q125_4",
+            "text": "Kineret preference",
+            "variable": "q125_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              295,
+              314,
+              315
+            ]
+          },
+          {
+            "id": "q125_5",
+            "text": "Arcalyst preference",
+            "variable": "q125_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q140_98_other",
+            "routing": "Q140 base Q135=5",
+            "constraints": [
+              "other and don't remember are exclusive where applicable"
+            ],
+            "source_blocks": [
+              295,
+              314,
+              315
+            ]
+          }
+        ],
+        "routing": "Displayed for respondents meeting the documented awareness base",
+        "source_blocks": [
+          272,
+          295
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q130",
+        "text": "Q130 attributes",
+        "section": "Brand Metrics",
+        "kind": "multi_grid",
+        "items": [
+          {
+            "id": "q130_1_1",
+            "text": "Rapid symptom resolution: NSAIDs",
+            "variable": "q130_1_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              321,
+              323
+            ]
+          },
+          {
+            "id": "q130_1_2",
+            "text": "Rapid symptom resolution: Colchicine",
+            "variable": "q130_1_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              321,
+              323
+            ]
+          },
+          {
+            "id": "q130_1_3",
+            "text": "Rapid symptom resolution: Corticosteroids",
+            "variable": "q130_1_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              321,
+              323
+            ]
+          },
+          {
+            "id": "q130_1_4",
+            "text": "Rapid symptom resolution: Kineret",
+            "variable": "q130_1_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              321,
+              323
+            ]
+          },
+          {
+            "id": "q130_1_5",
+            "text": "Rapid symptom resolution: Arcalyst",
+            "variable": "q130_1_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              321,
+              323
+            ]
+          },
+          {
+            "id": "q130_1_99",
+            "text": "Rapid symptom resolution: None",
+            "variable": "q130_1_99",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              321,
+              323
+            ]
+          },
+          {
+            "id": "q130_2_1",
+            "text": "Prevention: NSAIDs",
+            "variable": "q130_2_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              324,
+              326
+            ]
+          },
+          {
+            "id": "q130_2_2",
+            "text": "Prevention: Colchicine",
+            "variable": "q130_2_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              324,
+              326
+            ]
+          },
+          {
+            "id": "q130_2_3",
+            "text": "Prevention: Corticosteroids",
+            "variable": "q130_2_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              324,
+              326
+            ]
+          },
+          {
+            "id": "q130_2_4",
+            "text": "Prevention: Kineret",
+            "variable": "q130_2_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              324,
+              326
+            ]
+          },
+          {
+            "id": "q130_2_5",
+            "text": "Prevention: Arcalyst",
+            "variable": "q130_2_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              324,
+              326
+            ]
+          },
+          {
+            "id": "q130_2_99",
+            "text": "Prevention: None",
+            "variable": "q130_2_99",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              324,
+              326
+            ]
+          },
+          {
+            "id": "q130_3_1",
+            "text": "Steroid reduction: NSAIDs",
+            "variable": "q130_3_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              327,
+              329
+            ]
+          },
+          {
+            "id": "q130_3_2",
+            "text": "Steroid reduction: Colchicine",
+            "variable": "q130_3_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              327,
+              329
+            ]
+          },
+          {
+            "id": "q130_3_3",
+            "text": "Steroid reduction: Corticosteroids",
+            "variable": "q130_3_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              327,
+              329
+            ]
+          },
+          {
+            "id": "q130_3_4",
+            "text": "Steroid reduction: Kineret",
+            "variable": "q130_3_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              327,
+              329
+            ]
+          },
+          {
+            "id": "q130_3_5",
+            "text": "Steroid reduction: Arcalyst",
+            "variable": "q130_3_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              327,
+              329
+            ]
+          },
+          {
+            "id": "q130_3_99",
+            "text": "Steroid reduction: None",
+            "variable": "q130_3_99",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              318,
+              327,
+              329
+            ]
+          }
+        ],
+        "routing": "Q130 contains 14 attributes with repeated six-variable binary sets; remaining attribute rows map to the same documented structure and are retained in source_variables",
+        "source_blocks": [
+          318,
+          321,
+          324,
+          327,
+          330,
+          333,
+          336,
+          339,
+          342,
+          345,
+          348,
+          351,
+          354,
+          357,
+          360
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q135_q140",
+        "text": "Q135-Q140 ad recall",
+        "section": "Brand Metrics",
+        "kind": "multi_and_open",
+        "items": [
+          {
+            "id": "q135_1",
+            "text": "NSAIDs ad recall",
+            "variable": "q135_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              364,
+              367
+            ]
+          },
+          {
+            "id": "q135_2",
+            "text": "Colchicine ad recall",
+            "variable": "q135_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              364,
+              368
+            ]
+          },
+          {
+            "id": "q135_3",
+            "text": "Corticosteroids ad recall",
+            "variable": "q135_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              364,
+              369
+            ]
+          },
+          {
+            "id": "q135_4",
+            "text": "Kineret ad recall",
+            "variable": "q135_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              364,
+              370
+            ]
+          },
+          {
+            "id": "q135_5",
+            "text": "Arcalyst ad recall",
+            "variable": "q135_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              364,
+              371
+            ]
+          },
+          {
+            "id": "q135_99",
+            "text": "None ad recall",
+            "variable": "q135_99",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              364,
+              372
+            ]
+          },
+          {
+            "id": "q137",
+            "text": "Arcalyst recall text",
+            "variable": "q137",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              374,
+              376
+            ]
+          },
+          {
+            "id": "q140_1",
+            "text": "Traditional TV",
+            "variable": "q140_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              381
+            ]
+          },
+          {
+            "id": "q140_2",
+            "text": "Streaming",
+            "variable": "q140_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              382
+            ]
+          },
+          {
+            "id": "q140_3",
+            "text": "Arcalyst website",
+            "variable": "q140_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              383
+            ]
+          },
+          {
+            "id": "q140_4",
+            "text": "Search sites",
+            "variable": "q140_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              384
+            ]
+          },
+          {
+            "id": "q140_5",
+            "text": "Online advertising",
+            "variable": "q140_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              385
+            ]
+          },
+          {
+            "id": "q140_6",
+            "text": "Social media",
+            "variable": "q140_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              386
+            ]
+          },
+          {
+            "id": "q140_7",
+            "text": "YouTube",
+            "variable": "q140_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              387
+            ]
+          },
+          {
+            "id": "q140_8",
+            "text": "Manufacturer email",
+            "variable": "q140_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              388
+            ]
+          },
+          {
+            "id": "q140_9",
+            "text": "EHR",
+            "variable": "q140_9",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              389
+            ]
+          },
+          {
+            "id": "q140_10",
+            "text": "Doximity",
+            "variable": "q140_10",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              390
+            ]
+          },
+          {
+            "id": "q140_11",
+            "text": "Healthcasts",
+            "variable": "q140_11",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              391
+            ]
+          },
+          {
+            "id": "q140_98",
+            "text": "Other",
+            "variable": "q140_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              392
+            ]
+          },
+          {
+            "id": "q140_99",
+            "text": "Don't remember",
+            "variable": "q140_99",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              378,
+              393
+            ]
+          },
+          {
+            "id": "q140_98_other",
+            "text": "Other channel text",
+            "variable": "q140_98_other",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q220_98_other",
+            "routing": "Q205=1",
+            "constraints": [],
+            "source_blocks": [
+              378,
+              392
+            ]
+          }
+        ],
+        "routing": "Q137 and Q140 base is Arcalyst ad recall",
+        "source_blocks": [
+          364,
+          374,
+          378
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q205_q255",
+        "text": "Blinded ad recall",
+        "section": "Blinded Ad Recall",
+        "kind": "mixed",
+        "items": [
+          {
+            "id": "q205",
+            "text": "Seen advertisement",
+            "variable": "q205",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              397,
+              399,
+              401,
+              402
+            ]
+          },
+          {
+            "id": "q210",
+            "text": "Therapy or brand text",
+            "variable": "q210",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              405,
+              407
+            ]
+          },
+          {
+            "id": "q220",
+            "text": "Associated therapy",
+            "variable": "q220",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 1.0,
+            "maximum": 99.0,
+            "other_for": null,
+            "routing": "Q205=1",
+            "constraints": [
+              "whole-number count"
+            ],
+            "source_blocks": [
+              409,
+              412,
+              413,
+              414,
+              415,
+              416,
+              417,
+              418
+            ]
+          },
+          {
+            "id": "q220_other",
+            "text": "Other therapy text",
+            "variable": "q220_98_other",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q220_98_other",
+            "routing": "Q205=1",
+            "constraints": [],
+            "source_blocks": [
+              409,
+              417
+            ]
+          },
+          {
+            "id": "q230_1",
+            "text": "Traditional TV",
+            "variable": "q230_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_2",
+            "text": "Streaming",
+            "variable": "q230_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_3",
+            "text": "Arcalyst website",
+            "variable": "q230_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_4",
+            "text": "Search sites",
+            "variable": "q230_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_5",
+            "text": "Online advertising",
+            "variable": "q230_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_6",
+            "text": "Social media",
+            "variable": "q230_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_7",
+            "text": "YouTube",
+            "variable": "q230_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_8",
+            "text": "Manufacturer email",
+            "variable": "q230_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_9",
+            "text": "EHR",
+            "variable": "q230_9",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_10",
+            "text": "Doximity",
+            "variable": "q230_10",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_11",
+            "text": "Healthcasts",
+            "variable": "q230_11",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_98",
+            "text": "Other",
+            "variable": "q230_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_99",
+            "text": "Don't remember",
+            "variable": "q230_99",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q230_other",
+            "text": "Other channel text",
+            "variable": "q230_98_other",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q220_98_other",
+            "routing": "Q205=1",
+            "constraints": [],
+            "source_blocks": [
+              420,
+              421
+            ]
+          },
+          {
+            "id": "q240_1",
+            "text": "Times seen",
+            "variable": "q240_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              424,
+              426
+            ]
+          },
+          {
+            "id": "q245",
+            "text": "Main message text",
+            "variable": "q245",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              428,
+              430
+            ]
+          },
+          {
+            "id": "q250_1",
+            "text": "IL-1 message",
+            "variable": "q250_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              435
+            ]
+          },
+          {
+            "id": "q250_2",
+            "text": "97 percent message",
+            "variable": "q250_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              436
+            ]
+          },
+          {
+            "id": "q250_3",
+            "text": "96 percent message",
+            "variable": "q250_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              437
+            ]
+          },
+          {
+            "id": "q250_4",
+            "text": "Heart's home message",
+            "variable": "q250_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              438
+            ]
+          },
+          {
+            "id": "q250_5",
+            "text": "Heart's home question",
+            "variable": "q250_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              439
+            ]
+          },
+          {
+            "id": "q250_6",
+            "text": "FDA approval message",
+            "variable": "q250_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              440
+            ]
+          },
+          {
+            "id": "q250_7",
+            "text": "Five days message",
+            "variable": "q250_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              441
+            ]
+          },
+          {
+            "id": "q250_8",
+            "text": "Protect heart message",
+            "variable": "q250_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              442
+            ]
+          },
+          {
+            "id": "q250_99",
+            "text": "None message",
+            "variable": "q250_99",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              432,
+              443
+            ]
+          },
+          {
+            "id": "q255_1",
+            "text": "Research action",
+            "variable": "q255_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              448
+            ]
+          },
+          {
+            "id": "q255_2",
+            "text": "Colleague discussion",
+            "variable": "q255_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              449
+            ]
+          },
+          {
+            "id": "q255_3",
+            "text": "Website visit",
+            "variable": "q255_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              450
+            ]
+          },
+          {
+            "id": "q255_4",
+            "text": "Future recommendation",
+            "variable": "q255_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              451
+            ]
+          },
+          {
+            "id": "q255_5",
+            "text": "Started prescribing",
+            "variable": "q255_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              452
+            ]
+          },
+          {
+            "id": "q255_6",
+            "text": "Started discussing",
+            "variable": "q255_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              453
+            ]
+          },
+          {
+            "id": "q255_7",
+            "text": "Webinar",
+            "variable": "q255_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              454
+            ]
+          },
+          {
+            "id": "q255_8",
+            "text": "Manufacturer contact",
+            "variable": "q255_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              455
+            ]
+          },
+          {
+            "id": "q255_98",
+            "text": "Other action",
+            "variable": "q255_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              456
+            ]
+          },
+          {
+            "id": "q255_99",
+            "text": "No action",
+            "variable": "q255_99",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              445,
+              457
+            ]
+          },
+          {
+            "id": "q255_other",
+            "text": "Other action text",
+            "variable": "q255_98_other",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q220_98_other",
+            "routing": "Q205=1",
+            "constraints": [],
+            "source_blocks": [
+              445,
+              456
+            ]
+          }
+        ],
+        "routing": "Q210-Q255 base is Q205=1",
+        "source_blocks": [
+          397,
+          405,
+          409,
+          420,
+          424,
+          428,
+          432,
+          445
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q305_q325",
+        "text": "Ad evaluation",
+        "section": "Ad Evaluation",
+        "kind": "mixed",
+        "items": [
+          {
+            "id": "q305",
+            "text": "Main message",
+            "variable": "q305",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              463,
+              465
+            ]
+          },
+          {
+            "id": "q310",
+            "text": "Overall impression",
+            "variable": "q310",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              468,
+              469,
+              470,
+              471,
+              472,
+              473
+            ]
+          },
+          {
+            "id": "q315",
+            "text": "Likes text",
+            "variable": "q315",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              475,
+              477
+            ]
+          },
+          {
+            "id": "q320",
+            "text": "Dislikes text",
+            "variable": "q320",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "Q115 shown for aware therapies",
+            "constraints": [],
+            "source_blocks": [
+              479,
+              481
+            ]
+          },
+          {
+            "id": "q325_1",
+            "text": "Good feeling",
+            "variable": "q325_1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              493,
+              495
+            ]
+          },
+          {
+            "id": "q325_2",
+            "text": "Unique",
+            "variable": "q325_2",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              497,
+              499
+            ]
+          },
+          {
+            "id": "q325_3",
+            "text": "Informative",
+            "variable": "q325_3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              501,
+              503
+            ]
+          },
+          {
+            "id": "q325_4",
+            "text": "Something new",
+            "variable": "q325_4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              505,
+              507
+            ]
+          },
+          {
+            "id": "q325_5",
+            "text": "Interesting",
+            "variable": "q325_5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              509,
+              511
+            ]
+          },
+          {
+            "id": "q325_11",
+            "text": "Discuss with patients",
+            "variable": "q325_11",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              513,
+              515
+            ]
+          },
+          {
+            "id": "q325_6",
+            "text": "Relevant",
+            "variable": "q325_6",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              516,
+              518
+            ]
+          },
+          {
+            "id": "q325_7",
+            "text": "Seek information",
+            "variable": "q325_7",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              519,
+              521
+            ]
+          },
+          {
+            "id": "q325_8",
+            "text": "Utilize brand",
+            "variable": "q325_8",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              522,
+              524
+            ]
+          },
+          {
+            "id": "q325_9",
+            "text": "Visit website",
+            "variable": "q325_9",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              525,
+              527
+            ]
+          },
+          {
+            "id": "q325_10",
+            "text": "Brand familiarity",
+            "variable": "q325_10",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "one response per grid row"
+            ],
+            "source_blocks": [
+              483,
+              529,
+              530
+            ]
+          }
+        ],
+        "routing": "Q315 shown for Q310=4,5; Q320 shown for Q310=1,2",
+        "source_blocks": [
+          463,
+          468,
+          475,
+          479,
+          483
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_q340_q355",
+        "text": "Post-ad actions",
+        "section": "Ad Evaluation",
+        "kind": "mixed",
+        "items": [
+          {
+            "id": "q340",
+            "text": "Prior exposure",
+            "variable": "q340",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              534,
+              535,
+              536
+            ]
+          },
+          {
+            "id": "q345_1",
+            "text": "Traditional TV",
+            "variable": "q345_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_2",
+            "text": "Streaming",
+            "variable": "q345_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_3",
+            "text": "Arcalyst website",
+            "variable": "q345_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_4",
+            "text": "Search sites",
+            "variable": "q345_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_5",
+            "text": "Online advertising",
+            "variable": "q345_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_6",
+            "text": "Social media",
+            "variable": "q345_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_7",
+            "text": "YouTube",
+            "variable": "q345_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_8",
+            "text": "Manufacturer email",
+            "variable": "q345_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_9",
+            "text": "EHR",
+            "variable": "q345_9",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_10",
+            "text": "Doximity",
+            "variable": "q345_10",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_11",
+            "text": "Healthcasts",
+            "variable": "q345_11",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_98",
+            "text": "Other",
+            "variable": "q345_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_97",
+            "text": "Don't remember",
+            "variable": "q345_97",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "other text required when other selected"
+            ],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q345_other",
+            "text": "Other channel text",
+            "variable": "q345_98_other",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q220_98_other",
+            "routing": "Q205=1",
+            "constraints": [],
+            "source_blocks": [
+              538,
+              539
+            ]
+          },
+          {
+            "id": "q350_1",
+            "text": "Research action",
+            "variable": "q350_1",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              544
+            ]
+          },
+          {
+            "id": "q350_2",
+            "text": "Colleague discussion",
+            "variable": "q350_2",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              545
+            ]
+          },
+          {
+            "id": "q350_3",
+            "text": "Website visit",
+            "variable": "q350_3",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              546
+            ]
+          },
+          {
+            "id": "q350_4",
+            "text": "Future recommendation",
+            "variable": "q350_4",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              547
+            ]
+          },
+          {
+            "id": "q350_5",
+            "text": "Started prescribing",
+            "variable": "q350_5",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              548
+            ]
+          },
+          {
+            "id": "q350_6",
+            "text": "Started discussing",
+            "variable": "q350_6",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              549
+            ]
+          },
+          {
+            "id": "q350_7",
+            "text": "Webinar",
+            "variable": "q350_7",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              550
+            ]
+          },
+          {
+            "id": "q350_8",
+            "text": "Manufacturer contact",
+            "variable": "q350_8",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              551
+            ]
+          },
+          {
+            "id": "q350_98",
+            "text": "Other action",
+            "variable": "q350_98",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              552
+            ]
+          },
+          {
+            "id": "q350_10",
+            "text": "No action",
+            "variable": "q350_10",
+            "required": true,
+            "allowed_codes": [
+              "0",
+              "1"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "binary multi-response",
+              "none is exclusive"
+            ],
+            "source_blocks": [
+              541,
+              553
+            ]
+          },
+          {
+            "id": "q350_other",
+            "text": "Other action text",
+            "variable": "q350_98_other",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "98",
+              "99"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": "q220_98_other",
+            "routing": "Q205=1",
+            "constraints": [],
+            "source_blocks": [
+              541,
+              552
+            ]
+          },
+          {
+            "id": "q355",
+            "text": "Start timeframe",
+            "variable": "q355",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": "q350_5 or q350_6 selected",
+            "constraints": [],
+            "source_blocks": [
+              555,
+              556,
+              557,
+              558,
+              559,
+              560,
+              561
+            ]
+          }
+        ],
+        "routing": "Q345 shown for Q340=1; Q355 shown for Q350=5 or 6",
+        "source_blocks": [
+          534,
+          538,
+          541,
+          555
+        ],
+        "source_kind": "document"
+      },
+      {
+        "id": "g_demographics",
+        "text": "D1-D5 demographics",
+        "section": "Demographics",
+        "kind": "single",
+        "items": [
+          {
+            "id": "d1",
+            "text": "Biological sex",
+            "variable": "d1",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "97"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              564,
+              565,
+              566,
+              567
+            ]
+          },
+          {
+            "id": "d2_1",
+            "text": "Age",
+            "variable": "d2_1",
+            "required": true,
+            "allowed_codes": [],
+            "minimum": 0.0,
+            "maximum": 100.0,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "whole-number age"
+            ],
+            "source_blocks": [
+              569,
+              570
+            ]
+          },
+          {
+            "id": "d3",
+            "text": "Geographic area",
+            "variable": "d3",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2",
+              "3"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              572,
+              573,
+              574,
+              575
+            ]
+          },
+          {
+            "id": "d4",
+            "text": "Clinical setting",
+            "variable": "d4",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [
+              "follow-up interest"
+            ],
+            "source_blocks": [
+              577,
+              578,
+              579,
+              580
+            ]
+          },
+          {
+            "id": "d5",
+            "text": "Follow-up interest",
+            "variable": "d5",
+            "required": true,
+            "allowed_codes": [
+              "1",
+              "2"
+            ],
+            "minimum": null,
+            "maximum": null,
+            "other_for": null,
+            "routing": null,
+            "constraints": [],
+            "source_blocks": [
+              582,
+              583,
+              584,
+              585
+            ]
+          }
+        ],
+        "routing": null,
+        "source_blocks": [
+          564,
+          569,
+          572,
+          577,
+          582
+        ],
+        "source_kind": "document"
+      }
+    ],
+    "blocks": [
+      {
+        "id": "b01_screener",
+        "question_ids": [
+          "g_ae1",
+          "g_s2",
+          "g_s3_s6",
+          "g_s7",
+          "g_s8_s9"
+        ],
+        "source_variables": [
+          "ae1",
+          "s2",
+          "s2_98_other",
+          "s3",
+          "s4",
+          "s5_1",
+          "s6_1",
+          "s7_1",
+          "s7_2",
+          "s7_3",
+          "s7_4",
+          "s7_5",
+          "s7_6",
+          "s7_7",
+          "s8_1",
+          "s8_2",
+          "s9_1",
+          "s9_2",
+          "s9_3",
+          "s9_4",
+          "s9_98",
+          "s9_98_other"
+        ],
+        "checks": [
+          "document-requiredness",
+          "document-coded-ranges",
+          "document-numeric-bounds"
+        ],
+        "provenance": [
+          "document blocks 109-209",
+          "shared_defaults:ordinary_questions_required"
+        ]
+      },
+      {
+        "id": "b02_q105",
+        "question_ids": [
+          "g_q105"
+        ],
+        "source_variables": [
+          "q105_1",
+          "q105_2",
+          "q105_3",
+          "q105_4",
+          "q105_5",
+          "q105_6",
+          "q105_7",
+          "q105_8",
+          "q105_9",
+          "q105_10"
+        ],
+        "checks": [
+          "required first open end"
+        ],
+        "provenance": [
+          "document blocks 218-219"
+        ]
+      },
+      {
+        "id": "b03_q110_q115",
+        "question_ids": [
+          "g_q110_q115"
+        ],
+        "source_variables": [
+          "q110_1",
+          "q110_2",
+          "q110_3",
+          "q110_4",
+          "q110_5",
+          "q115_1",
+          "q115_2",
+          "q115_3",
+          "q115_4",
+          "q115_5"
+        ],
+        "checks": [
+          "Q110 codes 1-4",
+          "Q115 codes 1-3"
+        ],
+        "provenance": [
+          "document blocks 222-269",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b04_q120_q125",
+        "question_ids": [
+          "g_q120_q125"
+        ],
+        "source_variables": [
+          "q120_1",
+          "q120_2",
+          "q120_3",
+          "q120_4",
+          "q120_5",
+          "q125_1",
+          "q125_2",
+          "q125_3",
+          "q125_4",
+          "q125_5"
+        ],
+        "checks": [
+          "Q120/Q125 bounds 1-7"
+        ],
+        "provenance": [
+          "document blocks 272-315",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b05_q130",
+        "question_ids": [
+          "g_q130"
+        ],
+        "source_variables": [
+          "q130_1_1",
+          "q130_1_2",
+          "q130_1_3",
+          "q130_1_4",
+          "q130_1_5",
+          "q130_1_99",
+          "q130_2_1",
+          "q130_2_2",
+          "q130_2_3",
+          "q130_2_4",
+          "q130_2_5",
+          "q130_2_99",
+          "q130_3_1",
+          "q130_3_2",
+          "q130_3_3",
+          "q130_3_4",
+          "q130_3_5",
+          "q130_3_99",
+          "q130_4_1",
+          "q130_4_2",
+          "q130_4_3",
+          "q130_4_4",
+          "q130_4_5",
+          "q130_4_99",
+          "q130_5_1",
+          "q130_5_2",
+          "q130_5_3",
+          "q130_5_4",
+          "q130_5_5",
+          "q130_5_99",
+          "q130_6_1",
+          "q130_6_2",
+          "q130_6_3",
+          "q130_6_4",
+          "q130_6_5",
+          "q130_6_99",
+          "q130_7_1",
+          "q130_7_2",
+          "q130_7_3",
+          "q130_7_4",
+          "q130_7_5",
+          "q130_7_99",
+          "q130_8_1",
+          "q130_8_2",
+          "q130_8_3",
+          "q130_8_4",
+          "q130_8_5",
+          "q130_8_99",
+          "q130_9_1",
+          "q130_9_2",
+          "q130_9_3",
+          "q130_9_4",
+          "q130_9_5",
+          "q130_9_99",
+          "q130_10_1",
+          "q130_10_2",
+          "q130_10_3",
+          "q130_10_4",
+          "q130_10_5",
+          "q130_10_99",
+          "q130_11_1",
+          "q130_11_2",
+          "q130_11_3",
+          "q130_11_4",
+          "q130_11_5",
+          "q130_11_99",
+          "q130_12_1",
+          "q130_12_2",
+          "q130_12_3",
+          "q130_12_4",
+          "q130_12_5",
+          "q130_12_99",
+          "q130_13_1",
+          "q130_13_2",
+          "q130_13_3",
+          "q130_13_4",
+          "q130_13_5",
+          "q130_13_99",
+          "q130_14_1",
+          "q130_14_2",
+          "q130_14_3",
+          "q130_14_4",
+          "q130_14_5",
+          "q130_14_99"
+        ],
+        "checks": [
+          "binary multi-response",
+          "none exclusivity"
+        ],
+        "provenance": [
+          "document blocks 318-360",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b06_q135_q140",
+        "question_ids": [
+          "g_q135_q140"
+        ],
+        "source_variables": [
+          "q135_1",
+          "q135_2",
+          "q135_3",
+          "q135_4",
+          "q135_5",
+          "q135_99",
+          "q137",
+          "q140_1",
+          "q140_2",
+          "q140_3",
+          "q140_4",
+          "q140_5",
+          "q140_6",
+          "q140_7",
+          "q140_8",
+          "q140_9",
+          "q140_10",
+          "q140_11",
+          "q140_98",
+          "q140_99",
+          "q140_98_other"
+        ],
+        "checks": [
+          "binary multi-response",
+          "other text link"
+        ],
+        "provenance": [
+          "document blocks 364-393",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b07_blinded_recall",
+        "question_ids": [
+          "g_q205_q255"
+        ],
+        "source_variables": [
+          "q205",
+          "q210",
+          "q220",
+          "q220_98_other",
+          "q230_1",
+          "q230_2",
+          "q230_3",
+          "q230_4",
+          "q230_5",
+          "q230_6",
+          "q230_7",
+          "q230_8",
+          "q230_9",
+          "q230_10",
+          "q230_11",
+          "q230_98",
+          "q230_99",
+          "q230_98_other",
+          "q240_1",
+          "q245",
+          "q250_1",
+          "q250_2",
+          "q250_3",
+          "q250_4",
+          "q250_5",
+          "q250_6",
+          "q250_7",
+          "q250_8",
+          "q250_99",
+          "q255_1",
+          "q255_2",
+          "q255_3",
+          "q255_4",
+          "q255_5",
+          "q255_6",
+          "q255_7",
+          "q255_8",
+          "q255_98",
+          "q255_99",
+          "q255_98_other"
+        ],
+        "checks": [
+          "coded ranges",
+          "binary multi-response",
+          "other text links"
+        ],
+        "provenance": [
+          "document blocks 397-457",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b08_ad_evaluation",
+        "question_ids": [
+          "g_q305_q325"
+        ],
+        "source_variables": [
+          "q305",
+          "q310",
+          "q315",
+          "q320",
+          "q325_1",
+          "q325_2",
+          "q325_3",
+          "q325_4",
+          "q325_5",
+          "q325_11",
+          "q325_6",
+          "q325_7",
+          "q325_8",
+          "q325_9",
+          "q325_10"
+        ],
+        "checks": [
+          "coded ranges",
+          "grid requiredness",
+          "routing"
+        ],
+        "provenance": [
+          "document blocks 463-532",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b09_ad_recall_followup",
+        "question_ids": [
+          "g_q340_q355"
+        ],
+        "source_variables": [
+          "q340",
+          "q345_1",
+          "q345_2",
+          "q345_3",
+          "q345_4",
+          "q345_5",
+          "q345_6",
+          "q345_7",
+          "q345_8",
+          "q345_9",
+          "q345_10",
+          "q345_11",
+          "q345_98",
+          "q345_97",
+          "q345_98_other",
+          "q350_1",
+          "q350_2",
+          "q350_3",
+          "q350_4",
+          "q350_5",
+          "q350_6",
+          "q350_7",
+          "q350_8",
+          "q350_98",
+          "q350_10",
+          "q350_98_other",
+          "q355"
+        ],
+        "checks": [
+          "coded ranges",
+          "binary multi-response",
+          "routing"
+        ],
+        "provenance": [
+          "document blocks 534-561",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b10_demographics",
+        "question_ids": [
+          "g_demographics"
+        ],
+        "source_variables": [
+          "d1",
+          "d2_1",
+          "d3",
+          "d4",
+          "d5"
+        ],
+        "checks": [
+          "coded ranges",
+          "age bound"
+        ],
+        "provenance": [
+          "document blocks 564-585",
+          "dataset dictionary"
+        ]
+      },
+      {
+        "id": "b11_dictionary_quality",
+        "question_ids": [
+          "g_dictionary_quality"
+        ],
+        "source_variables": [
+          "responseid",
+          "status",
+          "last_touched",
+          "lastcomplete",
+          "screenstatusall_COMPLETE",
+          "screenstatusall_SCREENER_QUIT",
+          "screenstatusall_SURVEY_QUIT",
+          "screenstatusall_PRETEST",
+          "screenstatusall_TEST",
+          "screenstatusall_PMTEST",
+          "screenstatusall_QC",
+          "screenstatusall_CLIENTQC",
+          "screenstatusall_DUPE",
+          "screenstatusall_EXTRACOMP",
+          "screenstatusall_BADDATA",
+          "screenstatusall_COUNTRY",
+          "screenstatusall_NOSCRIPT",
+          "screenstatusall_NOJS",
+          "screenstatusall_NoUserID",
+          "screenstatusall_IP",
+          "screenstatusall_CAPTEST",
+          "screenstatusall_hbot1",
+          "screenstatusall_USERNAME",
+          "screenstatusall_SPECIALTY",
+          "screenstatusall_AE1",
+          "screenstatusall_S2",
+          "screenstatusall_S3",
+          "screenstatusall_S4",
+          "screenstatusall_S5",
+          "screenstatusall_S6",
+          "screenstatusall_S7",
+          "screenstatusall_S8",
+          "screenstatusall_S9",
+          "screenstatusall_VIDEO"
+        ],
+        "checks": [
+          "dictionary schema presence"
+        ],
+        "provenance": [
+          "dataset_dictionary"
+        ]
+      }
+    ],
+    "excluded_variables": [
+      {
+        "variable": "responseid",
+        "reason": "Administrative/dictionary identifier; not a questionnaire response and not the shared respondent ID."
+      },
+      {
+        "variable": "status",
+        "reason": "Framework status field; administrative checks are handled by the application."
+      },
+      {
+        "variable": "last_touched",
+        "reason": "Framework timing metadata."
+      },
+      {
+        "variable": "lastcomplete",
+        "reason": "Framework completion metadata."
+      },
+      {
+        "variable": "l",
+        "reason": "Language framework variable; no questionnaire response rule in supplied source."
+      },
+      {
+        "variable": "qbegintime",
+        "reason": "Framework timing metadata."
+      },
+      {
+        "variable": "survey_key",
+        "reason": "Framework survey metadata."
+      },
+      {
+        "variable": "partner_id",
+        "reason": "Sample/vendor metadata."
+      },
+      {
+        "variable": "ipaddress",
+        "reason": "Personal/technical metadata, not a questionnaire response."
+      },
+      {
+        "variable": "username",
+        "reason": "Sample/vendor metadata."
+      },
+      {
+        "variable": "qsample",
+        "reason": "Sample framework variable; no respondent rule in supplied source."
+      },
+      {
+        "variable": "qsurveytype",
+        "reason": "Survey framework variable."
+      },
+      {
+        "variable": "hdevice",
+        "reason": "Hidden device metadata."
+      },
+      {
+        "variable": "device",
+        "reason": "Hidden device metadata."
+      },
+      {
+        "variable": "useragent",
+        "reason": "Technical metadata."
+      },
+      {
+        "variable": "vendorid",
+        "reason": "Sample/vendor metadata."
+      },
+      {
+        "variable": "qtesting",
+        "reason": "Test framework variable; test-case handling is application-managed."
+      },
+      {
+        "variable": "aid",
+        "reason": "Sample framework variable."
+      },
+      {
+        "variable": "qlist",
+        "reason": "Sample list framework variable used by quota logic, not a respondent question."
+      },
+      {
+        "variable": "gid",
+        "reason": "Sample/vendor framework variable."
+      },
+      {
+        "variable": "hdivision",
+        "reason": "Hidden framework variable."
+      },
+      {
+        "variable": "progdatabase",
+        "reason": "Programming metadata."
+      },
+      {
+        "variable": "primary_specialty",
+        "reason": "Sample/list metadata duplicating specialty routing."
+      },
+      {
+        "variable": "targettype",
+        "reason": "Sample target metadata."
+      },
+      {
+        "variable": "call_in_last_3_months",
+        "reason": "Sample targeting metadata."
+      },
+      {
+        "variable": "call_in_last_6_months",
+        "reason": "Sample targeting metadata."
+      },
+      {
+        "variable": "hlistt",
+        "reason": "Sample/list metadata."
+      },
+      {
+        "variable": "pwc_completes",
+        "reason": "Sample metadata."
+      },
+      {
+        "variable": "hidchange",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "captest",
+        "reason": "CAPTCHA framework field."
+      },
+      {
+        "variable": "qb001",
+        "reason": "CAPTCHA framework field, not a questionnaire response."
+      },
+      {
+        "variable": "qcountry",
+        "reason": "Country routing variable; supplied questionnaire is US-specific and dictionary field is not used as a respondent response check."
+      },
+      {
+        "variable": "qb002",
+        "reason": "CAPTCHA/framework field."
+      },
+      {
+        "variable": "hidspec",
+        "reason": "Hidden quota derivation."
+      },
+      {
+        "variable": "hidquota2",
+        "reason": "Hidden quota derivation."
+      },
+      {
+        "variable": "hidquota2x1",
+        "reason": "Hidden quota derivation."
+      },
+      {
+        "variable": "hidquota3",
+        "reason": "Hidden quota derivation."
+      },
+      {
+        "variable": "hidquota3x1",
+        "reason": "Hidden quota derivation."
+      },
+      {
+        "variable": "qtestvideo",
+        "reason": "Candidate questionnaire field appears in dictionary but no corresponding question is present in the supplied document text."
+      },
+      {
+        "variable": "hvideo_1",
+        "reason": "Hidden video framework field."
+      },
+      {
+        "variable": "hinstrtext_s",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_s3",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_g",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_m",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_m3",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_mg",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_n",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_nl",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_lp",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_gep",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_seh",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sgeh",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sep",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sehc",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sepc",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sehr",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sgehc",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sgehr",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_o",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_rc",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_rd",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_csc",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_css",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_sls",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_slc",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "hinstrtext_ri",
+        "reason": "Instruction text framework field."
+      },
+      {
+        "variable": "surveyloi",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "hidoebatch",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "hiddvbatch",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "screenstatus",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "scrstatus",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "respid",
+        "reason": "Shared respondent identifier and administrative rule handled by application."
+      },
+      {
+        "variable": "user_id",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "interview_start",
+        "reason": "Administrative rule handled by application."
+      },
+      {
+        "variable": "interview_end",
+        "reason": "Administrative rule handled by application."
+      }
+    ],
+    "warnings": [
+      "The dictionary contains additional framework-only variables, question-error variables, product-profile variables, timestamp/interval variables, quota variables, quality flags, and privacy/technical metadata beyond the explicitly listed exclusions. They are not questionnaire responses and are intentionally not given respondent validation groups.",
+      "The document's privacy appendix contains explanatory material and no respondent response fields; it is not represented as a questionnaire group."
+    ]
+  }
+}

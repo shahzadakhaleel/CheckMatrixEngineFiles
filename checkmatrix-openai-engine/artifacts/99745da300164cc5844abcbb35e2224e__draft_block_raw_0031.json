@@ -1,0 +1,10 @@
+{
+  "block_id": "B_Q180",
+  "source_variables": [
+    "q180"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q180.\n!String ask=0 opr== value=0 myvars=q180.",
+  "omission_reason": null,
+  "warnings": []
+}

@@ -1,0 +1,21 @@
+{
+  "block_id": "B_Q140_Q170",
+  "source_variables": [
+    "q140_1",
+    "q140_2",
+    "q140_3",
+    "q140_4",
+    "q140_5",
+    "q140_6",
+    "q140_7",
+    "q140_98",
+    "q140g_98_other",
+    "q150_1",
+    "q160_1",
+    "q170_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!MULTI_B svar=q140_1 evar=q140_98 qnt=Q140 ctr=8.\n!String ask=q140_98 opr=<> value=0 myvars=q140g_98_other.\n!Numeric ask=q150_1 opr=<> value=0 min=0 max=100 myvars=q150_1.\n!Numeric ask=q160_1 opr=<> value=0 min=0 max=100 myvars=q160_1.\n!Numeric ask=q170_1 opr=<> value=0 min=0 max=100 myvars=q170_1.",
+  "omission_reason": null,
+  "warnings": []
+}

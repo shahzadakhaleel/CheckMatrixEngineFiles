@@ -1,0 +1,38 @@
+{
+  "block_id": "b_q340_q355",
+  "source_variables": [
+    "q340",
+    "q345_1",
+    "q345_2",
+    "q345_3",
+    "q345_4",
+    "q345_5",
+    "q345_6",
+    "q345_7",
+    "q345_8",
+    "q345_9",
+    "q345_10",
+    "q345_11",
+    "q345_98",
+    "q345_97",
+    "q345_98_other",
+    "q350_1",
+    "q350_2",
+    "q350_3",
+    "q350_4",
+    "q350_5",
+    "q350_6",
+    "q350_7",
+    "q350_8",
+    "q350_98",
+    "q350_10",
+    "q350_98_other",
+    "q355"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q340-Q355.\ntemporary.\nsel if miss(q340) or ~range(q340,1,2).\nlist respid, q340.\n!MULTI_B_FLT svar=q345_1 evar=q345_97 qnt=Q345 ctr=13 filter=q340.\n!MULTI_B svar=q350_1 evar=q350_10 qnt=Q350 ctr=10.\n!Numeric ask=q350_5 opr== value=1 min=1 max=6 myvars=q355.\n!Numeric ask=q350_6 opr== value=1 min=1 max=6 myvars=q355.\n!String ask=q345_98 opr== value=1 myvars=q345_98_other.\n!String ask=q350_98 opr== value=1 myvars=q350_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "Q345 is based on q340=1 and Q355 is based on q350=5 OR 6. The source marks Q350 option 10 as exclusive; the generic macro call preserves the response set but does not fully enforce exclusivity."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "block_id": "b_q130_1",
+  "source_variables": [
+    "q130_1_1",
+    "q130_1_2",
+    "q130_1_3",
+    "q130_1_4",
+    "q130_1_5",
+    "q130_1_99",
+    "q110_1",
+    "q110_2",
+    "q110_3",
+    "q110_4",
+    "q110_5"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q130 Rapid symptom resolution.\n!MULTI_B_FLT svar=q130_1_1 evar=q130_1_99 qnt=Q130_1 ctr=5 filter=q110_1.",
+  "omission_reason": null,
+  "warnings": [
+    "The source describes Q130 as a matrix with dynamically shown therapy columns. The dictionary variables are physically contiguous for this row, but the filter and NONE exclusivity require analyst confirmation."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "block_id": "B_S40",
+  "source_variables": [
+    "s40_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=s40_1 opr=<> value=0 min=3 max=35 myvars=s40_1.",
+  "omission_reason": null,
+  "warnings": [
+    "S40 source states termination outside 3-35; the generated check uses the documented eligible range."
+  ]
+}

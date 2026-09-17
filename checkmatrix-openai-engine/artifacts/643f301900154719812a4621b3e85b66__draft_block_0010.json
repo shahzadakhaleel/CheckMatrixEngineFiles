@@ -1,0 +1,14 @@
+{
+  "block_id": "b10_demographics",
+  "source_variables": [
+    "d1",
+    "d2_1",
+    "d3",
+    "d4",
+    "d5"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=d1 opr== value=0 min=1 max=97 myvars=d1.\n!Numeric ask=d2_1 opr== value=0 min=0 max=100 myvars=d2_1.\n!Numeric ask=d3 opr== value=0 min=1 max=3 myvars=d3.\n!Numeric ask=d4 opr== value=0 min=1 max=3 myvars=d4.\n!Numeric ask=d5 opr== value=0 min=1 max=2 myvars=d5.",
+  "omission_reason": null,
+  "warnings": []
+}

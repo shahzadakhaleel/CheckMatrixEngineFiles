@@ -1,0 +1,16 @@
+{
+  "block_id": "B_Q210",
+  "source_variables": [
+    "q210x1_1",
+    "q210x2_1",
+    "q210x3_1",
+    "q210x4_1",
+    "q210x5_1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q210.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=q210x1_1 q210x2_1 q210x3_1 q210x4_1 q210x5_1.",
+  "omission_reason": null,
+  "warnings": [
+    "The document displays a total across age columns but the SAV contains one variable per age group; no single total variable exists."
+  ]
+}

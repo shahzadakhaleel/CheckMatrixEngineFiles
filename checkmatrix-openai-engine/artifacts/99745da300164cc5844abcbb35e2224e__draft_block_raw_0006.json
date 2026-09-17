@@ -1,0 +1,12 @@
+{
+  "block_id": "B_S40",
+  "source_variables": [
+    "s40_1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S40.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=s40_1.",
+  "omission_reason": null,
+  "warnings": [
+    "The document says terminate below 3 or above 35 years, while the response field permits 0-100; the draft checks only the explicit field range."
+  ]
+}

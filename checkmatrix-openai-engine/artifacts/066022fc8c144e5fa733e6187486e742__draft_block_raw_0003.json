@@ -1,0 +1,23 @@
+{
+  "block_id": "b_s8_s9",
+  "source_variables": [
+    "s7_2",
+    "s8_1",
+    "s8_2",
+    "s9_1",
+    "s9_2",
+    "s9_3",
+    "s9_4",
+    "s9_98",
+    "s9_98_other"
+  ],
+  "temporary_variables": [
+    "s8flag",
+    "s9sum"
+  ],
+  "spss": "tit S8-S9.\ncompute s8flag=0.\nif miss(s8_1) or ~range(s8_1,0,s7_2) s8flag=1.\nif miss(s8_2) or ~range(s8_2,0,s7_2) s8flag=1.\nif sum(s8_1,s8_2)<>s7_2 s8flag=1.\nexe.\ntemporary.\nsel if s8flag=1.\nlist respid s8flag s7_2 s8_1 s8_2.\ndel var s8flag.\ncompute s9sum=sum(s9_1,s9_2,s9_3,s9_4,s9_98).\ntemporary.\nsel if miss(s9_1) or miss(s9_2) or miss(s9_3) or miss(s9_4) or miss(s9_98) or ~range(s9sum,0,s8_1) or s9sum<>s8_1.\nlist respid s7_2 s8_1 s9_1 s9_2 s9_3 s9_4 s9_98 s9sum.\ndel var s9sum.\nexe.",
+  "omission_reason": null,
+  "warnings": [
+    "The questionnaire requires S9 to sum to S8_1; the supplied dictionary confirms numeric fields but does not encode the specialty-specific termination rules."
+  ]
+}

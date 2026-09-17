@@ -1,0 +1,11 @@
+{
+  "block_id": "B_PRETEST",
+  "source_variables": [
+    "pt10",
+    "pt20"
+  ],
+  "temporary_variables": [],
+  "spss": "tit PRETEST.\n!Numeric ask=0 opr== value=0 min=1 max=2 myvars=pt10 pt20.",
+  "omission_reason": null,
+  "warnings": []
+}

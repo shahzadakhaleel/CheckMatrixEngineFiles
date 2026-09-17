@@ -1,0 +1,15 @@
+{
+  "block_id": "B_Q40",
+  "source_variables": [
+    "q40_1",
+    "q40_2",
+    "q40_3",
+    "q40_4",
+    "q40_98",
+    "q40g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "!MULTI_B svar=q40_1 evar=q40_98 qnt=Q40 ctr=5.\n!String ask=q40_98 opr=<> value=0 myvars=q40g_98_other.",
+  "omission_reason": null,
+  "warnings": []
+}

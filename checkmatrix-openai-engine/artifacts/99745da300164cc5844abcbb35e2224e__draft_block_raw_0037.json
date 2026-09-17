@@ -1,0 +1,26 @@
+{
+  "block_id": "B_Q240",
+  "source_variables": [
+    "q240_1",
+    "q240_2",
+    "q240_3",
+    "q240_4",
+    "q240_5",
+    "q240_6",
+    "q240_7",
+    "q240_8",
+    "q240_9",
+    "q240_10",
+    "q240_11",
+    "q240_12",
+    "q240_13",
+    "q240_98",
+    "q240g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q240.\n!MULTI_A svar=q240_1 evar=q240_98 qnt=Q240 ctr=14.\n!String ask=q240_98 opr== value=1 myvars=q240g_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "The source says up to three selections and makes code 13 exclusive; the approved MULTI_A macro cannot represent this exact rule without an additional supported macro."
+  ]
+}

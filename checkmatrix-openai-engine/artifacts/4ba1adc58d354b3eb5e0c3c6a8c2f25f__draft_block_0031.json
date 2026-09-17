@@ -1,0 +1,12 @@
+{
+  "block_id": "B_HIDTYPE",
+  "source_variables": [
+    "hidtype"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=hidtype opr=<> value=0 min=1 max=2 myvars=hidtype.",
+  "omission_reason": null,
+  "warnings": [
+    "hidtype is dictionary-only; no questionnaire evidence supports requiredness or eligibility restrictions. The check is limited to its supplied schema codes."
+  ]
+}

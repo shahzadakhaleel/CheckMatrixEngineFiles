@@ -1,0 +1,27 @@
+{
+  "block_id": "b_q137_q140",
+  "source_variables": [
+    "q137",
+    "q140_1",
+    "q140_2",
+    "q140_3",
+    "q140_4",
+    "q140_5",
+    "q140_6",
+    "q140_7",
+    "q140_8",
+    "q140_9",
+    "q140_10",
+    "q140_11",
+    "q140_98",
+    "q140_99",
+    "q140_98_other",
+    "q135_5"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q137-Q140.\n!String ask=q135_5 opr=<> value=0 myvars=q137.\n!MULTI_B_FLT svar=q140_1 evar=q140_99 qnt=Q140 ctr=13 filter=q135_5.\n!String ask=q140_98 opr== value=1 myvars=q140_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "The source identifies q135=5 as the base. q140 contains Other and Don't remember; the dictionary does not encode their exclusivity beyond the questionnaire text."
+  ]
+}

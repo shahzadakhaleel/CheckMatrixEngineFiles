@@ -1,0 +1,21 @@
+{
+  "block_id": "B_Q320",
+  "source_variables": [
+    "q320x1_1",
+    "q320x2_1",
+    "q320x3_1",
+    "q320x4_1",
+    "q320x5_1",
+    "q310x1_1",
+    "q310x2_1",
+    "q310x3_1",
+    "q310x4_1",
+    "q310x5_1"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q320.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=q320x1_1 q320x2_1 q320x3_1 q320x4_1 q320x5_1.",
+  "omission_reason": null,
+  "warnings": [
+    "The source describes each answer as a subset of the corresponding Q310 Product X allocation; this dependent upper-bound rule is not generated."
+  ]
+}

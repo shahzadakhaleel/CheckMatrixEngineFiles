@@ -1,0 +1,32 @@
+{
+  "block_id": "b06_q135_q140",
+  "source_variables": [
+    "q135_1",
+    "q135_2",
+    "q135_3",
+    "q135_4",
+    "q135_5",
+    "q135_99",
+    "q137",
+    "q140_1",
+    "q140_2",
+    "q140_3",
+    "q140_4",
+    "q140_5",
+    "q140_6",
+    "q140_7",
+    "q140_8",
+    "q140_9",
+    "q140_10",
+    "q140_11",
+    "q140_98",
+    "q140_99",
+    "q140_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "!MULTI_B svar=q135_1 evar=q135_99 qnt=Q135 ctr=6.\n!String ask=q137 opr=> value=0 myvars=q137.\n!MULTI_B svar=q140_1 evar=q140_99 qnt=Q140 ctr=13.\n!String ask=q140_98 opr== value=1 myvars=q140_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "Q137 requires at least 15 characters, but the supplied macro library does not provide a character-length check."
+  ]
+}

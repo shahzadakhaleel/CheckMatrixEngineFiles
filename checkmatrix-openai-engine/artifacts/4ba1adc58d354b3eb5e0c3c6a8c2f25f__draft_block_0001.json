@@ -1,0 +1,19 @@
+{
+  "block_id": "B_CONSENT",
+  "source_variables": [
+    "consent",
+    "tt_it",
+    "tt_fr",
+    "tt_de",
+    "tt_usuk",
+    "ae_it",
+    "ae_es",
+    "sit",
+    "pt10",
+    "pt20"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=consent opr=<> value=0 min=1 max=2 myvars=consent.\n!Numeric ask=tt_it opr=<> value=0 min=1 max=2 myvars=tt_it.\n!Numeric ask=tt_fr opr=<> value=0 min=1 max=2 myvars=tt_fr.\n!Numeric ask=tt_de opr=<> value=0 min=1 max=2 myvars=tt_de.\n!Numeric ask=tt_usuk opr=<> value=0 min=1 max=3 myvars=tt_usuk.\n!Numeric ask=ae_it opr=<> value=0 min=1 max=3 myvars=ae_it.\n!Numeric ask=ae_es opr=<> value=0 min=1 max=3 myvars=ae_es.\n!Numeric ask=sit opr=<> value=0 min=1 max=2 myvars=sit.\n!Numeric ask=pt10 opr=<> value=0 min=1 max=2 myvars=pt10.\n!Numeric ask=pt20 opr=<> value=0 min=1 max=2 myvars=pt20.",
+  "omission_reason": null,
+  "warnings": []
+}

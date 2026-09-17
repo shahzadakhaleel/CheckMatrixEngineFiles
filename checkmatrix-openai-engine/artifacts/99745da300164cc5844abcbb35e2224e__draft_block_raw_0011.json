@@ -1,0 +1,14 @@
+{
+  "block_id": "B_S85",
+  "source_variables": [
+    "s85_1",
+    "s85_2",
+    "s85_3",
+    "s85_4",
+    "s85_5"
+  ],
+  "temporary_variables": [],
+  "spss": "tit S85.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=s85_1 s85_2 s85_3 s85_4 s85_5.\n!Sum_to_var svar=s85_1 evar=s85_5 qnt=S85 ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": []
+}

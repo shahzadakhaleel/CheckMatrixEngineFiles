@@ -1,0 +1,16 @@
+{
+  "block_id": "B_Q300",
+  "source_variables": [
+    "q300_1",
+    "q300_2",
+    "q300_3",
+    "q300_4",
+    "q300_5"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q300.\n!Numeric ask=0 opr== value=0 min=1 max=5 myvars=q300_1 q300_2 q300_3 q300_4 q300_5.",
+  "omission_reason": null,
+  "warnings": [
+    "The questionnaire introduction inconsistently describes a 1-7 scale, while the supplied SAV labels explicitly contain codes 1-5; the SAV code range is used."
+  ]
+}

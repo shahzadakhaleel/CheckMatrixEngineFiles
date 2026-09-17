@@ -1,0 +1,13 @@
+{
+  "block_id": "B_Q260_Q280",
+  "source_variables": [
+    "q260",
+    "q260_98_other",
+    "q270_1",
+    "q280_1"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q260 opr=<> value=0 min=1 max=99 myvars=q260.\n!String ask=q260 opr=<> value=0 myvars=q260_98_other.\n!Numeric ask=q270_1 opr=<> value=0 min=1 max=11 myvars=q270_1.\n!Numeric ask=q280_1 opr=<> value=0 min=0 max=100 myvars=q280_1.",
+  "omission_reason": null,
+  "warnings": []
+}

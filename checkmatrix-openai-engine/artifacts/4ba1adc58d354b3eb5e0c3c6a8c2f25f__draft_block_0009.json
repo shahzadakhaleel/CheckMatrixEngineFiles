@@ -1,0 +1,22 @@
+{
+  "block_id": "B_S90",
+  "source_variables": [
+    "s90_1",
+    "s90_2",
+    "s90_3",
+    "s90_4",
+    "s90_5",
+    "s90_6",
+    "s90_7",
+    "s90_8",
+    "s90_9",
+    "s90_98",
+    "s90g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "!MULTI_B svar=s90_1 evar=s90_98 qnt=S90 ctr=10.\n!String ask=s90_98 opr=<> value=0 myvars=s90g_98_other.",
+  "omission_reason": null,
+  "warnings": [
+    "S90 source requires at least one of codes 1-7 and rejects codes 8-9; the approved MULTI_B macro checks binary coding and selection consistency but cannot encode the source-specific termination restriction."
+  ]
+}

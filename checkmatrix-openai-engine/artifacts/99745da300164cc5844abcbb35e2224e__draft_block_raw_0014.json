@@ -1,0 +1,18 @@
+{
+  "block_id": "B_Q10",
+  "source_variables": [
+    "q10_1",
+    "q10_2",
+    "q10_3",
+    "q10_4",
+    "q10_98",
+    "q10dk_99",
+    "q10g_98_other"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q10.\n!Numeric ask=0 opr== value=0 min=0 max=100 myvars=q10_1 q10_2 q10_3 q10_4 q10_98.\n!Numeric ask=0 opr== value=0 min=0 max=99 myvars=q10dk_99.\n!String ask=q10_98 opr== value=0 myvars=q10g_98_other.\n!Sum_to_var svar=q10_1 evar=q10_98 qnt=Q10 ctr=100 opr=<>.",
+  "omission_reason": null,
+  "warnings": [
+    "Q10 is documented as US-only and includes an exclusive don't-know option; the draft checks field ranges and the percentage total but does not enforce routing or exclusivity."
+  ]
+}

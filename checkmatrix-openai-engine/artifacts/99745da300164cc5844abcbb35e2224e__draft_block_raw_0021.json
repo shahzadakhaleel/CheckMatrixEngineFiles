@@ -1,0 +1,10 @@
+{
+  "block_id": "B_Q80",
+  "source_variables": [
+    "q80"
+  ],
+  "temporary_variables": [],
+  "spss": "tit Q80.\n!String ask=q70 opr== value=1 myvars=q80.",
+  "omission_reason": null,
+  "warnings": []
+}

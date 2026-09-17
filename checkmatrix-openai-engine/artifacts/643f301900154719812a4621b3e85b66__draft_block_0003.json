@@ -1,0 +1,21 @@
+{
+  "block_id": "b03_q110_q115",
+  "source_variables": [
+    "q110_1",
+    "q110_2",
+    "q110_3",
+    "q110_4",
+    "q110_5",
+    "q115_1",
+    "q115_2",
+    "q115_3",
+    "q115_4",
+    "q115_5"
+  ],
+  "temporary_variables": [],
+  "spss": "!Numeric ask=q110_1 opr== value=0 min=1 max=4 myvars=q110_1 q110_2 q110_3 q110_4 q110_5.\n!Numeric ask=q115_1 opr== value=0 min=1 max=3 myvars=q115_1 q115_2 q115_3 q115_4 q115_5.",
+  "omission_reason": null,
+  "warnings": [
+    "Q115 is conditionally displayed only for therapies aware in Q110; conditional missingness is not reproduced because the shared macro filter requires a separately declared filter variable."
+  ]
+}
